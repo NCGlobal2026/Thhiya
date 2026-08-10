@@ -1,0 +1,2114 @@
+{
+    "name": "Brazil",
+    "code": "BR",
+    "slug": "brazil",
+    "flag": "https://flagcdn.com/w160/br.png",
+    "region": "Americas",
+    "languages": [
+        "Portuguese"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "Hire in Brazil (No Entity)",
+                "subtitle": "CLT Compliance",
+                "description": "Hire employees without a local Ltda. EOR handles the complex 'Custo Brasil' (approx +70-80% on top of salary).",
+                "bestFor": "Market entry.",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "section-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Process",
+                    "subtitle": "15-25 Days",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Medical Exam (ASO)",
+                                "description": "Mandatory admission exam (Atestado de Saúde Ocupacional). Must be done BEFORE the start date."
+                            },
+                            {
+                                "title": "Document Collection",
+                                "description": "CPF, RG, PIS/PASEP number, Proof of Address, Voter Title, Military Certificate (men)."
+                            },
+                            {
+                                "title": "eSocial Registration",
+                                "description": "Employer must register the admission event (S-2200) in the federal system by the day before start date."
+                            },
+                            {
+                                "title": "CTPS Digital",
+                                "description": "Update the employee's Digital Work Card (Carteira de Trabalho Digital) with contract details."
+                            },
+                            {
+                                "title": "Benefits Enrollment",
+                                "description": "Setup Vale Transporte (Transport), Vale Refeição (Meal), and Health Insurance plans."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-eor-employment-types",
+                    "type": "insights",
+                    "title": "Employment Types (CLT)",
+                    "subtitle": "Strictly Regulated",
+                    "description": "",
+                    "order": 2,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "CLT vs. PJ",
+                                "text": "CLT is the standard employment contract. Hiring individuals as 'PJ' (Legal Entity/Contractor) to avoid taxes is illegal if subordination exists ('Pejotização'). Fines are massive."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Probation Period",
+                                "text": "Maximum 90 days. Usually split as 45 + 45 days. Termination costs are lower during this period."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Remote Work (Teletrabalho)",
+                                "text": "Since 2022, specific laws govern remote work. Contracts must specify if the role is 'totally remote' or 'hybrid' to determine benefit obligations."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden",
+                    "subtitle": "Estimated Costs",
+                    "description": "",
+                    "order": 3,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Rate (Approx)",
+                                "Notes"
+                            ],
+                            "rows": [
+                                [
+                                    "INSS (Social Security)",
+                                    "20%",
+                                    "Employer portion on gross salary."
+                                ],
+                                [
+                                    "FGTS (Severance Fund)",
+                                    "8%",
+                                    "Deposited monthly into employee account."
+                                ],
+                                [
+                                    "RAT/FAP (Accident Ins.)",
+                                    "1% - 3%",
+                                    "Variable based on industry risk."
+                                ],
+                                [
+                                    "System S (Training)",
+                                    "5.8%",
+                                    "Contribution to SENAI/SESC etc."
+                                ],
+                                [
+                                    "13th Month Provision",
+                                    "8.33%",
+                                    "Accrued monthly."
+                                ],
+                                [
+                                    "Vacation Provision",
+                                    "11.11%",
+                                    "Salary + 1/3 bonus accrued."
+                                ]
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-eor-faq",
+                    "type": "faq",
+                    "title": "EOR FAQs",
+                    "subtitle": "Common Questions",
+                    "description": "",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I hire contractors indefinitely?",
+                                "answer": "No. If a contractor works full-time, exclusively, and under your direct supervision, Labor Courts will reclassify them as employees."
+                            },
+                            {
+                                "question": "What is the 13th Month Salary?",
+                                "answer": "A mandatory bonus equal to one month's salary, paid in two installments (November and December)."
+                            },
+                            {
+                                "question": "Is notice period paid?",
+                                "answer": "Yes. 'Aviso Prévio' is minimally 30 days, plus 3 days for every year of service, capped at 90 days."
+                            },
+                            {
+                                "question": "What happens if I fire an employee?",
+                                "answer": "Without cause, you pay all accrued rights PLUS a 40% penalty on the total historic FGTS balance."
+                            },
+                            {
+                                "question": "Are background checks legal?",
+                                "answer": "Generally restricted to specific roles (e.g., handling money, security). Criminal checks for standard office jobs can be considered discriminatory."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-eor-resources",
+                    "type": "insights",
+                    "title": "Resources",
+                    "subtitle": "Official Sources",
+                    "description": "",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "link",
+                                "title": "TST (Labor Court)",
+                                "text": "Superior Labor Court rulings and precedents.",
+                                "url": "https://www.tst.jus.br/"
+                            },
+                            {
+                                "type": "link",
+                                "title": "Gov.br - eSocial",
+                                "text": "Official portal for the eSocial reporting system.",
+                                "url": "https://www.gov.br/esocial/pt-br"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-eor-glossary",
+                    "type": "insights",
+                    "title": "Glossary",
+                    "subtitle": "Key Terms",
+                    "description": "",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "CLT",
+                                "text": "Consolidação das Leis do Trabalho - The primary labor law code."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Carteira de Trabalho (CTPS)",
+                                "text": "The official work history document for every Brazilian."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Dissídio",
+                                "text": "Annual salary adjustment negotiated by the Union."
+                            },
+                            {
+                                "type": "info",
+                                "title": "DSR",
+                                "text": "Descanso Semanal Remunerado. A paid rest day (usually Sunday) included in the monthly salary."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-eor-culture",
+                    "type": "insights",
+                    "title": "Business Culture",
+                    "subtitle": "Etiquette",
+                    "description": "",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Personal Relationships",
+                                "text": "Business is personal. Expect small talk (football, family, food) before meetings start. Rushing to business is considered rude."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Flexible Time",
+                                "text": "Punctuality is flexible for social events, but increasingly strict for business meetings in São Paulo. In other regions, 10-15 min delays are normal."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Physical Contact",
+                                "text": "Greetings often involve handshakes with eye contact. In less formal settings, a kiss on the cheek (one or two depending on the state) is common."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-eor-interpersonal",
+                    "type": "insights",
+                    "title": "Business Culture",
+                    "subtitle": "Etiquette",
+                    "description": "",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Personal Relationships",
+                                "text": "Business is personal. Expect small talk (football, family, food) before meetings start. Rushing to business is considered rude."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Flexible Time",
+                                "text": "Punctuality is flexible for social events, but increasingly strict for business meetings in São Paulo. In other regions, 10-15 min delays are normal."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Physical Contact",
+                                "text": "Greetings often involve handshakes with eye contact. In less formal settings, a kiss on the cheek (one or two depending on the state) is common."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-payroll-cycle",
+                    "type": "key_steps",
+                    "title": "Monthly Cycle",
+                    "subtitle": "Critical Dates",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Day 20 (Adiantamento)",
+                                "description": "Optional but common. 40% salary advance paid to employees for the current month."
+                            },
+                            {
+                                "title": "Day 30/31 (Closing)",
+                                "description": "Payroll period closes. Overtime and commissions calculated."
+                            },
+                            {
+                                "title": "Day 5 (Payment)",
+                                "description": "Legal deadline to pay the remaining balance (Salário) is the 5th BUSINESS day of the following month."
+                            },
+                            {
+                                "title": "Day 7 (FGTS)",
+                                "description": "Deadline to deposit 8% FGTS into Caixa Econômica Federal accounts."
+                            },
+                            {
+                                "title": "Day 20 (Taxes)",
+                                "description": "Deadline to pay INSS (DARF Previdenciário) and IRRF (Income Tax Withheld)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-payroll-contributions",
+                    "type": "cost_breakdown",
+                    "title": "Tax Rates (2025)",
+                    "subtitle": "Employee Deductions",
+                    "description": "",
+                    "order": 2,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Salary Range (BRL)",
+                                "INSS Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                [
+                                    "Up to 1,412.00",
+                                    "7.5%",
+                                    "Minimum Wage base."
+                                ],
+                                [
+                                    "1,412.01 to 2,666.68",
+                                    "9%",
+                                    "Progressive calculation."
+                                ],
+                                [
+                                    "2,666.69 to 4,000.03",
+                                    "12%",
+                                    "Progressive calculation."
+                                ],
+                                [
+                                    "4,000.04 to 7,786.02",
+                                    "14%",
+                                    "Capped at this level (Teto do INSS)."
+                                ]
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-payroll-benefits",
+                    "type": "insights",
+                    "title": "Mandatory Benefits",
+                    "subtitle": "Non-Negotiable",
+                    "description": "",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Vale Transporte",
+                                "text": "Employer must cover transport costs exceeding 6% of employee's basic salary."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Vale Refeição/Alimentação",
+                                "text": "Meal vouchers. Not legally mandatory but functionally required to attract talent. Tax-deductible if registered with PAT program."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Vacation Bonus",
+                                "text": "When taking 30 days vacation, employee receives their normal salary PLUS 1/3 extra (Terço de Férias)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-payroll-faq",
+                    "type": "faq",
+                    "title": "Payroll FAQs",
+                    "subtitle": "Expert Answers",
+                    "description": "",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the 13th Salary?",
+                                "answer": "A mandatory extra month of salary. 1st installment (50%) by Nov 30th, 2nd installment (balance) by Dec 20th."
+                            },
+                            {
+                                "question": "Can I pay in USD?",
+                                "answer": "No. Brazilian labor contracts must be denominated and paid in BRL (Real) in a local account."
+                            },
+                            {
+                                "question": "Is overtime mandatory?",
+                                "answer": "Yes. Standard is +50% for weekdays, +100% for Sundays/Holidays. Managers/Directors may be exempt."
+                            },
+                            {
+                                "question": "What is PAT?",
+                                "answer": "Workers' Food Program. Registering meal benefits here exempts them from being considered 'salary' for tax purposes."
+                            },
+                            {
+                                "question": "What is eSocial?",
+                                "answer": "A unified digital reporting system. Payroll data is transmitted directly to the government. Errors trigger automatic fines."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-payroll-resources",
+                    "type": "insights",
+                    "title": "Resources",
+                    "subtitle": "Tools",
+                    "description": "",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "link",
+                                "title": "Receita Federal",
+                                "text": "Tax tables and DARF generation.",
+                                "url": "https://www.gov.br/receitafederal"
+                            },
+                            {
+                                "type": "link",
+                                "title": "Caixa - FGTS",
+                                "text": "Official FGTS guidelines for employers.",
+                                "url": "https://www.caixa.gov.br/empresa/fgts"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-payroll-glossary",
+                    "type": "insights",
+                    "title": "Glossary",
+                    "subtitle": "Payroll Terms",
+                    "description": "",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Holerite",
+                                "text": "Payslip."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Adicional Noturno",
+                                "text": "Night shift bonus (+20%) for work between 10 PM and 5 AM."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Periculosidade",
+                                "text": "Hazard pay (+30%) for dangerous jobs (electricity, security, flammables)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-payroll-checklist",
+                    "type": "key_steps",
+                    "title": "Monthly Checklist",
+                    "subtitle": "Step-by-step",
+                    "description": "",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Step 1: Variables",
+                                "description": "Gather all overtime hours, sales commissions, and absences by the 25th."
+                            },
+                            {
+                                "title": "Step 2: Advance (Vale)",
+                                "description": "If company policy dictates, pay the 'Adiantamento' (40%) on the 15th or 20th."
+                            },
+                            {
+                                "title": "Step 3: Calculate",
+                                "description": "Process the payroll calculation. Apply INSS and IRRF tables. Deduct VT/VR co-participation."
+                            },
+                            {
+                                "title": "Step 4: Transmit",
+                                "description": "Send events S-1200 (Remuneration) and S-1210 (Payments) to eSocial."
+                            },
+                            {
+                                "title": "Step 5: FGTS",
+                                "description": "Generate the FGTS slip (Guias) and pay by the 7th."
+                            },
+                            {
+                                "title": "Step 6: Taxes",
+                                "description": "Generate and pay the DCTFWeb/DARF by the 20th."
+                            },
+                            {
+                                "title": "Step 7: Payslips",
+                                "description": "Distribute Holerites (Payslips) to employees digitally or physically (must be signed/acknowledged)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-calc-brazil-steps",
+                    "type": "key_steps",
+                    "title": "Total Cost Calculation Workflow",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross Salary Definition",
+                                "description": "Determine the monthly base salary in BRL. Remember that CLT workers receive 13.33 salaries per year (12 months + 13th salary + 1/3 vacation bonus)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Mandatory Benefit Selection",
+                                "description": "Add costs for Meal Allowance (VR/VA), Transport Vouchers (VT), and Life Insurance. These vary based on the Collective Bargaining Agreement (CCT)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax & Social Contribution Calculation",
+                                "description": "Calculate Employer FGTS (8%), Social Security contributions (rate depends on tax regime), and provision for severance and vacations."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-calc-rule",
+                    "type": "insights",
+                    "title": "Rule of Thumb",
+                    "subtitle": "Multiplier",
+                    "description": "",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "The 80% Rule",
+                                "text": "For a safe budget, add 70-80% on top of the gross salary to cover taxes, benefits, 13th month, vacation, and severance accruals."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Simples Companies",
+                                "text": "For small companies on 'Simples Nacional', the burden is lower (approx 40% on top of salary)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-calc-faq",
+                    "type": "faq",
+                    "title": "Calculator FAQs",
+                    "subtitle": "Estimates",
+                    "description": "",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Does this include office costs?",
+                                "answer": "No. This multiplier covers only statutory labor costs and mandatory benefits."
+                            },
+                            {
+                                "question": "Is health insurance mandatory?",
+                                "answer": "Not by federal law, but often mandatory by Union Convention (CCT). Check the specific union rules."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-calc-hidden",
+                    "type": "insights",
+                    "title": "Hidden Costs",
+                    "subtitle": "Watch Out",
+                    "description": "",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Union Fees",
+                                "text": "Patronal Union fees are mandatory in January. Employee union fees depend on opposition letters."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Termination Fine",
+                                "text": "Remember the 40% FGTS penalty. It's not a tax, it's a direct cost to the employer upon firing without cause."
+                            },
+                            {
+                                "type": "info",
+                                "title": "VT (Transport)",
+                                "text": "Employer pays everything above 6% of the employee's salary. In big cities with expensive transit, this adds up."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-calc-regional",
+                    "type": "insights",
+                    "title": "Regional Diff",
+                    "subtitle": "Cost of Living",
+                    "description": "",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "São Paulo",
+                                "text": "Benchmark 100%. Highest salaries, highest office costs, highest meal allowance expectations."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "South (Curitiba/Floripa)",
+                                "text": "Approx 85-90% of SP costs. High quality of life, good English."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Northeast (Recife/Salvador)",
+                                "text": "Approx 60-75% of SP costs. Growing tech scene, very competitive rates."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "eor-peo-aor",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR"
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Ltda vs S.A.",
+                "subtitle": "Local Partner Needed",
+                "description": "Ltda (Sociedade Limitada) is most common. Requires a local resident admin (Director) or Power of Attorney holder.",
+                "bestFor": "Long-term presence.",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "section-inc-process",
+                    "type": "key_steps",
+                    "title": "Setup Roadmap",
+                    "subtitle": "30-60 Days",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Step 1: Viability",
+                                "description": "Viabilidade Locacional. Check if the business address permits the specific commercial activity (CNAE)."
+                            },
+                            {
+                                "title": "Step 2: DBBE",
+                                "description": "Documento Básico de Entrada. Filing with the Redesim (Federal Network)."
+                            },
+                            {
+                                "title": "Step 3: Articles (Contrato Social)",
+                                "description": "Drafting and signing the Articles of Association. Foreign partners need apostilled/translated docs."
+                            },
+                            {
+                                "title": "Step 4: Registration (Junta)",
+                                "description": "File with the State Board of Trade (Junta Comercial). Gives you the NIRE number."
+                            },
+                            {
+                                "title": "Step 5: CNPJ",
+                                "description": "Federal Tax ID issuance. Enables bank account opening."
+                            },
+                            {
+                                "title": "Step 6: Inscrição Municipal",
+                                "description": "City registration for Service Tax (ISS) and operating license (Alvará)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-inc-requirements",
+                    "type": "insights",
+                    "title": "Critical Requirements",
+                    "subtitle": "Before You Start",
+                    "description": "",
+                    "order": 2,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Legal Representative",
+                                "text": "You MUST have a resident in Brazil (Brazilian or foreigner with permanent visa) to act as the administrator. They carry personal liability."
+                            },
+                            {
+                                "type": "info",
+                                "title": "UBO Disclosure",
+                                "text": "Ultimate Beneficial Owners (individuals) must be disclosed to the Receita Federal to prevent money laundering."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Virtual Office",
+                                "text": "Accepted for service companies. Mandatory physical address for retail/industrial."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-inc-types",
+                    "type": "insights",
+                    "title": "Entity Types",
+                    "subtitle": "Structures",
+                    "description": "",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Ltda (Limitada)",
+                                "text": "Equivalent to LLC. Simple governance. Liability limited to quota capital. Most common for subsidiaries."
+                            },
+                            {
+                                "type": "info",
+                                "title": "S.A. (Sociedade Anônima)",
+                                "text": "Corporation. More strict publication/audit rules. Required for banking/insurance sectors or pre-IPO."
+                            },
+                            {
+                                "type": "info",
+                                "title": "EIRELI (Defunct)",
+                                "text": "Replaced by SLU (Sociedade Limitada Unipersonal) - Single member LLC."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-inc-faq",
+                    "type": "faq",
+                    "title": "Incorporation FAQs",
+                    "subtitle": "Setup Queries",
+                    "description": "",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Minimum Capital?",
+                                "answer": "None for Ltda (theoretically R$ 1). However, banks prefer R$ 10k-50k for account opening."
+                            },
+                            {
+                                "question": "Can foreigners own 100%?",
+                                "answer": "Yes. A foreign entity can own 99% and a foreign individual 1%, or just one foreign entity (via SLU)."
+                            },
+                            {
+                                "question": "How long to open a bank account?",
+                                "answer": "The hardest part. Top tier banks (Itaú, Bradesco) take 1-3 months for foreign-owned entities. FinTechs (Inter, Nubank PJ) are faster but strict."
+                            },
+                            {
+                                "question": "Do I need a physical office?",
+                                "answer": "For service companies, a 'Fiscal Address' (virtual office) is sufficient. For goods/trade, you need a warehouse/physical location."
+                            },
+                            {
+                                "question": "What is the cost?",
+                                "answer": "Legal fees + Filing fees vary. Budget approx $5k-$10k USD for the full setup including legal representation."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-inc-resources",
+                    "type": "insights",
+                    "title": "Resources",
+                    "subtitle": "official Entities",
+                    "description": "",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "link",
+                                "title": "Redesim",
+                                "text": "National portal for business registration.",
+                                "url": "https://www.gov.br/empresas-e-negocios/pt-br/redesim"
+                            },
+                            {
+                                "type": "link",
+                                "title": "Jucesp (SP)",
+                                "text": "Sao Paulo Board of Trade (Example Bureau).",
+                                "url": "http://www.jucesp.sp.gov.br/"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-inc-glossary",
+                    "type": "insights",
+                    "title": "Glossary",
+                    "subtitle": "Inc Terms",
+                    "description": "",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "CNPJ",
+                                "text": "Cadastro Nacional da Pessoa Jurídica - The Federal Tax ID."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Alvará",
+                                "text": "Municipal Operating License."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Contrato Social",
+                                "text": "Articles of Association/bylaws for a Ltda."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-inc-checklist",
+                    "type": "key_steps",
+                    "title": "Setup Checklist",
+                    "subtitle": "Pre-Launch",
+                    "description": "",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Name Availability",
+                                "description": "Check if your desired company name is available at the Junta Comercial."
+                            },
+                            {
+                                "title": "Address Proof",
+                                "description": "Secure a commercial address and get the IPTU (Property Tax) booklet cover."
+                            },
+                            {
+                                "title": "Articles Draft",
+                                "description": "Lawyer drafts 'Contrato Social'. Define capital, activities, and administration."
+                            },
+                            {
+                                "title": "Translations",
+                                "description": "If foreign partner, sworn translation of foreign bylaws and Power of Attorney."
+                            },
+                            {
+                                "title": "DBBE",
+                                "description": "File the Documento Básico de Entrada via Redesim."
+                            },
+                            {
+                                "title": "Registration",
+                                "description": "Digital signing and filing with the State Board."
+                            },
+                            {
+                                "title": "CNPJ Issuance",
+                                "description": "Automatic upon Junta approval."
+                            },
+                            {
+                                "title": "Municipal Registry",
+                                "description": "Unlock the CCM to issue Service Invoices."
+                            },
+                            {
+                                "title": "Digital Certificate",
+                                "description": "Purchase e-CNPJ A1 certificate for the company."
+                            },
+                            {
+                                "title": "Bank Account",
+                                "description": "Submit all docs to the bank for account opening and FX registration."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-inc-banking",
+                    "type": "insights",
+                    "title": "Banking Landscape",
+                    "subtitle": "Options",
+                    "description": "",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Traditional Banks (Big 5)",
+                                "text": "Itaú, Bradesco, Santander, Banco do Brasil, Caixa. pros: robust, full service. cons: bureaucratic, high fees, slow API."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Digital Banks",
+                                "text": "Nubank PJ, Inter, Cora. pros: free, fast, good APIs. cons: limited for international FX or complex credit."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "FX Registration",
+                                "text": "To receive capital from abroad, you must close an exchange contract (Fechamento de Câmbio). Choose a bank with a good FX desk."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-inc-cert",
+                    "type": "insights",
+                    "title": "Digital Certificates",
+                    "subtitle": "e-CNPJ",
+                    "description": "",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Model A1",
+                                "text": "Digital file valid for 1 year. Installed on computers/servers. Best for automation and SaaS integration."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Model A3",
+                                "text": "Physical token/card valid for 3 years. Harder to use with cloud software as it requires USB connection."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Requirement",
+                                "text": "Mandatory for issuing invoices (NF-e) and accessing eSocial/Conectividade Social."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "incorporation-entity-setup",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)"
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Corporate Tax",
+                "subtitle": "Complex System",
+                "description": "Standard 'Lucro Real' or 'Lucro Presumido'. Taxes include IRPJ, CSLL, PIS, COFINS, ISS.",
+                "bestFor": "Planning.",
+                "icon": "tax"
+            },
+            "sections": [
+                {
+                    "id": "section-tax-overview",
+                    "type": "insights",
+                    "title": "Tax Regimes",
+                    "subtitle": "Choose Wisely",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Lucro Real",
+                                "text": "Actual Profit. Mandatory for revenue > R$ 78m or finance companies. Tax based on audited net profit. PIS/COFINS are non-cumulative (9.25%)."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Lucro Presumido",
+                                "text": "Presumed Profit. For revenue < R$ 78m. Tax base is a presumption of profit (e.g., 32% for services). PIS/COFINS are cumulative (3.65%) but no credits."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Simples Nacional",
+                                "text": "Unified tax for small businesses (Rev < R$ 4.8m). One single monthly slip (DAS)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-tax-rates",
+                    "type": "cost_breakdown",
+                    "title": "Corporate Rates",
+                    "subtitle": "Standard (Lucro Real)",
+                    "description": "",
+                    "order": 2,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Tax",
+                                "Rate",
+                                "Description"
+                            ],
+                            "rows": [
+                                [
+                                    "IRPJ (Income Tax)",
+                                    "15%",
+                                    "Base rate."
+                                ],
+                                [
+                                    "AIR (Surcharge)",
+                                    "10%",
+                                    "On monthly profit > R$ 20k."
+                                ],
+                                [
+                                    "CSLL (Social Contribution)",
+                                    "9%",
+                                    "Social contribution on net profit."
+                                ],
+                                [
+                                    "PIS (Social)",
+                                    "1.65%",
+                                    "Revenue tax (Non-cumulative)."
+                                ],
+                                [
+                                    "COFINS (Social)",
+                                    "7.60%",
+                                    "Revenue tax (Non-cumulative)."
+                                ],
+                                [
+                                    "ISS (Services)",
+                                    "2% - 5%",
+                                    "Municipal tax on services."
+                                ]
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-tax-reform-2025",
+                    "type": "insights",
+                    "title": "2026/2033 Reform",
+                    "subtitle": "VAT Transition",
+                    "description": "",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Dual VAT (IVA Dual)",
+                                "text": "PIS, COFINS, and IPI will merge into CBS (Federal). ICMS and ISS will merge into IBS (Sub-national). Transition begins 2026."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Simplification?",
+                                "text": "Long term yes. Short term (2026-2032) involves running parallel systems. Compliance costs will spike during transition."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-tax-glossary",
+                    "type": "insights",
+                    "title": "Glossary",
+                    "subtitle": "Tax Acronyms",
+                    "description": "",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "DARF",
+                                "text": "Documento de Arrecadação de Receitas Federais - The slip used to pay federal taxes."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Nota Fiscal (NF-e)",
+                                "text": "Electronic invoice. Mandatory validation with the government for every B2B/B2C sale."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Substituição Tributária (ST)",
+                                "text": "Tax Substitution. Manufacturer pays VAT on behalf of the entire supply chain."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-tax-calendar",
+                    "type": "key_steps",
+                    "title": "Fiscal Calendar",
+                    "subtitle": "Deadlines",
+                    "description": "",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Monthly: Day 20",
+                                "description": "PIS, COFINS, and CSLL payments due (for previous month)."
+                            },
+                            {
+                                "title": "Monthly: Day 20",
+                                "description": "Social Security (INSS) payment due."
+                            },
+                            {
+                                "title": "Quarterly",
+                                "description": "IRPJ (Corporate Income Tax) calculation and payment for Lucro Presumido."
+                            },
+                            {
+                                "title": "Annual: May",
+                                "description": "ECD (Digital Accounting) submission deadline."
+                            },
+                            {
+                                "title": "Annual: July",
+                                "description": "ECF (Fiscal Accounting) submission deadline."
+                            },
+                            {
+                                "title": "Annual: Feb",
+                                "description": "DIRF (Withholding Tax Report) - being phased out but still relevant."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-tax-faq",
+                    "type": "faq",
+                    "title": "Tax FAQs",
+                    "subtitle": "Common Questions",
+                    "description": "",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the total tax burden?",
+                                "answer": "Effective corporate tax rate averages around 34% on profits, plus ~10-15% on gross revenue for sales taxes."
+                            },
+                            {
+                                "question": "Are dividends taxed?",
+                                "answer": "Currently NO (0% WHT). However, new legislation constantly proposes taxing dividends at 15%. Check current status."
+                            },
+                            {
+                                "question": "Does Brazil have tax treaties?",
+                                "answer": "Yes, with ~35 countries to avoid double taxation, but NOT with the United States."
+                            },
+                            {
+                                "question": "What is Transfer Pricing?",
+                                "answer": "Brazil recently aligned with OECD standards (2024), moving away from fixed margins to the arm's length principle."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-comp-lgpd",
+                    "type": "insights",
+                    "title": "LGPD Privacy",
+                    "subtitle": "Data Protection",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "DPO (Encarregado)",
+                                "text": "Companies must appoint a Data Protection Officer. Their contact must be public on the site."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Rights",
+                                "text": "Citizens have rights to access, delete, and correct data. Response time is 15 days."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Fines",
+                                "text": "Up to 2% of revenue, capped at R$ 50M per infraction."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-comp-labor",
+                    "type": "key_steps",
+                    "title": "Labor Risks",
+                    "subtitle": "Mitigation",
+                    "description": "",
+                    "order": 2,
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Track Time",
+                                "description": "Strictly track hours. Overtime claims are the #1 lawsuit trigger."
+                            },
+                            {
+                                "title": "Avoid 'Pj'",
+                                "description": "Do not treat contractors like employees. No fixed hours, no direct subordination, no personal exclusivity."
+                            },
+                            {
+                                "title": "Health & Safety",
+                                "description": "Maintain PPRA (Risk Prevention) and PCMSO (Medical Control) programs up to date."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-comp-glossary",
+                    "type": "insights",
+                    "title": "Glossary",
+                    "subtitle": "Legal Terms",
+                    "description": "",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "CIPA",
+                                "text": "Internal Commission for Accident Prevention. Mandatory for larger companies."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Sindicato",
+                                "text": "Labor Union. Every employee belongs to a category union based on the company's main activity."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-comp-faq",
+                    "type": "faq",
+                    "title": "Compliance FAQs",
+                    "subtitle": "Risk Mgmt",
+                    "description": "",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the 'Custo Brasil'?",
+                                "answer": "A term referring to the structural costs of doing business: bureaucracy, complex taxes, infrastructure gaps, and legal risks."
+                            },
+                            {
+                                "question": "Can I fire a pregnant employee?",
+                                "answer": "Absolutely not. They have stability from conception until 5 months after birth."
+                            },
+                            {
+                                "question": "Is arbitration accepted?",
+                                "answer": "Yes, for higher level contracts (remuneration > 2x limit), arbitration clauses are enforceable."
+                            },
+                            {
+                                "question": "Can I work on a tourist visa?",
+                                "answer": "Legally, no. You cannot receive remuneration from a Brazilian source."
+                            },
+                            {
+                                "question": "How long is the process?",
+                                "answer": "Work visas take 30-45 days for approval from the Ministry of Justice."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-comp-checklist",
+                    "type": "key_steps",
+                    "title": "Compliance Check",
+                    "subtitle": "Annual Audit",
+                    "description": "",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "PCMSO / PPRA / LTCAT",
+                                "description": "Verify if all Health & Safety reports are renewed annually."
+                            },
+                            {
+                                "title": "CIPA",
+                                "description": "Check if Internal Accident Prevention Commission election was held (if required)."
+                            },
+                            {
+                                "title": "Union Dues",
+                                "description": "Confirm payment of 'Contribuição Sindical' (if opted in) and 'Assistencial'."
+                            },
+                            {
+                                "title": "FGTS Certificate",
+                                "description": "Pull the CRF (Certificado de Regularidade do FGTS) monthly to ensure good standing."
+                            },
+                            {
+                                "title": "CND Federal",
+                                "description": "Check Certidão Negativa de Débitos regularly to avoid surprises."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-visa-nomad",
+                    "type": "key_steps",
+                    "title": "Digital Nomad Visa",
+                    "subtitle": "RN 45/2021",
+                    "description": "",
+                    "order": 5,
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Eligibility",
+                                "description": "Work for a foreign employer (non-Brazilian). Valid for 1 year, renewable for 1 more."
+                            },
+                            {
+                                "title": "Income Req",
+                                "description": "Proof of income > US$ 1,500/month OR bank funds > US$ 18,000."
+                            },
+                            {
+                                "title": "Application",
+                                "description": "Apply at a Brazilian Consulate abroad or via MigranteWeb if already in Brazil."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-visa-work",
+                    "type": "insights",
+                    "title": "Work Visas (Vitem V)",
+                    "subtitle": "Technical Transfer",
+                    "description": "",
+                    "order": 6,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Sponsorship",
+                                "text": "Requires a Brazilian entity to sponsor. The entity must prove no local candidate was found (Labor Market Test) unless for specialized tech roles."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "RN 13/2017 (Investor)",
+                                "text": "Granting residency for investing R$ 500k (or R$ 150k in innovation) requires a business plan proving job creation."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-visa-steps",
+                    "type": "key_steps",
+                    "title": "Application Steps",
+                    "subtitle": "Process",
+                    "description": "",
+                    "order": 7,
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Step 1: Doc Prep",
+                                "description": "Gather birth certificates, police clearance, and marriage certs. Apostille EVERYTHING in home country."
+                            },
+                            {
+                                "title": "Step 2: RN Check",
+                                "description": "Identify the correct Normative Resolution (RN) for your case (e.g., RN 45 for Nomads)."
+                            },
+                            {
+                                "title": "Step 3: MigranteWeb",
+                                "description": "Upload documents to the Ministry of Justice system (if in Brazil) or submit to Consulate."
+                            },
+                            {
+                                "title": "Step 4: Approval",
+                                "description": "Wait for the DOU (Diário Oficial da União) publication of approval."
+                            },
+                            {
+                                "title": "Step 5: Registration",
+                                "description": "Upon arrival/approval, visit Federal Police within 90 days to release the CRNM (ID Card)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-visa-glossary",
+                    "type": "insights",
+                    "title": "Visa Glossary",
+                    "subtitle": "Terms",
+                    "description": "",
+                    "order": 8,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "CRNM",
+                                "text": "Carteira de Registro Nacional Migratório. The physical ID card for foreigners."
+                            },
+                            {
+                                "type": "info",
+                                "title": "CPF for Foreigners",
+                                "text": "You can (and should) get a CPF even before the visa. Apply at a Brazilian consulate or online."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Overstay Fine",
+                                "text": "Daily fine for overstaying tourist visa. Must be paid before re-entry."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-acc-basics",
+                    "type": "insights",
+                    "title": "Accounting Basics",
+                    "subtitle": "CRC Required",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Mandatory Accountant",
+                                "text": "It is legally impossible to run a company without a registered accountant (CRC) co-signing your filings."
+                            },
+                            {
+                                "type": "info",
+                                "title": "SPED",
+                                "text": "Public Digital Bookkeeping System. Accounting files (ECD, ECF) are digitally signed and transmitted to the Receita."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-acc-faq",
+                    "type": "faq",
+                    "title": "Accounting FAQs",
+                    "subtitle": "Daily Ops",
+                    "description": "",
+                    "order": 2,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is a 'Nota Fiscal'?",
+                                "answer": "An official invoice generated via government software. No payment is valid without it."
+                            },
+                            {
+                                "question": "Can I use Xero/Quickbooks?",
+                                "answer": "Not directly for statutory compliance. You need local software (ContaAzul, Omie) or a bridge to handle Brazilian tax codes."
+                            },
+                            {
+                                "question": "What is the fiscal year?",
+                                "answer": "Starts Jan 1st, ends Dec 31st. Matches the calendar year."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-acc-obligations",
+                    "type": "key_steps",
+                    "title": "Annual Obligations",
+                    "subtitle": "Filings",
+                    "description": "",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "ECF (Fiscal)",
+                                "description": "Escrituração Contábil Fiscal. Replaces the old income tax return. Due in July."
+                            },
+                            {
+                                "title": "ECD (Digital)",
+                                "description": "Escrituração Contábil Digital. The digital version of the Daily Journal and General Ledger. Due in May."
+                            },
+                            {
+                                "title": "DIRF",
+                                "description": "Withholding Income Tax Declaration. Verify all employee and contractor retentions. Due in Feb."
+                            },
+                            {
+                                "title": "DEFIS",
+                                "description": "For 'Simples Nacional' companies only. Simplified annual declaration."
+                            },
+                            {
+                                "title": "RAIS",
+                                "description": "Annual Report of Social Information. Crucial for government labor statistics and 'Abono Salarial' payment."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-acc-glossary",
+                    "type": "insights",
+                    "title": "Tax Glossary",
+                    "subtitle": "Acronyms",
+                    "description": "",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "COFINS",
+                                "text": "Contribution for Social Security Financing. A federal tax on gross revenue."
+                            },
+                            {
+                                "type": "info",
+                                "title": "PIS",
+                                "text": "Social Integration Program. Federal tax on revenue, often paired with COFINS."
+                            },
+                            {
+                                "type": "info",
+                                "title": "ISS",
+                                "text": "Imposto Sobre Serviços. Municipal Service Tax (2% to 5%). Varies by city and service type."
+                            },
+                            {
+                                "type": "info",
+                                "title": "IRPJ",
+                                "text": "Corporate Income Tax. 15% base + 10% surcharge on profits > R$ 20k/month."
+                            },
+                            {
+                                "type": "info",
+                                "title": "CSLL",
+                                "text": "Social Contribution on Net Profit. Usually 9%."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "finance-tax-accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting"
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HR Tech",
+                "subtitle": "Point Control",
+                "description": "Digital time tracking (Ponto Eletrônico) is mandatory for companies with >20 employees.",
+                "bestFor": "Time Tracking.",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "section-hris-ponto",
+                    "type": "insights",
+                    "title": "Time Tracking",
+                    "subtitle": "Legal Req",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Portaria 671",
+                                "text": "Regulates electronic point control (REP). Systems must be certified and tamper-proof."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Apps",
+                                "text": "Mobile punch-in apps are legal (REP-A or REP-P) but must record GPS location."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-hris-faq",
+                    "type": "faq",
+                    "title": "HRIS FAQs",
+                    "subtitle": "Systems",
+                    "description": "",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is Workday/BambooHR compliant?",
+                                "answer": "For data storage, yes. For payroll calculation and taxes, NO. They usually integrate with a local engine (ADP, TMF)."
+                            },
+                            {
+                                "question": "Must I track lunch breaks?",
+                                "answer": "Yes. The system must record the 'Intervalo Intrajornada' (usually 1 hour)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-hris-impl",
+                    "type": "key_steps",
+                    "title": "Implementation",
+                    "subtitle": "Go Live",
+                    "description": "",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Parameterization",
+                                "description": "Configure shifts, overtime rules (50% vs 100%), and grace periods (usually 10 min tolerance)."
+                            },
+                            {
+                                "title": "Employee Sync",
+                                "description": "Import employee data (PIS number is crucial for consistency) from payroll."
+                            },
+                            {
+                                "title": "biometric/App",
+                                "description": "Register biometrics or setup app geo-fencing requirements."
+                            },
+                            {
+                                "title": "Parallel Run",
+                                "description": "Run the new system alongside the old one for 1 month to catch calculation errors."
+                            },
+                            {
+                                "title": "Integration",
+                                "description": "Test the export file (AFD/AFDT) for import into the payroll software (Folha de Pagamento)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-hris-glossary",
+                    "type": "insights",
+                    "title": "HRIS Glossary",
+                    "subtitle": "Systems",
+                    "description": "",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "REP-C",
+                                "text": "Registrador Eletrônico de Ponto Convencional. The traditional wall-mounted biometric clock."
+                            },
+                            {
+                                "type": "info",
+                                "title": "REP-A",
+                                "text": "Alternative Electronic Point Recorder. Authorized by collective bargaining (CCT). Flexible software solutions."
+                            },
+                            {
+                                "type": "info",
+                                "title": "REP-P",
+                                "text": "Program Electronic Point Recorder. Software registered with INPI. The modern standard for SaaS HRIS."
+                            },
+                            {
+                                "title": "Pontomais",
+                                "type": "tip",
+                                "text": "Market leader for digital time tracking. Strong integration ecosystem."
+                            },
+                            {
+                                "title": "Tangerino",
+                                "type": "tip",
+                                "text": "Another strong contender, focus on mobile interactions and facial recognition."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "hris-hrms-ats",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS"
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Tech Recruitment",
+                "subtitle": "LATAM Hub",
+                "description": "Brazil is the largest tech talent pool in LATAM. Strong in Java, Python, and Mobile dev.",
+                "bestFor": "Scaling Tech Teams.",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "section-staffing-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "subtitle": "Where to look",
+                    "description": "",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "São Paulo (SP)",
+                                "text": "The financial capital. Most expensive, but highest concentration of senior talent and English speakers."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Florianópolis (SC)",
+                                "text": "Tech island. High quality of life, strong dev community, slightly lower costs than SP."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Belo Horizonte (MG)",
+                                "text": "Startup hub (San Pedro Valley). Excellent engineering universities (UFMG)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-staffing-culture",
+                    "type": "insights",
+                    "title": "Hiring Culture",
+                    "subtitle": "Expectations",
+                    "description": "",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Speed",
+                                "text": "Good devs get multiple offers. Hiring process should be < 2 weeks."
+                            },
+                            {
+                                "type": "info",
+                                "title": "English",
+                                "text": "English proficiency is low generally (<5%), but in senior tech circles it's common. Verify with a conversational interview."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-staffing-faq",
+                    "type": "faq",
+                    "title": "Staffing FAQs",
+                    "subtitle": "Recruitment",
+                    "description": "",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the typical agency fee?",
+                                "answer": "15-25% of the first year's annual gross salary."
+                            },
+                            {
+                                "question": "Is non-compete enforceable?",
+                                "answer": "Very difficult. Courts favor the 'right to work'. Only enforceable if compensable (paid during the non-compete period) and geographically limited."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-staffing-checklist",
+                    "type": "key_steps",
+                    "title": "Hiring Checklist",
+                    "subtitle": "Steps",
+                    "description": "",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Job Spec",
+                                "description": "Define role and stack. Brazilians value clear descriptions."
+                            },
+                            {
+                                "title": "Sourcing",
+                                "description": "Use LinkedIn (dominant) and local platforms like Gupy."
+                            },
+                            {
+                                "title": "Screening",
+                                "description": "Test English early. Technical test (coding) is standard."
+                            },
+                            {
+                                "title": "Offer",
+                                "description": "Present offer in Gross Monthly Salary (BRL/month), not annual."
+                            },
+                            {
+                                "title": "Onboarding",
+                                "description": "Collect documents (CTPS, ID, Address Proof) for eSocial registration."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-staffing-glossary",
+                    "type": "insights",
+                    "title": "Recruitment Glossary",
+                    "subtitle": "Terms",
+                    "description": "",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "CLT",
+                                "text": "Consolidação das Leis do Trabalho. Full-time employment with all benefits."
+                            },
+                            {
+                                "type": "info",
+                                "title": "PJ",
+                                "text": "Pessoa Jurídica. Contractor arrangement (B2B). Higher risks but higher net pay for seniors."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Pleno",
+                                "text": "Mid-level developer. Usually 3-5 years of experience."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "staffing-recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting"
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Digital Marketing",
+                "subtitle": "Highly Social",
+                "description": "Brazilians are among the world's heaviest social media users (Instagram, WhatsApp, TikTok).",
+                "bestFor": "Growth.",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "section-mkt-channels",
+                    "type": "insights",
+                    "title": "Key Channels",
+                    "subtitle": "Reach",
+                    "description": "",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "WhatsApp",
+                                "text": "Ubiquitous. Used for B2C sales, customer support, and even B2B negotiations."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Instagram",
+                                "text": "Huge for e-commerce and brand validation. Influencer marketing is very mature."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Influencers",
+                                "text": "Micro-influencers often deliver better ROI than massive celebs."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-mkt-brazil-steps",
+                    "type": "key_steps",
+                    "title": "Marketing Strategy Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Regional Audience Mapping",
+                                "description": "Identify target demographics across Brazil's diverse regions (Southeast, South, Northeast). Tailor messaging to local cultural nuances and purchasing power."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Portuguese Content Localization",
+                                "description": "Translate and adapt all marketing materials into Brazilian Portuguese (PT-BR). Ensure tone and vocabulary resonate with the local market."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "WhatsApp Sales Funnel Setup",
+                                "description": "Integrate WhatsApp into the customer journey. Set up automated responses and human-assisted sales flows to capitalize on Brazil's preferred channel."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-mkt-faq",
+                    "type": "faq",
+                    "title": "Marketing FAQs",
+                    "subtitle": "Strategy",
+                    "description": "",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Do I need Portuguese?",
+                                "answer": "Yes. 100%. English content will not convert in the mass market."
+                            },
+                            {
+                                "question": "What is LGPD for marketing?",
+                                "answer": "You need explicit consent (opt-in) for email marketing. Purchasing lists is illegal and risky."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-mkt-culture",
+                    "type": "insights",
+                    "title": "Cultural Marketing",
+                    "subtitle": "Localization",
+                    "description": "",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Humor & Memes",
+                                "text": "Brazilians love humor and memes. Brands that master 'zueira' (playfulness) on Twitter/Insta gain high engagement."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Seasonality",
+                                "text": "Respect Carnival (Feb/Mar) and São João (June). These are massive cultural moments, not just holidays."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Inclusivity",
+                                "text": "Brazil is extremely diverse. Advertising should reflect the pardo, black, and white population mix authentically."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-mkt-glossary",
+                    "type": "insights",
+                    "title": "Marketing Terms",
+                    "subtitle": "Local Lingo",
+                    "description": "",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Tráfego Pago",
+                                "text": "Paid Traffic (Ads). Extremely competitive on FB/Insta/Google."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Lançamento",
+                                "text": "Launch Formula. A specific high-pressure sales funnel strategy very popular in Brazil."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Influenciador",
+                                "text": "Influencer. Brazil has one of the highest trust rates in influencers globally."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "marketing-agency",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY"
+        },
+        {
+            "serviceSlug": "msa",
+            "service": "M & A",
+            "heroData": {
+                "title": "Legal & Contracts",
+                "subtitle": "MSA & Agreements",
+                "description": "Standard Master Service Agreements (MSA) and localized employment contracts for Brazil. Ensuring compliance with CLT (Consolidation of Labor Laws).",
+                "bestFor": "Risk Management.",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "section-msa-brazil-insights",
+                    "type": "insights",
+                    "title": "Contractual Reqs",
+                    "subtitle": "CLT Compliance",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Written Contracts",
+                                "text": "While verbal contracts are valid, written contracts are essential for proving specific terms like confidentiality and non-compete."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "Contracts must be in Portuguese to be legally binding and enforceable in Brazilian courts."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Indemnity",
+                                "text": "Limitation of liability is generally accepted in B2B but strictly scrutinized in consumer/labor contexts."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-msa-brazil-fees",
+                    "type": "cost_breakdown",
+                    "title": "Legal Fees",
+                    "subtitle": "Standard Rates",
+                    "description": "",
+                    "order": 2,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service",
+                                "Estimated Fee (BRL)",
+                                "Timeline"
+                            ],
+                            "rows": [
+                                [
+                                    "MSA Review",
+                                    "R$ 2,500 - 5,000",
+                                    "3-5 Days"
+                                ],
+                                [
+                                    "Employment Draft",
+                                    "R$ 1,500 - 3,000",
+                                    "2-4 Days"
+                                ],
+                                [
+                                    "Monthly Retainer",
+                                    "R$ 3,000+",
+                                    "Ongoing"
+                                ]
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-msa-brazil-faq",
+                    "type": "faq",
+                    "title": "Legal FAQ",
+                    "subtitle": "Common Doubts",
+                    "description": "",
+                    "order": 3,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Are e-signatures valid?",
+                                "answer": "Yes, via ICP-Brasil (standard digital certificate) or platforms like DocuSign/Adobe Sign if agreed by both parties."
+                            },
+                            {
+                                "question": "What is Forum Selection?",
+                                "answer": "Parties can choose a specific city/court for disputes, but labor claims ALWAYS stay in the city where the employee worked."
+                            },
+                            {
+                                "question": "Do I need a local lawyer?",
+                                "answer": "Yes. Only lawyers registered with the OAB (Brazilian Bar) can practice law or sign corporate documents in Brazil."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-msa-brazil-checklist",
+                    "type": "key_steps",
+                    "title": "Contract Checklist",
+                    "subtitle": "Compliance Check",
+                    "description": "",
+                    "order": 4,
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Translations",
+                                "description": "Ensure bilingual format (PT/EN) if needed for HQ management."
+                            },
+                            {
+                                "title": "Notice Periods",
+                                "description": "Verify that notice periods align with CLT minimums (30+ days)."
+                            },
+                            {
+                                "title": "IP Clause",
+                                "description": "Explicitly state that all creations during work hours belong to the employer."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "msa",
+            "name": "M & A",
+            "serviceName": "M & A"
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Localization",
+                "subtitle": "Tropicalization",
+                "description": "Adapting software for Brazil (CPF fields, Boleto payments, Translation).",
+                "bestFor": "Product Launch.",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "section-soft-reqs",
+                    "type": "insights",
+                    "title": "Localization Reqs",
+                    "subtitle": "UX/UI",
+                    "description": "",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "CPF/CNPJ Field",
+                                "text": "Essential. Brazilian forms must validate CPF (11 digits) or CNPJ (14 digits). Verify check digits."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Address Forms",
+                                "text": "Use CEP (Postal Code). Users expect auto-fill of Street, City, State upon entering the 8-digit CEP."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Payment Methods",
+                                "text": "Must support Pix and Boleto. Credit cards often require 'Parcelamento' (Installments) support even for small purchases."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-soft-brazil-steps",
+                    "type": "key_steps",
+                    "title": "Software Localization Roadmap",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Language & Cultural Translation",
+                                "description": "Localize the interface to PT-BR. Adjust for local formats: date (DD/MM/YYYY), currency (R$), and decimal separators (comma for decimals)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Statutory Data Validation",
+                                "description": "Implement algorithms for real-time validation of CPF (individuals) and CNPJ (entities). Failure to validate these leads to high churn and registration issues."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Local Payment Integration",
+                                "description": "Integrate Pix (instant transfer) and Boleto Bancário (cash-friendly bank slips). Without Pix, conversion rates in Brazil drop significantly."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-soft-faq",
+                    "type": "faq",
+                    "title": "Software FAQs",
+                    "subtitle": "Dev Queries",
+                    "description": "",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is WhatsApp integration needed?",
+                                "answer": "Highly recommended. A 'Click to WhatsApp' button converts better than email forms."
+                            },
+                            {
+                                "question": "What about language?",
+                                "answer": "Use PT-BR (Brazilian Portuguese), not PT-PT (European). The difference in vocabulary is significant."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-soft-markets",
+                    "type": "insights",
+                    "title": "E-Commerce",
+                    "subtitle": "Landscape",
+                    "description": "",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Mercado Livre",
+                                "text": "The Amazon of Latin America. Dominant marketplace. Integration is key for retail software."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Pix Payments",
+                                "text": "Instant payments system by Central Bank. Now accounts for massive share of e-commerce txns. Must have 'Copy & Paste' code."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Logistics",
+                                "text": "Shipping is expensive and slow outside capitals. Correios is the default, but private carriers (Loggi) are growing."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-soft-hubs",
+                    "type": "insights",
+                    "title": "Tech Hubs",
+                    "subtitle": "Ecosystems",
+                    "description": "",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "San Pedro Valley",
+                                "text": "Belo Horizonte (MG). Known for high density of startups and exits (Hotmart)."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Porto Digital",
+                                "text": "Recife (PE). A major tech park in the northeast, strong in software outsourcing."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Cubo Itaú",
+                                "text": "São Paulo (SP). Largest innovation hub in LatAm, great for B2B connections."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "software-technology-solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions"
+        }
+    ]
+}

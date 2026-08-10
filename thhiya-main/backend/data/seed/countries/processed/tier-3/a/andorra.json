@@ -1,0 +1,1939 @@
+{
+    "name": "Andorra",
+    "code": "AD",
+    "slug": "andorra",
+    "flag": "https://flagcdn.com/w160/ad.png",
+    "region": "Europe",
+    "languages": [
+        "Catalan"
+    ],
+    "currencies": [
+        "EUR"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR & PEO Services in Andorra",
+                "subtitle": "Hire rapidly in Andorra without a local entity",
+                "description": "Our EOR solution manages Andorran employment compliance, CASS filings, and IRPF tax withholding, enabling you to deploy competitive teams in the Principality.",
+                "bestFor": "Tech startups, financial services, and remote teams entering the market.",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "eor-steps-1",
+                    "type": "key_steps",
+                    "title": "EOR Onboarding Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Requirement Analysis & Quote",
+                                "description": "Define the employee's scope of work, salary in EUR, and duration. The EOR provider calculates the total cost of employment including CASS (Social Security) at 15.5% employer contribution."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Employment Contract Generation",
+                                "description": "Draft a compliant employment contract under Andorran Labor Code 2018 (Codi de Relacions Laborals). Key clauses include working hours (40h/week), trial period (max 2-3 months), and termination notice."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Social Security (CASS) Registration",
+                                "description": "Register the employee with Caixa Andorrana de Seguretat Social (CASS). This requires a medical examination and submission of the 'Alta' form. Coverage begins immediately."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Immigration & Work Permit (If applicable)",
+                                "description": "For non-residents, apply for a Category A (Salaried) residency permit. This requires a quota availability check, police records, and proof of accommodation. Process takes 4-6 weeks."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Payroll Setup & Onboarding",
+                                "description": "Set up monthly payroll in compliance with IRPF (Income Tax) withholdings. Employee completes bank details form for direct deposit into an Andorran or SEPA bank account."
+                            }
+                        ]
+                    },
+                    "subtitle": "Timeline: 2-4 Weeks"
+                },
+                {
+                    "id": "eor-costs-1",
+                    "type": "cost_breakdown",
+                    "title": "EOR Service & Employment Costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Item",
+                                "Cost estimate",
+                                "Frequency"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "EOR Management Fee",
+                                    "values": [
+                                        "€350 - €800",
+                                        "Monthly"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Employer Social Security (CASS)",
+                                    "values": [
+                                        "15.5% of Gross Salary",
+                                        "Monthly"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Employee Social Security (CASS)",
+                                    "values": [
+                                        "6.5% of Gross Salary",
+                                        "Monthly (Deducted)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "One-time Setup Fee",
+                                    "values": [
+                                        "€500 - €1,000",
+                                        "One-time"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Deposit",
+                                    "values": [
+                                        "1 Month Salary",
+                                        "Refundable"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Medical Check-up",
+                                    "values": [
+                                        "€150 approx",
+                                        "Per employee"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Total Employer Burden",
+                                    "values": [
+                                        "Salary + ~16%",
+                                        "Ongoing"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "eor-insights-1",
+                    "type": "insights",
+                    "title": "Compliance & Employment Intelligence",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Probation Periods",
+                                "text": "Under the 2018 Labor Code, probation periods cannot exceed 2 months for non-skilled staff and 3 months for skilled/management roles. Termination during this period requires no indemnity."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Severance Pay",
+                                "text": "Unjustified dismissal entitles the employee to compensation usually calculated as a portion of salary per year worked (typically 12 days per year, capped at 24 months). Economic dismissals have different scales."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Minimum Wage 2025",
+                                "text": "The minimum wage (Salari Mínim Interprofessional) is adjusted annually. For 2025, expect it to be around €1,450/month (estimate based on CPI trends). Ensure all contracts meet this threshold."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Permanent Establishment Risk",
+                                "text": "Using an EOR for sales-generating roles for >12 months may create a PE risk. Andorra is strict on substance requirements for tax residency. Consult with a tax advisor."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Collective Agreements",
+                                "text": "Currently, there are few sector-wide collective bargaining agreements in Andorra compared to Spain or France, giving employers more flexibility."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Remote Work Regulation",
+                                "text": "Specific legislation for 'Tele-treball' exists. Employers must cover costs related to remote equipment and ensure digital disconnection rights."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "eor-gtk-1",
+                    "type": "good_to_know",
+                    "title": "Local Nuances",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Language Requirements",
+                                "text": "While English is common in business, official documents must often be in Catalan. EORs handle the translation of the mandatory written contract."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Working Hours",
+                                "text": "Standard work week is 40 hours. Overtime is paid at a premium or compensated with time off. Daily rest must be at least 12 hours."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Holidays",
+                                "text": "Andorra has ~14 public holidays. Constitution Day (March 14) and Meritxell Day (September 8) are strictly observed national holidays."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "eor-faq-1",
+                    "type": "faq",
+                    "title": "Employer of Record FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I hire remote workers in Andorra without a company?",
+                                "answer": "Yes, using an EOR allows you to hire compliant employees in Andorra without establishing a local SL (Societat Limitada)."
+                            },
+                            {
+                                "question": "How does healthcare work for employees?",
+                                "answer": "Employees registered with CASS are covered for 75% of medical costs (90% for hospitalization). Private supplementary insurance is a common perk."
+                            },
+                            {
+                                "question": "Is a 13th-month salary mandatory?",
+                                "answer": "No, the 13th-month salary is not legally mandated in Andorra, unlike in Spain or Italy, but it can be agreed upon in the employment contract."
+                            },
+                            {
+                                "question": "What is the notice period for resignation?",
+                                "answer": "Employees must give notice based on tenure: typically 12 days notice if employed < 1 year, and up to 1 month for longer tenure."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gp-steps-1",
+                    "type": "key_steps",
+                    "title": "Andorra Payroll Cycle",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Data Aggregation (Pre-Payroll)",
+                                "description": "Collect changes: new hires, terminations, variable pay (commissions), and sick leave (CASS medical notes) by the 20th of the month."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Gross-to-Net Calculation",
+                                "description": "Apply CASS deductions (6.5% employee share) and IRPF (Income Tax) withholdings. IRPF is progressive (0% to 10%)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Review & Approval",
+                                "description": "Generate provisional payroll register. Validate against CASS 'Cotització' reports to ensure social security matches government records."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Payment Execution",
+                                "description": "Disburse net salaries via SEPA transfer. Employees usually receive funds within 24 hours if using Andorran banks (MoraBanc, Creand, Andbank)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Filings & Remittance",
+                                "description": "Remit CASS contributions (Employer + Employee total ~22%) by the 15th of the following month via the CASS online portal."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gp-costs-1",
+                    "type": "cost_breakdown",
+                    "title": "Payroll Processing Fees",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service",
+                                "Typical Fee",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Monthly Processing (Per Slip)",
+                                    "values": [
+                                        "€25 - €60",
+                                        "Volume dependent"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Annual Setup / Implementation",
+                                    "values": [
+                                        "€300 - €600",
+                                        "One-time"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Year-end Reporting (IRPF)",
+                                    "values": [
+                                        "€150",
+                                        "Per employee/year"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "CASS Administration",
+                                    "values": [
+                                        "Included",
+                                        "Usually part of base fee"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Off-cycle Payroll Run",
+                                    "values": [
+                                        "€100",
+                                        "Per run"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Gross-up Calculation",
+                                    "values": [
+                                        "€50",
+                                        "Per calculation"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Total Monthly Minimum",
+                                    "values": [
+                                        "€150 - €250",
+                                        "For small teams"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "gp-insights-1",
+                    "type": "insights",
+                    "title": "Tax & Social Security Nuances",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Employer CASS Rate",
+                                "text": "The employer contributes 15.5% of the gross salary to social security (General Branch: 14.5% + Work Accident Branch 1%)."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Employee CASS Rate",
+                                "text": "The employee contributes 6.5% of the gross salary (General Branch: 5.5% + Pension Branch: 1% is incorrect, typically 3% health / 3.5% pension split). Total 6.5%."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "IRPF Withholdings",
+                                "text": "Personal Income Tax (IRPF) must be withheld for residents. The first €24,000 is exempt. From €24,000 to €40,000 is taxed at 5% (effective). Above €40,000 is taxed at 10%."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Non-Cash Benefits",
+                                "text": "Benefits in Kind (housing, car) are taxable. They must be valued at market price and included in the gross payroll base for CASS and IRPF."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gp-faq-1",
+                    "type": "faq",
+                    "title": "Payroll FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "When are payroll taxes due?",
+                                "answer": "CASS contributions are due monthly by the 15th of the following month. IRPF withholdings are typically settled quarterly or annually depending on volume."
+                            },
+                            {
+                                "question": "How are sick days handled?",
+                                "answer": "For common illness, CASS pays from the 4th day (employer pays nothing days 1-3 unless agreed otherwise). Employer may top up the CASS payment."
+                            },
+                            {
+                                "question": "Is payroll software mandatory?",
+                                "answer": "While not legally mandatory to use specific software, electronic submission to CASS is required, so compatible software is standard."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gp-gtk-1",
+                    "type": "good_to_know",
+                    "title": "Payroll Nuances",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Pay Slips",
+                                "text": "Must be issued monthly. Electronic pay slips are valid if agreed. They must detail CASS deductions clearly."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Overtime Caps",
+                                "text": "Overtime is limited to 2 hours per day, 15 hours per week, and 50 hours per month (unless specific authorization)."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Bank Transfers",
+                                "text": "Andorran banks processed SEPA transfers quickly. Salary payments are usually cleared same-day within the country."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Record Retention",
+                                "text": "Payroll records must be kept for at least 5 years for tax and social security inspection purposes."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "calc-table-1",
+                    "type": "cost_breakdown",
+                    "title": "2025 Income Tax (IRPF) & CASS Model",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Income Bracket (Annual)",
+                                "Tax Rate",
+                                "CASS (Social Security)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "€0 - €24,000",
+                                    "values": [
+                                        "0%",
+                                        "6.5% of Gross"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "€24,001 - €40,000",
+                                    "values": [
+                                        "5%",
+                                        "6.5% of Gross"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Over €40,000",
+                                    "values": [
+                                        "10%",
+                                        "6.5% of Gross"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Allowances",
+                                    "values": [
+                                        "Specificdeductions apply",
+                                        "Family/Mortgage"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "calc-insights-1",
+                    "type": "insights",
+                    "title": "Calculation Logic",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Net Salary Formula",
+                                "text": "Net = Gross - CASS (6.5%) - IRPF (0%/5%/10% on remaining bases)."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "CASS Cap",
+                                "text": "CASS contributions are typically capped at a monthly salary ceiling (approx €4,000 - €5,000, check current median salary multipliers)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "calc-steps-1",
+                    "type": "key_steps",
+                    "title": "How to Estimate",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Determine Gross",
+                                "description": "Start with annual gross salary agreed in contract."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Deduct Social Security",
+                                "description": "Subtract 6.5% for employee share."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Calculate IRPF Base",
+                                "description": "Gross - Social Security = Tax Base."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Apply Tax Bands",
+                                "description": "First €24k: 0%. Next €16k: 5%. Remainder: 10%. Subtract from Base."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Result",
+                                "description": "This is the estimated net annual take-home."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "calc-faq-1",
+                    "type": "faq",
+                    "title": "Calculator FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Do I pay tax on the first €24k?",
+                                "answer": "No, there is a tax-free allowance of €24,000 per year."
+                            },
+                            {
+                                "question": "Does this include bonuses?",
+                                "answer": "Yes, bonuses are part of the taxable income base."
+                            },
+                            {
+                                "question": "Are meal vouchers taxable?",
+                                "answer": "Generally yes, unless strictly for business expenses. Consult an accountant."
+                            },
+                            {
+                                "question": "How is the CASS 'points' system relevant?",
+                                "answer": "Your pension contribution buys 'points'. The value of points determines your future pension, adjusted for inflation."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "calc-gtk-1",
+                    "type": "good_to_know",
+                    "title": "Calculator Notes",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Variation",
+                                "text": "Net salary can vary slightly due to rounding in CASS/IRPF calculations. This calculator provides an informative estimate."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Marital Status",
+                                "text": "Married couples can file jointly which may affect the IRPF threshold (up to €40k exempt for couple)."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Bonus Tax",
+                                "text": "Bonuses are taxed at the marginal rate. If your base is near €40k, a bonus might be fully taxed at 10%."
+                            },
+                            {
+                                "type": "info",
+                                "title": "13th Month",
+                                "text": "If a 13th month is paid, it is treated as regular salary for social security but may push you into higher tax brackets."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Non-Residents",
+                                "text": "Non-fiscal residents (working <183 days) are taxed at flat 10% IRNR (Non-Resident Income Tax) on Andorra-sourced income, not IRPF scale."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Deductions",
+                                "text": "Contributions to Andorran pension plans (3rd pillar) can reduce your taxable base up to certain limits."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Currency",
+                                "text": "All payroll payments must be in Euro (EUR). Exchange rate risks fall on the employer if base salary is negotiated in foreign currency."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Company Incorporation in Andorra",
+                "subtitle": "Form your S.L. in the low-tax Principality",
+                "description": "Navigate the 'Inversió Estrangera' process and establish your Andorran entity with full compliance. We assist with banking, notary, and local parish licensing.",
+                "bestFor": "Digital entrepreneurs, investors, and holding companies.",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "inc-steps-1",
+                    "type": "key_steps",
+                    "title": "Company Formation (SL) Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Name Reservation",
+                                "description": "Apply for 'Reserva de Denominació Social' to government. The name cannot be generic and must be in Catalan (or justifiable). Approx 1 week."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Foreign Investment Application",
+                                "description": "For >10% foreign ownership, apply for 'Autorització d’Inversió Estrangera'. Requires criminal record check and notarized passport copies. Takes 2-4 weeks."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Bank Account Opening & Capital Deposit",
+                                "description": "Open a 'company in formation' bank account. Deposit the minimum share capital (€3,000 for S.L.). Bank compliance is strict and may require face-to-face meetings."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Notary Incorporation",
+                                "description": "Sign the public deed of incorporation (Escriptura de Constitució) before an Andorran Notary. All shareholders must be present or represented by POA."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Commercial Registry & Tax ID (NRT)",
+                                "description": "Register the deed with the Registre de Societats. Obtain the NRT (Numero de Registre Tributari) from the Tax Office (Tributs)."
+                            },
+                            {
+                                "stepNumber": 6,
+                                "title": "Commerce Commencement (Comerç)",
+                                "description": "Apply for the 'Obertura de Comerç' at the local Comú (Parish). This requires a physical office inspection (electric certificate, fire extinguisher)."
+                            }
+                        ]
+                    },
+                    "subtitle": "Total Time: 8-12 Weeks"
+                },
+                {
+                    "id": "inc-costs-1",
+                    "type": "cost_breakdown",
+                    "title": "Setup / Incorporation Fees",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Item",
+                                "Cost (Estimated)",
+                                "Note"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Government Application Fees",
+                                    "values": [
+                                        "€1,017",
+                                        "Investment authorization & Name"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Notary Fees",
+                                    "values": [
+                                        "€600 - €1,200",
+                                        "Based on capital"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Legal / Agency Fees",
+                                    "values": [
+                                        "€2,500 - €5,000",
+                                        "Professional service"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Share Capital",
+                                    "values": [
+                                        "€3,000",
+                                        "Refundable / Locked"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "City Council (Comú) License",
+                                    "values": [
+                                        "€200 - €500",
+                                        "Varies by Parish"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Total Estimated Cost",
+                                    "values": [
+                                        "€6,000 - €9,000",
+                                        "Excluding share capital"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "inc-insights-1",
+                    "type": "insights",
+                    "title": "Entity Structure Strategy",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Societat Limitada (S.L.)",
+                                "text": "Most common for small/medium businesses. Min capital €3,000. Liability limited to capital contribution. 100% foreign ownership allowed."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Societat Anònima (S.A.)",
+                                "text": "For larger corporations. Min capital €60,000. stricter reporting requirements. Suitable for holding structures."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Physical Substance",
+                                "text": "To benefit from the 10% corporate tax and DTA network, the company must have 'substance': a physical office (not a PO box) and at least one part-time administrator/employee."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Bank Compliance",
+                                "text": "Andorran banks are very strict on AML/KYC. Prepare to provide CVs, business plans, and proof of funds origin for all beneficial owners."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Holding Companies",
+                                "text": "Andorra is an excellent jurisdiction for holding companies due to the participation exemption regime for foreign dividends and capital gains."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "inc-gtk-1",
+                    "type": "good_to_know",
+                    "title": "Post-Incorporation Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Annual Maintenance",
+                                "text": "Companies must pay an annual state tax (~€800) and a parish tax (varies). Annual accounts must be filed by July of the following year."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Active Residency",
+                                "text": "Owning >20% of a company allows you to apply for Active Residency (Compte Propi), provided you serve as administrator."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "inc-faq-1",
+                    "type": "faq",
+                    "title": "Incorporation FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I open a bank account remotely?",
+                                "answer": "Generally no. Andorran banks usually require at least one face-to-face meeting with beneficial owners for compliance."
+                            },
+                            {
+                                "question": "Is a local director required?",
+                                "answer": "No, a foreigner can be the sole director (You do not need a local nominee)."
+                            },
+                            {
+                                "question": "How long does the foreign investment permit take?",
+                                "answer": "It typically takes 2-4 weeks, but can extend to 6 weeks if the government requests additional documentation on source of funds."
+                            },
+                            {
+                                "question": "Can I use the company to buy property?",
+                                "answer": "Yes, an Andorran company can own real estate assets in the country."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing & Recruitment in Andorra",
+                "subtitle": "Access specific talent in the Pyrenees",
+                "description": "Specialized recruitment for finance, tech, and tourism. We navigate the unique immigration quota system to bring you top local and international talent.",
+                "bestFor": "Hotels, Banks, and Tech firms scaling local teams.",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "staff-steps-1",
+                    "type": "key_steps",
+                    "title": "Recruitment Lifecycle",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Briefing & Market Mapping",
+                                "description": "Define the role. Andorra's talent pool is small; search often extends to 'frontaliers' (border workers from Spain/France) or remote residents."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Sourcing",
+                                "description": "Utilize local networks, LinkedIn, and specialized databases. Publish on 'Servei d'Ocupació' (Employment Service) if required for work permit justification."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Screening & Interview",
+                                "description": "Evaluate language skills (Catalan is official, Spanish/French widely spoken, English in tourism/tech/finance). Cultural fit assessment."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Offer Negotiation",
+                                "description": "Negotiate net/gross salary. Andorran salaries are competitive due to low tax. Relocation packages are key for bringing in outside talent."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Placement & Onboarding",
+                                "description": "Coordinate work permit application if the candidate is not an Andorran national or resident."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "staff-costs-1",
+                    "type": "cost_breakdown",
+                    "title": "Recruitment Agency Fees",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service Model",
+                                "Fee Structure",
+                                "Guarantee"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Contingency Recruitment",
+                                    "values": [
+                                        "15% - 20% of Annual Gross",
+                                        "Success-based"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Retained Executive Search",
+                                    "values": [
+                                        "20% - 25% of Annual Gross",
+                                        "3 installments"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Temporary Staffing",
+                                    "values": [
+                                        "Cost + 20-30% Margin",
+                                        "Hourly/Daily"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Replacement Guarantee",
+                                    "values": [
+                                        "3 - 6 Months",
+                                        "Free replacement"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "staff-insights-1",
+                    "type": "insights",
+                    "title": "Talent Market Intelligence",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "The 'Frontalier' Workforce",
+                                "text": "Many workers live in La Seu d'Urgell (Spain) and commute daily. Special border worker permits apply. They are tax residents of Spain usually, which impacts their net salary expectation (DTA applies)."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Quota System",
+                                "text": "Immigration quotas for new residents differ by season and sector. There are specific quotas for 'Fall/Winter' (tourism) and general quotas for other sectors."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "High-Demand Skills",
+                                "text": "Strong demand for IT professionals, private banking experts, and multilingual hospitality managers exists. Compensation for senior roles is rising."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "staff-faq-1",
+                    "type": "faq",
+                    "title": "Recruitment FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "How long does it take to hire?",
+                                "answer": "For locals, 2-4 weeks. For foreigners requiring permits, 2-3 months pending immigration clearance."
+                            },
+                            {
+                                "question": "Are background checks legal?",
+                                "answer": "Yes, but they must arguably comply with LQPD. Criminal record checks are mandatory for residency permits anyway."
+                            },
+                            {
+                                "question": "Can I hire temporary staff?",
+                                "answer": "Yes, temporary contracts are allowed but must have a specific justification (e.g., seasonal peak, replacement)."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Solutions for Andorra",
+                "subtitle": "Tech for CASS compliance and workforce management",
+                "description": "Implement HR systems that handle Andorran specificities: CASS exports, local holiday calendars, and compliant time-tracking.",
+                "bestFor": "Modern companies digitizing their HR ops.",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "hris-steps-1",
+                    "type": "key_steps",
+                    "title": "HRIS Implementation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Requirements Gathering",
+                                "description": "Identify needs: CASS reporting integration, Vacation tracking (Credit: 22 working days/30 calendar days), and Multi-language support."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "System Selection",
+                                "description": "Choose between local Andorran providers (customized for CASS) or global platforms (Workday/Bamboo) with custom localization layers."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Data Migration",
+                                "description": "Import employee data: NIR (Nmero Identificació Registral CASS), bank details, and contract history. Ensure LQPD compliance."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Configuration",
+                                "description": "Configure absence types: 'Baixa Mèdica' (Medical Leave), Maternity (16 weeks), Paternity. Set up overtime rules."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hris-insights-1",
+                    "type": "insights",
+                    "title": "HR Tech Landscape",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Local vs Global",
+                                "text": "Global tools often fail to generate the specific .xml or format required for CASS 'Cotització'. Local plugins or middleware are often needed."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Data Sovereignty (LQPD)",
+                                "text": "Andorra is not in the EU but has GDPR-equivalent law (LQPD 29/2021). Data transfer agreements are needed if hosting data on US servers (Standard Contractual Clauses)."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Digital Signature",
+                                "text": "Digital certificates (Certificat Digital) issued by the Government are widely used for signing labor docs and official filings. HRIS should support PDF signing workflows."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hris-costs-1",
+                    "type": "cost_breakdown",
+                    "title": "HRIS System Costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "System Tier",
+                                "Price per User",
+                                "Implementation"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Local Basic HRIS",
+                                    "values": [
+                                        "€3 - €6",
+                                        "Self-setup"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Global HCM Suite",
+                                    "values": [
+                                        "€15 - €30",
+                                        "Consultant needed"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "CASS Connector Plugin",
+                                    "values": [
+                                        "€50 - €100",
+                                        "Monthly flat"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "hris-faq-1",
+                    "type": "faq",
+                    "title": "HRIS FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Do I need local servers?",
+                                "answer": "No, cloud is permitted provided international data transfer rules under LQPD are met."
+                            },
+                            {
+                                "question": "Is electronic payslip legal?",
+                                "answer": "Yes, provided the employee consents and the system ensures integrity and confidentiality."
+                            },
+                            {
+                                "question": "Can I track biometric data?",
+                                "answer": "Yes, but it requires a specific Data Protection Impact Assessment (DPIA) and registration with the APDA."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Services in Andorra",
+                "subtitle": "Expert IGI and Corporate Tax management",
+                "description": "Ensure compliance with the 'Pla General de Comptabilitat of 2018'. We handle IGI returns, annual accounts, and strategic financial planning.",
+                "bestFor": "All registered companies in Andorra.",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "acc-steps-1",
+                    "type": "key_steps",
+                    "title": "Monthly Accounting Routine",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Document Collection",
+                                "description": "Collect invoices. Andorra uses simplified invoicing for amounts under €300. Electronic invoices are becoming standard."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "IGI Reporting (VAT)",
+                                "description": "Prepare 'Declaració IGI'. Standard rate is 4.5%. Filed quarterly (income < €250k), semi-annually, or monthly (large corps)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Asset Depreciation",
+                                "description": "Update fixed asset register. Apply depreciation rates per Andorran accounting plan (Pla General de Comptabilitat)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Annual Accounts (Comptes Anuals)",
+                                "description": "Prepare Balance Sheet, P&L, and Memory. Submit to the Government and deposit in the Registry by July 31st."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "acc-costs-1",
+                    "type": "cost_breakdown",
+                    "title": "Accounting Fees",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service",
+                                "Price Range",
+                                "Frequency"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Bookkeeping (Small Business)",
+                                    "values": [
+                                        "€150 - €300",
+                                        "Monthly"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Bookkeeping (Medium/Active)",
+                                    "values": [
+                                        "€400 - €800",
+                                        "Monthly"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Annual Accounts Preparation",
+                                    "values": [
+                                        "€600 - €1,500",
+                                        "Annual"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Audit (If required)",
+                                    "values": [
+                                        "€2,500+",
+                                        "Annual"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "acc-insights-1",
+                    "type": "insights",
+                    "title": "Financial Reporting Rules",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "IGI (VAT) Rates",
+                                "text": "General: 4.5%. Reduced: 1% (Food/Water). Super Reduced: 0% (Medical/Rent). Financial services: 9.5%."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Audit Thresholds",
+                                "text": "Audits are mandatory if 2 of 3 limits are met: Assets > €3.6M, Turnover > €6M, Employees > 50. Most SMEs are exempt."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Fiscal Year",
+                                "text": "The fiscal year usually aligns with the calendar year (Jan 1 - Dec 31). Changing it requires authorization."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "acc-faq-1",
+                    "type": "faq",
+                    "title": "Accounting FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Do I need a local accountant?",
+                                "answer": "Yes, filings must usually be signed or presented by a registered Andorran accountant or economist."
+                            },
+                            {
+                                "question": "What is the IGI threshold?",
+                                "answer": "Services exports are 0% IGI. Domestic threshold for registration applies (€40,000 services/ €100,000 goods)."
+                            },
+                            {
+                                "question": "Can I keep books in English?",
+                                "answer": "Books 'Libros' must be in Catalan for official inspection, though internal reports can be English."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "acc-gtk-1",
+                    "type": "good_to_know",
+                    "title": "Accounting Best Practices",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Digital Invoicing",
+                                "text": "E-invoicing is encouraged but not yet mandatory for B2B transactions, unlike in Spain (upcoming)."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Cash Payments",
+                                "text": "Cash payments above certain thresholds (checking AML laws) are restricted. Business expenses should always be traceable via bank."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "comp-insights-1",
+                    "type": "insights",
+                    "title": "Regulatory Landscape",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Anti-Money Laundering (AML)",
+                                "text": "Andorra follows strict EU-aligned AML directives (UIFAND). High-value dealers and professionals are 'obligated subjects' and must report suspicious activity."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Data Protection (LQPD)",
+                                "text": "Enforced by APDA (Agència Andorrana de Protecció de Dades). Mandatory Record of Processing Activities (ROPA) for all companies processing data."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Substance Rules",
+                                "text": "To access benefits of low tax and DTAs, 'economic substance' tests are applied. Shell companies are actively discouraged."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "comp-steps-1",
+                    "type": "key_steps",
+                    "title": "Compliance Audit Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gap Analysis",
+                                "description": "Review current policies against LQPD and labor safety laws."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Risk Assessment (Laboral)",
+                                "description": "Mandatory Occupational Risk Assessment (Riscos Laborals) conducted by an external certified firm."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Implementation",
+                                "description": "Update contracts, website privacy policies, and AML manuals."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Training",
+                                "description": "Train staff on data privacy and anti-money laundering protocols."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "comp-costs-1",
+                    "type": "cost_breakdown",
+                    "title": "Compliance Costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Item",
+                                "Cost",
+                                "Frequency"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "GDPR/LQPD Audit",
+                                    "values": [
+                                        "€1,000 - €3,000",
+                                        "One-time"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Occupational Health Audit",
+                                    "values": [
+                                        "€300 - €600",
+                                        "Annual"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "AML Manual Drafting",
+                                    "values": [
+                                        "€1,500+",
+                                        "Per entity"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "comp-faq-1",
+                    "type": "faq",
+                    "title": "Compliance FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Do I need a DPO?",
+                                "answer": "A Data Protection Officer is mandatory for public bodies and companies processing large scale sensitive data."
+                            },
+                            {
+                                "question": "What are the fines?",
+                                "answer": "LQPD fines can reach up to €100,000 for serious infringements."
+                            },
+                            {
+                                "question": "Is whistleblower protection mandatory?",
+                                "answer": "Yes, recent legislation requires companies to have channels for reporting regulatory breaches anonymously."
+                            },
+                            {
+                                "question": "Do I need a Health & Safety delegate?",
+                                "answer": "Companies with fewer than 25 employees can have the owner/manager take this role if properly trained, otherwise an external service is required."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "comp-gtk-1",
+                    "type": "good_to_know",
+                    "title": "Compliance Culture",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Inspections",
+                                "text": "Labor inspections are random but can also be triggered by complaints. Always keep the 'Llibre de Visites' (Visitation Book) available."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Conflict of Interest",
+                                "text": "Directors must declare conflicts of interest in the annual accounts."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Whistleblowing Channel",
+                                "text": "For companies with >50 employees, an internal encrypted channel for reporting breaches is now mandatory (Law 12/2024)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "tax-insights-1",
+                    "type": "insights",
+                    "title": "The Andorran Tax Advantage",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Corporate Tax (IS)",
+                                "text": "Flat rate of 10%. Special 2% rate available for new companies (first €100k profit) for 3 years, subject to hiring staff."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Personal Income Tax (IRPF)",
+                                "text": "Max 10%. Dividends from Andorran entities are 0% for residents. Capital gains on public stocks <25% holding: 0%."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Capital Gains on Real Estate",
+                                "text": "Speculative tax applies: 15% if sold within 1 year, reducing periodically to 0% after 10 years. Designed to prevent property bubbles."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Double Taxation Agreements (DTA)",
+                                "text": "Andorra has DTAs with Spain, France, Portugal, UAE, Netherlands, etc. This prevents double tax on services/royalties."
+                            },
+                            {
+                                "type": "info",
+                                "title": "No Wealth Tax",
+                                "text": "Andorra does not levy a wealth tax, making it attractive for high-net-worth individuals relocating for fiscal residence."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "tax-steps-1",
+                    "type": "key_steps",
+                    "title": "Tax Filing Calendar",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Corporate Tax Installment",
+                                "description": "Advance payment of Corporate Tax (Impost de Societats) due in September (50% of previous year's tax)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Final Corporate Declaration",
+                                "description": "Final IS return due by July 31st of the following year. Pay balance or claim refund."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "IRPF Annual Return",
+                                "description": "Personal Income Tax return filing period: April 1st to September 30th. Must declare worldwide income."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Parish Taxes (Comu)",
+                                "description": "Local taxes on location (Radicació), hygiene, and lighting. Usually paid annually in Q2/Q3."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "tax-costs-1",
+                    "type": "cost_breakdown",
+                    "title": "Tax Advisory Fees",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service",
+                                "Fee",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Standard Personal Tax Return",
+                                    "values": [
+                                        "€100 - €300",
+                                        "Annual"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Complex/Expat Tax Return",
+                                    "values": [
+                                        "€500+",
+                                        "Annual"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Corporate Tax Strategy",
+                                    "values": [
+                                        "€150/hour",
+                                        "Consulting"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "tax-faq-1",
+                    "type": "faq",
+                    "title": "Tax FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is worldwide income taxed?",
+                                "answer": "Yes, residents are taxed on worldwide income, but foreign taxes paid can usually be deducted (Double Tax Relief)."
+                            },
+                            {
+                                "question": "Is there a wealth tax?",
+                                "answer": "No, Andorra does not levy a wealth tax or inheritance tax (for residents)."
+                            },
+                            {
+                                "question": "When do I become a tax resident?",
+                                "answer": "Generally, if you spend >183 days in Andorra or your center of economic/vital interest is here."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "tax-gtk-1",
+                    "type": "good_to_know",
+                    "title": "Tax Optimization",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Patent Box",
+                                "text": "Andorra offers a significant reduction in the tax base for income derived from IP exploitation (Patent Box regime), potentially reducing effective tax rate to 2%."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Holding Regimes",
+                                "text": "Exemption on dividends received from foreign subsidiaries if >5% participation is held and the sub is subject to similar tax (min 40% of Andorra's rate)."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Exit Tax",
+                                "text": "There is currently a discussion in neighboring EU countries about exit taxes, but Andorra itself does not impose an exit tax on individuals leaving."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal & MSA Services",
+                "subtitle": "Robust commercial contracts",
+                "description": "Draft Master Services Agreements (MSA) that protect your IP and define liabilities under Andorran law.",
+                "bestFor": "B2B service providers and agencies.",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "msa-steps-1",
+                    "type": "key_steps",
+                    "title": "Drafting Service Agreements",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Scope Definition",
+                                "description": "Define deliverables clearly. For international service provision, clarify Place of Supply rules for IGI (VAT) purposes."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Clause Drafting",
+                                "description": "Include IP assignment, confidentiality (NDA), and jurisdiction clauses (Andorran Courts or Arbitration)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Review",
+                                "description": "Legal review to ensure no 'false self-employment' risks are created."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Execution",
+                                "description": "Digital signature or wet ink. If used for international payments, banks may request a copy."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "msa-costs-1",
+                    "type": "cost_breakdown",
+                    "title": "Legal Fees",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service",
+                                "Cost",
+                                "Unit"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Contract Drafting (Standard)",
+                                    "values": [
+                                        "€500 - €1,000",
+                                        "Per contract"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Legal Consultation",
+                                    "values": [
+                                        "€150 - €300",
+                                        "Hourly"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Retainer (General Counsel)",
+                                    "values": [
+                                        "€1,000+",
+                                        "Monthly"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "msa-insights-1",
+                    "type": "insights",
+                    "title": "Contract Law Basics",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Freedom of Contract",
+                                "text": "Parties can freely negotiate terms provided they do not violate public order or the law."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Language",
+                                "text": "Contracts can be in any language, but if taken to Andorran court, a sworn translation to Catalan will be required."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Digital Assets",
+                                "text": "Specific clauses for digital asset transfer should be included given the rise of crypto businesses in Andorra."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "msa-faq-1",
+                    "type": "faq",
+                    "title": "Legal FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is electronic signature valid?",
+                                "answer": "Yes, under Law 35/2014 on Electronic Trust Services."
+                            },
+                            {
+                                "question": "Can I use foreign law?",
+                                "answer": "Yes, but Andorran imperative norms (public policy) will still apply."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "msa-gtk-1",
+                    "type": "good_to_know",
+                    "title": "Legal nuances",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Arbitration",
+                                "text": "Andorra has an Arbitration Tribunal (TAPA). Including TAPA clauses in MSAs can speed up dispute resolution compared to Batllia (Civil Court)."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Late Payment Interest",
+                                "text": "Default interest rules apply to commercial debts. Ensure payment terms are clearly defined (e.g., Net 30) to avoid statutory interest claims."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Solutions",
+                "subtitle": "Leverage the digital economy",
+                "description": "Custom software development and IT consulting in the Pyrenees.",
+                "bestFor": "Tech startups and modernization projects.",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "soft-insights-1",
+                    "type": "insights",
+                    "title": "Andorra Tech Ecosystem",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Digital Nomad Hub",
+                                "text": "Growing community of developers and digital entrepreneurs attracted by the 'Digital Nomad' residency visa (since 2024)."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Connectivity",
+                                "text": "Andorra boasts 100% fiber optic coverage across the country, one of the first nations to achieve this."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Talent Pool",
+                                "text": "Local pool is small. Most software projects rely on hybrid teams: core management in Andorra, dev teams remote."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "soft-steps-1",
+                    "type": "key_steps",
+                    "title": "Software Development Lifecycle",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Discovery",
+                                "description": "Define product roadmap. Validate tax credits for R&D (if applicable)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Development",
+                                "description": "Agile sprints. Use of Jira/Linear. IP rights must be assigned to the Andorran entity."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Deployment",
+                                "description": "Hosting solutions. Note: No major AWS region in Andorra, usually use Paris or Frankfurt regions."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "soft-costs-1",
+                    "type": "cost_breakdown",
+                    "title": "Development Costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Profile",
+                                "Hourly Rate",
+                                "Availability"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Junior Developer (Local)",
+                                    "values": [
+                                        "€30 - €50",
+                                        "Limited"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Senior Developer (Remote)",
+                                    "values": [
+                                        "€60 - €100",
+                                        "High"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Agency Blended Rate",
+                                    "values": [
+                                        "€70 - €120",
+                                        "Team"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "soft-faq-1",
+                    "type": "faq",
+                    "title": "Tech FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is there tech talent in Andorra?",
+                                "answer": "The pool is small but growing. Many companies hire remote talent from Spain/France."
+                            },
+                            {
+                                "question": "Are there tax incentives for R&D?",
+                                "answer": "Yes, specific deductions for innovation exist within Corporate Tax law."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "soft-gtk-1",
+                    "type": "good_to_know",
+                    "title": "Tech Ecosystem Details",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Events",
+                                "text": "Andorra hosts the 'Andorra Business Market' and various blockchain summits. Networking is intimate but high-level."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "University Collaboration",
+                                "text": "The University of Andorra (UdA) has a growing computer science department. Internship programs are a good way to find junior local talent."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Software Localization",
+                                "text": "Remember that while apps can be in English, if you sell B2C in Andorra, consumer law requires key terms to be available in Catalan upon request."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Agencies",
+                "subtitle": "Reach local and global audiences",
+                "description": "Digital marketing strategies tailored for Andorran and European markets.",
+                "bestFor": "E-commerce and local service businesses.",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "mark-insights-1",
+                    "type": "insights",
+                    "title": "Marketing Checks",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "Campaigns targeting locals should be in Catalan. For tourists/residents, Spanish, French, and English are key."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Data Privacy",
+                                "text": "Marketing emails require explicit opt-in (GDPR/LQPD standard). Cold emailing is restricted."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Youtuber Hub",
+                                "text": "High concentration of influencers/content creators in Andorra makes it a unique hub for Influencer Marketing collaborations."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mark-costs-1",
+                    "type": "cost_breakdown",
+                    "title": "Agency Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service",
+                                "Rates",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "SEO / SEM Monthly",
+                                    "values": [
+                                        "€500 - €2,000",
+                                        "Retainer"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Social Media Management",
+                                    "values": [
+                                        "€600 - €1,500",
+                                        "Monthly"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Content Creation",
+                                    "values": [
+                                        "€50 - €100",
+                                        "Per hour"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "mark-steps-1",
+                    "type": "key_steps",
+                    "title": "Campaign Launch Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Audience Definition",
+                                "description": "Identify target segment. Tourists stats are high (8M visitors/year), residents are 80k."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Channel Selection",
+                                "description": "Instagram/TikTok are dominant for B2C. LinkedIn for B2B financial services."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Localization",
+                                "description": "Adapt content to Catalan (official) but also Spanish/French/English."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Launch",
+                                "description": "Execute campaign. Monitor engagement via analytics."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mark-faq-1",
+                    "type": "faq",
+                    "title": "Marketing FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the official language?",
+                                "answer": "Catalan. Advertising to locals should respect this."
+                            },
+                            {
+                                "question": "Is influencer marketing regulated?",
+                                "answer": "Yes, transparency rules regarding sponsored content apply similar to EU norms."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mark-gtk-1",
+                    "type": "good_to_know",
+                    "title": "Marketing Landscape",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Social Media Usage",
+                                "text": "Instagram and WhatsApp are ubiquitous. Facebook is still relevant for older demographics. TikTok is growing fast among youth."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Event Marketing",
+                                "text": "Sponsoring local sports (skiing, cycling, basketball BC Morabanc) is a high-profile way to build local brand equity."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Data Scraping",
+                                "text": "Automated data collection for marketing leads must strictly respect LQPD. Buying non-consensual lists is illegal."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

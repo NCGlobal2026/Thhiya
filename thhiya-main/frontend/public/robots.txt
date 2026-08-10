@@ -1,0 +1,21 @@
+# Robots.txt for thhiya.com
+# https://www.robotstxt.org/robotstxt.html
+
+User-agent: *
+Allow: /
+
+# Allow search engines to crawl all pages
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Disallow admin or private routes if any
+Disallow: /api/
+Disallow: /_headers
+Disallow: /_redirects
+Disallow: /_rewrites
+
+# Sitemap location
+Sitemap: https://www.thhiya.com/sitemap.xml

@@ -1,0 +1,87 @@
+name: Auto Create PR
+
+on:
+  push:
+    branches-ignore:
+      - main
+      - development
+      - 'dependabot/**'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+
+  create-pr:
+    name: Create PR to Development
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Determine label from branch name
+        id: label
+        run: |
+          BRANCH="${{ github.ref_name }}"
+          if [[ "$BRANCH" == feat/* ]]; then
+            echo "label=feature" >> $GITHUB_OUTPUT
+            echo "type=Feature" >> $GITHUB_OUTPUT
+          elif [[ "$BRANCH" == fix/* ]]; then
+            echo "label=bugfix" >> $GITHUB_OUTPUT
+            echo "type=Bug Fix" >> $GITHUB_OUTPUT
+          elif [[ "$BRANCH" == hotfix/* ]]; then
+            echo "label=hotfix" >> $GITHUB_OUTPUT
+            echo "type=Hotfix" >> $GITHUB_OUTPUT
+          elif [[ "$BRANCH" == dev-* ]]; then
+            echo "label=development" >> $GITHUB_OUTPUT
+            echo "type=Development" >> $GITHUB_OUTPUT
+          elif [[ "$BRANCH" == refactor/* ]]; then
+            echo "label=refactor" >> $GITHUB_OUTPUT
+            echo "type=Refactor" >> $GITHUB_OUTPUT
+          elif [[ "$BRANCH" == docs/* ]]; then
+            echo "label=documentation" >> $GITHUB_OUTPUT
+            echo "type=Documentation" >> $GITHUB_OUTPUT
+          else
+            echo "label=enhancement" >> $GITHUB_OUTPUT
+            echo "type=Enhancement" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Generate commit summary
+        id: summary
+        run: |
+          git fetch origin development
+          COMMITS=$(git log origin/development..HEAD --pretty=format:"- %s" 2>/dev/null | head -20)
+          if [ -z "$COMMITS" ]; then
+            COMMITS="- Initial changes"
+          fi
+          echo "commits<<EOF" >> $GITHUB_OUTPUT
+          echo "$COMMITS" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+          
+          FILES=$(git diff --name-only origin/development..HEAD 2>/dev/null | wc -l | tr -d ' ')
+          echo "files=$FILES" >> $GITHUB_OUTPUT
+
+      - name: Create Pull Request
+        uses: repo-sync/pull-request@v2
+        with:
+          destination_branch: development
+          pr_title: "[${{ steps.label.outputs.type }}] ${{ github.ref_name }}"
+          pr_body: |
+            ## ${{ steps.label.outputs.type }}
+
+            **Branch:** `${{ github.ref_name }}`
+            **Author:** @${{ github.actor }}
+            **Files Changed:** ${{ steps.summary.outputs.files }}
+            **CI Status:** Passed
+
+            ### Commits
+            ${{ steps.summary.outputs.commits }}
+
+            ---
+            _Auto-generated PR (CI passed)_
+          pr_label: "${{ steps.label.outputs.label }}"
+          github_token: ${{ secrets.GITHUB_TOKEN }}

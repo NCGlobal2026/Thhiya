@@ -1,0 +1,2051 @@
+{
+    "name": "Bolivia",
+    "code": "BO",
+    "slug": "bolivia",
+    "flag": "https://flagcdn.com/w160/bo.png",
+    "region": "Americas",
+    "languages": [
+        "Spanish",
+        "Quechua",
+        "Aymara",
+        "Guarani"
+    ],
+    "currencies": [
+        "Bolivian Boliviano (BOB)",
+        "US Dollar (USD)"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR & PEO in Bolivia",
+                "subtitle": "Hire compliant talent in Bolivia without a local entity",
+                "description": "Navigate Bolivian labor laws, severance mandates, and 13th-month bonuses with a compliant Employer of Record solution.",
+                "bestFor": "Companies testing the Bolivian market or hiring remote support teams.",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "bo-eor-key-steps",
+                    "type": "key_steps",
+                    "title": "EOR Onboarding Process",
+                    "subtitle": "Typical Timeline: 1-2 Weeks",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Service Agreement",
+                                "description": "Sign a Master Service Agreement (MSA) with the EOR provider. This defines the commercial terms, management fees (typically $200-$600/mo), and liability scope."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Candidate Data Collection",
+                                "description": "Gather employee details: CI (Identity Card), AFP registration (Pension Fund), and bank account information for salary deposits in BOB or USD."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Employment Contract",
+                                "description": "Draft a local compliant contract (Indefinite or Fixed-Term). Contracts must be registered with the Ministry of Labor (Ministerio de Trabajo) via the OVJS portal."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Benefit Enrollment",
+                                "description": "Enroll the employee in the Caja Nacional de Salud (CNS) for healthcare and the AFP (Pension Fund Administrators like Previsión or Futuro)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "First Payroll Run",
+                                "description": "Process the first month's salary, ensuring deductions for RC-IVA (13%) and social security (12.71%) are accurately calculated."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bo-eor-cost",
+                    "type": "cost_breakdown",
+                    "title": "EOR & PEO Cost Estimates",
+                    "order": 2,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Item",
+                                "Cost/Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Management Fee",
+                                    "values": [
+                                        "$200 - $600 USD",
+                                        "Per employee/month"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Employer Social Security",
+                                    "values": [
+                                        "~16.71% - 18.42%",
+                                        "Of Gross Salary"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "13th Month (Aguinaldo)",
+                                    "values": [
+                                        "8.33% accrual",
+                                        "Mandatory bonus"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Double Aguinaldo",
+                                    "values": [
+                                        "8.33% accrual",
+                                        "Only IF GDP > 4.5%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Severance Accrual",
+                                    "values": [
+                                        "8.33%",
+                                        "Indemnización reserve"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "bo-eor-insights",
+                    "type": "insights",
+                    "title": "Critical Compliance Insights",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Severance Mandates (Desahucio)",
+                                "text": "Termination without 'just cause' is expensive. You must pay 'Indemnización' (1 month/year of service) PLUS 'Desahucio' (3 months' salary lump sum penalty)."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Infinite Contract Preference",
+                                "text": "Bolivian law heavily favors indefinite contracts. Fixed-term contracts are strictly regulated and cannot function as a probation period surrogate indefinitely."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "13th & 14th Month Pay",
+                                "text": "The 'Aguinaldo de Navidad' is mandatory. A second bonus ('Esfuerzo por Bolivia') triggers if annual GDP growth exceeds 4.5%, doubling the end-of-year burden."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bo-eor-faq",
+                    "type": "faq",
+                    "title": "EOR Frequently Asked Questions",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I hire contractors instead of employees?",
+                                "answer": "It is risky. Misclassifying an employee as a civil contractor to avoid benefits can lead to retroactive claims for all unpaid social security, bonuses, and penalties."
+                            },
+                            {
+                                "question": "Is a probation period allowed?",
+                                "answer": "Yes, a 3-month probation period is standard. During this time, termination can occur without payment of the 3-month Desahucio penalty, though proportional vacation/bonus may apply."
+                            },
+                            {
+                                "question": "What documents are required for hiring?",
+                                "answer": "Locally, you need the Carnet de Identidad (CI), AFP registration number, and proof of address. Foreigners need a valid work visa or residency permit."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bo-eor-good-to-know",
+                    "type": "good_to_know",
+                    "title": "Good to Know",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Cultural Norms",
+                                "text": "Relationships are crucial. Face-to-face meetings or personal video calls are preferred over impersonal emails."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Holidays",
+                                "text": "Bolivia has strict public holidays (Carnival, Census days, etc.) where work is legally prohibited or heavily surcharged."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Punctuality",
+                                "text": "While 'Hora Boliviana' (lateness) is a cultural stereotype, professional business meetings largely stick to schedule."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bo-payroll-cycle",
+                    "type": "key_steps",
+                    "title": "Monthly Payroll Cycle",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Novelties Reporting",
+                                "description": "Report changes by the 20th-25th: new hires, terminations, salary adjustments, overtime, and sick leave."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Calculations & RC-IVA",
+                                "description": "Calculate Gross-to-Net. Apply 12.71% employee SS deduction. Calculate RC-IVA (13%) tax base, deducting applicable VAT invoices presented by employees (Form 110)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Payment & Pay Slips",
+                                "description": "Disburse net salary to employees by the last day of the month or first days of the following month. Issue official pay slips (Boletad de Pago)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Social Security Remittance",
+                                "description": "Pay employer (16.71%) and employee (12.71%) contributions to the AFPs and Health Fund (CNS). Deadline is typically the next month."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Tax Filing",
+                                "description": "Submit RC-IVA (Form 608) to the Servicio de Impuestos Nacionales (SIN) if applicable."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bo-payroll-costs",
+                    "type": "cost_breakdown",
+                    "title": "Payroll Tax Rates (2025)",
+                    "order": 2,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Contribution",
+                                "Rate (approx)",
+                                "Payer"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Pension (AFP)",
+                                    "values": [
+                                        "10%",
+                                        "Employee"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Common Risk",
+                                    "values": [
+                                        "1.71%",
+                                        "Employee"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Commission AFP",
+                                    "values": [
+                                        "0.5%",
+                                        "Employee"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Solidarity Contrib.",
+                                    "values": [
+                                        "0.5%",
+                                        "Employee"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Health Fund (CNS)",
+                                    "values": [
+                                        "10%",
+                                        "Employer"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Housing (FONVIS)",
+                                    "values": [
+                                        "2%",
+                                        "Employer"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Solidarity (Employer)",
+                                    "values": [
+                                        "3%",
+                                        "Employer"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Professional Risk",
+                                    "values": [
+                                        "1.71%",
+                                        "Employer"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "bo-payroll-insights",
+                    "type": "insights",
+                    "title": "Payroll Compliance & Benefits",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "RC-IVA Tax Shield",
+                                "text": "Employees can reduce their 13% RC-IVA tax liability by presenting VAT invoices (Form 110) for personal purchases. Payroll must process these deductions accurately."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Double Aguinaldo Risk",
+                                "text": "Always budget for the potential 'Segundo Aguinaldo'. If announced (usually in Oct/Nov based on GDP), it must be paid, non-prorated in some cases."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Minimum Wage 2025",
+                                "text": "The national minimum wage is set at BOB 2,750 (approx. $400 USD). This creates the floor for various benefit calculations and the RC-IVA non-taxable base."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bo-payroll-faq",
+                    "type": "faq",
+                    "title": "Payroll FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the currency for payroll?",
+                                "answer": "Payroll MUST be calculated and reported in Bolivianos (BOB). Payments can be made in USD if agreed, but the pay slip must reflect the local currency equivalent."
+                            },
+                            {
+                                "question": "Is sick leave paid?",
+                                "answer": "Yes. Short-term is paid by employer (first 3 days often). Long-term is covered by the Short-Term Social Security (Health Fund) subsidy, but the employer pays the contributions."
+                            },
+                            {
+                                "question": "What is the seniority bonus?",
+                                "answer": "The 'Bono de Antigüedad' is a mandatory monthly bonus based on years of service and calculated on 3 minimum wages. It ranges from 5% (2-4 years) up to 50% (25+ years)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bo-payroll-good-to-know",
+                    "type": "good_to_know",
+                    "title": "Good to Know",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Banking Cutoffs",
+                                "text": "Bank transfers between different banks (ACH) are not instant and stop late afternoon. Same-bank transfers are recommended for urgency."
+                            },
+                            {
+                                "type": "info",
+                                "title": "UFV Adjustments",
+                                "text": "Many tax values are adjusted daily by the UFV (Housing Promotion Unit), an inflation-indexed unit of account."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Printed Slips",
+                                "text": "Despite digital systems, many employees strongly prefer or legally require a physical, signed pay slip (Boleta de Pago) for their records."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bo-calc-table",
+                    "type": "cost_breakdown",
+                    "title": "Payroll Contributions Table",
+                    "order": 1,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employee %",
+                                "Employer %",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Pension (AFP)",
+                                    "values": [
+                                        "10%",
+                                        "1.71%",
+                                        "Long-term SS"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Common Risk",
+                                    "values": [
+                                        "1.71%",
+                                        "0%",
+                                        "Death/Disability"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Commission",
+                                    "values": [
+                                        "0.5%",
+                                        "0%",
+                                        "Admin Fee"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Solidarity",
+                                    "values": [
+                                        "0.5%",
+                                        "3%",
+                                        "Solidarity Fund"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Health (CNS)",
+                                    "values": [
+                                        "0%",
+                                        "10%",
+                                        "Short-term SS"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Housing (FONVIS)",
+                                    "values": [
+                                        "0%",
+                                        "2%",
+                                        "Housing Fund"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Prof. Risk",
+                                    "values": [
+                                        "0%",
+                                        "1.71%",
+                                        "Work Accidents"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "TOTAL",
+                                    "values": [
+                                        "12.71%",
+                                        "18.42%",
+                                        "Standard Rates"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "bo-calc-insights",
+                    "type": "insights",
+                    "title": "Cost Factors",
+                    "order": 2,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Aguinaldo Load",
+                                "text": "Remember to add 8.33% to the Employer Total to account for the mandatory Christmas Bonus accrual."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Severance Load",
+                                "text": "Prudent employers accrue another 8.33% for Indemnización (Severance) as it is payable upon any termination after 90 days."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Solidarity 2",
+                                "text": "High earners (> BOB 13k, 25k, 35k) pay additional solidarity contributions ranging from 1% to 10%."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bo-calc-steps",
+                    "type": "key_steps",
+                    "title": "Calculation Logic",
+                    "order": 3,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross Salary",
+                                "description": "Start with the monthly gross salary in BOB."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Dduct Employee SS",
+                                "description": "Subtract 12.71% from Gross."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Calculate RC-IVA",
+                                "description": "Apply RC-IVA logic (Gross - SS - 2xMinWage) * 13%. Deduct 13% of 2xMinWage and 13% of Form 110 invoices."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Add Employer Costs",
+                                "description": "Add 18.42% (SS) + 8.33% (Aguinaldo) + 8.33% (Indemnización) to the Gross to get Total Company Cost."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bo-calc-faq",
+                    "type": "faq",
+                    "title": "Calculator FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Does this include the Second Aguinaldo?",
+                                "answer": "No. The 'Esfuerzo por Bolivia' bonus is contingent on GDP growth and should be treated as a potential contingency, not a fixed cost."
+                            },
+                            {
+                                "question": "Is the Seniority Bonus included?",
+                                "answer": "No, the 'Bono de Antigüedad' is separate and calculated on 3 National Minimum Wages percent depending on years served."
+                            },
+                            {
+                                "question": "Are meal allowances taxed?",
+                                "answer": "Generally, yes, unless structured carefully. Most benefits in kind are considered part of the salary for social security."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bo-calc-good-to-know",
+                    "type": "good_to_know",
+                    "title": "Good to Know",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Exchange Rate",
+                                "text": "The BOB is pegged to the USD (6.96), but 'street' rates or bank availability may vary. Calculations are always in Official BOB."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Retroactive Laws",
+                                "text": "Labor laws are protected by the constitution and principles of 'pro-worker', meaning interpretations often favor the employee retroactively."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Grossing Up",
+                                "text": "If negotiating 'Net Salary', be very careful with the gross-up calculation due to the complex RC-IVA deductions."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Company Incorporation in Bolivia",
+                "subtitle": "Set up an SRL or SA",
+                "description": "Establish a legal presence in Bolivia. Choose between limited liability (SRL) or corporation (SA) structures.",
+                "bestFor": "Long-term market entry and large-scale hiring.",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "bo-inc-steps",
+                    "type": "key_steps",
+                    "title": "Incorporation Roadmap",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Name Reservation",
+                                "description": "Check availability and reserve the company name with the Commerce Registry (SEPREC - Servicio Plurinacional de Registro de Comercio)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Draft Bylaws",
+                                "description": "Draft the 'Acta de Constitución' (Articles of Incorporation) and have them notarized. This requires a Power of Attorney if shareholders are foreign."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Register with SEPREC",
+                                "description": "Submit notarized deeds to SEPREC to obtain the 'Matrícula de Comercio'. This grants the company legal personality."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Tax Registration (SIN)",
+                                "description": "Register with the National Tax Service (SIN) to obtain the NIT (Número de Identificación Tributaria)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Municipal License",
+                                "description": "Obtain the 'Licencia de Funcionamiento' from the local municipal government where the office is located."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bo-inc-costs",
+                    "type": "cost_breakdown",
+                    "title": "Setup Costs (Estimated)",
+                    "order": 2,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Item",
+                                "Cost Estimte",
+                                "Frequency"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Notary & Legal Fees",
+                                    "values": [
+                                        "$800 - $1,500",
+                                        "One-time"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Registry Fees (SEPREC)",
+                                    "values": [
+                                        "~$65 - $100",
+                                        "One-time"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Capital (SRL)",
+                                    "values": [
+                                        "~$500 - $1,000",
+                                        "Initial Deposit"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Municipal License",
+                                    "values": [
+                                        "$50 - $200",
+                                        "Annual"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Publication Fees",
+                                    "values": [
+                                        "$50 - $100",
+                                        "One-time"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "bo-inc-insights",
+                    "type": "insights",
+                    "title": "Entity Structure Insights",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "SRL vs SA",
+                                "text": "SRL (LLC) is best for most subsidiaries. It requires 2-25 partners. SA (Corp) allows public share trading and requires a board of directors and a syndic."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Legal Rep Residency",
+                                "text": "The company MUST have a Legal Representative who is a Bolivian national or a foreigner with valid residency. They are personally liable for tax obligations."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Timeline Expectations",
+                                "text": "While paperwork can be done in 2-3 weeks, bank account opening is the bottleneck, often taking an additional 2-4 weeks due to strict compliance."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bo-inc-faq",
+                    "type": "faq",
+                    "title": "Incorporation FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can a foreign company own 100%?",
+                                "answer": "Yes, but you usually need at least 2 shareholders for an SRL. The second shareholder can hold a nominal 1% share."
+                            },
+                            {
+                                "question": "Is a physical office required?",
+                                "answer": "Yes, you need a fiscal address for the NIT and Municipal License. A virtual office contract is often sufficient for service companies."
+                            },
+                            {
+                                "question": "What is the minimum capital?",
+                                "answer": "No strict minimum for SRLs, but banks often prefer to see at least $500-$1,000 equivalent to justify the account."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bo-inc-good-to-know",
+                    "type": "good_to_know",
+                    "title": "Good to Know",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Bureaucracy",
+                                "text": "Procedures (Trámites) often require patience. Systems may go offline, or officials may request physical photocopies ('fotocopias') of digital docs."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Notaries",
+                                "text": "Notaries in Bolivia are powerful. Their rubber stamp and signature are required for almost every corporate act."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Rubber Stamps",
+                                "text": "Get a company seal (sello) immediately. It is physically required to stamp invoices, letters, and contracts."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing & Recruitment in Bolivia",
+                "subtitle": "Find top talent in Cochabamba, La Paz, and Santa Cruz",
+                "description": "Recruit software developers, bilingual support staff, and local professionals without agency fees for candidates.",
+                "bestFor": "Scaling teams rapidly.",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "bo-staffing-steps",
+                    "type": "key_steps",
+                    "title": "Recruitment Process",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Job Requisition",
+                                "description": "Define the role. For tech, English proficiency is a key differentiator. Verify salary benchmarks in BOB."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Sourcing",
+                                "description": "Use LinkedIn (popular for white-collar), Trabajos.bo, and local university job boards. Agencies leverage local networks in Santa Cruz and La Paz."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Screening & Interview",
+                                "description": "Conduct interviews. Technical assessments are common for dev roles. Verify cultural fit."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Offer & Negotiation",
+                                "description": "Present offer in Gross Monthly Salary (BOB). Clearly explain the 'Total Annual Cash' including the 13th month Aguinaldo to avoid confusion."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bo-staffing-costs",
+                    "type": "cost_breakdown",
+                    "title": "Recruitment Fees",
+                    "order": 2,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service",
+                                "Fee/Rate",
+                                "Payer"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Agency Success Fee",
+                                    "values": [
+                                        "15% - 25%",
+                                        "Of Annual Gross Salary"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Candidate Fee",
+                                    "values": [
+                                        "$0 (Prohibited)",
+                                        "Illegal to charge"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Job Board Posting",
+                                    "values": [
+                                        "$50 - $200",
+                                        "Per post"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Tech Assessment",
+                                    "values": [
+                                        "Varies",
+                                        "Per candidate"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "bo-staffing-insights",
+                    "type": "insights",
+                    "title": "Hiring Market Trends",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "No Candidate Fees",
+                                "text": "It is strictly prohibited by Article 480 for agencies to charge fees to job seekers. All costs must be borne by the employer."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Tech Hub: Cochabamba",
+                                "text": "Cochabamba is known as the 'Silicon Valley of Bolivia'. It has a high density of software engineers and dev shops."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Offer Construction",
+                                "text": "Quote salaries in terms of 'Líquido Pagable' (Net Pay) estimates, as this is what employees care about, but contract in Gross."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bo-staffing-faq",
+                    "type": "faq",
+                    "title": "Recruitment FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Where should I post jobs?",
+                                "answer": "LinkedIn is best for professionals. Trabajos.bo and Facebook groups are very active for general roles."
+                            },
+                            {
+                                "question": "Is English common?",
+                                "answer": "In the tech sector (Cochabamba/Santa Cruz), yes. In general administrative roles, bilingual talent commands a salary premium."
+                            },
+                            {
+                                "question": "Can I background check?",
+                                "answer": "Yes, but data privacy laws apply. It is standard to ask for a 'Certificate of Good Conduct' (Antecedentes Policiales/Penales) which the candidate obtains."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bo-staffing-good-to-know",
+                    "type": "good_to_know",
+                    "title": "Good to Know",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Resume Format",
+                                "text": "Bolivian CVs often include personal details (photo, age, marital status) that are considered sensitive in the US/EU, but standard here."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "References",
+                                "text": "Calling previous employers is a standard and expected part of the vetting process. Written references are less valued."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Family Ties",
+                                "text": "Nepotism can be common. Ensure strict conflict of interest policies if hiring multiple family members."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Solutions in Bolivia",
+                "subtitle": "Manage Bolivian Workforces Digitally",
+                "description": "Software platforms to handle attendance, payroll, and document management in compliance with Bolivian norms.",
+                "bestFor": "Modernizing HR operations.",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "bo-hris-providers",
+                    "type": "key_steps",
+                    "title": "Implementation Steps",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Needs Assessment",
+                                "description": "Determine if you need local payroll calculation (very specific to Bolivia) or just global HR record keeping."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Vendor Selection",
+                                "description": "Choose between local players (SALAR SOFTWARE) for tax compliance or global suites (Deel, ADP) for unified reporting."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Data Migration",
+                                "description": "Import employee data, specifically 'Fechas de Ingreso' (Start Dates) which are critical for the Seniority Bonus calculation."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Training",
+                                "description": "Train local HR staff. Ensure the system handles the 'Libro de Asistencia' (Attendance Book) requirements if digital."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bo-hris-insights",
+                    "type": "insights",
+                    "title": "HR Tech Insights",
+                    "order": 2,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Ministry Integration",
+                                "text": "A key feature for local HRIS is the ability to export reports compatible with the Ministry of Labor's 'OVJS' platform."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Attendance Tracking",
+                                "text": "Bolivia has strict overtime laws. Your HRIS must accurately log entry/exit times to calculate 'Horas Extras' and night surcharges."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Document Management",
+                                "text": "Store digital copies of signed contracts, pay slips, and the Finiquito forms. Electronic signatures are legally valid if certified (ADSIB)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bo-hris-solutions",
+                    "type": "cost_breakdown",
+                    "title": "Market Options",
+                    "order": 3,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Example",
+                                "Best For"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Local Specialized",
+                                    "values": [
+                                        "SALAR SOFTWARE",
+                                        "Payroll & Tax"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Global EOR/HRIS",
+                                    "values": [
+                                        "Deel / Remote",
+                                        "Global Teams"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Enterprise ERP",
+                                    "values": [
+                                        "SAP / Oracle",
+                                        "Large Corps"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "bo-hris-faq",
+                    "type": "faq",
+                    "title": "HRIS FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is digital signature accepted?",
+                                "answer": "Yes, under Law 164. However, it requires a recognized digital certificate issued by an authorized entity (e.g., ADSIB)."
+                            },
+                            {
+                                "question": "Can I use Excel?",
+                                "answer": "For very small teams, yes. But manual calculation of the seniority bonus and tax shield (Form 110) limits is prone to errors."
+                            },
+                            {
+                                "question": "Does it connect to banks?",
+                                "answer": "Advanced local systems generate the .txt files required for bulk salary uploads to major banks like BNB, Mercantil, or BISA."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bo-hris-good-to-know",
+                    "type": "good_to_know",
+                    "title": "Good to Know",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Internet Stability",
+                                "text": "While cities have fiber, remote areas rely on mobile data. Ensure your self-service portal is mobile-friendly and lightweight."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Biometrics",
+                                "text": "Biometric attendance (fingerprint) is the gold standard for proving labor hours in court cases."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Backup Data",
+                                "text": "Keep local backups. Cloud-only solutions can be risky if internet outages occur on payroll cutoff days."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting in Bolivia",
+                "subtitle": "Bookkeeping, Tax Filing, and Audit",
+                "description": "Ensure compliance with Bolivian GAAP, monthly VAT/IT filings, and annual financial statement submission.",
+                "bestFor": "Subsidiaries and local entities.",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "bo-acc-costs",
+                    "type": "cost_breakdown",
+                    "title": "Accounting Fees",
+                    "order": 1,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service Level",
+                                "Cost (Monthly)",
+                                "Inclusions"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "SME / Startup",
+                                    "values": [
+                                        "$66 - $170",
+                                        "Basic Tax & Books"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Mid-Sized / Full",
+                                    "values": [
+                                        "$500 - $800",
+                                        "Payroll, Tax, Reporting"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Annual Audit",
+                                    "values": [
+                                        "$1,000+",
+                                        "Once per year"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Tax Consulting",
+                                    "values": [
+                                        "$100/hr",
+                                        "Advisory"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "bo-acc-steps",
+                    "type": "key_steps",
+                    "title": "Monthly Accounting Routine",
+                    "order": 2,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Document Collection",
+                                "description": "Gather all physical and digital invoices (Facturas). Bolivia has a mix of electronic and manual billing."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "VAT & IT Calculation",
+                                "description": "Calculate VAT (13% Debit vs Credit) and Transaction Tax (3% on Gross Income). Prepare Form 200 and 400."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Filing & Payment",
+                                "description": "File declarations via the SIAT system. Payment is due based on the last digit of the NIT (Tax ID)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Bookkeeping Entry",
+                                "description": "Record transactions in the Daily Book and Ledger, maintained in Spanish and Bolivianos as per Commercial Code."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bo-acc-insights",
+                    "type": "insights",
+                    "title": "Accounting Standards",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Transaction Tax (IT)",
+                                "text": "The 3% IT is a tax on GROSS revenue, not profit. It applies to almost every transaction. CIT payments can serve as an offset (pago a cuenta) for IT in future periods."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Bancarization",
+                                "text": "Transactions over BOB 50,000 must be backed by banking documents to be deductible. These must be reported in the 'Bancarización' module."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Fiscal Year Ends",
+                                "text": "Not all companies use Dec 31. Industrial: Mar 31. Ag/Cattle: Jun 30. Mining: Sep 30. Banking/Comm/Services: Dec 31."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bo-acc-faq",
+                    "type": "faq",
+                    "title": "Accounting FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I keep books in USD?",
+                                "answer": "For internal reporting, yes. But legal books MUST be legally kept in Bolivianos (BOB) and Spanish."
+                            },
+                            {
+                                "question": "Do I need an audit?",
+                                "answer": "Yes, if annual revenue exceeds approx. $170,000 USD (limit set by Registry), you must submit audited financial statements."
+                            },
+                            {
+                                "question": "What is the LC-IVA?",
+                                "answer": "Libro de Compras y Ventas. It's the detailed registry of all invoices that supports the VAT declaration. It must be sent digitally."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bo-acc-good-to-know",
+                    "type": "good_to_know",
+                    "title": "Good to Know",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Bill Everything",
+                                "text": "Every expense needs a 'Factura' with your NIT and Name. Generic receipts are non-deductible."
+                            },
+                            {
+                                "type": "info",
+                                "title": "QR Payments",
+                                "text": "QR payments (Simple) are ubiquitous and valid for business, provided they are backed by an invoice."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Physical Archive",
+                                "text": "Keep physical copies of major contracts and invoices for 8 years. Tax audits often demand the original paper."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bo-comp-checklist",
+                    "type": "key_steps",
+                    "title": "Annual Checklist",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Update Matrícula",
+                                "description": "Renew the Commercial Registry (Matrícula de Comercio) annually at SEPREC. Requires filing the previous year's financials."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Holding AGM",
+                                "description": "Hold the Annual General Meeting (Junta Ordinaria) to approve financials and board actions within 3 months of year-end."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Municipal License Payment",
+                                "description": "Pay the annual municipal business license fee (Patente Municipal) to the local alcaldía."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Update ROE",
+                                "description": "Update the 'Registro Obligatorio de Empleadores' (ROE) with the Ministry of Labor quarterly and submit the 'Planillas'."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bo-comp-insights",
+                    "type": "insights",
+                    "title": "Compliance Risks",
+                    "order": 2,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Labor Book stamping",
+                                "text": "The 'Libro de Asistencia' and other labor books must be physically or digitally stamped/approved by the Ministry. Neglect leads to fines."
+                            },
+                            {
+                                "type": "info",
+                                "title": "UBO Reporting",
+                                "text": "Ultimate Beneficial Owner (UBO) disclosure is increasingly required by banks and potentially tax authorities to combat money laundering."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Virtual Office",
+                                "text": "Ensure your providers for virtual offices maintain the Municipal License active. If they fail, your NIT (Tax ID) might be blocked."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bo-comp-costs",
+                    "type": "cost_breakdown",
+                    "title": "Compliance Costs",
+                    "order": 3,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Item",
+                                "Cost",
+                                "Due"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Registry Renewal",
+                                    "values": [
+                                        "~$50 - $400",
+                                        "Annual"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Municipal Tax",
+                                    "values": [
+                                        "Varies by space/zone",
+                                        "Annual"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Legal Rep Service",
+                                    "values": [
+                                        "$300 - $1000/mo",
+                                        "Monthly"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "bo-comp-faq",
+                    "type": "faq",
+                    "title": "Compliance FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What if I miss the Registry renewal?",
+                                "answer": "You face fines and your company is marked as 'inactive' or 'depurada', preventing you from bidding on contracts or changing bylaws."
+                            },
+                            {
+                                "question": "Can the Legal Rep be foreign?",
+                                "answer": "Yes, but they MUST hold valid residency (Carnet de Extranjería) to represent the company before the Tax Authority (SIN)."
+                            },
+                            {
+                                "question": "How long to close a company?",
+                                "answer": "Liquidation is complex and can take 12-24 months due to the need for tax clearance (Fiscalización) from the SIN."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bo-comp-good-to-know",
+                    "type": "good_to_know",
+                    "title": "Good to Know",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Signage",
+                                "text": "You must display your 'NIT' certificate and any licenses visibly in your office premises to avoid municipal fines."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Whistleblowing",
+                                "text": "Employees can report non-compliance anonymously to the Ministry of Labor, triggering surprise inspections."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Digital Folder",
+                                "text": "Maintain a 'Carpeta Digital' with scanned PDFs of all compliance docs (Roe, Fundempresa/Seprec, Nit, License) for quick access."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bo-tax-rates",
+                    "type": "cost_breakdown",
+                    "title": "Key Tax Rates 2025",
+                    "order": 1,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Tax",
+                                "Rate",
+                                "Base"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "IUE (Corporate Tax)",
+                                    "values": [
+                                        "25%",
+                                        "id_net_profit"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "IT (Transaction Tax)",
+                                    "values": [
+                                        "3%",
+                                        "Gross Revenue"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "IVA (VAT)",
+                                    "values": [
+                                        "13%",
+                                        "Value Added"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "RC-IVA (Withholding)",
+                                    "values": [
+                                        "13%",
+                                        "Passive/Labor Income"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Dividend WHT",
+                                    "values": [
+                                        "12.5%",
+                                        "Remittances abroad"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Financial Trans (ITF)",
+                                    "values": [
+                                        "0.30%",
+                                        "USD Bank Ops"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "bo-tax-insights",
+                    "type": "insights",
+                    "title": "Tax Strategy",
+                    "order": 2,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "IT and IUE Offset",
+                                "text": "IUE paid can be used as a credit against future IT payments. This effectively means you don't pay IT *if* your IUE payment covers it, until the credit runs out."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Transfer Pricing",
+                                "text": "Transactions with related parties abroad must follow arm's length principles. Transfer pricing studies are required for significant volumes."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Zero-Rate VAT 2025",
+                                "text": "Specific incentives for capital goods imports may apply zero-rate VAT. Check Supreme Decrees for updated lists of machinery."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bo-tax-steps",
+                    "type": "key_steps",
+                    "title": "Filing Calendar",
+                    "order": 3,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Monthly (VAT & IT)",
+                                "description": "File Form 200 (VAT) and Form 400 (IT) monthly. Due date depends on last digit of NIT (e.g., ends in 0 = 13th of month)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Quarterly (RC-IVA)",
+                                "description": "Form 608 for employee withholding is typically processed monthly, but consultants file quarterly."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Annual (IUE)",
+                                "description": "File Form 500 and pay annual Corporate Income Tax within 120 days of fiscal year end."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Annual (Financials)",
+                                "description": "Submit digital financial statements (Form 605) via SIAT."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bo-tax-faq",
+                    "type": "faq",
+                    "title": "Tax FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is VAT refundable?",
+                                "answer": "Exporters can claim CEDEIMs (Tax Return Certificates) to get VAT refunds, but the process is bureaucratic and lengthy."
+                            },
+                            {
+                                "question": "What is the ITF?",
+                                "answer": "Impuesto a las Transacciones Financieras. It charges 0.30% on debits/credits in foreign currency (USD) to encourage usage of BOB."
+                            },
+                            {
+                                "question": "Are digital services taxed?",
+                                "answer": "Yes, VAT generally applies to services consumed in Bolivia, even if provided from abroad, though enforcement varies."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bo-tax-good-to-know",
+                    "type": "good_to_know",
+                    "title": "Good to Know",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "UFV Indexing",
+                                "text": "Tax debts are indexed to the UFV (Unidad de Fomento de Vivienda). Delaying payment even by a day increases the debt due to inflation."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Frozen Accounts",
+                                "text": "The SIN (Tax Authority) has the power to freeze business bank accounts (retención de fondos) rapidly for unpaid debts."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Perdonazos",
+                                "text": "Occasionally, the government issues tax amnesties ('Perdonazos') waiving interest and penalties. Watch for these if you have old liabilities."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "M&A Services in Bolivia",
+                "subtitle": "Advisory and Due Diligence",
+                "description": "Navigate mergers, acquisitions, and joint ventures in Bolivia. Protect against hidden labor and tax liabilities.",
+                "bestFor": "Investors and Corporate Corp Dev.",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "bo-msa-steps",
+                    "type": "key_steps",
+                    "title": "M&A Process",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Preliminary Deal",
+                                "description": "Letter of Intent (LOI) and NDA. Defines the scope and exclusivity."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Due Diligence (Key)",
+                                "description": "Deep dive into Tax (open years), Labor (unpaid benefits/severance risk), and Corporate (validity of shares) status."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "SPA Drafting",
+                                "description": "Share Purchase Agreement. Must be notarized. Share transfers in SRLs require public deed and registry modification."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Closing & Registry",
+                                "description": "Payment and registration of the new owners in the Commercial Registry (SEPREC). 3% Transaction Tax is exempt for share sales."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bo-msa-insights",
+                    "type": "insights",
+                    "title": "Deal Risks",
+                    "order": 2,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Labor Successor Liability",
+                                "text": "Acquirers often inherit all labor liabilities. Given the cost of 'Desahucio', checking for hidden dismissals or misclassified contractors is vital."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Tax Statute of Limitations",
+                                "text": "The statute of limitations is 8 years. Due diligence should cover this entire period for tax contingencies."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Escrow Usage",
+                                "text": "It is common to hold back 10-20% of the price in Escrow for 12-24 months to cover post-closing indemnity claims."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bo-msa-fees",
+                    "type": "cost_breakdown",
+                    "title": "Advisory Fees",
+                    "order": 3,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Fee Type",
+                                "Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Lehman Scale",
+                                    "values": [
+                                        "5% - 1%",
+                                        "Success Fee"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Retainer",
+                                    "values": [
+                                        "$5k - $20k",
+                                        "Monthly/Project"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Due Diligence",
+                                    "values": [
+                                        "$10k - $50k",
+                                        "Flat fee"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "bo-msa-faq",
+                    "type": "faq",
+                    "title": "M&A FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is share sale taxed?",
+                                "answer": "The PROFIT on the sale is subject to taxes (Capital Gains, often treated as income 25% for companies). The transaction itself is exempt from the 3% IT."
+                            },
+                            {
+                                "question": "Can I merge an SRL and SA?",
+                                "answer": "Yes, Bolivian Commercial Code allows transformation and merger of different entity types."
+                            },
+                            {
+                                "question": "Is antitrust approval required?",
+                                "answer": "Yes, for transactions that lead to market dominance or concentration, filing with the AEMP (Empresas Authority) may be required."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bo-msa-good-to-know",
+                    "type": "good_to_know",
+                    "title": "Good to Know",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Family Businesses",
+                                "text": "Most Bolivian companies are family-owned. Deal-making often involves navigating family dynamics and informal decision structures."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Informality",
+                                "text": "Target companies may have 'informal' practices (unregistered sales). Valuations must discount these as they cannot be legally recognized."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Currency Controls",
+                                "text": "Large USD transfers may face scrutiny or delays. Ensure all capital flows are properly registered with the Central Bank if applicable."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Development in Bolivia",
+                "subtitle": "The Silicon Valley of the Andes",
+                "description": "Leverage high-quality, English-speaking tech talent from Cochabamba and Santa Cruz at competitive rates.",
+                "bestFor": "Staff augmentation and project outsourcing.",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "bo-sw-rates",
+                    "type": "cost_breakdown",
+                    "title": "Developer Rates (Hourly)",
+                    "order": 1,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Role",
+                                "Hourly Rate (USD)",
+                                "Experience"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Junior Dev",
+                                    "values": [
+                                        "$25 - $35",
+                                        "1-3 Years"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Mid-Level",
+                                    "values": [
+                                        "$35 - $50",
+                                        "3-5 Years"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Senior Dev",
+                                    "values": [
+                                        "$50 - $70+",
+                                        "5+ Years"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "QA Engineer",
+                                    "values": [
+                                        "$25 - $40",
+                                        "All levels"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "bo-sw-insights",
+                    "type": "insights",
+                    "title": "Tech Ecosystem",
+                    "order": 2,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Cochabamba Hub",
+                                "text": "Cochabamba hosts the largest concentration of software houses (Jala, Jalasoft, TruExtend), fostering a strong ecosystem of Java and .NET talent."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Time Zone",
+                                "text": "Bolivia (GMT-4) aligns perfectly with US Eastern Time (ET), allowing for real-time collaboration without jet lag."
+                            },
+                            {
+                                "type": "info",
+                                "title": "English Proficiency",
+                                "text": "Tech professionals in export-oriented firms generally have high English proficiency due to the industry's focus on US clients."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bo-sw-steps",
+                    "type": "key_steps",
+                    "title": "Engagement Models",
+                    "order": 3,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Staff Augmentation",
+                                "description": "Hire dedicated devs who work as part of your team. Billed monthly/hourly."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Project Outsourcing",
+                                "description": "Fixed-price or T&M contracts for specific deliverables (MVP, App, Module)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Build-Operate-Transfer",
+                                "description": "Vendor builds the team, operates it, and transfers legal ownership to you after 18-24 months."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bo-sw-faq",
+                    "type": "faq",
+                    "title": "Software FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the turnover rate?",
+                                "answer": "Turnover is moderate. Competitive salaries from US startups are increasing competition, but loyalty in established local firms remains good."
+                            },
+                            {
+                                "question": "Are there tax incentives?",
+                                "answer": "Yes, Law 164 and recent decrees offer some incentives for software export, often zero-rating VAT for service exports."
+                            },
+                            {
+                                "question": "Top skills available?",
+                                "answer": "Strong availability of Java, .NET, JavaScript (React/Node), and mobile (Android/iOS) developers."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bo-sw-good-to-know",
+                    "type": "good_to_know",
+                    "title": "Good to Know",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Loyalty",
+                                "text": "Bolivian developers are known for high retention rates compared to neighboring markets, provided the culture is good."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Nearshore",
+                                "text": "The cultural alignment with the US is strong in the tech sector. Many devs have worked with US clients for years."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Equipment",
+                                "text": "Importing laptops can be expensive due to customs. It's often better to buy locally or provide a stipend."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Agencies in Bolivia",
+                "subtitle": "Digital, Social, and Brand",
+                "description": "Connect with local consumers through Bolivian agencies specializing in social media and digital campaigns.",
+                "bestFor": "B2C expansion and brand awareness.",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "bo-mkt-rates",
+                    "type": "cost_breakdown",
+                    "title": "Agency Rates",
+                    "order": 1,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service",
+                                "Cost (USD)",
+                                "Model"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Media Mgmt",
+                                    "values": [
+                                        "$500 - $1,500",
+                                        "Monthly Retainer"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "PPC Management",
+                                    "values": [
+                                        "15% - 20%",
+                                        "Of Ad Spend"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Website Dev",
+                                    "values": [
+                                        "$1,000 - $5,000",
+                                        "Project"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Hourly Rate",
+                                    "values": [
+                                        "$25 - $50",
+                                        "Consulting"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "bo-mkt-insights",
+                    "type": "insights",
+                    "title": "Local Landscape",
+                    "order": 2,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Facebook Dominance",
+                                "text": "Facebook is the absolute dominant platform in Bolivia, used for everything from commerce (Marketplace) to news."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Advertising Law 453",
+                                "text": "Misleading advertising is strictly penalized. Promotions involving prizes ('Sorteos') require tedious pre-authorization from the AJ (Gaming Authority)."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "WhatsApp Marketing",
+                                "text": "WhatsApp is key for B2C conversion. Local consumers expect to be able to close sales or ask questions via WhatsApp."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bo-mkt-steps",
+                    "type": "key_steps",
+                    "title": "Campaign Launch",
+                    "order": 3,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Localization",
+                                "description": "Adapt content. Bolivian Spanish is standard, but colloquialisms vary between 'Camba' (East) and 'Colla' (West) regions."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Channel Selection",
+                                "description": "Prioritize Facebook and TikTok for B2C. LinkedIn is growing for B2B but still niche."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "AJ Authorization",
+                                "description": "If running a contest/giveaway, submit rules to the Autoridad de Fiscalización del Juego (AJ) weeks in advance."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Launch & Moderate",
+                                "description": "Launch ads. Active community management is crucial as Bolivians comment frequently on ads."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bo-mkt-faq",
+                    "type": "faq",
+                    "title": "Marketing FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I pay ads in BOB?",
+                                "answer": "Yes, if the ad account is set up locally. However, international card payments may incur the 0.3% ITF or currency exchange fees."
+                            },
+                            {
+                                "question": "Is influencer marketing big?",
+                                "answer": "Yes, micro-influencers on TikTok and Instagram are very cost-effective for reaching younger demographics."
+                            },
+                            {
+                                "question": "What is the ad tax?",
+                                "answer": "Foreign digital services (like Meta/Google ads) often technically attract VAT, but collection mechanisms vary."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "bo-mkt-good-to-know",
+                    "type": "good_to_know",
+                    "title": "Good to Know",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "WhatsApp First",
+                                "text": "For many consumers, WhatsApp IS the internet. Ensure your marketing funnel leads to a WhatsApp conversation."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Gaming Authority",
+                                "text": "Never run a 'Like and Share to Win' contest without AJ authorization. Fines are steep and competitors will report you."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Video Content",
+                                "text": "Short-form video (TikTok/Reels) sees the highest engagement. Static images are less effective in the current market."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

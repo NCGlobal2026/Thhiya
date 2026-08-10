@@ -1,0 +1,2151 @@
+{
+    "name": "Mexico",
+    "code": "MX",
+    "slug": "mexico",
+    "flag": "https://flagcdn.com/w160/mx.png",
+    "region": "Americas",
+    "languages": [
+        "Spanish"
+    ],
+    "currencies": [
+        "MXN"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "Hire in Mexico (No Entity)",
+                "subtitle": "REPSE Certified & USMCA Ready",
+                "description": "The safest way to hire Mexican talent without a local subsidiary. We handle the complex 2021 Outsourcing Reform (REPSE) compliance, IMSS social security, and mandatory profit sharing (PTU) on your behalf.",
+                "bestFor": "US Tech Companies & Global Firms.",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "mx-eor-steps",
+                    "type": "key_steps",
+                    "title": "Onboarding & Compliance Process",
+                    "subtitle": "Timeline: 5-8 Business Days",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract Drafting",
+                                "description": "Drafting a 'Contrato Individual de Trabajo'. In Mexico, indefinite term contracts are the legal standard. Fixed-term or project-based contracts must have a specific, justifiable cause to avoid reclassification risks."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "IMSS & Infonavit Registration",
+                                "description": "Employees must be registered with the Mexican Social Security Institute (IMSS) on their very first day of work. The EOR partner handles the registration, ensuring the 'Salario Base de Cotización' (SBC) is calculated correctly including all statutory benefits."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "RFC & CURP Verification",
+                                "description": "Collecting and verifying the employee's Tax ID (RFC) and Population Registry Code (CURP). This is critical for the 'Timbrado' (digital stamping) of payslips with the SAT tax authority."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "NOM-035 Medical/Psychosocial",
+                                "description": "Establishing compliance with NOM-035 regulations, which include psychosocial risk assessments and potentially a medical check-up. The EOR ensures these records are kept in the employee's digital file (Expediente)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Bilateral Handover",
+                                "description": "Signing of the work equipment handover protocol and the 'Aviso de Privacidad' (Privacy Notice) as required by the Federal Law on Protection of Personal Data."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mx-eor-insights",
+                    "type": "insights",
+                    "title": "Critical Compliance Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "REPSE Certification Requirement",
+                                "text": "Since the 2021 Labor Reform, any EOR provider in Mexico MUST be registered with the STPS (Ministry of Labor) under the REPSE registry. Using a non-certified provider can lead to massive fines and the inability to deduct expenses for tax purposes."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Mandatory Profit Sharing (PTU)",
+                                "text": "Employees are legally entitled to 10% of the company's annual profits. When using an EOR, the EOR's profit in Mexico is subject to this, which is typically factored into the EOR fee structure to protect the client."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Aguinaldo (Year-end Bonus)",
+                                "text": "A mandatory 13th-month style bonus called Aguinaldo must be paid by December 20th. The legal minimum is 15 days of salary, though many international companies offer 20-30 days to remain competitive."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "USMCA Visa Advantages",
+                                "text": "For US or Canadian citizens working via EOR in Mexico, the TN Visa (or FMM/Residency) process is streamlined under USMCA, making it easier to station management personnel locally while hiring a Mexican team."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Permanent Establishment (PE) Risk",
+                                "text": "If an EOR employee has the power to sign contracts or conclude sales on behalf of the foreign parent company, it might trigger a Permanent Establishment status, leading to corporate tax liabilities for the foreign entity in Mexico."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mx-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Estimated EOR Burden & Fees",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Cost Component",
+                                "Percentage/Amount",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Management Fee",
+                                    "values": [
+                                        "$400 - $650",
+                                        "Monthly fee per employee for legal employment and payroll."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "IMSS (Social Security)",
+                                    "values": [
+                                        "20% - 35%",
+                                        "Varies based on the employer's risk category and salary level."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "INFONAVIT (Housing)",
+                                    "values": [
+                                        "5.0%",
+                                        "Mandatory employer contribution to the employee housing fund."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "ISN (State Payroll Tax)",
+                                    "values": [
+                                        "1% - 3%",
+                                        "Depends on the state (CDMX is 3%, Nuevo Leon is 3%)."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "SAR (Retirement)",
+                                    "values": [
+                                        "2.0%",
+                                        "Fixed contribution for long-term retirement savings."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Total Burden (Excl Fee)",
+                                    "values": [
+                                        "35% - 40%",
+                                        "Typical overhead on top of the base gross salary."
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "mx-eor-faq",
+                    "type": "faq",
+                    "title": "Mexico EOR Frequently Asked Questions",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I hire a contractor instead of using EOR?",
+                                "answer": "Yes, but there is significant 'misclassification risk'. If the contractor performs core business tasks, uses company equipment, or follows set hours, Mexican labor courts (which are very pro-employee) may deem them a de-facto employee, requiring full back-payment of benefits and taxes."
+                            },
+                            {
+                                "question": "How long does the probation period last?",
+                                "answer": "The standard probation period is 30 days for general staff and up to 180 days for management or specialized personnel. Termination during this window is significantly easier and cheaper than post-probation."
+                            },
+                            {
+                                "question": "Is insurance provided via the EOR?",
+                                "answer": "While IMSS provides public healthcare, most competitive EOR packages for white-collar talent include 'Gastos Médicos Mayores' (Private Major Medical Insurance) and Life Insurance as supplemental benefits."
+                            },
+                            {
+                                "question": "Does the EOR handle the annual tax return for the employee?",
+                                "answer": "No. Employees earning over 400,000 MXN per year or those with multiple income sources are responsible for their own annual filing (Declaración Anual) in April, though the EOR provides the necessary withholding certificates (Constancias)."
+                            },
+                            {
+                                "question": "What happens if there is a labor dispute?",
+                                "answer": "The EOR partner is the legal employer and is the first line of defense in a labor court. However, EOR contracts usually include indemnification clauses where the client covers costs if the termination was requested by the client."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mx-eor-goodtoknow",
+                    "type": "good_to_know",
+                    "title": "Local Market Customs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Vales de Despensa (Food Vouchers)",
+                                "text": "Providing food vouchers (usually electronic cards) is a standard practice in Mexico. They are tax-deductible for the employer and tax-free for the employee up to certain limits, making them highly desirable."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Teletrabajo (Remote Work Law)",
+                                "text": "If an employee works >40% of their time remotely, the employer is legally required to provide ergonomic equipment and pay a prorated portion of internet and electricity costs."
+                            },
+                            {
+                                "type": "success",
+                                "title": "Vacation Premium",
+                                "text": "Employees get a 'Prima Vacacional' (Vacation Premium) of at least 25% of their daily salary for each vacation day taken. This is a unique Mexican benefit aimed at helping employees enjoy their time off."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mx-payroll-lifecycle",
+                    "type": "key_steps",
+                    "title": "Monthly Payroll Lifecycle",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross-to-Net Calculation",
+                                "description": "Processing salary inputs, overtime, bonuses, and commissions. Calculating Federal Tax (ISR) withholdings and both employer/employee shares of social security (IMSS)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "CFDI 4.0 Timbrado",
+                                "description": "Generating the XML payroll receipt and sending it to an authorized PAC (Certification Provider) for the SAT digital stamp. This is the only legally valid proof of payment in Mexico."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Interbank Disbursement (SPEI)",
+                                "description": "Generating the bank payment files for the SPEI network. Payments are typically made bi-weekly (Quincenal) on the 15th and last day of the month."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Social Security Filing (SUA/IDSE)",
+                                "description": "Using the SUA (Self-Determination System) and IDSE (IMSS Data Exchange) platforms to report movements, incidences, and pay the monthly social security contributions."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Monthly Tax Remittance",
+                                "description": "Filing the ISR withholding return with the SAT and paying the corresponding state-level payroll tax (ISN) before the 17th of the following month."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mx-payroll-insights",
+                    "type": "insights",
+                    "title": "Mexican Payroll Compliance",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "CFDI 4.0 Strictness",
+                                "text": "Since 2023, CFDI 4.0 requires the exact tax address (Postal Code) and name of the employee as registered at the SAT. Any mismatch prevents the payslip from being stamped, making it impossible to deduct the payroll expense."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Bi-weekly vs Monthly",
+                                "text": "90% of Mexican private sector employees are paid 'Quincenalmente' (every 15 days). Expecting a monthly cycle can lead to dissatisfaction and high turnover in local teams."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "SBC Calculation Complexity",
+                                "text": "The Social Security base (SBC) is not just the base salary. It must include the 'Factor de Integración' which accounts for Aguinaldo and Vacation Premium portions on a daily basis. Errors here lead to significant IMSS audits."
+                            },
+                            {
+                                "type": "success",
+                                "title": "Tax-Efficient Benefits",
+                                "text": "Judicious use of 'Previsión Social' (Social Welfare) benefits like savings funds (Fondo de Ahorro) and pantry vouchers can reduce the taxable base for both the employer and employee."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Annual PTU Cycle",
+                                "text": "Companies must distribute 10% of their prior year's taxable income to employees by May 30th (for corporations). This requires a specific payroll run with complex distribution formulas based on days worked and salary levels."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mx-payroll-costs",
+                    "type": "cost_breakdown",
+                    "title": "Payroll Outsourcing Cost Model",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service Tier",
+                                "Monthly Fee",
+                                "Included Features"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "1 - 20 Employees",
+                                    "values": [
+                                        "$15 - $25 / head",
+                                        "Standard CFDI stamping, IMSS filings, and reporting."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "21 - 100 Employees",
+                                    "values": [
+                                        "$10 - $18 / head",
+                                        "Volume discount, dedicated account manager, custom GL mapping."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Implementation Fee",
+                                    "values": [
+                                        "$500 - $1,500",
+                                        "One-time setup, historical data migration, and SAT portal sync."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Annual Filing Fee",
+                                    "values": [
+                                        "$250 - $750",
+                                        "Year-end adjustment, worker profit sharing (PTU) calc, and tax certificates."
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "mx-payroll-faq",
+                    "type": "faq",
+                    "title": "Payroll Administration FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the 'Timbrado' deadline?",
+                                "answer": "The payslip must be digitally stamped (timbrado) either on the day of payment or within 3-11 business days after (depending on the number of employees). Delays make the expense non-deductible."
+                            },
+                            {
+                                "question": "How do I calculate the ISN (State Tax)?",
+                                "answer": "It is calculated on the total gross payroll. The rate varies by state: CDMX (3%), State of Mexico (3%), Jalisco (3%), and Querétaro (3%). Some states have small exemptions for new companies."
+                            },
+                            {
+                                "question": "Are bonuses taxable in Mexico?",
+                                "answer": "Yes. Most bonuses are subject to ISR. However, Aguinaldo is exempt up to 30 UMAs (approx 3,250 MXN) and Vacation Premium is exempt up to 15 UMAs (approx 1,625 MXN)."
+                            },
+                            {
+                                "question": "What happens if I underpay IMSS?",
+                                "answer": "The IMSS has aggressive automated audit tools. Underpayments result in fines of 40-100% of the omitted contribution, plus updates and surcharges (CPI adjustment)."
+                            },
+                            {
+                                "question": "Can I pay in US Dollars?",
+                                "answer": "No. While you can agree on a USD-linked amount in the contract, the actual payment and the CFDI receipt must be in Mexican Pesos (MXN) using the official exchange rate (FIX) from the day of payment."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mx-payroll-essentials",
+                    "type": "essentials",
+                    "title": "Mandatory Employer Contributions",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Retirement & Old Age (RCV)",
+                                "text": "Contributions to the AFORA system, ensuring the employee has a pension fund."
+                            },
+                            {
+                                "title": "Social Security (IMSS)",
+                                "text": "Covers medical care, maternity, disability, and life insurance."
+                            },
+                            {
+                                "title": "Housing Fund (Infonavit)",
+                                "text": "A 5% contribution enabling employees to access low-interest home loans."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mx-calc-logic",
+                    "type": "key_steps",
+                    "title": "Calculation Parameters",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Base Salary Input",
+                                "description": "Defining the 'Sueldo Diario' (Daily Salary) which serves as the base for all percentage-based calculations."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Benefit Integration (Integrated Salary)",
+                                "description": "Adding the 'Factor de Integración' (Aguinaldo + Vacation Premium) to arrive at the Salario Diario Integrado (SDI) used for IMSS."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Withholding Application",
+                                "description": "Applying the monthly ISR table (Article 96) and the employee's share of social security (IMSS)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Employer Burden Summation",
+                                "description": "Calculating employer IMSS, INFONAVIT (5%), and the specific State Payroll Tax (ISN) – usually 3%."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Net & Total Cost Output",
+                                "description": "Generating a breakdown of 'What the employee takes home' vs 'What it costs the company in total'."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mx-calc-insights",
+                    "type": "insights",
+                    "title": "Mexican Payroll Realities",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "The 25-Point Burden",
+                                "text": "On average, the 'Employer Burden' (Social Security + Taxes) adds 25% to 35% on top of the gross salary. This must be budgeted for."
+                            },
+                            {
+                                "type": "info",
+                                "title": "UMA Value",
+                                "text": "Many social security caps are calculated based on the 'UMA' (Unit of Measure and Update), not the minimum wage. This value is updated every February."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Tax-Free Stipends",
+                                "text": "Components like 'Vales de Despensa' (Pantry Vouchers) and 'Fondo de Ahorro' can be tax-exempt for the employee if structured within legal limits."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Aguinaldo (13th Month)",
+                                "text": "A legal requirement of at least 15 days of salary, payable by December 20th. Many multinational firms offer 20-30 days to stay competitive."
+                            },
+                            {
+                                "type": "success",
+                                "title": "Vacation Premium",
+                                "text": "Employees receive an extra 25% of their daily salary for every day of vacation taken. The base vacation starts at 12 days after year one."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mx-calc-costs",
+                    "type": "cost_breakdown",
+                    "title": "Pricing for Calculations",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Tool / Service",
+                                "Fee",
+                                "Best For"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Online Web Calculator",
+                                    "values": [
+                                        "Free",
+                                        "Quick directional estimates for recruiters."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Custom Modeling Report",
+                                    "values": [
+                                        "$250 - $500",
+                                        "Deep dive into 10+ specific roles with local ISN variance."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "SaaS Payroll API",
+                                    "values": [
+                                        "$2 / calc",
+                                        "Integration into your internal HRIS or talent portal."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "mx-calc-faq",
+                    "type": "faq",
+                    "title": "Mexican Payroll Estimating FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the difference between Net and Gross?",
+                                "answer": "Gross is the salary before any deductions. Net is what hits the bank. In Mexico, the gap can be 10-30% depending on the salary bracket."
+                            },
+                            {
+                                "question": "Is PTU included in the calculator?",
+                                "answer": "Profit sharing (PTU) is a variable annual payment and is usually omitted from monthly cost modeling, though it should be noted as a 10% profit-based liability."
+                            },
+                            {
+                                "question": "Do state taxes vary much?",
+                                "answer": "Slightly. Most states are between 2% and 4%. CDMX and Edomex are typically at 3%."
+                            },
+                            {
+                                "question": "What is INFONAVIT?",
+                                "answer": "A mandatory 5% employer-only contribution to a national housing fund for employees. It is not deducted from the employee's salary."
+                            },
+                            {
+                                "question": "How do you calculate overtime?",
+                                "answer": "Calculated by hour: The first 9 hours/week are double time; anything beyond 9 hours is triple time. Our pro-calculator models these scenarios."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mx-calc-essentials",
+                    "type": "essentials",
+                    "title": "Required Paystub (CFDI) Data",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "CURP & RFC",
+                                "text": "Unique identification keys for the employee and employer required for tax stamps."
+                            },
+                            {
+                                "title": "Digital Stamp (Timbrado)",
+                                "text": "The cryptographically signed XML code that makes the paystub a legal tax document."
+                            },
+                            {
+                                "title": "Risk Class",
+                                "text": "The company's insurance risk premium (Prima de Riesgo) which affects IMSS rates."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "eor-peo-aor",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR"
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Register a Mexican Entity",
+                "subtitle": "S.A. de C.V. & S. de R.L. Specialists",
+                "description": "Establish your long-term presence in Mexico. We navigate the 'Secretaría de Economía' name permits, Notary Public protocols, and SAT tax registration for a seamless market entry.",
+                "bestFor": "Nearshoring Hubs & High-Growth Ventures.",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "mx-inc-workflow",
+                    "type": "key_steps",
+                    "title": "Entity Registration Workflow",
+                    "subtitle": "Average Timeline: 4-7 Weeks",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Name Authorization (SRE)",
+                                "description": "Applying for the corporate name use permit from the Ministry of Economy. You must provide 3-5 name options in order of preference. Approval usually takes 2-5 business days."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Drafting Articles of Association",
+                                "description": "Defining the corporate purpose (Objeto Social), share capital, and governance structure. This must be meticulously drafted to match SAT requirements for digital invoicing capability."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Notarization (Fe Pública)",
+                                "description": "All founding documents must be signed before a Mexican Notary Public (Notario Público). If shareholders are abroad, apostilled Powers of Attorney (PoA) are required."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "RFC & E-Firma Acquisition",
+                                "description": "The most critical step: Registering the company with the SAT. The Legal Representative must attend an in-person appointment to get the Tax ID (RFC) and the digital signature (e.fina)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Foreign Investment Registry (RNIE)",
+                                "description": "Since the entity will have foreign participation, it must be registered with the National Registry of Foreign Investments (RNIE) within 40 days of incorporation."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mx-inc-comparison",
+                    "type": "insights",
+                    "title": "Choosing Your Legal Structure",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "S.A. de C.V. (Stock Corporation)",
+                                "text": "The most popular for scalable businesses. Easier to sell shares and bring in third-party investors. Minimum of 2 shareholders required."
+                            },
+                            {
+                                "type": "info",
+                                "title": "S. de R.L. (Limited Liability)",
+                                "text": "Similar to a US LLC. Ideal for family businesses or SMEs. More restrictive on partner entry but offers tax pass-through advantages for US parents (Check-the-box)."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "The Legal Representative Requirement",
+                                "text": "Every Mexican company must have a local Legal Representative (Mexican citizen or resident with an RFC). This person carries high responsibility and must often sign for bank accounts and tax filings."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Capital Requirements",
+                                "text": "While the law technically allows for 1 MXN or 2 MXN as minimum equity, we recommend at least 50,000 MXN for an S.A. to simplify initial bank account openings and visa sponsorship."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Corporate Purpose (Objeto Social)",
+                                "text": "Under the new 2021 labor laws, your corporate purpose must NOT overlap with the services you intend to outsource. It needs to be precise and descriptive."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mx-inc-costs",
+                    "type": "cost_breakdown",
+                    "title": "Incorporation Cost breakdown",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Expense Category",
+                                "Estimated Cost",
+                                "Description"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Notary Fees",
+                                    "values": [
+                                        "$1,200 - $2,500",
+                                        "Professional fees for public deed execution and register filing."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Government Fees",
+                                    "values": [
+                                        "$450",
+                                        "Payment for Public Registry of Commerce (RPC) filing."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Legal Setup (Fees)",
+                                    "values": [
+                                        "$3,000 - $6,000",
+                                        "Bilingual drafting, PoA management, and SAT registration assistance."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Registered Address",
+                                    "values": [
+                                        "$1,200 / year",
+                                        "Virtual office or physical space required for VAT-R activation."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "mx-inc-faq",
+                    "type": "faq",
+                    "title": "Mexican Incorporation FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I own 100% of the company as a foreigner?",
+                                "answer": "Yes. In almost all sectors (excluding specific sensitive areas like national security or oil & gas), foreign investors can own 100% of the Mexican entity."
+                            },
+                            {
+                                "question": "Do I need to travel to Mexico to incorporate?",
+                                "answer": "No. You can incorporate via Power of Attorney (PoA) signed in your home country, apostilled, and sent to our team. However, opening a bank account usually requires the Legal Representative to visit in person."
+                            },
+                            {
+                                "question": "What is the NIP?",
+                                "answer": "The NIP is actually called the RFC (Registro Federal de Contribuyentes). It is your 13-digit corporate tax ID used for all invoices and filings."
+                            },
+                            {
+                                "question": "How long does it take to open a bank account?",
+                                "answer": "This is currently the biggest hurdle. Expect 2-4 weeks after getting the RFC. Major banks (BBVA, Banorte, Santander) have rigorous KYC/AML checks for foreign-owned entities."
+                            },
+                            {
+                                "question": "Is a physical office required?",
+                                "answer": "Yes, for 'VAT-R' (active tax status). The SAT often conducts physical inspections ('Verificación de Domicilio') to ensure the business is real before granting full invoicing powers."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mx-inc-essentials",
+                    "type": "essentials",
+                    "title": "Registration Prerequisites",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Corporate Domicile",
+                                "text": "A physical address in Mexico is mandatory for SAT registration; virtual offices are heavily scrutinized."
+                            },
+                            {
+                                "title": "Legal Representative",
+                                "text": "Must be a Mexican citizen or a resident with a valid work permit and RFC."
+                            },
+                            {
+                                "title": "Shareholder PoA",
+                                "text": "Foreign shareholders must provide Apostilled Powers of Attorney to be represented at the Notary."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "incorporation-entity-setup",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)"
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Build Your Team in Mexico",
+                "subtitle": "Tech & Operational Recruitment",
+                "description": "Unlock the high-potential Mexican talent market. From Guadalajara's 'Silicon Valley' tech stack to Mexico City's financial expertise, we help you source, screen, and secure the best candidates for your nearshore operations.",
+                "bestFor": "Engineering, Financial Services & Support.",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "mx-staffing-process",
+                    "type": "key_steps",
+                    "title": "Recruitment Lifecycle",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Sourcing & Pipelining",
+                                "description": "Leveraging LinkedIn, OCCMundial, and local tech communities. Focusing on candidates with high English proficiency (B2/C1) for international roles."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Behavioral & Technical Screening",
+                                "description": "Multi-stage interviews including cultural fit assessment and live coding challenges or technical case studies relevant to the Mexican market context."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Background & 'Socio-Legal' Checks",
+                                "description": "A standard practice in Mexico involving verification of RFC, CURP, and often a 'Socio-Economic Study' (investigación socioeconómica) including home visits for sensitive roles."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Total Rewards Benchmarking",
+                                "description": "Crafting offers that balance base salary with 'Prestaciones Superiores' (premium benefits) like GMM, pantry vouchers, and savings funds to ensure high acceptance rates."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Offer Management & Signing",
+                                "description": "Managing the resignation period (standard 2 weeks) and ensuring the employment contract is signed before the official start date to comply with immediate IMSS registration rules."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mx-staffing-insights",
+                    "type": "insights",
+                    "title": "Mexican Talent Market Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "The Big Three Hubs",
+                                "text": "Guadalajara (IT/Electronics), Mexico City (FinTech/Services), and Monterrey (Industrial/Engineering) are the primary talent magnets. Costs and competition vary significantly between these cities."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "The '13th Month' Expectation",
+                                "text": "While legal, Aguinaldo is viewed as a minimum. Offering 20-30 days of Aguinaldo is a powerful differentiator in a tight talent market."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "English Proficiency Gap",
+                                "text": "While technical skills are world-class, fluid English proficiency is concentrated. You may need to pay a 15-25% premium for fully bilingual candidates."
+                            },
+                            {
+                                "type": "success",
+                                "title": "Nearshoring Opportunity",
+                                "text": "The massive influx of US companies (Nearshoring) is driving up salaries in the northern states and CDMX. Early entry and strong employer branding are critical."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Contractor vs Employee Mindset",
+                                "text": "Most Mexican professionals prefer direct employment with full social security benefits (IMSS) over contractor status due to the long-term credit advantages (Infonavit) and healthcare."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mx-staffing-costs",
+                    "type": "cost_breakdown",
+                    "title": "Staffing Service Fees",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service Type",
+                                "Fee Structure",
+                                "Timeline"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Contingency Search",
+                                    "values": [
+                                        "15% - 20%",
+                                        "Payable only upon successful hire; 90-day guarantee."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Retained Search (Executive)",
+                                    "values": [
+                                        "25% - 30%",
+                                        "Staged payments for C-level or highly niche roles."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Background Check + SE Study",
+                                    "values": [
+                                        "$150 - $300",
+                                        "Per candidate; includes criminal, credit, and house visit."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Recruitment Process Outsourcing (RPO)",
+                                    "values": [
+                                        "Custom Flat Fee",
+                                        "Dedicated recruiters for high-volume scaling (5+ hires/mo)."
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "mx-staffing-faq",
+                    "type": "faq",
+                    "title": "Mexican Talent FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the standard notice period in Mexico?",
+                                "answer": "There is no legal requirement for a notice period, but 15 days (a 'Quincena') is the professional standard. High-level executives often give 30 days."
+                            },
+                            {
+                                "question": "Can I perform credit checks on candidates?",
+                                "answer": "Yes, but you require written consent. Buró de Crédito checks are common for roles in finance or those handling significant cash/inventory."
+                            },
+                            {
+                                "question": "Are there many freelancers in Mexico?",
+                                "answer": "Yes, the 'Resico' (Simplified Tax Regime) has made freelancing easier. However, be careful with labor law reclassification if they work exclusively for you."
+                            },
+                            {
+                                "question": "Which job boards are most used?",
+                                "answer": "OCCMundial is the market leader for local roles, while LinkedIn is dominant for tech and bilingual executive positions. Indeed is also significant for entry-level roles."
+                            },
+                            {
+                                "question": "Is remote work জনপ্রিয় in Mexico?",
+                                "answer": "Extremely. Post-pandemic, tech workers in Mexico strongly prefer remote or hybrid models. The Monterrey and Guadalajara markets are highly competitive regarding remote flexibility."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mx-staffing-goodtoknow",
+                    "type": "good_to_know",
+                    "title": "Cultural Recruitment Tips",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "The 'Hiring Manager' Interview",
+                                "text": "Personal relationships matter. Mexican candidates value meeting their direct manager early in the process to assess rapport and leadership style."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Transparency in Offers",
+                                "text": "Always clarify if the salary offered is 'Neto' (Take-home) or 'Bruto' (Gross). Candidates often talk in 'Neto' terms, while legal systems use 'Bruto'."
+                            },
+                            {
+                                "type": "success",
+                                "title": "University Partnerships",
+                                "text": "For junior talent, partnerships with Tecnológico de Monterrey (ITESM) or UNAM are highly effective for long-term talent pipelining."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "staffing-recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting"
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HR Technology for Mexico",
+                "subtitle": "Compliance-First HR Platforms",
+                "description": "Streamline your Mexican HR operations with software that understands local laws. From automated NOM-035 psychosocial assessments to precise Teletrabajo expense tracking and IMSS-integrated attendance systems.",
+                "bestFor": "Growing Teams & Compliance Managers.",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "mx-hris-implementation",
+                    "type": "key_steps",
+                    "title": "System Implementation Roadmap",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Current State Audit",
+                                "description": "Reviewing existing physical files (expedientes), PTO trackers, and payroll workflows to identify compliance gaps with Mexican labor laws."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Localization Configuration",
+                                "description": "Defining Mexican holidays, Quincenal pay cycles, and statutory benefit formulas (SBC, Aguinaldo, Prima Vacacional) within the system."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "NOM-035 Survey Deployment",
+                                "description": "Setting up the mandatory psychosocial risk surveys required by the Ministry of Labor (STPS) for every employee."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Attendance & Geofencing",
+                                "description": "Implementing digital clock-ins with geofencing to satisfy Mexican 'Daily Attendance Register' requirements, especially for remote workers."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Employee Self-Service (ESS)",
+                                "description": "Rolling out the mobile app where employees can download their stamped CFDI payslips, request vacation days, and update tax address info for CFDI 4.0 accuracy."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mx-hris-insights",
+                    "type": "insights",
+                    "title": "Tech & Compliance Intersection",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "NOM-035 Mandatory Reporting",
+                                "text": "Every employer in Mexico must identify and analyze psychosocial risk factors. An HRIS that digitizes these surveys and generates the required evidence folders is a massive time-saver for potential audits."
+                            },
+                            {
+                                "type": "info",
+                                "title": "LFPDPPP - Data Privacy",
+                                "text": "Your HRIS must comply with the Federal Law on Protection of Personal Data Held by Private Parties. This include having a clear 'Aviso de Privacidad' and 'ARCO' rights management."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Telework Expense Tracking",
+                                "text": "NOM-037 requires reimbursement of internet and electricity for remote workers. A good HRIS automates this calculation and adds it to the payroll run as a non-taxable reimbursement."
+                            },
+                            {
+                                "type": "success",
+                                "title": "Digital Personnel Files",
+                                "text": "Replacing physical folders with encrypted digital files including RFC, CURP, IMSS high, and signed contracts. This ensures 'Audit Readiness' for STPS inspections."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Vacation Law 2023 (Vacaciones Dignas)",
+                                "text": "Ensure your system is updated for the 'Vacaciones Dignas' reform, which increased the first-year minimum vacation from 6 to 12 days. Old systems often fail this tracking."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mx-hris-costs",
+                    "type": "cost_breakdown",
+                    "title": "Platform Investment",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Pricing Model",
+                                "Estimated Range"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Core HRIS License",
+                                    "values": [
+                                        "$4 - $8 per user/mo",
+                                        "Monthly SaaS fee based on headcount."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Localization Pack",
+                                    "values": [
+                                        "$500 - $2,500",
+                                        "One-time setup for Mexican tax/legal compliance modules."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "NOM-035 Module",
+                                    "values": [
+                                        "Included or $1 / user",
+                                        "Standard surveys and reporting evidence kits."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Implementation Service",
+                                    "values": [
+                                        "2x Monthly Fee",
+                                        "Professional services for data migration and training."
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "mx-hris-faq",
+                    "type": "faq",
+                    "title": "HR Tech FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Does the system link to the SAT?",
+                                "answer": "Advanced HRIS platforms can pull the 'Constancia de Situación Fiscal' directly to verify the employee's postal code and tax regime for CFDI 4.0 compliance."
+                            },
+                            {
+                                "question": "Can it handle biometric clock-ins?",
+                                "answer": "Yes, many integrate with fingerprint or facial recognition hardware. Note that under Mexican law, biometric data is considered 'Sensitive Personal Data' requiring higher security."
+                            },
+                            {
+                                "question": "How do I handle vacation requests?",
+                                "answer": "The system should automatically calculate the accrual based on 'Vacaciones Dignas' rules and allow for manager approval workflows, updating the payroll system instantly."
+                            },
+                            {
+                                "question": "Is the software available in Spanish?",
+                                "answer": "Crucial. For Mexican operations, the employee-facing interface must be in Spanish to ensure accessibility and avoid legal claims regarding lack of clarity in work tools."
+                            },
+                            {
+                                "question": "Can it export to SUA/IDSE?",
+                                "answer": "A localized HRIS should provide CSV or text file exports formatted specifically for the IMSS's SUA and IDSE platforms to avoid manual data entry."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mx-hris-essentials",
+                    "type": "essentials",
+                    "title": "Core Local Features",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "CFDI 4.0 Portal",
+                                "text": "Secure storage and distribution of stamped XML and PDF payslips to employees."
+                            },
+                            {
+                                "title": "NOM-035 Risk Tracker",
+                                "text": "Automated survey deployment and 'Evidence Folder' generator for labor audits."
+                            },
+                            {
+                                "title": "Vacation Accrual (Dignas)",
+                                "text": "Real-time calculation of days based on the 2023 labor reform seniority brackets."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "hris-hrms-ats",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS"
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Compliant Mexican Accounting",
+                "subtitle": "Electronic Accounting & NIF Standards",
+                "description": "Ensure your Mexican entity is compliant with SAT's rigorous electronic accounting (Contabilidad Electrónica) requirements. We manage your general ledger, XML validation, and monthly trial balances according to Mexican Financial Reporting Standards (NIF).",
+                "bestFor": "Foreign-Owned S.A. de C.V. and S. de R.L. Entities.",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "mx-accounting-lifecycle",
+                    "type": "key_steps",
+                    "title": "Monthly Accounting Cycle",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "CFDI Retrieval & Validation",
+                                "description": "Downloading all issued and received XML invoices (CFDIs) directly from the SAT portal and validating their status (Active or Cancelled)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Ledger Booking & XML Linking",
+                                "description": "Recording transactions in the general ledger. Under Mexican rules, every accounting entry MUST be linked to the corresponding UUID of the XML invoice."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Bank Reconciliation",
+                                "description": "Matching bank statements with accounting records, ensuring every 'SPEI' transfer or card payment has a supporting invoice and correct VAT treatment."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Trial Balance Generation (Balanza de Comprobación)",
+                                "description": "Producing the monthly trial balance at a Level 2 account detail, mapped to the SAT's mandatory chart of accounts."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Electronic Filing (Buzón Tributario)",
+                                "description": "Uploading the XML files containing the trial balance and chart of accounts to the SAT's portal before the monthly deadline (usually the 7th or 9th of the second following month)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mx-accounting-insights",
+                    "type": "insights",
+                    "title": "Regulatory & Standards Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Contabilidad Electrónica Strictness",
+                                "text": "Missing a monthly upload of your trial balance can trigger automated fines and, more importantly, a 'Restricted' status for your digital invoicing certificate (CSD), effectively halting your business."
+                            },
+                            {
+                                "type": "info",
+                                "title": "NIF vs IFRS/US GAAP",
+                                "text": "While Mexican NIFs are largely converged with IFRS, there are specific differences in inflationary accounting and employee benefit treatments. We provide reconciliation for corporate reporting."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "The Importance of 'Polizas'",
+                                "text": "Mexican accounting is focused on the 'Póliza' (Entry Voucher). Digital accounting software must generate these pólizas with the XML UUID attached for them to be valid for tax purposes."
+                            },
+                            {
+                                "type": "success",
+                                "title": "VAT (IVA) Creditability",
+                                "text": "An expense is only deductible and the VAT only creditable if you have the XML invoice. No XML = No deduction. This makes strict 'CFDI Control' the #1 accounting priority."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Materiality and 'Fecha de Cobro'",
+                                "text": "Mexican tax accounting is primarily 'Cash Basis' for flow-through taxes like VAT. Ensuring the 'Complemento de Pago' (Payment Receipt) is issued correctly by suppliers is critical for VAT recovery."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mx-accounting-costs",
+                    "type": "cost_breakdown",
+                    "title": "Service Fee Model",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Company Complexity",
+                                "Monthly Retainer",
+                                "Included Scope"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Dormant / Holding",
+                                    "values": [
+                                        "$300 - $500",
+                                        "Compliance only (Zero returns), electronic accounting maintenance."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Operational (SME)",
+                                    "values": [
+                                        "$800 - $1,500",
+                                        "Up to 100 transactions, bank rec, monthly tax filing, GL management."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Enterprise / High Volume",
+                                    "values": [
+                                        "$2,500+",
+                                        "Unlimited transactions, AP/AR management, multi-currency, custom reporting."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Annual Tax Return (Year-end)",
+                                    "values": [
+                                        "1 Month's Fee",
+                                        "Preparation of the annual ISR declaration and financial statement package."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "mx-accounting-faq",
+                    "type": "faq",
+                    "title": "Mexico Accounting FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the Dictamen Fiscal?",
+                                "answer": "It is an audit report by a certified public accountant. It is mandatory only for very large companies (approx. $90M+ USD revenue) or specifically regulated entities."
+                            },
+                            {
+                                "question": "Can I use QuickBooks or Xero in Mexico?",
+                                "answer": "Yes, but they are NOT sufficient for Mexican 'Contabilidad Electrónica' as they don't natively generate the required SAT XML files. You usually need a local middleware or a specialized Mexican system like Contpaqi or Aspel."
+                            },
+                            {
+                                "question": "What happens if I lose an XML file?",
+                                "answer": "You can re-download it from the SAT portal (up to 5 years back). However, the invoice must have been issued to your correct RFC in the first place."
+                            },
+                            {
+                                "question": "How long must I keep records?",
+                                "answer": "The statute of limitations is generally 5 years, though for certain items like capital increases or losses, records must be kept permanently."
+                            },
+                            {
+                                "question": "Do I need a Mexican Accountant?",
+                                "answer": "Yes. Only a Mexican 'Contador Público Certificado' with an active SAT registration can sign off on tax filings and electronic accounting submissions."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mx-accounting-essentials",
+                    "type": "essentials",
+                    "title": "Mandatory Filing Obligations",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Monthly Trial Balance",
+                                "text": "Electronic upload of the balance sheet and P&L at account level to the SAT."
+                            },
+                            {
+                                "title": "DIOT (VAT Info Return)",
+                                "text": "Reporting of all transactions with third-party suppliers to verify VAT credits."
+                            },
+                            {
+                                "title": "Annual Information Return",
+                                "text": "Comprehensive year-end filing including calculation of taxable profit and PTU."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mx-compliance-audit",
+                    "type": "key_steps",
+                    "title": "Annual Compliance Review",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contractual Integrity Check",
+                                "description": "Reviewing all individual employment contracts for 'Exclusion Clauses' and ensuring they match the actual duties to prevent labor board challenges."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Mandatory Commissions (Comisiones Mixtas)",
+                                "description": "Verifying the existence and minutes of mandatory committees: Safety & Hygiene, Profit Sharing (PTU), and Training & Productivity."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "NOM-035/NOM-037 Portfolio",
+                                "description": "Completing the evidence folder for psychosocial risks (035) and remote work conditions (037) to survive a Ministry of Labor (STPS) inspection."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Internal Work Regulations (RIT)",
+                                "description": "Updating and registering the Internal Work Regulations with the Federal Center for Conciliation and Labor Registration (CFCRL)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Labor Pass (STPS-Self Check)",
+                                "description": "Utilizing the STPS 'Veloc' platform for self-certification of compliance, which can reduce the frequency of physical inspections."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mx-compliance-insights",
+                    "type": "insights",
+                    "title": "Legal & Labor Landscape",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "The End of Juntas de Conciliación",
+                                "text": "Mexico is transitioning from administrative labor boards to formal Labor Courts. This shift aims for faster trials but requires even more rigorous documentation from employers."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Union Legitimacy Requirement",
+                                "text": "Under USMCA annexes, all collective bargaining agreements (CBAs) must be legitimized via secret ballot by workers. Non-compliant CBAs are considered void."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Profit Sharing (PTU) Caps",
+                                "text": "The 2021 reform capped PTU payments at the higher of 3 months' salary or the average of the last 3 years, significantly reducing risk for high-profit tech/finance firms."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Severance Liability",
+                                "text": "Unjustified termination is expensive: 3 months' salary + 20 days per year + Seniority Premium (12 days/yr). Proper performance documentation is vital to defend 'justified' cause."
+                            },
+                            {
+                                "type": "success",
+                                "title": "REPSE Compliance Hub",
+                                "text": "If you act as a specialized service provider, you must upload your monthly IMSS/SAT/INFONAVIT evidence to the ICSOE and SISUB platforms to keep your REPSE active."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mx-compliance-costs",
+                    "type": "cost_breakdown",
+                    "title": "Liability & Legal Fees",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service Component",
+                                "Estimated Cost",
+                                "Frequency"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Labor Law Retainer",
+                                    "values": [
+                                        "$1,000 - $3,000 / mo",
+                                        "Ongoing advice, contract drafting, and termination management."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Comprehensive Labor Audit",
+                                    "values": [
+                                        "$5,000 - $12,000",
+                                        "Bi-annual deep dive into all files and social security records."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Union Negotiation (CBA)",
+                                    "values": [
+                                        "$10,000+",
+                                        "Negotiating annual wage reviews or new contract legitimacy votes."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Litigation Representation",
+                                    "values": [
+                                        "$150 - $300 / hour",
+                                        "Fees for defending the company in Labor Court (plus success fees)."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "mx-compliance-faq",
+                    "type": "faq",
+                    "title": "Labor Law Compliance FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the maximum probation period?",
+                                "answer": "For general roles, 30 days. For management, executive, or technical roles, it can be up to 180 days. It must be in writing."
+                            },
+                            {
+                                "question": "Is drug testing allowed?",
+                                "answer": "Yes, if it is specified in the Internal Work Regulations (RIT) and the employment contract, usually for safety-sensitive roles."
+                            },
+                            {
+                                "question": "What happens if a worker refuses to sign a termination?",
+                                "answer": "You must file a 'Notice of Termination' (Aviso de Rescisión) with the Labor Court within 5 days. Failure to do so makes the dismissal automatically 'unjustified'."
+                            },
+                            {
+                                "question": "Are non-compete clauses valid in Mexico?",
+                                "answer": "They are controversial. While they can be signed and 'Civil' penalties agreed, the 'Right to Work' is a constitutional right, making enforcement difficult without significant financial compensation."
+                            },
+                            {
+                                "question": "What is the mandatory training?",
+                                "answer": "By law, every company must have a training plan registered with the STPS to improve worker productivity and skills (Capacitación y Adiestramiento)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mx-compliance-essentials",
+                    "type": "essentials",
+                    "title": "Mandatory Company Committees",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Safety & Hygiene Comisión",
+                                "text": "Responsible for investigating work accidents and preventing workplace risks."
+                            },
+                            {
+                                "title": "PTU Distribution Comisión",
+                                "text": "Ensures the 10% profit sharing is split fairly based on days worked and salary."
+                            },
+                            {
+                                "title": "Training & Productivity Comisión",
+                                "text": "Oversees the professional development plans for the workforce."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mx-tax-lifecycle",
+                    "type": "key_steps",
+                    "title": "Monthly Tax Compliance Cycle",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Data Consolidation",
+                                "description": "Aggregating all XML-valid income and expense data. Only 'Facturas' (CFDIs) that match the company's RFC are considered for tax purposes."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "VAT (IVA) Determination",
+                                "description": "Calculating 'IVA Trasladado' (received from sales) vs 'IVA Acreditable' (paid to suppliers) on a cash basis to determine the monthly net payment or refund position."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "ISR Provisional Payment",
+                                "description": "Calculating the monthly Income Tax (ISR) payment based on the 'Coeficiente de Utilidad' (Profit Factor) established in the previous year's annual return."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "DIP Generation",
+                                "description": "Generating the 'Declaración de Impuestos Federales' (DIP) on the SAT portal to obtain the payment line (Línea de Captura)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Tax Remittance",
+                                "description": "Ensuring payment is made via the authorized Mexican bank before the 17th of the following month to avoid surcharges and late fees."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mx-tax-insights",
+                    "type": "insights",
+                    "title": "Strategic Tax Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Corporate ISR Rate",
+                                "text": "Mexico has a flat corporate income tax rate of 30%. Unlike some countries, there is no progressive bracket for corporations; every dollar of taxable profit is taxed at 30%."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "VAT (IVA) Standard Rate",
+                                "text": "The standard VAT rate is 16%. However, for operations in the 'Northern Border Zone', a reduced 8% rate may apply if the company meets specific registry requirements."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "US-Mexico Tax Treaty",
+                                "text": "To avoid double taxation, US parents must submit form W-8BEN-E or a 'Certificate of Residence'. This can reduce withholding on technical assistance or interest payments to 5-10%."
+                            },
+                            {
+                                "type": "success",
+                                "title": "CUFIN & CUCA Accounts",
+                                "text": "Meticulous tracking of the 'After-Tax Profit Account' (CUFIN) allows for the payment of dividends to shareholders without triggering a second layer of corporate tax."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Withholding on Dividends",
+                                "text": "Since 2014, individuals and foreign residents are subject to a 10% withholding tax on dividends paid out of Mexican profits, which may be reduced by treaties."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mx-tax-costs",
+                    "type": "cost_breakdown",
+                    "title": "Tax Compliance Advisory Fees",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service Scope",
+                                "Annual/Monthly Fee",
+                                "Description"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Monthly ISR/IVA Filing",
+                                    "values": [
+                                        "$400 - $800",
+                                        "Standard monthly maintenance for an operational SME."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Annual ISR Declaration",
+                                    "values": [
+                                        "$1,200 - $2,500",
+                                        "Deep review of year-end adjustments, depreciation, and PTU calc."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Transfer Pricing Study",
+                                    "values": [
+                                        "$3,500 - $8,000",
+                                        "Mandatory for companies with cross-border related party transactions."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "VAT Refund (Success Fee)",
+                                    "values": [
+                                        "10% - 20%",
+                                        "Percentage of the recovered tax amount for companies with high VAT credits."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "mx-tax-faq",
+                    "type": "faq",
+                    "title": "Mexican Taxation FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Are VAT refunds easy to get in Mexico?",
+                                "answer": "The SAT is generally efficient with VAT refunds for exporters ('Zero-rated' sales), but for other entities, expect a 40-70 day review process with significant documentation requests."
+                            },
+                            {
+                                "question": "What is the statute of limitations for SAT audits?",
+                                "answer": "The SAT can generally audit records up to 5 years back. In cases of fraud or failure to register, this can extend to 10 years."
+                            },
+                            {
+                                "question": "Can I deduct my car lease in Mexico?",
+                                "answer": "Deductibility for passenger vehicles is capped (approx. 175,000 MXN base). For electric or hybrid vehicles, the cap is much higher (250,000 MXN)."
+                            },
+                            {
+                                "question": "What is the 'Opinion of Compliance'?",
+                                "answer": "The 'Opinión de Cumplimiento' (32-D) is a status check (Positive/Negative) that shows if the company is up to date with filings. A positive opinion is required for all B2B contracts."
+                            },
+                            {
+                                "question": "Do I pay tax on world-wide income?",
+                                "answer": "Yes. Mexican entities are taxed on their worldwide income. Foreign taxes paid can often be credited against Mexican ISR subject to limits."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mx-tax-essentials",
+                    "type": "essentials",
+                    "title": "Critical Tax Deadlines",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Provisional Monthly (17th)",
+                                "text": "Deadline for paying ISR, IVA, and payroll withholdings from the previous month."
+                            },
+                            {
+                                "title": "Annual Return (March 31st)",
+                                "text": "Final corporate tax filing for the previous calendar year."
+                            },
+                            {
+                                "title": "DIOT (End of Month)",
+                                "text": "Informational return specifying all transactions where VAT was paid to suppliers."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "finance-tax-accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting"
+        },
+        {
+            "serviceSlug": "msa",
+            "service": "M & A",
+            "heroData": {
+                "title": "Mexico Transactional Support",
+                "subtitle": "Due Diligence & M&A Legal Advisors",
+                "description": "Navigate Mexican acquisitions and commercial agreements with confidence. We provide bilingual support for Master Service Agreements (MSA), comprehensive due diligence, and deal structuring for foreign investors entering the LATAM market.",
+                "bestFor": "Investors, Private Equity & Global Tech Firms.",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "mx-msa-dealflow",
+                    "type": "key_steps",
+                    "title": "Transaction Support Lifecycle",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "NDA & LOI Drafting",
+                                "description": "Establishing enforceable confidentiality under Mexican law and drafting Letters of Intent that define the target's valuation and exclusivity periods."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Multi-Disciplinary Due Diligence",
+                                "description": "Parallel review of Tax (XML audits), Legal (Corporate books), Labor (Liability checks), and Regulatory (Permits) status of the Mexican target."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "SPA & SHA Negotiation",
+                                "description": "Drafting the Stock Purchase Agreement (SPA) or Shareholders Agreement (SHA). Key focus on 'Escrow' and 'Reps & Warranties' relative to Mexican tax contingencies."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Closing & Notarization",
+                                "description": "Execution of transfer documents before a Mexican Notary Public and updating the 'Libro de Accionistas' (Shareholder Registry Ledger)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Post-Closing Integration (PMI)",
+                                "description": "Filing the mandatory Foreign Investment (RNIE) notice and ensuring the 'Substitution of Employer' process is managed to protect buyer's operational continuity."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mx-msa-insights",
+                    "type": "insights",
+                    "title": "M&A Regulatory Environment",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Asset vs. Stock Sale Taxes",
+                                "text": "In Mexico, an 'Asset Sale' (selling machinery/contracts) triggers VAT and potential double taxation, whereas a 'Stock Sale' (selling the entity) is often more tax-efficient but carries all past tax/labor liabilities."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Labor Liability 'Contingency'",
+                                "text": "In Mexico, labor debts follow the business. If you buy a company, you inherit all severance liabilities and past social security omissions, regardless of what the SPA says."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Choice of Jurisdiction",
+                                "text": "While many MSAs use New York or Delaware law for arbitration, real estate and labor issues in Mexico MUST be governed by local law to be enforceable."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Antitrust (COFECE) Thresholds",
+                                "text": "Deals exceeding approx. $100M USD (inflation adjusted) usually require pre-approval from COFECE. Failing to file can lead to massive fines and order of divestiture."
+                            },
+                            {
+                                "type": "success",
+                                "title": "Trusts (Fideicomisos)",
+                                "text": "Mexican Trusts are a powerful tool for deal structuring, allowing for secure 'Escrow' arrangements and complex management of collateral within the Mexican legal system."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mx-msa-costs",
+                    "type": "cost_breakdown",
+                    "title": "M&A Transaction Costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Expense Category",
+                                "Range (USD)",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Legal Due Diligence",
+                                    "values": [
+                                        "$15,000 - $45,000",
+                                        "Deep dive into corporate, contract, and permit history."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Financial/Tax DD",
+                                    "values": [
+                                        "$20,000 - $60,000",
+                                        "Audit of XML invoices, tax filings, and transfer pricing compliance."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Notary / Govt Fees",
+                                    "values": [
+                                        "$5,000 - $15,000",
+                                        "Official fees to formalize the equity transfer and update registers."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Retainer (Advisory)",
+                                    "values": [
+                                        "1% - 3% of Deal Value",
+                                        "Success-based fee for transaction management and coordination."
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "mx-msa-faq",
+                    "type": "faq",
+                    "title": "Legal Deal Support FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can we use 'Electronically Signed' contracts?",
+                                "answer": "Yes, 'E-signing' via providers like DocuSign is legal (Nom-151), but for high-value corporate transfers, a physical signature before a Notary is still required for public enforceability."
+                            },
+                            {
+                                "question": "How long does a typical DD take in Mexico?",
+                                "answer": "Expect 4 to 8 weeks. Mexican companies (especially SMEs) often have decentralized records, requiring time to reconstruct corporate books and XML files."
+                            },
+                            {
+                                "question": "Is insurance for Reps & Warranties available?",
+                                "answer": "It is emerging for the LATAM market. Global providers now offer policies for Mexico-centric deals, typically for transaction values over $25M USD."
+                            },
+                            {
+                                "question": "What is the role of the Notary?",
+                                "answer": "Unlike in many countries, a Mexican 'Notario Público' is a senior lawyer appointed by the State. They have 'Fe Pública' (Public Faith) and their participation is mandatory for real estate and corporate changes."
+                            },
+                            {
+                                "question": "Can foreigners be Directors?",
+                                "answer": "Yes. However, the 'Legal Representative' often needs to be a resident to handle SAT and local bank interactions effectively."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mx-msa-essentials",
+                    "type": "essentials",
+                    "title": "Core Deal Documents",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Letter of Intent (LOI)",
+                                "text": "Defines the binding exclusivity and non-binding valuation of the Mexican target."
+                            },
+                            {
+                                "title": "Share Purchase Agreement",
+                                "text": "The primary contract governing the transfer of equity and indemnity protections."
+                            },
+                            {
+                                "title": "Shareholder Ledger Update",
+                                "text": "The final internal step to formalize ownership under Mexico's General Law of Commercial Companies."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "msa",
+            "name": "M & A",
+            "serviceName": "M & A"
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Mexican Tech Talent",
+                "subtitle": "Nearshore Software Development",
+                "description": "Leverage Mexico's position as a global tech hub. With over 700,000 developers and alignment with US time zones, Mexico is the premier destination for Agile development, Cloud Engineering, and AI research in Latin America.",
+                "bestFor": "US Tech Firms & Rapidly Scaling Startups.",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "mx-software-lifecycle",
+                    "type": "key_steps",
+                    "title": "Developer Onboarding & Scaling",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Technical Assessment",
+                                "description": "Rigorous vetting using platforms like HackerRank, focused on English proficiency and specific stacks (Python, Java, React)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Infrastructure Setup",
+                                "description": "Provisioning secure hardware and encrypted VOIP/VPN access to ensure data security compliance (GDPR/SOC2)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Agile Integration",
+                                "description": "Aligning development sprints with US product owners, leveraging the 0-2 hour timezone difference."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Quality Assurance",
+                                "description": "Implementing automated testing frameworks and continuous integration (CI/CD) pipelines managed by local senior leads."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Knowledge Transfer",
+                                "description": "Documenting codebases in English and ensuring long-term maintainability through structured handovers."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mx-software-insights",
+                    "type": "insights",
+                    "title": "The Mexican Tech Ecosystem",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Silicon Valley South",
+                                "text": "Guadalajara is known as the 'Silicon Valley of Mexico,' hosting R&D centers for Intel, Oracle, and IBM, alongside a vibrant startup scene."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Timezone Synergy",
+                                "text": "Unlike offshore teams in Asia or Eastern Europe, Mexican teams share the workday with US East and West Coast offices, enabling real-time collaboration."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "IP Ownership Laws",
+                                "text": "Ensure employment contracts explicitly state 'Work for Hire' (Obra por Encargo) to guarantee the company owns all intellectual property created in Mexico."
+                            },
+                            {
+                                "type": "success",
+                                "title": "Bilingual Workforce",
+                                "text": "The top 20% of Mexican developers are highly proficient in English, specifically trained for international collaboration in global enterprises."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Emerging Tech Hubs",
+                                "text": "Beyond CDMX and Guadalajara, Monterrey and Querétaro are emerging as major hubs for FinTech, Aerospace, and Automotive software."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mx-software-costs",
+                    "type": "cost_breakdown",
+                    "title": "Engineering Rate Benchmarks",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Developer Profile",
+                                "Hourly Rate (USD)",
+                                "Experience Level"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Junior Fullstack Dev",
+                                    "values": [
+                                        "$25 - $40 / hr",
+                                        "1-3 years, proficient in 1 core framework."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Senior Backend (Python/Java)",
+                                    "values": [
+                                        "$55 - $85 / hr",
+                                        "5+ years, system architecture and cloud expertise."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Mobile Lead (iOS/Android)",
+                                    "values": [
+                                        "$60 - $90 / hr",
+                                        "Expertise in React Native or Native Swift/Kotlin."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "DevOps / SRE Engineer",
+                                    "values": [
+                                        "$65 - $95 / hr",
+                                        "AWS/Azure certification and Kubernetes experience."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "mx-software-faq",
+                    "type": "faq",
+                    "title": "Software Outsourcing FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can we manage the team directly?",
+                                "answer": "Yes. Most Mexican firms offer 'Staff Augmentation' where you manage the daily tasks, or 'Managed Projects' where they provide the PM."
+                            },
+                            {
+                                "question": "What is the typical notice period for devs?",
+                                "answer": "The legal minimum is 15 days, but in the competitive tech market, 30 days is standard to ensure a smooth transition of knowledge."
+                            },
+                            {
+                                "question": "How do you handle data security?",
+                                "answer": "Compliance with Mexico's Ley Federal de Protección de Datos Personales (LFPDPPP) is mandatory, along with standard ISO/IEC 27001 practices."
+                            },
+                            {
+                                "question": "What are the most popular stacks in Mexico?",
+                                "answer": "Node.js, React, and Python dominate. However, there is a massive legacy base of Java and .NET for financial services."
+                            },
+                            {
+                                "question": "Do I need a local entity to hire devs?",
+                                "answer": "No. You can use an EOR provider or contract them directly as B2B service providers, though EOR is safer for long-term retention."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mx-software-essentials",
+                    "type": "essentials",
+                    "title": "Tech Stack Focus",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Cloud Native (AWS/Azure)",
+                                "text": "High demand for engineers certified in architecture and serverless environments."
+                            },
+                            {
+                                "title": "FinTech / Payments",
+                                "text": "Specialized talent familiar with SPEI (local payment rails) and CNBV regulations."
+                            },
+                            {
+                                "title": "Cybersecurity",
+                                "text": "Focus on data protection and LFPDPPP compliance for enterprise applications."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "software-technology-solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions"
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "heroData": {
+                "title": "LATAM Creative Powerhouse",
+                "subtitle": "Digital Strategy & Visual Storytelling",
+                "description": "Access world-class creative talent in the heart of Mexico City. From SEO localization for the Spanish-speaking market to high-impact video production, our agencies bridge the gap between global brands and Latin American consumers.",
+                "bestFor": "Global Brands & E-commerce Expansions.",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "mx-marketing-lifecycle",
+                    "type": "key_steps",
+                    "title": "Campaign Execution Workflow",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Market Resonance Research",
+                                "description": "Analyzing local slang, consumer behavior, and competitor positioning specifically for the Mexican market."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Creative Transcreation",
+                                "description": "Going beyond translation to adapt the brand's voice, humor, and visual cues to feel authentically Mexican."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Omnichannel Deployment",
+                                "description": "Launching synchronized campaigns across WhatsApp, TikTok, Instagram, and local retail networks."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Influencer Management",
+                                "description": "Partnering with local 'KOLs' (Key Opinion Leaders) and ensuring compliance with 'Profeco' transparency regulations."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Optimization & Reporting",
+                                "description": "Real-time adjustments based on ROAS and engagement metrics, delivered with bilingual reports."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mx-marketing-insights",
+                    "type": "insights",
+                    "title": "Marketing Trends in Mexico",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "WhatsApp is Essential",
+                                "text": "In Mexico, WhatsApp is more than a chat app; it is a primary sales and customer service channel. 90% of internet users use it daily."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Video First",
+                                "text": "Short-form video content on TikTok and Reels has the highest conversion rates for the 18-35 Mexican demographic."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Evolving Ad Regulations",
+                                "text": "Recent changes in 'Social Media Transparency' require clear labeling of paid partnerships to avoid fines from the Mexican consumer protection agency."
+                            },
+                            {
+                                "type": "success",
+                                "title": "CDMX: The Agency Hub",
+                                "text": "Mexico City hosts the regional headquarters for most global advertising networks (WPP, Publicis, Omnicom), ensuring a deep talent pool."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Mobile-First UX",
+                                "text": "Over 95% of social media consumption in Mexico happens on mobile devices. Fast-loading, mobile-optimized landing pages are non-negotiable."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mx-marketing-costs",
+                    "type": "cost_breakdown",
+                    "title": "Marketing Budget Benchmarks",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service Package",
+                                "Typical Monthly Spend",
+                                "Deliverables"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Media Retainer",
+                                    "values": [
+                                        "$1,500 - $3,500",
+                                        "Content creation, community management, and monthly reports."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Full SEO & PPC Management",
+                                    "values": [
+                                        "$3,000 - $7,000",
+                                        "Google Ads, Meta Ads management plus technical SEO audits."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Video Production (High-End)",
+                                    "values": [
+                                        "$10,000 - $25,000",
+                                        "High-fidelity brand videos or TV commercial spots for local markets."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Influencer Campaign",
+                                    "values": [
+                                        "$5,000+",
+                                        "Coordination with 5-10 micro-influencers or 1-2 major celebrities."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "mx-marketing-faq",
+                    "type": "faq",
+                    "title": "LATAM Marketing FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I use Spanish from Spain?",
+                                "answer": "Not recommended. Mexican Spanish has distinct vocabulary and tone. Using 'European Spanish' can make the brand feel distant or foreign."
+                            },
+                            {
+                                "question": "Is Facebook still relevant in Mexico?",
+                                "answer": "Extremely. FB remains a dominant platform for B2C and community-based selling, especially outside of major metropolitan areas."
+                            },
+                            {
+                                "question": "What is Profeco?",
+                                "answer": "The Federal Attorney's Office of the Consumer. They monitor advertising for truthfulness and can shut down campaigns that mislead consumers."
+                            },
+                            {
+                                "question": "How do Mexicans pay online?",
+                                "answer": "Credit cards are growing, but 'Cash-at-OXXO' is a vital payment method for E-commerce that marketing campaigns must acknowledge."
+                            },
+                            {
+                                "question": "Are B2B marketing tactics different?",
+                                "answer": "Personal relationships (The 'Sobremesa') are vital. B2B marketing often serves to secure the initial meeting rather than close the sale online."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mx-marketing-essentials",
+                    "type": "essentials",
+                    "title": "Digital Channels to Master",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "WhatsApp Business API",
+                                "text": "The primary tool for lead nurturing and customer support in the Mexican market."
+                            },
+                            {
+                                "title": "TikTok/Reels Content",
+                                "text": "Essential for engagement with younger demographics and rapid brand scaling."
+                            },
+                            {
+                                "title": "Marketplace SEO (MercadoLibre)",
+                                "text": "Optimizing product listings for LATAM's largest e-commerce platform."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "marketing-agency",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY"
+        }
+    ]
+}

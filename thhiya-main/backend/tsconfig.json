@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "composite": true,
+    "types": [
+      "@types/node",
+      "bun-types"
+    ]
+  },
+  "include": [
+    "src/**/*",
+    "../frontend/src/features/purple-listings/data/**/*.ts",
+    "../frontend/src/features/purple-listings/types/**/*.ts",
+    "../frontend/src/features/purple-listings/utils/**/*.ts",
+    "../frontend/src/features/auth/data/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

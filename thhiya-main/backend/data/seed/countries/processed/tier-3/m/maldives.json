@@ -1,0 +1,511 @@
+{
+    "name": "Maldives",
+    "code": "MV",
+    "slug": "maldives",
+    "flag": "https://flagcdn.com/w160/mv.png",
+    "region": "Asia",
+    "languages": [
+        "Dhivehi"
+    ],
+    "currencies": [
+        "MVR"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Maldives",
+                "subtitle": "Hire in Malé",
+                "description": "Compliant employment in the Atolls. We handle Pension contributions.",
+                "bestFor": "Tourism & Hospitality",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "mv-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Written employment agreement required."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Pension",
+                                "description": "Register with Maldives Pension Administration Office (MPAO)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Work Visa",
+                                "description": "Essential for foreign employees (quota system)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mv-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Pension (MRPS)",
+                                    "values": [
+                                        "7%",
+                                        "7%",
+                                        "Maldives Retirement Pension Scheme. Mandatory."
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "mv-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Ramadan Start",
+                                "description": "March 1 (Estimated)"
+                            },
+                            {
+                                "title": "Eid-ul-Fithr",
+                                "description": "March 30-April 2 (Estimated)"
+                            },
+                            {
+                                "title": "Labor Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Hajj Day",
+                                "description": "June 5"
+                            },
+                            {
+                                "title": "Eid-ul-Al'haa",
+                                "description": "June 6-9 (Estimated)"
+                            },
+                            {
+                                "title": "Islamic New Year",
+                                "description": "June 26"
+                            },
+                            {
+                                "title": "Independence Day",
+                                "description": "July 26"
+                            },
+                            {
+                                "title": "National Day",
+                                "description": "August 24"
+                            },
+                            {
+                                "title": "Victory Day",
+                                "description": "November 3"
+                            },
+                            {
+                                "title": "Republic Day",
+                                "description": "November 11"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mv-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Annual Income (MVR)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Up to 720,000",
+                                    "values": [
+                                        "0%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "720,001 - 1.2M",
+                                    "values": [
+                                        "5.5%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "1.2M - 1.8M",
+                                    "values": [
+                                        "8%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "1.8M - 2.4M",
+                                    "values": [
+                                        "12%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Above 2.4M",
+                                    "values": [
+                                        "15%"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "mv-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Base Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Pension",
+                                "description": "Deduct 7% (Employee Share)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax Base",
+                                "description": "Gross - Pension."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Income Tax",
+                                "description": "Apply progressive rates."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Net",
+                                "description": "Gross - Pension - Tax."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Maldives",
+                "subtitle": "Pvt Ltd",
+                "description": "Foreign Investment.",
+                "bestFor": "Tourism",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "mv-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Ministry of Economic Development",
+                                "description": "Name approval and registration."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Foreign Investment Approval",
+                                "description": "Required for foreign shareholders."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "MIRA",
+                                "description": "Register for Tax (TIN)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mv-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Bank of Maldives",
+                                "description": "National bank."
+                            },
+                            {
+                                "title": "Maldives Islamic Bank",
+                                "description": "Sharia compliant."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Maldives",
+                "subtitle": "Resort Staff",
+                "description": "Hospitality focus.",
+                "bestFor": "Hotels",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "mv-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Malé",
+                                "text": "Capital and business center."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Maldives",
+                "subtitle": "Basic",
+                "description": "Payroll-centric.",
+                "bestFor": "Records",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "mv-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Pension Reports",
+                                "description": "Monthly submission to MPAO."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Maldives",
+                "subtitle": "IFRS",
+                "description": "Standard compliance.",
+                "bestFor": "Reporting",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "mv-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "IFRS",
+                                "text": "Required for all companies."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mv-comp-labor",
+                    "type": "warning",
+                    "title": "Service Charge",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Distribution",
+                                "description": "Mandatory distribution of service charge to employees in tourism sector."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mv-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Income Tax (Non-Bank of Profit > 500k)",
+                                    "values": [
+                                        "15%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Banks",
+                                    "values": [
+                                        "25%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "TGST",
+                                    "values": [
+                                        "16%",
+                                        "Tourism Goods and Services Tax."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "GST",
+                                    "values": [
+                                        "8%",
+                                        "General Goods and Services Tax."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Maldives",
+                "subtitle": "Common Law",
+                "description": "Mixed with Sharia.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "mv-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Law",
+                                "text": "Employment contracts governed by Employment Act."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Maldives",
+                "subtitle": "Favara",
+                "description": "Instant payments.",
+                "bestFor": "Banking",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "mv-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Favara",
+                                "description": "Instant Payment System by MMA."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Maldives",
+                "subtitle": "Digital",
+                "description": "Social media heavy.",
+                "bestFor": "Tourism",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "mv-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Instagram",
+                                "text": "Highly visual, perfect for tourism market."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

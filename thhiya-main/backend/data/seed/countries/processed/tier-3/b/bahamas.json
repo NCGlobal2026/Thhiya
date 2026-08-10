@@ -1,0 +1,2120 @@
+{
+    "name": "Bahamas",
+    "code": "BS",
+    "slug": "bahamas",
+    "flag": "https://flagcdn.com/w160/bs.png",
+    "region": "Americas",
+    "languages": [
+        "English"
+    ],
+    "currencies": [
+        "BSD",
+        "USD"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR & PEO in Bahamas",
+                "subtitle": "Compliant hiring in the tax-neutral Caribbean",
+                "description": "Onboard and manage your remote talent in the Bahamas without a local entity. Our EOR partners navigate the Employment Act 2001, handling National Insurance (NIB) contributions, localized contracts, and payroll taxation (0% income tax), allowing you to focus on growth in Nassau or Freeport.",
+                "bestFor": "Companies hiring remote Caribbean talent or financial services professionals",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "type": "key_steps",
+                    "title": "EOR Onboarding Process",
+                    "subtitle": "Average timeline: 10-15 business days",
+                    "id": "eor-steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract Drafting & Local Alignment",
+                                "description": "Drafting employment contracts that comply with the Bahamas Employment Act 2001. This includes defining the 40-hour work week, overtime rates (1.5x), and public holiday pay (2x)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "NIB Registration",
+                                "description": "Assigning or verifying the employee's National Insurance Number. The EOR provider registers the employee under their local Bahamian entity for statutory reporting."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Document Verification",
+                                "description": "Collection of government-issued ID (Passport), proof of Bahamian residence, and bank account details for BSD/USD salary disbursement."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Work Permit Initiation (if applicable)",
+                                "description": "For expatriate hires, the EOR acts as the local sponsor for the Department of Immigration. This process can take 3-6 months and requires a Labor Certificate."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "First Day Induction",
+                                "description": "Standardized onboarding regarding remote work policies, equipment delivery (if handled by EOR), and setup on the global HRIS platform."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "cost_breakdown",
+                    "title": "Estimated Employer Costs (2025)",
+                    "id": "eor-costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Cost Component",
+                                "Rate/Amount",
+                                "Frequency"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "EOR Management Fee",
+                                    "values": [
+                                        "$500 - $900",
+                                        "Per employee / month"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Employer NIB Contribution",
+                                    "values": [
+                                        "5.90%",
+                                        "Monthly (capped at $3,207/mo)"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Public Holiday Pay",
+                                    "values": [
+                                        "Double time",
+                                        "As required"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Private Medical Insurance",
+                                    "values": [
+                                        "$150 - $450",
+                                        "Monthly (optional but recommended)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Total Estimated Burden",
+                                    "values": [
+                                        "~6.5% - 10%",
+                                        "Beyond base salary"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "insights",
+                    "title": "Expert Compliance Insights",
+                    "id": "eor-insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "0% Personal Income Tax",
+                                "text": "Employees in the Bahamas are not subject to personal income tax. This makes the 'net take-home' pay significantly higher than in many other jurisdictions, even with NIB deductions."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Strict Termination Rules",
+                                "text": "The Employment Act 2001 requires 2 weeks' notice for employees with 6 months to 2 years of service, and 1 month's notice for those with 2+ years. Failure to provide notice requires 'pay in lieu'."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Novruz Holidays & Bonuses",
+                                "text": "Unlike some regions, there is no mandatory 13th-month salary in the Bahamas, but 'Christmas Bonuses' are a deeply ingrained cultural expectation in the private sector."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Probationary Periods",
+                                "text": "While 6 months is standard, the law allows up to 12 months for probation. During this time, termination notice requirements are typically minimal (usually 1 week)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "insights",
+                    "title": "Risk Management & Mitigation",
+                    "id": "eor-risk",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Permanent Establishment (PE) Risk",
+                                "text": "Having a high-level executive working via an EOR in the Bahamas for literal years can occasionally risk triggering a Permanent Establishment for the parent company, especially if they are signing contracts locally."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Work Permit Quotas",
+                                "text": "The Bahamian government prioritizes 'Bahamianization'. Companies are expected to maintain a healthy ratio of local to expatriate staff, typically 3:1 or higher depending on the industry."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Employee Data Backup",
+                                "text": "Ensure your EOR provider has a robust Disaster Recovery plan. Given the hurricane risk in the region, digital data redundancy is a critical business continuity factor."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "faq",
+                    "title": "Extended EOR FAQ",
+                    "id": "eor-faq-ext",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Are there specific notice periods for retirement?",
+                                "answer": "The Employment Act doesn't specify different notice for retirement, but mutual agreements are nearly universal for senior roles to ensure a smooth handover."
+                            },
+                            {
+                                "question": "What happens if an employee is injured at home?",
+                                "answer": "The NIB 'Industrial Benefits' covers workplace injuries, including those for designated 'Work from Home' setups, provided the accident occurred during core working hours."
+                            },
+                            {
+                                "question": "Can I provide a car allowance?",
+                                "answer": "Yes. This is a common and non-taxable (at the individual level) benefit in the Bahamas, though it should be clearly documented in the employment contract."
+                            },
+                            {
+                                "question": "Is there a mandatory retirement age?",
+                                "answer": "No statutory retirement age exists in the private sector, but most companies align with the NIB pensionable age of 65."
+                            },
+                            {
+                                "question": "Can an EOR hire short-term contractors?",
+                                "answer": "Yes, many EORs offer 'Contractor Management' which handles the compliance and payment for project-based work without full employment status."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "faq",
+                    "title": "Bahamas EOR FAQ",
+                    "id": "eor-faq",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I pay my Bahamian employees in USD?",
+                                "answer": "Yes. The Bahamian Dollar (BSD) is pegged 1:1 with the USD. Many EORs allow for salary disbursement in USD, which is preferred by expatriates and high-level professionals."
+                            },
+                            {
+                                "question": "What are the mandatory leave entitlements?",
+                                "answer": "Employees are entitled to 2 weeks of paid vacation after 1 year of service, increasing to 3 weeks after 7 years. Sick leave is typically 1 week per year but can be extended under specific medical conditions."
+                            },
+                            {
+                                "question": "Is severance pay mandatory?",
+                                "answer": "Yes, for redundancy. For employees with 1+ year of service, they are entitled to 2 weeks' pay for each year of service (capped at 24 weeks for non-managerial staff)."
+                            },
+                            {
+                                "question": "Are remote work expenses taxable?",
+                                "answer": "Since there is no personal income tax, reimbursements or stipends for internet and equipment are not taxed at the individual level."
+                            },
+                            {
+                                "question": "What insurance is required for remote workers?",
+                                "answer": "Beyond NIB (which covers some disability), most professional employees expect private medical insurance, as public healthcare can have long wait times for specialized care."
+                            },
+                            {
+                                "question": "How is the 13th month bonus handled?",
+                                "answer": "It is not mandatory, but if provided, it is usually paid in December. Since there is no income tax, the employee receives the full gross amount minus the 3.9% NIB."
+                            },
+                            {
+                                "question": "What is the notice period for a director?",
+                                "answer": "Directors of an IBC are governed by the Articles of Association, but if they are also employees, the Employment Act's one-month notice rule typically applies."
+                            },
+                            {
+                                "question": "Can an EOR sponsor a visa for a US citizen?",
+                                "answer": "Yes, but the 'Labor Certificate' must first be obtained to prove no Bahamian could do the job. This is the hardest part of the sponsorship process."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "good_to_know",
+                    "title": "Cultural & Business Nuances",
+                    "id": "eor-culture",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Relationship-First Business",
+                                "text": "Bahamian business culture is highly relational. Even in a remote EOR setup, occasional face-to-face meetings or video calls are valued more than purely transactional emails."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Standard Working Hours",
+                                "text": "The standard work week is 40 hours. Any work beyond 8 hours a day or 40 hours a week must be compensated at the overtime rate of time-and-a-half."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Public Holiday Observance",
+                                "text": "The Bahamas has many public holidays (Junkanoo, Whit Monday, etc.). If an employee works on these days, they MUST be paid double their standard rate by law."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "essentials",
+                    "title": "Local EOR Partners & Support",
+                    "id": "eor-directory",
+                    "content": {
+                        "items": [
+                            {
+                                "name": "Bahamas Business Solutions",
+                                "description": "Local boutique firm specializing in payroll and labor compliance for Nassau-based firms.",
+                                "website": "https://www.bahamasbusiness.com"
+                            },
+                            {
+                                "name": "Global PEO Services (Bahamas)",
+                                "description": "International EOR provider with dedicated local entities to handle multi-island hiring.",
+                                "website": "https://globalpeoservices.com"
+                            },
+                            {
+                                "name": "Deloitte Bahamas (HR Advisory)",
+                                "description": "Strategic advisory for complex staffing and expatriate hiring within the financial services sector.",
+                                "website": "https://www.deloitte.com/bs"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "key_steps",
+                    "title": "Monthly Payroll Framework",
+                    "subtitle": "Standard Semi-Monthly Payouts",
+                    "id": "payroll-steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Time & Attendance Capture",
+                                "description": "Recording 40 hours per week plus some overtime. Overtime is strictly regulated for non-managerial staff (8+ hours/day)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "NIB Contribution Calculation",
+                                "description": "Calculating the 3.9% employee and 5.9% employer portions based on the weekly insurable ceiling ($740 as of recent updates)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Net Salary Disbursement",
+                                "description": "Since there is no income tax, net salary is 'Gross minus NIB'. Payment is typically made via direct deposit at local banks like RBC or CIBC FirstCaribbean."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "NIB Filing (C10 Forms)",
+                                "description": "Submission of monthly contribution reports (Form C10) to the National Insurance Board by the 15th of the following month."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Annual Reporting & Audit",
+                                "description": "Preparation of annual earnings summaries for employees and verification for the Business License renewal process."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "cost_breakdown",
+                    "title": "Statutory Deductions (2025)",
+                    "id": "payroll-deductions",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Description",
+                                "Employee Rate",
+                                "Employer Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Personal Income Tax",
+                                    "values": [
+                                        "0.00%",
+                                        "None"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "NIB (Social Security)",
+                                    "values": [
+                                        "3.90%",
+                                        "5.90%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Industrial Accident Insurance",
+                                    "values": [
+                                        "None",
+                                        "Included in NIB"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Total Mandatory Taxes",
+                                    "values": [
+                                        "3.90%",
+                                        "5.90%"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "insights",
+                    "title": "Payroll Compliance Strategy",
+                    "id": "payroll-insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "The C10 Form Deadline",
+                                "text": "All payroll contributions must be remitted to NIB by the 15th day of the month following the payroll period. Late submissions trigger a 5% penalty per month."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Salary Payment Frequency",
+                                "text": "By law, salaries must be paid at intervals of no more than one month. However, a bi-weekly or semi-monthly cycle (15th and end of month) is standard practice."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "USD/BSD Parity",
+                                "text": "Always maintain a local BSD account for NIB payments even if you pay employees in USD. NIB only accepts Bahamian Dollars for statutory contributions."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Gratuities & Commissions",
+                                "text": "In the tourism and financial sectors, commissions and tips must be factored into the 'insurable earnings' up to the ceiling for NIB purposes."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "faq",
+                    "title": "Payroll FAQ",
+                    "id": "payroll-faq",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Are there any local taxes for Nassau vs Freeport?",
+                                "answer": "Freeport (Grand Bahama) has certain exemptions under the Hawksbill Creek Agreement, but NIB contributions apply nationwide without regional variation."
+                            },
+                            {
+                                "question": "What is the minimum wage in the Bahamas?",
+                                "answer": "As of early 2023, the national minimum wage rose to $260 per week ($1,126 per month) for both public and private sectors."
+                            },
+                            {
+                                "question": "How are sick days paid?",
+                                "answer": "Employers pay for sick leave up to the limit defined in the contract or the Employment Act (usually 1 week). For long-term sickness, NIB provides 'Sickness Benefit' to the employee."
+                            },
+                            {
+                                "question": "Can I withhold salary for damages?",
+                                "answer": "No. Under the Employment Act, an employer cannot make deductions from wages except for statutory requirements or with the express written consent of the employee."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "essentials",
+                    "title": "Annual Compliance Checklist",
+                    "id": "payroll-checklist",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Monthly NIB Remittance",
+                                "description": "Remit 9.8% total contribution to the nearest NIB local office or via the online portal.",
+                                "deadline": "15th of every month"
+                            },
+                            {
+                                "title": "Business License Return",
+                                "description": "Report annual turnover (which includes verified payroll records) for the Department of Inland Revenue.",
+                                "deadline": "March 31st annually"
+                            },
+                            {
+                                "title": "NIB Contribution Statements",
+                                "description": "Provide employees with their annual summary of NIB deductions for their records.",
+                                "deadline": "Upon request / Year-end"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "table",
+                    "title": "Overtime Rates & Rules",
+                    "id": "payroll-overtime",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Work Type",
+                                "Multiplier",
+                                "Limit"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Standard Overtime (>40h)",
+                                    "values": [
+                                        "1.5x",
+                                        "None (within safe limits)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Public Holidays",
+                                    "values": [
+                                        "2.0x",
+                                        "Required by law"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Sundays (Standard)",
+                                    "values": [
+                                        "1.0x",
+                                        "Unless it exceeds 40h/week"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "key_steps",
+                    "title": "How the Calculation Works",
+                    "id": "calc-how-it-works",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross Input & Ceiling Check",
+                                "description": "The system takes the gross monthly or weekly wage and checks it against the NIB ceiling ($740/week or ~$3,207/month)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "NIB Portioning",
+                                "description": "It applies 3.9% to the employee and 5.9% to the employer for the portion of earnings up to the ceiling."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax Identification",
+                                "description": "It verifies that no personal income tax or corporate income tax deductions apply to the salary."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Net & Burden Output",
+                                "description": "Finally, it subtracts the employee NIB from the gross for the 'Take-Home' and adds the employer NIB for the 'Total Cost'."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "table",
+                    "title": "Sample Calculation (Monthly)",
+                    "id": "payroll-calc-table",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employee Portion",
+                                "Employer Portion"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Gross Salary ($4,000)",
+                                    "values": [
+                                        "$4,000.00",
+                                        "$4,000.00"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "NIB (at $3,207 cap)",
+                                    "values": [
+                                        "-$125.07",
+                                        "+$189.21"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Income Tax",
+                                    "values": [
+                                        "$0.00",
+                                        "None"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Net Take-Home",
+                                    "values": [
+                                        "$3,874.93",
+                                        "-"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Total Employer Cost",
+                                    "values": [
+                                        "-",
+                                        "$4,189.21"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "insights",
+                    "title": "Calculation Nuances",
+                    "id": "calc-nuance",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Net-to-Gross Calculations",
+                                "text": "When negotiating 'net' salaries with Bahamian candidates, employers must calculate backward to include the employee's 3.9% NIB portion to arrive at the true gross salary for the contract."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Overtime Inclusion",
+                                "text": "Remember that NIB must be calculated on the total gross, which includes overtime and any recurring stipends, as long as it doesn't exceed the ceiling."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Currency Fluctuations",
+                                "text": "While the BSD/USD is pegged, international wires may incur bank fees. Always ensure the 'final take-home' accounts for these if paying from a non-Bahamian bank."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "faq",
+                    "title": "Payroll Calculator FAQ",
+                    "id": "calc-faq",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is the $740 ceiling per week or month?",
+                                "answer": "The ceiling is $740 per week, which translates to roughly $3,207 per month. Earnings above this threshold are not taxed for NIB."
+                            },
+                            {
+                                "question": "Do I need to calculate VAT on payroll?",
+                                "answer": "No. Salaries are not subject to VAT. However, service fees from an EOR provider or an external payroll agency will have 10% VAT applied."
+                            },
+                            {
+                                "question": "How are executive bonuses calculated?",
+                                "answer": "Bonuses are added to the gross for the month they are paid. If the total exceeds $3,207, the NIB is only calculated on that first $3,207."
+                            },
+                            {
+                                "question": "Is the calculator updated for 2025?",
+                                "answer": "Yes, our tools are calibrated to the most recent NIB contribution tables and Business License thresholds current for 2025."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "faq",
+                    "title": "Bahamas Payroll Calculator FAQ",
+                    "id": "calc-faq-ext",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Does this work for part-time employees?",
+                                "answer": "Yes. The rates remain the same (3.9% / 5.9%), applied to the actual amount earned, provided it is above the minimum wage threshold."
+                            },
+                            {
+                                "question": "What about the 1% industrial accident fee?",
+                                "answer": "In the Bahamas, this is included within the standard 5.9% employer contribution and is not a separate line item like in some other Caribbean nations."
+                            },
+                            {
+                                "question": "Are there deductions for the ‘Public Purse’?",
+                                "answer": "No. Aside from NIB, there are no mandatory payroll-based social levies or defense taxes current in the Bahamian labor code for 2025."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation in Bahamas",
+                "subtitle": "Global business setup in the premier Caribbean hub",
+                "description": "Establish your International Business Company (IBC) or Domestic LLC in the Bahamas. Benefit from a tax-neutral environment, no corporate income tax, and the mature legislative framework of the IBC Act 2000, perfect for holding companies and international offshore operations.",
+                "bestFor": "Asset protection, investment holdings, and international trade entities",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "type": "key_steps",
+                    "title": "IBC Registration Roadmap",
+                    "subtitle": "Timeline: 5-10 business days",
+                    "id": "incorp-steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Choice of Entity Type",
+                                "description": "Select between an International Business Company (IBC) for offshore activities or a Domestic Limited Liability Company (LLC) for local operations."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Name Reservation",
+                                "description": "Register a unique name with the Registrar General's Department. Names must end with 'Limited', 'Ltd', 'Corp', or 'S.A.'."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Registered Agent Appointment",
+                                "description": "Every Bahamian IBC MUST have a local Registered Agent and a Registered Office in the Bahamas. This agent facilitates all government filings."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Filing of M&A",
+                                "description": "The Memorandum and Articles of Association are filed digitally. Shareholder and Director names are maintained by the Agent (privacy is a key benefit)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Business License & Tax ID",
+                                "description": "Apply for a Business License from the Department of Inland Revenue (DIR) and obtain a TIN (Tax Identification Number) for VAT purposes."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "cost_breakdown",
+                    "title": "Incorp Cost Estimates (2025)",
+                    "id": "incorp-costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Fee Type",
+                                "Amount (USD)",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Gov Registration Fee",
+                                    "values": [
+                                        "$330 - $1,000",
+                                        "Based on authorized capital"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Registered Agent Fee",
+                                    "values": [
+                                        "$800 - $1,500",
+                                        "Annual recurring"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Business License Fee",
+                                    "values": [
+                                        "$100 - $0.5% turnover",
+                                        "Annual renewal"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Company Seal",
+                                    "values": [
+                                        "$75 - $150",
+                                        "One-time cost"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Total Estimated Setup",
+                                    "values": [
+                                        "$2,500 - $4,500",
+                                        "Including professional fees"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "insights",
+                    "title": "Strategic Regulatory Insights",
+                    "id": "incorp-insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Economic Substance Act 2018",
+                                "text": "Entities involved in 'relevant activities' (Banking, Insurance, Shipping, Holding) must demonstrate actual substance in the Bahamas to remain compliant."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Zero Corporate Tax",
+                                "text": "The Bahamas does not impose corporate income tax, capital gains tax, or withholding tax on dividends for IBCs, making it a premier financial hub."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Director Residency",
+                                "text": "There is no legal requirement for directors or shareholders of an IBC to be residents of the Bahamas, allowing for 100% foreign ownership."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "faq",
+                    "title": "Incorporation FAQ",
+                    "id": "incorp-faq",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I open a bank account without visiting?",
+                                "answer": "It is increasingly difficult. While some international banks allow for remote PoA setup, most corporate accounts requires the managing director's physical presence for KYB."
+                            },
+                            {
+                                "question": "What is the minimum share capital for an IBC?",
+                                "answer": "There is no legal minimum paid-up capital. Most IBCs are registered with a standard authorized capital of $50,000, as this hits the lowest registration fee bracket."
+                            },
+                            {
+                                "question": "Is a company secretary required?",
+                                "answer": "While not strictly mandatory for an IBC, most companies appoint one to manage the board minutes and ensure the Registered Agent has updated records."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "essentials",
+                    "title": "Required Documentation Checklist",
+                    "id": "incorp-docs",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Notarized Passports",
+                                "description": "Required for all Ultimate Beneficial Owners (UBOs) and Directors.",
+                                "critical": true
+                            },
+                            {
+                                "title": "Proof of Address",
+                                "description": "Utility bills or bank statements less than 3 months old.",
+                                "critical": true
+                            },
+                            {
+                                "title": "Professional Reference",
+                                "description": "Letter from a lawyer or accountant for each major shareholder.",
+                                "critical": false
+                            },
+                            {
+                                "title": "Source of Wealth Declaration",
+                                "description": "Detailed explanation of the origin of the company's funding.",
+                                "critical": true
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "good_to_know",
+                    "title": "Hawksbill Creek Agreement",
+                    "id": "incorp-hawksbill",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Freeport Tax Benefits",
+                                "text": "Businesses operating within the City of Freeport (under the Hawksbill Creek Agreement) enjoy additional exemptions from certain duties and real property taxes until 2035."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "VAT Registration Threshold",
+                                "text": "Mandatory VAT registration occurs when annual turnover exceeds $100,000. Voluntary registration is available for smaller businesses."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Bahamas",
+                "subtitle": "Recruit top-tier talent in Nassau and beyond",
+                "description": "Access the Bahamian talent pool with 24/7 recruitment support. From expert financial analysts in the private banking sector to hospitality management specialists for the world-class tourism industry, we find the right fit for your remote or on-site team.",
+                "bestFor": "Financial services firms and luxury hospitality brands",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "type": "key_steps",
+                    "title": "Hiring Lifecycle in Bahamas",
+                    "subtitle": "Time to hire: 4-8 weeks",
+                    "id": "staffing-steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Job Specification & Salary Benchmarking",
+                                "description": "Aligning roles with local expectations. Management roles in Nassau often demand higher salaries due to the cost of living."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Multi-Channel Sourcing",
+                                "description": "Advertising on BahamasLocal.com, LinkedIn (highly active), and the Department of Labour's Job Exchange portal."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Screening & Background Checks",
+                                "description": "Verification of degrees (often from University of The Bahamas or US-based colleges) and police records as per sector requirements."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Interview & Assessment",
+                                "description": "Direct interviews focusing on both technical aptitude and soft skills essential for the relational Bahamian business culture."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Offer Negotiation & Onboarding",
+                                "description": "Finalizing the BSD/USD salary split (if applicable) and ensuring the employment contract aligns with the Employment Act 2001."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "insights",
+                    "title": "Labor Market Insights",
+                    "id": "staffing-insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "University specialized Talent",
+                                "text": "The University of The Bahamas (UB) produces strong graduates in Accounting, Law, and Tourism Management. Recruitment often peaks around graduation in May."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "The Labor Certificate Requirement",
+                                "text": "Before hiring a foreigner, an employer MUST prove to the Department of Labour that no Bahamian is available for the role, a process known as getting a 'Labor Certificate'."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Skills in Demand",
+                                "text": "There is a significant shortage of specialized IT professionals (Cloud Architecture, FinTech development) in the local market, often requiring international searches."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "essentials",
+                    "title": "Talent Sourcing Platforms",
+                    "id": "talent-platforms",
+                    "content": {
+                        "items": [
+                            {
+                                "name": "Department of Labour 'Skills Bank'",
+                                "description": "National database for Bahamian job seekers and employers.",
+                                "website": "https://www.jobseekers.bahamas.gov.bs"
+                            },
+                            {
+                                "name": "LinkedIn Bahamas",
+                                "description": "Primary professional networking site for corporate and tech talent."
+                            },
+                            {
+                                "name": "Caribbean Jobs",
+                                "description": "Regional portal often used for senior management and specialized roles."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "faq",
+                    "title": "Staffing FAQ",
+                    "id": "staffing-faq",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "How long does it take to get a work permit?",
+                                "answer": "A short-term permit can take 4-6 weeks, while long-term permits (up to 3 years) can take 3-6 months depending on the industry and role."
+                            },
+                            {
+                                "question": "What is the average notice period for professionals?",
+                                "answer": "For management roles, it is standard to require 1 month's notice, while for entry-level staff, 1-2 weeks is more common."
+                            },
+                            {
+                                "question": "Can I hire contractors instead of full-time staff?",
+                                "answer": "Yes, but ensure the contract clearly defines them as independent contractors to avoid retroactive employment claims under the Employment Act."
+                            },
+                            {
+                                "question": "Are there mandatory employee health benefits?",
+                                "answer": "While NIB provides basic coverage, private health insurance is standard for professional roles and is a key factor in talent attraction."
+                            },
+                            {
+                                "question": "IsJunkanoo leave a thing?",
+                                "answer": "While not statutory, many companies offer flexibility or half-days during the major Junkanoo festival periods (Boxing Day and New Year's Day)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "good_to_know",
+                    "title": "Employee Benefit Norms",
+                    "id": "staffing-benefits",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Transportation Allowances",
+                                "text": "With no public rail system, most employees rely on private cars. A 'Mileage Allowance' or provided gas card is a valued perk."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Health Insurance (The Gold Standard)",
+                                "text": "Private health insurance with global cover is the single most important non-salary benefit for Bahamian professionals."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS in Bahamas",
+                "subtitle": "Digital HR solutions for the Bahamas",
+                "description": "Modernize your workforce management with HRIS platforms tailored for Bahamian labor laws. Automate NIB calculations, manage digital leave requests, and ensure compliance with the Bahamas Data Protection Act through secure, cloud-based infrastructure.",
+                "bestFor": "Growing companies needing scalable employee management",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "type": "key_steps",
+                    "title": "HRIS Implementation Steps",
+                    "subtitle": "Setup time: 4-6 weeks",
+                    "id": "hris-steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "System Audit & Selection",
+                                "description": "Verify the platform supports 0% income tax settings and the specific NIB weekly/monthly contribution ceilings."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Employee Data Migration",
+                                "description": "Securing sensitive NI Numbers and contract details into the database under local data privacy standards."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Policy Configuration",
+                                "description": "Defining vacation rules (2 weeks standard) and sick leave accruals as per the Employment Act 2001."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "User Training",
+                                "description": "Onboarding the local HR team and employees onto the 'Self-Service' portal for payslip access and leave booking."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Go-Live & Support",
+                                "description": "Running a parallel payroll month with the old system to ensure NIB decimals are perfectly accurate before final rollout."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "insights",
+                    "title": "HR Tech Strategy",
+                    "id": "hris-insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Data Privacy Compliance",
+                                "text": "The Data Protection (Privacy of Personal Information) Act 2003 governs how employee data must be stored. Cloud servers should ideally be in secure, recognized jurisdictions."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Custom NIB Formulas",
+                                "text": "Most international HRIS systems require custom math formulas to handle the NIB 'Ceiling' correctly, as it doesn't follow standard percentage-only rules."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Digital Payslips",
+                                "text": "While paper is still common, the transition to digital payslips via HRIS is highly encouraged by the Department of Inland Revenue for audit trails."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "faq",
+                    "title": "HRIS FAQ",
+                    "id": "hris-faq",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Does the system need to be hosted in the Bahamas?",
+                                "answer": "No, but it must comply with the Data Protection Act regarding the security and access of Bahamian citizens' data."
+                            },
+                            {
+                                "question": "Can I integrate my Bahamian HRIS with global payroll?",
+                                "answer": "Yes, many modern platforms allow API integrations with international payroll providers, ensuring a single source of truth for all global employees."
+                            },
+                            {
+                                "question": "Is tech support available in the EST timezone?",
+                                "answer": "The Bahamas operates on EST (UTC-5), so choosing a provider with North American support hours is crucial for local HR teams."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "essentials",
+                    "title": "Recommended HRIS Features",
+                    "id": "hris-features",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "NIB Auto-Calculation",
+                                "description": "Built-in logic for the 3.9% / 5.9% split with current ceilings."
+                            },
+                            {
+                                "title": "Multicurrency Support",
+                                "description": "Ability to display contracts in USD while paying in BSD."
+                            },
+                            {
+                                "title": "Leave Management",
+                                "description": "Tracking of mandatory vs non-mandatory leave categories."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "cost_breakdown",
+                    "title": "HRIS Subscription Estimates",
+                    "id": "hris-costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Requirement",
+                                "Monthly Fee (USD)",
+                                "One-time Setup"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Small Team (1-50)",
+                                    "values": [
+                                        "$150 - $450",
+                                        "$0 - $500"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Mid-Market (51-250)",
+                                    "values": [
+                                        "$500 - $1,500",
+                                        "$1,000 - $2,500"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Enterprise (251+)",
+                                    "values": [
+                                        "Contact for Quote",
+                                        "Varies by Scope"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Services in Bahamas",
+                "subtitle": "Professional financial management in Nassau",
+                "description": "Ensure your Bahamian entity maintains impeccable financial records. From IFRS-compliant bookkeeping to Business License auditing and VAT filing, our accounting partners provide the local expertise needed to navigate the archipelago's unique financial reporting landscape.",
+                "bestFor": "IBCs, local businesses, and investment holdings",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "type": "key_steps",
+                    "title": "Accounting Setup Process",
+                    "subtitle": "Getting started with local reporting",
+                    "id": "accounting-steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Chart of Accounts Customization",
+                                "description": "Developing a ledger that tracks BSD and USD transactions separately for accurate multi-currency reporting."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "VAT System Integration",
+                                "description": "Setting up the 10% VAT tracking for all relevant sales and inputs to ensure monthly or quarterly DIR filings."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Record Keeping Procedures",
+                                "description": "Implementing digital backup systems to maintain 7 years of financial records as required by the Companies Act."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Monthly Reconciliation",
+                                "description": "Regular auditing of bank statements and NIB payments to ensure zero compliance gaps."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Annual Audit Preparation",
+                                "description": "Liaising with a BICA-certified accountant to prepare the necessary reports for the Business License renewal."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "cost_breakdown",
+                    "title": "Accounting Service Fees",
+                    "id": "accounting-costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service Tier",
+                                "Monthly Fee (USD)",
+                                "Scope"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Basic Bookkeeping",
+                                    "values": [
+                                        "$400 - $800",
+                                        "Monthly reconciliation & VAT"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Corporate Accounting",
+                                    "values": [
+                                        "$1,200 - $2,500",
+                                        "Full management accounts & NIB"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Audit / Review Report",
+                                    "values": [
+                                        "$1,500 - $5,000",
+                                        "One-time (required for License)"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "insights",
+                    "title": "Financial Reporting Insights",
+                    "id": "accounting-insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "IFRS Standards",
+                                "text": "The Bahamas follows International Financial Reporting Standards (IFRS). All professional financial statements must adhere to these global norms."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "The BICA Requirement",
+                                "text": "Any financial review or audit required by the government MUST be signed by a member in good standing of the Bahamas Institute of Chartered Accountants (BICA)."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "VAT Record Retention",
+                                "text": "The Department of Inland Revenue are very strict about VAT records. Maintain all tax invoices in a searchable digital format for at least 7 years."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "faq",
+                    "title": "Accounting & Audit FAQ",
+                    "id": "accounting-faq",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the penalty for late accounting records?",
+                                "answer": "Failure to keep proper records as required by the Companies Act can result in fines and complicates the mandatory annual Business License renewal."
+                            },
+                            {
+                                "question": "Do I need a local bank account for bookkeeping?",
+                                "answer": "While an IBC can operate with an offshore account, a local account is practically necessary for paying local vendors, NIB, and Business License fees."
+                            },
+                            {
+                                "question": "Is Quickbooks used in the Bahamas?",
+                                "answer": "Yes, Quickbooks Online is the most popular accounting software for local SMEs and international IBCs due to its ease of multi-currency setup."
+                            },
+                            {
+                                "question": "Can my accounting be done remotely?",
+                                "answer": "Yes, provided the digital platform allows for cloud access. However, ensure your accountant is familiar with the DIR's VAT filing portal requirements."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "essentials",
+                    "title": "Accounting Compliance Gateway",
+                    "id": "accounting-gateways",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "BICA Member Search",
+                                "description": "Verify your auditor is a licensed member of the Bahamas Institute of Chartered Accountants."
+                            },
+                            {
+                                "title": "DIR VAT Portal",
+                                "description": "The online system for all indirect tax reporting and payments."
+                            },
+                            {
+                                "title": "NIB Employer Portal",
+                                "description": "Used to cross-reference payroll accounting with statutory payments."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "key_steps",
+                    "title": "Compliance Calendar",
+                    "subtitle": "Annual filing deadlines",
+                    "id": "compliance-calendar",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Business License Renewal",
+                                "description": "Submission of verified turnover figures and proof of NIB compliance. Deadline: March 31st."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Economic Substance Declaration",
+                                "description": "Filing via the portal to confirm if the entity performed 'relevant activities' during the fiscal year. Deadline: 9 months after year-end."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "FATCA/CRS Reporting",
+                                "description": "For financial institutions, reporting of account holder information to the Competent Authority. Deadline: September 30th."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "AML/KYC Audit",
+                                "description": "Annual internal review of client files and transaction monitoring policies to prevent financial crime."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "essentials",
+                    "title": "Compliance Monitoring Tools",
+                    "id": "compliance-tools",
+                    "content": {
+                        "items": [
+                            {
+                                "name": "DIR Online Portal",
+                                "description": "Primary gateway for VAT and Business License filings.",
+                                "website": "https://inlandrevenue.finance.gov.bs"
+                            },
+                            {
+                                "name": "NIB Employer Self-Service (ESS)",
+                                "description": "Portal for tracking contribution history and employee registrations.",
+                                "website": "https://www.nib-bahamas.com"
+                            },
+                            {
+                                "name": "Economic Substance Portal",
+                                "description": "Dedicated site for annual substance declarations.",
+                                "website": "https://taxreporting.finance.gov.bs"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "insights",
+                    "title": "AML/KYC Strictness",
+                    "id": "compliance-aml",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Enhanced Due Diligence (EDD)",
+                                "text": "For Politically Exposed Persons (PEPs) or high-risk sectors, Bahamian compliance officers will require proof of the original source of wealth stretching back decades."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Record Keeping Compliance",
+                                "text": "All KYC documents must be updated every 2-3 years for active clients to ensure that all information remains current and accurate under Central Bank guidelines."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "faq",
+                    "title": "Compliance FAQ",
+                    "id": "compliance-faq",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What happens if I fail the Economic Substance test?",
+                                "answer": "Initial failure leads to a fine and a requirement to remediate. Persistent failure can lead to fines up to $300,000 and the company being struck off the register."
+                            },
+                            {
+                                "question": "How do I prove local substance?",
+                                "answer": "Substance is proven by having a local physical office, local expenditures commensurate with activity, and local board meetings with qualified personnel present."
+                            },
+                            {
+                                "question": "Is there a register of beneficial owners?",
+                                "answer": "Yes, but it is not public. The Register of Beneficial Ownership (RBO) is a secure, private database accessible only by Bahamian law enforcement and regulatory authorities."
+                            },
+                            {
+                                "question": "Are PEPs prohibited from owning companies?",
+                                "answer": "No, but they are subject to much higher scrutiny and mandatory 'Enhanced Due Diligence' by both the Registered Agent and any local banks."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "cost_breakdown",
+                    "title": "Compliance Related Costs",
+                    "id": "compliance-costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Filing / Service",
+                                "Estimated Fee (USD)",
+                                "Frequency"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Annual Return Filing",
+                                    "values": [
+                                        "$350 - $600",
+                                        "Annual"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Economic Substance Declaration",
+                                    "values": [
+                                        "$500 - $1,500",
+                                        "Annual"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Business License Certification",
+                                    "values": [
+                                        "$1,000 - $3,000",
+                                        "Annual"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "KYC Remediation (Per Entity)",
+                                    "values": [
+                                        "$250 - $500",
+                                        "As needed"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "good_to_know",
+                    "title": "Regulatory Authorities",
+                    "id": "regulatory-bodies",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Central Bank of The Bahamas",
+                                "text": "Regulates the banking and trust sector, ensuring monetary stability and managing exchange controls."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Securities Commission",
+                                "text": "Oversees the investment funds, securities, and capital markets, including the new DARE Act for digital assets."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Insurance Commission",
+                                "text": "Responsible for the prudential supervision of all insurance companies operating in and from within the Bahamas."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "cost_breakdown",
+                    "title": "Tax & Duty Checklist (2025)",
+                    "id": "tax-rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Tax Category",
+                                "Rate",
+                                "Applies To"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Personal Income Tax",
+                                    "values": [
+                                        "0.00%",
+                                        "Everyone"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Corporate Income Tax",
+                                    "values": [
+                                        "0.00%",
+                                        "IBCs and Local Cos"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Capital Gains Tax",
+                                    "values": [
+                                        "0.00%",
+                                        "All Asset Sales"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Value Added Tax (VAT)",
+                                    "values": [
+                                        "10.00%",
+                                        "Local Goods & Services"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Stamp Duty",
+                                    "values": [
+                                        "2.5% - 10%",
+                                        "Real Estate & Transfers"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "insights",
+                    "title": "Strategic Tax Insights",
+                    "id": "tax-insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "The Business License Tax",
+                                "text": "Instead of corporate income tax, the Bahamas charges a tax based on gross turnover. This ranges from $100 (for very small businesses) up to 1.5% for specific sectors."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "VAT Filing Frequency",
+                                "text": "Businesses with turnover over $5M file monthly; others typically file quarterly. The deadline is strict: the 21st day of the month following the period."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Property Tax Exemptions",
+                                "text": "First-time homeowners (Bahamians) and certain industrial projects in Freeport can apply for significant Real Property Tax exemptions."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "faq",
+                    "title": "Tax FAQ",
+                    "id": "tax-faq",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is there a withholding tax on dividends?",
+                                "answer": "No. The Bahamas does not impose any withholding tax on dividends, interest, or royalties paid to non-residents."
+                            },
+                            {
+                                "question": "What happens if I miss my VAT filing?",
+                                "answer": "The penalties are severe, starting at $1,000 per missing return and increasing with the amount of tax owed. It is critical to file even if you have 'zero' activity."
+                            },
+                            {
+                                "question": "What is the real property tax rate?",
+                                "answer": "For commercial property, it is typically $1,000 plus 1% on the value over $500,000. Rates are lower for residential properties."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "key_steps",
+                    "title": "VAT Registration Roadmap",
+                    "id": "tax-vat-steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Threshold Monitoring",
+                                "description": "Reviewing cumulative 12-month turnover to detect when it crosses the $100,000 mandatory threshold."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "DIR Registration Application",
+                                "description": "Submitting company documents, bank details, and turnover projections via the DIR Online Portal."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "VAT Certificate Issuance",
+                                "description": "Receiving the official TIN and VAT certificate, which must be clearly displayed at the place of business."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "System Alignment",
+                                "description": "Updating invoices and accounting software to include the 10% VAT charge and show the mandatory TIN."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "essentials",
+                    "title": "Critical Tax Deadlines",
+                    "id": "tax-deadlines",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "VAT Filings",
+                                "description": "21st of each month (Monthly) or 21st of the month following the quarter end."
+                            },
+                            {
+                                "title": "Business License",
+                                "description": "Renewal application by January 31st; Payment due by March 31st."
+                            },
+                            {
+                                "title": "Real Property Tax",
+                                "description": "Due by March 31st each year to receive potential early-payment discounts."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "MSA & Legal in Bahamas",
+                "subtitle": "Robust legal frameworks based on English Common Law",
+                "description": "Secure your business relationships in the Bahamas with professionally drafted Master Service Agreements and Legal advice. Our partners navigate the Employment Act, the Companies Act, and the IBC Act, providing a stable legal foundation for your global operations.",
+                "bestFor": "Contractual protection and corporate governance",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "type": "key_steps",
+                    "title": "Contractual Safeguards",
+                    "subtitle": "Essential clauses for Bahamas MSAs",
+                    "id": "msa-clauses",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Jurisdiction & Governing Law",
+                                "description": "Standard practice is to name the Courts of the Commonwealth of the Bahamas, which are based on English Common Law."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Data Protection Provisions",
+                                "description": "Ensuring any cross-border data transfer complies with the 2003 Data Protection Act specifically for Bahamian citizens."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Dispute Resolution (Arbitration)",
+                                "description": "The Bahamas is positioning itself as a hub for international arbitration. Including an arbitration clause can avoid slow-moving local courts."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Payment Terms in USD",
+                                "description": "Explicitly stating USD as the currency of contract to avoid any peg-related confusion, though parity is stable."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "essentials",
+                    "title": "Legal Documentation Essentials",
+                    "id": "msa-docs",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Employment Act 2001",
+                                "description": "The primary statute governing all labor relations in the Commonwealth."
+                            },
+                            {
+                                "title": "International Business Companies Act",
+                                "description": "The law defining the structure and rights of offshore companies."
+                            },
+                            {
+                                "title": "Data Protection Act 2003",
+                                "description": "Governing the handling of personal information."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "faq",
+                    "title": "Legal & MSA FAQ",
+                    "id": "msa-faq",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I use US law for a Bahamian contract?",
+                                "answer": "You can for commercial B2B contracts, but for employment, Bahamian law (Employment Act 2001) is mandatory and overrides any foreign law choice."
+                            },
+                            {
+                                "question": "How long does a civil lawsuit take in the Bahamas?",
+                                "answer": "The court system can be slow. It is highly recommended to include mediation or arbitration clauses to resolve disputes within months rather than years."
+                            },
+                            {
+                                "question": "Are non-compete clauses enforceable?",
+                                "answer": "Yes, but they must be 'reasonable' in terms of duration (usually 6-12 months) and geographic scope. Overly broad clauses are often struck down by courts."
+                            },
+                            {
+                                "question": "Do I need a local lawyer to draft an MSA?",
+                                "answer": "While not strictly required for B2B, having a local legal review is vital to ensure that clauses regarding local taxes and data privacy are fully compliant."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "cost_breakdown",
+                    "title": "Legal & Documentation Fees",
+                    "id": "msa-costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Legal Service",
+                                "Estimated Rate (USD)",
+                                "Timeline"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "MSA Custom Drafting",
+                                    "values": [
+                                        "$1,500 - $3,500",
+                                        "1-2 Weeks"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Employment Contract Template",
+                                    "values": [
+                                        "$750 - $1,500",
+                                        "1 Week"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Legal Opinion (ES/Tax)",
+                                    "values": [
+                                        "$2,000 - $5,000",
+                                        "2-3 Weeks"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Corporate Retainer",
+                                    "values": [
+                                        "$500+/month",
+                                        "On-going"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "insights",
+                    "title": "IP & Confidentiality Nuances",
+                    "id": "msa-ip-nuances",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Work-for-Hire Default",
+                                "text": "Under Bahamian law, IP created by an employee during the course of employment generally belongs to the employer, but explicit clauses in the MSA are highly recommended for clarity with contractors."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Data Protection Fines",
+                                "text": "Breaching the Data Protection Act can lead to fines up to $100,000. MSAs must include robust indemnity clauses specifically covering data privacy breaches."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Digital Signatures",
+                                "text": "Electronic signatures are legally recognized in the Bahamas under the Electronic Communications and Transactions Act, facilitating remote deal-making."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Solutions in Bahamas",
+                "subtitle": "Accelerating digital transformation in the Caribbean",
+                "description": "Leverage the Bahamas' growing tech ecosystem. From FinTech platforms supporting the 'Sand Dollar' (the world's first CBDC) to Hospitality management systems, explore software solutions designed for the Caribbean market and the Grand Bahama technology hub.",
+                "bestFor": "FinTech startups and digital transformation projects",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "type": "key_steps",
+                    "title": "Digital Transformation Roadmap",
+                    "id": "software-steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Local Infrastructure Assessment",
+                                "description": "Evaluating fiber-optic connectivity (Nassau/Freeport) and cloud latency for regional operations."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Sand Dollar Integration",
+                                "description": "For retail and payment apps, integrating with the Central Bank's digital currency ecosystem."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Mobile-First Development",
+                                "description": "Prioritizing mobile interfaces, as Bahamian consumers and professionals are heavy smartphone users."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "essentials",
+                    "title": "Tech Community Resources",
+                    "id": "software-resources",
+                    "content": {
+                        "items": [
+                            {
+                                "name": "Silicon Bahama",
+                                "description": "Community initiative connecting tech founders and developers across the archipelago.",
+                                "website": "https://www.siliconbahama.com"
+                            },
+                            {
+                                "name": "Grand Bahama Port Authority (GBPA) Tech",
+                                "description": "Supporting the development of Freeport as a digital hub.",
+                                "website": "https://www.gbpa.com"
+                            },
+                            {
+                                "name": "Central Bank Sand Dollar Portal",
+                                "description": "Resources for developers integrating the Bahamian CBDC.",
+                                "website": "https://www.sanddollar.bs"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "faq",
+                    "title": "Software & Tech FAQ",
+                    "id": "software-faq",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Are there tax incentives for tech companies?",
+                                "answer": "Yes. Under the Commercial Enterprises Act, certain tech industries can benefit from streamlined work permits and potential tax holidays in designated zones."
+                            },
+                            {
+                                "question": "What is the internet speed like in Nassau?",
+                                "answer": "Nassau and Freeport have robust fiber-optic networks with speeds up to 1Gbps, though consistency can vary during major storm seasons."
+                            },
+                            {
+                                "question": "Is cloud hosting available locally?",
+                                "answer": "Most companies use AWS or Azure nodes in the US (Miami region) due to proximity and lower latency, as there are few large-scale local data centers."
+                            },
+                            {
+                                "question": "How popular is the Sand Dollar for B2B?",
+                                "answer": "Adoption is growing. For software companies, being early adopters of Sand Dollar payments provides a competitive edge in local government contracts."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "cost_breakdown",
+                    "title": "IT & Software Infrastructure Costs",
+                    "id": "software-costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Infrastructure Tier",
+                                "Monthly Est. (USD)",
+                                "Connectivity"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Standard Fiber (Nassau)",
+                                    "values": [
+                                        "$150 - $300",
+                                        "200Mbps - 500Mbps"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Dedicated Internet Access",
+                                    "values": [
+                                        "$800 - $1,500",
+                                        "SLA Guaranteed 1Gbps"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Local IT Support",
+                                    "values": [
+                                        "$1,000 - $2,500",
+                                        "Managed Services"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Cloud Storage (AWS/Miami)",
+                                    "values": [
+                                        "$200+",
+                                        "Based on Usage"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "insights",
+                    "title": "Grand Bahama: The Tech Archipelago",
+                    "id": "gb-tech-insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "The Tech Hub Initiative",
+                                "text": "The Grand Bahama Port Authority is actively positioning Freeport as a offshore technology hub, offering zero-tax incentives and simplified company setup for tech firms."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "DARE Act Compliance",
+                                "text": "If your software involves digital assets or crypto, you must comply with the Digital Assets and Registered Exchanges (DARE) Act 2020, regulated by the Securities Commission."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Disaster Recovery",
+                                "text": "Always host your mission-critical databases in multiple regions. While Nassau has robust infrastructure, geographic redundancy outside the hurricane belt (e.g., US North East or Europe) is standard for local blue-chip firms."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Agencies in Bahamas",
+                "subtitle": "Brand storytelling in a world-class destination",
+                "description": "Capture the Bahamian and international audience. From luxury travel marketing to private banking branding, our marketing partners specialize in visual storytelling, social media engagement, and high-impact digital campaigns within the Bahamian archipelago.",
+                "bestFor": "Luxury resorts, real estate developments, and financial boutiques",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "type": "key_steps",
+                    "title": "Campaign Launch Strategy",
+                    "id": "marketing-steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Demographic Analysis",
+                                "description": "Segmenting between local residents in Nassau/Freeport and the high-net-worth tourism visitors."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Social Media Dominance",
+                                "description": "Leveraging Facebook and Instagram, which are the primary centers of digital discourse and consumer discovery in the Bahamas."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Influencer & Event Marketing",
+                                "description": "Partnering with local cultural influencers andJunkanoo festive content for high organic reach."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "essentials",
+                    "title": "Media & Creative Outlets",
+                    "id": "marketing-outlets",
+                    "content": {
+                        "items": [
+                            {
+                                "name": "The Tribune Bahamas",
+                                "description": "Leading daily newspaper for print and digital display advertising.",
+                                "website": "http://www.tribune242.com"
+                            },
+                            {
+                                "name": "Nassau Guardian",
+                                "description": "Key outlet for reaching the professional and governmental demographic in the capital.",
+                                "website": "https://thenassauguardian.com"
+                            },
+                            {
+                                "name": "ZNS Bahamas",
+                                "description": "National broadcaster for video and radio campaigns targeting the entire archipelago.",
+                                "website": "https://znsbahamas.com"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "faq",
+                    "title": "Marketing FAQ",
+                    "id": "marketing-faq",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the best language for ads?",
+                                "answer": "All advertising is in English. However, using local Bahamian dialect ('Bahamianese') effectively in creative copy can significantly increase engagement for local brands."
+                            },
+                            {
+                                "question": "Is VAT applicable to digital ads?",
+                                "answer": "Yes. Digital advertising services sold by local agencies or to local residents are subject to the standard 10% VAT rate."
+                            },
+                            {
+                                "question": "How influential is Facebook in the Bahamas?",
+                                "answer": "Extremely. Facebook remains the primary platform for news and community discussion, making it the most cost-effective channel for B2C marketing."
+                            },
+                            {
+                                "question": "Are there restrictions on financial services ads?",
+                                "answer": "Yes. Marketing for investment or banking services is strictly regulated by the Securities Commission and must avoid making unsubstantiated claims."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "cost_breakdown",
+                    "title": "Marketing & Media Budgets",
+                    "id": "marketing-costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Activity",
+                                "Estimated Cost (USD)",
+                                "Medium"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Media Management",
+                                    "values": [
+                                        "$800 - $2,500/mo",
+                                        "FB/IG/LinkedIn"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Full-Page Print Ad",
+                                    "values": [
+                                        "$1,200 - $2,000",
+                                        "Tribune/Guardian"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Radio Spot (30 sec)",
+                                    "values": [
+                                        "$75 - $150",
+                                        "ZNS / 100 Jamz"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Billboard (Nassau)",
+                                    "values": [
+                                        "$1,500 - $3,500/mo",
+                                        "Out-of-Home"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "insights",
+                    "title": "Cultural Marketing Nuances",
+                    "id": "marketing-cultural-insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Community-First Approach",
+                                "text": "Bahamians value personal relationships. Sponsoring local community events or regattas yields higher brand loyalty than aggressive digital-only cold calling."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Visual Palette",
+                                "text": "Marketing collateral often utilizes 'Tropical Luxe' aesthetics—vibrant aquamarine, sand, and sunset tones that resonate with both locals and tourists."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Timing Campaigns",
+                                "text": "Marketing activity peaks between October and April (High Tourism Season). Plan your major brand launches at least 3 months in advance of this window."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,2857 @@
+{
+    "name": "Cote d'Ivoire",
+    "code": "CI",
+    "slug": "cote-divoire",
+    "flag": "https://flagcdn.com/w160/ci.png",
+    "region": "Africa",
+    "languages": [
+        "French"
+    ],
+    "currencies": [
+        "XOF (West African CFA Franc)"
+    ],
+    "services": [
+        {
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "heroData": {
+                "title": "EOR/PEO Services in Côte d’Ivoire",
+                "subtitle": "Compliant hiring without a local entity",
+                "description": "Expand into the Ivorian market through our Employer of Record (EOR) services. We handle the 2024 Labor Code compliance, French-language contracts, and CNPS social security filings while you manage your team directly.",
+                "bestFor": "Companies seeking fast market entry without the overhead of incorporation.",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "ci-eor-cost-1",
+                    "type": "cost_breakdown",
+                    "title": "Employment Cost Infrastructure 2025",
+                    "order": 1,
+                    "content": {
+                        "markdown": "### Strategic Cost Management\n\nEmployer costs in Côte d'Ivoire are among the most structured in the WAEMU region. Total employer burden typically ranges between 18% and 24% over the gross salary. Accurate budgeting requires accounting for the progressive social security caps updated for 2025.",
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Rate / Amount",
+                                "Frequency"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "EOR Management Fee",
+                                    "values": [
+                                        "$450 - $900 per employee",
+                                        "Monthly"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Employer Social Security (CNPS)",
+                                    "values": [
+                                        "~15.5% - 18.5%",
+                                        "Monthly"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Pension Contribution",
+                                    "values": [
+                                        "7.7% of gross",
+                                        "Monthly"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Family Allowances",
+                                    "values": [
+                                        "5.75% of gross",
+                                        "Monthly"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Accident Insurance (Accident du Travail)",
+                                    "values": [
+                                        "2% - 5% (Dept on Risk)",
+                                        "Monthly"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Onboarding & IT Setup",
+                                    "values": [
+                                        "$600 - $1,500 One-time",
+                                        "One-time"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "French Contract Customization",
+                                    "values": [
+                                        "$400 fixed",
+                                        "Per hire"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Accrued 13th Month / Holiday Pay",
+                                    "values": [
+                                        "~10% of monthly base",
+                                        "Monthly Accrual"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ci-eor-steps-1",
+                    "type": "key_steps",
+                    "title": "Employee Onboarding Workflow",
+                    "order": 2,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contractual Compliance Review",
+                                "description": "Drafting of mandatory French-language 'Contrat de Travail' following the 2020 Labor Reform. Integration of local CBA (Convention Collective Interprofessionnelle) terms."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "KYC and Document Collection",
+                                "description": "Verification of National ID/Passport, Academic Diplomas, and Ivorian Social Security (CNPS) registration number. Expat vetting includes Ivory Coast work permit eligibility checks."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Mandatory Medical Visit",
+                                "description": "In coordination with the Labor Department, employees must undergo a certified medical fit-for-work examination at a recognized medical center."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Benefit Enrollment & Insurance",
+                                "description": "Setup of statutory pension via CNPS and optional (but customary) private medical insurance (Mutuelle) with local providers."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Digital Payroll Registration",
+                                "description": "Mapping of bank details (BIC/RIB) for XAF transfers. Registration in the EOR's local payroll system with 2025 Ivory Coast tax logic applied."
+                            },
+                            {
+                                "stepNumber": 6,
+                                "title": "First Month Execution & Filing",
+                                "description": "Disbursement of net salary by the 25th. Filing of 'Droit de Travail' returns and withholding remittances to the OIC (Office Ivoirien des Changes)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-eor-insights-1",
+                    "type": "insights",
+                    "title": "Strategic Hiring Intelligence",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Labor Code Flexibility",
+                                "text": "Recent reforms in Côte d’Ivoire have introduced more flexibility in remote work agreements, but strict compliance with fixed-term contract (CDD) renewals (max 2 years) is critical."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "13th Month Customary Law",
+                                "text": "While not strictly mandatory by the general code, most professional collective agreements (CBA) mandate a 13th-month bonus, typically paid in December."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Bilingual Advantage",
+                                "text": "While French is the official language for administration, the professional tier in Abidjan is increasingly bilingual; providing contracts in both French and English is a major retention booster."
+                            },
+                            {
+                                "type": "important",
+                                "title": "Expat Quotas 2025",
+                                "text": "For specific sectors like tech and finance, the Ivory Coast government monitors expat/local ratios. Ensure your EOR partner has sufficient 'local substance' to sponsor visas."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Termination Laws",
+                                "text": "Termination for 'convenience' is not recognized. All dismissals must have documented just cause or economic justification to avoid Labor Inspectorate penalties."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-eor-faq-1",
+                    "type": "faq",
+                    "title": "Hiring & EOR FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I hire a remote developer in Bouaké via EOR?",
+                                "answer": "Yes, EOR covers all of Côte d’Ivoire. The contract must specify the remote work arrangement and ensure the employee has access to a workspace meeting health and safety standards."
+                            },
+                            {
+                                "question": "How long is the standard probation period?",
+                                "answer": "Probation varies: 1 month for laborers, 2 months for staff/supervisors, and 3-6 months for managers, generally renewable once as per local CBA."
+                            },
+                            {
+                                "question": "Are there mandatory meal vouchers?",
+                                "answer": "Meal allowances (Prime de Panier) of around 600-1,200 XAF per day are standard and carry specific tax-exempt benefits for the employer."
+                            },
+                            {
+                                "question": "What is the standard work week?",
+                                "answer": "The standard legal work week is 40 hours in Côte d'Ivoire, typically organized as 8 hours per day over 5 days."
+                            },
+                            {
+                                "question": "What happens if an employee falls sick?",
+                                "answer": "Sick leave is partially subsidized by social security (CNPS) after a 3-day waiting period, provided medical certificates are filed within 48 hours."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-eor-goodtoknow-1",
+                    "type": "good_to_know",
+                    "title": "Ivorian Business Culture",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Hierarchy and Protocol",
+                                "text": "Business interactions in Abidjan are formal. Using titles (Monsieur/Madame) and last names is expected until a personal relationship is established."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Directness and Consensus",
+                                "text": "Communication is generally indirect. It is important to confirm agreements in writing following meetings to ensure total alignment."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Religious Diversity",
+                                "text": "Côte d'Ivoire has a rich mix of Islamic and Christian holidays. Respecting these breaks is key for employee scheduling and morale."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-eor-essentials-1",
+                    "type": "essentials",
+                    "title": "Compliance Checkpoints",
+                    "order": 6,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Compliance Item",
+                                "Reference",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Tax ID (NIF)",
+                                    "values": [
+                                        "Mandatory",
+                                        "Required for all payroll tax returns"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "CNPS Registration",
+                                    "values": [
+                                        "Mandatory",
+                                        "Register within 8 days of hire"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Labor Inspectorate Filing",
+                                    "values": [
+                                        "Annual",
+                                        "Declaration of workforce numbers (DAPE)"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ci-payroll-cost-1",
+                    "type": "cost_breakdown",
+                    "title": "Payroll Tax Architecture 2025",
+                    "order": 1,
+                    "content": {
+                        "markdown": "### Strategic Tax Planning\n\nIvorian payroll tax is composed of three primary layers: Income Tax on Salaries (ITS), National Contribution (CN), and General Income Tax (IGR). For 2025, there is an increased focus on digital reporting (e-impot) for all payroll remittances.",
+                        "table": {
+                            "headers": [
+                                "Tax/Fund",
+                                "Employee Rate",
+                                "Employer Rate",
+                                "Basis"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Income Tax (ITS)",
+                                    "values": [
+                                        "1.5% - 2.8%",
+                                        "Nil",
+                                        "Taxable Gross"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "National Contribution (CN)",
+                                    "values": [
+                                        "1.2% - 10% (Prog)",
+                                        "Nil",
+                                        "Taxable Gross"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Social Security (CNPS)",
+                                    "values": [
+                                        "6.3%",
+                                        "7.7% - 11.75%",
+                                        "Capped Gross"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Family Allowance",
+                                    "values": [
+                                        "Nil",
+                                        "5.75%",
+                                        "Capped Gross"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Accident Insurance",
+                                    "values": [
+                                        "Nil",
+                                        "2% - 5%",
+                                        "Uncapped Gross"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Payroll Tax (Employer)",
+                                    "values": [
+                                        "Nil",
+                                        "2.8% (Local) / 12% (Expat)",
+                                        "Gross Salary"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Housing Fund (FDFP)",
+                                    "values": [
+                                        "Nil",
+                                        "1.5%",
+                                        "Gross Salary"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Apprenticeship Tax",
+                                    "values": [
+                                        "Nil",
+                                        "0.4% - 0.6%",
+                                        "Gross Salary"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ci-payroll-steps-1",
+                    "type": "key_steps",
+                    "title": "Monthly Processing Lifecycle",
+                    "order": 2,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Data Ingestion & Gross Calculation",
+                                "description": "Aggregating base pay, overtime (25% to 100% premiums), and taxable allowances (housing, car). Calculations in XAF."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Tax Withholding & CNPS Logic",
+                                "description": "Application of the 2025 CNPS retirement cap. Calculation of ITS, CN, and IGR using specific Ivorian tax quotients (Quotient Familial)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Net Pay Disbursement",
+                                "description": "Fund transfer to local bank accounts (e.g., SGBCI, Ecobank, NSIA Bank) via SWIFT/XAF clearing by the last business day."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "E-Impôt Filing (Livre de Paie)",
+                                "description": "Generating and submitting the monthly 'Livre de Paie' and tax return (VSD) through the DGI online portal by the 15th of the follow month."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Social Security Remittance",
+                                "description": "Electronic filing and payment of CNPS contributions. Issuance of individual employee contribution certificates."
+                            },
+                            {
+                                "stepNumber": 6,
+                                "title": "Year-End Reconciliation (DIS)",
+                                "description": "Preparation of the annual 'Déclaration Individuelle des Salaires' (DIS) due by Jan 31st, reconciling all monthly filings."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-payroll-insights-1",
+                    "type": "insights",
+                    "title": "Regulatory Intelligence",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Currency and Exchange Control",
+                                "text": "Côte d'Ivoire uses the XAF (pegged to EUR). While contracts can be in USD, bank transfers and tax filings MUST be executed in XAF to comply with BCEAO regulations."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "ITS vs. Expat Payroll Tax",
+                                "text": "Employers pay a significantly higher payroll tax (12% vs 2.8%) for expatriate employees. Correct classification in the e-impot portal is vital to avoid audits."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Tax Quotient (Quotient Familial)",
+                                "text": "Ensure employee marital and dependent data is updated annually. The 'Quotient Familial' can massively reduce an employee's ITS and IGR liability."
+                            },
+                            {
+                                "type": "important",
+                                "title": "DIGITAL PORTAL (DGI)",
+                                "text": "Manual paper filings are no longer accepted for medium-to-large companies. Ensure your local payroll provider is API-integrated with the DGI e-impot system."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-payroll-faq-1",
+                    "type": "faq",
+                    "title": "Payroll Execution FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the payroll deadline in Abidjan?",
+                                "answer": "Most companies process payroll by the 25th of the month to ensure funds clear by the 30th/31st."
+                            },
+                            {
+                                "question": "Are transport allowances taxable?",
+                                "answer": "Transport allowances (Prime de Transport) are generally non-taxable up to a specific limit (approx 25,000 XAF - 30,000 XAF) if justified by commuting needs."
+                            },
+                            {
+                                "question": "How are bonuses handled in payroll?",
+                                "answer": "Occasional bonuses are subject to standard ITS and CNPS. 13th month is treated as deferred salary and taxed in the month of disbursement."
+                            },
+                            {
+                                "question": "Can I pay in Euros?",
+                                "answer": "Local employees must be paid in XAF. Foreign currency payments trigger extreme scrutiny and are generally only allowed with special bank authorizations (OIC)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-payroll-goodtoknow-1",
+                    "type": "good_to_know",
+                    "title": "Good to Know",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Payment Method",
+                                "text": "Bank transfers are mandatory for all professional salaries above 100,000 XAF. Cash payments are high-risk for labor audits."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Health Fund (MFP)",
+                                "text": "While public health (CMU) is rising, top employers often contribute to the 'Mutuelle Générale des Fonctionnaires' or private HMOs."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Digitization of Payslips",
+                                "text": "Digital payslips are legal in Côte d'Ivoire. However, a paper copy should be provided upon request for bank loan applications."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-payroll-essentials-1",
+                    "type": "essentials",
+                    "title": "Annual Filing Calendar",
+                    "order": 6,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Filing Name",
+                                "Deadline",
+                                "Authority"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Monthly VSD",
+                                    "values": [
+                                        "15th of next month",
+                                        "DGI (Taxes)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Monthly DNS",
+                                    "values": [
+                                        "15th of next month",
+                                        "CNPS (Social)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Annual DIS",
+                                    "values": [
+                                        "January 31st",
+                                        "DGI (Taxes)"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ci-calc-cost-1",
+                    "type": "cost_breakdown",
+                    "title": "Employer Cost Structure 2025",
+                    "order": 1,
+                    "content": {
+                        "markdown": "### Statutory Burden Overview\n\nEmployer costs in Côte d'Ivoire are structured to support the national social security (CNPS) and professional training funds. Total burden is approximately 18-24% per local national.",
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Rate (Employer)",
+                                "Cap / Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Pension (CNPS)",
+                                    "values": [
+                                        "7.7%",
+                                        "Monthly Cap: 3.75M XAF"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Family Allowances",
+                                    "values": [
+                                        "5.75%",
+                                        "Monthly Cap: 70k XAF"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Accident Insurance",
+                                    "values": [
+                                        "2% - 5%",
+                                        "Industry dependent"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "National Contribution (CN)",
+                                    "values": [
+                                        "2.8% (Net)",
+                                        "Post 20% reduction"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Training Tax (FDFP)",
+                                    "values": [
+                                        "1.5%+",
+                                        "Skill development levy"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ci-calc-steps-1",
+                    "type": "key_steps",
+                    "title": "Calculation Workflow",
+                    "order": 2,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Define Gross Base Salary",
+                                "description": "Input the base monthly salary in XAF (CFA Franc), ensuring it meets the SMIG (Minimum Wage) standards."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Apply Statutory Deductions",
+                                "description": "Calculate the 6.3% employee pension contribution (capped) and the progressive CN (National Contribution)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Compute ITS (Income Tax)",
+                                "description": "Apply the 2025 progressive tax bands (1.5% to 10%+) on the net taxable income after CN deductions."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Integrate Allowances",
+                                "description": "Add non-taxable allowances such as Transport (capped) and Prime de Panier (Meal allowance)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Determine Net Take-Home",
+                                "description": "Subtract all statutory withholdings and IGR (General Income Tax) to arrive at the net payable to the employee."
+                            },
+                            {
+                                "stepNumber": 6,
+                                "title": "Export Compliance Ledger",
+                                "description": "Generate the breakdown of total employer costs including social charges for budgeting and accounting."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-calc-insights-1",
+                    "type": "insights",
+                    "title": "2025 Tax Intelligence",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Progressive CN Rates",
+                                "text": "National Contribution (CN) scales from 1.5% for mid-earners to 10% for those earning over 200,000 XAF net monthly."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Expat Employer Tax",
+                                "text": "Hiring expatriates incurs a higher employer tax rate (12% usage rate) compared to local nationals (2.8% usage rate)."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Transport Allowance Cap",
+                                "text": "The statutory transport allowance is generally exempt from tax up to 30,000 XAF per month. Amounts above this are taxable."
+                            },
+                            {
+                                "type": "important",
+                                "title": "13th Month Accrual",
+                                "text": "Always budget for the customary 13th-month bonus, which is often mandated by collective bargaining agreements (CBA)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-calc-faq-1",
+                    "type": "faq",
+                    "title": "Payroll FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the 2025 SMIG?",
+                                "answer": "The SMIG (Salaire Minimum Interprofessionnel Garanti) remains at 75,000 XAF per month, though many professional CBAs set higher minimums."
+                            },
+                            {
+                                "question": "Are healthcare contributions mandatory?",
+                                "answer": "The CMU (Couverture Maladie Universelle) is mandatory for all residents, with contributions typically deducted via payroll (approx 1,000 XAF per person)."
+                            },
+                            {
+                                "question": "How is the 13th month taxed?",
+                                "answer": "It is treated as standard income and subject to the same progressive tax (ITS) and social security charges as the monthly salary."
+                            },
+                            {
+                                "question": "What is the CNPS payment deadline?",
+                                "answer": "Contributions must be filed and paid to the CNPS by the 15th of the month following the payroll period."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-calc-goodtoknow-1",
+                    "type": "good_to_know",
+                    "title": "Statutory Environment",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Currency Stability",
+                                "text": "The XAF is pegged to the Euro (1 EUR = 655.957 XAF), providing high predictability for international budgeting."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Digital DIS Declaration",
+                                "text": "The annual DIS (Declaration Individuelle des Salaires) must be filed electronically by Jan 31st each year for the previous fiscal period."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Housing Allowances",
+                                "text": "Housing provided in-kind is valued at 15% of the gross salary for tax purposes, regardless of actual rental cost."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-calc-essentials-1",
+                    "type": "essentials",
+                    "title": "Employee Tax Bands",
+                    "order": 6,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Net Monthly Band (XAF)",
+                                "CN Rate",
+                                "IGR Status"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "0 - 50,000",
+                                    "values": [
+                                        "0%",
+                                        "Exempt"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "50,001 - 130,000",
+                                    "values": [
+                                        "1.5%",
+                                        "Taxable"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "130,001 - 200,000",
+                                    "values": [
+                                        "5.0%",
+                                        "Taxable"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Over 200,000",
+                                    "values": [
+                                        "10.0%",
+                                        "Taxable"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "service": "EOR, PEO & AOR"
+        },
+        {
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "heroData": {
+                "title": "Build your Business in Côte d’Ivoire",
+                "icon": "incorporation-entity-setup",
+                "subtitle": "Seamless market entry in the OHADA region",
+                "description": "Establish your legal presence in West Africa's economic hub. Our 2025 entity setup services leverage the CEPICI one-stop shop to deliver fast, compliant incorporation for SARL and SA structures.",
+                "bestFor": "Long-term investors and companies scaling operations in West Africa."
+            },
+            "sections": [
+                {
+                    "id": "ci-inc-cost-1",
+                    "type": "cost_breakdown",
+                    "title": "Establishment Cost Matrix 2025",
+                    "order": 1,
+                    "content": {
+                        "markdown": "### Strategic Capital Allocation\n\nIncorporation costs in Côte d'Ivoire are competitive within the OHADA zone. While the legal minimum capital for a SARL has been technically lowered, banks and institutional partners typically require a more robust starting capital for operational credibility.",
+                        "table": {
+                            "headers": [
+                                "Structure",
+                                "Minimum Capital",
+                                "Registration Fees"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "SARL (LLC)",
+                                    "values": [
+                                        "CFA 1,000,000 (Rec)",
+                                        "~CFA 500,000"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "SA (Public Co)",
+                                    "values": [
+                                        "CFA 10,000,000",
+                                        "~CFA 1,200,000"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Branch Office",
+                                    "values": [
+                                        "N/A",
+                                        "~CFA 800,000"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Notary Services",
+                                    "values": [
+                                        "Fixed Scale",
+                                        "~CFA 250,000 - 600,000"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Tax Stamp & Registry",
+                                    "values": [
+                                        "Varies",
+                                        "~CFA 75,000"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ci-inc-steps-1",
+                    "type": "key_steps",
+                    "title": "Incorporation Roadmap",
+                    "order": 2,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Structure Selection & Statutes",
+                                "description": "Defining company purpose and governing rules under OHADA law. Choice between Gérant (SARL) or Board of Directors (SA)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Capital Deposit",
+                                "description": "Opening a temporary 'Equity' account at a local Ivorian bank. Depositing the minimum capital and obtaining the Certificate of Deposit."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Notarial Authentication",
+                                "description": "Signing of the Statutes (Articles of Association) before a licensed Ivorian Notary Public. This is a mandatory step for legal validity."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "CEPICI Registration",
+                                "description": "One-stop submission for the Trade Register (RCCM), Tax ID (DGI), and Labor Office (OIC) via the Centre de Promotion des Investissements."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Public Notice (Journal d'Annonces Légales)",
+                                "description": "Mandatory publication of the company formation in a recognized legal journal or paper."
+                            },
+                            {
+                                "stepNumber": 6,
+                                "title": "Final Tax/Labor Setup",
+                                "description": "Obtaining the final 'Compte Contribuable' and registering with the CNPS social security portal for employer status."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-inc-insights-1",
+                    "type": "insights",
+                    "title": "Market Entry Insights",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "CEPICI Efficiency",
+                                "text": "The CEPICI one-stop shop has reduced registration time to 48-72 hours for standard files, though opening a corporate bank account still takes 2-4 weeks."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Registered Office Requirement",
+                                "text": "Every Ivorian entity must have a physical registered address validated by a lease agreement (Bail Professionnel) or a domiciliation contract."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Foreign Direct Investment (FDI)",
+                                "text": "Investors can benefit from the Ivorian Investment Code (Code des Investissements), offering tax holidays of 5-15 years for specific sectors and regions."
+                            },
+                            {
+                                "type": "important",
+                                "title": "OHADA Compliance",
+                                "text": "Ensure your statutes are strictly aligned with the Revised Uniform Act on Commercial Companies. Non-compliant statutes can lead to company 'nullity'."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-inc-faq-1",
+                    "type": "faq",
+                    "title": "Incorporation FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can a foreigner own 100% of an Ivorian company?",
+                                "answer": "Yes, for most sectors, 100% foreign ownership is allowed. Some regulated sectors like banking or extraction may require local participation."
+                            },
+                            {
+                                "question": "Difference between a Branch and a Subsidiary?",
+                                "answer": "A Subsidiary is a separate Ivorian legal entity (SARL/SA). A Branch (Succursale) is an extension of the parent and must be converted to a subsidiary after 2 years unless a special waiver is obtained."
+                            },
+                            {
+                                "question": "Are electronic signatures accepted?",
+                                "answer": "While growing, most formal incorporation steps still require wet ink signatures or power of attorney authenticated by a notary."
+                            },
+                            {
+                                "question": "What is the NICI number?",
+                                "answer": "The Numéro d'Identifiant Unique (NIU) is the consolidated identification number used by all administrative services in Côte d'Ivoire."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-inc-goodtoknow-1",
+                    "type": "good_to_know",
+                    "title": "Strategic Hub Info",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Regional Access",
+                                "text": "Incorporating in Côte d'Ivoire provides easy access to the UEMOA market of 120+ million people with a common currency."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Digitization Drive",
+                                "text": "Take advantage of the 'e-procedures' portal for filing annual financial statements and renewing commercial licenses."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Audit Requirements",
+                                "text": "SA companies must appoint a statutory auditor (Commissaire aux Comptes) from the first day. SARLs only if they exceed certain revenue/asset thresholds."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-inc-essentials-1",
+                    "type": "essentials",
+                    "title": "Entity Comparison",
+                    "order": 6,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Feature",
+                                "SARL",
+                                "SA"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Min Shareholders",
+                                    "values": [
+                                        "1",
+                                        "3"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Board Required",
+                                    "values": [
+                                        "No",
+                                        "Yes"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Liability",
+                                    "values": [
+                                        "Limited",
+                                        "Limited"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)"
+        },
+        {
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "heroData": {
+                "title": "Talent Acquisition in Abidjan",
+                "icon": "staffing-talent-acquisition",
+                "subtitle": "Access the elite West African talent pool",
+                "description": "Recruit top-tier local and expatriate professionals for your Ivorian operations. We specialize in the technical, finance, and industrial sectors of Abidjan, ensuring compliant hiring and cultural fit.",
+                "bestFor": "Companies growing their physical presence in Côte d'Ivoire."
+            },
+            "sections": [
+                {
+                    "id": "ci-staff-cost-1",
+                    "type": "cost_breakdown",
+                    "title": "Recruitment & Placement Metrics",
+                    "order": 1,
+                    "content": {
+                        "markdown": "### Investment in Talent\n\nAttracting top talent in Abidjan requires a competitive mix of base salary and benefits. The 2025 market shows high demand for bilingual engineering and project management profiles.",
+                        "table": {
+                            "headers": [
+                                "Role Tier",
+                                "Est. Monthly Net (XAF)",
+                                "Recruitment Fee"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Entry Level",
+                                    "values": [
+                                        "250k - 500k",
+                                        "1 Month Salary"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Middle Management",
+                                    "values": [
+                                        "800k - 1.8M",
+                                        "15% - 20% Annual"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Executive Tier",
+                                    "values": [
+                                        "2.5M - 6M+",
+                                        "25% Annual"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Expat Housing Allowance",
+                                    "values": [
+                                        "1M - 3M",
+                                        "Monthly Support"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Retention Bonus",
+                                    "values": [
+                                        "Varies",
+                                        "Performance based"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ci-staff-steps-1",
+                    "type": "key_steps",
+                    "title": "Hiring Strategy",
+                    "order": 2,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Role Definition & CBA Mapping",
+                                "description": "Defining candidate requirements and ensuring the proposed salary aligns with the 'Convention Collective' for the specific industry."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Multi-Channel Sourcing",
+                                "description": "Leveraging local platforms (e.g., Emploi.ci), LinkedIn, and our proprietary database of pre-vetted candidates in Abidjan."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Technical & Soft Skill Vetting",
+                                "description": "Multilingual interviews and situational testing to ensure the candidate can thrive in a global/local hybrid environment."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Reference & Degree Verification",
+                                "description": "Strict verification of academic credentials from local universities (UFHB) or international institutions."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Expat Visa Sponsorship (if applicable)",
+                                "description": "Management of work permit applications via the OIC and Ministry of Labor for foreign hires."
+                            },
+                            {
+                                "stepNumber": 6,
+                                "title": "Onboarding & Trial Period",
+                                "description": "Integration into the company culture and monitoring of the trial period performance against defined KPIs."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-staff-insights-1",
+                    "type": "insights",
+                    "title": "Recruitment Intelligence",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Local Talent Surge",
+                                "text": "Côte d'Ivoire's investment in education has created a robust pool of tech and finance talent. Preferencing local hires simplifies compliance and improves long-term stability."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Work Permit Complexity",
+                                "text": "Obtaining work permits for non-ECOWAS expats can be slow (2-4 months). Start applications immediately upon offer acceptance."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "French Language Proficiency",
+                                "text": "While English is valued, high-level French is non-negotiable for 95% of roles involving local stakeholders or civil administration."
+                            },
+                            {
+                                "type": "important",
+                                "title": "Mandatory Local Hire Laws",
+                                "text": "Some government contracts require a minimum percentage of Ivorian nationals. Check your specific contract terms before hiring expats."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-staff-faq-1",
+                    "type": "faq",
+                    "title": "Hiring FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Are background checks legal in Côte d'Ivoire?",
+                                "answer": "Yes, criminal record checks (Casier Judiciaire) are standard for sensitive roles. Personal background checks require candidate consent."
+                            },
+                            {
+                                "question": "What is the notice period for middle management?",
+                                "answer": "Usually 2-3 months as per the Interprofessional Collective Bargaining Agreement."
+                            },
+                            {
+                                "question": "Do I need to pay for employee health insurance?",
+                                "answer": "While CMU is mandatory, providing a private health insurance package (Mutuelle) is expected for professional-tier roles."
+                            },
+                            {
+                                "question": "How do I hire from other ECOWAS countries?",
+                                "answer": "ECOWAS citizens benefit from 'Freedom of Movement' but still require a professional registration/residence permit in Côte d'Ivoire."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-staff-goodtoknow-1",
+                    "type": "good_to_know",
+                    "title": "Talent Ecosystem",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Tech Hubs",
+                                "text": "Abidjan is emerging as a regional tech hub, with growing communities in Cocody and Marcory."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "University Partnerships",
+                                "text": "Partnering with institutions like INP-HB in Yamoussoukro provides early access to top engineering talent."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Employment Stability",
+                                "text": "Ivorian employees value job security and fixed-term contracts (CDI) over temporary arrangements."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-staff-essentials-1",
+                    "type": "essentials",
+                    "title": "Recruitment Velocity",
+                    "order": 6,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service",
+                                "Estimated Time",
+                                "Intensity"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Candidate Sourcing",
+                                    "values": [
+                                        "2 - 4 Weeks",
+                                        "High"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Selection/Interview",
+                                    "values": [
+                                        "1 - 2 Weeks",
+                                        "Medium"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Visa/Permit",
+                                    "values": [
+                                        "8 - 12 Weeks",
+                                        "Extreme"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "service": "Staffing and Recruiting"
+        },
+        {
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "heroData": {
+                "title": "Financial Integrity in Côte d’Ivoire",
+                "icon": "accounting",
+                "subtitle": "SYSCOHADA-compliant accounting services",
+                "description": "Maintain impeccable financial records following the revised SYSCOHADA standards. Our Abidjan-based accounting team handles your bookkeeping, statutory audits, and regional reporting requirements.",
+                "bestFor": "Regulated entities and companies requiring audit-ready Ivorian financials."
+            },
+            "sections": [
+                {
+                    "id": "ci-acc-cost-1",
+                    "type": "cost_breakdown",
+                    "title": "Accounting & Audit Fees 2025",
+                    "order": 1,
+                    "content": {
+                        "markdown": "### Compliance Budgeting\n\nAccounting fees in Côte d'Ivoire are determined by the volume of transactions and the complexity of the reporting (AUDCIF vs. Regional OHADA). Standard fees for a medium-sized SARL are listed below.",
+                        "table": {
+                            "headers": [
+                                "Service Component",
+                                "Est. Fee (XAF)",
+                                "Frequency"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Monthly Bookkeeping",
+                                    "values": [
+                                        "300,000 - 800,000",
+                                        "Monthly"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Annual Statement (DSF)",
+                                    "values": [
+                                        "1,500,000+",
+                                        "Annual"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Statutory Audit (CAC)",
+                                    "values": [
+                                        "3,500,000 - 10,000,000",
+                                        "Annual"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Corporate Tax Filing",
+                                    "values": [
+                                        "500,000",
+                                        "Annual"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "IFRS Reconciliation",
+                                    "values": [
+                                        "On Request",
+                                        "Ad-hoc"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ci-acc-steps-1",
+                    "type": "key_steps",
+                    "title": "Ongoing Financial Management",
+                    "order": 2,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Chart of Accounts Setup",
+                                "description": "Configuration of the accounting environment according to the SYSCOHADA 'Cadre Comptable' and tax categorization."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Transaction Recording",
+                                "description": "Processing of invoices, bank statements, and expense reports in local currency (XAF) with proper VAT treatment."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Regulatory Tax Compliance",
+                                "description": "Calculation and electronic filing of monthly VAT (TVA), withholding taxes, and the AIRB (Tax on Revenue)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Monthly Reconciliation",
+                                "description": "Matching bank accounts, intercompany balances, and confirming cash flow status in Abidjan."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Management Reporting",
+                                "description": "Issuance of P&L and Balance Sheet reports in French (and English if required) for global headquarters."
+                            },
+                            {
+                                "stepNumber": 6,
+                                "title": "Annual DSF Finalization",
+                                "description": "Closing the fiscal year (Dec 31) and preparing the Déclaration Statistique et Fiscale (DSF) due by end of April."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-acc-insights-1",
+                    "type": "insights",
+                    "title": "Strategic Financial Insights",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Revised SYSCOHADA",
+                                "text": "The new SYSCOHADA accounting framework requires more granular reporting on lease liabilities and biological assets. Ensure your systems are updated."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "VAT Refund Delay",
+                                "text": "Obtaining VAT refunds from the Ivorian DGI can be a lengthy process (6-18 months). Factor this into your local working capital model."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Digital Invoicing (E-Facture)",
+                                "text": "Côte d'Ivoire is transitioning to mandatory e-invoicing for B2B. Implement certified billing software to ensure tax deductibility of expenses."
+                            },
+                            {
+                                "type": "important",
+                                "title": "Audit Readiness",
+                                "text": "Keep all physical originals of invoices and bank vouchers for 10 years as per OHADA commercial law."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-acc-faq-1",
+                    "type": "faq",
+                    "title": "Accounting FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the fiscal year in Côte d'Ivoire?",
+                                "answer": "The fiscal year must follow the calendar year, ending on December 31st."
+                            },
+                            {
+                                "question": "Are dual-language charts of accounts common?",
+                                "answer": "Yes, we often bridge the local SYSCOHADA accounts to a US GAAP or IFRS mapping for international reporting."
+                            },
+                            {
+                                "question": "How do I handle cross-border payments tax?",
+                                "answer": "Payments to non-residents (software, consulting) usually trigger a 15% - 20% withholding tax unless a treaty applies."
+                            },
+                            {
+                                "question": "What is the VAT rate and threshold?",
+                                "answer": "The standard VAT rate is 18%. Registration is mandatory once turnover exceeds a specific industry-based threshold."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-acc-goodtoknow-1",
+                    "type": "good_to_know",
+                    "title": "Regional Standards",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Regional Financial Hub",
+                                "text": "Abidjan serves as the headquarters for the BRVM regional stock exchange and many regional banks."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Local Accounting Talent",
+                                "text": "The 'Expert-Comptable' (Certified Accountant) title is highly regulated in CI. Only works with OEC (Ordre des Experts-Comptables) members."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Currency Stability",
+                                "text": "The XAF's peg to the Euro provides significant predictability for cost planning compared to other African currencies."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-acc-essentials-1",
+                    "type": "essentials",
+                    "title": "Filing Deadlines",
+                    "order": 6,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Compliance Required",
+                                "Deadline",
+                                "Authority"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Monthly VAT filing",
+                                    "values": [
+                                        "15th or 20th",
+                                        "DGI"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Annual DSF Filing",
+                                    "values": [
+                                        "April 30th",
+                                        "DGI/RCCM"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "CIT Payment",
+                                    "values": [
+                                        "Quarterly/Annual",
+                                        "DGI"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ci-comp-cost-1",
+                    "type": "cost_breakdown",
+                    "title": "Risk & Compliance Budgeting",
+                    "order": 1,
+                    "content": {
+                        "markdown": "### Mitigating Operational Risk\n\nCompliance costs in Côte d'Ivoire are an essential 'insurance policy' for international brands. A proactive approach is significantly cheaper than legal remediation.",
+                        "table": {
+                            "headers": [
+                                "Compliance Service",
+                                "Price Range (Est.)",
+                                "Scope"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Annual Compliance Audit",
+                                    "values": [
+                                        "5M - 15M XAF",
+                                        "Entity-wide"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "APDP Data Protection Filing",
+                                    "values": [
+                                        "500k - 2M XAF",
+                                        "Setup"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "AML/KYC Framework Setup",
+                                    "values": [
+                                        "3M XAF+",
+                                        "Strategic"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Resident Directorship",
+                                    "values": [
+                                        "$1k - $2.5k / mo",
+                                        "Governance"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Compliance Monitoring",
+                                    "values": [
+                                        "500k XAF / mo",
+                                        "Retainer"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ci-comp-steps-1",
+                    "type": "key_steps",
+                    "title": "Compliance Assurance Roadmap",
+                    "order": 2,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Entity Health Check",
+                                "description": "Audit of all past RCCM (Trade Register) filings, tax certificates, and board minutes to identify gaps."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Corporate Secretarial Setup",
+                                "description": "Establishment of a reliable process for recurring OHADA filings (Minutes of AGM, Board appointments)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Data Privacy Mapping",
+                                "description": "Inventory of personal data collected (employees, customers) and preparation of the mandatory ABDP declaration."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Local Ethics & Anti-Corruption",
+                                "description": "Deployment of internal codes of conduct aligned with Ivorian Law No. 2013-660 on Prevention of Corruption."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Continuous Regulatory Monitoring",
+                                "description": "Tracking of changes in BCEAO exchange controls and WAEMU regional directives."
+                            },
+                            {
+                                "stepNumber": 6,
+                                "title": "Annual Certification",
+                                "description": "Obtaining 'Certificats de Non-Redressement' from CNPS and 'Attestations de Régularité Fiscale' from DGI."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-comp-insights-1",
+                    "type": "insights",
+                    "title": "Risk Intelligence",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Regional AML Body (CENTIF)",
+                                "text": "The Cellule Nationale de Traitement des Informations Financières (CENTIF) monitors suspicious financial flows. Robust KYC is mandatory for all XAF transactions."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "OHADA Criminal Liability",
+                                "text": "Under the OHADA Uniform Act, directors can face personal criminal liability for failure to hold AGMs or misrepresenting financial status."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Resident Director Advantage",
+                                "text": "While not strictly mandatory for all entities, having at least one resident director (local or expat) simplifies administrative processes and improves banking trust."
+                            },
+                            {
+                                "type": "important",
+                                "title": "ABDP Privacy Law",
+                                "text": "Any cross-border transfer of employee data requires PRIOR authorization from the APDP. Failure leads to heavy fines and operational blockages."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-comp-faq-1",
+                    "type": "faq",
+                    "title": "Compliance FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is OHADA compliance?",
+                                "answer": "OHADA is the unified legal system for 17 African countries, including Côte d'Ivoire. It provides standardized commercial, accounting, and arbitration law."
+                            },
+                            {
+                                "question": "How do I register for Data Protection?",
+                                "answer": "You must file a 'Déclaration de Traitement des Données' with the APDP in Abidjan, outlining the nature and purpose of data storage."
+                            },
+                            {
+                                "question": "Are there local content requirements?",
+                                "answer": "Yes, especially in the petroleum, mining, and telecommunications sectors, where specific 'Ivoirianization' targets exist."
+                            },
+                            {
+                                "question": "What are the penalties for missing an AGM?",
+                                "answer": "Penalties include fines from the RCCM and potential legal action by minority shareholders or the state prosecutor under OHADA law."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-comp-goodtoknow-1",
+                    "type": "good_to_know",
+                    "title": "Governance Culture",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "High Transparency Goals",
+                                "text": "Côte d'Ivoire is actively moving up in the Corruption Perception Index through strict digitization of government procurement."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Local Arbitration (CACI)",
+                                "text": "The Cour d'Arbitrage de Côte d'Ivoire (CACI) is a reliable local forum for commercial dispute resolution, following ICC-style rules."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Regulatory Sandboxes",
+                                "text": "The BCEAO and local regulators are open to Fintech innovation through controlled sandbox environments for testing compliance."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-comp-essentials-1",
+                    "type": "essentials",
+                    "title": "Compliance Checklist",
+                    "order": 6,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Compliance Required",
+                                "Agency",
+                                "Criticality"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Trade Register Update",
+                                    "values": [
+                                        "RCCM",
+                                        "High"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Data Protection Filing",
+                                    "values": [
+                                        "APDP",
+                                        "Critical"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "AML Framework",
+                                    "values": [
+                                        "CENTIF",
+                                        "High"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ci-tax-cost-1",
+                    "type": "cost_breakdown",
+                    "title": "Tax Compliance Fees 2025",
+                    "order": 1,
+                    "content": {
+                        "markdown": "### Strategic Fiscal Planning\n\nTax advisory fees in Côte d'Ivoire correspond to the complexity of the entity and the volume of regional transactions. Investing in expert council prevents the high cost of DGI audits.",
+                        "table": {
+                            "headers": [
+                                "Advisory Service",
+                                "Price Range (XAF)",
+                                "Frequency"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Monthly Tax Compliance",
+                                    "values": [
+                                        "250k - 600k",
+                                        "Monthly"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Annual Tax Return (BIC)",
+                                    "values": [
+                                        "1.2M - 4M",
+                                        "Annual"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "VAT Refund Management",
+                                    "values": [
+                                        "10% - 15% of refund",
+                                        "Success-based"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Transfer Pricing Study",
+                                    "values": [
+                                        "5M - 15M",
+                                        "Annual/Setup"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Audit Representation",
+                                    "values": [
+                                        "50k - 150k / hr",
+                                        "As needed"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ci-tax-steps-1",
+                    "type": "key_steps",
+                    "title": "Tax Compliance Workflow",
+                    "order": 2,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Tax Identification (NICI) Setup",
+                                "description": "Ensuring the entity is registered for all relevant tax categories (BIC, VAT, IMF) upon incorporation."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Monthly Return Preparation",
+                                "description": "Consolidating sales, purchases, and payroll data to prepare the VSD (Unique Declaration) for filing by the 15th."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Digital Filing (e-Impot)",
+                                "description": "Execution of all tax filings through the official DGI electronic portal to ensure immediate confirmation and legal standing."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Withholding Tax Management",
+                                "description": "Accurate calculation and reporting of WHT on local rents (15%) and foreign services (20%)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Annual CIT (BIC) Filing",
+                                "description": "Comprehensive preparation of the Corporate Income Tax return due by April 30th (for Dec 31st closings)."
+                            },
+                            {
+                                "stepNumber": 6,
+                                "title": "Treaty Application Vetting",
+                                "description": "Applying for reduced withholding rates under DTTs (e.g., France, Canada, Italy) where applicable."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-tax-insights-1",
+                    "type": "insights",
+                    "title": "Ivorian Fiscal Intelligence",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Tax Annex 2025 Updates",
+                                "text": "Stay informed on the latest changes to digital services taxes and the new environmental taxes introduced in the 2025 budget."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Transfer Pricing Thresholds",
+                                "text": "Companies with turnover exceeding 3 Billion XAF (or those part of such groups) face mandatory TP documentation requirements with strict penalties for non-compliance."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Investment Incentives",
+                                "text": "Reinvested profits in Côte d'Ivoire can potentially reduce your tax base by up to 35% under specific regional development codes."
+                            },
+                            {
+                                "type": "important",
+                                "title": "Digital Declaration Portal",
+                                "text": "Manual payments at DGI counters are being phased out in favor of the 'Portail e-impots'. Ensure your bank link is active."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-tax-faq-1",
+                    "type": "faq",
+                    "title": "Tax FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the Corporate Income Tax (BIC) rate?",
+                                "answer": "The standard rate is 25% for most commercial companies. A 30% rate applies to specific sectors like mining and banking."
+                            },
+                            {
+                                "question": "Is there a minimum tax if we are in a loss?",
+                                "answer": "Yes, the Impôt Minimum Forfaitaire (IMF) applies even to loss-making companies, calculated as a percentage of turnover (typically 0.1% to 0.5%)."
+                            },
+                            {
+                                "question": "How are dividends taxed in Côte d'Ivoire?",
+                                "answer": "Dividends are subject to the Tax on Income from Movable Capital (IRVM) at a standard rate of 15% (reduced to 10% for listed companies)."
+                            },
+                            {
+                                "question": "What is the VAT rate and threshold?",
+                                "answer": "VAT is 18% standard, with some items at 9% (e.g., specific tourism/food services)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-tax-goodtoknow-1",
+                    "type": "good_to_know",
+                    "title": "Fiscal Environment",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Regional Integration",
+                                "text": "Tax policies are increasingly harmonized within the WAEMU (UEMOA) zone to prevent double taxation between member states."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "DGI Audit Cycle",
+                                "text": "Larger companies can expect a general tax audit every 3-4 years. Maintaining a clean 'Situation Fiscale' is key for public contracts."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Professional Tax (Patente)",
+                                "text": "The Contribution des Patentes is an annual tax based on the rental value of professional premises and equipment."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-tax-essentials-1",
+                    "type": "essentials",
+                    "title": "Core Tax Rates",
+                    "order": 6,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Tax Type",
+                                "Standard Rate",
+                                "Frequency"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income (BIC)",
+                                    "values": [
+                                        "25%",
+                                        "Annual"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Value Added (VAT)",
+                                    "values": [
+                                        "18%",
+                                        "Monthly"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Dividend Tax (IRVM)",
+                                    "values": [
+                                        "15% (standard)",
+                                        "Payment"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "service": "Finance, Tax and Accounting"
+        },
+        {
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "heroData": {
+                "title": "HRIS & Digital HR in Côte d’Ivoire",
+                "icon": "hris",
+                "subtitle": "Streamline your Ivorian workforce management",
+                "description": "Deploy a cloud-based HRIS tailored for the West African landscape. Our solutions integrate the 2025 Ivorian Labor Code, French-language interfaces, and automated CNPS/DGI reporting.",
+                "bestFor": "Growing companies in Abidjan looking to automate HR operations."
+            },
+            "sections": [
+                {
+                    "id": "ci-hris-cost-1",
+                    "type": "cost_breakdown",
+                    "title": "HR Technology Investment 2025",
+                    "order": 1,
+                    "content": {
+                        "markdown": "### Optimizing HR Operations\n\nImplementing a localized HRIS in Côte d'Ivoire reduces compliance risk and manual error. Pricing is typically model-based (per employee/month) with specific implementation fees for local legal mapping.",
+                        "table": {
+                            "headers": [
+                                "HRIS Module",
+                                "Price Range (Est.)",
+                                "Value Metric"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Core HR & Payroll",
+                                    "values": [
+                                        "$4 - $12 per PEPY",
+                                        "Monthly"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Recruitment (ATS)",
+                                    "values": [
+                                        "$150 - $400 per month",
+                                        "SaaS Fee"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Performance Management",
+                                    "values": [
+                                        "$3 - $7 per employee",
+                                        "Monthly"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Implementation (Local)",
+                                    "values": [
+                                        "$1,500 - $5,000",
+                                        "One-time"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Custom French Portal",
+                                    "values": [
+                                        "$500",
+                                        "Setup"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ci-hris-steps-1",
+                    "type": "key_steps",
+                    "title": "HRIS Deployment Roadmap",
+                    "order": 2,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Requirement Analysis",
+                                "description": "Mapping your current HR processes against Ivorian statutory requirements (Labor Code 2024 compliance)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Vendor Selection (Local vs. Global)",
+                                "description": "Choosing a platform that supports French language and has pre-built connectors for Ivorian banks/tax systems."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Data Migration & Cleaning",
+                                "description": "Transferring employee records (NICI, CNPS numbers, contracts) from legacy systems or spreadsheets into the new HRIS."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Compliance Configuration",
+                                "description": "Setting up local leave policies (26+ days), 13th-month accruals, and progressive tax (ITS) calculation logic."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "User Training in French",
+                                "description": "Providing training sessions for managers and employees in Abidjan to ensure high adoption rates."
+                            },
+                            {
+                                "stepNumber": 6,
+                                "title": "Go-Live & Support",
+                                "description": "Launching the system with a dedicated support desk familiar with the Ivorian HR landscape."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-hris-insights-1",
+                    "type": "insights",
+                    "title": "Digital HR Intelligence",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Mobile-First Workforce",
+                                "text": "Ivorian employees are highly mobile-centric. Ensure your HRIS has a robust mobile app for payslip viewing and leave requests."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Data Sovereignty (ABDP)",
+                                "text": "The Autorité de Protection des Données à Caractère Personnel (APDP) regulates HR data. Ensure your cloud provider complies with local data hosting guidelines."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Self-Service ROI",
+                                "text": "Enabling Employee Self-Service (ESS) can reduce HR administrative tasks in Abidjan offices by up to 40%."
+                            },
+                            {
+                                "type": "important",
+                                "title": "French Language Support",
+                                "text": "Contracts, payslips, and training manuals MUST be available in French to meet local legal and cultural requirements."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-hris-faq-1",
+                    "type": "faq",
+                    "title": "HRIS FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Does the HRIS handle CNPS filings?",
+                                "answer": "Advanced HRIS solutions generate the DIS (Annual Declaration) and monthly DNS reports in formats ready for the CNPS portal."
+                            },
+                            {
+                                "question": "Can we manage contractors in the system?",
+                                "answer": "Yes, many modern HRIS platforms include a Contractor Management module to track invoices and service agreements."
+                            },
+                            {
+                                "question": "Is the system GDP/APDP compliant?",
+                                "answer": "Our recommended solutions are built with global GDPR standards and local APDP (Ivory Coast) specifics in mind."
+                            },
+                            {
+                                "question": "How long does implementation take?",
+                                "answer": "A standard implementation for a 100-person company typically takes 6-10 weeks."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-hris-goodtoknow-1",
+                    "type": "good_to_know",
+                    "title": "Ivorian HR Trends",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Electronic Payslips",
+                                "text": "The use of electronic payslips (E-bulletin de paie) is accelerating and is fully recognized by the Labor Department."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "LMS Adoption",
+                                "text": "Learning Management Systems are being used by top Ivorian firms to upskill local talent in line with the National Development Plan."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Attendance Tracking",
+                                "text": "Biometric integration with HRIS is common in Ivorian industrial sectors (San Pedro, Vridi)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-hris-essentials-1",
+                    "type": "essentials",
+                    "title": "Feature Checklist",
+                    "order": 6,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Feature",
+                                "Criticality",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "French UI",
+                                    "values": [
+                                        "Essential",
+                                        "Required for 100% adoption"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "ITS/CNPS Engine",
+                                    "values": [
+                                        "Critical",
+                                        "Prevents tax penalties"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Mobile App",
+                                    "values": [
+                                        "High",
+                                        "Employee engagement"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "service": "HRIS/HRMS/ATS"
+        },
+        {
+            "name": "M & A",
+            "serviceName": "M & A",
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "heroData": {
+                "title": "M&A & Strategic Advisory in Abidjan",
+                "icon": "msa",
+                "subtitle": "Navigating high-stakes West African transactions",
+                "description": "Unlock growth through intelligent acquisitions and divestitures in Côte d'Ivoire. Our MSA team provides deep local due diligence, OHADA-compliant structural advice, and cross-border deal execution in the WAEMU region.",
+                "bestFor": "Investors, PE firms, and corporations seeking strategic expansion in West Africa."
+            },
+            "sections": [
+                {
+                    "id": "ci-msa-cost-1",
+                    "type": "cost_breakdown",
+                    "title": "Transaction & Advisory Fees",
+                    "order": 1,
+                    "content": {
+                        "markdown": "### Structuring the Deal\n\nM&A fees in the Ivorian market typically follow a Lehman-style success-based model for brokerage, while due diligence and valuation are retainer or milestone-based.",
+                        "table": {
+                            "headers": [
+                                "Service Type",
+                                "Fee Structure",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Buy-side Advisory",
+                                    "values": [
+                                        "1% - 5% of Value",
+                                        "Success-based"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Financial Due Diligence",
+                                    "values": [
+                                        "5M - 20M XAF",
+                                        "Fixed per Deal"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "OHADA Legal Structuring",
+                                    "values": [
+                                        "3M - 10M XAF",
+                                        "Complexity based"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Independent Valuation",
+                                    "values": [
+                                        "2M - 7M XAF",
+                                        "Milestone based"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Integration Planning",
+                                    "values": [
+                                        "Fixed Retainer",
+                                        "Post-Close"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ci-msa-steps-1",
+                    "type": "key_steps",
+                    "title": "Transaction Lifecycle",
+                    "order": 2,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Market Scanning & Targeting",
+                                "description": "Identifying high-potential targets in Abidjan and beyond based on financial hygiene and growth potential."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Strategic Valuation",
+                                "description": "Applying Ivorian-specific risk premiums to DCF and multiple-based models for accurate pricing in XAF."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Multi-Stream Due Diligence",
+                                "description": "Executing deep-dive audits into Tax (DGI), Labor (CNPS), and Legal (RCCM) history of the target."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "OHADA-Compliant SPA Drafting",
+                                "description": "Negotiating Share Purchase Agreements and Warranties under the OHADA Uniform Act on Commercial Companies."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Regional Regulatory Approval",
+                                "description": "Obtaining necessary clearances from the WAEMU (COSUMAF/AMF-UMOA) if involving listed companies or financial institutions."
+                            },
+                            {
+                                "stepNumber": 6,
+                                "title": "Closing & Handover",
+                                "description": "Managing the fund escrow, share register updates, and public notifications according to Ivorian law."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-msa-insights-1",
+                    "type": "insights",
+                    "title": "Strategic M&A Intelligence",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Regional Consolidations",
+                                "text": "Abidjan is seeing a wave of consolidation in the banking and insurance sectors as many firms look to meet the new higher capital requirements of the CIMA and BCEAO."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Unrecorded Liability Risk",
+                                "text": "Many SME targets in CI may have unrecorded tax or social security liabilities. Comprehensive warranties (GAP) are non-negotiable."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Free Zone Advantage (VITIB)",
+                                "text": "Acquiring firms within the Grand-Bassam VITIB Free Zone provides unique tax and customs benefits for tech-focused deals."
+                            },
+                            {
+                                "type": "important",
+                                "title": "Competition Clearance",
+                                "text": "WAEMU competition law (Commission de l'UEMOA) may require mandatory notification for deals exceeding certain market share thresholds."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-msa-faq-1",
+                    "type": "faq",
+                    "title": "MSA FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can shares be transferred electronically?",
+                                "answer": "For private SARLs, share transfers require a written agreement authenticated by a notary and update of the RCCM registry. For listed companies, it's done via the BRVM central depository (DC/BR)."
+                            },
+                            {
+                                "question": "How long does a typical deal take?",
+                                "answer": "From first interest to formal close, expect 4-9 months depending on the regulatory complexity and quality of data."
+                            },
+                            {
+                                "question": "Are there capital gains taxes on share sales?",
+                                "answer": "Yes, capital gains are generally taxed as ordinary corporate income (25%) or at a specific rate for individuals, subject to certain exemptions."
+                            },
+                            {
+                                "question": "Is arbitration common for deal disputes?",
+                                "answer": "Yes, almost 100% of international M&A deals in Abidjan use arbitration clauses (CACI or ICC) to ensure neutral dispute resolution."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-msa-goodtoknow-1",
+                    "type": "good_to_know",
+                    "title": "Strategic Ecosystem",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Vibrant IPO Market",
+                                "text": "The BRVM stock exchange in Abidjan is one of the most dynamic in Africa, providing a viable exit route for private equity investors."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Bilingual Deal Teams",
+                                "text": "Ivorian sellers value personal relationships and French communication; having a bilingual advisory team is critical for successful negotiations."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Sovereign Guarantees",
+                                "text": "For major infrastructure deals, MIGA (World Bank) and other insurance providers offer political risk insurance in Côte d'Ivoire."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-msa-essentials-1",
+                    "type": "essentials",
+                    "title": "Transactional Speed",
+                    "order": 6,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Phase",
+                                "Est. Duration",
+                                "Engagement"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Due Diligence",
+                                    "values": [
+                                        "4 - 8 Weeks",
+                                        "Intensive"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Negotiation",
+                                    "values": [
+                                        "2 - 6 Weeks",
+                                        "High"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Regulatory Clearance",
+                                    "values": [
+                                        "8 - 20 Weeks",
+                                        "Variable"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "service": "M & A"
+        },
+        {
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "heroData": {
+                "title": "Digital Transformation in Côte d’Ivoire",
+                "icon": "software-solutions",
+                "subtitle": "Future-proofing your West African enterprise",
+                "description": "Deploy world-class technology tailored for the Ivorian market. From ERP systems like ebizframe and SAP localized for SYSCOHADA, to custom mobile solutions and secure cloud infrastructure in Abidjan.",
+                "bestFor": "Enterprises seeking to modernize operations and leverage the growing Ivorian digital economy."
+            },
+            "sections": [
+                {
+                    "id": "ci-soft-cost-1",
+                    "type": "cost_breakdown",
+                    "title": "Tech Implementation & Licensing",
+                    "order": 1,
+                    "content": {
+                        "markdown": "### Strategic Technology Investment\n\nSoftware costs in Côte d'Ivoire are increasingly shifting toward SaaS models, with local implementation partners providing the necessary legal and linguistic customizations.",
+                        "table": {
+                            "headers": [
+                                "Solution Type",
+                                "Est. License / Year",
+                                "Deployment Fee"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Localized ERP (SME)",
+                                    "values": [
+                                        "$5,000 - $15,000",
+                                        "$10,000+"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "CRM (Salesforce/HubSpot)",
+                                    "values": [
+                                        "$1,200+ per user",
+                                        "$2,500+"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Cloud Hosting (Local/Regional)",
+                                    "values": [
+                                        "$500 - $2,000",
+                                        "Included"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Custom Mobile App Dev",
+                                    "values": [
+                                        "N/A",
+                                        "$15,000 - $50,000"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Cybersecurity Retainer",
+                                    "values": [
+                                        "$3,000 - $8,000",
+                                        "Setup: $2k"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ci-soft-steps-1",
+                    "type": "key_steps",
+                    "title": "Software Deployment Roadmap",
+                    "order": 2,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Digital Maturity Assessment",
+                                "description": "Reviewing existing legacy systems and mapping workflows against departmental needs in Abidjan."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "SYSCOHADA Compliance Audit",
+                                "description": "Ensuring financial software supports the OHADA regional accounting standards and local VAT/ITS reporting."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Platform Selection & Localization",
+                                "description": "Choosing vendors with strong French UI/UX and local support capabilities in Ivory Coast."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "User Acceptance Testing (UAT)",
+                                "description": "Running pilot groups within the local team to refine French terminology and operational workflows."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Phased Data Migration",
+                                "description": "Transitioning critical records to the new platform while maintaining business continuity."
+                            },
+                            {
+                                "stepNumber": 6,
+                                "title": "On-Site Support & Training",
+                                "description": "Conducting bilingual training sessions to ensure total hardware/software proficiency."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-soft-insights-1",
+                    "type": "insights",
+                    "title": "Tech Landscape Intelligence",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Mobile Money Integration",
+                                "text": "Nearly all B2C software in CI MUST integrate with Wave, Orange Money, or MTN MoMo to be effective in the local market."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Connectivity Reliability",
+                                "text": "While Abidjan has strong fiber infrastructure, ensure your software supports offline modes or has regional CDN nodes for optimal speed."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Free Zone (VITIB) Benefits",
+                                "text": "Software companies operating out of the Grand-Bassam VITIB enjoy significant tax holidays and customs exemptions on hardware."
+                            },
+                            {
+                                "type": "important",
+                                "title": "Data Privacy (ABDP)",
+                                "text": "Hosting PII (Personally Identifiable Information) on international clouds requires registration with the Ivorian data authority."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-soft-faq-1",
+                    "type": "faq",
+                    "title": "Software FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can we use international ERPs like SAP?",
+                                "answer": "Yes, but they must be customized by local partners to handle SYSCOHADA accounting and Ivorian tax annex requirements."
+                            },
+                            {
+                                "question": "Is cloud hosting available locally?",
+                                "answer": "Yes, Abidjan has Tier 3 data centers (e.g., Orange, MainOne) providing high-availability local cloud storage."
+                            },
+                            {
+                                "question": "Are software licenses taxable?",
+                                "answer": "Yes, international software payments usually attract a 20% withholding tax unless a double taxation treaty applies."
+                            },
+                            {
+                                "question": "What is the average dev rate in Abidjan?",
+                                "answer": "Senior local developers typically range from $35 to $75 per hour depending on the technology stack."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-soft-goodtoknow-1",
+                    "type": "good_to_know",
+                    "title": "Innovation Ecosystem",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Rising Tech Hub",
+                                "text": "Abidjan is rapidly becoming the Francophone tech capital, with a vibrant startup ecosystem and growing VC interest."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Cybersecurity Law",
+                                "text": "Côte d'Ivoire has strict laws regarding cybercrime; ensure your software has robust encryption and access logs."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Regional Scalability",
+                                "text": "Software built for the Ivorian market can often be easily scaled to other WAEMU countries like Senegal or Benin."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-soft-essentials-1",
+                    "type": "essentials",
+                    "title": "Critical Features",
+                    "order": 6,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Feature",
+                                "Importance",
+                                "Reasoning"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "French UI/Documentation",
+                                    "values": [
+                                        "Mandatory",
+                                        "Legal & User Adoption"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Mobile Money Bridge",
+                                    "values": [
+                                        "High",
+                                        "Market Transactionality"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "SYSCOHADA Format",
+                                    "values": [
+                                        "Essential",
+                                        "Financial Compliance"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "service": "Software & Technology Solutions"
+        },
+        {
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "heroData": {
+                "title": "Strategic Marketing in Côte d’Ivoire",
+                "icon": "marketing-agencies",
+                "subtitle": "Capturing the West African growth narrative",
+                "description": "Engage the vibrant Ivorian consumer base through data-driven marketing. From premium OOH (Out-of-Home) in Abidjan's Plateau district to high-impact social media campaigns and influencer strategies tailored for the Francophone market.",
+                "bestFor": "Brands seeking to establish or expand their presence in the Ivorian and regional market."
+            },
+            "sections": [
+                {
+                    "id": "ci-mark-cost-1",
+                    "type": "cost_breakdown",
+                    "title": "Marketing & Media Budgeting",
+                    "order": 1,
+                    "content": {
+                        "markdown": "### Optimizing Media Spend\n\nMarketing costs in the Ivory Coast reflect the premium on high-visibility placements in Abidjan. Digital spend is growing but traditional media remains powerful for mass reach.",
+                        "table": {
+                            "headers": [
+                                "Channel",
+                                "Est. Monthly Spend",
+                                "Expected Outcome"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Media Management",
+                                    "values": [
+                                        "$1,500 - $4,000",
+                                        "Engagement & Lead Gen"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Influencer Collaboration",
+                                    "values": [
+                                        "$500 - $5k per post",
+                                        "Brand Trust"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "OOH (Billboards - Abidjan)",
+                                    "values": [
+                                        "$2,000 - $8,000",
+                                        "Mass Visibility"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Content Creation (Video/FR)",
+                                    "values": [
+                                        "$3,000 per project",
+                                        "Conversion Assets"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "SEO & Performance (FR)",
+                                    "values": [
+                                        "$1,000 - $3,000",
+                                        "Organic Growth"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ci-mark-steps-1",
+                    "type": "key_steps",
+                    "title": "Campaign Execution Roadmap",
+                    "order": 2,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Cultural Resonance Study",
+                                "description": "Analyzing Ivorian consumer behavior, local slang, and visual preferences to ensure authentic brand messaging."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Bilingual Content Strategy",
+                                "description": "Developing localized French content that reflects both formal administration and the 'Nouchi' street-influenced culture."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Omnichannel Media Planning",
+                                "description": "Mapping the customer journey across radio, digital platforms (Facebook is key), and physical Abidjan touchpoints."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Influencer Vetting",
+                                "description": "Selecting brand ambassadors based on Abidjan-specific audience data and engagement authenticity."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Regulatory Review (CSP)",
+                                "description": "Ensuring all advertisements comply with the Conseil Supérieur de la Publicité (CSP) guidelines."
+                            },
+                            {
+                                "stepNumber": 6,
+                                "title": "Real-Time Optimization",
+                                "description": "Tracking campaign performance and adjusting bids/creative in response to Ivorian market feedback."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-mark-insights-1",
+                    "type": "insights",
+                    "title": "Ivorian Market Intelligence",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Facebook Dominance",
+                                "text": "Facebook remains the primary social platform in CI for both B2B and B2C engagement, with LinkedIn rising sharply among professionals."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "CSP Regulations",
+                                "text": "All public advertising (Outdoor/Radio/TV) must be approved by the CSP. Non-compliant ads face immediate removal and fines."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Influence of Nouchi",
+                                "text": "Incorporating elements of Nouchi (local parlance) in social campaigns can dramatically increase relatability and viral potential."
+                            },
+                            {
+                                "type": "important",
+                                "title": "Video Content Priority",
+                                "text": "Ivorian audiences consume high amounts of short-form video. TikTok and Reels are essential for lifestyle and consumer brands."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-mark-faq-1",
+                    "type": "faq",
+                    "title": "Marketing FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Do we need a local agency?",
+                                "answer": "While global strategy helps, local agencies are critical for navigating CSP approvals and cultural nuances in Abidjan."
+                            },
+                            {
+                                "question": "What is the best way to reach rural CI?",
+                                "answer": "Radio and localized community events remain the most effective tools for reaching the interior beyond Abidjan."
+                            },
+                            {
+                                "question": "Are there advertising taxes?",
+                                "answer": "Yes, there is a specific tax on advertising (Taxe sur la Publicité) collected by the CSP and local municipalities."
+                            },
+                            {
+                                "question": "Which influencer tiers work best?",
+                                "answer": "Micro-influencers in niche Ivorian sectors often provide better ROI and trust than high-priced mega-celebrities."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-mark-goodtoknow-1",
+                    "type": "good_to_know",
+                    "title": "Consumer Environment",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Growing Middle Class",
+                                "text": "Abidjan's expanding middle class is driving a surge in demand for premium digital services and international brands."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Event Marketing",
+                                "text": "On-ground events and 'Roadshows' are highly effective in neighborhoods like Yopougon and Cocody for mass product trials."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Trust Factors",
+                                "text": "Local testimonials and endorsements from established Ivorian public figures are high drivers of initial brand trust."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ci-mark-essentials-1",
+                    "type": "essentials",
+                    "title": "Agency Checklist",
+                    "order": 6,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Requirement",
+                                "Status",
+                                "Comment"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "CSP Registration",
+                                    "values": [
+                                        "Mandatory",
+                                        "Legally required for media buying"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Francophone Creative",
+                                    "values": [
+                                        "Crucial",
+                                        "Native French is the baseline"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Digital Analytics",
+                                    "values": [
+                                        "High",
+                                        "Data-driven spend optimization"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "service": "MARKETING AGENCY"
+        }
+    ]
+}

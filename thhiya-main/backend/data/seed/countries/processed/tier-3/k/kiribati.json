@@ -1,0 +1,492 @@
+{
+    "name": "Kiribati",
+    "code": "KI",
+    "slug": "kiribati",
+    "flag": "https://flagcdn.com/w160/ki.png",
+    "region": "Oceania",
+    "languages": [
+        "English",
+        "Gilbertese"
+    ],
+    "currencies": [
+        "AUD"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Kiribati",
+                "subtitle": "Hire in Tarawa",
+                "description": "Compliant employment in the Pacific. We handle KPF contributions.",
+                "bestFor": "NGOs & Marine",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "ki-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Standard employment contract under Kiribati Employment Ordinance."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "KPF Registration",
+                                "description": "Register employee with Kiribati Provident Fund."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax Registration",
+                                "description": "Register for PAYE with Tax Division."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ki-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Kiribati Provident Fund (KPF)",
+                                    "values": [
+                                        "7.5%",
+                                        "7.5%",
+                                        "Mandatory for all employees."
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ki-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Women's Day",
+                                "description": "March 8"
+                            },
+                            {
+                                "title": "Good Friday",
+                                "description": "April 18"
+                            },
+                            {
+                                "title": "Easter Monday",
+                                "description": "April 21"
+                            },
+                            {
+                                "title": "Health Day",
+                                "description": "April 7"
+                            },
+                            {
+                                "title": "Labour Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Independence Days",
+                                "description": "July 12-14"
+                            },
+                            {
+                                "title": "Youth Day",
+                                "description": "August 1"
+                            },
+                            {
+                                "title": "Human Rights Day",
+                                "description": "December 12"
+                            },
+                            {
+                                "title": "Christmas Day",
+                                "description": "December 25"
+                            },
+                            {
+                                "title": "Boxing Day",
+                                "description": "December 26"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ki-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax Brackets (Annual AUD)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Taxable Income (AUD)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "0 - 1,800",
+                                    "values": [
+                                        "0%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "1,801 - 15,000",
+                                    "values": [
+                                        "20%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "15,001 - 20,000",
+                                    "values": [
+                                        "25%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "20,001 - 50,000",
+                                    "values": [
+                                        "30%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Above 50,000",
+                                    "values": [
+                                        "35%"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ki-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Base Salary (AUD)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "KPF",
+                                "description": "Deduct 7.5% Provident Fund."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax",
+                                "description": "Apply progressive tax rates (0-35%)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Net",
+                                "description": "Gross - KPF - Tax."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Kiribati",
+                "subtitle": "Limited Company",
+                "description": "Registering a business with the Ministry of Commerce.",
+                "bestFor": "Long-term",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "ki-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Name Reservation",
+                                "description": "Check with Business Companies Registry."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Foreign Investment License",
+                                "description": "Required for non-citizens."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Incorporation",
+                                "description": "File articles with the Registrar of Companies."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ki-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "ANZ Kiribati",
+                                "description": "The major commercial bank (Australia and New Zealand Banking Group)."
+                            },
+                            {
+                                "title": "Development Bank of Kiribati",
+                                "description": "Focuses on development loans."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Kiribati",
+                "subtitle": "Marine Talent",
+                "description": "Known for seafarers.",
+                "bestFor": "Maritime",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "ki-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Tarawa",
+                                "text": "Capital and main population center."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Kiribati",
+                "subtitle": "Basic",
+                "description": "Excel-based common.",
+                "bestFor": "Small Teams",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "ki-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "KPF Reporting",
+                                "description": "Ability to generate schedules for Provident Fund."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Kiribati",
+                "subtitle": "Local Standards",
+                "description": "Generally follows Australian standards.",
+                "bestFor": "Compliance",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "ki-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "IFRS",
+                                "text": "Generally adopted."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ki-comp-labor",
+                    "type": "warning",
+                    "title": "Key Risks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Work Permits",
+                                "description": "Strict enforcement for non-residents."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ki-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Tax",
+                                    "values": [
+                                        "25%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "VAT/GST",
+                                    "values": [
+                                        "12.5%",
+                                        "Consumption tax."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Kiribati",
+                "subtitle": "British Law",
+                "description": "Based on English Common Law.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "ki-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "English."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Kiribati",
+                "subtitle": "Connectivity",
+                "description": "Slow internet speeds.",
+                "bestFor": "Basic Ops",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "ki-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Satellite Internet",
+                                "description": "Starlink and other satellite providers are becoming crucial."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Kiribati",
+                "subtitle": "Radio",
+                "description": "Radio is king.",
+                "bestFor": "Local Reach",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "ki-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Radio Kiribati",
+                                "text": "The most effective way to reach the outer islands."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

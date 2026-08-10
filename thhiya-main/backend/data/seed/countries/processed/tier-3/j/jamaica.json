@@ -1,0 +1,528 @@
+{
+    "name": "Jamaica",
+    "code": "JM",
+    "slug": "jamaica",
+    "flag": "https://flagcdn.com/w160/jm.png",
+    "region": "Americas",
+    "languages": [
+        "English"
+    ],
+    "currencies": [
+        "JMD"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Jamaica",
+                "subtitle": "Hire in Kingston",
+                "description": "Compliant employment without a local entity. We handle NIS, NHT, and Education Tax remitances.",
+                "bestFor": "Tourism & BPO",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "jm-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Employment Contract",
+                                "description": "Must comply with Employment (Termination and Redundancy Payments) Act."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "NIS & TRN",
+                                "description": "Collect National Insurance Scheme (NIS) number and Taxpayer Registration Number (TRN)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Payroll Setup",
+                                "description": "Configure S01 Monthly Return form for tax authorities (TAJ)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "jm-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "National Insurance Scheme (NIS)",
+                                    "values": [
+                                        "3.00%",
+                                        "3.00%",
+                                        "Capped at JMD 5M income."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Education Tax",
+                                    "values": [
+                                        "3.50%",
+                                        "2.25%",
+                                        "Mandatory statutory deduction."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "National Housing Trust (NHT)",
+                                    "values": [
+                                        "3.00%",
+                                        "2.00%",
+                                        "Employee portion refundable after 7 years."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "HEART Trust / NTA",
+                                    "values": [
+                                        "3.00%",
+                                        "0%",
+                                        "Human Employment and Resource Training."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "jm-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Ash Wednesday",
+                                "description": "March 5"
+                            },
+                            {
+                                "title": "Good Friday",
+                                "description": "April 18"
+                            },
+                            {
+                                "title": "Easter Monday",
+                                "description": "April 21"
+                            },
+                            {
+                                "title": "Labour Day",
+                                "description": "May 23"
+                            },
+                            {
+                                "title": "Emancipation Day",
+                                "description": "August 1"
+                            },
+                            {
+                                "title": "Independence Day",
+                                "description": "August 6"
+                            },
+                            {
+                                "title": "National Heroes Day",
+                                "description": "October 20"
+                            },
+                            {
+                                "title": "Christmas Day",
+                                "description": "December 25"
+                            },
+                            {
+                                "title": "Boxing Day",
+                                "description": "December 26"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "jm-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax Brackets (Annual JMD)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Income Range (JMD)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "0 - 1,700,088",
+                                    "values": [
+                                        "0%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "1,700,089 - 6,000,000",
+                                    "values": [
+                                        "25%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Above 6,000,000",
+                                    "values": [
+                                        "30%"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "jm-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Base Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Statutory Deductions",
+                                "description": "Deduct employee NIS (3%), NHT (2%), Ed Tax (2.25%)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax Base",
+                                "description": "Gross - NIS - Pension contributions."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Income Tax",
+                                "description": "Apply 25% or 30% on taxable income after 1.7M threshold."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Net",
+                                "description": "Gross - Deductions - Tax."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Jamaica",
+                "subtitle": "Companies Office",
+                "description": "Registering with the Companies Office of Jamaica (COJ).",
+                "bestFor": "Regional HQs",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "jm-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Name Search",
+                                "description": "Reserve company name with COJ."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Form 1A",
+                                "description": "File Articles of Incorporation (Form 1A) and BN5 (Beneficial Owner)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "TRN",
+                                "description": "Apply for Company Taxpayer Registration Number."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "jm-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "NCB (National Commercial Bank)",
+                                "description": "Largest financial group in Jamaica."
+                            },
+                            {
+                                "title": "Scotiabank Jamaica",
+                                "description": "Strong international presence."
+                            },
+                            {
+                                "title": "JN Bank",
+                                "description": "Member-owned bank."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Jamaica",
+                "subtitle": "BPO & Tourism",
+                "description": "Hiring skilled English-speaking talent.",
+                "bestFor": "Customer Support",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "jm-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Kingston",
+                                "text": "The business and financial center."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Montego Bay",
+                                "text": "The hub for Tourism and BPO (Business Process Outsourcing)."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Jamaica",
+                "subtitle": "S01 Ready",
+                "description": "Systems that handle Jamaican statutory reports.",
+                "bestFor": "Compliance",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "jm-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "S01 Form",
+                                "description": "Automatic generation of the monthly S01 return for TAJ."
+                            },
+                            {
+                                "title": "P24/P45",
+                                "description": "Ability to generate annual P24 (Certificate of Pay and Tax Deducted)."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Jamaica",
+                "subtitle": "IFRS",
+                "description": "Adoption of International Financial Reporting Standards.",
+                "bestFor": "Reporting",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "jm-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "IFRS",
+                                "text": "Jamaica has fully adopted International Financial Reporting Standards (IFRS)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "jm-comp-labor",
+                    "type": "warning",
+                    "title": "Termination",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Notice Period",
+                                "description": "Varies by tenure (2 weeks to 12 weeks)."
+                            },
+                            {
+                                "title": "Redundancy Pay",
+                                "description": "Mandatory if employment exceeds 104 weeks (2 years)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "jm-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax (Regulated)",
+                                    "values": [
+                                        "33 1/3%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Corporate Income Tax (Unregulated)",
+                                    "values": [
+                                        "25%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "GCT (VAT)",
+                                    "values": [
+                                        "15%"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Jamaica",
+                "subtitle": "Common Law",
+                "description": "Legal system based on English Common Law.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "jm-msa-reqs",
+                    "type": "insights",
+                    "title": "Contracts",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Written Statement",
+                                "text": "Employers must provide a written statement of particulars within the first week of employment."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Jamaica",
+                "subtitle": "Local Apps",
+                "description": "Tech ecosystem.",
+                "bestFor": "Ops",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "jm-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Lynk",
+                                "description": "Popular digital wallet (CBDC - JAM-DEX integrated)."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Jamaica",
+                "subtitle": "Instagram & TikTok",
+                "description": "Social media dominance.",
+                "bestFor": "B2C",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "jm-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Influencers",
+                                "text": "Highly effective market strategies using local music and sports influencers."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

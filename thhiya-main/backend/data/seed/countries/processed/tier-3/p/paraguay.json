@@ -1,0 +1,500 @@
+{
+    "name": "Paraguay",
+    "code": "PY",
+    "slug": "paraguay",
+    "flag": "https://flagcdn.com/w160/py.png",
+    "region": "Americas",
+    "languages": [
+        "Spanish",
+        "Guaraní"
+    ],
+    "currencies": [
+        "PYG"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Paraguay",
+                "subtitle": "Hire in Asunción",
+                "description": "Compliant employment in South America. We handle IPS.",
+                "bestFor": "Agriculture & Energy",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "py-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Signed employment contract."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "IPS",
+                                "description": "Register employee with Instituto de Previsión Social."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "MTESS",
+                                "description": "Register contract with Ministry of Labor (MTESS)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "py-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Security (IPS)",
+                                    "values": [
+                                        "16.5%",
+                                        "9%",
+                                        "Covers health and pension."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "SNPP",
+                                    "values": [
+                                        "Included",
+                                        "0%",
+                                        "Training tax included in IPS."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Aguinaldo",
+                                    "values": [
+                                        "8.33%",
+                                        "0%",
+                                        "13th month salary (mandatory)."
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "py-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Heroes' Day",
+                                "description": "March 1"
+                            },
+                            {
+                                "title": "Maundy Thursday",
+                                "description": "April 17"
+                            },
+                            {
+                                "title": "Good Friday",
+                                "description": "April 18"
+                            },
+                            {
+                                "title": "Labor Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Independence Day",
+                                "description": "May 15"
+                            },
+                            {
+                                "title": "Chaco Armistice",
+                                "description": "June 12"
+                            },
+                            {
+                                "title": "Founding of Asunción",
+                                "description": "August 15"
+                            },
+                            {
+                                "title": "Boqueron Battle Victory",
+                                "description": "September 29"
+                            },
+                            {
+                                "title": "Virgin of Caacupé",
+                                "description": "December 8"
+                            },
+                            {
+                                "title": "Christmas Day",
+                                "description": "December 25"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "py-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax (IRP)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Annual Income",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Below Threshold",
+                                    "values": [
+                                        "0%",
+                                        "If < 36 minimum wages (~PYG 97m)."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Above Threshold",
+                                    "values": [
+                                        "8% - 10%",
+                                        "Progressive rates on net income (8% up to 50m, 9% to 150m, 10% over)."
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "py-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "IPS",
+                                "description": "Deduct 9%."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "IRP",
+                                "description": "Apply 8-10% if above threshold (on net income usually)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Net",
+                                "description": "Gross - IPS - IRP."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Paraguay",
+                "subtitle": "S.A. / EAS",
+                "description": "Sociedad Anónima.",
+                "bestFor": "Maquila",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "py-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "SUACE",
+                                "description": "Register via Unified System for Opening and Closing Companies (SUACE)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "RUC",
+                                "description": "Obtain Taxpayer Registry (RUC)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Treasury",
+                                "description": "Register with Ministry of Finance."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "py-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Itaú Paraguay",
+                                "description": "Leading bank."
+                            },
+                            {
+                                "title": "Continental",
+                                "description": "Major local bank."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Paraguay",
+                "subtitle": "Asunción",
+                "description": "Young workforce.",
+                "bestFor": "Manufacturing",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "py-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Asunción",
+                                "text": "Capital and business center."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Paraguay",
+                "subtitle": "REI",
+                "description": "IPS system.",
+                "bestFor": "Compliance",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "py-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "REI",
+                                "description": "Registro Electrónico de Información (IPS) integration."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Paraguay",
+                "subtitle": "NIIF",
+                "description": "IFRS adopted.",
+                "bestFor": "Compliance",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "py-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "NIIF",
+                                "text": "International Financial Reporting Standards apply."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "py-comp-labor",
+                    "type": "warning",
+                    "title": "Termination",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Tenure",
+                                "description": "Stability after 10 years of service makes termination difficult."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "py-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax (IRE)",
+                                    "values": [
+                                        "10%",
+                                        "Flat rate."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Dividends Tax (IDU)",
+                                    "values": [
+                                        "8% - 15%",
+                                        "8% residents, 15% non-residents."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "VAT (IVA)",
+                                    "values": [
+                                        "10%",
+                                        "Standard rate (5% for some goods)."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Paraguay",
+                "subtitle": "Civil Law",
+                "description": "Code based.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "py-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "Spanish is the language of business."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Paraguay",
+                "subtitle": "Tigo Money",
+                "description": "Wallets.",
+                "bestFor": "Payments",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "py-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Tigo Money",
+                                "description": "Leading mobile wallet."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Paraguay",
+                "subtitle": "Facebook",
+                "description": "Social.",
+                "bestFor": "Ads",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "py-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Social Media",
+                                "text": "Facebook and WhatsApp are essential."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

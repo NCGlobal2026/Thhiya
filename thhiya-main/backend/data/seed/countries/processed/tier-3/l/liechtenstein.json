@@ -1,0 +1,512 @@
+{
+    "name": "Liechtenstein",
+    "code": "LI",
+    "slug": "liechtenstein",
+    "flag": "https://flagcdn.com/w160/li.png",
+    "region": "Europe",
+    "languages": [
+        "German"
+    ],
+    "currencies": [
+        "CHF"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Liechtenstein",
+                "subtitle": "Hire in Vaduz",
+                "description": "Compliant employment in the Principality. We handle AHV/IV/FAK contributions.",
+                "bestFor": "Finance & Tech",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "li-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Employment contract in German."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "AHV Registration",
+                                "description": "Register with Liechtenstein Old Age and Survivors' Insurance."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Residence Permit",
+                                "description": "Strict quotas (L/B permits) for non-citizens."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "li-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "AHV/IV/FAK",
+                                    "values": [
+                                        "~6.5%",
+                                        "~5.0%",
+                                        "Old Age (AHV), Disability (IV), and Family Compensation (FAK - Employer only)."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Unemployment (ALV)",
+                                    "values": [
+                                        "0.5%",
+                                        "0.5%",
+                                        "Up to salary cap."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "li-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Epiphany",
+                                "description": "January 6"
+                            },
+                            {
+                                "title": "Candlemas",
+                                "description": "February 2"
+                            },
+                            {
+                                "title": "St. Joseph's Day",
+                                "description": "March 19"
+                            },
+                            {
+                                "title": "Easter Monday",
+                                "description": "April 21"
+                            },
+                            {
+                                "title": "Labour Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Ascension Day",
+                                "description": "May 29"
+                            },
+                            {
+                                "title": "Whit Monday",
+                                "description": "June 9"
+                            },
+                            {
+                                "title": "Corpus Christi",
+                                "description": "June 19"
+                            },
+                            {
+                                "title": "National Day",
+                                "description": "August 15"
+                            },
+                            {
+                                "title": "Nativity of Our Lady",
+                                "description": "September 8"
+                            },
+                            {
+                                "title": "All Saints' Day",
+                                "description": "November 1"
+                            },
+                            {
+                                "title": "Immaculate Conception",
+                                "description": "December 8"
+                            },
+                            {
+                                "title": "Christmas Day",
+                                "description": "December 25"
+                            },
+                            {
+                                "title": "St. Stephen's Day",
+                                "description": "December 26"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "li-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "National Tax",
+                                    "values": [
+                                        "Up to 8%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Communal Tax",
+                                    "values": [
+                                        "150% - 250%",
+                                        "Surcharge on national tax amount."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Effective Rate",
+                                    "values": [
+                                        "2.5% - 22.4%",
+                                        "Low compared to neighbors."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "li-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Base Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Social Security",
+                                "description": "Deduct AHV/IV/ALV (approx 5.5%)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Pension Fund",
+                                "description": "Deduct occupational pension (BVG) if applicable."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Net (Pre-tax)",
+                                "description": "Gross - Social Contributions. (Taxes often paid via Tax Return, not withheld at source for residents, unlike innovative Quellensteuer for cross-border)."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Liechtenstein",
+                "subtitle": "AG / GmbH",
+                "description": "Registering an entity.",
+                "bestFor": "Wealth Mgmt",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "li-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Commercial Register",
+                                "description": "Register with 'Handelsregister'."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Capital",
+                                "description": "Min 30,000 CHF for GmbH, 50,000 CHF for AG."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Director",
+                                "description": "At least one director must be resident in EEA/Switzerland."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "li-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "LGT Bank",
+                                "description": "Private banking group."
+                            },
+                            {
+                                "title": "Liechtensteinische Landesbank (LLB)",
+                                "description": "Retail and corporate banking."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Liechtenstein",
+                "subtitle": "Cross-border",
+                "description": "Commuters from CH/AT.",
+                "bestFor": "Finance",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "li-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Vaduz / Schaan",
+                                "text": "Main employment centers. High reliance on cross-border workers."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Liechtenstein",
+                "subtitle": "ELM Standard",
+                "description": "Swiss-compatible.",
+                "bestFor": "Compliance",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "li-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Wage Statements",
+                                "description": "Lohnausweis compliant with local tax admin."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Liechtenstein",
+                "subtitle": "PGR",
+                "description": "Company Law.",
+                "bestFor": "Reporting",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "li-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Liechtenstein GAAP",
+                                "text": "Defined in PGR. IFRS/US GAAP permitted for consolidated accounts."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "li-comp-labor",
+                    "type": "warning",
+                    "title": "Termination",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Notice Period",
+                                "description": "1 to 3 months typically."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "li-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax",
+                                    "values": [
+                                        "12.5%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Minimum Tax",
+                                    "values": [
+                                        "1,800 CHF",
+                                        "Annual minimum for inactive entities."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "VAT",
+                                    "values": [
+                                        "8.1%",
+                                        "Aligned with Swiss rates."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Liechtenstein",
+                "subtitle": "Civil Law",
+                "description": "Distinct system.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "li-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Jurisdiction",
+                                "text": "Vaduz courts have jurisdiction."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Liechtenstein",
+                "subtitle": "Fintech",
+                "description": "Blockchain friendly.",
+                "bestFor": "Tech",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "li-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "e-Government",
+                                "description": "Advanced digital portal for citizens and businesses."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Liechtenstein",
+                "subtitle": "Niche",
+                "description": "High net worth focus.",
+                "bestFor": "Luxury",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "li-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Print & Digital",
+                                "text": "Local newspapers (Vaterland) still influential alongside digital."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

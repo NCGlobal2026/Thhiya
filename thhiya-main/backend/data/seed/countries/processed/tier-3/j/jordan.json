@@ -1,0 +1,522 @@
+{
+    "name": "Jordan",
+    "code": "JO",
+    "slug": "jordan",
+    "flag": "https://flagcdn.com/w160/jo.png",
+    "region": "Asia",
+    "languages": [
+        "Arabic"
+    ],
+    "currencies": [
+        "JOD"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Jordan",
+                "subtitle": "Hire in Amman",
+                "description": "Compliant employment in the Hashemite Kingdom. We handle Social Security Corporation (SSC) registrations.",
+                "bestFor": "Tech & NGOs",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "jo-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract (Aqd Amal)",
+                                "description": "Must be in Arabic. Ministry of Labor templates are often used."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Social Security",
+                                "description": "Register employee with the Social Security Corporation (SSC) immediately upon hiring."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Bank Account",
+                                "description": "Salary must be transferred to a local bank account."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "jo-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Security (SSC)",
+                                    "values": [
+                                        "14.25%",
+                                        "7.50%",
+                                        "Includes Old Age, Disability, Death, Work Injury, Maternity, and Unemployment."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Vocational Training",
+                                    "values": [
+                                        "1%",
+                                        "0%",
+                                        "Applicable to certain sectors."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "jo-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Eid al-Fitr",
+                                "description": "March 29-31 (Estimated)"
+                            },
+                            {
+                                "title": "Labor Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Independence Day",
+                                "description": "May 25"
+                            },
+                            {
+                                "title": "Eid al-Adha",
+                                "description": "June 6-9 (Estimated)"
+                            },
+                            {
+                                "title": "Islamic New Year",
+                                "description": "June 26"
+                            },
+                            {
+                                "title": "Prophet's Birthday",
+                                "description": "September 4"
+                            },
+                            {
+                                "title": "Christmas Day",
+                                "description": "December 25"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "jo-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax Brackets (Annual JOD)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Taxable Income (JOD)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "0 - 5,000",
+                                    "values": [
+                                        "5%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "5,001 - 10,000",
+                                    "values": [
+                                        "10%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "10,001 - 15,000",
+                                    "values": [
+                                        "15%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "15,001 - 20,000",
+                                    "values": [
+                                        "20%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Above 20,000",
+                                    "values": [
+                                        "25%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "National Contribution",
+                                    "values": [
+                                        "1%",
+                                        "Additional solidarity tax on high earners (above 200k)."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "jo-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Base Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Social Security",
+                                "description": "Deduct 7.5% Employee Share."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Exemptions",
+                                "description": "Apply Personal (9,000 JOD) and Family Exemptions (9,000 JOD)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Tax",
+                                "description": "Apply progressive rates (5%-25%) on remaining income."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Net",
+                                "description": "Gross - SSC - Tax."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Jordan",
+                "subtitle": "MoITS Registration",
+                "description": "Registering a Limited Liability Company (LLC) with the Ministry of Industry, Trade and Supply.",
+                "bestFor": "Regional HQs",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "jo-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Name Approval",
+                                "description": "Check availability with Companies Controller Department (CCD)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Bank Deposit",
+                                "description": "Deposit 50% of the minimum capital (Standard: 1 JOD, but practical minimums apply)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Registration",
+                                "description": "Submit Memorandum of Association to Ministry of Industry, Trade and Supply."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "jo-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Arab Bank",
+                                "description": "One of the largest in the Middle East."
+                            },
+                            {
+                                "title": "Housing Bank for Trade and Finance",
+                                "description": "Major retail and commercial bank."
+                            },
+                            {
+                                "title": "Jordan Kuwait Bank",
+                                "description": "Strong corporate banking services."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Jordan",
+                "subtitle": "Tech Talent",
+                "description": "Hub for Arabic-speaking tech talent.",
+                "bestFor": "Startups",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "jo-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Amman",
+                                "text": "The Capital and primary business hub, hosting many regional tech HQs."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Irbid",
+                                "text": "Known for its universities and engineering graduates."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Jordan",
+                "subtitle": "SSC Integrated",
+                "description": "Software managing social security filings.",
+                "bestFor": "Compliance",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "jo-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Arabic Support",
+                                "description": "Essential for generating rigorous government reports."
+                            },
+                            {
+                                "title": "SSC Integration",
+                                "description": "Reports must match Social Security Corporation formats."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Jordan",
+                "subtitle": "IFRS",
+                "description": "Standards aligned with IFRS.",
+                "bestFor": "Reporting",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "jo-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "IFRS",
+                                "text": "Mandatory for all public shareholding companies and widely used by others."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "jo-comp-labor",
+                    "type": "warning",
+                    "title": "Termination",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Arbitrary Dismissal",
+                                "description": "If court finds dismissal arbitrary, employer may pay compensation equivalent to half a month's wage for each year of service."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "jo-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Sector",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Standard (Trading/Services)",
+                                    "values": [
+                                        "20%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Industrial",
+                                    "values": [
+                                        "14%",
+                                        "Discounted rate to promote manufacturing."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Banks",
+                                    "values": [
+                                        "35%",
+                                        "Higher rate for financial institutions."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Jordan",
+                "subtitle": "Civil Law",
+                "description": "Contracts must be clear on termination.",
+                "bestFor": "Clarity",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "jo-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "Arabic is the governing language for official purposes."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Jordan",
+                "subtitle": "E-Fawateercom",
+                "description": "Electronic payments.",
+                "bestFor": "Payments",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "jo-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "eFawateercom",
+                                "description": "The national electronic bill presentation and payment system."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Jordan",
+                "subtitle": "Digital",
+                "description": "High internet penetration.",
+                "bestFor": "Engagement",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "jo-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Social Media",
+                                "text": "Facebook and Instagram are key channels for B2C engagement."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+name: CD Test Gate
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  frontend-tests:
+    name: Frontend Verification
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        working-directory: frontend
+        run: bun install
+
+      - name: Typecheck
+        working-directory: frontend
+        run: bun x tsc --noEmit
+
+      - name: Unit tests
+        working-directory: frontend
+        run: bun run test
+
+      - name: Build
+        working-directory: frontend
+        run: bun run build
+
+  backend-tests:
+    name: Backend Verification
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        working-directory: backend
+        run: bun install
+
+      - name: Typecheck
+        working-directory: backend
+        run: bun run typecheck
+
+      - name: Unit tests
+        working-directory: backend
+        run: bun run test
+
+      - name: Build
+        working-directory: backend
+        run: bun run build

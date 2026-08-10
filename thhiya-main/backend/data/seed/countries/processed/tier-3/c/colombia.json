@@ -1,0 +1,1954 @@
+{
+    "name": "Colombia",
+    "code": "CO",
+    "slug": "colombia",
+    "flag": "https://flagcdn.com/w160/co.png",
+    "region": "Americas",
+    "languages": [
+        "TBD"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR & PEO Services in Colombia",
+                "subtitle": "Hire and manage local talent without a local entity",
+                "description": "Navigate Colombia's complex labor laws with a professional Employer of Record. Ensure 100% compliance with 'Prima de Servicios', 'Cesantías', and the new 44-hour work week mandate.",
+                "bestFor": "International companies hiring in Colombia",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Employee Onboarding Process",
+                    "subtitle": "Average Timeline: 3-5 Business Days",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Documentation Gathering",
+                                "description": "Collect the employee's National ID (Cédula de Ciudadanía), Tax ID (RUT), and educational certificates. For foreign employees, a valid work visa (usually Type V or M) is required before starting."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Employment Contract Drafting",
+                                "description": "Prepare a legally binding contract in Spanish. Options include Indefinite Term, Fixed Term, or Task-based (Obra o Labor). Fixed-term contracts must be in writing and cannot exceed 3 years initially."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Mandatory Medical Examination",
+                                "description": "Colombian law requires a pre-employment physical exam (examen médico de ingreso) performed by a certified occupational health provider to determine fitness for the role."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Social Security Enrollment",
+                                "description": "Register the employee with the Health Insurance (EPS), Pension Fund (AFP), Professional Risks (ARL), and Family Compensation Fund (Caja de Compensación). This must be completed before the first day of work."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Equipment & IT Setup",
+                                "description": "Coordinate the delivery of hardware. If working remotely, ensure compliance with Teleworking (Teletrabajo) or Home Office (Trabajo en Casa) regulations, which may require a small monthly utility stipend."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Estimated Employer Burden 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Contribution Category",
+                                "Employer Rate",
+                                "Basis"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Health Insurance (EPS)",
+                                    "values": [
+                                        "8.5%",
+                                        "Monthly Gross Salary"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Pension Contributions",
+                                    "values": [
+                                        "12.0%",
+                                        "Monthly Gross Salary"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Professional Risks (ARL)",
+                                    "values": [
+                                        "0.522% - 8.7%",
+                                        "Varies by risk level"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Parafiscal (Caja Compensación)",
+                                    "values": [
+                                        "4.0%",
+                                        "Monthly Gross Salary"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Prima de Servicios (13th Month)",
+                                    "values": [
+                                        "8.33%",
+                                        "Accrued monthly"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Cesantías (Severance)",
+                                    "values": [
+                                        "8.33%",
+                                        "Accrued monthly"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "eor-reform",
+                    "type": "insights",
+                    "title": "2025 Labor Reform Updates",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Working Hours Reduction",
+                                "text": "Effective July 15, 2025, the maximum standard work week is reduced from 46 to 44 hours. Employers must adjust schedules without reducing salaries. Further reduction to 42 hours is set for 2026."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Night Shift Surcharges",
+                                "text": "The labor reform shifts the start of 'night work' to 7:00 PM (instead of 9:00 PM) starting late 2025. Night work carries a 35% surcharge on the hourly rate."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Sunday Surcharge Increase",
+                                "text": "Sunday and holiday work surcharges will increase to 80% in July 2025, gradually reaching 100% by 2027. Avoid scheduling non-essential work on Sundays to manage costs."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "eor-faq",
+                    "type": "faq",
+                    "title": "EOR in Colombia FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is 'Prima de Servicios'?",
+                                "answer": "It is a mandatory 13th-month salary bonus. Half is paid in June and the other half in December. It is equivalent to 15 days of salary per semester."
+                            },
+                            {
+                                "question": "Can I hire contractors instead of employees?",
+                                "answer": "You can use 'Contrato de Prestación de Servicios', but if the person works under subordination, regular hours, and receives tools from you, the UGPP may reclassify them as employees, leading to heavy fines."
+                            },
+                            {
+                                "question": "What is the 'Cesantías' fund?",
+                                "answer": "It is a mandatory severance benefit. Employers must deposit one month's salary into a chosen fund (Fondo de Cesantías) every February for the previous year's work."
+                            },
+                            {
+                                "question": "Is insurance mandatory for EOR employees?",
+                                "answer": "Yes, ARL (Professional Risks) is strictly mandatory and its cost varies depending on whether the employee is office-based (Class I) or in high-risk environments (Class IV/V)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "eor-good",
+                    "type": "good_to_know",
+                    "title": "EOR Cultural Considerations",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Regional Holidays",
+                                "text": "Colombia has one of the highest numbers of public holidays (Festivos) in the world. Plan your project deadlines around these frequent long weekends."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Social Security Portals",
+                                "text": "All EOR providers use the PILA (Planilla Integrada de Liquidación de Aportes) operators like Aportes en Línea or Compensar. Ensure you get the 'Comprobante' monthly."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Dismissal without Cause",
+                                "text": "Firing an employee without cause ('Sin Justa Causa') is possible but requires paying a mandatory indemnity based on the length of service and contract type."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "payroll-cycle",
+                    "type": "key_steps",
+                    "title": "Monthly Payroll Cycle",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross Salary Calculation",
+                                "description": "Include base pay, overtime, night shift surcharges, and any commissions. Ensure the total meets the 2025 minimum wage requirements (including 'Subsidio de Transporte' for low earners)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Mandatory Deductions",
+                                "description": "Withhold 4% of the base salary for Health and 4% for Pension. Apply progressive income tax (Retención en la Fuente) for salaries exceeding the minimum threshold."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "PILAR Filing",
+                                "description": "Generate the PILA (Planilla Integrada de Liquidación de Aportes) file. This is the unified system for paying health, pension, and parafiscal contributions to the government."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Electronic Payroll (Nómina Electrónica)",
+                                "description": "Submit a standardized XML file to the DIAN (Tax Authority) for every payroll run. This is a strict requirement for the employer to deduct payroll costs from corporate taxes."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Disbursement",
+                                "description": "Pay employees via bank transfer in Colombian Pesos (COP). Most employees prefer receiving payments in two installments (Quincena) on the 15th and 30th."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "payroll-taxes",
+                    "type": "cost_breakdown",
+                    "title": "2025 Payroll Tax Brackets",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Monthly Income (UVT)",
+                                "Tax Rate",
+                                "Fixed Deduction"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "0 - 95 UVT",
+                                    "values": [
+                                        "0%",
+                                        "None"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "95 - 150 UVT",
+                                    "values": [
+                                        "19%",
+                                        "Plus fixed adjustment"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "150 - 360 UVT",
+                                    "values": [
+                                        "28%",
+                                        "Progressive"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "360+ UVT",
+                                    "values": [
+                                        "35% - 39%",
+                                        "High income bracket"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "payroll-compliance",
+                    "type": "insights",
+                    "title": "Critical Compliance Deadlines",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "UGPP Audits",
+                                "text": "The UGPP is the authority that audits social security payments. Mismatches between payroll and bank payments can trigger massive fines. Ensure every COP is tracked."
+                            },
+                            {
+                                "type": "info",
+                                "title": "PILA Payment Dates",
+                                "text": "PILA payments are due in the first two weeks of the month, with the exact date determined by the last two digits of the company's NIT (Tax ID)."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Transport Allowance (Subsidio)",
+                                "text": "Employees earning less than 2x the minimum wage are entitled to a mandatory transport allowance ($162,000+ COP/month). This is not subject to social security but is part of the Gross pay."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "payroll-faq",
+                    "type": "faq",
+                    "title": "Payroll FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is electronic payroll mandatory?",
+                                "answer": "Yes, 'Nómina Electrónica' is mandatory for all employers who wish to claim payroll as a deductible expense in their tax returns."
+                            },
+                            {
+                                "question": "What is a 'UVT'?",
+                                "answer": "UVT stands for 'Unidad de Valor Tributario'. It is the standard unit of account for taxes in Colombia, adjusted annually. For 2025, 1 UVT is approximately $47,065 COP."
+                            },
+                            {
+                                "question": "How are overtime rates calculated?",
+                                "answer": "Daytime overtime is 1.25x (25% surcharge), and night-time overtime is 1.75x (75% surcharge)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "payroll-good",
+                    "type": "good_to_know",
+                    "title": "Payroll Best Practices",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "PUC Account Mapping",
+                                "text": "Every payroll item (Health, Pension, Surcharges) must be mapped to its corresponding PUC (Chart of Accounts) code to ensure seamless accounting integration."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Payment Frequency",
+                                "text": "While monthly payments are legal, the 'Quincena' (payments on the 15th and 30th) is the cultural standard and highly preferred by Colombian workers."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "PILA Rounding",
+                                "text": "The PILA payment system (unified social security) rounds all values to the nearest 100 COP. Your payroll calculation engine must match this logic to avoid portal errors."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "calc-steps",
+                    "type": "key_steps",
+                    "title": "How to Use the Calculator",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Enter Monthly Gross Salary",
+                                "description": "Start with the base monthly salary in COP. For 2025, ensure it is at or above the statutory minimum wage."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Select Employee Type",
+                                "description": "Choose between 'Dependent' (Full-time) or 'Independent' (Contractor), as social security split differs significantly."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Review Statutory Deductions",
+                                "description": "The calculator automatically subtracts 4% for Health, 4% for Pension, and applies the 'Retención en la fuente' based on 2025 tax brackets."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Factor in Annual Benefits",
+                                "description": "Toggle 'Total Cost' to see the accruals for Prima (13th month), Cesantías, and the interest on Cesantías (12% annually)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "calc-table",
+                    "type": "cost_breakdown",
+                    "title": "Sample Computation: $5,000,000 COP Gross",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Item",
+                                "Amount (COP)",
+                                "Payer"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Gross Base Salary",
+                                    "values": [
+                                        "$5,000,000",
+                                        "Company"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Health (8.5%)",
+                                    "values": [
+                                        "$425,000",
+                                        "Company"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Pension (12%)",
+                                    "values": [
+                                        "$600,000",
+                                        "Company"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Employee Health (4%)",
+                                    "values": [
+                                        "($200,000)",
+                                        "Employee"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Employee Pension (4%)",
+                                    "values": [
+                                        "($200,000)",
+                                        "Employee"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Net Take-Home Pay",
+                                    "values": [
+                                        "$4,600,000",
+                                        "Employee"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "calc-insights",
+                    "type": "insights",
+                    "title": "Critical Edge Cases",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Salarial vs Non-Salarial Pay",
+                                "text": "In Colombia, you can designate up to 40% of compensation as 'non-salarial' (bonuses, meal vouchers) to optimize social security costs. This must be explicitly agreed in the contract."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Integral Salary",
+                                "text": "For very high earners (>13 minimum wages), you can use an 'Integral Salary' which includes all benefits (Prima/Cesantías) in one monthly payment. 30% of this is tax-exempt."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Voluntary Pensions",
+                                "text": "Contributions to voluntary pension funds (e.g., Protección, Porvenir) can be deducted from the tax base, significantly reducing monthly withholding for high earners."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "calc-faq",
+                    "type": "faq",
+                    "title": "Calculator FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Are transport subsidies included?",
+                                "answer": "Yes, for 2025, the subsidy is approx $162,000 but only for those earning less than 2 minimum wages. The calculator auto-applies this logic."
+                            },
+                            {
+                                "question": "Does it calculate 'Retención en la fuente'?",
+                                "answer": "Yes, it uses the 2025 UVT value to calculate the progressive withholding for salaries over the exemption threshold."
+                            },
+                            {
+                                "question": "Is the transport subsidy taxable?",
+                                "answer": "No, the 'Subsidio de Transporte' is not part of the social security base and is not subject to income tax withholdings."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "calc-good",
+                    "type": "good_to_know",
+                    "title": "Calculator Accuracy",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Rounding Rules",
+                                "text": "PILA payments are rounded to the nearest 100 COP. The calculator applies these rounding rules to match official government portals."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "UVT Updates",
+                                "text": "The calculator is updated every January as soon as the DIAN announces the new UVT value for the year."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Independent vs Dependent",
+                                "text": "Note that independent contractors pay 100% of social security on 40% of their gross, while employees split the cost with the company."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Entity Setup & Incorporation in Colombia",
+                "subtitle": "Establish your business securely in Latin America's growth hub",
+                "description": "From SAS formation to Chamber of Commerce registration, we handle the legal complexities of setting up your Colombian branch or subsidiary.",
+                "bestFor": "Companies establishing a permanent presence in Colombia",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "incorporation-steps",
+                    "type": "key_steps",
+                    "title": "SAS Formation Process",
+                    "subtitle": "Timeline: 10-15 Business Days",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Drafting Bylaws",
+                                "description": "Draft the 'Documento Privado' (Private Document) defining the company name, duration, object, and social capital. The SAS structure allows for flexible governance."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Chamber of Commerce Registration",
+                                "description": "Submit documents to the Cámara de Comercio. Pay the registration fee (~0.7% of the social capital) and obtain the Certificate of Existence and Legal Representation."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Obtaining Tax ID (NIT)",
+                                "description": "Apply for the RUT (Registro Único Tributario) at the DIAN. Initially, a 'Provisional RUT' is issued, and the final 'NIT' is obtained after bank account opening."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Local Bank Account Opening",
+                                "description": "The most time-consuming step. Requires physical presence of the Legal Representative and extensive KYC documentation. Estimated time: 2-4 weeks."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Final DIAN Activation",
+                                "description": "Submit bank account details to the DIAN to activate the final RUT and enable the issuance of electronic invoices."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "inc-costs",
+                    "type": "cost_breakdown",
+                    "title": "Estimated Setup Fees 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Item",
+                                "Estimated Cost (USD)",
+                                "Nature"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Chamber Registration",
+                                    "values": [
+                                        "$200 - $1,500",
+                                        "Volume based"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Legal Advisory Fees",
+                                    "values": [
+                                        "$1,500 - $3,500",
+                                        "One-time"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Notary/Documentation",
+                                    "values": [
+                                        "$300",
+                                        "Variable"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Annual Renewal Fee",
+                                    "values": [
+                                        "$100 - $500",
+                                        "Every March"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Total Startup Cost",
+                                    "values": [
+                                        "$2,000+",
+                                        "-"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "inc-insights",
+                    "type": "insights",
+                    "title": "Strategic Market Entry Tips",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "The SAS Advantage",
+                                "text": "The S.A.S. (Sociedad por Acciones Simplificada) is the preferred entity for 95%+ of new businesses. It requires no minimum capital and only 1 shareholder."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Legal Representation",
+                                "text": "Every entity must have a Legal Representative who lives in Colombia. Many firms provide 'Guardian' or 'Nominee' representative services for foreign investors."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Medellín vs Bogotá",
+                                "text": "Bogotá is the financial hub, but Medellín offers significant tax incentives for technology companies through their 'Valle del Software' initiatives."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "inc-faq",
+                    "type": "faq",
+                    "title": "Incorporation FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Do I need a local shareholder?",
+                                "answer": "No, a SAS can be 100% foreign-owned by individuals or foreign corporations."
+                            },
+                            {
+                                "question": "What is the minimum capital requirement?",
+                                "answer": "There is no minimum legal requirement for social capital, but $1,000 - $5,000 is recommended to cover initial bank account requirements."
+                            },
+                            {
+                                "question": "How often must I renew my registration?",
+                                "answer": "Every year before March 31st, you must renew the 'Matrícula Mercantil' with the Chamber of Commerce."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "inc-good",
+                    "type": "good_to_know",
+                    "title": "Legal Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Central Bank Reporting",
+                                "text": "Any capital brought from abroad into Colombia must be registered with the Banco de la República (Central Bank) using 'Formulario 4' to ensure legal repatriation of future dividends."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Digital Signatures",
+                                "text": "Getting a 'Firma Digital' for the Legal Representative early is critical, as it is required for all DIAN tax filings and many Chamber of Commerce procedures."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Notary Formalities",
+                                "text": "While SAS bylaws can be private, any property transfer or specific power of attorney (Poder) must be elevated to a public deed at a Notary (Notaría)."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing & Talent Acquisition in Colombia",
+                "subtitle": "Discover and hire top-tier talent in Latin America's tech hubs",
+                "description": "Leverage our local network to find specialized professionals in Bogotá, Medellín, and Cali. From executive search to high-volume tech recruitment.",
+                "bestFor": "Companies scaling their teams in Colombia",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "staffing-process",
+                    "type": "key_steps",
+                    "title": "Recruitment Lifecycle",
+                    "subtitle": "Average Time-to-Hire: 3-6 weeks",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Sourcing and Advertising",
+                                "description": "Post roles on top local portals like El Empleo, Computrabajo, and LinkedIn. For tech roles, Medellín's 'Ruta N' network is a critical sourcing channel."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Technical Assessment",
+                                "description": "Conduct standardized tests. In Colombia, psychological testing (Pruebas Psicotécnicas) is extensively used and often expected by local HR standards."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Background & Security Checks",
+                                "description": "Perform rigorous 'Estudio de Seguridad'. This involves verifying judicial records (Procuraduría, Contraloría, Policía) and educational background."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Home Visit (Visita Domiciliaria)",
+                                "description": "A unique Colombian practice: for many sensitive or senior roles, recruiters conduct a home visit to verify the candidate's living environment and family context."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "staffing-fees",
+                    "type": "cost_breakdown",
+                    "title": "Recruitment Service Fees 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service Type",
+                                "Fee Structure",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Contingency Recruitment",
+                                    "values": [
+                                        "15% - 22%",
+                                        "Of annual gross salary"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Retained Search",
+                                    "values": [
+                                        "25% - 33%",
+                                        "For C-level roles"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "RPO (Monthly)",
+                                    "values": [
+                                        "$2,000 - $5,000",
+                                        "Volume based"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Contractor Sourcing",
+                                    "values": [
+                                        "10% - 15% mark-up",
+                                        "Monthly fee"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "staffing-insights",
+                    "type": "insights",
+                    "title": "Colombian Talent Trends",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "The English Premium",
+                                "text": "Bilingual (English/Spanish) talent in Colombia commands a 20-40% salary premium over monolingual peers, especially in IT and BPO sectors."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Tech Hub Focus",
+                                "text": "Medellín has the highest density of developers per capita, while Bogotá remains the leader for financial and administrative roles."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Notice Periods",
+                                "text": "While 30 days is common, notice periods are rarely strictly enforceable in Colombia. Have a strong retention strategy ready for new hires."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "staffing-faq",
+                    "type": "faq",
+                    "title": "Staffing FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What are the most popular job boards?",
+                                "answer": "El Empleo and Computrabajo are the market leaders for general roles, while LinkedIn is essential for professional and executive searches."
+                            },
+                            {
+                                "question": "Are background checks mandatory?",
+                                "answer": "Not strictly mandatory by law, but highly recommended. The 'Estudio de Seguridad' is an industry standard in Colombia."
+                            },
+                            {
+                                "question": "How long does it take to find a developer?",
+                                "answer": "Senior specialized talent typically takes 45-60 days to source and hire in the competitive Bogotá/Medellín markets."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "staffing-good",
+                    "type": "good_to_know",
+                    "title": "Talent Nuances",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Home Visits (Visitas)",
+                                "text": "Do not be surprised if local candidates expect a home visit. It is a traditional part of the 'trust-building' process in Colombian recruitment."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Net vs Gross",
+                                "text": "Always negotiate salaries in 'Gross' (Bruto) terms. Colombian employees are used to thinking about their take-home pay, but contracts must specify the Gross amount."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Trial Periods",
+                                "text": "Trial periods (Período de Prueba) cannot exceed 2 months and must be in writing. During this time, either party can terminate the contract without notice or indemnity."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS & People Software in Colombia",
+                "subtitle": "Streamline people management with local compliance automation",
+                "description": "Manage employee data, leave requests, and performance tracking with HR tools that natively support Colombian 'PILA' reporting and 'Habeas Data' privacy laws.",
+                "bestFor": "Companies automating their HR operations",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "hris-setup",
+                    "type": "key_steps",
+                    "title": "Implementation Roadmap",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Requirement Mapping",
+                                "description": "Identify needs for 'Nómina Electrónica' integration, time tracking, and self-service portals for 'Certificados Laborales' (Labor Certificates)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Data Migration & Cleaning",
+                                "description": "Migrate employee records, ensuring all RUT and Cédula information is accurate and standardized for PILA reporting."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Local Compliance Configuration",
+                                "description": "Configure leave policies (15 days vacation) and benefit accruals (Prima, Cesantías) according to current 2025 labor rates."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Manager & Employee Training",
+                                "description": "Train staff on the mobile app for clocking in/out, which is increasingly regulated for remote workers in Colombia."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hris-essentials",
+                    "type": "insights",
+                    "title": "Must-Have HRIS Features",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Habeas Data Compliance",
+                                "text": "Your HRIS must encrypt personal data according to Law 1581. Employees must give explicit consent for data processing at the time of hire."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Electronic Signature Validity",
+                                "text": "Ensure the system uses 'Firma Digital' or 'Firma Electrónica' that meets Decree 2364 standards to ensure contracts are legally binding in court."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Mobile First Strategy",
+                                "text": "Over 80% of Colombian employees access HR tools via smartphones. Prioritize platforms with robust native mobile apps."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hris-good",
+                    "type": "good_to_know",
+                    "title": "Local Digital Adoption",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Vacation Tracking",
+                                "text": "Colombian law allows splitting vacations into 6 days of rest and 9 days of pay (monetized), or vice versa. Your HRIS must be flexible enough to handle these splits."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Workplace Harassment Logs",
+                                "text": "Companies must have a 'Comité de Convivencia' and track reports. A good HRIS provides an anonymous channel for Law 1010 compliance."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Teleworking Stipends",
+                                "text": "For remote roles, HRIS systems should automatically calculate the mandatory 'Auxilio de Conectividad' if the employee earns less than 2x minimum wage."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hris-faq",
+                    "type": "faq",
+                    "title": "HRIS FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Does the HRIS need to be in Spanish?",
+                                "answer": "While managers might use English, a Spanish interface is highly recommended for employees to ensure clarity and engagement."
+                            },
+                            {
+                                "question": "Can I use global platforms like Workday?",
+                                "answer": "Yes, but they souvent need a local middleware or 'plug-in' to handle the specific XML generation for DIAN (Nómina Electrónica)."
+                            },
+                            {
+                                "question": "Are salary slips digitalized?",
+                                "answer": "Yes, 'Desprendibles de Pago' are typically sent via email or accessible through the HRIS portal, and they must match the Electronic Payroll file sent to the DIAN."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hris-costs",
+                    "type": "cost_breakdown",
+                    "title": "HRIS Pricing in Colombia",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Tiers",
+                                "Monthly per Employee",
+                                "Setup Fee"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Basic (Attendance + Payroll)",
+                                    "values": [
+                                        "$3 - $7",
+                                        "$500"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Standard (Plus LMS + Talent)",
+                                    "values": [
+                                        "$8 - $15",
+                                        "$1,200"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Enterprise",
+                                    "values": [
+                                        "Custom Quote",
+                                        "$2,500+"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "hris-insights",
+                    "type": "insights",
+                    "title": "HRIS ROI Analysis",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Self-Service adoption",
+                                "text": "Enabling Employee Self-Service (ESS) reduces HR administrative ticket volume by up to 60% in Colombian companies."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Dian Integration",
+                                "text": "Automatic 'Nómina Electrónica' filing saves roughly 4 hours of manual data entry per payroll cycle."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Data Accuracy",
+                                "text": "Inaccurate data in the HRIS can lead to UGPP audits if social security payments disagree with the payroll accounting."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Professional Accounting Services in Colombia",
+                "subtitle": "Maintain financial transparency and IFRS compliance",
+                "description": "Ensure your books are kept according to NIIF (IFRS) standards. We bridge the gap between local accounting and global corporate reporting.",
+                "bestFor": "Companies needing local statutory books and reporting",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "accounting-steps",
+                    "type": "key_steps",
+                    "title": "Monthly Closing Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Electronic Invoice Reconciliation",
+                                "description": "Match all bank transactions against the XML invoices validated by the DIAN to ensure 100% tax deductibility."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Tax Accruals",
+                                "description": "Calculate and record monthly accruals for ICA (Industry and Commerce Tax) and Retención en la Fuente (Withholding Tax)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Statutory Book Updates",
+                                "description": "Update the mandatory 'Libros Oficiales' (Daily, Ledger, Inventory) which must be registered with the Chamber of Commerce."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "IFRS Consolidation",
+                                "description": "Adjust local books (Group 1 or 2 NIIF) into corporate reporting standards for global headquarter consolidation."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "acc-costs",
+                    "type": "cost_breakdown",
+                    "title": "Monthly Accounting Fees 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Entity Size",
+                                "Monthly Base Fee",
+                                "Included Services"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Micro / Startup",
+                                    "values": [
+                                        "$400 - $800",
+                                        "Tax + Bookkeeping"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Medium Enterprise",
+                                    "values": [
+                                        "$1,000 - $2,500",
+                                        "IFRS + Management Reports"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Full Outsourcing",
+                                    "values": [
+                                        "$3,000+",
+                                        "Accounts Payable/Receivable"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "acc-audit",
+                    "type": "good_to_know",
+                    "title": "Audit & Oversight",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Revisoría Fiscal",
+                                "text": "If your assets exceed 5,000 minimum wages or income exceeds 3,000, you are legally required to appoint a 'Statutory Auditor' (Revisor Fiscal)."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Electronic Signature Manager",
+                                "text": "The Legal Representative and Accountant must both have active DIAN electronic signatures to sign off on monthly tax returns."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Bank Reconciliation",
+                                "text": "Monthly reconciliation is not just for internal control; the DIAN uses bank data to cross-reference reported income and expenses."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "acc-faq",
+                    "type": "faq",
+                    "title": "Accounting FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What are NIIF standards?",
+                                "answer": "NIIF is the Spanish equivalent of IFRS. Colombia adopted these standards fully in 2015, categorized into three groups based on company size."
+                            },
+                            {
+                                "question": "How long must I keep records?",
+                                "answer": "Accounting records and supporting documents must be kept for 10 years by law."
+                            },
+                            {
+                                "question": "Are digital receipts accepted?",
+                                "answer": "Yes, provided they are supported by the XML validation from the DIAN. Physical receipts are becoming obsolete for corporate tax purposes."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "acc-insights",
+                    "type": "insights",
+                    "title": "Accounting Best Practices",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Software Localization",
+                                "text": "Ensure your accounting software handles Colombia's 'Plan Único de Cuentas' (PUC) and generates the mandatory 'Exogenous Information' (Medios Magnéticos) reports."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Expense Deductibility",
+                                "text": "Only expenses supported by 'Factura Electrónica' or 'Documento Soporte' are deductible for income tax purposes. Avoid physical or informal receipts."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Inventory Controls",
+                                "text": "For trading companies, the DIAN requires a detailed 'Kardex' inventory record. Inconsistencies can trigger a physical audit of the warehouse."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "comp-framework",
+                    "type": "key_steps",
+                    "title": "Compliance Implementation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "SAGRILAFT Manual Drafting",
+                                "description": "Create a risk management system for Money Laundering and Terrorism Financing. Mandatory for companies with revenue > 40,000 minimum wages."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Appointing a Compliance Officer",
+                                "description": "Designate a qualified professional (Oficial de Cumplimiento) who is registered with the Superintendencia and can sign off on risk reports."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "UBO Registry (RUB)",
+                                "description": "Report all 'Final Beneficiaries' (individuals with 5%+ ownership) to the DIAN's RUB registry to prevent tax evasion."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "PTEE Activation",
+                                "description": "Roll out the 'Programa de Transparencia y Ética Empresarial' to prevent transnational bribery and corruption within your local operations."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "comp-insights",
+                    "type": "insights",
+                    "title": "Regulatory Oversight Tips",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Late Filing Penalties",
+                                "text": "Missing a deadline with the 'SuperSociedades' for annual reports (Circular Básica Jurídica) can result in fines exceeding $50,000 USD."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Whistleblower Channels",
+                                "text": "Under the new PTEE regulations, companies must provide a secure, anonymous channel for employees to report unethical behavior."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Due Diligence on Partners",
+                                "text": "Always run 'background checks' on your Colombian suppliers and customers. High-risk sectors include real estate, gold mining, and agriculture."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "comp-good",
+                    "type": "good_to_know",
+                    "title": "Data Privacy Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Habeas Data law",
+                                "text": "Law 1581 requires companies to register their 'Database' with the SIC (Superintendencia de Industria y Comercio) if they handle sensitive personal info."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Conflict of Interest Registry",
+                                "text": "As part of PTEE, companies should maintain a digital registry where employees declare any potential conflicts of interest with government officials or vendors."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "PEP Monitoring",
+                                "text": "SAGRILAFT requires enhanced due diligence for 'Politically Exposed Persons' (PEPs) and their relatives up to the second degree of consanguinity."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "comp-faq",
+                    "type": "faq",
+                    "title": "Compliance FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is SAGRILAFT?",
+                                "answer": "It is the comprehensive risk management system for AML/CFT. It requires KYC on all stakeholders and reporting of suspicious transactions (ROS)."
+                            },
+                            {
+                                "question": "Does it apply to small companies?",
+                                "answer": "The full SAGRILAFT applies mostly to larger firms, but a simplified 'Régimen de Medidas Mínimas' applies to many smaller firms in specific sectors."
+                            },
+                            {
+                                "question": "How often must I report to the RUB?",
+                                "answer": "Initially once, then updated whenever there is a change in ownership exceeding 5% or the UBO's personal status changes."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "comp-fees",
+                    "type": "cost_breakdown",
+                    "title": "Compliance Consulting Fees 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Requirement",
+                                "Estimated Setup",
+                                "Monthly Maintenance"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "SAGRILAFT Setup",
+                                    "values": [
+                                        "$1,500 - $3,000",
+                                        "Included in Officer fee"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Data Registry (SIC)",
+                                    "values": [
+                                        "$500",
+                                        "Annual renewal fee"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Compliance Officer (Nominee)",
+                                    "values": [
+                                        "N/A",
+                                        "$500 - $1,200 / month"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "tax-calendar",
+                    "type": "key_steps",
+                    "title": "Annual Tax Compliance",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "VAT (IVA) Filing",
+                                "description": "Bi-monthly or quarterly (depending on income) filing of 19% VAT. Automated through the DIAN portal using electronic invoicing data."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Withholding Tax (Retención)",
+                                "description": "Monthly filing of taxes withheld from employees and vendors. This acts as an advance payment on the annual income tax."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "ICA (Industry & Commerce)",
+                                "description": "Municipal tax on commercial activities. Rates vary by city (Bogotá, Medellín, etc.) and specific business code (CIIU)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Annual Income Tax Return",
+                                "description": "Final settlement and payment of the 35% corporate income tax. Due in April/May of the following year."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "tax-rates",
+                    "type": "cost_breakdown",
+                    "title": "Key Tax Rates 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Tax Type",
+                                "Standard Rate",
+                                "Frequency"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax",
+                                    "values": [
+                                        "35%",
+                                        "Annual"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Value Added Tax (VAT)",
+                                    "values": [
+                                        "19%",
+                                        "Bi-monthly/Quarterly"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Equity/Wealth Tax",
+                                    "values": [
+                                        "0.5% - 1.5%",
+                                        "For net assets > $800k"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "ICA (Municipal)",
+                                    "values": [
+                                        "0.414% - 1.38%",
+                                        "Annual/Bi-monthly"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Financial Trans. Tax (4x1000)",
+                                    "values": [
+                                        "0.4%",
+                                        "Per transaction"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "tax-insights",
+                    "type": "insights",
+                    "title": "Strategic Tax Planning",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Tax Treaties (DTT)",
+                                "text": "Colombia has active Double Tax Treaties with countries like Canada, Spain, UK, and South Korea. Use these to reduce withholding on dividends and royalties."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "4x1000 Bank Tax",
+                                "text": "Every bank withdrawal or transfer is taxed at 0.4%. Business accounts can nominate one account as 'exempt' for small amounts, but most corporate transfers will hit this cost."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Electronic Documents",
+                                "text": "As of 2025, 'Documento Soporte' (support document for purchases from non-invoicing entities) must also be electronic to be tax-deductible."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "tax-faq",
+                    "type": "faq",
+                    "title": "Tax FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the RUT?",
+                                "answer": "The 'Registro Único Tributario' is your national tax registry. It contains your NIT (Tax ID) and lists all your tax obligations (Codes 05, 07, 15, etc.)."
+                            },
+                            {
+                                "question": "Are there tax-free zones?",
+                                "answer": "Yes, 'Zonas Francas' offer a reduced income tax rate (usually 20%) for industrial users and exporters, subject to investment and job creation requirements."
+                            },
+                            {
+                                "question": "What is the 2025 UVT value?",
+                                "answer": "For 2025, the 'Unidad de Valor Tributario' is set at $47,065 COP. All tax limits and penalties are calculated in UVT."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "tax-good",
+                    "type": "good_to_know",
+                    "title": "Tax Compliance Tips",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Exogenous Information",
+                                "text": "Annually, companies must submit 'Información Exógena', a detailed report of all transactions with third parties, which the DIAN uses for cross-referencing."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "RUT Maintenance",
+                                "text": "Ensure your 'Registro Único Tributario' activity codes correctly reflect your business. Mismatches can lead to issues with bank accounts or export permits."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Withholding Certificates",
+                                "text": "Companies are required to issue annual 'Withholding Certificates' (Certificados de Retención) to all vendors by March of the following year."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Contracting & Legal Services in Colombia",
+                "subtitle": "Protect your interests with ironclad local contracts",
+                "description": "Navigate 'Contratos de Prestación de Servicios' and Master Service Agreements with local legal context. We ensure your IP and jurisdiction are protected.",
+                "bestFor": "Companies contracting services or white-labeling in Colombia",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "msa-clauses",
+                    "type": "key_steps",
+                    "title": "MSA Essential Clauses",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Scope of Work (SOW) Definition",
+                                "description": "Strictly define deliverables to avoid the 'subordination' trap, which could turn a service contract into an employment relationship."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Intellectual Property Transfer",
+                                "description": "Ensure the 'Cesión de Derechos patrimoniales' is explicitly stated in writing and notarized if necessary for software or creative work."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Payment Terms & Surcharges",
+                                "description": "Specify payments in COP to avoid FX fluctuations, or anchor to USD with a fixed exchange rate (TRM) date."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Dispute Resolution (Arbitration)",
+                                "description": "Standard practice for foreign MSAs is to include an arbitration clause (Cámara de Comercio de Bogotá) to avoid lengthy local court litigation."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "msa-insights",
+                    "type": "insights",
+                    "title": "Legal Contracting Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Labor Reclassification Risk",
+                                "text": "If a service provider works at your office, uses your email, and follows your schedule, they can sue for 'Contract Reality', leading to retroactive social security payments."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Notary Public Requirement",
+                                "text": "Some contracts and powers of attorney (Poder) require 'Diligencia de Reconocimiento' (notarized signatures) to be valid for third parties or government agencies."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Force Majeure in Colombia",
+                                "text": "Always include a detailed 'Fuerza Mayor' clause that specifically covers social unrest or significant legislative changes common in the region."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "msa-faq",
+                    "type": "faq",
+                    "title": "Legal & MSA FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can contracts be in English?",
+                                "answer": "Yes, but for government filings or court use, they must be translated by an official certified translator (Traductor Oficial)."
+                            },
+                            {
+                                "question": "What is the standard jurisdiction?",
+                                "answer": "Usually, for local contracts, the laws of Colombia apply. International MSAs may opt for Florida or New York law, but enforcement in Colombia still requires local homologation."
+                            },
+                            {
+                                "question": "What is a 'Contrato de Obra'?",
+                                "answer": "It is a contract for a specific mission or task. It ends exactly when the task is finished, without a fixed calendar duration."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "msa-costs",
+                    "type": "cost_breakdown",
+                    "title": "Legal Contracting Fees",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Document Type",
+                                "Standard Fee (USD)",
+                                "Timeline"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "MSA Review/Drafting",
+                                    "values": [
+                                        "$800 - $1,500",
+                                        "3-5 Days"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "SOW Localization",
+                                    "values": [
+                                        "$400",
+                                        "2 Days"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Independent Contractor Agreement",
+                                    "values": [
+                                        "$600",
+                                        "3 Days"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "msa-good",
+                    "type": "good_to_know",
+                    "title": "Legal Best Practices",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Electronic Evidence",
+                                "text": "Law 527 gives digital messages and emails the same legal weight as physical documents, provided their integrity can be verified."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Apostille Process",
+                                "text": "Any document issued abroad for use in Colombia (like a Power of Attorney) must be Apostilled in the country of origin to be legally valid."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Verbal Contracts",
+                                "text": "While verbal contracts are technically legal for employment, service contracts (MSA/SOW) must be in writing to protect intellectual property and define liability limits."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Solutions & Dev Teams in Colombia",
+                "subtitle": "Build and scale your tech stack in Latin America's 'Silicon Valley'",
+                "description": "Access Medellín's tech ecosystem and Bogotá's enterprise software market. We help you source, implement, and maintain custom software and SaaS platforms.",
+                "bestFor": "Tech startups and digital-first enterprises",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "soft-dev",
+                    "type": "key_steps",
+                    "title": "Software Implementation Lifecycle",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Technical Discovery",
+                                "description": "Audit local infrastructure needs, including cloud availability relevant to Colombia (AWS and Azure have significant local presence)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "API & DIAN Integration",
+                                "description": "Ensure your software natively connects to the DIAN 'Web Services' for real-time electronic invoicing and payroll validation."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Local QA & Testing",
+                                "description": "Test performance across local networks (Claro, Tigo, Movistar) and ensure Spanish localization is culturally appropriate."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Deployment & Support",
+                                "description": "Establish local Level 1 support in Spanish to manage user adoption and troubleshooting during Colombian business hours (GMT-5)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "soft-rates",
+                    "type": "cost_breakdown",
+                    "title": "Development Rates 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Role",
+                                "Monthly Salary (USD)",
+                                "Experience"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Fullstack Developer",
+                                    "values": [
+                                        "$2,500 - $4,500",
+                                        "Mid-Senior"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Mobile Dev (React/Flutter)",
+                                    "values": [
+                                        "$3,000 - $5,000",
+                                        "Mid-Senior"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "DevOps Engineer",
+                                    "values": [
+                                        "$3,500 - $6,000",
+                                        "Senior"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "QA Automation",
+                                    "values": [
+                                        "$2,000 - $3,500",
+                                        "Mid"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Tech Lead",
+                                    "values": [
+                                        "$6,500+",
+                                        "10+ Years"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "soft-insights",
+                    "type": "insights",
+                    "title": "Colombian Tech Ecosystem",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Medellín: The Tech Capital",
+                                "text": "Medellín was named the most innovative city in the world and hostst the 4th Industrial Revolution Center. It offers massive incentives for software exporters."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Cloud Adoption",
+                                "text": "Colombia is a regional leader in cloud adoption. Most enterprise software is now SaaS-based, with local data centers improving latency across the Andes."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Software Export Taxes",
+                                "text": "Software exported from Colombia is generally exempt from VAT (IVA), provided it is consumed exclusively abroad. Proper contract wording is critical."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "soft-faq",
+                    "type": "faq",
+                    "title": "Software FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I hire a remote dev team?",
+                                "answer": "Yes, Colombia is in the same timezone as US Eastern (EST), making it the primary hub for nearshore software development."
+                            },
+                            {
+                                "question": "What are the top tech stacks?",
+                                "answer": "Java, .NET, and Python dominate enterprise, while React, Node.js, and Flutter are the leaders in the startup and mobile space."
+                            },
+                            {
+                                "question": "How are intellectual property rights managed?",
+                                "answer": "IP created under an employment contract automatically belongs to the employer. For contractors, a specific 'Cesión de Derechos' clause must be signed."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "soft-good",
+                    "type": "good_to_know",
+                    "title": "Dev Culture in Colombia",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "English Proficiency",
+                                "text": "While senior devs often have B2/C1 English, junior talent may need support. Many companies offer internal English classes as a benefit."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Remote First",
+                                "text": "The Colombian tech talent pool expects remote or hybrid flexibility. High-speed fiber optic is standard in major cities like Medellín and Bogotá."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Hardware Costs",
+                                "text": "Laptops and servers can be 20-30% more expensive in Colombia due to import duties (Aranceles). Consider sourcing locally for faster warranty support."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing & Creative Services in Colombia",
+                "subtitle": "Captivate the vibrant and digital-savvy Colombian consumer",
+                "description": "From 'Influencer' campaigns to performance marketing, we help you navigate the unique cultural nuances of the Colombian market.",
+                "bestFor": "Consumer brands and B2B companies looking for local growth",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "mark-process",
+                    "type": "key_steps",
+                    "title": "Campaign Launch Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Cultural Localization",
+                                "description": "Adapt messaging to regional variations (Paisa, Rolo, Costeño). What works in Bogotá might not resonate in Barranquilla."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Omnichannel Strategy",
+                                "description": "WhatsApp is the king of communication in Colombia. Your marketing funnel must include a direct WhatsApp click-to-chat component."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Influencer Vetting",
+                                "description": "Collaborate with local creators. Ensure they comply with SIC transparency guidelines by clearly marking paid partnerships with #Publicidad."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Media Buying & Optimization",
+                                "description": "Budget for Meta (Facebook/Instagram) and TikTok, which have the highest engagement rates among Colombian demographics."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mark-insights",
+                    "type": "insights",
+                    "title": "2025 Digital Trends",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "The Power of WhatsApp",
+                                "text": "Over 94% of internet users in Colombia use WhatsApp daily. Use it for customer service, lead nurturing, and even direct sales."
+                            },
+                            {
+                                "type": "info",
+                                "title": "E-commerce Growth",
+                                "text": "Social selling is booming. Live-streaming commerce events are becoming a standard for retail brands during 'Cyber Monday' and 'Black Friday'."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Data Protection SIC",
+                                "text": "Marketing databases must be registered. Sending unsolicited emails or texts without an 'opt-out' and 'privacy policy' link can lead to heavy SIC fines."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mark-good",
+                    "type": "good_to_know",
+                    "title": "Consumer Nuances",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Loyalty over Price",
+                                "text": "Colombian consumers are highly brand-loyal. Invest in community management and high-quality customer service to build long-term trust."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Festive Season Marketing",
+                                "text": "The Christmas season starts early in Colombia (November). Brands must peak their activity during 'Prima' payout dates in early December."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "SIC Regulations",
+                                "text": "The Superintendencia de Industria y Comercio strictly monitors 'misleading advertising'. Ensure all discounts and terms are clearly legible."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mark-faq",
+                    "type": "faq",
+                    "title": "Marketing FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the most effective social channel?",
+                                "answer": "For B2C, Instagram and TikTok. For B2B, LinkedIn is growing rapidly but professional networks still heavily rely on face-to-face or WhatsApp connections."
+                            },
+                            {
+                                "question": "Do I need a local agency?",
+                                "answer": "Highly recommended for copy and cultural nuances. 'Colombian Spanish' has specific idioms and tones that global Spanish translations often miss."
+                            },
+                            {
+                                "question": "What is the 'Día sin IVA'?",
+                                "answer": "It is a government-mandated 'Day without VAT' (19% discount). These days drive massive consumer spikes and require significant server and logistics preparation."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mark-costs",
+                    "type": "cost_breakdown",
+                    "title": "Agency Retainers 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Agency Type",
+                                "Monthly Fee (USD)",
+                                "Core Deliverables"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Media Management",
+                                    "values": [
+                                        "$800 - $1,500",
+                                        "Content + Community"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Performance Marketing",
+                                    "values": [
+                                        "$1,200 + % of spend",
+                                        "Ads + Lead Gen"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Full Service Creative",
+                                    "values": [
+                                        "$3,000+",
+                                        "Branding + Campaign + Video"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

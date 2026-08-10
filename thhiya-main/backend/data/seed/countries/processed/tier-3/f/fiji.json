@@ -1,0 +1,2077 @@
+{
+    "name": "Fiji",
+    "code": "FJ",
+    "slug": "fiji",
+    "flag": "https://flagcdn.com/w160/fj.png",
+    "region": "Oceania",
+    "languages": [
+        "English",
+        "iTaukei",
+        "Fiji Hindi"
+    ],
+    "currencies": [
+        "FJD"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR & PEO in Fiji",
+                "subtitle": "Global Employment Simplified in the Pacific",
+                "description": "Hire talent in Fiji without a local entity. Our EOR solutions handle compliant contracts, FNPF contributions, and 2025 tax withholding requirements.",
+                "bestFor": "Startups & Remote-first companies",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "fj-eor-onboarding-roadmap",
+                    "type": "key_steps",
+                    "title": "Comprehensive Onboarding Roadmap",
+                    "subtitle": "Timeline: 5-10 Business Days",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract Drafting & ERA Review",
+                                "description": "Creation of employment agreements that fully comply with the Employment Relations Act 2007. This includes defining standard working hours (typically 40-48 hours depending on the industry) and rest period mandates."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "FNPF Registration (Employer/Employee)",
+                                "description": "Mandatory registration with the Fiji National Provident Fund. For 2025, we ensure contributions are set at the new baseline of 10% employer and 8% employee."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "TIN & FRCS Compliance Audit",
+                                "description": "Validation of the employee's Tax Identification Number with the Fiji Revenue and Customs Service. This step ensures that PAYE withholding is accurate from the first pay cycle."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Direct Deposit Banking Setup",
+                                "description": "Integration with local Fiji banking institutions (BSP, ANZ, Westpac) to facilitate seamless salary transfers in FJD."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "OHS Induction & Compliance",
+                                "description": "Mandatory Occupational Health and Safety briefing as per the 1996 Act. We provide documentation for both on-site and remote employees to verify safety standards."
+                            },
+                            {
+                                "stepNumber": 6,
+                                "title": "Equipment & Resource Logistics",
+                                "description": "Coordinating the delivery of IT hardware and secure access credentials. We also manage the enrollment in optional private medical schemes common in the Suva tech hub."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fj-eor-employer-costs-2025",
+                    "type": "cost_breakdown",
+                    "title": "Estimated Employer Burden 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Cost Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "FNPF Contribution",
+                                    "values": [
+                                        "10.0%",
+                                        "8.0%",
+                                        "Mandatory pension scheme; rates updated for 2025 budget cycles."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Workmen's Compensation",
+                                    "values": [
+                                        "0.5% - 2.0%",
+                                        "0.0%",
+                                        "Insurance premium based on role risk profile (BPO vs. Construction)."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "PAYE Income Tax",
+                                    "values": [
+                                        "N/A",
+                                        "20% - 44%",
+                                        "Threshold starts at $30,000 FJD annual income."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Social Responsibility Tax",
+                                    "values": [
+                                        "N/A",
+                                        "5% - 25%",
+                                        "Applicable to high earners exceeding $270k FJD."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "EOR Fee (Monthly)",
+                                    "values": [
+                                        "$199 - $399 USD",
+                                        "N/A",
+                                        "Fixed per-head management fee."
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "fj-eor-compliance-insights",
+                    "type": "insights",
+                    "title": "Compliance & Market Intelligence",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Permanent Establishment Risk",
+                                "text": "Independent contractors working 100% for a foreign firm may be reclassified as employees by the FRCS, leading to heavy fines. EOR eliminates this risk."
+                            },
+                            {
+                                "type": "info",
+                                "title": "The '120-Day' Payoff Myth",
+                                "text": "In Fiji, termination notice scales with service time. Always ensure specific notice clauses are in the contract to avoid expensive summary dismissal claims."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Public Holiday Premiums",
+                                "text": "Fiji has a high number of public holidays. Employees working these days must receive at least 200% of their base hourly rate."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Probationary Standards",
+                                "text": "A 3-6 month probation period is the market standard. Termination during this window requires a shorter 7-14 day notice period."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Late FNPF Penalties",
+                                "text": "Missing the end-of-month contribution deadline triggers a non-negotiable 2% monthly interest penalty."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fj-eor-essentials",
+                    "type": "essentials",
+                    "title": "Legal Foundation & Assets",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Employment Relations Act 2007",
+                                "description": "The primary governing statute for all workforce interactions in the Republic of Fiji."
+                            },
+                            {
+                                "title": "FNPF Act 2011",
+                                "description": "Defines the legal obligations for social security and retirement savings collection."
+                            },
+                            {
+                                "title": "TIN Registration Certificate",
+                                "description": "All employees must possess a verified TIN to be legally processed on a Fiji payroll."
+                            },
+                            {
+                                "title": "Occupational Health & Safety Act",
+                                "description": "Mandates employer responsibility for providing a safe working environment, including for remote staff."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fj-eor-success-strategies",
+                    "type": "good_to_know",
+                    "title": "Cultural Success Strategies",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Relationship-First Culture",
+                                "text": "The 'Bula Spirit' is real. Invest time in social check-ins. A disconnected remote worker is significantly more likely to leave."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Village Commitments",
+                                "text": "Traditional and community ceremonies are vital. Candidates appreciate flexible PTO policies that accommodate village responsibilities."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "English Fluency",
+                                "text": "Leverage Fiji's native-level English fluency for global roles. It is the official language of education and commerce."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fj-eor-faq",
+                    "type": "faq",
+                    "title": "Frequently Asked Questions",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can an EOR sponsor work permits in Fiji?",
+                                "answer": "Yes, but the process is rigorous. You must prove that no qualified local candidate was available. Approval can take 3-4 months."
+                            },
+                            {
+                                "question": "What are the standard working hours?",
+                                "answer": "The standard is 40-44 hours per week. Anything beyond this must be compensated at 1.5x (overtime) or 2.0x (Sundays/Holidays)."
+                            },
+                            {
+                                "question": "Is severance pay mandatory?",
+                                "answer": "It is not strictly mandatory for all roles but is often explicitly negotiated in senior contracts or industry Collective Agreements."
+                            },
+                            {
+                                "question": "Is 13th-month pay common?",
+                                "answer": "No, it is not legally required. Performance-based annual bonuses are much more common in the private sector."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fj-gp-cycle",
+                    "type": "key_steps",
+                    "title": "Monthly Execution Cycle",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Variable Data Intake",
+                                "description": "Gathering monthly attendance, overtime logs, and taxable fringe benefits (company cars/accommodation)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Gross-to-Net Calculation",
+                                "description": "Applying the 20% resident income tax (for income >$30k) and the 8% employee FNPF deduction using the latest 2025 formulas."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Electronic Payment (E-Filing)",
+                                "description": "Preparing the monthly Electronic Filing (EF) for the Fiji Revenue and Customs Service. Must be filed by the 14th of the following month."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "FNPF Contribution Submission",
+                                "description": "Uploading the Contribution Schedule (CS) to the FNPF portal and settling the total 18% liability (10% employer + 8% employee)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Payslip Generation & Distribution",
+                                "description": "Issuing digital, compliant payslips showing detailed breakdowns of allowances, deductions, and YTD balances."
+                            },
+                            {
+                                "stepNumber": 6,
+                                "title": "NemKonto / Direct Disbursement",
+                                "description": "Executing bank transfers to local FJD accounts. We ensure payments hit accounts by the 25th to avoid month-end delays."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fj-gp-tax-rates-2025",
+                    "type": "cost_breakdown",
+                    "title": "2025 Statutory Tax & Levy Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Tax / Contribution",
+                                "Rate (%)",
+                                "Threshold / Frequency"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Resident Income Tax",
+                                    "values": [
+                                        "20.0%",
+                                        "On income above $30,000 FJD per year."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "FNPF (Employer Share)",
+                                    "values": [
+                                        "10.0%",
+                                        "Monthly; mandatory for all local staff."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "FNPF (Employee Share)",
+                                    "values": [
+                                        "8.0%",
+                                        "Deducted from gross salary."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Value Added Tax (VAT)",
+                                    "values": [
+                                        "12.5%",
+                                        "Unified rate effective August 1, 2025."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Social Responsibility Tax",
+                                    "values": [
+                                        "5% - 25%",
+                                        "Applicable on income above $270,000 FJD."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "fj-gp-compliance-panel",
+                    "type": "insights",
+                    "title": "Payroll Compliance Board",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "TIN Validation Requirement",
+                                "text": "Processing payroll for an employee without a valid TIN can result in the employer being held liable for the employee's unpaid taxes plus 100% penalties."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Year-End Reporting (Form P4)",
+                                "text": "Annual summary certificates (P4) must be issued to all employees by the end of February each year to facilitate their tax returns."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Fringe Benefit Tax (FBT)",
+                                "text": "Employers pay 20% FBT on non-cash benefits. It is better to provide cash allowances if the goal is to optimize the employer's tax position."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Contractor Withholding",
+                                "text": "In certain sectors, you must withhold 15% provisional tax for payments to local service providers exceeding $1,000 FJD."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fj-gp-admin-essentials",
+                    "type": "essentials",
+                    "title": "Administrative Checkpoints",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Pay frequency",
+                                "description": "Bi-monthly (twice a month) is common for wages, while monthly is the standard for salaried professional staff."
+                            },
+                            {
+                                "title": "Local Bank Account",
+                                "description": "While payments can be initiated from offshore, having a local FJD account reduces settlement times and transaction fees."
+                            },
+                            {
+                                "title": "Data Storage (7 Years)",
+                                "description": "Fiji Law (Tax Administration Act) requires all payroll records to be stored and accessible for 7 years."
+                            },
+                            {
+                                "title": "FRCS Audit Scope",
+                                "description": "Tax authorities have the right to request comprehensive digital payroll logs for the last 5 years with minimal notice."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fj-gp-faq",
+                    "type": "faq",
+                    "title": "Global Payroll FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the tax-free threshold for 2025?",
+                                "answer": "For resident individuals, the first $30,000 FJD of annual income is tax-free."
+                            },
+                            {
+                                "question": "Can we pay employees in USD?",
+                                "answer": "Contracts can be denominated in USD, but the actual payout must normally be in FJD for local employees per Central Bank regulations."
+                            },
+                            {
+                                "question": "Are FNPF contributions required for expatriates?",
+                                "answer": "FNPF is optional for expatriates on work permits. However, if they opt-in, the same 18% total contribution rules apply."
+                            },
+                            {
+                                "question": "When are payroll taxes due?",
+                                "answer": "PAYE tax and SRT must be paid to FRCS by the 14th of the month following the payment date."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fj-payroll-bands-2025",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax Bands 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Annual Income (FJD)",
+                                "Base Tax",
+                                "Plus % of Excess"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "$0 - $30,000",
+                                    "values": [
+                                        "Nil",
+                                        "0%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "$30,001 - $50,000",
+                                    "values": [
+                                        "Nil",
+                                        "18%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "$50,001 - $270,000",
+                                    "values": [
+                                        "$3,600",
+                                        "20%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "$270,001+",
+                                    "values": [
+                                        "$47,600",
+                                        "20% + SRT (5-25%)"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "fj-payroll-statutory-deductions",
+                    "type": "key_steps",
+                    "title": "Mandatory Payroll Components",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "FNPF Employer Share (10%)",
+                                "description": "Employer contribution to the Fiji National Provident Fund, calculated on gross wages."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "FNPF Employee Share (8%)",
+                                "description": "Mandatory deduction from employee gross wages for retirement savings."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "PAYE Tax Deduction",
+                                "description": "Pay-As-You-Earn tax withheld based on the annual resident tax bands."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "SRT (Social Responsibility Tax)",
+                                "description": "Surcharge for high-income earners (>$270k) ranging from 5% to 25%."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "ECAL (Environment & Climate Adaptation)",
+                                "description": "Now frequently consolidated with other taxes, but historically applicable to high-income thresholds."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fj-payroll-insights",
+                    "type": "insights",
+                    "title": "Payroll Compliance Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Tax-Free Threshold",
+                                "text": "Fiji has a generous tax-free threshold of $30,000 FJD, which is high compared to regional neighbors."
+                            },
+                            {
+                                "type": "info",
+                                "title": "FNPF Rate Stability",
+                                "text": "Current rates (10% employer / 8% employee) went into effect on January 1, 2024, and have been maintained for 2025."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Director Fees",
+                                "text": "Director fees are usually subject to WHT (Withholding Tax) rather than PAYE if the director is a non-resident."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fj-payroll-faq",
+                    "type": "faq",
+                    "title": "Payroll FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Are bonuses taxable?",
+                                "answer": "Yes, bonuses and commissions are treated as taxable income and should be included in PAYE calculations."
+                            },
+                            {
+                                "question": "What is the payroll filing deadline?",
+                                "answer": "Employers must remit PAYE and FNPF schedules by the 30th of the following month."
+                            },
+                            {
+                                "question": "Can we pay in USD?",
+                                "answer": "While contracts can reflect USD, local statutory deductions and payouts to local bank accounts must be converted to FJD."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fj-payroll-encashment",
+                    "type": "key_steps",
+                    "title": "Leave Encashment & Final Pay",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Annual Leave Calculation",
+                                "description": "Ensuring all accrued but unused leave is calculated at the regular rate of pay as per ERA 2007."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Taxation of Lump Sums",
+                                "description": "Applying the correct PAYE treatment for severance and leave encashment to avoid over-withholding."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Final FNPF Remittance",
+                                "description": "Liaising with FNPF to ensure the final contribution matches the final pay run exactly."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation in Fiji",
+                "subtitle": "Strategic Business Setup in the Pacific Hub",
+                "description": "Establish your legal presence in Fiji. We manage everything from Registrar of Companies (ROC) filing to Foreign Investment Registration and banking setup.",
+                "bestFor": "Direct foreign investors & Multinational expansions",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "fj-inc-roadmap",
+                    "type": "key_steps",
+                    "title": "Multi-Phase Registration Roadmap",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Digital Profile Setup",
+                                "description": "Creating an e-profile on the DigitalFiji website to gain access to the online Registrar of Companies (ROC) portal."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "FIRC Approval (Foreigners)",
+                                "description": "Securing a Foreign Investment Registration Certificate from Investment Fiji. This requires a business plan and proof of minimum investment capital."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Constitution & Share Allocation",
+                                "description": "Drafting the company constitution and allocating shares. Private Limited Companies (Ltd) in Fiji can have between 1 to 50 shareholders."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Official Registrar Submission",
+                                "description": "Submitting the application for the CVR (Central Business Register) number. Processing time is typically 48-72 hours via the digital portal."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Tax & VAT Activation",
+                                "description": "Registering the new entity with the FRCS for Income Tax, VAT (if turnover >$100k), and Employer (PAYE) obligations."
+                            },
+                            {
+                                "stepNumber": 6,
+                                "title": "Corporate Bank Account Opening",
+                                "description": "Navigating the KYC process with a local bank. This is often the longest step and requires physical presence or notarized documents."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fj-inc-budget-2025",
+                    "type": "cost_breakdown",
+                    "title": "Incorporation Budget Estimates 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Expense Category",
+                                "Amount (FJD)",
+                                "Frequency"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "ROC Registration Fee",
+                                    "values": [
+                                        "$250",
+                                        "One-time"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "FIRC Application Fee",
+                                    "values": [
+                                        "$2,500",
+                                        "One-time (Foreign ventures)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Legal/Auditor Review",
+                                    "values": [
+                                        "$1,000 - $3,500",
+                                        "One-time setup"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Annual Return Filing",
+                                    "values": [
+                                        "$50 - $150",
+                                        "Annual"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Registered Office Service",
+                                    "values": [
+                                        "$500 / year",
+                                        "Recurring"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "fj-inc-strategic-insights",
+                    "type": "insights",
+                    "title": "Strategic Market Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "VAT De-registration Threshold",
+                                "text": "If your taxable turnover falls below $100,000 FJD, you can apply for VAT exemption, significantly reducing your administrative burden."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Reserve Bank Clearance",
+                                "text": "Repatriating capital or profits above specific thresholds requires RBF approval. Ensure your initial capital injection is clearly documented."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Expatriate Employment Slots",
+                                "text": "FIRC holders are typically granted a set number of 'automatic' work permit slots for senior expatriate management."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Zone-Based Incentives",
+                                "text": "Setting up in a 'Declared Development Region' can provide extended tax holidays of up to 13 years for specific sectors."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fj-inc-compliance-essentials",
+                    "type": "essentials",
+                    "title": "Corporate Compliance Essentials",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Companies Act 2015",
+                                "description": "The modern legal framework that simplifies company administration and increases transparency."
+                            },
+                            {
+                                "title": "Public Officer Appointment",
+                                "description": "All companies must formally appoint a person to be responsible for tax filings and official correspondence."
+                            },
+                            {
+                                "title": "Electronic Registers",
+                                "description": "Companies are now required to maintain an electronic register of shareholders and beneficial owners."
+                            },
+                            {
+                                "title": "Annual Audit Requirement",
+                                "description": "While small private companies may apply for exemptions, most medium-to-large entities must file audited accounts."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fj-inc-faq",
+                    "type": "faq",
+                    "title": "Frequently Asked Questions",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Do I need a local shareholder?",
+                                "answer": "No. In most sectors, 100% foreign ownership is permissible under the Foreign Investment Act."
+                            },
+                            {
+                                "question": "Can I use a virtual office address?",
+                                "answer": "No. The ROC and FRCS require a physical registered office address in Fiji where records can be inspected."
+                            },
+                            {
+                                "question": "What is the corporate tax rate?",
+                                "answer": "The standard rate is 20%. Companies that list on the South Pacific Stock Exchange can benefit from a 10% rate."
+                            },
+                            {
+                                "question": "How long does name reservation last?",
+                                "answer": "A reserved business name is held for 30 days, during which the full registration must be completed."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Fiji",
+                "subtitle": "Access the Highly-Skilled Pacific Workforce",
+                "description": "Fiji is the talent hub of the Pacific. We help you source professionals for the booming BPO, engineering, and tourism sectors with local expertise.",
+                "bestFor": "Global BPO operators & Regional technical teams",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "fj-staff-recruitment-process",
+                    "type": "key_steps",
+                    "title": "End-to-End Recruitment Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Role Profiling",
+                                "description": "Consultation to define role requirements, aligning them with Fiji's professional landscape and local qualification standards (USP/FNU)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Deep Sourcing",
+                                "description": "Multichannel sourcing using Suva-based professional networks, local job portals (MyJobsFiji), and high-reach social channels."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Multistage Screening",
+                                "description": "Technical evaluations and cultural fit interviews. For BPO roles, we include native-level English accent and empathy assessments."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Qualification Verification",
+                                "description": "Rigorous vetting of academic certificates from the University of the South Pacific and background checks with previous Fiji-based employers."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Police & Medical Clearances",
+                                "description": "Coordinating mandatory Fiji Police Force clearances and pre-employment medical checks required for specific sectors."
+                            },
+                            {
+                                "stepNumber": 6,
+                                "title": "Negotiation & Acceptance",
+                                "description": "Managing the offer process to ensure competitiveness within the 2025 Suva and Nadi salary benchmarks."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fj-staff-market-rates",
+                    "type": "cost_breakdown",
+                    "title": "Market Salary Benchmarks 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Role Level",
+                                "Annual Salary Range (FJD)",
+                                "Standard Benefits"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Entry-Level BPO / Admin",
+                                    "values": [
+                                        "$12,000 - $18,000",
+                                        "FNPF + Transport Allowance"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Software dev / Analyst",
+                                    "values": [
+                                        "$35,000 - $65,000",
+                                        "Health Insurance + Remote Work"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Mid-Level Management",
+                                    "values": [
+                                        "$50,000 - $90,000",
+                                        "Annual Bonus + Professional Dev"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Exec / Country Head",
+                                    "values": [
+                                        "$120,000 - $250,000+",
+                                        "Vehicle + Housing (Expat focus)"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "fj-staff-talent-insights",
+                    "type": "insights",
+                    "title": "Talent Acquisiton Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "The USP Advantage",
+                                "text": "A pool of candidates from the University of the South Pacific is highly regarded across the region for technical and administrative versatility."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "LinkedIn Dominance",
+                                "text": "While newspapers are still used, LinkedIn has become the definitive tool for headhunting white-collar talent in Suva and Nadi."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Notice Period Etiquette",
+                                "text": "Top talent often has 1-3 month notice periods. Plan your hiring cycles at least 90 days in advance for critical leadership roles."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Gender Equality Trends",
+                                "text": "Fiji's BPO and education sectors show strong gender parity, with many women in senior leadership and technical positions."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fj-staff-essentials",
+                    "type": "essentials",
+                    "title": "Staffing Essentials",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Agency Fee Structure",
+                                "description": "Standard placement fees range from 12% to 20% of an annual gross salary, with a 90-day replacement guarantee."
+                            },
+                            {
+                                "title": "Temporary vs. Permanent",
+                                "description": "Outsourcing firms often use project-based casual contracts, but 'full-time' status is preferred for candidate retention."
+                            },
+                            {
+                                "title": "Reference Benchmarking",
+                                "description": "Oral references are culturally more common and reliable in Fiji than written letters of recommendation."
+                            },
+                            {
+                                "title": "National Training Levy",
+                                "description": "Employers with high payrolls may be subject to a 1% training levy to support Fiji's national skills fund."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fj-staff-faq",
+                    "type": "faq",
+                    "title": "Staffing FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the minimum wage in Fiji for 2025?",
+                                "answer": "The national minimum age has recently increased and is currently $5.00 FJD per hour for most sectors."
+                            },
+                            {
+                                "question": "Is it easy to find developers in Fiji?",
+                                "answer": "The pool is growing but competitive. Successful firms partner with USP/FNU to capture talent early via internship programs."
+                            },
+                            {
+                                "question": "How do background checks work?",
+                                "answer": "Beyond police checks, we verify employment history via direct calls to previous HR departments—a standard local practice."
+                            },
+                            {
+                                "question": "Do candidates expect hybrid work?",
+                                "answer": "Post-pandemic, hybrid work is a massive differentiator for attracting top talent in Suva, where traffic congestion is a concern."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS in Fiji",
+                "subtitle": "Digital Transformation of the Pacific Workplace",
+                "description": "Streamline your Fiji operations with HRIS solutions localized for FNPF reporting, FRCS compliance, and regional attendance tracking.",
+                "bestFor": "Growing enterprises & BPO hubs",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "fj-hris-features",
+                    "type": "key_steps",
+                    "title": "Core Localized Features",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "FNPF Portal Integration",
+                                "description": "Automated generation of CS (Contribution Schedule) files formatted specifically for the myFNPF employer portal."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "FRCS EMS Sync",
+                                "description": "Seamless export of monthly PAYE and SRT data to the Fiji Revenue and Customs Service Electronic Management System."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Leave Management (ERA 2007)",
+                                "description": "Pre-configured tracking for Fiji's statutory leave: 10 days annual, 10 days sick, and 3 days bereavement (after 3 months service)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Self-Service (ESS)",
+                                "description": "Mobile-first portals allowing employees to view payslips, update TIN details, and request leave from anywhere in the Fiji islands."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Rostering & Shift Differentials",
+                                "description": "Advanced scheduling tools with automated calculation of night shifts and holiday premiums common in Fiji's 24/7 BPO sector."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fj-hris-implementation-costs",
+                    "type": "cost_breakdown",
+                    "title": "HRIS Budgetary Guidance 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "SaaS (Cloud)",
+                                "On-Premise / Enterprise"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Monthly Sub (Per User)",
+                                    "values": [
+                                        "$4 - $12 FJD",
+                                        "N/A (License based)"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Implementation Fee",
+                                    "values": [
+                                        "$500 - $1,500",
+                                        "$5,000 - $15,000+"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Support & Maintenance",
+                                    "values": [
+                                        "Included",
+                                        "15% - 20% Annual fee"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Training Modules",
+                                    "values": [
+                                        "$100 / session",
+                                        "Bundled"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "fj-hris-strategic-insights",
+                    "type": "insights",
+                    "title": "Digital HR Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Cloud Adoption in Fiji",
+                                "text": "With the recent landing of new subsea cables, cloud HRIS uptake has surged in Suva, offering better reliability than local servers."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Data Sovereignty",
+                                "text": "While Fiji doesn't have strict 'server-on-soil' laws yet, banks and financial firms often require local data residency for HR records."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Mobile Accessibility",
+                                "text": "Most staff access the web via mobile data. Ensure your chosen HRIS has a lightweight mobile app or responsive web UI."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fj-hris-faq",
+                    "type": "faq",
+                    "title": "HRIS FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Does the system support Fiji Public Holidays?",
+                                "answer": "Yes, our recommended systems come pre-loaded with the Fiji gazetted holidays, which can be updated annually."
+                            },
+                            {
+                                "question": "Can we manage expatriate work permits?",
+                                "answer": "The system includes document tracking and expiry alerts for work permits and visa renewals."
+                            },
+                            {
+                                "question": "Is the payroll module FNPF certified?",
+                                "answer": "While FNPF doesn't 'certify' software, we ensure the file outputs match the exact schemas required by their current system."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fj-hris-reporting",
+                    "type": "insights",
+                    "title": "Reporting & Analytics",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Automated FRCS Exports",
+                                "text": "Generate pre-formatted Excel or CSV files ready for direct upload to the FRCS portal, minimizing manual entry errors."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Turnover Analytics",
+                                "text": "Track retention trends specifically within the BPO and Tourism sectors where seasonal fluctuations are common."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Custom Leave Accruals",
+                                "text": "Configure specific accrual rules for bereavement leave and study leave as mandated by Fiji's unique sectoral wages council orders."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting in Fiji",
+                "subtitle": "Transparency and Strategic Financial Integrity",
+                "description": "Compliant accounting services following IFRS and Fiji's Companies Act 2015. We handle bookkeeping, audit prep, and local statutory reporting.",
+                "bestFor": "SMEs & Multinational branches",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "fj-acc-services",
+                    "type": "key_steps",
+                    "title": "Core Accounting Services",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "IFRS Compliant Bookkeeping",
+                                "description": "Maintaining digital ledgers that adhere to both International Financial Reporting Standards and Fiji-specific accounting guidelines."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "VAT Accounting & Reconciliation",
+                                "description": "Managing the 12.5% VAT input/output ledgers and preparing the monthly or quarterly VAT returns for FRCS."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Fixed Asset Management",
+                                "description": "Tracking depreciation and amortisation according to Fiji's standard income tax depreciation rates (Table 4)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Year-End Audit Liaison",
+                                "description": "Preparing the final accounts and working with external auditors (Big 4 or local Suva firms) to secure unqualified audit opinions."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Management Reporting",
+                                "description": "Delivering monthly P&L, Balance Sheet, and Cash Flow statements to global HQ in both FJD and USD."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fj-acc-audit-thresholds",
+                    "type": "cost_breakdown",
+                    "title": "Audit & Compliance Thresholds 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Company Type",
+                                "Audit Requirement",
+                                "Filing Deadline"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Small Private Co.",
+                                    "values": [
+                                        "Exempt (Turnover <$5M)",
+                                        "Annual Return (31 March)"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Medium/Large Pvt.",
+                                    "values": [
+                                        "Mandatory",
+                                        "Annual Return + Financials"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Foreign Branch",
+                                    "values": [
+                                        "Mandatory",
+                                        "Same as Parent Fiscal Year"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Public Listed (SPSE)",
+                                    "values": [
+                                        "Mandatory (Semi-Annual)",
+                                        "Within 90 days of half-year"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "fj-acc-professional-insights",
+                    "type": "insights",
+                    "title": "Financial Integrity Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "FICA Membership",
+                                "text": "Ensure your local accountant is a member of the Fiji Institute of Chartered Accountants (FICA) to guarantee professional standards."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Inventory Valuation",
+                                "text": "FRCS strictly monitors inventory valuation methods. Moving from LIFO to FIFO requires prior written approval from the Commissioner."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Digital Invoicing",
+                                "text": "Fiji is moving towards electronic invoicing. Adopting cloud accounting early will simplify the transition to mandatory e-VAT reporting."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fj-acc-faq",
+                    "type": "faq",
+                    "title": "Accounting FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What standards are used in Fiji?",
+                                "answer": "Fiji has fully adopted IFRS for large entities and IFRS for SMEs for smaller businesses."
+                            },
+                            {
+                                "question": "What is the standard financial year?",
+                                "answer": "Most companies use January to December, but you can apply to the FRCS to use your global parent's fiscal year (e.g., July-June)."
+                            },
+                            {
+                                "question": "Are digital signatures accepted?",
+                                "answer": "Yes, under the Electronic Transactions Act, digital signatures are legally recognized for most corporate and accounting documents."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fj-acc-audit-prep",
+                    "type": "key_steps",
+                    "title": "Audit Preparation Roadmap",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Reconciliation Completion",
+                                "description": "Ensure all bank, VAT, and FNPF ledgers are reconciled to the cent before the external auditor's arrival."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Fixed Asset Verification",
+                                "description": "Conducting physical tag checks for high-value equipment in Suva and Nadi offices."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Document Archival",
+                                "description": "Organizing digital and physical invoices for the statutory 7-year retention period required by Fiji law."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fj-comp-calendar",
+                    "type": "key_steps",
+                    "title": "Annual Compliance Calendar",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Business License Renewal",
+                                "description": "Annual renewal with the local Town or City Council (e.g., Suva City Council) by January 31st."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "ROC Annual Return",
+                                "description": "Filing the R1 form with the Registrar of Companies. Must be lodged within 30 days of the company's incorporation anniversary."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "FNPF Compliance Certificate",
+                                "description": "Securing a valid certificate of compliance to prove all pension contributions for staff are up to date."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "OHS Certification",
+                                "description": "Annual safety audit and certificate from the Ministry of Employment for all physical business premises."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Fire & Health Permits",
+                                "description": "Ensuring the workplace meets fire safety codes and health standards for operational permits."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fj-comp-risk-matrix",
+                    "type": "cost_breakdown",
+                    "title": "2025 Non-Compliance Penalty Risk",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Obligation",
+                                "Delay Penalty",
+                                "Maximum Fine"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Late VAT Filing",
+                                    "values": [
+                                        "20% of tax due",
+                                        "Unlimited (Prosecution)"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Late Annual Return",
+                                    "values": [
+                                        "$100 - $500",
+                                        "Deregistration of entity"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "FNPF Arrears",
+                                    "values": [
+                                        "2% Compound interest / mo",
+                                        "Director personal liability"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "TIN Misuse",
+                                    "values": [
+                                        "10% of transaction",
+                                        "Up to $25,000 FJD"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "fj-comp-market-insights",
+                    "type": "insights",
+                    "title": "Governance & Market Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Beneficial Ownership Disclosure",
+                                "text": "New ROC regulations require companies to disclose and maintain a register of ultimate beneficial owners (UBOs) to combat AML risk."
+                            },
+                            {
+                                "type": "info",
+                                "title": "National Building Code",
+                                "text": "Fiji has a strict building code due to cyclone risks. Ensure your office space has the necessary 'Occupation Certificate'."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Director Residency",
+                                "text": "While not strictly required for all private companies, having at least one Fiji-resident director significantly speeds up bank account and tax processes."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fj-comp-faq",
+                    "type": "faq",
+                    "title": "Compliance FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "How often do we file annual returns?",
+                                "answer": "Once a year with the Registrar of Companies."
+                            },
+                            {
+                                "question": "What is a 'Public Officer'?",
+                                "answer": "A local representative legally responsible for the company's compliance with Fiji's Tax Administration Act."
+                            },
+                            {
+                                "question": "Can we lose our business license?",
+                                "answer": "Yes, for persistent failure to meet fire, health, or safety standards after multiple warnings."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fj-comp-director-duties",
+                    "type": "insights",
+                    "title": "Director Duties & Liabilities",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Fiduciary Responsibility",
+                                "text": "Directors are personally liable for unpaid FNPF contributions and certain tax debts under Fiji's Companies Act 2015."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Public Officer Appointment",
+                                "text": "Every company must appoint a local Public Officer as the primary liaison for FRCS communications."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Annual General Meetings",
+                                "text": "Ensure minutes of AGMs are kept at the registered office and are accessible for ROC inspection if requested."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fj-tax-obligations",
+                    "type": "key_steps",
+                    "title": "Key Tax Filings & Deadlines",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Corporate Income Tax (CIT)",
+                                "description": "Filing of the annual Form C. Due by March 31st for companies with a Dec 31st year-end. Standard rate is 20%."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Value Added Tax (VAT)",
+                                "description": "Monthly or quarterly filing depending on turnover. The 12.5% unified rate must be strictly applied to all taxable supplies."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Withholding Tax (WHT)",
+                                "description": "Managing payments to non-residents (management fees, royalties, interest). Rates typically vary from 10% to 15%."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Capital Gains Tax (CGT)",
+                                "description": "Reporting of gains on the disposal of Fiji assets. The standard CGT rate is 10%."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Fringe Benefit Tax (FBT)",
+                                "description": "Quarterly filing for benefits provided to employees. Effective rate is 20% on the grossed-up value of the benefit."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fj-tax-incentives-2025",
+                    "type": "cost_breakdown",
+                    "title": "2025 Tax Incentives Summary",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Incentive / Sector",
+                                "Benefit",
+                                "Min Investment"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "BPO & ICT Infrastructure",
+                                    "values": [
+                                        "13-Year Tax Holiday",
+                                        "$2M FJD"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Short Life Investment (Hotels)",
+                                    "values": [
+                                        "4-Year Tax Holiday / Duty Exempt",
+                                        "$7M FJD"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Renewable Energy",
+                                    "values": [
+                                        "5-Year Tax Holiday",
+                                        "Bio-fuel / Solar projects"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Export Income Deduction",
+                                    "values": [
+                                        "60% Deduction on profits",
+                                        "Qualified export sales"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "fj-tax-compliance-insights",
+                    "type": "insights",
+                    "title": "Strategic Tax Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "2025 Tax Amnesty",
+                                "text": "The FRCS has announced a limited-time amnesty for the waiver of penalties on outstanding tax liabilities. Contact us for eligibility."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Transfer Pricing",
+                                "text": "Inter-company transactions between Fiji subsidiaries and foreign parents must be at arm's length. Documentation is mandatory for values > $500k."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Advance Tax Rulings",
+                                "text": "For complex transactions, we can apply for a binding private ruling from the FRCS to gain certainty on tax treatment."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fj-tax-faq",
+                    "type": "faq",
+                    "title": "Taxation FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the VAT registration threshold?",
+                                "answer": "Compulsory registration is required if your annual taxable turnover exceeds $100,000 FJD."
+                            },
+                            {
+                                "question": "Does Fiji have double tax treaties?",
+                                "answer": "Yes, Fiji has treaties with several countries including Australia, New Zealand, UK, India, and China to prevent double taxation."
+                            },
+                            {
+                                "question": "Is there a dividend tax?",
+                                "answer": "Dividends paid by Fiji-resident companies are generally exempt from further tax in the hands of shareholders."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fj-tax-filing-calendar",
+                    "type": "key_steps",
+                    "title": "Filing Procedures & Timeline",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Monthly VAT Filing",
+                                "description": "Submission of VAT returns via the TPOS portal by the end of the following month."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Annual Income Tax Return",
+                                "description": "Submission of Form S or Form C within 3 months of the company's financial year-end."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "WHT Remittance",
+                                "description": "Withholding tax must be paid within 15 days of the month following the transaction."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "MSA & Legal in Fiji",
+                "subtitle": "Integrated Managed Services & Legal Governance",
+                "description": "Ensure operational resilience with Fiji-localized IT support and expert legal counsel under the Employment Relations Act 2007.",
+                "bestFor": "Technology firms & Regional HQ",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "fj-msa-offerings",
+                    "type": "key_steps",
+                    "title": "Managed Service Portfolio",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "24/7 IT Service Desk",
+                                "description": "L1/L2 technical support utilizing Suva's skilled ICT graduates from USP and FNU."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Legal Governance (ERA 2007)",
+                                "description": "Expert advisory on Fiji's Employment Relations Act, ensuring contracts and policies meet 2025 statutory standards."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Cybersecurity & Data Privacy",
+                                "description": "Monitoring and protecting Pacific operations according to regional data sovereignty and international GDPR standards."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Commercial Litigation Support",
+                                "description": "Legal representation for contract disputes, debt recovery, and property law within Fiji's High Court system."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Disaster Recovery as a Service",
+                                "description": "Implementing redundant backup solutions to ensure business continuity during Fiji's cyclone season (Nov-April)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fj-msa-legal-costs",
+                    "type": "cost_breakdown",
+                    "title": "Service & Legal Fee Guidance 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service Component",
+                                "Fee Basis",
+                                "Price Range (FJD)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Managed IT (Per seat)",
+                                    "values": [
+                                        "Monthly",
+                                        "$150 - $450"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Legal Partner Hourly Rate",
+                                    "values": [
+                                        "Hourly",
+                                        "$450 - $750"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Standard Contract Drafting",
+                                    "values": [
+                                        "Per Document",
+                                        "$800 - $2,000"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Trademark Registration",
+                                    "values": [
+                                        "Fixed (Excl. Govt fees)",
+                                        "$1,200 - $3,000"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "fj-msa-insights",
+                    "type": "insights",
+                    "title": "Operational Governance Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Common Law Jurisidiction",
+                                "text": "Fiji's legal system is based on English Common Law, providing a familiar framework for AU, NZ, and UK investors."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Work Permit Backlogs",
+                                "text": "Specialist tech visas can take 3-6 months. Start legal applications early to avoid operational delays."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Managed Connectivity",
+                                "text": "Leveraging the Southern Cross Cable network offers Fiji-based MSA providers global-level latency to Sydney and Los Angeles."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fj-msa-faq",
+                    "type": "faq",
+                    "title": "MSA & Legal FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can we hire dedicated legal counsel through you?",
+                                "answer": "Yes, we offer seconded legal counsel for long-term projects or standard retainer-based litigation support."
+                            },
+                            {
+                                "question": "Is the IT support local or offshore?",
+                                "answer": "All support is delivered by our Suva-based team, providing 24/7 coverage across all Pacific time zones."
+                            },
+                            {
+                                "question": "How are international contracts enforced?",
+                                "answer": "Fiji recognizes the New York Convention on the Recognition and Enforcement of Foreign Arbitral Awards."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fj-msa-infrastructure",
+                    "type": "insights",
+                    "title": "NOC & Infrastructure Monitoring",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "NOC Services",
+                                "text": "Continuous monitoring of server health and network latency across regional hubs in the Pacific."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Power Stability",
+                                "text": "Suva's grid can be unstable during storms. MSA providers include UPS and generator monitoring as standard."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Starlink for Business",
+                                "text": "Integrating LEO satellite backups for remote sites in the Yasawa and Lau groups to ensure high uptime."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software & BPO in Fiji",
+                "subtitle": "The World's Newest Outsourcing Powerhouse",
+                "description": "Fiji offers high-quality, cost-effective BPO and software solutions. Leverage the 'Bula Spirit' and a tech-savvy youth population.",
+                "bestFor": "Global CX & SaaS development teams",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "fj-sw-bpo-process",
+                    "type": "key_steps",
+                    "title": "BPO & Tech Roadmap",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Outsource Fiji Registration",
+                                "description": "Alignment with Fiji's national BPO council for industry standards and government incentive access."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Neutral Accent Training",
+                                "description": "Polishing the naturally neutral Fijian accent for specialized North American or Australian customer support."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Agile Development Sprints",
+                                "description": "Implementing modern software dev cycles using Fiji's growing pool of full-stack and cloud developers."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "IT Infrastructure Provisioning",
+                                "description": "Setting up redundant 1Gbps+ fiber links and workspace in Suva's specialized BPO zones (e.g., Kalabu)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "QA & Performance Governance",
+                                "description": "Continuous monitoring of KPIs, NPS scores, and software code quality via localized management."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fj-sw-arbitrage",
+                    "type": "cost_breakdown",
+                    "title": "Tech & BPO Cost Arbitrage 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Role / Service",
+                                "Fiji Monthly (FJD)",
+                                "Australia (AUD Equivalent)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Customer Support rep",
+                                    "values": [
+                                        "$1,200 - $1,800",
+                                        "$4,800 - $5,800"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Junior Software dev",
+                                    "values": [
+                                        "$2,500 - $4,000",
+                                        "$5,500 - $7,500"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "BPO Operations Manager",
+                                    "values": [
+                                        "$5,000 - $8,000",
+                                        "$9,000 - $13,000"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Managed Hosting (Local)",
+                                    "values": [
+                                        "$200 / node",
+                                        "$600 / node"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "fj-sw-market-insights",
+                    "type": "insights",
+                    "title": "BPO & Tech Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "USP Talent Hub",
+                                "text": "The University of the South Pacific's Suva campus produces the region's top computer science and information systems graduates."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Retention Challenges",
+                                "text": "Highly skilled developers in Fiji are in high demand globally. Competitive local packages and remote flexibility are key to retention."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "BPO Tax Incentives",
+                                "text": "Companies investing >$2M FJD in the BPO sector can qualify for a 13-year tax holiday under current budget measures."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fj-sw-faq",
+                    "type": "faq",
+                    "title": "BPO & Software FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the typical BPO night shift premium?",
+                                "answer": "Most BPO operators in Fiji pay a 10-15% premium for shifts starting after 8 PM."
+                            },
+                            {
+                                "question": "Are Fijian developers proficient in AWS/Azure?",
+                                "answer": "Yes, cloud-native development is a core focus of the curriculum at local universities."
+                            },
+                            {
+                                "question": "What is the internet redundancy like?",
+                                "answer": "Suva's BPO hubs typically utilize dual fiber paths and LEO satellite (Starlink) backups."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fj-sw-talent-pipeline",
+                    "type": "key_steps",
+                    "title": "Tech Talent Pipeline",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "USP Computer Science Intake",
+                                "description": "Engaging with the top 5% of graduates from the regional university's IT programs."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "In-house Upskilling",
+                                "description": "Rolling out localized training for AWS, Azure, and React to bridge the gap between academia and industry."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Outsource Fiji Mentorship",
+                                "description": "Participating in national mentorship programs to foster senior-level project management skills locally."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing in Fiji",
+                "subtitle": "Capturing the Hearts of the Pacific",
+                "description": "Localized marketing strategies for the Fiji market. From traditional island-wide radio to hyper-targeted social media campaigns.",
+                "bestFor": "Consumer brands & Tourism operators",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "fj-mkt-channels",
+                    "type": "key_steps",
+                    "title": "Dominant Marketing Channels",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Meta Ads (FB/IG)",
+                                "description": "Facebook remains the dominant social platform in Fiji, with extremely high engagement rates for local video content."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Viber Community Marketing",
+                                "description": "Utilizing Viber (Fiji's preferred messaging app) for direct-to-consumer promotions and community building."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Radio Advertising",
+                                "description": "Critical for broad island reach, using Fiji's major vernacular stations like Bula FM and Radio Sargam."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Rugby Influencer Partnerships",
+                                "description": "Collaborating with local rugby 7s stars who command massive cultural influence and trust."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Event Activations",
+                                "description": "On-ground marketing at major festivals (Hibiscus) and regional sporting events."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fj-mkt-media-pricing",
+                    "type": "cost_breakdown",
+                    "title": "Estimated Media Pricing 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Medium",
+                                "Metric",
+                                "Typical Cost (FJD)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Meta Ads (CPM)",
+                                    "values": [
+                                        "1,000 Impressions",
+                                        "$2.00 - $5.00"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Prime Radio Spot",
+                                    "values": [
+                                        "30 Seconds",
+                                        "$60 - $150"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Billboard (Suva City)",
+                                    "values": [
+                                        "Per Month",
+                                        "$3,500 - $7,000"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Local Influencer Post",
+                                    "values": [
+                                        "Per Campaign",
+                                        "$500 - $2,500"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "fj-mkt-insights",
+                    "type": "insights",
+                    "title": "Consumer Market Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Vernacular Resonance",
+                                "text": "Campaigns using local iTaukei or Fiji Hindi idioms see 40% higher engagement than standard English variants."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Mobile-First Design",
+                                "text": "Over 90% of web traffic in Fiji is mobile. Websites and landing pages must be extremely lightweight for local 4G speeds."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "The 'Bula' Factor",
+                                "text": "Optimism and community focus are cultural cornerstones. Imagery showing local families and groups outperforms solo corporate stock photos."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fj-mkt-faq",
+                    "type": "faq",
+                    "title": "Marketing FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the best platform for B2C sales?",
+                                "answer": "Facebook Marketplace and sponsored post groups are the most active e-commerce channels in the islands."
+                            },
+                            {
+                                "question": "How do we target expatriates and tourists?",
+                                "answer": "Hyper-local geo-fencing around Nadi airport and major Denarau resorts via Google and Meta is highly effective."
+                            },
+                            {
+                                "question": "Is TikTok popular in Fiji?",
+                                "answer": "Usage is surging among Gen-Z, making it the fastest-growing platform for creative lifestyle brands in 2025."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fj-mkt-digital-maturity",
+                    "type": "insights",
+                    "title": "Digital Maturity Trends",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Social Commerce Surge",
+                                "text": "Fijian consumers increasingly purchase directly via Facebook Messenger and WhatsApp communities."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "High Data Costs",
+                                "text": "Video ads should be high-impact but short to respect consumer data limits on mobile pre-paid plans."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Vernacular SEO",
+                                "text": "Optimizing for local search terms in iTaukei and Fiji Hindi is an untapped opportunity for organic growth."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

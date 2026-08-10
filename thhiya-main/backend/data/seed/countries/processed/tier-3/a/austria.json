@@ -1,0 +1,1785 @@
+{
+    "name": "Austria",
+    "code": "AT",
+    "slug": "austria",
+    "flag": "https://flagcdn.com/w160/at.png",
+    "region": "Europe",
+    "languages": [
+        "TBD"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR & PEO in Austria",
+                "subtitle": "Hire employees in Austria without a local entity",
+                "description": "Use an Employer of Record to hire talent in Austria compliantly. Bypass the need for a local subsidiary while ensuring full compliance with Austrian Labor Law, including social security, 14th-month salary, and AMS labor leasing specificities.",
+                "bestFor": "Companies testing the Austrian market or hiring remote talent fast",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "eor-steps",
+                    "type": "key_steps",
+                    "title": "EOR Onboarding Process",
+                    "subtitle": "Timeline: 2-3 weeks",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Service Agreement",
+                                "description": "Sign a framework agreement with the EOR provider. The EOR must hold a valid temporary employment agency license (Überlassung) from the Austrian Public Employment Service (AMS)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Employee Data Collection",
+                                "description": "Gather employee details: passport, proof of residence, bank details, and Austrian social security number (Versicherungsnummer). If the employee is new to Austria, initiate social security registration."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Employment Contract Drafting",
+                                "description": "Draft a compliant local employment contract (Dienstzettel). Key inclusions: annual salary (split into 14 payments), working hours (max 40h/week), and notice periods."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Social Security Registration",
+                                "description": "EOR registers the employee with the regional health insurance fund (ÖGK) before their first day of work. This covers health, pension, accident, and unemployment insurance."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Onboarding & IT",
+                                "description": "Employee receives onboarding packet and IT equipment. Austrian law (ArbeitnehmerInnenschutzgesetz) requires ergonomic assessments for remote workers."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "EOR Costs & Employer Burden",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Item",
+                                "Cost / Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "EOR Management Fee",
+                                    "values": [
+                                        "€400 - €900 / month",
+                                        "Varies by provider & volume"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Employer Social Security",
+                                    "values": [
+                                        "~21.23%",
+                                        "Pension, Health, Accident, Unemployment"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Municipal Tax (Kommunalsteuer)",
+                                    "values": [
+                                        "3.00%",
+                                        "Payable to local municipality"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Family Burden Equalization (DB)",
+                                    "values": [
+                                        "3.90%",
+                                        "Dienstgeberbeitrag"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Chamber of Commerce (KU II)",
+                                    "values": [
+                                        "~0.40%",
+                                        "Kammerumlage"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Total Employer Burden",
+                                    "values": [
+                                        "~29% - 30%",
+                                        "On top of gross salary"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "eor-insights",
+                    "type": "insights",
+                    "title": "Critical Compliance Insights",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Labor Leasing License (AUG)",
+                                "text": "Ensure your EOR has a valid labor leasing license (Gewerbeberechtigung für die Überlassung von Arbeitskräften). Hiring through an unlicensed provider is illegal and carries heavy fines."
+                            },
+                            {
+                                "type": "info",
+                                "title": "13th and 14th Month Salary",
+                                "text": "In Austria, the 13th (Holiday) and 14th (Christmas) salaries are mandatory under most Collective Bargaining Agreements. These are taxed at a preferential rate of 6%."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Notice Periods",
+                                "text": "Notice periods are strictly regulated. Employers must typically give at least 6 weeks' notice (increasing with tenure) to the end of a quarter, unless contract specifies 15th/end of month."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Permanent Establishment Risk",
+                                "text": "Using an EOR for sales-generating roles or senior management for >18 months effectively may trigger Permanent Establishment (PE) risks for the foreign company."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "eor-faq",
+                    "type": "faq",
+                    "title": "EOR Frequently Asked Questions",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I hide the EOR relationship from the employee?",
+                                "answer": "No. The employment contract is legally between the EOR and the employee. The employee must understand this tripartite relationship."
+                            },
+                            {
+                                "question": "Is the 13th/14th salary included in the negotiated annual gross?",
+                                "answer": "Usually, yes. An 'All-In' contract must specify the base salary and the bonus separate components. Standard practice is to negotiate an annual gross which is paid out 14 times."
+                            },
+                            {
+                                "question": "How does termination work with an EOR?",
+                                "answer": "Termination requires strict adherence to notice periods (often 6 weeks+). Review by the Works Council may be needed. Severance pay (Abfertigung Neu) is handled via a monthly contribution (1.53%) to a staff provision fund."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "payroll-cycle",
+                    "type": "key_steps",
+                    "title": "Monthly Payroll Cycle",
+                    "subtitle": "Standard Process",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Data Aggregation (15th - 20th)",
+                                "description": "Collect changes: new hires, terminations, variable pay (commissions), sick leave (Krankenstand), and overtime hours. Austrian law requires strict overtime tracking."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Gross-to-Net Calculation (20th - 25th)",
+                                "description": "Apply tax brackets (0% to 55%), social security deductions, and calculate the 1/14th split for special payments."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Reporting & Filing (End of Month)",
+                                "description": "Submit monthly contribution report (mBGM) to the Health Insurance Fund. Payment of social security contributions is due by the 15th of the following month."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Wage Tax Payment",
+                                "description": "Remit Wage Tax (Lohnsteuer) and Municipal Tax (Kommunalsteuer) to the respective tax office and municipality by the 15th of the following month."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Payslip Distribution",
+                                "description": "Distribute digital payslips to employees. Ensure 'Lohnzettel' (annual playslip) is generated at year-end."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "payroll-employer-taxes",
+                    "type": "cost_breakdown",
+                    "title": "Employer Tax & Contributions",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Pension Insurance",
+                                    "values": [
+                                        "12.55%",
+                                        "Pensionsversicherungs"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Health Insurance",
+                                    "values": [
+                                        "3.78%",
+                                        "Krankenversicherung"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Accident Insurance",
+                                    "values": [
+                                        "1.10%",
+                                        "Unfallversicherung (Paid 100% by ER)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Unemployment Insurance",
+                                    "values": [
+                                        "3.00%",
+                                        "Arbeitslosenversicherung"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Severance Fund (BMSVG)",
+                                    "values": [
+                                        "1.53%",
+                                        "Mandatory for all new contracts"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Insolvency Fund",
+                                    "values": [
+                                        "0.35%",
+                                        "IESG-Zuschlag"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Municipal Tax",
+                                    "values": [
+                                        "3.00%",
+                                        "Paid to local municipality"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "payroll-employee-deductions",
+                    "type": "deductions",
+                    "title": "Employee Deductions (2025)",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Income Tax (Lohnsteuer)",
+                                    "values": [
+                                        "20% - 55%",
+                                        "Progressive rates above €13,308"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Pension Insurance",
+                                    "values": [
+                                        "10.25%",
+                                        "Deducted from gross"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Health Insurance",
+                                    "values": [
+                                        "3.87%",
+                                        "Deducted from gross"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Unemployment Insurance",
+                                    "values": [
+                                        "3.00%",
+                                        "Deducted from gross"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Chamber of Labor",
+                                    "values": [
+                                        "0.50%",
+                                        "Arbeiterkammerumlage"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "payroll-insights",
+                    "type": "insights",
+                    "title": "Payroll Compliance Essentials",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "The 'Jahressechstel'",
+                                "text": "The 13th and 14th salaries are taxed at a flat rate of 6% (after a small exemption), provided they do not exceed 1/6th of total annual income. This is a key benefit for employees."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Submission Deadlines",
+                                "text": "Failing to submit the mBGM report by the end of the month or paying taxes by the 15th results in immediate surcharges (Säumniszuschlag)."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Commuter Allowance (Pendlerpauschale)",
+                                "text": "Employees traveling designated distances to work are entitled to tax deductions. This must be processed through payroll."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Union Agreements (Kollektivvertrag)",
+                                "text": "98% of Austrian jobs are covered by a Collective Bargaining Agreement (CBA). These dictate minimum salaries and annual increases."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "payroll-faq",
+                    "type": "faq",
+                    "title": "Payroll FAQs",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the 13th and 14th salary?",
+                                "answer": "It is a standard bonus payment equal to one month's salary, paid in June (Holiday Bonus) and November (Christmas Bonus). It is mandatory under almost all CBAs."
+                            },
+                            {
+                                "question": "Are there payroll taxes on benefits?",
+                                "answer": "Yes. Benefits-in-kind (Sachbezug) such as company cars or free parking are taxable. Zero-emission vehicles are exempt from benefit-in-kind tax."
+                            },
+                            {
+                                "question": "How are sick days handled?",
+                                "answer": "Employers must continue paying full salary for at least 6 weeks (Entgeltfortzahlung), after which the health insurance fund takes over partial payments."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "calculator-factors",
+                    "type": "cost_breakdown",
+                    "title": "Employer Cost Factors",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Rate (Approx)",
+                                "Base"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Security (Employer)",
+                                    "values": [
+                                        "~21.23%",
+                                        "Gross Salary (up to cap)"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "DB (Family Burden Equalization)",
+                                    "values": [
+                                        "3.7%",
+                                        "Gross Salary"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Municipal Tax (Kommunalsteuer)",
+                                    "values": [
+                                        "3.0%",
+                                        "Gross Salary"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "DZ (Surcharge to DB)",
+                                    "values": [
+                                        "~0.36% - 0.44%",
+                                        "Varies by federal state"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Employee Severance Fund (MVK)",
+                                    "values": [
+                                        "1.53%",
+                                        "Gross Salary"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "calculator-insights",
+                    "type": "insights",
+                    "title": "Calculation Nuances",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "13th & 14th Salary",
+                                "text": "Don't forget to factor in the Holiday (June) and Christmas (Nov) bonuses. These are taxed at a preferential rate (6%) but add two full months of gross salary to the annual cost."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Social Security Cap",
+                                "text": "For 2025/2026, the maximum monthly contribution base (Höchstbeitragsgrundlage) is approx. €6,450. Contributions are capped at this level."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Total Load Estimate",
+                                "text": "As a rule of thumb, budget roughly 30-31% on top of the annual gross salary (including 13/14th payments) to cover all employer non-wage labor costs."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "calculator-steps",
+                    "type": "key_steps",
+                    "title": "Running a Calculation",
+                    "subtitle": "Step-by-Step",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Determine Gross Monthly Salary",
+                                "description": "Agree on a monthly gross amount (Bruttogehalt) generally paid 14 times a year."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Add Non-Wage Labor Costs",
+                                "description": "Add ~30% for social security (Dienstgeberanteil), municipal tax, and other levies."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Check Commuter Allowance",
+                                "description": "If applicable, the 'Pendlerpauschale' reduces the tax base but doesn't cost the employer extra directly; however, it must be processed in payroll."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Annualize",
+                                "description": "Multiply monthly total cost by 14 (or 12 + 2 bonus payments) to get the true annual cost of employment."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "calculator-faq",
+                    "type": "faq",
+                    "title": "Payroll FAQs",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is the 13th/14th salary mandatory?",
+                                "answer": "It is not statutory by law but mandated by almost all Collective Bargaining Agreements (Kollektivvertrag), effectively making it mandatory."
+                            },
+                            {
+                                "question": "What is the 'Dienstgeberabgabe'?",
+                                "answer": "A specific tax for specialized employees/freelancers, ensuring they contribute to the system if not fully employed. Less common for standard employees."
+                            },
+                            {
+                                "question": "How are overtime payments taxed?",
+                                "answer": "The first 10 overtime hours per month get a tax-free allowance up to €86. Generally, overtime is expensive due to surcharges (50% or 100%)."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation in Austria",
+                "subtitle": "Setup a GmbH in Austria",
+                "description": "Establish a robust presence in the DACH region. A GmbH offers liability protection and strong reputational value, though setup requires notarization and capital deposit.",
+                "bestFor": "Companies planning long-term operations (>2 years)",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "incorp-steps",
+                    "type": "key_steps",
+                    "title": "GmbH Incorporation Steps",
+                    "subtitle": "Timeline: 2-4 weeks",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Articles of Association",
+                                "description": "Draft the 'Gesellschaftsvertrag'. It must include company name, seat, business purpose, and share capital details. Must be notarized."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Capital Deposit",
+                                "description": "Open a business bank account and deposit the minimum share capital (€10,000 for standard GmbH). Bank issues a confirmation certificate."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Notary Appointment",
+                                "description": "Shareholders and Managing Directors sign the deed of incorporation in front of an Austrian notary. Remote signing is possible via specific digital notary procedures."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Commercial Registry",
+                                "description": "Notary submits documents to the Firmenbuch (Commercial Register). Registration fee is ~€350. Approval typically takes 1-2 weeks."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Tax & Trade Registration",
+                                "description": "Register with the Tax Office (Finanzamt) for a VAT number and apply for a trade license (Gewerbeberechtigung) with the local authority."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "incorp-costs",
+                    "type": "cost_breakdown",
+                    "title": "Incorporation Costs",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Item",
+                                "Estimate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Minimum Share Capital",
+                                    "values": [
+                                        "€10,000",
+                                        "Fully paid in"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Notary Fees",
+                                    "values": [
+                                        "€1,500 - €3,000",
+                                        "Depends on complexity"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Court/Registry Fees",
+                                    "values": [
+                                        "€400",
+                                        "Firmenbuchgebühr"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Legal Counsel",
+                                    "values": [
+                                        "€2,000 - €4,000",
+                                        "Drafting Articles (Optional)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Publication Fee",
+                                    "values": [
+                                        "€150",
+                                        "Wiener Zeitung"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "incorp-insights",
+                    "type": "insights",
+                    "title": "Entity Setup Insights",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Corporate Tax Rate 2025",
+                                "text": "The Corporate Income Tax (Körperschaftsteuer) rate is 23%. This was reduced from 25% in previous years to boost competitiveness."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Start-up Aid Act (NeuFöG)",
+                                "text": "New businesses can apply for NeuFöG status to waive certain government fees and taxes involved in incorporation. Check eligibility with the Chamber of Commerce."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Trade License (Gewerbeschein)",
+                                "text": "Almost every business activity requires a trade license. A Managing Director (gewerberechtlicher Geschäftsführer) must be appointed who meets qualification criteria for regulated trades."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Managing Director Residency",
+                                "text": "Third-country nationals appointed as Managing Directors may need a residence permit if they plan to stay in Austria longer than visa-free allowance."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "incorp-faq",
+                    "type": "faq",
+                    "title": "Incorporation FAQs",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can a foreign company own 100% of an Austrian GmbH?",
+                                "answer": "Yes, 100% foreign ownership is fully permitted. The shareholder can be a foreign legal entity."
+                            },
+                            {
+                                "question": "Is a physical office required?",
+                                "answer": "Yes, you need a registered office address in Austria (Sitz). A simple PO Box is not sufficient, but a virtual office with mail forwarding usually suffices."
+                            },
+                            {
+                                "question": "What is the difference between GmbH and AG?",
+                                "answer": "GmbH is a private liability company (simpler, €10k capital). AG is a public stock corporation (complex, €70k capital, supervisory board required). GmbH is the standard choice."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Austria",
+                "subtitle": "Recruit top talent in the DACH region",
+                "description": "Austria offers a highly skilled, German-speaking workforce. Recruitment agencies are essential for navigating the tight labor market and strict labor leasing (Arbeitskräfteüberlassung) regulations.",
+                "bestFor": "Sourcing specialized roles or volume hiring",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "staffing-steps",
+                    "type": "key_steps",
+                    "title": "Recruitment Process",
+                    "subtitle": "Standard Timeline: 4-8 weeks",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Requirements Engineering",
+                                "description": "Define the role profile. Note that Austrian job ads MUST state the minimum collective agreement salary (Glleichbehandlungsgesetz), though actual pay is usually higher."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Agency Selection",
+                                "description": "Choose a specialized agency. Ensure they understand your industry (e.g., IT, Engineering). Sign Terms of Business regarding exclusivity and replacement guarantees."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Sourcing & Screening",
+                                "description": "Agencies use active sourcing (LinkedIn) and local job boards (Karriere.at). Candidates expect a formal interview process."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Works Council Hearing",
+                                "description": "If a Works Council exists, you must inform them of the intended hire/grading before the contract is signed."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Offer & Contract",
+                                "description": "Issue the 'Dienstzettel'. Be prepared for a 1-month notice period from the candidate's current employer (usually to end of month)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "staffing-costs",
+                    "type": "cost_breakdown",
+                    "title": "Recruitment Agency Fees",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Fee Model",
+                                "Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Contingency Fee",
+                                    "values": [
+                                        "20% - 25%",
+                                        "Of first annual gross salary"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Retained Search",
+                                    "values": [
+                                        "25% - 30%",
+                                        "30% upfront, 30% shortlist, 40% fill"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Job Ad Posting",
+                                    "values": [
+                                        "€300 - €1,000",
+                                        "Per post on premium boards (Karriere.at)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Interim Management",
+                                    "values": [
+                                        "€800 - €1,500",
+                                        "Daily rate"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "staffing-insights",
+                    "type": "insights",
+                    "title": "Recruitment Market Insights",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Salary Transparency Law",
+                                "text": "All job advertisements must state the minimum salary according to the applicable Collective Bargaining Agreement. Failing to do so can result in administrative fines."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Probation Periods",
+                                "text": "The statutory maximum probation period is 1 month. This is very short compared to other countries (e.g., Germany's 6 months), so initial screening is critical."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "CV Format",
+                                "text": "Austrian CVs are typically detailed ('Lebenslauf'), reverse chronological, and often include a professional photo and date of birth."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "staffing-faq",
+                    "type": "faq",
+                    "title": "Staffing FAQs",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the standard replacement guarantee?",
+                                "answer": "Most agencies offer a free replacement if the candidate leaves within the probation period (1 month) or sometimes up to 3 months for senior roles."
+                            },
+                            {
+                                "question": "Are background checks common?",
+                                "answer": "Criminal record checks ('Strafregisterbescheinigung') are common for sensitive roles but require candidate consent. Credit checks are rare except for finance roles."
+                            },
+                            {
+                                "question": "Do I need a license to hire temporary staff?",
+                                "answer": "You don't need a license to HIRE temp staff, but the agency supplying them MUST have a labor leasing license (Überlassungsgewerbe)."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS in Austria",
+                "subtitle": "Digitize HR in a compliant manner",
+                "description": "Austria has strict requirements for time tracking and data privacy. Your HRIS choice must support Works Council rights and mandatory working hour records.",
+                "bestFor": "Companies with >10 employees",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "hris-steps",
+                    "type": "key_steps",
+                    "title": "HRIS Implementation Phases",
+                    "subtitle": "Timeline: 1-3 months",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Compliance Check",
+                                "description": "Verify the system supports Austrian specificities: § 26 AZG time tracking, 14 salary split, and GDPR data residency (ideally EU servers)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Works Council Consultation",
+                                "description": "If a Works Council exists, introducing an HRIS often requires a company agreement (Betriebsvereinbarung), especially if performance or behavior can be monitored."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Data Migration",
+                                "description": "Migrate master data (Stammdaten). Ensure historical data for holiday accruals (Urlaubsanspruch) is transferred accurately (25 days/year)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Configuration",
+                                "description": "Configure absence types: Sick leave (needs doctor's note upload), Care leave (Pflegefreistellung), and Parental leave (Karenz)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Rollout & Training",
+                                "description": "Train employees on time tracking obligations. It is the employer's duty to ensure working hours are recorded correctly."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hris-insights",
+                    "type": "insights",
+                    "title": "HR Tech Compliance",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Mandatory Time Tracking (§ 26 AZG)",
+                                "text": "Employers MUST record start time, end time, and breaks for all employees. 'Trust-based working hours' without recording is largely illegal except for C-level execs."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Works Council Rights",
+                                "text": "Systems that use AI or algorithms to evaluate employees effectively require Works Council consent. Transparency is key."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Holiday Accrual",
+                                "text": "Statutory holiday is 5 weeks (25 days). After 25 years of service, it increases to 6 weeks. Your HRIS must handle this automatic increase."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hris-costs",
+                    "type": "cost_breakdown",
+                    "title": "HRIS Software Costs",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Cost Estimate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Core HR License",
+                                    "values": [
+                                        "€6 - €12",
+                                        "Per user/month"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Time Tracking Module",
+                                    "values": [
+                                        "€3 - €5",
+                                        "Often separate addon"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Implementation Fee",
+                                    "values": [
+                                        "€1,500 - €5,000",
+                                        "One-time setup"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Payroll Integration",
+                                    "values": [
+                                        "€2 - €4",
+                                        "Per user/month"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "hris-faq",
+                    "type": "faq",
+                    "title": "HRIS FAQs",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I use a US-based HRIS?",
+                                "answer": "Yes, if it is GDPR compliant (Standard Contractual Clauses or Data Privacy Framework). However, US systems often lack specific fields for Austrian tax classes and religion (for church tax)."
+                            },
+                            {
+                                "question": "Is biometric time tracking allowed?",
+                                "answer": "Generally, no, unless there is a very high security requirement. Fingerprint scanning for general attendance is usually considered excessive by data protection authorities."
+                            },
+                            {
+                                "question": "How long must data be kept?",
+                                "answer": "Payroll data must be kept for 7 years. Time tracking records should be kept for at least 1 year, but practically longer for potential claims."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting in Austria",
+                "subtitle": "Financial reporting & tax compliance",
+                "description": "Austrian accounting standards (UGB) differ from IFRS. Companies require monthly bookkeeping, VAT filings (UVA), and annual financial statements compliant with Austrian law.",
+                "bestFor": "Local entities (GmbH)",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "accounting-steps",
+                    "type": "key_steps",
+                    "title": "Accounting Cycle",
+                    "subtitle": "Recurring Obligations",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Monthly Bookkeeping",
+                                "description": "Digitize and submit all invoices and expense receipts. Austria requires 'Ordnungsmäßigkeit der Buchführung' (orderly bookkeeping)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "VAT Returns (UVA)",
+                                "description": "Submit Preliminary VAT Return (Umsatzsteuervoranmeldung) monthly by the 15th of the second following month (or quarterly if turnover < €100k)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Annual Closing",
+                                "description": "Prepare the 'Jahresabschluss' (Financial Statements) within 9 months of year-end. This involves reconciliation of accounts, accruals, and inventory valuation."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Tax Filing",
+                                "description": "Submit Corporate Income Tax return (Körperschaftsteuererklärung) electronically via FinanzOnline."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Commercial Register Filing",
+                                "description": "Submit the annual financial statements to the Firmenbuch within 9 months. Failure leads to automatic fines (minimum €700)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "accounting-costs",
+                    "type": "cost_breakdown",
+                    "title": "Accounting Service Fees",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service",
+                                "Estimate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Monthly Bookkeeping",
+                                    "values": [
+                                        "€250 - €600",
+                                        "Volume dependent"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Payroll Accounting",
+                                    "values": [
+                                        "€15 - €25",
+                                        "Per slip/employee"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Annual Financial Statements",
+                                    "values": [
+                                        "€1,500 - €4,000",
+                                        "Jahresabschluss"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Tax Advisory Hourly Rate",
+                                    "values": [
+                                        "€150 - €300",
+                                        "Steuerberater fee"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "accounting-insights",
+                    "type": "insights",
+                    "title": "Accounting & Tax Rules",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Audit Thresholds",
+                                "text": "A statutory audit is mandatory if two of three limits are exceeded for two consecutive years: €5M turnover, €2.5M balance sheet total, or 50 employees."
+                            },
+                            {
+                                "type": "info",
+                                "title": "UGB vs IFRS",
+                                "text": "Local statutory accounts must be prepared under Austrian UGB (Unternehmensgesetzbuch), which tends to be more prudent/conservative than IFRS."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Fiscal Year",
+                                "text": "The fiscal year usually matches the calendar year, but a deviate fiscal year (Rumpfwirtschaftsjahr) can be chosen upon incorporation."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "accounting-faq",
+                    "type": "faq",
+                    "title": "Accounting FAQs",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I keep my books in English?",
+                                "answer": "Internal records can be in English, but the official submission to the Tax Office and Commercial Register must be in German."
+                            },
+                            {
+                                "question": "What is a Fiscal Representative?",
+                                "answer": "Non-EU companies doing taxable business in Austria without a permanent establishment must appoint a Fiscal Representative to handle VAT obligations."
+                            },
+                            {
+                                "question": "Are digital receipts accepted?",
+                                "answer": "Yes, scanned receipts are fully accepted provided they are legible and stored securely (GoBD equivalent standards apply)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "compliance-steps",
+                    "type": "key_steps",
+                    "title": "Compliance Setup Checklist",
+                    "subtitle": "Immediate Actions",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Trade License Check",
+                                "description": "Verify if your business activity is a 'Regulated Trade' (reglementiertes Gewerbe) requiring specific qualifications or a 'Free Trade'. Register with the GISA."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Beneficial Owner Register",
+                                "description": "Report Ultimate Beneficial Owners (UBO) to the defined register (WiEReG) within 4 weeks of incorporation to comply with AML laws."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Whistleblower Channel",
+                                "description": "Companies with 50+ employees must establish an internal reporting channel under the Whistleblower Protection Act (HSchG)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "GDPR Audit",
+                                "description": "Appoint a Data Protection Officer if required. Document Processing Activities (Verarbeitungsverzeichnis) and ensure website cookie banners are compliant."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Safety & Health",
+                                "description": "Appoint a Safety Officer (Sicherheitsvertrauensperson) if you have >10 employees. Conduct mandatory workplace risk assessments."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "compliance-insights",
+                    "type": "insights",
+                    "title": "Regulatory Landscape",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "GDPR Fines",
+                                "text": "The Austrian Data Protection Authority (DSB) is active. Non-compliance can lead to fines up to €20M or 4% of global turnover. Google Analytics use has faced scrutiny."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Whistleblowing (HSchG)",
+                                "text": "The HinweisgeberInnenschutzgesetz protects whistleblowers reporting breaches of EU law. The internal channel must ensure confidentiality and allow anonymous reporting."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Lobbying Register",
+                                "text": "Companies engaging in lobbying activities must register in the Lobbying Register to ensure transparency."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "compliance-good-to-know",
+                    "type": "good_to_know",
+                    "title": "Local Compliance Nuances",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Waste Management",
+                                "text": "Packaging compliance (Verpackungsverordnung) requires companies putting packaging on the market to participate in a collection scheme (e.g., ARA)."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Works Council Co-Determination",
+                                "text": "The Works Council has strong rights (Mitbestimmung). In some cases (e.g., disciplinary transfers, intrusive IT systems), their consent is legally required."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "E-Government",
+                                "text": "Austria's 'Unternehmensserviceportal' (USP) is the central gateway for most compliance filings. Get your ID Austria login sorted early."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "compliance-faq",
+                    "type": "faq",
+                    "title": "Compliance FAQs",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is a physical compliance officer required?",
+                                "answer": "For regulated sectors (banking, insurance), yes. For general business, a Managing Director often assumes the 'Gewerberechtlicher Geschäftsführer' role."
+                            },
+                            {
+                                "question": "How strictly is the Trade License enforced?",
+                                "answer": "Very strictly. Operating without a license (Pfusch) is an administrative offense and competitors can sue for unfair competition."
+                            },
+                            {
+                                "question": "What are the rules for managing directors?",
+                                "answer": "The Managing Director (Handelsrechtlicher Geschäftsführer) is personally liable for tax and social security payments if the company defaults due to negligence."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "tax-rates",
+                    "type": "cost_breakdown",
+                    "title": "Tax Rates 2025",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Tax Type",
+                                "Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax (KöSt)",
+                                    "values": [
+                                        "23%",
+                                        "Flat rate on profits"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "VAT (Standard)",
+                                    "values": [
+                                        "20%",
+                                        "General goods & services"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "VAT (Reduced)",
+                                    "values": [
+                                        "10% / 13%",
+                                        "Food, books, hotels (10%)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Dividend Withholding Tax",
+                                    "values": [
+                                        "27.5%",
+                                        "23% for corporations (often reduced by DTT)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Real Estate Transfer Tax",
+                                    "values": [
+                                        "3.5%",
+                                        "On property value"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "tax-deductions",
+                    "type": "deductions",
+                    "title": "Tax Incentives & Deductions",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Incentive",
+                                "Benefit",
+                                "Conditions"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "R&D Cash Premium (Forschungsprämie)",
+                                    "values": [
+                                        "14% Refund",
+                                        "On eligible R&D expenses, paid in cash"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Loss Carryforward",
+                                    "values": [
+                                        "Unlimited",
+                                        "Can offset max 75% of annual profit"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Digital Depreciation",
+                                    "values": [
+                                        "Variable",
+                                        "Accelerated depreciation for eco-friendly assets"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Group Taxation",
+                                    "values": [
+                                        "Pooling",
+                                        "Offset losses of subsidiaries against parent profit"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "tax-insights",
+                    "type": "insights",
+                    "title": "Tax Compliance Insights",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Group Taxation Regime",
+                                "text": "Austria's Group Taxation (Gruppenbesteuerung) is one of the most attractive in Europe. It allows cross-border loss utilization from non-Austrian subsidiaries under certain conditions."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Advance Tax Payments",
+                                "text": "CIT is prepaid in quarterly installments (Feb, May, Aug, Nov). Cash flow planning must account for these prepayments based on the previous year's profit."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "R&D Premium Application",
+                                "text": "The 14% R&D premium is NOT a tax deduction but a cash refund. It requires a detailed expert opinion (Gutachten) from the FFG (Research Promotion Agency)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "tax-faq",
+                    "type": "faq",
+                    "title": "Tax FAQs",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "When is the annual tax return due?",
+                                "answer": "Generally by June 30th of the following year if filed electronically via FinanzOnline. Extensions via a tax advisor are possible."
+                            },
+                            {
+                                "question": "Does Austria have a Wealth Tax?",
+                                "answer": "No, Austria does not levy a general wealth tax on assets, though real estate tax is applicable."
+                            },
+                            {
+                                "question": "What is the Capital Gains Tax?",
+                                "answer": "For corporations, capital gains are treated as ordinary income and taxed at the 23% CIT rate. Participation exemptions often apply for sale of shares."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "MSA & Legal in Austria",
+                "subtitle": "Contractual frameworks for Austria",
+                "description": "Drafting valid Master Service Agreements requires attention to Austrian Civil Code (ABGB) and consumer protection laws if applicable. Liability limitations have specific statutory bounds.",
+                "bestFor": "Legal teams drafting cross-border contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "msa-steps",
+                    "type": "key_steps",
+                    "title": "MSA Drafting Essentials",
+                    "subtitle": "Process View",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Choice of Law",
+                                "description": "Explicitly state Austrian Law as governing law. For B2B, this is standard. Courts (Handelsgericht) in Vienna are experienced in commercial disputes."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Liability Clauses",
+                                "description": "Define liability caps. Note: Under Austrian law, liability for 'Intent' (Vorsatz) and 'Gross Negligence' (Grobe Fahrlässigkeit) cannot be excluded."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Payment Terms",
+                                "description": "Standard payment terms are 14-30 days. The Late Payment Directive allows statutory interest and recovery costs for B2B delays."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "IP Transfer",
+                                "description": "Clearly define when Intellectual Property rights transfer (usually upon full payment). Moral rights (Urheberpersönlichkeitsrecht) remain with the creator but can be waived."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Termination",
+                                "description": "Specify valid reasons for 'Extraordinary Termination' (wichtiger Grund), which allows immediate cancellation regardless of term."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "msa-insights",
+                    "type": "insights",
+                    "title": "Legal Best Practices",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "General Terms & Conditions (AGB)",
+                                "text": "If your MSA refers to GTCs, they must be proven to have been 'brought to the attention' of the other party before signing. Hidden clauses (überraschende Klauseln) are void."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Electronic Signatures",
+                                "text": "Qualified Electronic Signatures (QES) e.g., via ID Austria or DocuSign (QES level) are legally equivalent to handwritten signatures for most commercial contracts."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Cost Reimbursement",
+                                "text": "In litigation, the losing party generally pays the court fees and the winner's legal costs (based on the statutory tariff RATG)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "msa-nuances",
+                    "type": "good_to_know",
+                    "title": "Austrian Civil Code Nuances",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Laesio Enormis",
+                                "text": "A contract can be challenged if the value of goods/services is less than half of the consideration paid (verkürzung über die hälfte). In B2B, this is often explicitly excluded."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Sittenwidrigkeit",
+                                "text": "Contracts deemed 'contrary to good morals' are void. This includes excessively long binding periods or usurious interest rates."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Language",
+                                "text": "While English contracts are common in B2B, submitting them to court requires a certified German translation. It is wise to have a bilingual version."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "msa-faq",
+                    "type": "faq",
+                    "title": "Legal FAQs",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can we agree on US law for an Austrian client?",
+                                "answer": "Yes, in B2B. However, mandatory Austrian overriding mandatory provisions (Eingriffsnormen) may still apply, and enforcement can be complex."
+                            },
+                            {
+                                "question": "Is a non-compete enforceable?",
+                                "answer": "Yes, but strictly limited in time (max 1 year typically) and scope. For employees, compensation must be paid during the non-compete period."
+                            },
+                            {
+                                "question": "What is the statute of limitations?",
+                                "answer": "General statute of limitations is 3 years for claims for goods/services, and 30 years for other rights. Claims for damages expire after 3 years from knowledge."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Solutions in Austria",
+                "subtitle": "Local & Integrated Tech Stack",
+                "description": "The Austrian market relies heavily on localized software for payroll (Lohnverrechnung) and accounting due to specific legal requirements. DATEV and BMD are market leaders.",
+                "bestFor": "IT & HR Managers",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "software-insights",
+                    "type": "insights",
+                    "title": "Software Implementation Insights",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Localization is Critical",
+                                "text": "Generic global ERPs often fail to handle Austrian specifics like the 13th/14th salary split or local travel expense allowances (Diäten) without expensive customization."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Electronic Data Transmission",
+                                "text": "Ensure your payroll software supports 'ELDA' (Elektronischer Datenaustausch) for mandatory reporting to social security authorities."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Cloud vs. On-Premise",
+                                "text": "While cloud adoption is growing (e.g., Personio), many traditional Austrian firms still prefer on-premise or hosted solutions (e.g., BMD) for perceived data sovereignty."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "software-selection",
+                    "type": "key_steps",
+                    "title": "Choosing the Right Stack",
+                    "subtitle": "Selection Process",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Identify Mandatory Integrations",
+                                "description": "Check for FinanzOnline and ELDA interfaces. Without these, manual administrative burden increases significantly."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Check Collective Agreement Support",
+                                "description": "Austrian wages are heavily regulated by 'Kollektivvertrag'. The software should support automatic updates to minimum wage tables."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Data Hosting Compliance",
+                                "description": "Ensure the provider hosts data within the EU/EEA to comply with strict GDPR interpretations by Austrian authorities."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "software-faq",
+                    "type": "faq",
+                    "title": "Software FAQs",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I use QuickBooks or Xero in Austria?",
+                                "answer": "It is difficult. They lack native support for Austrian VAT returns (UVA) and specific payroll rules. Local solutions or localized NetSuite/SAP are better."
+                            },
+                            {
+                                "question": "What is 'Registrierkassenpflicht'?",
+                                "answer": "The requirement for electronic cash registers with a tamper-proof signature for cash businesses. Your POS software must be compliant."
+                            },
+                            {
+                                "question": "Is e-invoicing mandatory?",
+                                "answer": "For B2G (Business to Government) transactions, e-invoicing via USP (Unternehmensserviceportal) is mandatory."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Agencies in Austria",
+                "subtitle": "Creative & Digital Partners",
+                "description": "Austria's marketing landscape is centered in Vienna, with a strong focus on high-quality B2B communications and localized DACH strategies.",
+                "bestFor": "CMOs & Growth Leads",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "marketing-insights",
+                    "type": "insights",
+                    "title": "Marketing in Austria",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "DACH Strategy",
+                                "text": "Campaigns often run across Germany, Austria, and Switzerland (DACH). However, Austrian German has distinct vocabulary and cultural nuances—localize, don't just copy German content."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Privacy First",
+                                "text": "Austrians are privacy-conscious. 'Cold calling' and aggressive email marketing without double opt-in are strictly regulated and culturally frowned upon."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Quality Over Quantity",
+                                "text": "The market appreciates high production value and certifications (e.g., 'Google Partner'). Trust is a major currency in Austrian business relationships."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "marketing-steps",
+                    "type": "key_steps",
+                    "title": "Agency Engagement Guide",
+                    "subtitle": "How to hire",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Define Scope & Region",
+                                "description": "Decide if you need a Vienna-centric campaign or regional reach. Local dialects can vary significantly in urgency and tone."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Check References",
+                                "description": "Ask for case studies specifically within the Austrian market. Experience in Germany does not always translate 1:1."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Review Contracts",
+                                "description": "Ensure clear IP transfer clauses for creative assets. Agency contracts often default to usage rights rather than full ownership transfer."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "marketing-faq",
+                    "type": "faq",
+                    "title": "Marketing FAQs",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What are standard agency rates?",
+                                "answer": "Daily rates for senior consultants typically range from €1,000 to €1,800. Junior roles/execution can be €500-€800."
+                            },
+                            {
+                                "question": "Is LinkedIn popular in Austria?",
+                                "answer": "Yes, for B2B it is the dominant platform. XING is still present but declining compared to LinkedIn."
+                            },
+                            {
+                                "question": "Do I need a local website domain (.at)?",
+                                "answer": "Highly recommended. A .at domain signals local presence and significantly builds trust with Austrian consumers and SEO."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

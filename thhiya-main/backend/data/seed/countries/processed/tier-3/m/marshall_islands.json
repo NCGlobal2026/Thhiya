@@ -1,0 +1,487 @@
+{
+    "name": "Marshall Islands",
+    "code": "MH",
+    "slug": "marshall-islands",
+    "flag": "https://flagcdn.com/w160/mh.png",
+    "region": "Oceania",
+    "languages": [
+        "Marshallese",
+        "English"
+    ],
+    "currencies": [
+        "USD"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Marshall Islands",
+                "subtitle": "Hire in Majuro",
+                "description": "Compliant employment in the Pacific. We handle MISSA contributions.",
+                "bestFor": "Maritime & NGOs",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "mh-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Written employment agreement."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "MISSA",
+                                "description": "Register with Marshall Islands Social Security Administration."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mh-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Security (MISSA)",
+                                    "values": [
+                                        "8%",
+                                        "8%",
+                                        "Retirement, Health, etc. Capped at $10k quarterly wages."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Health Fund",
+                                    "values": [
+                                        "3.5%",
+                                        "3.5%",
+                                        "Basic Health Plan (often combined in MISSA calculation or separate)."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "mh-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Nuclear Victims Remembrance Day",
+                                "description": "March 1 (Observed Feb 28)"
+                            },
+                            {
+                                "title": "Good Friday",
+                                "description": "April 18"
+                            },
+                            {
+                                "title": "Constitution Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Fishermen's Day",
+                                "description": "July 4"
+                            },
+                            {
+                                "title": "Dri-jerbal Day (Labor Day)",
+                                "description": "September 5"
+                            },
+                            {
+                                "title": "Manit Day (Culture Day)",
+                                "description": "September 26"
+                            },
+                            {
+                                "title": "President's Day",
+                                "description": "November 17"
+                            },
+                            {
+                                "title": "Gospel Day",
+                                "description": "December 5"
+                            },
+                            {
+                                "title": "Christmas Day",
+                                "description": "December 25"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mh-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax (GRT)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Annual Income (USD)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Up to $8,320",
+                                    "values": [
+                                        "0%",
+                                        "Exempt first $1,560 per quarter usually."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "$8,321 - $15,600",
+                                    "values": [
+                                        "8%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "$15,601 - $25,999",
+                                    "values": [
+                                        "12%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Above $26,000",
+                                    "values": [
+                                        "16%"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "mh-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Base Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "MISSA",
+                                "description": "Deduct 8% (Employee Share)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax Base",
+                                "description": "Gross (Check specific deductions)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Income Tax",
+                                "description": "Apply 8%/12%/16% brackets on annual income check."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Net",
+                                "description": "Gross - MISSA - Tax."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Marshall Islands",
+                "subtitle": "IBC",
+                "description": "International Business Company.",
+                "bestFor": "Shipping & Holdings",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "mh-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Registered Agent",
+                                "description": "Must appoint a local registered agent."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Filing",
+                                "description": "File Articles of Incorporation with Registrar of Corporations."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mh-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Bank of Marshall Islands",
+                                "description": "Primary local bank."
+                            },
+                            {
+                                "title": "Bank of Guam",
+                                "description": "US banking system connection."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Marshall Islands",
+                "subtitle": "Majuro",
+                "description": "Local talent.",
+                "bestFor": "Fisheries",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "mh-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Majuro",
+                                "text": "Capital and main population center."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Marshall Islands",
+                "subtitle": "Basic",
+                "description": "Payroll-linked.",
+                "bestFor": "Records",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "mh-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Quarterly Returns",
+                                "description": "Reporting to MISSA."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Marshall Islands",
+                "subtitle": "US GAAP",
+                "description": "Commonly used.",
+                "bestFor": "Compliance",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "mh-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "US GAAP",
+                                "text": "Often used due to close ties with USA."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mh-comp-labor",
+                    "type": "warning",
+                    "title": "Minimum Wage",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Rate",
+                                "description": "Check latest rate (approx $3.50-$4.00/hr)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mh-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Gross Revenue Tax",
+                                    "values": [
+                                        "3%",
+                                        "On gross revenues."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "IBC Tax",
+                                    "values": [
+                                        "0%",
+                                        "Generally exempt if no business in MH."
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Marshall Islands",
+                "subtitle": "US Law Derived",
+                "description": "Modeled on Delaware corporate law.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "mh-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Corporate Law",
+                                "text": "BCA (Business Corporations Act) is popular for offshore entities."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Marshall Islands",
+                "subtitle": "Basic",
+                "description": "US tools.",
+                "bestFor": "Ops",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "mh-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "QuickBooks",
+                                "description": "Common for small businesses."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Marshall Islands",
+                "subtitle": "Social",
+                "description": "Facebook.",
+                "bestFor": "Local Reach",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "mh-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Facebook",
+                                "text": "Key communication channel."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

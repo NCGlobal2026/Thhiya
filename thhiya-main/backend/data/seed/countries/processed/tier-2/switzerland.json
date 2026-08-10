@@ -1,0 +1,1960 @@
+{
+    "name": "Switzerland",
+    "code": "CH",
+    "slug": "switzerland",
+    "flag": "https://flagcdn.com/w160/ch.png",
+    "region": "Europe",
+    "languages": [
+        "German",
+        "French",
+        "Italian",
+        "Romansh"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "Hire in Switzerland (No Entity)",
+                "subtitle": "Augmented Staffing & Compliance",
+                "description": "Hire staff without a local AG/GmbH. EOR holds the required AUG lease license (Personalverleih) for compliant employment leasing.",
+                "bestFor": "Testing market / Rapid hiring.",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "eor-onboarding-process",
+                    "type": "key_steps",
+                    "title": "Onboarding Process",
+                    "subtitle": "Timeline: 2 Weeks",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract Drafting",
+                                "description": "Drafting of unlimited or fixed-term contracts compliant with the Swiss Code of Obligations (OR). Probezeit (probation) is standardly set to 3 months."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Work Permit Verification",
+                                "description": "Verification of B or L permits for EU/EFTA citizens. For non-EU nationals, managing the rigorous quota-based application process (very restrictive)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Social Security & Pension",
+                                "description": "Mandatory enrollment in AHV (1st pillar) and selection of a Pensionskasse (2nd pillar) if the salary exceeds CHF 22,050 per year."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Insurance Setup",
+                                "description": "Mandatory registration for UVG (accident insurance) and KTG (daily sickness allowance) to meet Swiss statutory minimums."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Payroll Integration",
+                                "description": "Integration into local payroll systems to handle Quellensteuer (withholding tax) for foreign workers without a C permit."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "eor-cost-breakdown",
+                    "type": "cost_breakdown",
+                    "title": "Estimated Employer Costs 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Cost Category",
+                                "Percentage/Amount",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Security (AHV/IV/EO)",
+                                    "values": [
+                                        "5.30%",
+                                        "Employer portion of 1-st pillar"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Unemployment (ALV)",
+                                    "values": [
+                                        "1.10%",
+                                        "On salaries up to CHF 148,200"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Pension Fund (BVG)",
+                                    "values": [
+                                        "7% - 18%",
+                                        "Varies by age and plan type"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Accident Insurance (UVG)",
+                                    "values": [
+                                        "0.5% - 1.5%",
+                                        "Risk-based, mandatory coverage"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Management Fee",
+                                    "values": [
+                                        "$499 - $899",
+                                        "Per employee per month flat fee"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "eor-compliance-insights",
+                    "type": "insights",
+                    "title": "Legal Compliance & Risks",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "AUG License Requirement",
+                                "text": "Leasing employees in Switzerland requires a SECO license (Personalverleih). Foreign EORs without a local license are strictly illegal."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Permanent Establishment (PE)",
+                                "text": "Using an EOR for more than 2 years may trigger PE risks if the employee has authority to sign contracts for the parent firm."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "13th Month Salary",
+                                "text": "While not statutory, a 13th month salary is a standard market expectation in Switzerland (usually paid in December)."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Notice Periods",
+                                "text": "Statutory notice scales: 7 days in probation, 1 month in year one, 2 months in years 2-9, and 3 months thereafter."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "eor-cultural-tips",
+                    "type": "good_to_know",
+                    "title": "Cultural & Benefits Standard",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Punctuality",
+                                "text": "Swiss business culture values extreme punctuality. A 5-minute delay is considered unprofessional without prior notice."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Vacation Allowance",
+                                "text": "Legal minimum is 4 weeks (20 days). However, 5 weeks (25 days) is becoming the standard for office-based roles."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Language Nuance",
+                                "text": "Contracts should be in the local language of the canton (German, French, or Italian) alongside an English translation."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "eor-faq",
+                    "type": "faq",
+                    "title": "EOR Frequently Asked Questions",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I hire a non-EU citizen via EOR?",
+                                "answer": "It is extremely difficult due to the quota system. EORs typically only support non-EU nationals who already possess a valid Swiss residence and work permit (B or C)."
+                            },
+                            {
+                                "question": "Who pays for health insurance?",
+                                "answer": "In Switzerland, health insurance is private and paid by the employee personally. It is NOT an employer contribution or deduction from payroll."
+                            },
+                            {
+                                "question": "What is Quellensteuer?",
+                                "answer": "It is withholding tax deducted at source. It applies to foreign employees without a C permit. The rate varies significantly by the employee's canton of residence."
+                            },
+                            {
+                                "question": "How fast can I start?",
+                                "answer": "Typically 1-2 weeks for EU citizens. For non-EU citizens with existing permits, onboarding can take 2-3 weeks due to administrative checks."
+                            },
+                            {
+                                "question": "Can I use EOR for part-time staff?",
+                                "answer": "Yes, part-time employment is very common in Switzerland. However, social security contributions and some benefits may be pro-rated based on the 'Pensum' (percentage of a full-time role)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "eor-permit-types",
+                    "type": "good_to_know",
+                    "title": "Swiss Resident Permit Types",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Permit L (Short-Term)",
+                                "text": "For contracts up to 12 months. Often used for short-term projects or the initial phase of an assignment."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Permit B (Long-Term)",
+                                "text": "Standard residency permit for stays longer than a year. Usually issued for 5 years for EU/EFTA citizens."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Permit C (Settlement)",
+                                "text": "Permanent residency permit. Once an employee has a C permit, they are no longer subject to Quellensteuer (withholding tax)."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Permit G (Cross-Border)",
+                                "text": "For employees living in an EU/EFTA country (e.g., France, Germany) and working in Switzerland (must return home at least weekly)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "payroll-cycle-steps",
+                    "type": "key_steps",
+                    "title": "Monthly Processing Cycle",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Data Accumulation",
+                                "description": "Collection of variable data including overtime, bonuses, expense claims, and adjustments for sick leave (KTG) or accident leave (UVG)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Quellensteuer Calculation",
+                                "description": "Calculating withholding tax based on the specific tariff (A, B, C, D) and the employee's canton of residence."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Social Charge Deductions",
+                                "description": "Deduction of AHV/IV/EO (5.3%) and ALV (1.1%) from gross salary. Calculation of BVG contributions based on age brackets."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Disbursement",
+                                "description": "Net salary transfer via DTA/PAIN.001 files. Distribution of electronic pay slips to employees."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Statutory Reporting",
+                                "description": "Monthly or quarterly reporting to cantonal tax offices and annual reporting via Swissdec (standardised XML export)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "payroll-tax-table",
+                    "type": "cost_breakdown",
+                    "title": "Social Security & Tax Rates 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employee %",
+                                "Employer %",
+                                "Total %"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "AHV/IV/EO",
+                                    "values": [
+                                        "5.30%",
+                                        "5.30%",
+                                        "10.60%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Unemployment (ALV)",
+                                    "values": [
+                                        "1.10%",
+                                        "1.10%",
+                                        "2.20%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Family Allowance (FAK)",
+                                    "values": [
+                                        "0%",
+                                        "1.0% - 3.0%",
+                                        "Varies by Canton"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Accident Insurance (UVG)",
+                                    "values": [
+                                        "Varies",
+                                        "0.2% - 1.0%",
+                                        "Occupation-based"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Admin Fees (Compensation Font)",
+                                    "values": [
+                                        "0%",
+                                        "0.1% - 0.5%",
+                                        "Employer only"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "payroll-compliance-insights",
+                    "type": "insights",
+                    "title": "Swiss Payroll Compliance",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Canton of Residence vs Work",
+                                "text": "For withholding tax, the employee's residence canton determines the tax rate, not where the office is located. This is a critical distinction for hybrid workers."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "13th Month Accruals",
+                                "text": "Employers should accrue 8.33% of the monthly gross salary to cover the 13th month payout at year-end. Failure to accrue can lead to cash flow issues in December."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Expense Regulations",
+                                "text": "Swiss tax offices allow fixed expense lump sums (Spesenreglement) which are tax-free if pre-approved by the authorities. This covers minor costs like phone, home office, and local travel."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Year-End Deadlines",
+                                "text": "Annual wage declarations to all insurance funds and the tax office must be submitted by January 30th of the following year via the Swissdec platform."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Pillar 1 Contributions",
+                                "text": "The AHV/IV/EO contributions are mandatory for everyone living or working in Switzerland, including foreign nationals, ensuring basic pension and disability coverage."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "payroll-deadlines",
+                    "type": "key_steps",
+                    "title": "Critical Compliance Deadlines",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Monthly: Withholding Tax",
+                                "description": "Filing and payment of Quellensteuer must be completed by the 15th of the following month to the respective cantonal tax office."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Quarterly: Family Allowances",
+                                "description": "Reconciliation with the Familienausgleichskasse (FAK) to ensure correct disbursement of child and education allowances."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Annual: Wage Certificates",
+                                "description": "Issuance of the 'Lohnausweis' to every employee by late January to enable their individual tax filings."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Annual: Social Security Declaration",
+                                "description": "Submission of the final 'Lohnmeldung' to the AHV compensation office to reconcile provisional payments with actual wages paid."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "payroll-faq",
+                    "type": "faq",
+                    "title": "Payroll FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the 3rd Pillar?",
+                                "answer": "The 3rd pillar is a voluntary personal retirement savings plan. It is NOT handled through payroll. Employees set this up individually with banks/insurance."
+                            },
+                            {
+                                "question": "How are expenses taxed?",
+                                "answer": "Business expenses are generally tax-free. However, commuting costs are capped for deductions on the individual's tax return (CHF 3,000 Federal)."
+                            },
+                            {
+                                "question": "What happens if an employee is sick?",
+                                "answer": "The employer must pay 80-100% of salary for a limited time (Berne/Zurich scale) unless a KTG insurance is in place to cover up to 730 days."
+                            },
+                            {
+                                "question": "Are bonuses mandatory?",
+                                "answer": "No, bonuses (Gratifikation) are discretionary unless specified as a '13th month salary' in the employment contract."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "calc-sample-table",
+                    "type": "cost_breakdown",
+                    "title": "Sample Calculation: CHF 10,000/mo (ZH)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Line Item",
+                                "Deduction (CHF)",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Gross Monthly Salary",
+                                    "values": [
+                                        "10,000",
+                                        "Base Pay"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "AHV/IV/EO (5.3%)",
+                                    "values": [
+                                        "-530",
+                                        "1st Pillar"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "ALV (1.1%)",
+                                    "values": [
+                                        "-110",
+                                        "Unemployment"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "BVG / Pension",
+                                    "values": [
+                                        "-700",
+                                        "Age-based approx."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Quellensteuer (Approx.)",
+                                    "values": [
+                                        "-900",
+                                        "Single/No Church Tax"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Net Take-Home",
+                                    "values": [
+                                        "7,760",
+                                        "Est. Monthly Pay"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "calc-logic-steps",
+                    "type": "key_steps",
+                    "title": "How to Calculate",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Define Gross",
+                                "description": "Start with the annual gross salary divided by 12 (or 13 if applicable)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Apply Social %",
+                                "description": "Deduct fixed 6.4% total for AHV/IV/EO and ALV (up to ceiling)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Factor Pension",
+                                "description": "Calculate BVG based on the coordination deduction (approx CHF 25k) and age-related contribution rates."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Estimate Tax",
+                                "description": "Subtract the cantonal withholding tax based on residence, marital status, and children."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "calc-insights",
+                    "type": "insights",
+                    "title": "Calculation Parameters",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Coordination Offset",
+                                "text": "Annual salary below CHF 25,725 is standardly 'coordinated' out of the 2nd pillar calculation."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Church Tax",
+                                "text": "In many cantons, belonging to a church (Catholic/Protestant) increases your withholding tax by approx 1-2%."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "13th Month Impact",
+                                "text": "If a 13th month is paid, Ensure deductions are scaled accordingly for that specific pay cycle."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "calc-faq",
+                    "type": "faq",
+                    "title": "Calculator FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Why is my net lower than in Germany?",
+                                "answer": "While Swiss income tax is lower, mandatory social security and 2nd pillar pension deductions are often higher. Additionally, health insurance must be paid from net, whereas in Germany it is a payroll deduction."
+                            },
+                            {
+                                "question": "Are children tax-deductible?",
+                                "answer": "Yes, children significantly reduce the Quellensteuer rate and entitle the employee to a monthly Family Allowance (FAK), typically CHF 200-400 per child depending on the canton."
+                            },
+                            {
+                                "question": "Is the bonus taxed differently?",
+                                "answer": "No, bonuses are added to that month's gross salary and taxed at the progressive rate for that total amount. This can result in a higher tax percentage for that specific month."
+                            },
+                            {
+                                "question": "What is the Coordination Deduction?",
+                                "answer": "In the 2nd pillar (BVG), the first CHF 25,725 of annual salary is standardly deducted from the insured salary to avoid double-insuring the portion already covered by the 1st pillar (AHV)."
+                            },
+                            {
+                                "question": "How does the 13th month work?",
+                                "answer": "If the contract specifies a 13th month salary, it is usually paid in December. Some calculators show this as a monthly average, while others reflect the actual cash flow."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "calc-external-links",
+                    "type": "good_to_know",
+                    "title": "Official Cantonal Resources",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Zürich Tax Office",
+                                "text": "The Zurich Cantonal Tax Administration provides detailed Quellensteuer tables and an official online calculator for exact rates."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Geneva Tax Calculator",
+                                "text": "The Geneva 'Calculateur de l'impôt sur le revenu' is necessary for precise calculations in the French-speaking hub."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Swiss Federal Tax (ESTV)",
+                                "text": "The ESTV offers a national overview and a comprehensive tax calculator (Steuerrechner) for both corporate and personal income taxes."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Comparative Platforms",
+                                "text": "Platforms like Comparis or Moneyland can be used to compare mandatory health insurance premiums (Krankenkasse) across different providers."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "eor-peo-aor",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR"
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Establish Your Swiss Presence",
+                "subtitle": "AG (Corp) vs GmbH (LLC)",
+                "description": "Choose between the flexible GmbH or the prestigious AG structure. Switzerland offers unparalleled political stability and low corporate taxes.",
+                "bestFor": "Startups & Multinational HQs.",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "inc-process-steps",
+                    "type": "key_steps",
+                    "title": "Incorporation Timeline",
+                    "subtitle": "Total Time: 2-3 Weeks",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Structure Selection",
+                                "description": "Selection between GmbH (min. CHF 20k capital) and AG (min. CHF 100k capital, 50k paid-in)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Capital Deposit",
+                                "description": "Opening a temporary 'blocked' bank account (Sperrkonto) to deposit the required share capital."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Notarization",
+                                "description": "Public deed of incorporation signed before a Swiss notary, including the adoption of the Articles of Association."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Commercial Registry",
+                                "description": "Filing with the Cantonal Commercial Register (Handelsregister). Legal entity exists once published."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Post-Inc setup",
+                                "description": "Registering for VAT (if >100k turnover), setting up social security affiliations, and opening a permanent business account."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "inc-cost-breakdown",
+                    "type": "cost_breakdown",
+                    "title": "Initialization Costs 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service/Fee",
+                                "GmbH (CHF)",
+                                "AG (CHF)",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Minimum Capital",
+                                    "values": [
+                                        "20,000",
+                                        "50,000+",
+                                        "GmbH must be 100% paid"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Notary Fees",
+                                    "values": [
+                                        "800 - 1,500",
+                                        "1,200 - 2,500",
+                                        "Varies by Canton"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Registry Fees",
+                                    "values": [
+                                        "600",
+                                        "600",
+                                        "Standard federal fee"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Virtual Office",
+                                    "values": [
+                                        "1,500/yr",
+                                        "1,500/yr",
+                                        "Standard registered address"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Legal Package",
+                                    "values": [
+                                        "1,500 - 3,000",
+                                        "2,500 - 5,000",
+                                        "Full documentation set"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "inc-insights",
+                    "type": "insights",
+                    "title": "Structural Nuances",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Local Director Requirement",
+                                "text": "At least one person with signature authority must be a Swiss resident. Fiduciary directors can be hired if needed."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Anonymity Levels",
+                                "text": "AG (Stock Corporation) offers more privacy for ultimate beneficial owners compared to the GmbH where shareholders are public."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Canton Choice",
+                                "text": "Zug, Lucerne, and Schwyz are the most popular for holding companies due to aggressive tax competition and low rates."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Branch Office Option",
+                                "text": "A Branch (Zigniederlassung) is an alternative to a subsidiary but carries full liability for the parent company."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "inc-faq",
+                    "type": "faq",
+                    "title": "Incorporation FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I use Cryptocurrency for capital?",
+                                "answer": "Yes, 'In-kind' contributions (Sacheinlagen) including verified crypto assets are possible in certain cantons (like Zug) but require an audit report."
+                            },
+                            {
+                                "question": "Is a physical office mandatory?",
+                                "answer": "A 'registered address' (c/o) is sufficient for registration, but for tax residency 'substance' (physical office/staff) is often required by authorities."
+                            },
+                            {
+                                "question": "How long does the bank account take?",
+                                "answer": "Compliance checks (KYC) for foreign owners can take 4-8 weeks. It is often the bottleneck in the incorporation process."
+                            },
+                            {
+                                "question": "Are there annual maintenance costs?",
+                                "answer": "Yes, expect CHF 3,000 - 6,000 for basic accounting, tax filings, registered address, and commercial registry updates."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "incorporation-entity-setup",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)"
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Recruit Top Talent",
+                "subtitle": "Pharma, Tech & Finance Hubs",
+                "description": "Access the highly skilled Swiss labor market. Leverage agencies specializing in executive search and trilingual professional placement.",
+                "bestFor": "High-growth tech & healthcare.",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "staffing-process",
+                    "type": "key_steps",
+                    "title": "Hiring Process in Switzerland",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Source Identification",
+                                "description": "Posting on LinkedIn and local platforms like Jobs.ch or Neuvoo. Executive search is preferred for senior roles."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Multistage Screening",
+                                "description": "Standard 3rd-round interview process including technical assessment and cultural fit evaluations."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Reference Verification",
+                                "description": "Detailed reference checks are standard. Candidates often provide 'Arbeitszeugnis' (employment certificates) from previous roles."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Offer & Negotiation",
+                                "description": "Drafting of the offer letter including 13th-month salary, bonus structures, and fringe benefits (like Reka checks or transport cards)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "staffing-costs",
+                    "type": "cost_breakdown",
+                    "title": "Agency Fee Structure 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Placement Type",
+                                "Standard Fee %",
+                                "Payment Terms"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Contingent Recruitment",
+                                    "values": [
+                                        "15% - 25%",
+                                        "Upon successful hire"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Retained Search",
+                                    "values": [
+                                        "25% - 33%",
+                                        "Paid in 3 installments"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Temporary Staffing",
+                                    "values": [
+                                        "20% - 40% markup",
+                                        "Monthly billing"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Executive Search",
+                                    "values": [
+                                        "30%+",
+                                        "Fixed project fee"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "staffing-insights",
+                    "type": "insights",
+                    "title": "Market Trends & Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "High Salary Expectations",
+                                "text": "Zurich and Geneva consistently rank among the most expensive cities. Expect base salaries 30-50% higher than UK/Germany counterparts."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Multilingual Advantage",
+                                "text": "The best candidates usually speak German, French, and English. Specific cantons require local language fluency for most client-facing roles."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Background Checks",
+                                "text": "Criminal record checks (Strafregisterauszug) are common for Finance roles but must comply with strict data protection privacy laws."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "staffing-faq",
+                    "type": "faq",
+                    "title": "Staffing FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the notice period for new employees in Switzerland?",
+                                "answer": "During the standard 3-month probation period (Probezeit), the notice period is standardly set at 7 calendar days for either party. After probation, it usually scales to 1 month in the first year and 2-3 months thereafter."
+                            },
+                            {
+                                "question": "Are there quotas for foreign workers from outside the EU/EFTA?",
+                                "answer": "Yes, for non-EU/EFTA citizens, Switzerland operates a strict quota system. Employers must prove they could not find a suitable candidate in Switzerland or the EU/EFTA (principle of priority for locals)."
+                            },
+                            {
+                                "question": "Do I need to pay for relocation for international tech talent?",
+                                "answer": "For senior, executive, or highly specialized tech roles, providing a relocation package (covering flights, temporary housing for 1-2 months, and moving costs) is a standard market expectation to stay competitive."
+                            },
+                            {
+                                "question": "What is the role of an 'Arbeitszeugnis' in hiring?",
+                                "answer": "An 'Arbeitszeugnis' is a formal employment certificate that every Swiss employee is entitled to. It details their performance and behavior and is the primary document used in reference checking."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "staffing-background-checks",
+                    "type": "good_to_know",
+                    "title": "Background Check Guidelines",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Criminal Record Checks",
+                                "text": "A criminal record extract (Strafregisterauszug) can only be requested if it is directly relevant to the role (e.g., handling significant cash or sensitive financial data)."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Debt Enforcement Register",
+                                "text": "Checking a candidate's record for 'Betreibungen' (debt enforcement) is common in Switzerland for roles involving financial responsibility or high trust."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Credit Checks",
+                                "text": "Detailed credit checks are generally only permissible for banking and insurance roles or when the position involves direct access to company funds."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "staffing-recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting"
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "Localized HR Tech",
+                "subtitle": "nFADP & Privacy Compliant",
+                "description": "Streamline Swiss HR operations with software that handles cantonal tax tables, multilingual contracts, and strict data privacy.",
+                "bestFor": "SMEs and Corporate HR.",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "hris-implementation",
+                    "type": "key_steps",
+                    "title": "Implementation Roadmap",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "nFADP Audit",
+                                "description": "Ensuring the software provider complies with the new Federal Act on Data Protection (nFADP) and stores data securely."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Cantonal Configuration",
+                                "description": "Setting up 26 different withholding tax jurisdictions and local holidays for employees across various sites."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Benefit Integration",
+                                "description": "Linking to Pensionskasse (BVG) providers and accident insurance carriers for automated data exchange via ELM/Swissdec."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hris-insights",
+                    "type": "insights",
+                    "title": "Critical Features for Switzerland",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Swissdec 5.0 Certification",
+                                "text": "Vital for automated salary reporting to social security and tax offices, reducing manual error rates by 90%."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Document Generator",
+                                "text": "Must handle trilingual contract templates and automated 'Arbeitszeugnis' drafting to remain legally compliant."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Local Data Hosting",
+                                "text": "While not strictly required, many Swiss firms prefer 'Data in Switzerland' (Swiss Clouds) for higher perceived security."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hris-faq",
+                    "type": "faq",
+                    "title": "HRIS FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I use US-based SaaS like Workday?",
+                                "answer": "Yes, but you must ensure the Data Transfer Agreement (DTA) covers the specific requirements of the Swiss nFADP."
+                            },
+                            {
+                                "question": "Does the software handle '13th month'?",
+                                "answer": "Localized Swiss HRIS systems will automatically calculate the 13th-month accrual and payout cycles."
+                            },
+                            {
+                                "question": "How much does it cost?",
+                                "answer": "Expect CHF 5 - 15 per employee per month for localized SME solutions, scaling up for enterprise modules."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hris-good-to-know",
+                    "type": "good_to_know",
+                    "title": "Why Localization Matters",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Specific Fields",
+                                "text": "Swiss HRIS needs fields for 'Permit Type' (B, L, G, C, Ci, N, S) and 'Church Tax' (Confession) affiliation, which are unique to the Swiss tax landscape and mandatory for correct payroll."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Expense Approval",
+                                "text": "Integration with Swiss expense lump-sum rules (Spesenreglement) saves significant manual audit time. These rules allow for tax-free reimbursements without individual receipts."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Automatic 13th Month",
+                                "text": "The system must automatically handle the accrual of the 13th-month salary if it is part of the total annual compensation package agreed in the contract."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hris-integration-steps",
+                    "type": "key_steps",
+                    "title": "Integration & Migration Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Data Mapping",
+                                "description": "Mapping legacy employee records to the specific Swiss fields required by Swissdec and cantonal tax authorities (e.g., AHV numbers)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "System Connectivity",
+                                "description": "Setting up real-time API or flat-file bridges between the HRIS and the local Swiss payroll engine (e.g., Abacus or Navision)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "User Acceptance Testing (UAT)",
+                                "description": "Running 'parallel' payroll cycles to ensure the new HRIS accurately feeds data into the tax and social security calculation engines."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "hris-hrms-ats",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS"
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Swiss Fiduciary (Treuhand)",
+                "subtitle": "Precision Bookkeeping",
+                "description": "Expert accounting services following the Swiss Code of Obligations. Manage your financial reporting, VAT, and audits with precision.",
+                "bestFor": "Foreign subsidiaries.",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "acc-services-steps",
+                    "type": "key_steps",
+                    "title": "Standard Service Cycle",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Ongoing Bookkeeping",
+                                "description": "Digital recording of all business transactions in accordance with Swiss accounting principles (CO)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "VAT Reporting",
+                                "description": "Quarterly submission of MWST/VAT returns to the Federal Tax Administration (FTA)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Financial Statements",
+                                "description": "Preparation of year-end balance sheets and income statements ready for filing or audit."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "acc-fees",
+                    "type": "cost_breakdown",
+                    "title": "Treuhand Fee Estimates 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Company Size",
+                                "Monthly Base (CHF)",
+                                "Included Services"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Micro / Startup",
+                                    "values": [
+                                        "250 - 500",
+                                        "Bookkeeping + VAT"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Small SME",
+                                    "values": [
+                                        "500 - 1,200",
+                                        "Full payroll + Reporting"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Medium Enterprise",
+                                    "values": [
+                                        "1,500+",
+                                        "Consolidation + Audit support"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Hourly Rate",
+                                    "values": [
+                                        "180 - 350",
+                                        "Tax consulting / Advisory"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "acc-insights",
+                    "type": "insights",
+                    "title": "Regulatory Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Swiss GAAP FER",
+                                "text": "The preferred reporting standard for SMEs. It is more flexible than IFRS but fulfills all local transparency requirements and is widely accepted by Swiss banks."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Audit Thresholds",
+                                "text": "Ordinary audit required if exceeding 2 of 3: CHF 20m Assets, 40m Revenue, 250 FTEs. Smaller companies may opt for a 'limited review' (Review) or 'Opting-out'."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Digital Fiduciary",
+                                "text": "Moving to Abacus, Bexio, or Sage 100 allows for real-time collaboration with your Treuhänder and lower processing costs through automated bank reconciliations."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Internal Control System (ICS)",
+                                "text": "Companies subject to ordinary audits must document an ICS. Even for small firms, a basic ICS improves financial reliability and reduces fraud risks."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "acc-audit-readiness",
+                    "type": "good_to_know",
+                    "title": "Audit Readiness Checklist",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Documentation",
+                                "text": "Keep a permanent file with incorporation documents, board minutes, and major contracts (leases, financing, employment) to facilitate the audit process."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Cut-off Procedures",
+                                "text": "Ensure proper temporal accrual of revenues and expenses. Swiss auditors pay close attention to year-end cut-off accuracy."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Asset Valuation",
+                                "text": "Provide detailed inventory lists and depreciation schedules compliant with the Swiss Code of Obligations (minimum valuation principle)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "acc-faq",
+                    "type": "faq",
+                    "title": "Accounting FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Do I need a local accountant?",
+                                "answer": "Legally no, but for tax filings and registry updates, a local Treuhänder is highly recommended due to language and specific Swiss law nuances."
+                            },
+                            {
+                                "question": "What is the retention period?",
+                                "answer": "Records must be kept for 10 years (physical or digital). Real estate records longer."
+                            },
+                            {
+                                "question": "Can I report in USD/EUR?",
+                                "answer": "Yes, functional currency other than CHF is allowed for bookkeeping, but tax reporting always requires a CHF conversion."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "comp-labor-laws",
+                    "type": "key_steps",
+                    "title": "Core Labor Compliance",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contractual Compliance",
+                                "description": "All terms must meet the Swiss Code of Obligations (OR) and relevant Collective Labor Agreements (GAV)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Working Time Tracking",
+                                "description": "Mandatory tracking of hours for most employees to ensure compliance with max. 45-50h work weeks."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Termination Protocol",
+                                "description": "Ensuring dismissals are not 'abusive' and adhere strictly to contractual notice periods."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "comp-insights",
+                    "type": "insights",
+                    "title": "Key Legal Protections",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Sick Leave Protection",
+                                "text": "Dismissal is prohibited during specific 'blocking periods' (Sperrfristen) if an employee is sick or pregnant."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Overtime Compensation",
+                                "text": "Overtime is legally compensated at 125% pay or 100% time-off, unless otherwise agreed for management roles."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "GAV / CLA",
+                                "text": "Check if your industry (e.g., Hospitality, Construction, IT) is subject to a Collective Labour Agreement with minimum wage requirements."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Discrimination Laws",
+                                "text": "Swiss Gender Equality Act prohibits discrimination in pay or hiring; audits are required for firms with 100+ staff."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "comp-faq",
+                    "type": "faq",
+                    "title": "Compliance FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is there a national minimum wage?",
+                                "answer": "No. However, some cantons (Geneva, Neuchâtel, etc.) and industry-specific CLAs (GAV) have established their own minimums."
+                            },
+                            {
+                                "question": "What are the penalties for non-compliance?",
+                                "answer": "Fines can range from CHF 5,000 for minor record-keeping errors to significant compensation (up to 6 months' salary) for abusive dismissal."
+                            },
+                            {
+                                "question": "Is remote work regulated?",
+                                "answer": "Yes, employers must ensure ergonomic setups and data security; specific expense reimbursements for home office apply."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "comp-good-to-know",
+                    "type": "good_to_know",
+                    "title": "Health & Safety Gateways",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "SUVA Insurance",
+                                "text": "The Schweizerische Unfallversicherungsanstalt (SUVA) is the major insurer for accidents. Registration is mandatory for industrial firms and many service providers."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Occupational Health",
+                                "text": "Employers are legally bound to protect the 'integrity' (physical and mental health) of employees, which includes prevention of burnout and workplace harassment."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Ergonomics",
+                                "text": "For office-based roles, providing ergonomic furniture and adequate lighting is a statutory requirement under the Swiss Labor Act (Arbeitsgesetz)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "comp-safety-steps",
+                    "type": "key_steps",
+                    "title": "Workplace Safety Implementation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Risk Assessment",
+                                "description": "Performing a systematic identification of workplace hazards (ASIT/EKAS guidelines) and documenting safety protocols."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Staff Training",
+                                "description": "Mandatory instruction for all employees on emergency procedures, first aid locations, and correct usage of equipment."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Compliance Audit",
+                                "description": "Annual review of safety measures and record-keeping (e.g., accident logs) to ensure ongoing alignment with Federal Labor Inspectorate requirements."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "tax-rates-by-canton",
+                    "type": "cost_breakdown",
+                    "title": "Typical Corporate Tax 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Canton",
+                                "Eff. Tax Rate %",
+                                "Status"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Zug (ZG)",
+                                    "values": [
+                                        "11.91%",
+                                        "Lowest in CH/Global Leader"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Lucerne (LU)",
+                                    "values": [
+                                        "12.15%",
+                                        "Highly competitive"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Zurich (ZH)",
+                                    "values": [
+                                        "18.20%",
+                                        "Business Hub / Reduced in 2025"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Geneva (GE)",
+                                    "values": [
+                                        "14.00%",
+                                        "International Hub"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Basel-City (BS)",
+                                    "values": [
+                                        "13.00%",
+                                        "Pharma/Science focus"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "tax-filing-cycle",
+                    "type": "key_steps",
+                    "title": "Tax Compliance Timeline",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Provisonal Invoice",
+                                "description": "Payment of provisional taxes based on previous year's profit (sent early in the year)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Annual Return Filing",
+                                "description": "Submission of the final tax return (Steuererklärung) usually by June or September (extensions possible)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Final Assessment",
+                                "description": "Review by the Cantonal Tax Office followed by the final tax decree and reconciliation payment."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "tax-insights",
+                    "type": "insights",
+                    "title": "Incentives & Deductions",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "R&D Super-Deduction",
+                                "text": "Up to 50% additional deduction for R&D personnel costs incurred within Switzerland. This is a powerful tool for tech and pharma companies to lower taxable profit."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Patent Box",
+                                "text": "Income derived from patented inventions can be taxed at a significantly reduced rate (up to 90% reduction in some cantons) to encourage innovation."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Pillar Two (OECD)",
+                                "text": "Large groups with >750m revenue must pay a minimum 15% tax regardless of cantonal incentives, as Switzerland has adopted a Qualified Domestic Minimum Top-up Tax (QDMTT)."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Step-up on Entry",
+                                "text": "Companies moving their domicile to Switzerland can often 'step up' the tax base of their assets (including goodwill) to market value, creating tax-deductible depreciation."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "tax-treaties",
+                    "type": "good_to_know",
+                    "title": "Double Tax Treaties (DTT)",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Global Network",
+                                "text": "Switzerland has over 100 DTTs in place, significantly reducing withholding taxes on dividends, interest, and royalties flowing in and out of the country."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "US Treaty Advantage",
+                                "text": "The CH-US treaty allows for a 0% withholding tax on dividends paid to pension funds and qualified parent companies (with 10%+ ownership)."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Substance Requirements",
+                                "text": "To benefit from treaties, the Swiss entity must demonstrate sufficient economic substance (local management, office, and business activity) to stay compliant with 'anti-conduit' rules."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "tax-faq",
+                    "type": "faq",
+                    "title": "Tax FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the standard VAT rate?",
+                                "answer": "The standard VAT (MWST) rate is 8.1% (increased in 2024 from 7.7%)."
+                            },
+                            {
+                                "question": "Do I pay tax on dividends?",
+                                "answer": "Withholding tax of 35% applies to dividends, but can often be reclaimed or reduced via Double Tax Treaties (DTTs)."
+                            },
+                            {
+                                "question": "Are 'Tax Rulings' legal?",
+                                "answer": "Yes, Switzerland allows for advance tax rulings to provide legal certainty for complex or unique commercial setups."
+                            },
+                            {
+                                "question": "What is Capital Tax?",
+                                "answer": "Most cantons levy a small tax on the company's equity (approx 0.01% - 0.5%) annually."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "finance-tax-accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting"
+        },
+        {
+            "serviceSlug": "msa",
+            "service": "M & A",
+            "heroData": {
+                "title": "Service Agreements (Swiss Law)",
+                "subtitle": "Stable Contractual Framework",
+                "description": "Draft Master Service Agreements governed by Swiss Law, the gold standard for international business arbitration and IP protection.",
+                "bestFor": "International contracts.",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "msa-key-clauses",
+                    "type": "key_steps",
+                    "title": "Vital Contract Clauses",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Governing Law",
+                                "description": "Designation of Swiss Law (neutrality) as the governing framework for the agreement."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Arbitration Seat",
+                                "description": "Selecting Zurich or Geneva for international arbitration under Swiss Rules (SCAI)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Liability Caps",
+                                "description": "Limiting liability for indirect or consequential damages as permitted under Article 100 of the Code of Obligations."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "msa-legal-insights",
+                    "type": "insights",
+                    "title": "Legal Advantages in CH",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Strong IP Protection",
+                                "text": "Swiss courts provide rapid enforcement of intellectual property rights and trade secrets."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Arbitration Hub",
+                                "text": "Swiss Rules of International Arbitration are highly efficient, often cited as faster and more cost-effective than LCIA or ICC."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Mandatory Provisions",
+                                "text": "Public policy provisions (Ordre Public) cannot be overridden even by the choice of foreign law."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "msa-faq",
+                    "type": "faq",
+                    "title": "Legal MSA FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Why use Swiss Law for cross-border deals?",
+                                "answer": "It is predictable, business-friendly, and offers a high degree of party autonomy while being socially stable."
+                            },
+                            {
+                                "question": "What is the SCAI?",
+                                "answer": "The Swiss Chambers' Arbitration Institution, now known as the Swiss Arbitration Centre, managing high-stakes disputes."
+                            },
+                            {
+                                "question": "Can I enforce foreign judgments?",
+                                "answer": "Yes, Switzerland is a signatory to the Lugano Convention, making enforcement between EU/EFTA countries straightforward."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "msa-essentials",
+                    "type": "good_to_know",
+                    "title": "Contractual Best Practices",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Bilingual Contracts",
+                                "text": "Always specify which language version prevails in case of discrepancies (usually English for international deals, but local language for court filings)."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Digital Signatures",
+                                "text": "Qualified Electronic Signatures (QES) provided by Swisscom or QuoVadis are legally equivalent to handwritten signatures under Swiss law (ZertES)."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Force Majeure",
+                                "text": "While not explicitly detailed in the Code of Obligations, including a robust Force Majeure clause is critical for shielding against unforeseen global events."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "msa-ip-protection",
+                    "type": "insights",
+                    "title": "IP Protection in Switzerland",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Inventor Principle",
+                                "text": "Swiss law generally assigns IP created by employees within their duties to the employer, but specific assignment clauses in the MSA/contract are best practice."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Trade Secrets",
+                                "text": "Switzerland has a high level of protection for business secrets under both the Unfair Competition Act and the Federal Act on Data Protection."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Compulsory Licenses",
+                                "text": "In very limited cases (e.g., public health), 'compulsory licenses' for patents may be issued, though this is extremely rare in commercial software cases."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "msa",
+            "name": "M & A",
+            "serviceName": "M & A"
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Development in CH",
+                "subtitle": "Crypto Valley & Tech Hubs",
+                "description": "Build and scale your tech stack in the world's most innovative economy. Access top-tier engineering talent and blockchain infrastructure.",
+                "bestFor": "Fintech and Blockchain.",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "soft-dev-salaries",
+                    "type": "cost_breakdown",
+                    "title": "Developer Salaries (Zurich 2025)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Role",
+                                "Junior (CHF)",
+                                "Senior (CHF)",
+                                "Top/Lead (CHF)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Full Stack Dev",
+                                    "values": [
+                                        "85k - 105k",
+                                        "130k - 165k",
+                                        "180k+"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "DevOps / Infra",
+                                    "values": [
+                                        "95k - 110k",
+                                        "140k - 175k",
+                                        "200k+"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "AI / ML Engineer",
+                                    "values": [
+                                        "110k - 130k",
+                                        "160k - 210k",
+                                        "300k+"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Product Manager",
+                                    "values": [
+                                        "90k - 115k",
+                                        "135k - 170k",
+                                        "190k+"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "soft-tech-process",
+                    "type": "key_steps",
+                    "title": "Project Launch Roadmap",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Stack Definition",
+                                "description": "Selecting between local hosting (Swiss Cloud) or global providers (AWS Zurich Region) for latency and data residency."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Compliance Setup",
+                                "description": "Applying nFADP 'Privacy by Design' principles and GDPR alignment for international users."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Talent Acquisition",
+                                "description": "Leveraging ETH Zurich or EPFL talent pools and specialized tech recruiters."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "soft-insights",
+                    "type": "insights",
+                    "title": "Tech Ecosystem Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Crypto Valley (Zug)",
+                                "text": "Global leader for blockchain projects; offers specialized legal frameworks for Token Generation Events (TGE)."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "R&D Tax Credits",
+                                "text": "Highly attractive cantonal super-deductions for research and development expenses in software engineering."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Cost of Computing",
+                                "text": "Electricity and data center costs in Switzerland are higher than average; optimize for energy efficiency."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "soft-faq",
+                    "type": "faq",
+                    "title": "Software FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is remote work standard for developers in Zurich?",
+                                "answer": "Since 2020, 2-3 days 'Home Office' per week has become the standard expectation for developers in Zurich, Geneva, and Basel. Fully remote roles exist but are less common for local entities."
+                            },
+                            {
+                                "question": "What is the primary tech stack in Switzerland?",
+                                "answer": "Java, C#, and the .NET ecosystem remain dominant in the Banking and Insurance sectors. React, Node.js, Python, and Go dominate the thriving Fintech and Blockchain startup scenes."
+                            },
+                            {
+                                "question": "Can I hire international contractors for my Swiss project?",
+                                "answer": "Yes, but you must avoid 'Scheinselbständigkeit' (pseudo-self-employment) by ensuring the contractors use their own tools and work for multiple clients simultaneously."
+                            },
+                            {
+                                "question": "How do Swiss dev salaries compare to London or Berlin?",
+                                "answer": "Swiss developer salaries are typically 40-60% higher than in London or Berlin, but this is balanced by lower income tax rates and a higher overall quality of life."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "soft-infrastructure",
+                    "type": "key_steps",
+                    "title": "Infrastructure & Hosting",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Connectivity Setup",
+                                "description": "Implementing high-speed fiber-to-the-business (FTTB) connections, standard in Swiss business parks (provided by Swisscom or Sunrise)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Cloud Strategy",
+                                "description": "Deploying on 'Swiss-made' cloud providers or the Microsoft Azure / AWS Zurich regions to ensure data remains within the jurisdiction."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Security Hardening",
+                                "description": "Applying local security standards and getting SOC2 or ISO 27001 certifications to meet the requirements of Swiss financial clients."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "software-technology-solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions"
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Target the Swiss Consumer",
+                "subtitle": "Trilingual Multi-Channel Strategy",
+                "description": "Master the unique Swiss market with campaigns tailored for German, French, and Italian speaking regions.",
+                "bestFor": "Consumer Brands & Luxury.",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "mark-agency-costs",
+                    "type": "cost_breakdown",
+                    "title": "Marketing Fees Estimate 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service Level",
+                                "Retainer (CHF/mo)",
+                                "Ideal For"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Boutique / Startup",
+                                    "values": [
+                                        "2,000 - 4,000",
+                                        "Social + Content"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Full Service SME",
+                                    "values": [
+                                        "5,000 - 12,000",
+                                        "Digital + Print + PR"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Luxury / Enterprise",
+                                    "values": [
+                                        "20,000+",
+                                        "Global campaigns"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Ad Spend Management",
+                                    "values": [
+                                        "10% - 20%",
+                                        "Google/Meta ads"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "mark-strategy-steps",
+                    "type": "key_steps",
+                    "title": "Go-to-Market Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Regional Profiling",
+                                "description": "Defining different creative approaches for 'Swiss German' vs 'Romandie' (French) markets."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Trilingual Adaptation",
+                                "description": "Transcreation (not just translation) of copy into high-quality DE, FR, and IT."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Compliance Check",
+                                "description": "Ensuring advertising claims meet Swiss Unfair Competition Act standards."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mark-insights",
+                    "type": "insights",
+                    "title": "Swiss Marketing Norms",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "The 'Swissness' Law",
+                                "text": "Strict rules apply if you want to use the Swiss flag or 'Made in Switzerland' in your marketing materials."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "OOH Advertising",
+                                "text": "Outdoor advertising (billboards/posters) remains highly effective in major train stations (SBB) across the country."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Privacy (nFADP)",
+                                "text": "Email marketing requires double opt-in and strict cookie consent management under the new privacy act."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mark-faq",
+                    "type": "faq",
+                    "title": "Marketing FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is influencer marketing popular in Switzerland?",
+                                "answer": "Yes, it is highly successful, particularly within the Lifestyle, Watchmaking, and Luxury Outdoor segments, focusing on micro-influencers with high regional engagement."
+                            },
+                            {
+                                "question": "What is the standard lead time for a national campaign?",
+                                "answer": "High-quality agencies typically require 6 to 10 weeks to develop a strategy and produce trilingual creative assets that resonate across all three main language regions."
+                            },
+                            {
+                                "question": "Are there specific rules for alcohol or tobacco ads?",
+                                "answer": "Yes, Switzerland has very strict regulations on advertising 'Lifestyle' products like spirits, with significant restrictions on youth-facing media and sports events."
+                            },
+                            {
+                                "question": "How critical is the Ticino (Italian) market?",
+                                "answer": "While it represents only approx 8% of the population, missing the Italian-speaking market can make a brand feel 'incomplete' if you are positioning as a truly national player."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mark-ad-channels",
+                    "type": "insights",
+                    "title": "Digital Ad Channels in CH",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "LinkedIn Dominance",
+                                "text": "LinkedIn is the primary channel for B2B marketing in Switzerland, with very high professional penetration in Zurich and Geneva."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Google Ads Localization",
+                                "text": "Campaigns must be keyword-optimized for local nuances (e.g., using 'Velo' for bicycle in Swiss German vs 'Fahrrad' in High German)."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Local News Portals",
+                                "text": "Display advertising on major portals like 20min.ch or NZZ.ch remains highly effective for reaching broad consumer audiences."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "marketing-agency",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY"
+        }
+    ]
+}

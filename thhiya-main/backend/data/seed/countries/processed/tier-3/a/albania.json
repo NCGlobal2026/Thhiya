@@ -1,0 +1,1986 @@
+{
+    "name": "Albania",
+    "code": "AL",
+    "slug": "albania",
+    "flag": "https://flagcdn.com/w160/al.png",
+    "region": "Europe",
+    "languages": [
+        "Albanian"
+    ],
+    "currencies": [
+        "ALL"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR & PEO Services in Albania",
+                "subtitle": "Hire and manage employees in Albania without a local entity.",
+                "description": "Unlock the Albanian market with our Employer of Record (EOR) services. We handle payroll, taxes, and compliance while you manage your team's day-to-day operations.",
+                "bestFor": "Startups and enterprises expanding into the Balkans",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Employee Onboarding Process",
+                    "subtitle": "Timeline: 3-5 business days",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Information Gathering",
+                                "description": "Collect mandatory employee documents including Passport/ID, Tax ID (NIPT), Social Security number (if available), and signed bank account details."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Contract Drafting",
+                                "description": "Creation of an Albanian Labor Code-compliant employment contract in written form, specifying role, salary in Lek, and probation terms."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Authority Notification",
+                                "description": "Notify the National Center for Business (QKB) and the Regional Labor Office within 7 days of the employee's start date as per statutory requirements."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Social Security Registration",
+                                "description": "Enroll the employee in the Social and Health Insurance scheme (ISSH) to ensure coverage from day one."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "eor-cost",
+                    "type": "cost_breakdown",
+                    "title": "Employment Cost Breakdown",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Cost Category",
+                                "Rate/Amount",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Employer Social Security",
+                                    "values": [
+                                        "15.0%",
+                                        "Calculated on gross salary"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Employer Health Insurance",
+                                    "values": [
+                                        "1.7%",
+                                        "Calculated on gross salary"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "EOR Management Fee",
+                                    "values": [
+                                        "$399 - $599",
+                                        "Per employee/month"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Registration Costs",
+                                    "values": [
+                                        "$250 - $500",
+                                        "One-time setup fee per employee"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Total Employer Burden",
+                                    "values": [
+                                        "~16.7%",
+                                        "Excluding management fee"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "eor-compliance",
+                    "type": "insights",
+                    "title": "Compliance & Risk Management",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Permanent Establishment (PE) Risk",
+                                "text": "Having a team in Albania through an EOR for more than 183 days may trigger PE risk if the employees perform revenue-generating sales activities."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Written Contract Requirement",
+                                "text": "All employment relationships must be governed by a written contract in Albanian. English translations are permitted but the Albanian version prevails in court."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Probation Period Strategy",
+                                "text": "Standard probation is 3 months. During this period, termination notice is only 5 days, providing high flexibility for employers."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "eor-benefits",
+                    "type": "good_to_know",
+                    "title": "Cultural & Strategic Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Language Proficiency",
+                                "text": "The Albanian workforce is highly multilingual, with high proficiency in Italian, English, and Greek, making it an excellent hub for customer support."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Working Hours",
+                                "text": "Standard work week is 40 hours. Overtime is paid at 125% for extra hours and 150% for weekends/holidays."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "13th Month Bonus",
+                                "text": "While not legally mandatory, a performance or holiday bonus (13th month) is common practice in Dec to retain top talent."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "eor-faq",
+                    "type": "faq",
+                    "title": "EOR Services FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I hire foreigners in Albania using an EOR?",
+                                "answer": "Yes, but they require a unique permit (residence and work permit). The EOR acts as the sponsor, and the process typically takes 4-8 weeks."
+                            },
+                            {
+                                "question": "Who is liable for labor disputes?",
+                                "answer": "The EOR is the legal employer and is primary liable for compliance, but the client usually indemnifies the EOR for operational risks."
+                            },
+                            {
+                                "question": "What is the notice period after probation?",
+                                "answer": "After probation, the statutory notice period ranges from 1 month to 3 months depending on the length of service."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "payroll-cycle",
+                    "type": "key_steps",
+                    "title": "Monthly Payroll Processing Cycle",
+                    "subtitle": "Deadlines for compliance",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Data Collection",
+                                "description": "Collect timesheets, overtime hours, and any discretionary bonuses by the 25th of the current month."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Calculation and Review",
+                                "description": "Processing of gross-to-net calculations, applying PIT and social security deductions (11.2% for employees)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Payment Distribution",
+                                "description": "Disbursement of salaries to employee bank accounts, typically in Albanian Lek (ALL) by the last business day of the month."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Tax and Filing",
+                                "description": "Electronic submission of payroll declarations to the Tax Authorities (DPT) and payment of taxes by the 20th of the following month."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "payroll-taxes",
+                    "type": "cost_breakdown",
+                    "title": "Payroll Tax & Contribution Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Category",
+                                "Employer Rate",
+                                "Employee Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Security",
+                                    "values": [
+                                        "15.0%",
+                                        "9.5%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Health Insurance",
+                                    "values": [
+                                        "1.7%",
+                                        "1.7%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Personal Income Tax (PIT)",
+                                    "values": [
+                                        "N/A",
+                                        "0% - 23% (Progressive)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Professional Accident Insurance",
+                                    "values": [
+                                        "0.3%",
+                                        "N/A"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Combined Burden (Social/Health)",
+                                    "values": [
+                                        "16.7%",
+                                        "11.2%"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "payroll-pit-bands",
+                    "type": "table",
+                    "title": "Personal Income Tax (PIT) Bands 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Monthly Income (ALL)",
+                                "Tax Rate",
+                                "Calculation"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "0 - 50,000",
+                                    "values": [
+                                        "0%",
+                                        "No tax"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "50,001 - 200,000",
+                                    "values": [
+                                        "13%",
+                                        "On amount exceeding 35,000"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Above 200,000",
+                                    "values": [
+                                        "23%",
+                                        "Fixed fee + 23% on excess"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "payroll-compliance",
+                    "type": "insights",
+                    "title": "Payroll Compliance & Deadlines",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Late Filing Penalties",
+                                "text": "Late payment of social security contributions incurs a penalty of 0.06% of the amount due per day of delay."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Bank Account Policy",
+                                "text": "Salaries must be paid into an Albanian bank account. While some exceptions exist for foreign residents, local accounts are standard for tax compliance."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "E-Albania Portal",
+                                "text": "All payroll filings are done through the e-Albania government portal. Ensure your digital certificate is updated annually to avoid lockout."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "payroll-faq",
+                    "type": "faq",
+                    "title": "Global Payroll FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the minimum wage in Albania for 2025?",
+                                "answer": "The national minimum monthly gross salary for 2025 is set at 40,000 ALL (approximately €400)."
+                            },
+                            {
+                                "question": "Are there mandatory meal or transport allowances?",
+                                "answer": "No mandatory allowances, but most employers provide a daily meal allowance of 200-400 ALL which is non-taxable up to certain limits."
+                            },
+                            {
+                                "question": "How many holidays are employees entitled to?",
+                                "answer": "Employees are entitled to 20 working days of annual leave and approx 14-15 public holidays per year."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "calc-bands",
+                    "type": "cost_breakdown",
+                    "title": "Tax & Contribution Rates 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Classification",
+                                "Rate / Limit",
+                                "Paid By"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Security",
+                                    "values": [
+                                        "9.5%",
+                                        "Employee"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Social Security",
+                                    "values": [
+                                        "15.0%",
+                                        "Employer"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Health Insurance",
+                                    "values": [
+                                        "1.7%",
+                                        "Employee"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Health Insurance",
+                                    "values": [
+                                        "1.7%",
+                                        "Employer"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Min Insurance Salary",
+                                    "values": [
+                                        "40,000 ALL",
+                                        "Floor"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Max Insurance Salary",
+                                    "values": [
+                                        "176,416 ALL",
+                                        "Ceiling"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "calc-pit",
+                    "type": "insights",
+                    "title": "2025 Personal Income Tax (PIT) Bands",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Bracket 1 (0-50,000 ALL)",
+                                "text": "0% Tax. Salaries up to this amount are completely exempt from income tax."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Bracket 2 (50,001 - 200,000 ALL)",
+                                "text": "13% Tax on the amount exceeding 50,000 ALL."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Bracket 3 (Over 200,000 ALL)",
+                                "text": "23% Tax on the amount exceeding 200,000 ALL + progressive tax from lower bands."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "calc-logic",
+                    "type": "key_steps",
+                    "title": "How to Calculate Payroll",
+                    "subtitle": "Step-by-step math",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Determine Gross Salary",
+                                "description": "The base monthly salary agreed upon in the employment contract."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Duct Employee Contributions",
+                                "description": "Multiply Gross by 11.2% (9.5% Social + 1.7% Health). Note: Contributions are capped at the max ceiling."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Calculate Taxable Income",
+                                "description": "Subtract the employee social/health contributions from the Gross Salary to find the basis for PIT calculation."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Apply PIT Bands",
+                                "description": "Apply the 0%/13%/23% rates to the Taxable Income to find the Net Salary."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "calc-employer",
+                    "type": "good_to_know",
+                    "title": "Total Cost of Employment",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Employer Burden",
+                                "text": "The total 'Cost to Employer' is typically 116.7% of the Gross Salary (capped locally). We recommend budgeting 120% for any additional bonuses."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Mandatory Insurance Caps",
+                                "text": "Employer social security is only paid on the amount up to 176,416 ALL. Any salary above this does not incur additional social security taxes."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Bonuses and Overtime",
+                                "text": "All cash bonuses and overtime payments are fully taxable as regular employment income and must be included in the calculation."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "calc-faq",
+                    "type": "faq",
+                    "title": "Calculator FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the 2025 monthly minimum wage?",
+                                "answer": "The minimum wage is currently 40,000 ALL per month for a standard 40-hour work week."
+                            },
+                            {
+                                "question": "Is there a 13th-month salary in Albania?",
+                                "answer": "It is common but not mandatory by law. Most companies provide a year-end performance bonus."
+                            },
+                            {
+                                "question": "How are sick leave and vacation handled?",
+                                "answer": "Vacation is fully paid at the 100% gross rate. Sick leave for the first 14 days is paid by the employer at 70-80% of the average salary."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Entity Setup in Albania",
+                "subtitle": "Fast-track company formation and registration.",
+                "description": "Establish your legal presence in Albania with minimal capital requirements. We guide you through registration, tax setup, and bank account opening.",
+                "bestFor": "Enterprises seeking a permanent regional base",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "incorporation-steps",
+                    "type": "key_steps",
+                    "title": "Company Registration Process",
+                    "subtitle": "Process through National Business Center (QKB)",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Name Reservation",
+                                "description": "Check and reserve a unique company name at the QKB. The name must not be identical or similar to existing businesses."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Drafting Constitutional Documents",
+                                "description": "Prepare Articles of Incorporation and the Company Statute. For an LLC, this specifies the share distribution and management structure."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Notarization and Translation",
+                                "description": "Notarize the documents. If shareholders are foreign, documents must be apostilled, translated into Albanian, and notarized locally."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "QKB Submission",
+                                "description": "Submit the application package to the QKB. Registration usually takes 24-48 hours once submitted."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Tax & Seal Setup",
+                                "description": "Upon registration, the company automatically receives a Unique Identification Number (NIPT). Final steps involve ordering a corporate seal and registering at the Social Insurance office."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "incorporation-entities",
+                    "type": "insights",
+                    "title": "Common Business Structures",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Limited Liability Company (SHPK)",
+                                "text": "Most popular form for SMEs. Minimum capital is only 100 ALL (~1 EUR). Responsibility is limited to the contribution to capital."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Joint Stock Company (SHA)",
+                                "text": "Suitable for large enterprises. Minimum capital is 3.5 million ALL for private companies and 10 million ALL for public companies."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Representative Office",
+                                "text": "Good for market research. A representative office cannot generate income but can hire local staff for promotional activities."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "incorporation-costs",
+                    "type": "cost_breakdown",
+                    "title": "Estimated Registration Costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Item",
+                                "Estimated Cost",
+                                "Frequency"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "QKB Registration Fee",
+                                    "values": [
+                                        "0 ALL",
+                                        "Standard (Free online)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Notary & Translation Fees",
+                                    "values": [
+                                        "€300 - €500",
+                                        "Depends on document volume"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Minimum Share Capital (LLC)",
+                                    "values": [
+                                        "100 ALL",
+                                        "One-time deposit"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Registered Office Address",
+                                    "values": [
+                                        "€500 - €1,500",
+                                        "Per year"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Corporate Seal",
+                                    "values": [
+                                        "€20 - €40",
+                                        "One-time"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "incorporation-essentials",
+                    "type": "good_to_know",
+                    "title": "Essential Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Local Resident Director",
+                                "text": "There is no legal requirement for a director to be a resident of Albania, though having a local representative can expedite banking matters."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Fiscalization Law",
+                                "text": "All businesses must use the fiscalization software for invoicing. This requires a digital certificate issued by AKSHI."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Virtual Office Use",
+                                "text": "Virtual offices are permitted for registration purposes in Albania, significantly reducing initial overhead costs."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "incorporation-faq",
+                    "type": "faq",
+                    "title": "Incorporation FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "How long does it take to open a bank account?",
+                                "answer": "Bank account opening for a new entity takes 1-2 weeks. Banks require original registration docs and identification of all UBOs (Ultimate Beneficial Owners)."
+                            },
+                            {
+                                "question": "What are the reporting obligations?",
+                                "answer": "Annual financial statements must be filed by July 31st of the following year. Monthly tax declarations (VAT, PIT) are also required."
+                            },
+                            {
+                                "question": "Can I own 100% of the company as a foreigner?",
+                                "answer": "Yes, Albania allows 100% foreign ownership of companies in almost all sectors."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing & Recruitment in Albania",
+                "subtitle": "Access the growing talent pool of the Western Balkans.",
+                "description": "Leverage Albania's young and multilingual workforce. We help you find, vet, and hire top talent in ICT, tourism, and professional services.",
+                "bestFor": "Tech companies and BPO providers",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "staffing-market",
+                    "type": "insights",
+                    "title": "Talent Landscape Overview",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Multilingual Advantage",
+                                "text": "Albania boasts one of the highest multilingual rates in the region. Most graduates are fluent in English and Italian, with many also speaking German, Greek, or French."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Growing Tech Hub",
+                                "text": "Tirana is emerging as a regional tech hub with a strong focus on software development, mobile apps, and cybersecurity, supported by several local coding academies."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Young Demographic",
+                                "text": "With a median age under 37, Albania offers a youthful labor market that is highly adaptable to digital transformation and remote work environments."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "staffing-process",
+                    "type": "key_steps",
+                    "title": "Recruitment Lifecycle",
+                    "subtitle": "Average time-to-hire: 4-6 weeks",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Sourcing & Job Posting",
+                                "description": "Utilizing popular platforms like LinkedIn, Duapune.com, and Njoftime.com to reach active and passive candidates."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Screening & Assessments",
+                                "description": "Conducting technical tests and cultural fit interviews. Language proficiency testing is standard for international roles."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Interviewing",
+                                "description": "Coordinating between local hiring managers and global teams. Video interviews are now standard for the initial 2 rounds."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Reference & Background Checks",
+                                "description": "Verifying academic credentials and previous employment. Criminal record checks (Dëshmia e Penalitetit) are required for sensitive roles."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Offer & Onboarding",
+                                "description": "Extending the offer in Lek (ALL) and preparing the Albanian Labor Code-compliant contract."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "staffing-costs",
+                    "type": "cost_breakdown",
+                    "title": "Hiring & Salary Benchmarks 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Role",
+                                "Average Monthly Gross (ALL)",
+                                "Experience Level"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Software Developer (Mid)",
+                                    "values": [
+                                        "180,000 - 250,000",
+                                        "3-5 Years"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Customer Support (Multilingual)",
+                                    "values": [
+                                        "70,000 - 110,000",
+                                        "Entry/Mid"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Accountant / Finance",
+                                    "values": [
+                                        "90,000 - 150,000",
+                                        "Certified"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Project Manager",
+                                    "values": [
+                                        "120,000 - 200,000",
+                                        "Senior"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "National Average (All Sectors)",
+                                    "values": [
+                                        "82,210",
+                                        "Q1 2025 Stat"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "staffing-best-practices",
+                    "type": "good_to_know",
+                    "title": "Candidate Attraction Tips",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Health Insurance Perks",
+                                "text": "While public health insurance is mandatory, offering private health insurance top-ups is a major differentiator for attracting senior talent."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Work Flexibility",
+                                "text": "Hybrid work models are increasingly expected in Tirana's tech and service sectors. Offering remote flexibility can reduce salary expectations by up to 10%."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Professional Development",
+                                "text": "Albanian candidates highly value certifications and international training opportunities. Highlighting a clear career path is vital for retention."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "staffing-faq",
+                    "type": "faq",
+                    "title": "Staffing FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Are recruiting agency fees standardized in Albania?",
+                                "answer": "Standard fees range from 1 to 2 months of the candidate's gross annual salary, depending on the role complexity and exclusivity."
+                            },
+                            {
+                                "question": "What is the standard notice period for employees?",
+                                "answer": "During probation it is 5 days. After probation, it is usually 1 month for up to 2 years of service, increasing with tenure."
+                            },
+                            {
+                                "question": "Do I need to pay a 13th month salary?",
+                                "answer": "It is not legally required but widely practiced in the private sector as a holiday bonus in December to enhance loyalty."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Solutions for Albania",
+                "subtitle": "Digital HR management tailored for local compliance.",
+                "description": "Modernize your workforce management with HRIS platforms that support Albanian labor laws, social security filings, and local data residency requirements.",
+                "bestFor": "Growing teams and distributed workforces",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "hris-features",
+                    "type": "insights",
+                    "title": "Core HRIS Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Labor Code Integration",
+                                "text": "The system must track mandatory leave types including 20 days annual leave, sick leave, and the specific Albanian parental leave regulations."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Data Privacy (GDPR Sync)",
+                                "text": "Albania's law 'On the Protection of Personal Data' is heavily aligned with GDPR. Ensure your HRIS provider hosts data in compliant jurisdictions."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "E-Albania Connectivity",
+                                "text": "Advanced systems can push data directly to the e-Albania portal for employee self-service and authority reporting, reducing manual entry."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hris-benefits",
+                    "type": "good_to_know",
+                    "title": "Why Digitize HR in Albania?",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Automated Document Generation",
+                                "text": "Automatically generate employment contracts, addendums, and termination letters in both Albanian and English to ensure legal consistency."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Leave Management",
+                                "text": "Simplify the tracking of public holidays (which are frequent in Albania) and ensure correct carry-over of annual leave days according to policy."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Audit Readiness",
+                                "text": "Maintain a digital audit trail for labor inspections, which are becoming more frequent as Albania aligns with EU standards."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hris-implementation",
+                    "type": "key_steps",
+                    "title": "HRIS Deployment Roadmap",
+                    "subtitle": "Average setup: 2-4 weeks",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Requirement Mapping",
+                                "description": "Defining local workflows for hiring, time-tracking, and payroll integration."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Data Migration",
+                                "description": "Cleaning and importing legacy employee records into the new digital platform."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Localization",
+                                "description": "Configuring the system for Albanian tax bands, social security rates, and public holiday calendars."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "User Training",
+                                "description": "Onboarding managers and employees on the mobile app for leave requests and payslip access."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Go-Live & Support",
+                                "description": "Formal launch with ongoing technical support and periodic compliance updates."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hris-costs",
+                    "type": "cost_breakdown",
+                    "title": "Pricing Models",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Plan Type",
+                                "Price Range",
+                                "Best For"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Basic (Lite)",
+                                    "values": [
+                                        "€4 - €7 / user",
+                                        "Seed startups"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Professional",
+                                    "values": [
+                                        "€10 - €18 / user",
+                                        "Growing SMEs"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Enterprise",
+                                    "values": [
+                                        "Custom Quote",
+                                        "Corporations"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "hris-faq",
+                    "type": "faq",
+                    "title": "HRIS FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is cloud hosting allowed for HR data in Albania?",
+                                "answer": "Yes, provided the hosting provider complies with international security standards and the company registers as a data controller with the Commissioner."
+                            },
+                            {
+                                "question": "Can the HRIS handle multi-currency salaries?",
+                                "answer": "Most modern systems can display salaries in EUR or USD but must perform the final calc in ALL for statutory filings."
+                            },
+                            {
+                                "question": "Does it support mobile access for employees?",
+                                "answer": "Yes, top-tier providers offer iOS and Android apps for employees to view payslips and request time off."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting & Financial Services in Albania",
+                "subtitle": "Accurate bookkeeping and statutory reporting.",
+                "description": "Ensure your Albanian entity remains compliant with National Accounting Standards (NAS). We provide full-spectrum accounting from bookkeeping to annual filings.",
+                "bestFor": "International companies with local branches or subsidiaries",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "accounting-standards",
+                    "type": "insights",
+                    "title": "Accounting Regulatory Framework",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "National Accounting Standards (NAS)",
+                                "text": "Most companies in Albania use NAS, which are closely aligned with IFRS. Since 2011, Albania has been modernizing these standards to facilitate EU integration."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Fiscalization Requirements",
+                                "text": "Every transaction must be 'fiscalized' in real-time. Failure to use certified software for invoicing can lead to heavy fines and business suspension."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Inventory Controls",
+                                "text": "Albanian tax authorities pay close attention to inventory records. Real-time reconciliation is recommended to avoid discrepancies during audits."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "accounting-audit",
+                    "type": "table",
+                    "title": "Statutory Audit Thresholds 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Criterion",
+                                "Threshold (exceeding 2 of 3)",
+                                "Status"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Total Assets",
+                                    "values": [
+                                        "50 million ALL",
+                                        "Required if met"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Annual Revenue",
+                                    "values": [
+                                        "100 million ALL",
+                                        "Required if met"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Number of Employees",
+                                    "values": [
+                                        "> 30",
+                                        "Required if met"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Joint Stock Co (SHA)",
+                                    "values": [
+                                        "Mandatory",
+                                        "Regardless of size"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "accounting-process",
+                    "type": "key_steps",
+                    "title": "Annual Financial Reporting Cycle",
+                    "subtitle": "Critical dates for your finance team",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Year-End Closing",
+                                "description": "Closing the books on December 31st and reconciling all bank and cash balances."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Drafting Statements",
+                                "description": "Preparing the Balance Sheet, Profit & Loss, and Cash Flow statements according to NAS/IFRS."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "External Audit",
+                                "description": "Engaging a certified auditor if the company exceeds the statutory thresholds. Usually completed by May-June."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Approval & Filing",
+                                "description": "Shareholders approve the statements, which are then filed with the National Business Center (QKB) by July 31st."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "accounting-management",
+                    "type": "good_to_know",
+                    "title": "Strategic Financial Tips",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Cloud Adoption",
+                                "text": "Transitioning to cloud-based tools like Xero or QuickBooks (with local patches) allows for real-time collaboration with your international headquarters."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Expense Deductibility",
+                                "text": "Business representation and hospitality expenses are only deductible up to 0.3% of the annual turnover. Keep rigorous documentation."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Cash Payment Limits",
+                                "text": "Cash transactions between businesses are strictly limited. Ensure all payments over 150,000 ALL are made via bank transfer."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "accounting-faq",
+                    "type": "faq",
+                    "title": "Accounting FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the corporate income tax rate in Albania?",
+                                "answer": "The standard rate is 15%. However, small businesses with a turnover below 14 million ALL may benefit from a 0% rate."
+                            },
+                            {
+                                "question": "Do I need to hire a local accountant?",
+                                "answer": "While not strictly required if you have in-house talent, it is highly recommended to have a local certified accountant for filing statutory returns."
+                            },
+                            {
+                                "question": "When is the VAT declaration due?",
+                                "answer": "Monthly VAT declarations must be submitted electronically by the 14th day of the following month."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "compliance-labor",
+                    "type": "insights",
+                    "title": "Labor Law Compliance",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Employee Termination Risks",
+                                "text": "Terminating an employee without 'just cause' or following the strict 3-tiered warning system can lead to court-ordered compensation of up to 12 months' salary."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Mandatory Health & Safety",
+                                "text": "All employers must appoint a certified health and safety officer and maintain an 'Occupational Risk Assessment' document, updated annually."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Workplace Inspections",
+                                "text": "Labor inspectorate visits are often unannounced. Keep all employment contracts, insurance records, and payroll logs printed and available at the registered office."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "compliance-aml",
+                    "type": "key_steps",
+                    "title": "AML/KYC Compliance Process",
+                    "subtitle": "Anti-Money Laundering protocols",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "UBO Declaration",
+                                "description": "Identify and register all Ultimate Beneficial Owners (over 25% ownership) with the National Business Center."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Sanction Screening",
+                                "description": "Regular screening of partners and high-value clients against international sanction lists (UN, EU, OFAC)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Reporting Obligations",
+                                "description": "Training staff to identify and report suspicious transactions to the General Directorate for the Prevention of Money Laundering (GDPML)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Annual Compliance Audit",
+                                "description": "Internal or external review of all compliance logs to ensure no lapses in data collection or reporting."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "compliance-gdpr",
+                    "type": "good_to_know",
+                    "title": "Data Protection (GDPR-like)",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Controller Registration",
+                                "text": "Businesses processing sensitive employee or client data must register as a 'Data Controller' with the Commissioner for the Right to Information and Data Protection."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Data Breach Notification",
+                                "text": "In the event of a security breach, the authorities must be notified within 72 hours. An internal incident response plan is highly recommended."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Cross-border Data Transfer",
+                                "text": "Transferring personal data outside of Albania/EU requires specific authorization or the use of Standard Contractual Clauses (SCCs)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "compliance-fees",
+                    "type": "cost_breakdown",
+                    "title": "Compliance Related Costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service",
+                                "Estimated Fee",
+                                "Frequency"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Health & Safety Audit",
+                                    "values": [
+                                        "€400 - €800",
+                                        "Annual"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "KYC / AML Software",
+                                    "values": [
+                                        "€1,200 - €3,000",
+                                        "Annual Subscription"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "GDPR Compliance Review",
+                                    "values": [
+                                        "€1,000 - €2,000",
+                                        "One-time / Major updates"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Social Insurance Filing support",
+                                    "values": [
+                                        "Included in Payroll",
+                                        "Monthly"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "compliance-faq",
+                    "type": "faq",
+                    "title": "Compliance FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the penalty for non-compliance with health and safety?",
+                                "answer": "Fines range from 100,000 to 500,000 ALL, and in extreme cases, the business can be temporarily closed until violations are rectified."
+                            },
+                            {
+                                "question": "How often are ubo certificates renewed?",
+                                "answer": "UBO information must be updated within 30 days of any change in ownership or management structure."
+                            },
+                            {
+                                "question": "Is insurance mandatory for all businesses?",
+                                "answer": "General liability insurance is not mandatory but highly recommended. Professional indemnity insurance is mandatory for certain sectors like Legal and Architecture."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "tax-cit-vat",
+                    "type": "cost_breakdown",
+                    "title": "Core Tax Rates 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Tax Type",
+                                "Standard Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax (CIT)",
+                                    "values": [
+                                        "15.0%",
+                                        "0% for turnover < 14M ALL"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Value Added Tax (VAT)",
+                                    "values": [
+                                        "20.0%",
+                                        "6% for tourism/hotels"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Dividend Tax",
+                                    "values": [
+                                        "8.0%",
+                                        "Withholding tax at source"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Social Security (Employer)",
+                                    "values": [
+                                        "16.7%",
+                                        "Combined health & social"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Withholding (Interest/Royalties)",
+                                    "values": [
+                                        "15.0%",
+                                        "Reduced via Tax Treaties"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "tax-deadlines",
+                    "type": "key_steps",
+                    "title": "Tax Compliance Calendar",
+                    "subtitle": "Mandatory filing dates",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Monthly VAT Filings",
+                                "description": "Submission of Sales and Purchases books via the e-Albania portal by the 14th day of the following month."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Monthly PIT & Social Contributions",
+                                "description": "Declaration and payment of employee income taxes and insurance by the 20th of the following month."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Quarterly CIT Pre-payments",
+                                "description": "Paying estimated corporate tax based on the previous year's profit (if applicable)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Annual CIT Declaration",
+                                "description": "Submission of the final 'Forma 1' tax return and annual financial statements by March 31st of the following year."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "tax-incentives",
+                    "type": "insights",
+                    "title": "Tax Incentives & Strategic Zones",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Tech & IT Sector Benefits",
+                                "text": "Companies focused on software development and IT services may benefit from specialized grants and reduced social security caps for senior engineering roles."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Agricultural Incentives",
+                                "text": "Strategic investments in agribusiness and rural tourism can qualify for VAT exemptions on capital equipment and lower income tax rates for the first 5-10 years."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Renewable Energy Credits",
+                                "text": "New investments in solar and wind energy projects in Albania are eligible for accelerated depreciation and potential customs duty exemptions on imports."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "tax-reporting",
+                    "type": "good_to_know",
+                    "title": "Essential Tax Concepts",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Fiscalization Real-time Reporting",
+                                "text": "Failure to synchronize your POS or ERP system with the tax authority's server in real-time is a high-risk compliance failure that can lead to immediate audit."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Transfer Pricing",
+                                "text": "Albania has established transfer pricing regulations. Inter-company transactions exceeding 50 million ALL annually must have formal documentation by the end of June."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Double Tax Treaties",
+                                "text": "Albania has over 40 active DTTs (including UK, Germany, USA). Use a 'Certificate of Residence' to lower withholding rates from 15% to 5% or 0%."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "tax-faq",
+                    "type": "faq",
+                    "title": "Tax Services FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the small business tax threshold?",
+                                "answer": "Businesses with an annual turnover up to 14,000,000 ALL currently enjoy a 0% Corporate Income Tax rate, though they must still file all declarations."
+                            },
+                            {
+                                "question": "Are personal expenses deductible for companies?",
+                                "answer": "No. Strict separation between business and personal expenses is enforced. Non-business expenses are subject to a 15% non-deductible expense tax."
+                            },
+                            {
+                                "question": "How long should I keep tax records?",
+                                "answer": "Statutory requirements mandate keeping all fiscal documents and accounting records for a minimum of 10 years."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "MSA & Legal Services in Albania",
+                "subtitle": "Secure contracts and robust legal frameworks.",
+                "description": "Protect your interests with expert-drafted Master Service Agreements (MSA). We provide legal support for commercial contracts, IP protection, and local dispute resolution.",
+                "bestFor": "International service providers and agencies",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "msa-clauses",
+                    "type": "insights",
+                    "title": "Critical MSA Clauses for Albania",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Governing Law & Jurisdiction",
+                                "text": "While parties can choose foreign law for international contracts, disputes regarding employment or real estate located in Albania are subject to local courts."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Intellectual Property (IP)",
+                                "text": "Ensure specific language stating that all work-product created by local contractors is 'work for hire' and that IP rights are assigned to the client upon payment."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Liability Caps",
+                                "text": "Albanian law does not allow for a total waiver of liability for gross negligence. Ensure liability caps are reasonable and clearly defined in the agreement."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "msa-commercial",
+                    "type": "good_to_know",
+                    "title": "Commercial Legal Advice",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Contract Language",
+                                "text": "Contracts between two Albanian legal entities must be in Albanian. For international deals, a dual-language (English/Albanian) format is the best practice."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Notarization of Deeds",
+                                "text": "Certain contracts, such as bank loans, real estate transfers, and share sales, require mandatory notarization by an Albanian Public Notary to be enforceable."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Currency of Payment",
+                                "text": "While prices can be quoted in EUR/USD, payments between local entities are legally required to be settled in Albanian Lek (ALL)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "msa-veting",
+                    "type": "key_steps",
+                    "title": "Legal Vetting Process",
+                    "subtitle": "Standard contract review timeline",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Drafting / Template Review",
+                                "description": "Adapting your global MSA templates to include specific Albanian mandatory disclosures and tax clauses."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Negotiation",
+                                "description": "Reviewing counter-party amendments and ensuring that service levels (SLAs) are realistic for the local market."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Local Compliance Check",
+                                "description": "Final review by a local Albanian attorney to ensure no conflicts with the Civil Code or the Law on Commercial Entities."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Execution",
+                                "description": "Formal signing by authorized signatories. Digital signatures using certified e-Albania credentials are fully legal and recommended."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "msa-costs",
+                    "type": "cost_breakdown",
+                    "title": "Legal Service Fee Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service Item",
+                                "Estimated Fee",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Full MSA Drafting",
+                                    "values": [
+                                        "€1,200 - €2,500",
+                                        "Custom bespoke contract"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Contract Review (per hour)",
+                                    "values": [
+                                        "€150 - €300",
+                                        "Senior Legal Counsel"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Legal Opinion Letter",
+                                    "values": [
+                                        "€800 - €1,500",
+                                        "For banks or investors"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "IP Registration (Trademark)",
+                                    "values": [
+                                        "€500 + Gov Fees",
+                                        "Per 10 years"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "msa-faq",
+                    "type": "faq",
+                    "title": "MSA & Legal FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is arbitration common in Albania?",
+                                "answer": "Yes, for international commercial contracts, choosing arbitration (e.g., ICC or local Tirana Chamber) is preferred over the state court system for faster resolution."
+                            },
+                            {
+                                "question": "Can I sign documents electronically?",
+                                "answer": "Yes, the Law 'On Electronic Signature' gives electronic signatures the same legal weight as handwritten ones, provided they use qualified certificates."
+                            },
+                            {
+                                "question": "How do I protect my brand in Albania?",
+                                "answer": "You should register your trademark with the General Directorate of Industrial Property (GDIP). Registration in the EU does not automatically protect you in Albania."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Development in Albania",
+                "subtitle": "Scalable tech solutions and digital transformation.",
+                "description": "Leverage Albania's rapidly growing tech ecosystem. From custom ERP systems to advanced e-commerce platforms, find the right technical expertise for your business expansion.",
+                "bestFor": "Startups and enterprises seeking cost-effective engineering",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "software-categories",
+                    "type": "insights",
+                    "title": "Local Tech Expertise",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Web & Mobile Development",
+                                "text": "High concentration of React, Node.js, and Python talent in Tirana. Local agencies excel in building responsive SaaS products and high-traffic consumer apps."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "ERP & CRM Implementation",
+                                "text": "With the new 'Fiscalization' laws, there is a surge in local expertise for implementing Odoo, SAP, and custom localized ERP modules that connect directly to tax authorities."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Cloud Infrastructure",
+                                "text": "Increasing adoption of AWS and Azure. Local managed service providers offer 24/7 support for cloud hosting and DevOps automation for regional businesses."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "software-lifecycle",
+                    "type": "key_steps",
+                    "title": "Development Lifecycle in Albania",
+                    "subtitle": "How local projects are delivered",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Discovery & Localization",
+                                "description": "Defining technical requirements and identifying local regulatory needs (e.g., language support, local payment gateways like PayLinks)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Agile Sprint Cycles",
+                                "description": "Bi-weekly development sprints with regular demos. Most Albanian tech firms operate on GMT+1, aligning perfectly with Western European business hours."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Testing & QA",
+                                "description": "Manual and automated testing phases, including security audits for fintech applications."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Deployment & Maintenance",
+                                "description": "Cl-CD pipeline setup and long-term support agreements for post-launch bug fixing and updates."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "software-rates",
+                    "type": "cost_breakdown",
+                    "title": "Engineering Rate Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Role",
+                                "Hourly Rate (EUR)",
+                                "Experience Level"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Full-Stack Developer",
+                                    "values": [
+                                        "€35 - €55",
+                                        "Senior (5+ yrs)"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "UI/UX Designer",
+                                    "values": [
+                                        "€30 - €50",
+                                        "Lead Designer"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "DevOps Engineer",
+                                    "values": [
+                                        "€45 - €70",
+                                        "Cloud Certified"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "QA Engineer",
+                                    "values": [
+                                        "€25 - €40",
+                                        "Automation focus"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "software-market",
+                    "type": "good_to_know",
+                    "title": "Tech Partnership Tips",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Talent Retention",
+                                "text": "Tech talent is highly mobile. Partnering with a local agency that offers strong career growth and benefit packages is key to ensuring project continuity."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Code Ownership",
+                                "text": "Ensure that your development contract explicitly specifies that all source code and documentation are the exclusive property of your business."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Integration Challenges",
+                                "text": "Integrating with local Albanian banking APIs can be slower than in the EU. Factor in extra time for testing with local financial institutions."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "software-faq",
+                    "type": "faq",
+                    "title": "Software Solutions FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the primary tech hub in Albania?",
+                                "answer": "Tirana is the undisputed tech capital, hosting the majority of software houses, startups, and innovation centers like the Pyramid of Tirana."
+                            },
+                            {
+                                "question": "Are local devs proficient in English?",
+                                "answer": "Yes, English is the universal language of the tech sector in Albania. Most developers are comfortably fluent and used to working with international teams."
+                            },
+                            {
+                                "question": "Can I hire a dedicated team for my project?",
+                                "answer": "Many Albanian agencies offer 'Team as a Service' (TaaS) models, where a structured group of developers, PMs, and designers work exclusively on your product."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Digital Marketing in Albania",
+                "subtitle": "Grow your brand voice and market share.",
+                "description": "Reach the right audience with data-driven marketing. Our vetted Albanian agencies provide SEO, Social Media management, and full-scale creative campaigns for local and international brands.",
+                "bestFor": "Consumer brands and B2B service providers",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "mkt-services",
+                    "type": "insights",
+                    "title": "Core Marketing Services",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Performance Marketing",
+                                "text": "Specialized PPC campaigns for Google and Meta. Local agencies have deep insights into Albanian consumer behavior and search habits."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Content Strategy",
+                                "text": "Quality Albanian-language content creation is vital for local SEO. Use native writers to ensure the right tone and cultural relevance."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Social Media Management",
+                                "text": "Albania has high engagement on Instagram and TikTok. Local agencies excel at short-form video production and influencer collaborations."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mkt-pricing",
+                    "type": "cost_breakdown",
+                    "title": "Marketing Budget Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service Package",
+                                "Average Monthly Fee",
+                                "Inclusions"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Basic Social Media",
+                                    "values": [
+                                        "€600 - €1,200",
+                                        "2 platforms, 3 posts/week"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Full SEO Strategy",
+                                    "values": [
+                                        "€800 - €2,000",
+                                        "Technical + Content + Backlinks"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Premium Full-Service",
+                                    "values": [
+                                        "€3,500+",
+                                        "Ads, SEO, Creative, Email"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Video Production",
+                                    "values": [
+                                        "€500 - €3,000",
+                                        "Per project basis"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "mkt-strategy",
+                    "type": "key_steps",
+                    "title": "Campaign Launch Process",
+                    "subtitle": "From brief to results",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Brand Audit & Research",
+                                "description": "Analyzing your current presence and competitor landscape in Albania."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Channel Selection",
+                                "description": "Choosing the best platforms for your target ROI (e.g., LinkedIn for B2B vs. Meta for consumer goods)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Creative Development",
+                                "description": "Production of localized ad copies, graphics, and video assets."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Launch & Optimization",
+                                "description": "A/B testing ad sets and refining the strategy based on real-time performance data."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mkt-good-to-know",
+                    "type": "good_to_know",
+                    "title": "Local Market Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Traditional vs. Digital",
+                                "text": "While TV and Billboard ads still hold weight for mass appeal, the 18-45 demographic is almost purely digital-first in Albania."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Influencer Impact",
+                                "text": "Niche micro-influencers often provide higher conversion rates in the Albanian market than high-follower celebrities."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Ad Spend Management",
+                                "text": "Platform ad spend (Google/Meta) is usually paid directly by the client in EUR/USD. Factor in value-added tax if paying via a local agency invoice."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mkt-faq",
+                    "type": "faq",
+                    "title": "Marketing FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the typical lead time for a new campaign?",
+                                "answer": "A standard digital campaign can be planned and launched in 2 to 4 weeks depending on creative requirements."
+                            },
+                            {
+                                "question": "Do I need an office in Albania to advertise here?",
+                                "answer": "No. You can easily target the Albanian market from abroad, though a local agency can help with cultural nuances and payment logistics."
+                            },
+                            {
+                                "question": "Which social platform is most popular in Albania?",
+                                "answer": "Instagram remains the most influential for lifestyle and retail, while TikTok is growing rapidly among younger demographics. LinkedIn is essential for professional services."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

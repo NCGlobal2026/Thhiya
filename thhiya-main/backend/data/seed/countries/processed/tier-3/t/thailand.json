@@ -1,0 +1,2089 @@
+{
+    "name": "Thailand",
+    "code": "TH",
+    "slug": "thailand",
+    "flag": "https://flagcdn.com/w160/th.png",
+    "region": "Asia",
+    "languages": [
+        "Thai"
+    ],
+    "currencies": [
+        "THB"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR & PEO in Thailand",
+                "subtitle": "Hire and manage compliant teams in Thailand without a local entity",
+                "description": "Navigate Thailand's complex labor market legally with our Employer of Record services. We handle everything from contract drafting and social security registration to monthly payroll and benefits, ensuring full compliance with the Thai Labor Protection Act.",
+                "bestFor": "Global companies scaling in SE Asia",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "th-eor-onboarding-2025",
+                    "type": "key_steps",
+                    "title": "Employee Onboarding Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract Preparation & Localization",
+                                "description": "Drafting employment contracts that comply with the Thai Labor Protection Act. Contracts must be in Thai or bilingual (Thai/English) to be fully enforceable in Thai labor courts. Key clauses must include workplace location, working hours, wages, and termination notice periods."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Social Security Registration (SSO)",
+                                "description": "Registering the employee with the Social Security Office (SSO). This must be done within 30 days of the start date. The employee receives a social security card for medical benefits and access to government hospitals. Failure to register can lead to penalties for the employer."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax ID Setup",
+                                "description": "Applying for a 13-digit Tax Identification Number (TIN) if the employee does not already have one. This is essential for monthly withholding tax (P.N.D.1). For foreign employees, this is usually part of the work permit application process."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Provident Fund Setup (Optional)",
+                                "description": "Enrolling employees in a voluntary Provident Fund (PVD) if the company offers it, which is a highly valued long-term saving benefit in Thailand. Contribution rates typically range from 2% to 15% of the base salary."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Medical Check-up & Onboarding Docs",
+                                "description": "Collection of educational certificates, criminal record checks (if required for the role), and pre-employment medical certificates as per industry standards and Thai labor regulations."
+                            },
+                            {
+                                "stepNumber": 6,
+                                "title": "Equipment & IT Provisioning",
+                                "description": "Ensuring the employee has the necessary tools (laptops, software licenses) and access to corporate systems, often facilitated by the EOR's local logistics partners."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-eor-cost-breakdown",
+                    "type": "cost_breakdown",
+                    "title": "2025 Employer Burden & Costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Rate/Amount",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Security (Employer)",
+                                    "values": [
+                                        "5%",
+                                        "Max 750 THB/mo (standard cap)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Workmen’s Compensation Fund",
+                                    "values": [
+                                        "0.2% - 1.0%",
+                                        "Annual payment based on industry risk assessment"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Severance Pay Reserve",
+                                    "values": [
+                                        "Statutory",
+                                        "Accrues based on length of service (30-400 days of wages)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Annual Leave Pay",
+                                    "values": [
+                                        "Min 6 Days",
+                                        "Statutory minimum after 1 year of service"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Management Fee",
+                                    "values": [
+                                        "$199 - $599",
+                                        "Per employee per month based on service tier"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Onboarding Fee",
+                                    "values": [
+                                        "$200 - $500",
+                                        "One-time fee per new hire setup"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "th-eor-legal-insights",
+                    "type": "insights",
+                    "title": "Thai Labor Law Compliance",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Unfair Dismissal Risk",
+                                "text": "Thailand has strict 'Unfair Dismissal' laws. Terminating an employee without a valid legal cause (as defined in Section 119 of the Labor Protection Act) requires severance pay and may lead to additional 'moral damages' claims in Labor Court. Documentation of poor performance or misconduct is mandatory."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Probation Period",
+                                "text": "Maximum probation is typically 119 days. If it exceeds 120 days, the employee becomes eligible for severance pay (30 days) upon termination. It's best practice to evaluate performance by day 90 to allow for notice if the probation is not successful."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Working Hours & Overtime",
+                                "text": "Standard work week is 48 hours (max). Overtime pay is 1.5x on workdays and 3x on holidays. Consent is required for overtime, and certain management roles may be exempt from OT pay."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Sick Leave Rights",
+                                "text": "Employees are entitled to up to 30 paid sick days per year. A medical certificate is only required for leave exceeding three consecutive days."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-eor-essentials",
+                    "type": "essentials",
+                    "title": "Mandatory & Common Benefits",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Social Security (SSO)",
+                                "description": "Mandatory for all employees. Provides health insurance, disability, maternity, and pension benefits through a network of registered hospitals."
+                            },
+                            {
+                                "title": "Paid Annual Leave",
+                                "description": "Minimum 6 days per year for those who have worked for one consecutive year. Many white-collar roles offer 12-15 days."
+                            },
+                            {
+                                "title": "Public Holidays",
+                                "description": "Minimum 13 paid public holidays per year. If a holiday falls on a weekend, a substitution day (usually Monday) is granted."
+                            },
+                            {
+                                "title": "Supplemental Health Insurance",
+                                "description": "Common benefit for MNCs to provide private group medical insurance, including dental and vision, to attract top talent."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-eor-good-to-know",
+                    "type": "good_to_know",
+                    "title": "Local Market Nuances",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "13th Month Salary",
+                                "text": "Not legally mandatory but common as a performance bonus or 'Songkran' bonus in many sectors. It is usually paid in December or April."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Public Holidays",
+                                "text": "Minimum of 13 public holidays per year is mandatory. Thailand often adds 'bridge holidays' for long weekends to stimulate domestic tourism."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Thai Traditional Medicine",
+                                "text": "Social security covers treatments at registered hospitals, including some traditional Thai medicine and massage practices if medically necessary."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Seniority Culture",
+                                "text": "Respect for hierarchy and seniority is deeply ingrained in Thai business culture ('Phu Yai' and 'Phu Noi'). Communication should be polite and indirect."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-eor-faq",
+                    "type": "faq",
+                    "title": "Thailand EOR FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can an EOR sponsor a work permit in Thailand?",
+                                "answer": "Yes, licensed EOR providers in Thailand can sponsor the 'Non-Immigrant B' visa and Digital Work Permit for foreign employees, subject to the 4:1 Thai-to-foreigner ratio and capital requirements."
+                            },
+                            {
+                                "question": "What is the notice period for termination?",
+                                "answer": "The statutory notice period is at least one full payment cycle (usually 30 days), unless the contract specifies a longer period or in cases of serious misconduct."
+                            },
+                            {
+                                "question": "Are health insurance benefits mandatory?",
+                                "answer": "Social Security (SSO) is mandatory and provides health coverage at specific hospitals. However, most MNCs provide supplemental private group health insurance to stay competitive in the Bangkok talent market."
+                            },
+                            {
+                                "question": "Can EOR employees work remotely in Thailand?",
+                                "answer": "Yes, remote work is common since the pandemic. However, the employer must ensure a safe working environment and comply with PDPA data security requirements."
+                            },
+                            {
+                                "question": "How do taxes work for non-residents?",
+                                "answer": "Non-residents stay in Thailand for less than 180 days in a tax year. They are only taxed on income derived from sources within Thailand at standard progressive rates."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-payroll-cycle",
+                    "type": "key_steps",
+                    "title": "Monthly Payroll Cycle",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Variable Data Collection",
+                                "description": "Reporting overtime, commissions, unpaid leave, and expense claims by the 20th of each month for processing."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Calculations & Review",
+                                "description": "Generating the gross-to-net report, including 5% SSO deductions, voluntary PVD contributions, and progressive personal income tax withholding."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Salary Disbursement",
+                                "description": "Transferring net salaries to employees' Thai bank accounts via SMART or PromptPay systems by the last working day of the month. Confirmations are sent to HR."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Statutory Filing & Payment",
+                                "description": "Submitting P.N.D.1 tax returns by the 7th and SSO contributions by the 15th of the following month. For e-filing, deadlines are usually extended by 8 days."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Annual Tax Reports (P.N.D.1 Kor)",
+                                "description": "Preparing and filing the annual summary of all wages and taxes paid to employees during the preceding calendar year by February of the following year."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-payroll-tax-rates",
+                    "type": "cost_breakdown",
+                    "title": "Personal Income Tax Brackets (2025)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Income Bracket (THB)",
+                                "Tax Rate",
+                                "Accumulated Tax"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "0 - 150,000",
+                                    "values": [
+                                        "Exempt",
+                                        "0"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "150,001 - 300,000",
+                                    "values": [
+                                        "5%",
+                                        "7,500"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "300,001 - 500,000",
+                                    "values": [
+                                        "10%",
+                                        "27,500"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "500,001 - 750,000",
+                                    "values": [
+                                        "15%",
+                                        "65,000"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "750,001 - 1,000,000",
+                                    "values": [
+                                        "20%",
+                                        "115,000"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "1,000,001 - 2,000,000",
+                                    "values": [
+                                        "25%",
+                                        "365,000"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "2,000,001 - 5,000,000",
+                                    "values": [
+                                        "30%",
+                                        "1,265,000"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Over 5,000,000",
+                                    "values": [
+                                        "35%",
+                                        "-"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "th-payroll-compliance",
+                    "type": "insights",
+                    "title": "Payroll Compliance Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Late Filing Penalties",
+                                "text": "Late filing of SSO or P.N.D.1 attracts a monthly surcharge of 1.5%. Repeated non-compliance can lead to audits from the Revenue Department and difficulty in renewing work permits for foreign staff."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Digital Payslips",
+                                "text": "Under Thai law, employers are required to provide a record of payment (payslip). Digital payslips via HRIS or secure email are widely accepted and becoming the standard."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Tax Allowances",
+                                "text": "Employees can reduce their tax liability through various allowances: personal allowance (60k), life insurance (up to 100k), and ESG fund investments. HR should help employees optimize these."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Severance Tax Treatment",
+                                "text": "Severance pay is subject to different tax treatments depending on whether it's for retirement or termination, often with a specific tax-free portion."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-payroll-deductions",
+                    "type": "deductions",
+                    "title": "Mandatory Payroll Deductions",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Deduction",
+                                "Rate",
+                                "Cap/Limit"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Security (Employee)",
+                                    "values": [
+                                        "5%",
+                                        "750 THB/month"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Withholding Tax (P.N.D.1)",
+                                    "values": [
+                                        "Progressive",
+                                        "Calculated on annual estimate"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Provident Fund (if applicable)",
+                                    "values": [
+                                        "2% - 15%",
+                                        "Employee choice within plan"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Student Loan Repayment",
+                                    "values": [
+                                        "Variable",
+                                        "Mandatory if notified by the Fund"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "th-payroll-essentials",
+                    "type": "essentials",
+                    "title": "Payroll Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Local Bank Account",
+                                "description": "While not strictly mandatory, most employers require a local THB account for efficient salary disbursement via direct deposit."
+                            },
+                            {
+                                "title": "Thai Baht Payment",
+                                "description": "Salaries must be paid in Thai Baht (THB) for compliance with social security and tax withholding calculations."
+                            },
+                            {
+                                "title": "Language for Payroll Books",
+                                "description": "Payroll records and books of account must be maintained in the Thai language, or English with a Thai translation."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-payroll-faq",
+                    "type": "faq",
+                    "title": "Payroll FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the 'Social Security Wage Ceiling' change in 2025?",
+                                "answer": "The Thai government has approved a phased increase of the wage ceiling from 15,000 THB to 17,500 THB in 2025, reaching 23,000 THB by 2030 to bolster the fund."
+                            },
+                            {
+                                "question": "Can we pay employees in USD into a Thai account?",
+                                "answer": "The contract can state a USD amount, but the actual payment into a Thai bank account must be converted to THB for statutory deduction calculations recorded at the Revenue Department."
+                            },
+                            {
+                                "question": "How do we handle holiday pay for overtime?",
+                                "answer": "If an employee works on a traditional holiday, they must receive at least 1x to 3x their normal hourly rate, depending on their role and employment status."
+                            },
+                            {
+                                "question": "What is the deadline for P.N.D.91?",
+                                "answer": "The annual personal income tax return (P.N.D.91) must be filed by the employee by March 31st of the following year (or April 8th for e-filing)."
+                            },
+                            {
+                                "question": "Is payslip mandatory in Thailand?",
+                                "answer": "Yes, Section 115/1 of the Labor Protection Act requires employers to provide a record of payment containing details of wages, overtime, and deductions."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-calc-logic",
+                    "type": "key_steps",
+                    "title": "Calculation Roadmap",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross Income Entry",
+                                "description": "Input the monthly base salary plus all taxable allowances (e.g., housing, car, phone) in Thai Baht."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "SSO Deduction Apply",
+                                "description": "Deducting the 5% employee Social Security contribution, capped at the current statutory limit (750 THB/mo)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax Allowance Deduction",
+                                "description": "Subtracting personal allowances (60k), expense deductions (100k cap), and PVD contributions to find 'Taxable Income'."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Progressive Tax Calculation",
+                                "description": "Applying the PIT brackets (0% up to 150k annual, then 5%, 10%, 15%, etc.) to determine the monthly withholding amount."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Total Employer Burden",
+                                "description": "Adding the employer's 5% SSO and Workmen's Compensation (0.2-1.0%) to the gross salary for a true 'Cost-to-Company' view."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-calc-tax-summary",
+                    "type": "cost_breakdown",
+                    "title": "Monthly Breakdown (80k THB/mo)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Item",
+                                "Amount (THB)",
+                                "Percentage"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Gross Monthly Salary",
+                                    "values": [
+                                        "80,000",
+                                        "100%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Social Security (Employee)",
+                                    "values": [
+                                        "750",
+                                        "0.9%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Income Tax (WHT)",
+                                    "values": [
+                                        "6,450",
+                                        "8.1%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Net Take-Home Pay",
+                                    "values": [
+                                        "72,800",
+                                        "91.0%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Employer Cost (Incl. SSO)",
+                                    "values": [
+                                        "80,750",
+                                        "101.0%"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "th-calc-insights",
+                    "type": "insights",
+                    "title": "Payroll Tax Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Provident Fund (PVD)",
+                                "text": "Contributions to a registered PVD are tax-deductible. Many companies match 3-5%, providing a massive long-term benefit for staff."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Bonus Tax Treatment",
+                                "text": "Bonuses are added to annual income and taxed at the highest marginal rate. Planning bonus payouts can affect monthly take-home significantly."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Non-Cash Benefits",
+                                "text": "In Thailand, the 'Benefit in Kind' rule means housing or company cars are often treated as taxable income and added to the gross for calculation."
+                            },
+                            {
+                                "type": "info",
+                                "title": "13th Month Pay",
+                                "text": "A 13th-month salary is not mandatory in Thailand, but common in Finance and Manufacturing sectors. It is fully taxable income."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-calc-essentials",
+                    "type": "essentials",
+                    "title": "Payroll Essentials",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Payment Frequency",
+                                "description": "Salaries are typically paid monthly on the 25th, 28th, or the last business day of the month via domestic bank transfer."
+                            },
+                            {
+                                "title": "Payslip Requirements",
+                                "description": "Employers must provide a payslip (physical or digital) detailing gross earnings, all deductions (SSO, WHT), and net payment."
+                            },
+                            {
+                                "title": "Annual Tax Certificate",
+                                "description": "By Feb 15th of the following year, employers must issue the '50 Bis' form summarizing the total income and tax withheld for the year."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-calc-faq",
+                    "type": "faq",
+                    "title": "Calculator FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the tax-free threshold in Thailand?",
+                                "answer": "The first 150,000 THB of annual net taxable income is subject to 0% PIT. Standard deductions further increase this effective limit."
+                            },
+                            {
+                                "question": "Are there tax deductions for children?",
+                                "answer": "Yes, there is a deduction of 30,000 THB per child (unlimited number) for legitimate children of the taxpayer."
+                            },
+                            {
+                                "question": "How is overtime (OT) calculated?",
+                                "answer": "Standard OT is 1.5x the hourly rate for weekdays. Holiday work is 2.0x (normal hours) or 3.0x (OT hours) according to the Labor Protection Act."
+                            },
+                            {
+                                "question": "Do foreign residents pay more tax?",
+                                "answer": "No. Tax residents and non-residents are generally subject to the same progressive PIT rates on Thailand-sourced income."
+                            },
+                            {
+                                "question": "What is the Social Security wage ceiling for 2025?",
+                                "answer": "While currently capped at 15,000 THB (750 contribution), there are pending regulations to gradually increase the ceiling over the next few years."
+                            },
+                            {
+                                "question": "Are performance bonuses subject to social security?",
+                                "answer": "No, social security contributions are calculated only on the 'regular salary' portion of income, not on one-time performance bonuses."
+                            },
+                            {
+                                "question": "What happens if I work for multiple employers?",
+                                "answer": "Each employer will deduct tax and social security independently. You may be entitled to a tax refund at the end of the year if your total tax paid exceeds your liability."
+                            },
+                            {
+                                "question": "Is interest income taxable in Thailand?",
+                                "answer": "Yes, interest from Thai bank accounts is generally subject to a 15% final withholding tax for residents, though some exemptions apply for small savings totals."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Company Incorporation in Thailand",
+                "subtitle": "Establish your business entity with confidence",
+                "description": "From Private Limited Companies to BOI-promoted entities and Branch Offices, we guide you through the complexities of the Department of Business Development (DBD) and the Foreign Business Act. Secure your 100% foreign ownership where possible.",
+                "bestFor": "Entrepreneurs and international corporations",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "th-inc-steps",
+                    "type": "key_steps",
+                    "title": "Incorporation Roadmap",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Name Reservation",
+                                "description": "Reserving a unique Thai company name with the DBD. The name must not be similar to existing companies and must follow naming guidelines."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Memorandum of Association (MOA)",
+                                "description": "Filing the MOA with the DBD, listing the company's objectives, registered capital, and the names of the promoters (minimum 2 promoters required)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Statutory Meeting",
+                                "description": "Holding a statutory meeting to adopt the bylaws, appoint directors, and appoint an auditor. Capital must be at least 25% paid up at this stage."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Registration & Tax Setup",
+                                "description": "Final registration of the company. Simultaneously applying for a Tax ID and VAT certificate (P.P.20) if the expected revenue exceeds 1.8M THB/year."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Bank Account Opening",
+                                "description": "Opening a corporate bank account in Thailand. This requires the presence of the directors and certified company documents."
+                            },
+                            {
+                                "stepNumber": 6,
+                                "title": "Foreign Business License (FBL)",
+                                "description": "If the company is foreign-owned and operates in restricted sectors, applying for an FBL or seeking BOI promotion to gain 100% ownership."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-inc-budget",
+                    "type": "cost_breakdown",
+                    "title": "Estimated Setup Budget",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Item",
+                                "Estimated Cost (THB)",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Government Registration Fees",
+                                    "values": [
+                                        "5,500 - 25,000",
+                                        "Based on registered capital (500 THB per 100k capital)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Legal & Professional Fees",
+                                    "values": [
+                                        "30,000 - 80,000",
+                                        "For standard Private Limited setup"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Registered Office (Annual)",
+                                    "values": [
+                                        "12,000 - 60,000",
+                                        "Virtual office or physical space in Bangkok"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "BOI Application (Professional)",
+                                    "values": [
+                                        "100,000+",
+                                        "Complex process for tax incentives and ownership"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "th-inc-ownership",
+                    "type": "insights",
+                    "title": "Navigating Ownership Rules",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "The 49/51 Rule",
+                                "text": "Under the Foreign Business Act, most service businesses require 51% Thai ownership unless a Foreign Business License or BOI promotion is obtained."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "BOI Promotion",
+                                "text": "The Board of Investment (BOI) offers incentives like 100% foreign ownership, corporate tax holidays, and eased work permit rules for targeted industries (Tech, EV, Medical)."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Nominee Shareholders",
+                                "text": "Using 'nominee' Thai shareholders to bypass foreign ownership limits is illegal and strictly scrutinized by the DBD. Always use legitimate structures."
+                            },
+                            {
+                                "type": "info",
+                                "title": "US-Thai Treaty of Amity",
+                                "text": "US citizens and companies may qualify for 100% ownership in most sectors under this treaty, a unique benefit for American investors."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-inc-essentials",
+                    "type": "essentials",
+                    "title": "Registration Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Minimum Promoters",
+                                "description": "A minimum of 2 individual promoters is required to start the incorporation process (reduced from 3 in 2023)."
+                            },
+                            {
+                                "title": "Registered Office",
+                                "description": "A valid physical address in Thailand is required. Residential addresses can sometimes be used depending on the business type."
+                            },
+                            {
+                                "title": "Director Residency",
+                                "description": "Directors do not strictly need to be Thai residents, but at least one director often needs to sign documents locally."
+                            },
+                            {
+                                "title": "Company Seal",
+                                "description": "Every Thai company must have a unique company seal registered with the DBD, used for signing all official documents."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-inc-faq",
+                    "type": "faq",
+                    "title": "Incorporation FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "How long does it take to incorporate?",
+                                "answer": "A standard Private Limited Company can be registered in as little as 1-3 days once all documents are signed. BOI promotion takes 2-4 months."
+                            },
+                            {
+                                "question": "What is the minimum capital for a work permit?",
+                                "answer": "To sponsor one foreign work permit, the company generally needs 2 million THB in registered capital (fully paid up) and 4 Thai employees."
+                            },
+                            {
+                                "question": "Can I stay in Thailand on a business visa?",
+                                "answer": "Yes, once your company is incorporated, you can apply for a Non-Immigrant B visa and a Work Permit to reside and work in Thailand legally."
+                            },
+                            {
+                                "question": "Do I need a Thai partner?",
+                                "answer": "Only if your business falls under the restricted categories of the Foreign Business Act. Many tech and export businesses can be 100% foreign-owned via BOI."
+                            },
+                            {
+                                "question": "What is the corporate tax rate?",
+                                "answer": "The standard CIT is 20%, but SMEs with paid-up capital <5M THB and revenue <30M THB enjoy lower progressive rates (0-15%)."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing & Recruitment in Thailand",
+                "subtitle": "Find the top 1% of Thai talent",
+                "description": "Navigate Thailand's competitive talent landscape. From bilingual executives in Bangkok to remote developers, we source, vet, and place high-performing professionals using local insights and international standards.",
+                "bestFor": "Tech startups and MNCs",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "th-staffing-process",
+                    "type": "key_steps",
+                    "title": "Tailored Recruitment Workflow",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Market Benchmarking & Strategy",
+                                "description": "Analyzing salary data, trends, and benefit expectations in the Thai market to ensure offer competitiveness and attract top-tier candidates."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Sourcing & Headhunting",
+                                "description": "Leveraging local platforms (JobsDB, LinkedIn), university networks, and our private network of passive candidates in Bangkok's CBD."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Bilingual & Technical Vetting",
+                                "description": "Assessing English proficiency (TOEIC/TOEFL standards) and performing technical screenings tailored to international project requirements."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Cultural Alignment Analysis",
+                                "description": "Evaluating soft skills and alignment with 'Sabai Sabai' culture vs. high-pressure international environments to ensure long-term retention."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Offer Management & Onboarding",
+                                "description": "Facilitating negotiations, background checks via the Royal Thai Police, and supporting the initial orientation for a seamless start."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-staffing-insights",
+                    "type": "insights",
+                    "title": "Recruitment & Talent Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "In-Demand Skills",
+                                "text": "There is a significant shortage of Full-stack Developers, Cybersecurity experts, and Solar/Green Energy engineers in Thailand for 2025."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Benefit Preferences",
+                                "text": "Beyond salary, Thai professionals highly value private health insurance (OPD/IPD), Provident Funds, and hybrid work flexibility."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Salary Inflation",
+                                "text": "Tech roles in Bangkok are seeing 15-20% salary jumps during job switches. Budgeting for competitive increments is vital for retention."
+                            },
+                            {
+                                "type": "info",
+                                "title": "University Partnerships",
+                                "text": "Recruiting from top-tier universities like Chulalongkorn or Thammasat requires early engagement through career fairs and internships."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-staffing-essentials",
+                    "type": "essentials",
+                    "title": "Recruitment Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Recruitment License",
+                                "description": "Any agency providing recruitment services in Thailand must hold a valid recruitment license from the Department of Employment."
+                            },
+                            {
+                                "title": "Background Checks",
+                                "description": "Criminal record checks are legally allowed but require the candidate's explicit written consent under PDPA rules."
+                            },
+                            {
+                                "title": "Probation Period",
+                                "description": "The standard probation period is 119 days, as terminating after 120 days triggers statutory severance pay requirements."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-staffing-faq",
+                    "type": "faq",
+                    "title": "Staffing FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What are typical recruitment fees in Thailand?",
+                                "answer": "Fees generally range from 15% to 25% of the candidate's first-year gross annual salary, depending on the role's seniority and scarcity."
+                            },
+                            {
+                                "question": "How long does it take to fill a mid-level tech role?",
+                                "answer": "In Bangkok's current market, it typically takes 4 to 8 weeks to source, interview, and finalize an offer for a mid-level developer."
+                            },
+                            {
+                                "question": "Can you hire foreign talent for a Thai startup?",
+                                "answer": "Yes, provided the company meets the capital (2M THB) and ratio requirements (4 Thai staff per 1 foreign staff), unless BOI promoted."
+                            },
+                            {
+                                "question": "Do agencies provide a replacement guarantee?",
+                                "answer": "Yes, standard contracts include a 3-month (90-day) replacement guarantee if the candidate leaves or is terminated for performance."
+                            },
+                            {
+                                "question": "Is remote work standard in Thailand?",
+                                "answer": "Post-pandemic, hybrid models (2-3 days in office) are the benchmark for tech and professional service roles in Bangkok."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-staffing-nuances",
+                    "type": "good_to_know",
+                    "title": "Thai Market Nuances",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Seniority Expectations",
+                                "description": "Respect for seniority ('Phu Yai') is deeply ingrained. Leadership styles tend to be hierarchical and paternalistic."
+                            },
+                            {
+                                "title": "Relationship Building",
+                                "description": "Recruitment is often about trust. Face-to-face meetings or video calls are preferred over purely text-based communication."
+                            },
+                            {
+                                "title": "Religious Observances",
+                                "description": "Consider Buddhist holidays and festivities (like Songkran) when planning recruitment timelines and start dates."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS & People Software in Thailand",
+                "subtitle": "Streamline operations with local HR tech",
+                "description": "Digitize your employee lifecycle in Thailand. From secure document storage and leave management to automated payroll sync, our HRIS solutions ensure efficiency and PDPA compliance.",
+                "bestFor": "Growing teams and efficient HR departments",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "th-hris-features",
+                    "type": "key_steps",
+                    "title": "HRIS Core Capabilities",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Localized Payroll Sync",
+                                "description": "Automated calculation of Thai Social Security (SSO), Withholding Tax (PND1), and Provident Fund deductions integrated with monthly cycles."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Employee Self-Service (ESS)",
+                                "description": "A mobile-first platform for employees to view payslips, request leave (sick, personal, vacation), and submit expense claims."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "PDPA Consent Management",
+                                "description": "Integrated workflows to capture and store employee consent for data processing, as required by the Personal Data Protection Act."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Time & Attendance",
+                                "description": "GPS-based mobile clock-in or biometrics integration for physical office and factory sites, feeding directly into payroll overtime."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Performance Tracking",
+                                "description": "Setting KPIs and conducting periodic reviews aligned with Thai management styles and annual bonus structures."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-hris-insights",
+                    "type": "insights",
+                    "title": "HR Tech Selection Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Data Sovereignty",
+                                "text": "Ensure your HRIS provider complies with PDPA data transfer rules if the data is stored in cloud servers outside of Thailand."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Bilingual Interface",
+                                "text": "Choose a system that supports both Thai and English to ensure usability for front-line workers and international managers."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Automation ROI",
+                                "text": "Switching from manual Excel tracking to a local HRIS typically reduces payroll processing time by up to 50% for teams over 20 people."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Mobile First",
+                                "text": "Thailand is a mobile-first economy; ensuring the HRIS has a robust mobile app is critical for employee adoption."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-hris-essentials",
+                    "type": "essentials",
+                    "title": "Software Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "SSO Filing Format",
+                                "description": "The HRIS must be able to export SSO filing data in the specific formats required for the Social Security Office's e-filing system."
+                            },
+                            {
+                                "title": "PDPA Readiness",
+                                "description": "The system must support the 'Right to be Forgotten' and data portability as defined by Thailand's data privacy laws."
+                            },
+                            {
+                                "title": "Leave Types",
+                                "description": "Software must handle statutory Thai leave types: Sick Leave (30 days paid), Personal Leave (3 days), and Maternity (98 days)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-hris-faq",
+                    "type": "faq",
+                    "title": "HRIS FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Are digital payslips legal in Thailand?",
+                                "answer": "Yes, digital payslips are legally acceptable provided they contain all mandatory wage and deduction information."
+                            },
+                            {
+                                "question": "Can the HRIS handle complex commission structures?",
+                                "answer": "Most premium local systems allow for custom formula builders to handle Thai-style commissions and performance incentives."
+                            },
+                            {
+                                "question": "How long does implementation usually take?",
+                                "answer": "For a standard setup (20-100 employees), implementation usually takes 2 to 4 weeks depending on data cleanliness."
+                            },
+                            {
+                                "question": "Is training provided for the staff?",
+                                "answer": "Yes, our implementation includes bilingual training sessions for HR admins and employee town halls to drive adoption."
+                            },
+                            {
+                                "question": "Does it integrate with Thai banks?",
+                                "answer": "Yes, we support bank file exports for major Thai banks like KBank, SCB, and BBL for automated salary transfers."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-hris-adoption",
+                    "type": "good_to_know",
+                    "title": "Adoption Tips",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Mobile Accessibility",
+                                "description": "Prioritize systems with strong mobile app capabilities to reach employees who do not use computers daily."
+                            },
+                            {
+                                "title": "Thai Language Support",
+                                "description": "Ensure the interface and all support documentation are available in Thai to maximize self-service adoption."
+                            },
+                            {
+                                "title": "Phased Implementation",
+                                "description": "Start with core modules (Payroll, Leave) before moving to more complex performance management or recruitment features."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting & Bookkeeping in Thailand",
+                "subtitle": "Clear, compliant, and transparent financial reporting",
+                "description": "Expert bookkeeping services aligned with Thai Financial Reporting Standards (TFRS). We handle your monthly closings, voucher preparations, and statutory audits with precision.",
+                "bestFor": "SMEs and foreign-owned companies",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "th-acc-cycle",
+                    "type": "key_steps",
+                    "title": "Monthly Accounting Workflow",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Document Collection & Sorting",
+                                "description": "Organizing tax invoices, receipts, and bank statements. Ensuring all documents comply with the Revenue Department's format requirements."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Recording & GL Maintenance",
+                                "description": "Entering transactions into TFRS-compliant software. Reconciling bank accounts and managing accounts payable/receivable."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "VAT & Withholding Tax Returns",
+                                "description": "Preparing and filing monthly VAT (PP30) and Withholding Tax (PND 3, 53) by the 7th or 15th of the following month."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Monthly Closing & Reports",
+                                "description": "Generating P&L, Balance Sheets, and Cash Flow statements. Conducting a monthly review meeting with management."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Annual Audit Support",
+                                "description": "Liaising with external CPAs to perform the mandatory annual audit and filing the Financial Statements with the DBD."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-acc-insights",
+                    "type": "insights",
+                    "title": "Accounting & Audit Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Mandatory Annual Audit",
+                                "text": "Unlike some jurisdictions, even small Private Limited companies in Thailand must be audited annually by a licensed Thai CPA."
+                            },
+                            {
+                                "type": "info",
+                                "title": "TFRS vs IFRS",
+                                "text": "Thai Financial Reporting Standards (TFRS) are closely aligned with IFRS, but there are specific differences for SMEs (TFRS for NPAEs)."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Cloud Accounting",
+                                "text": "Platforms like Xero or local leaders like PEAK Account allow real-time collaboration between the company and the accounting firm."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Document Retention",
+                                "text": "Thai law requires accounting documents to be kept for at least 5 years at the registered office or a location approved by the DBD."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-acc-essentials",
+                    "type": "essentials",
+                    "title": "Bookkeeping Essentials",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Tax Invoice Requirements",
+                                "description": "A valid Thai tax invoice must include the word 'Tax Invoice', the seller's Tax ID, and the phrase 'Head Office' or 'Branch No.'."
+                            },
+                            {
+                                "title": "Withholding Tax (WHT)",
+                                "description": "When paying for services (e.g., rent, consulting), companies must withhold tax (typically 1%, 3%, or 5%) and issue a WHT certificate."
+                            },
+                            {
+                                "title": "Director Responsibility",
+                                "description": "Directors are legally responsible for the accuracy of the financial statements and the timely filing of annual reports."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-acc-faq",
+                    "type": "faq",
+                    "title": "Accounting FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the deadline for filing the annual audit?",
+                                "answer": "The audited financial statements must be approved by shareholders within 4 months of the fiscal year-end and filed with the DBD within 1 month after that."
+                            },
+                            {
+                                "question": "Can we use overseas accounting software?",
+                                "answer": "Yes, but the system must be configured to handle Thai VAT and Withholding Tax, and the final reports must be in Thai or bilingual."
+                            },
+                            {
+                                "question": "What is the penalty for late audit filing?",
+                                "answer": "Late filing attracts fines from both the DBD and the Revenue Department, with penalties increasing over time (up to 50,000 THB or more)."
+                            },
+                            {
+                                "question": "Do we need a Chief Accountant?",
+                                "answer": "Every Thai company must designate a qualified person as the 'Bookkeeper' who is registered with the Department of Business Development."
+                            },
+                            {
+                                "question": "What is the VAT registration threshold?",
+                                "answer": "Registration for Value Added Tax (VAT) is mandatory once annual revenue exceeds 1.8 million Thai Baht."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-acc-standards",
+                    "type": "good_to_know",
+                    "title": "Accounting Nuances",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Fiscal Year Selection",
+                                "description": "While most Thai companies use the calendar year (Jan-Dec), you can apply for a custom fiscal year-end with DBD approval."
+                            },
+                            {
+                                "title": "Petty Cash Management",
+                                "description": "Strict documentation rules apply to petty cash; ensure all small expenses have valid receipts for tax deductibility."
+                            },
+                            {
+                                "title": "Electronic Filings",
+                                "description": "The Revenue Department is phasing out paper filings; ensure your accountant is registered for the e-filing system."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-comp-annual",
+                    "type": "key_steps",
+                    "title": "Annual Compliance Roadmap",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Annual General Meeting (AGM)",
+                                "description": "Holding an AGM within 4 months of the fiscal year-end to approve financial results and director appointments."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Statutory Document Filing",
+                                "description": "Lodge the Shareholder List (BOJ.5) within 14 days and Financial Statements within 1 month after the AGM."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Business License Renewals",
+                                "description": "Tracking and renewing operational licenses (e.g., Factory, Food, FDA, or Recruitment) which typically expire annually."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Work Permit & Visa Maintenance",
+                                "description": "Conducting monthly checks on foreign staff status and performing annual renewals at the One-Stop Service Center (OSSC)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "PDPA Annual Compliance Audit",
+                                "description": "Reviewing data processing logs, privacy policies, and consent forms to ensure ongoing alignment with the Personal Data Protection Act."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-comp-insights",
+                    "type": "insights",
+                    "title": "Compliance Risk Management",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Nominee Scrutiny",
+                                "text": "The DBD has increased scrutiny on 'Nominee' structures. Ensure 51% Thai ownership is backed by legitimate investors with financial proof."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Anti-Money Laundering (AML)",
+                                "text": "Companies in specific sectors (Real Estate, Finance, Precious Metals) must register with the AMLO and file designated transaction reports."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Labor Law Compliance",
+                                "text": "Maintain ten or more employees? You must have written 'Working Rules and Regulations' in Thai at the workplace."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Cybersecurity Standards",
+                                "text": "Critical infrastructure providers and data-heavy businesses must comply with the Cybersecurity Act's reporting and defense standards."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-comp-essentials",
+                    "type": "essentials",
+                    "title": "Statutory Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Registered Office Address",
+                                "description": "The company address must be conspicuously displayed; any change must be registered with the DBD and Revenue Department within 14 days."
+                            },
+                            {
+                                "title": "Social Security Registration",
+                                "description": "Employers must register themselves and all employees with the Social Security Office (SSO) within 30 days of hiring the first employee."
+                            },
+                            {
+                                "title": "Company Seal Usage",
+                                "description": "Official company acts (contracts, filings) require the registered company seal alongside the authorized director's signature."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-comp-faq",
+                    "type": "faq",
+                    "title": "Compliance FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What happens if we miss the AGM deadline?",
+                                "answer": "The company and its directors face fines from the DBD, starting at 10,000 THB and increasing for continued non-compliance."
+                            },
+                            {
+                                "question": "Do all businesses need a specific license?",
+                                "answer": "No, but many sectors (Travel, Recruitment, E-commerce) require specific registration. Direct sales and e-commerce require OCPB registration."
+                            },
+                            {
+                                "question": "What is the PDPA 'Data Protection Officer' (DPO)?",
+                                "answer": "A DPO must be appointed if the company processes large-scale sensitive data or if its core activity involves regular monitoring of individuals."
+                            },
+                            {
+                                "question": "Can a foreigner be the sole authorized director?",
+                                "answer": "Yes, for many business types. However, some specific licenses or bank requirements might mandate a Thai-resident director."
+                            },
+                            {
+                                "question": "Is local document storage mandatory?",
+                                "answer": "Yes, Thai law generally requires accounting and corporate records to be kept at the registered head office for inspection."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-comp-inspections",
+                    "type": "good_to_know",
+                    "title": "Handling Inspections",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Revenue Dept Visits",
+                                "description": "Routine tax inspections are common; maintain organized records to ensure a smooth verification process."
+                            },
+                            {
+                                "title": "Labor Inspections",
+                                "description": "Inspectors may visit to check work rules and safety standards; ensure the Thai labor law poster is displayed."
+                            },
+                            {
+                                "title": "Social Security Audits",
+                                "description": "Periodic audits of SSO contributions ensure all eligible employees are registered and payments are accurate."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-tax-rates",
+                    "type": "cost_breakdown",
+                    "title": "Thai Tax Landscape (2025)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax (CIT)",
+                                    "values": [
+                                        "20%",
+                                        "Standard rate for companies"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "SME CIT (Profit < 300k)",
+                                    "values": [
+                                        "0%",
+                                        "Incentive for small businesses"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "SME CIT (300k - 3M)",
+                                    "values": [
+                                        "15%",
+                                        "Graduated rate for mid-sized SMEs"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Value Added Tax (VAT)",
+                                    "values": [
+                                        "7%",
+                                        "Temporary reduced rate (extended annually)"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Specific Business Tax (SBT)",
+                                    "values": [
+                                        "0.1% - 3.3%",
+                                        "Applicable to banking, insurance, and real estate"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Withholding Tax (Services)",
+                                    "values": [
+                                        "3%",
+                                        "On management, consulting, and repair services"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Dividend Withholding Tax",
+                                    "values": [
+                                        "10%",
+                                        "Tax on dividends paid to residents/non-residents"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Stamp Duty (Contracts)",
+                                    "values": [
+                                        "0.1%",
+                                        "Standard rate for many commercial contracts"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "th-tax-filing",
+                    "type": "key_steps",
+                    "title": "Standard Tax Filing Cycle",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Monthly Withholding Tax Filing",
+                                "description": "Filing P.N.D.1 (Payroll), P.N.D.3 (Individuals), or P.N.D.53 (Corporate) by the 7th of the following month (15th for e-filing)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Monthly VAT (P.P.30) Submission",
+                                "description": "Filing VAT returns and paying any due tax by the 15th of the following month (23rd for e-filing), even if no sales occurred."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Half-Year CIT Return (P.N.D.51)",
+                                "description": "Filing and paying estimated corporate tax within 2 months after the first 6 months of the fiscal year."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Annual CIT Return (P.N.D.50)",
+                                "description": "Liaising with auditors to finalize the annual tax return within 150 days from the fiscal year-end date."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "E-Tax Invoice & E-Receipt",
+                                "description": "Implementing digital tax reporting systems to streamline compliance and reduce physical document storage requirements."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-tax-insights",
+                    "type": "insights",
+                    "title": "Tax Strategy & Compliance",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Withholding Tax Certificates",
+                                "text": "Payers must provide physical or digital withholding tax certificates (50 Bis) to payees for every transaction."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Transfer Pricing Rules",
+                                "text": "Companies with annual revenue over 200 million THB must submit a Transfer Pricing Disclosure Form to the Revenue Department."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Double Tax Treaties (DTA)",
+                                "text": "Thailand has DTAs with over 60 countries. Leverage these to reduce withholding tax rates on overseas payments like royalties or dividends."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Personal Income Tax (PIT)",
+                                "text": "Expatriates working in Thailand are taxed on world-wide income remitted into the country, based on progressive rates up to 35%."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-tax-essentials",
+                    "type": "essentials",
+                    "title": "Tax Essentials",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Tax ID Registration",
+                                "description": "All companies must obtain a 13-digit Tax Identification Number from the Revenue Department within 60 days of incorporation."
+                            },
+                            {
+                                "title": "VAT Registration",
+                                "description": "Mandatory once annual turnover reaches 1.8M THB; however, earlier voluntary registration is common for B2B ventures."
+                            },
+                            {
+                                "title": "E-Withholding Tax",
+                                "description": "The Revenue Department offers a reduced withholding tax rate (e.g., 2% instead of 3%) for payments made through the E-WHT system."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-tax-faq",
+                    "type": "faq",
+                    "title": "Taxation FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the penalty for late VAT filing?",
+                                "answer": "Late filing triggers a 2,000 THB fine plus a penalty of up to 100% of the tax due and a monthly surcharge of 1.5%."
+                            },
+                            {
+                                "question": "Can I claim VAT refunds for export businesses?",
+                                "answer": "Yes, export services and goods are generally subject to 0% VAT, allowing companies to reclaim input VAT paid on local purchases."
+                            },
+                            {
+                                "question": "What is the withholding tax on rent?",
+                                "answer": "Rental payments to local corporate landlords are subject to 5% withholding tax, which must be remitted by the tenant."
+                            },
+                            {
+                                "question": "How does the 'Half-Year' tax work?",
+                                "answer": "P.N.D.51 is a prepayment based on 50% of the estimated annual profit. Underestimating by more than 25% without a valid reason leads to penalties."
+                            },
+                            {
+                                "question": "Are dividends from BOI companies tax-exempt?",
+                                "answer": "Yes, dividends paid during a BOI corporate tax holiday are generally exempt from personal and corporate income tax for the recipient."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Frameworks & MSA in Thailand",
+                "subtitle": "Secure your business interests with robust contracts",
+                "description": "Navigate the Thai Civil and Commercial Code with tailored Master Service Agreements. We ensure your intellectual property, data privacy, and termination rights are protected.",
+                "bestFor": "International law firms and corporate legal teams",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "th-legal-clauses",
+                    "type": "key_steps",
+                    "title": "Critical Legal Onboarding",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Governing Law Determination",
+                                "description": "Ensuring contracts clearly specify Thai Law as governing or opt for International Arbitration to avoid local court delays."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "IP Rights & Work-for-Hire",
+                                "description": "Drafting airtight clauses ensuring IP created by contractors or employees is automatically assigned to the entity under the Copyright Act."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Termination & Severance Mitigation",
+                                "description": "Structuring service agreements to clearly distinguish between 'Independent Contractors' and 'Employees' to avoid Labor Court disputes."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Confidentiality & Non-Compete",
+                                "description": "Implementing enforceable restrictive covenants tailored to the Thai business environment and Labor Court precedents."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Electronic Signature Implementation",
+                                "description": "Moving to legally binding e-signatures under the Electronic Transactions Act to speed up execution for remote teams."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-legal-insights",
+                    "type": "insights",
+                    "title": "Thai Legal Environment",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Stamp Duty on Contracts",
+                                "text": "Leases, HP, and service contracts are only admissible as evidence in court if the required Thai Stamp Duty is paid and stamps are cancelled."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Bilingual Precedence",
+                                "text": "While contracts can be in English, the Labor Court may require a certified Thai translation. Often, the Thai version is drafted to prevail in case of conflict."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Arbitration Preference",
+                                "text": "The Thai Arbitration Institute (TAI) and THAC are popular choices for B2B disputes, offering more privacy and specialized expertise than general courts."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Contractual Interpretation",
+                                "text": "Thai courts follow the Civil Law tradition; intent and 'good faith' are paramount in interpreting contractual obligations."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-legal-essentials",
+                    "type": "essentials",
+                    "title": "Legal Execution Essentials",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Authorized Signatories",
+                                "description": "Only directors whose names are on the DBD Affidavit (Certificate) can legally bind the company. Verify this before signing."
+                            },
+                            {
+                                "title": "Power of Attorney (POA)",
+                                "description": "POAs issued outside Thailand must be notarized and legalized by the Thai Embassy/Consulate in the origin country."
+                            },
+                            {
+                                "title": "Physical Seal Requirement",
+                                "description": "Many banks and government agencies still require physical signatures accompanied by the registered company seal."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-legal-faq",
+                    "type": "faq",
+                    "title": "Legal & MSA FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can we use foreign law for an employment contract?",
+                                "answer": "No. Employment contracts for work performed in Thailand are governed by Thai Labor Law, which is a matter of 'Public Order'."
+                            },
+                            {
+                                "question": "What is the standard notice period for termination?",
+                                "answer": "Unless specified otherwise, the statutory notice period is 'one full payment cycle'. Contractual notice is typically 30, 60, or 90 days."
+                            },
+                            {
+                                "question": "Are Non-Compete clauses enforceable?",
+                                "answer": "Yes, but they must be 'reasonable' in terms of duration (usually <2 years), geography, and scope. Courts often reduce overreaching clauses."
+                            },
+                            {
+                                "question": "How do we enforce an arbitration award?",
+                                "answer": "Thailand is a signatory to the New York Convention; foreign arbitration awards can be enforced by the Thai courts after a verification process."
+                            },
+                            {
+                                "question": "Is insurance mandatory for all contracts?",
+                                "answer": "Not by law, but professional indemnity and public liability insurance are standard for international MSAs in tech and consulting."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-legal-nuance-contracts",
+                    "type": "good_to_know",
+                    "title": "Contractual Nuances",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Document Certification",
+                                "description": "Foreign documents often require notarization and legalization at a Thai embassy to be legally recognized in Thailand."
+                            },
+                            {
+                                "title": "Language Precedence",
+                                "description": "Where dual-language contracts are used, clearly specify which version prevails in case of interpretation conflicts."
+                            },
+                            {
+                                "title": "Stamp Duty Payment",
+                                "description": "Always verify who is responsible for paying stamp duty, as contracts without stamps may be inadmissible in court."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software & Digital Solutions in Thailand",
+                "subtitle": "Accelerate your digital transformation",
+                "description": "Leverage Thailand's booming tech ecosystem. From SaaS implementation and custom ERP development to cloud migration, we connect you with the right technology.",
+                "bestFor": "Tech-forward companies and startups",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "th-soft-journey",
+                    "type": "key_steps",
+                    "title": "Digital Transformation Path",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Infrastructure Localization",
+                                "description": "Configuring software for Thai script, currency (THB), local date formats, and tax logic (VAT/WHT)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Payment Gateway Integration",
+                                "description": "Connecting to local favorites like PromptPay (QR), Rabbit LINE Pay, and TrueMoney to facilitate seamless transactions."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Data Residency Compliance",
+                                "description": "Setting up cloud instances (AWS, Azure, GCP have local presence) ensuring PDPA compliance for personal data storage."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Cybersecurity Hardening",
+                                "description": "Implementing MFA, encryption, and regular vulnerability scanning as per the Thailand Cybersecurity Act guidelines."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Bilingual Support Desk",
+                                "description": "Setting up localized support channels (email, LINE) to ensure high adoption rates among local staff and partners."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-soft-insights",
+                    "type": "insights",
+                    "title": "Tech Strategy Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Mobile internet dominance",
+                                "text": "Thailand has world-leading social media and mobile internet usage. Software must be mobile-first and optimized for low-bandwidth scenarios."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "LINE Ecosystem Integration",
+                                "text": "Leveraging LINE Messaging API and LINE LIFF apps provides a familiar interface for Thai users without requiring new app downloads."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Legacy System Friction",
+                                "text": "Replacing old manual processes requires significant 'change management'. Focus on user training and demonstrating immediate admin relief."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Open Banking Trends",
+                                "text": "Major Thai banks are opening APIs, allowing software to perform real-time bank reconciliation and automated payout tracking."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-soft-essentials",
+                    "type": "essentials",
+                    "title": "Technology Essentials",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "PDPA Privacy by Design",
+                                "description": "Software must include features for data deletion, consent logs, and audit trails to meet statutory data protection requirements."
+                            },
+                            {
+                                "title": "Electronic Tax Ready",
+                                "description": "Systems should produce the specific XML/JSON formats required for the Revenue Department's e-Tax Invoice/e-Receipt system."
+                            },
+                            {
+                                "title": "Disaster Recovery",
+                                "description": "High-availability setups with backups stored in geographically separate regions (e.g., Bangkok and Singapore) are standard for MNCs."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-soft-faq",
+                    "type": "faq",
+                    "title": "Software FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can we host our data on overseas servers?",
+                                "answer": "Yes, provided the destination country has 'adequate' data protection standards or the data subject has consented under PDPA."
+                            },
+                            {
+                                "question": "What are the most popular cloud providers in Thailand?",
+                                "answer": "AWS, GCP, and Azure are the market leaders, with multiple local availability zones and data center partnerships in Bangkok."
+                            },
+                            {
+                                "question": "Is software development eligible for tax breaks?",
+                                "answer": "Yes, 'Digital Development' projects can qualify for BOI Category 5.10, offering significant tax holidays and import duty exemptions."
+                            },
+                            {
+                                "question": "How do we handle Thai language search?",
+                                "answer": "Implementing 'Elasticsearch' or similar with specific Thai language plugins is necessary to handle word segmentation in the Thai script."
+                            },
+                            {
+                                "question": "Do you offer custom ERP integrations?",
+                                "answer": "Yes, we specialize in bridging global ERPs like SAP or Oracle with local accounting and payroll software for seamless reporting."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-soft-vendors",
+                    "type": "good_to_know",
+                    "title": "Vendor Engagement",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Service Level Agreements",
+                                "description": "Ensure SLAs include response times and support availability during Thai business hours and public holidays."
+                            },
+                            {
+                                "title": "Software Escrow",
+                                "description": "Consider escrow for critical custom software to ensure continuity if the vendor faces business challenges."
+                            },
+                            {
+                                "title": "Knowledge Transfer",
+                                "description": "Include training and documentation as part of the project scope to build internal capability for software maintenance."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing & Creative in Thailand",
+                "subtitle": "Captivate the Thai consumer",
+                "description": "Unlock one of SE Asia's most active digital markets. From influencer campaigns to LINE OA management, we connect you with agencies that deliver growth.",
+                "bestFor": "Consumer brands and digital startups",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "th-mark-strategy",
+                    "type": "key_steps",
+                    "title": "Market Entry Workflow",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Consumer Persona Mapping",
+                                "description": "Analyzing local search intent and social media behavior to define the 'Thai Target' for your product or service."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "LINE OA & CRM Setup",
+                                "description": "Building a custom LINE Official Account with Rich Menus and auto-reply features to capture and nurture Thai leads."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Influencer (KOL) Matchmaking",
+                                "description": "Selecting Key Opinion Leaders across TikTok, Instagram, and Facebook that align with your brand's voice and Thai cultural values."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Localized Content Creation",
+                                "description": "Producing video and copy in the Thai language that leverages humor, 'Sanuk' elements, and visual storytelling."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Performance Ad Optimization",
+                                "description": "Running data-driven campaigns on Facebook, Google, and TikTok with real-time ROI tracking tailored to the Thai market."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-mark-insights",
+                    "type": "insights",
+                    "title": "Market Resonance Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Facebook is the 'Mini-Internet'",
+                                "text": "In Thailand, Facebook is used for everything from discovery to purchase and customer service. A strong FB Presence is non-negotiable."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "The Power of Video",
+                                "text": "Thai consumers have high engagement with short-form video. TikTok and YouTube Shorts are the primary channels for viral brand awareness."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "LINE is for Retention",
+                                "text": "While FB/TikTok are for discovery, LINE is the absolute king for repeat purchases and 1-on-1 customer relationship management."
+                            },
+                            {
+                                "type": "info",
+                                "title": "E-Commerce Festivals",
+                                "text": "Double-day sales (11.11, 12.12) and pay-day sales are massive. Budget for high ad-spend and aggressive promotions during these windows."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-mark-essentials",
+                    "type": "essentials",
+                    "title": "Marketing Essentials",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Consumer Protection Act",
+                                "description": "All advertising must be truthful and not misleading. Specific claims (e.g., medical, health) require prior approval from the FDA."
+                            },
+                            {
+                                "title": "Copyright Ownership",
+                                "description": "Always ensure your agency contracts explicitly transfer ownership of all creative assets and raw footage to your company."
+                            },
+                            {
+                                "title": "Data Privacy (PDPA)",
+                                "description": "Lead generation forms and tracking pixels must include clear privacy notices and opt-in mechanisms as per local law."
+                            },
+                            {
+                                "title": "Language Use in Advertising",
+                                "description": "While English is widely used, official advertising for regulated sectors often requires Thai subtitles or voiceovers for consumer clarity."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-mark-faq",
+                    "type": "faq",
+                    "title": "Marketing FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Why do brands use influencers so much in Thailand?",
+                                "answer": "Thai consumers value social proof and recommendations from peers/experts over traditional corporate advertising."
+                            },
+                            {
+                                "question": "Is Google Search (SEO) effective in Thailand?",
+                                "answer": "Yes, especially for B2B and high-ticket items. However, search behavior is often bilingual (Thai and English) depending on the industry."
+                            },
+                            {
+                                "question": "How much should we budget for a social media campaign?",
+                                "answer": "Entry-level monthly retainers for professional agencies start at 30k THB, excluding ad spend. National campaigns can range into the millions."
+                            },
+                            {
+                                "question": "Do we need a Thai website?",
+                                "answer": "Absolutely. While many Thais speak English, a local language site is critical for SEO ranking and building trust with the broader market."
+                            },
+                            {
+                                "question": "Which is better: Lazada or Shopee?",
+                                "answer": "Shopee currently leads in mobile app usage, while Lazada has strong logistics. Most successful brands in Thailand sell on both simultaneously."
+                            },
+                            {
+                                "question": "What is the role of TikTok in Thai marketing?",
+                                "answer": "TikTok has seen explosive growth in Thailand, becoming a primary channel for discovery, influencer collaboration, and social commerce via TikTok Shop."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "th-mark-trends",
+                    "type": "good_to_know",
+                    "title": "Marketing Trends",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Social Commerce",
+                                "description": "Buying directly via social apps (LINE, TikTok) is significantly more common in Thailand than in many Western markets."
+                            },
+                            {
+                                "title": "Live Streaming",
+                                "description": "Real-time 'shop-tainment' via live stream is a powerful tool for driving immediate conversions for consumer products."
+                            },
+                            {
+                                "title": "Hyper-Localization",
+                                "description": "Using local dialects or culturally relevant humor can significantly improve engagement outside of the Bangkok metro area."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

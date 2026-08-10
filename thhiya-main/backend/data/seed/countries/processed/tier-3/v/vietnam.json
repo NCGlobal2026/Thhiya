@@ -1,0 +1,1945 @@
+{
+    "name": "Vietnam",
+    "code": "VN",
+    "slug": "vietnam",
+    "flag": "https://cdn.thhiya.map/flags/vn.svg",
+    "region": "Asia Pacific",
+    "languages": [
+        "Vietnamese"
+    ],
+    "currencies": [
+        "VND"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR & PEO in Vietnam",
+                "subtitle": "Hire in Vietnam without a local entity",
+                "description": "Fast-track your expansion into Vietnam using an Employer of Record. Compliantly hire local talent in days.",
+                "bestFor": "Startups and companies testing the market",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "eor-onboarding-steps",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "heroIcon": "users-three",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Document Collection",
+                                "text": "Gather essential documents from the employee, including National ID (CCCD), tax identification number (MST), and bank account details."
+                            },
+                            {
+                                "title": "Contract Drafting",
+                                "text": "Draft a compliant labor contract in Vietnamese (bilingual recommended). Must specify salary in VND."
+                            },
+                            {
+                                "title": "Social Insurance Registration",
+                                "text": "Register the employee with the Social Insurance agency. This is mandatory upon signing the labor contract."
+                            },
+                            {
+                                "title": "Onboarding & IT Setup",
+                                "text": "Provision equipment and grant access to company systems. EOR handles the payroll enrollment."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "eor-cost-structure",
+                    "type": "cost_breakdown",
+                    "title": "EOR Cost Structure",
+                    "heroIcon": "coins",
+                    "content": {
+                        "table": {
+                            "rows": [
+                                {
+                                    "title": "Management Fee",
+                                    "value": "$200 - $600",
+                                    "description": "Monthly flat fee per employee charged by the EOR provider, varying by volume."
+                                },
+                                {
+                                    "title": "Employer Taxes",
+                                    "value": "~21.5%",
+                                    "description": "Mandatory social, health, and union contributions on top of gross salary."
+                                },
+                                {
+                                    "title": "setup Fees",
+                                    "value": "$0 - $500",
+                                    "description": "One-time onboarding fee per employee, often waived for annual contracts."
+                                },
+                                {
+                                    "title": "Deposit",
+                                    "value": "1-2 Months",
+                                    "description": "Security deposit equivalent to 1 or 2 months of payroll to cover liabilities."
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "eor-compliance-insights",
+                    "type": "insights",
+                    "title": "Compliance & Risks",
+                    "heroIcon": "shield-check",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Permanent Establishment",
+                                "text": "Using an EOR reduces PE risk, but having senior managers making contracts in Vietnam can still trigger it."
+                            },
+                            {
+                                "title": "Probation Periods",
+                                "text": "Strictly regulated: max 60 days for require college degree jobs, 30 days for vocational, 180 days for executives."
+                            },
+                            {
+                                "title": "Termination Rights",
+                                "text": "Vietnam is pro-employee. Unilateral termination by employer is very difficult and requires strict legal grounds."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "eor-essentials",
+                    "type": "essentials",
+                    "title": "EOR Essentials",
+                    "heroIcon": "info",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Currency Rule",
+                                "text": "All employment contracts and salary payments to residents must be denominated in VND."
+                            },
+                            {
+                                "title": "13th Month Salary",
+                                "text": "Not legally mandatory but practically standard. Usually equals one month's salary paid before Tet holiday."
+                            },
+                            {
+                                "title": "Public Holidays",
+                                "text": "Employees are entitled to 11 fully paid public holidays per year (increasing to 13-14 days depending on lunar calendar impact)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "eor-logistics-insights",
+                    "type": "insights",
+                    "title": "IT Equipment",
+                    "heroIcon": "laptop",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Import Duties",
+                                "text": "Sending laptops from abroad incurs high import taxes (10-30%) and VAT (10%). Customs clearance can be slow."
+                            },
+                            {
+                                "title": "Local Procurement",
+                                "text": "Highly recommended to buy locally (e.g., FPT Shop, CellphoneS). Warranty support is local and delivery is instant."
+                            },
+                            {
+                                "title": "Asset Management",
+                                "text": "EOR provider usually doesn't hold assets. Assets must be gifted to employee or owned by foreign entity (complex)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "eor-faq",
+                    "type": "faq",
+                    "title": "EOR FAQ",
+                    "heroIcon": "question",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can EOR employees obtain stock options?",
+                                "answer": "Yes, but tax handling for ESOPs in Vietnam is complex and EORs often require specific indemnity clauses."
+                            },
+                            {
+                                "question": "Are background checks legal?",
+                                "answer": "Yes, but they require explicit candidate consent due to strict Personal Data Protection Decree (PDPD)."
+                            },
+                            {
+                                "question": "How long can I use an EOR?",
+                                "answer": "Ideally for 12-18 months. Long-term use generally increases PE risk and compliance scrutiny."
+                            },
+                            {
+                                "question": "Does the EOR handle visa processing?",
+                                "answer": "Yes, EORs can sponsor work permits and TRCs (Temporary Residence Cards) for foreign employees."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "payroll-filing-cycle",
+                    "type": "key_steps",
+                    "title": "Filing Cycle",
+                    "heroIcon": "arrows-clockwise",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Data Collection",
+                                "text": "Cut-off date typically 20th-25th. Gather overtime, leave, and bonus data."
+                            },
+                            {
+                                "title": "Calculation",
+                                "text": "Calculate Gross-to-Net, applying SI/HI/UI deductions and progressive PIT rates."
+                            },
+                            {
+                                "title": "Approval & Payment",
+                                "text": "Approve preliminary payroll. Transfer Net Salary to employees by the last working day."
+                            },
+                            {
+                                "title": "Remittance",
+                                "text": "Remit SHUI contributions and withheld PIT to tax authorities by month-end or 20th of next month."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "payroll-employer-burden",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden",
+                    "heroIcon": "coins",
+                    "content": {
+                        "table": {
+                            "rows": [
+                                {
+                                    "title": "Social Insurance",
+                                    "value": "17.5%",
+                                    "description": "Retirement (14%), Sickness/Maternity (3%), Occupational Disease (0.5%)."
+                                },
+                                {
+                                    "title": "Health Insurance",
+                                    "value": "3.0%",
+                                    "description": "Mandatory contribution to the national health fund."
+                                },
+                                {
+                                    "title": "Unemployment Ins.",
+                                    "value": "1.0%",
+                                    "description": "Applicable for Vietnamese nationals only (0% for expats)."
+                                },
+                                {
+                                    "title": "Trade Union Fee",
+                                    "value": "2.0%",
+                                    "description": "Capped at 10% of base salary multiplier, mandatory for all companies."
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "payroll-essentials",
+                    "type": "essentials",
+                    "title": "Mandatory Benefits",
+                    "heroIcon": "star",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Paid Leave",
+                                "text": "Minimum 12 days annual leave. Increases by 1 day for every 5 years of service."
+                            },
+                            {
+                                "title": "Sick Leave",
+                                "text": "Paid by Social Insurance Agency, not employer (unless company offers top-up). Rate is 75% of salary."
+                            },
+                            {
+                                "title": "Maternity Leave",
+                                "text": "6 months mandatory leave. Paid by Social Insurance Agency at 100% of average salary cap."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "payroll-insights",
+                    "type": "insights",
+                    "title": "Local Nuances",
+                    "heroIcon": "lightbulb",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Salary Confidentiality",
+                                "text": "Culturally sensitive, but pay slips must be provided. Discussing salary is common among peers."
+                            },
+                            {
+                                "title": "Dependent Deductions",
+                                "text": "Employees can claim 4.4M VND/month deduction per dependent for PIT calculation. Requires registration."
+                            },
+                            {
+                                "title": "Overtime Caps",
+                                "text": "Strictly capped at 40h/month and 200h/year. Requires report to Dept of Labor for exceptions."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "payroll-overtime-rules-detail",
+                    "type": "key_steps",
+                    "title": "Overtime Calculation Rules",
+                    "heroIcon": "clock-counter-clockwise",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Standard Weekday",
+                                "text": "Overtime on regular working days is paid at 150% of the actual hourly wage."
+                            },
+                            {
+                                "title": "Weekend / Rest Day",
+                                "text": "Work performed on weekly rest days (usually Saturday/Sunday) is paid at 200% of the actual hourly wage."
+                            },
+                            {
+                                "title": "Public Holiday / Tet",
+                                "text": "Work on public holidays and paid leave days is paid at 300% of the actual hourly wage, generally separate from holiday pay."
+                            },
+                            {
+                                "title": "Night Shift Premium",
+                                "text": "Night work (10 PM - 6 AM) incurs an additional 30% premium. Night overtime calculates to roughly 200% (weekday), 270% (weekend), or 390% (holiday)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "payroll-dependent-registration",
+                    "type": "key_steps",
+                    "title": "Dependent Registration",
+                    "heroIcon": "user-plus",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Form 02/ĐK-NPT-TNCN",
+                                "text": "Employee submits registration form to HR/Employer. HR consolidates and submits Form 20-ĐK-TH-TCT to Tax Authority."
+                            },
+                            {
+                                "title": "Document Proof",
+                                "text": "Children <18: Birth certificate. Spouse: Marriage cert + proof of low income. Parents: ID/Household book + proof of low income."
+                            },
+                            {
+                                "title": "Deadline",
+                                "text": "Must be registered to claim the 4.4M VND/month deduction. Late registration may result in lost deductions for past months."
+                            },
+                            {
+                                "title": "Tax Code",
+                                "text": "Dependents must be issued a Dependent Tax Code by the Tax Authority to be valid."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "payroll-penalties-2025",
+                    "type": "cost_breakdown",
+                    "title": "Payroll Violations 2025",
+                    "heroIcon": "warning-octagon",
+                    "content": {
+                        "table": {
+                            "rows": [
+                                {
+                                    "title": "Late Declaration",
+                                    "value": "2M - 25M VND",
+                                    "description": "Fine for submitting PIT/SHUI declarations past the deadline (tier-based)."
+                                },
+                                {
+                                    "title": "Late Payment",
+                                    "value": "0.03% / day",
+                                    "description": "Daily interest on the unpaid tax/insurance amount."
+                                },
+                                {
+                                    "title": "Evasion",
+                                    "value": "1x - 3x Tax",
+                                    "description": "Serious evasion (e.g., hiding income) incurs 100% to 300% of tax evaded."
+                                },
+                                {
+                                    "title": "SHUI Evasion",
+                                    "value": "12% - 15%",
+                                    "description": "Fine of 12% to 15% of total evaded insurance contributions (max 75M VND)."
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "payroll-faq",
+                    "type": "faq",
+                    "title": "Payroll FAQ",
+                    "heroIcon": "question",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I pay in USD?",
+                                "answer": "No. For Vietnamese residents, salary must be paid in VND. Expats can receive foreign currency but VND is preferred."
+                            },
+                            {
+                                "question": "Is the 13th month salary taxable?",
+                                "answer": "Yes, it is treated as regular taxable income for PIT purposes."
+                            },
+                            {
+                                "question": "When are tax filings due?",
+                                "answer": "Monthly declarations by the 20th of the following month. Annual finalization by March 31st."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "calc-process-steps",
+                    "type": "key_steps",
+                    "title": "Calculation Logic",
+                    "heroIcon": "calculator",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Determine Base",
+                                "text": "Start with Gross Salary. Identify portions subject to SI/HI (capped at 20x base salary)."
+                            },
+                            {
+                                "title": "Deduct Exemptions",
+                                "text": "Subtract personal deduction (11M VND) and dependent deductions (4.4M/person)."
+                            },
+                            {
+                                "title": "Apply PIT Rate",
+                                "text": "Apply progressive tax rate (5% to 35%) on taxable income."
+                            },
+                            {
+                                "title": "Calculate Net",
+                                "text": "Gross - (Employee SI/HI/UI) - PIT = Net Salary."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "calc-employer-burden",
+                    "type": "cost_breakdown",
+                    "title": "Employer Contributions",
+                    "heroIcon": "coins",
+                    "content": {
+                        "table": {
+                            "rows": [
+                                {
+                                    "title": "Social Insurance",
+                                    "value": "17.5%",
+                                    "description": "Retirement & Sickness funds. Capped at salary of 46.8M VND (2025 est)."
+                                },
+                                {
+                                    "title": "Health Insurance",
+                                    "value": "3.0%",
+                                    "description": "Medical coverage. Capped same as SI."
+                                },
+                                {
+                                    "title": "Unemployment",
+                                    "value": "1.0%",
+                                    "description": "Capped at 20x regional minimum wage. 0% for Expats."
+                                },
+                                {
+                                    "title": "Trade Union",
+                                    "value": "2.0%",
+                                    "description": "Capped at 10% of base salary multiplier. Mandatory."
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "calc-essentials-caps",
+                    "type": "essentials",
+                    "title": "Caps & Limits",
+                    "heroIcon": "arrow-line-up",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "SI/HI Cap",
+                                "text": "20x Base Salary. (Approx 46.8M VND). Salary above this is not subject to 17.5% + 3% charge."
+                            },
+                            {
+                                "title": "UI Cap",
+                                "text": "20x Regional Minimum Wage. (Region 1: ~99M VND cap)."
+                            },
+                            {
+                                "title": "Personal Deduction",
+                                "text": "11,000,000 VND / month self-deduction for PIT."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "calc-insights-overtime",
+                    "type": "insights",
+                    "title": "Overtime & Bonus",
+                    "heroIcon": "clock",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Overtime Rates",
+                                "text": "Weekday: 150%. Weekend: 200%. Holiday: 300%. Night shift: +30%."
+                            },
+                            {
+                                "title": "Non-Taxable",
+                                "text": "Certain allowances (lunch, phone, uniform) are exempt from PIT if within caps."
+                            },
+                            {
+                                "title": "Net vs Gross",
+                                "text": "If contract is Net, employer must gross-up taxes. Gross contracts are safer."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "calc-faq",
+                    "type": "faq",
+                    "title": "Payroll FAQ",
+                    "heroIcon": "question",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is lunch allowance taxable?",
+                                "answer": "Exempt up to 730,000 VND/month. Above that is taxable."
+                            },
+                            {
+                                "question": "Are severance payments taxable?",
+                                "answer": "Statutory severance is tax-exempt. Voluntary excess severance is taxable."
+                            },
+                            {
+                                "question": "Do interns pay tax?",
+                                "answer": "Income above 2M VND/month is subject to 10% withholding tax."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation in Vietnam",
+                "subtitle": "Set up your legal entity in Vietnam",
+                "description": "Step-by-step guide to company registration, from IRC to ERC.",
+                "bestFor": "Long-term market commitment",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "incorp-process-steps",
+                    "type": "key_steps",
+                    "title": "Registration Process",
+                    "heroIcon": "list-checks",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Investment Registration (IRC)",
+                                "text": "Apply for Investment Registration Certificate. Requires proving financial capacity and office lease."
+                            },
+                            {
+                                "title": "Enterprise Registration (ERC)",
+                                "text": "Apply for Enterprise Registration Certificate. This is the official 'birth certificate' of the company."
+                            },
+                            {
+                                "title": "Seal & Tax Registration",
+                                "text": "Carve the company seal, register sample with portal, and complete initial tax registration."
+                            },
+                            {
+                                "title": "Bank Account Opening",
+                                "text": "Open Direct Investment Capital Account (DICA) and current account. Inject capital within 90 days."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "incorp-cost-breakdown",
+                    "type": "cost_breakdown",
+                    "title": "Setup Costs",
+                    "heroIcon": "coins",
+                    "content": {
+                        "table": {
+                            "rows": [
+                                {
+                                    "title": "Government Fees",
+                                    "value": "$100 - $200",
+                                    "description": "Official filing fees for IRC, ERC, and seal registration."
+                                },
+                                {
+                                    "title": "Legal/Agency Fees",
+                                    "value": "$2,000 - $5,000",
+                                    "description": "Professional fees for drafting, submission, and follow-up with DPI."
+                                },
+                                {
+                                    "title": "Virtual Office",
+                                    "value": "$50 - $150/mo",
+                                    "description": "Required for registration address. Most providers require 6-12 months upfront."
+                                },
+                                {
+                                    "title": "Minimum Capital",
+                                    "value": "$10k - $25k",
+                                    "description": "No legal minimum for most sectors, but this amount is practical for approval."
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "incorp-entity-types",
+                    "type": "essentials",
+                    "title": "Entity Types",
+                    "heroIcon": "building",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "LLC (1 Member)",
+                                "text": "Most common for foreign investors. Liability limited to capital contribution. Simple structure."
+                            },
+                            {
+                                "title": "LLC (2+ Members)",
+                                "text": "Requires a Members' Council. Good for Joint Ventures. Max 50 members."
+                            },
+                            {
+                                "title": "JSC (Joint Stock)",
+                                "text": "Required for IPOs. Minimum 3 shareholders. specific governance complexity."
+                            },
+                            {
+                                "title": "RO (Rep Office)",
+                                "text": "Cannot generate revenue. Can only do market research and liaison. Easiest to setup."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "incorp-insights",
+                    "type": "insights",
+                    "title": "Post-Licensing",
+                    "heroIcon": "flag",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Capital Injection",
+                                "text": "Strict deadline: 90 days from ERC issuance. Failure incurs heavy fines."
+                            },
+                            {
+                                "title": "Business License",
+                                "text": "Required for retail/trading activities additionally to IRC/ERC. Adds 1-2 months to timeline."
+                            },
+                            {
+                                "title": "Electronic Signature",
+                                "text": "Immediate purchase of e-signature token is needed for tax filing."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "incorp-govt-fees-2025",
+                    "type": "cost_breakdown",
+                    "title": "Govt Filing Fees 2025",
+                    "heroIcon": "stamp",
+                    "content": {
+                        "table": {
+                            "rows": [
+                                {
+                                    "title": "Registration Fee",
+                                    "value": "0 - 100k VND",
+                                    "description": "Online registration is often free. Paper submission incurs small fees."
+                                },
+                                {
+                                    "title": "Publication Fee",
+                                    "value": "100,000 VND",
+                                    "description": "Mandatory fee to publish registration on National Business Registration Portal."
+                                },
+                                {
+                                    "title": "License Tax",
+                                    "value": "2M - 3M VND",
+                                    "description": "Annual business license tax (Monbai). 3M for capital >10B VND. 2M below."
+                                },
+                                {
+                                    "title": "Seal Carving",
+                                    "value": "300k - 500k VND",
+                                    "description": "Cost to create the corporate seal. Digital signatures cost separately."
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "incorp-post-licensing",
+                    "type": "key_steps",
+                    "title": "Post-Licensing Check",
+                    "heroIcon": "clipboard-check",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Open Bank Account",
+                                "text": "Open Capital Account (DICA) and Current Account. Notify DPI of bank details."
+                            },
+                            {
+                                "title": "Digital Signature",
+                                "text": "Purchase USB Token (e-signature) from providers like Viettel, VNPT, BKAV."
+                            },
+                            {
+                                "title": "E-Invoice Reg",
+                                "text": "Register for e-invoicing service and notify Tax Authority of invoice template."
+                            },
+                            {
+                                "title": "Signboard",
+                                "text": "Hang company signboard at registered address. Tax officers will verify this physically."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "incorp-faq",
+                    "type": "faq",
+                    "title": "Incorporation FAQ",
+                    "heroIcon": "question",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can a foreigner own 100%?",
+                                "answer": "Yes, for most sectors (IT, Manufacturing, Consulting). Logistics/Tourism have restrictions."
+                            },
+                            {
+                                "question": "How long does it take?",
+                                "answer": "Typically 30-45 working days for standard services. Manufacturing/Trading takes longer."
+                            },
+                            {
+                                "question": "Do I need a resident director?",
+                                "answer": "Yes, at least one Legal Representative must reside in Vietnam."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Vietnam",
+                "subtitle": "Recruit top Vietnamese talent",
+                "description": "Navigate the recruitment landscape: fees, agencies, and hiring norms.",
+                "bestFor": "Scaling teams rapidly",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "staffing-hiring-process",
+                    "type": "key_steps",
+                    "title": "Hiring Process",
+                    "heroIcon": "user-plus",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Define Role & Budget",
+                                "text": "Benchmark local salaries. Tech talent in HCMC/Hanoi is competitive."
+                            },
+                            {
+                                "title": "Sourcing",
+                                "text": "Use VietnamWorks, TopDev (for tech), and LinkedIn. Agencies are faster for niche roles."
+                            },
+                            {
+                                "title": "Screening & Interview",
+                                "text": "Assess English proficiency (varies widely). Test technical skills early."
+                            },
+                            {
+                                "title": "Offer & Negotiation",
+                                "text": "Quote salary in Gross. Clarify 'Net' expectations (common in Vietnam)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "staffing-cost-breakdown",
+                    "type": "cost_breakdown",
+                    "title": "Recruitment Fees",
+                    "heroIcon": "coins",
+                    "content": {
+                        "table": {
+                            "rows": [
+                                {
+                                    "title": "Agency Fee",
+                                    "value": "15% - 20%",
+                                    "description": "Of candidate's annual gross salary. Retainer may be required for exec search."
+                                },
+                                {
+                                    "title": "Posting Fee",
+                                    "value": "$100 - $300",
+                                    "description": "Per job post on premium boards like VietnamWorks or ITVieck."
+                                },
+                                {
+                                    "title": "Background Check",
+                                    "value": "$50 - $150",
+                                    "description": "Basic check (education, employment history) via third-party vendors."
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "staffing-landscape",
+                    "type": "insights",
+                    "title": "Staffing Landscape",
+                    "heroIcon": "users",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Tech Talent Hub",
+                                "text": "Vietnam is a top outsourcing destination. Strong backend/frontend skills; soft skills improving."
+                            },
+                            {
+                                "title": "Job Hopping",
+                                "text": "High turnover (15-20%) in tech. Annual salary reviews and clear growth paths are crucial."
+                            },
+                            {
+                                "title": "Tet Bonus",
+                                "text": "Candidates expect 13th-month salary. Factor this 8.33% cost into your annual budget."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "staffing-essentials",
+                    "type": "essentials",
+                    "title": "Contract Essentials",
+                    "heroIcon": "file-text",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Probation",
+                                "text": "2 months is standard for professionals. Salary must be at least 85% of official wage."
+                            },
+                            {
+                                "title": "Non-Compete",
+                                "text": "Hard to enforce legally in Vietnam unless specifically structured and reasonable."
+                            },
+                            {
+                                "title": "Fixed-Term",
+                                "text": "Can sign max 2 fixed-term contracts (12-36mo); 3rd must be indefinite."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "staffing-faq",
+                    "type": "faq",
+                    "title": "Hiring FAQ",
+                    "heroIcon": "question",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I hire contractors?",
+                                "answer": "Yes, but beware of misclassification. Long-term exclusive contractors are deemed employees."
+                            },
+                            {
+                                "question": "What is the average tech salary?",
+                                "answer": "Junior: $600-$1k. Senior: $2k-$4k. Lead: $4k+. (Monthly Gross)"
+                            },
+                            {
+                                "question": "Is English widely spoken?",
+                                "answer": "Good in urban centers (HCMC, Hanoi) and among young professionals, but variable elsewhere."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS in Vietnam",
+                "subtitle": "Digitize your Vietnam HR ops",
+                "description": "Top HRIS platforms, compliance features, and implementation guides.",
+                "bestFor": "Modernizing HR workflows",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "hris-implementation-steps",
+                    "type": "key_steps",
+                    "title": "Implementation",
+                    "heroIcon": "stack",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Requirements Mapping",
+                                "text": "Identify local needs: PIT calculation, Shifts (for manufacturing), Social Insurance interface."
+                            },
+                            {
+                                "title": "Vendor Selection",
+                                "text": "Choose between local (Base.vn, Tanca) for compliance vs Global (Workday) for HQ reporting."
+                            },
+                            {
+                                "title": "Data Migration",
+                                "text": "Import employee records. Ensure fields match Vietnam labor code (Ethnicity, Hometown)."
+                            },
+                            {
+                                "title": "Go-Live & Training",
+                                "text": "Train HR admins and roll out mobile app to staff for leave requests/payslips."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hris-essentials",
+                    "type": "essentials",
+                    "title": "Top HRIS Providers",
+                    "heroIcon": "medal",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Base.vn",
+                                "text": "Market leader for SMEs. Comprehensive suite (HR, Work, Wework). Strong local UX."
+                            },
+                            {
+                                "title": "Tanca",
+                                "text": "Strong on scheduling and shift management. Good for retail/F&B."
+                            },
+                            {
+                                "title": "Grove HR",
+                                "text": "Modern, mobile-first, agile. popular with tech startups."
+                            },
+                            {
+                                "title": "SAP/Workday",
+                                "text": "Used by enterprises. Often requires 'localization pack' integration for tax."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hris-compliance-insights",
+                    "type": "insights",
+                    "title": "Compliance Features",
+                    "heroIcon": "shield-check",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Automated PIT",
+                                "text": "Must handle progressive tax brackets and auto-deduct for dependents."
+                            },
+                            {
+                                "title": "Insurance Reports",
+                                "text": "Ability to export standard forms (files) for submission to Social Insurance Agency."
+                            },
+                            {
+                                "title": "Data Localization",
+                                "text": "Cybersecurity Law implies personal data of Vietnamese users should be stored locally."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hris-costs",
+                    "type": "cost_breakdown",
+                    "title": "HRIS Costs",
+                    "heroIcon": "coins",
+                    "content": {
+                        "table": {
+                            "rows": [
+                                {
+                                    "title": "SME SaaS",
+                                    "value": "$2 - $5",
+                                    "description": "Per user/month. Affordable tiers from local providers."
+                                },
+                                {
+                                    "title": "Implementation",
+                                    "value": "$500 - $2,000",
+                                    "description": "One-time setup fee for data migration and training."
+                                },
+                                {
+                                    "title": "Enterprise",
+                                    "value": "$10k+",
+                                    "description": "Annual licenses for complex ERP-integrated HR suites."
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "hris-faq",
+                    "type": "faq",
+                    "title": "HRIS FAQ",
+                    "heroIcon": "question",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I use Excel?",
+                                "answer": "For <10 people, yes. But PIT/Insurance compliance quickly becomes unmanageable."
+                            },
+                            {
+                                "question": "Does it integrate with banks?",
+                                "answer": "Many local HRIS (like Base) integrate with local banks for automated payroll disbursement."
+                            },
+                            {
+                                "question": "Language support?",
+                                "answer": "Critical. System must be bilingual (VN/EN) for mixed teams."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting in Vietnam",
+                "subtitle": "VAS, IFRS, and Bookkeeping",
+                "description": "Master financial compliance: standards, audits, and e-invoicing.",
+                "bestFor": "Finance Controllers",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "accounting-audit-steps",
+                    "type": "key_steps",
+                    "title": "Audit Process",
+                    "heroIcon": "clipboard-text",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Appointment",
+                                "text": "Appoint an independent auditor before fiscal year-end (usually Dec 31). Notify tax authority."
+                            },
+                            {
+                                "title": "Fieldwork",
+                                "text": "Auditors review records, invoices, and bank statements onsite or remotely (Jan-Feb)."
+                            },
+                            {
+                                "title": "Draft Report",
+                                "text": "Review draft audited financials. Discuss adjustments with auditor."
+                            },
+                            {
+                                "title": "Submission",
+                                "text": "Sign and submit final report to Licensing Authority, Tax Dept, and Statistics Office by Mar 31."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "accounting-cost-breakdown",
+                    "type": "cost_breakdown",
+                    "title": "Accounting Costs",
+                    "heroIcon": "coins",
+                    "content": {
+                        "table": {
+                            "rows": [
+                                {
+                                    "title": "Outsourced Bookkeeping",
+                                    "value": "$300 - $800",
+                                    "description": "Monthly fee for SMEs depending on transaction volume."
+                                },
+                                {
+                                    "title": "Statutory Audit",
+                                    "value": "$2,000 - $5,000",
+                                    "description": "Annual fee per entity. Mandatory for all foreign-owned companies."
+                                },
+                                {
+                                    "title": "Chief Accountant returns",
+                                    "value": "$500+",
+                                    "description": "Fee for signing off on reports if using a junior in-house accountant."
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "accounting-standards",
+                    "type": "essentials",
+                    "title": "Standards (VAS)",
+                    "heroIcon": "book-open",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "VAS vs IFRS",
+                                "text": "Vietnam Accounting Standards (VAS) are mandatory. Differences exist in revenue recognition and asset valuation."
+                            },
+                            {
+                                "title": "FY Definition",
+                                "text": "Standard is Jan 1 - Dec 31. Changes require approval from Finance Ministry."
+                            },
+                            {
+                                "title": "Language & Currency",
+                                "text": "Books must be in Vietnamese and VND. Dual language/currency allowed with approval."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "accounting-einvoice",
+                    "type": "insights",
+                    "title": "E-Invoicing",
+                    "heroIcon": "file-code",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Mandatory",
+                                "text": "100% compulsory. Paper invoices are obsolete. Must use certified e-invoice providers."
+                            },
+                            {
+                                "title": "Instant Validation",
+                                "text": "Invoices are sent to Tax Authority for validation codes before issuance to buyers."
+                            },
+                            {
+                                "title": "Input VAT",
+                                "text": "Strict scrutiny. Input invoices must be legitimate to claim VAT credits."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "accounting-faq",
+                    "type": "faq",
+                    "title": "Accounting FAQ",
+                    "heroIcon": "question",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I do accounting in-house?",
+                                "answer": "Yes, but you must have a licensed Chief Accountant appointed legally."
+                            },
+                            {
+                                "question": "What is the penalty for late audit?",
+                                "answer": "Fines ranging from 5M to 30M VND, plus risk of tax inspection."
+                            },
+                            {
+                                "question": "Are software costs deductible?",
+                                "answer": "Yes, if compliant invoices are obtained."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "compliance-calendar-steps",
+                    "type": "key_steps",
+                    "title": "Compliance Calendar",
+                    "heroIcon": "calendar",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Jan 30",
+                                "text": "Pay Annual Business License Fee (License Tax)."
+                            },
+                            {
+                                "title": "Mar 31",
+                                "text": "Deadline: CIT Finalization, PIT Finalization, Audited Financial Reports, Statistics Report."
+                            },
+                            {
+                                "title": "Monthly (20th)",
+                                "text": "VAT & PIT declarations for the previous month."
+                            },
+                            {
+                                "title": "Quarterly (30th)",
+                                "text": "CIT provisional payment. Report on use of invoices."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "compliance-costs-penalties",
+                    "type": "cost_breakdown",
+                    "title": "Compliance Penalties",
+                    "heroIcon": "warning",
+                    "content": {
+                        "table": {
+                            "rows": [
+                                {
+                                    "title": "Late Filing (Tax)",
+                                    "value": "2M - 25M VND",
+                                    "description": "Administrative fine depending on delay duration."
+                                },
+                                {
+                                    "title": "Late Payment Interest",
+                                    "value": "0.03% / day",
+                                    "description": "Daily interest charged on the overdue tax amount."
+                                },
+                                {
+                                    "title": "Evasion",
+                                    "value": "1x - 3x Tax",
+                                    "description": "Fine of 1 to 3 times the evaded tax amount for serious violations."
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "compliance-bodies-essentials",
+                    "type": "essentials",
+                    "title": "Regulatory Bodies",
+                    "heroIcon": "bank",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "DPI",
+                                "text": "Dept of Planning & Investment. Grants IRC/ERC. Manages foreign investment."
+                            },
+                            {
+                                "title": "GDT",
+                                "text": "General Dept of Taxation. Collects taxes, conducts inspections."
+                            },
+                            {
+                                "title": "DOLISA",
+                                "text": "Dept of Labor, Invalids & Social Affairs. Manages work permits, labor codes."
+                            },
+                            {
+                                "title": "SBV",
+                                "text": "State Bank of Vietnam. Regulates foreign exchange and banking transactions."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "compliance-common-pitfalls",
+                    "type": "insights",
+                    "title": "Common Pitfalls",
+                    "heroIcon": "siren",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Capital Account (DICA)",
+                                "text": "Failure to route investment funds through DICA freezes ability to repatriate profits."
+                            },
+                            {
+                                "title": "Work Permit Gaps",
+                                "text": "Expats working while waiting for permit renewal is illegal and risks deportation."
+                            },
+                            {
+                                "title": "Address Mis-match",
+                                "text": "Registered address must match actual office. Tax officers do site visits."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "compliance-fines-2025",
+                    "type": "cost_breakdown",
+                    "title": "Admin Violations",
+                    "heroIcon": "warning-circle",
+                    "content": {
+                        "table": {
+                            "rows": [
+                                {
+                                    "title": "No Work Permit",
+                                    "value": "Deportation",
+                                    "description": "Foreigners working without permit face deportation. Employer fined up to 75M VND."
+                                },
+                                {
+                                    "title": "Late Social Insurance",
+                                    "value": "12% - 20%",
+                                    "description": "Interest + fines on late SI payments. Criminal charges for evasion possible."
+                                },
+                                {
+                                    "title": "Unlicensed Website",
+                                    "value": "10M - 20M VND",
+                                    "description": "E-commerce sites not notified to MoIT."
+                                },
+                                {
+                                    "title": "Advertising",
+                                    "value": "15M - 20M VND",
+                                    "description": "Advertising without proper content approval (for special sectors)."
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "compliance-faq",
+                    "type": "faq",
+                    "title": "Compliance FAQ",
+                    "heroIcon": "question",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "How often are tax audits?",
+                                "answer": "Typically every 3-5 years, or triggered by high refund claims/suspicious activity."
+                            },
+                            {
+                                "question": "Can I amend filings?",
+                                "answer": "Yes, before tax authority announces an audit. Penalties may still apply for late payment."
+                            },
+                            {
+                                "question": "Is GDPR applicable?",
+                                "answer": "Vietnam has its own PDPD (Decree 13/2023) which mimics many GDPR principles."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "tax-filing-steps",
+                    "type": "key_steps",
+                    "title": "Filing Workflow",
+                    "heroIcon": "paper-plane-tilt",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Preparation",
+                                "text": "Compile sales/purchase ledgers. Verify e-invoices."
+                            },
+                            {
+                                "title": "Declaration",
+                                "text": "Submit monthly/quarterly VAT and PIT declarations via eTax (Thuedientu) portal."
+                            },
+                            {
+                                "title": "Payment",
+                                "text": "Pay tax liability via bank transfer to State Treasury account. Date of transfer = Date of payment."
+                            },
+                            {
+                                "title": "Finalization",
+                                "text": "Perform annual reconciliation (CIT/PIT) by 90th day of new fiscal year."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "tax-rates-essentials",
+                    "type": "essentials",
+                    "title": "Tax Rates 2025",
+                    "heroIcon": "percent",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "CIT (Corporate)",
+                                "text": "Standard rate 20%. Oil/Gas/Resources have higher rates (32-50%)."
+                            },
+                            {
+                                "title": "VAT (Value Added)",
+                                "text": "Standard 10%. Reduced 8% applies to specific sectors (legislative updates frequent)."
+                            },
+                            {
+                                "title": "FCT (Foreign Contractor)",
+                                "text": "Withholding tax on payments to foreign vendors. Services: 5% VAT + 5% CIT."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "tax-incentives-insights",
+                    "type": "insights",
+                    "title": "Incentives",
+                    "heroIcon": "trend-up",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "High-Tech / Software",
+                                "text": "4 years tax holiday + 9 years 50% reduction + 10% rate for 15 years. (Conditions apply)."
+                            },
+                            {
+                                "title": "Industrial Zones",
+                                "text": "Specific locations offer holidays (e.g., 2 years exemption, 4 years 50% reduction)."
+                            },
+                            {
+                                "title": "Application",
+                                "text": "Self-assessment system. You claim incentives but must enable proof during audits."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "tax-withholding-cost",
+                    "type": "cost_breakdown",
+                    "title": "Withholding Tax Rates",
+                    "heroIcon": "coins",
+                    "content": {
+                        "table": {
+                            "rows": [
+                                {
+                                    "title": "Dividends (Corp)",
+                                    "value": "0%",
+                                    "description": "No WHT on dividends paid to foreign corporate shareholders."
+                                },
+                                {
+                                    "title": "Dividends (Indiv)",
+                                    "value": "5%",
+                                    "description": "WHT applies to dividends paid to individual shareholders."
+                                },
+                                {
+                                    "title": "Interest",
+                                    "value": "5%",
+                                    "description": "WHT on loan interest paid to offshore lenders."
+                                },
+                                {
+                                    "title": "Royalties",
+                                    "value": "10%",
+                                    "description": "WHT on license fees, IP transfer, technology transfer."
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "tax-penalties-detail",
+                    "type": "cost_breakdown",
+                    "title": "Tax Penalty Rates",
+                    "heroIcon": "gavel",
+                    "content": {
+                        "table": {
+                            "rows": [
+                                {
+                                    "title": "Admin Fine (Indiv)",
+                                    "value": "2M - 25M VND",
+                                    "description": "Administrative fine for late filing (from 1 to 90+ days)."
+                                },
+                                {
+                                    "title": "Admin Fine (Org)",
+                                    "value": "4M - 50M VND",
+                                    "description": "Organizations face double the fines of individuals for the same violation."
+                                },
+                                {
+                                    "title": "False Declaration",
+                                    "value": "20% Underpaid",
+                                    "description": "20% fine on the under-declared tax amount (if unintentional)."
+                                },
+                                {
+                                    "title": "Fraud/Evasion",
+                                    "value": "100% - 300%",
+                                    "description": "1 to 3 times the evaded tax amount for deliberate evasion."
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "tax-deductions-list",
+                    "type": "essentials",
+                    "title": "Deductions Checklist",
+                    "heroIcon": "check-square",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Business Expenses",
+                                "text": "Wages, raw materials, depreciation, and scientific research are deductible if documented."
+                            },
+                            {
+                                "title": "Non-Deductible",
+                                "text": "Fines, penalties, and expenses exceeding caps (e.g. welfare >1 month salary) are not deductible."
+                            },
+                            {
+                                "title": "Documentation",
+                                "text": "Legitimate e-invoice, proof of non-cash payment (bank transfer) for invoices >20M VND."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "tax-faq",
+                    "type": "faq",
+                    "title": "Tax FAQ",
+                    "heroIcon": "question",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is tax filing digital?",
+                                "answer": "Yes, 100% digital. Requires a USB Token (Digital Signature)."
+                            },
+                            {
+                                "question": "Can I carry forward losses?",
+                                "answer": "Yes, losses can be carried forward for up to 5 years."
+                            },
+                            {
+                                "question": "Are entertainment expenses deductible?",
+                                "answer": "Generally capped or restricted. Must be business related with valid invoices."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "MSA & Legal in Vietnam",
+                "subtitle": "Contracts and Dispute Resolution",
+                "description": "Essential legal framework for commercial agreements in Vietnam.",
+                "bestFor": "Legal Counsels",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "msa-drafting-steps",
+                    "type": "key_steps",
+                    "title": "Drafting Process",
+                    "heroIcon": "pen-nib",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Framework Setup",
+                                "text": "Define parties clearly. For foreign entities, verify signatory authority."
+                            },
+                            {
+                                "title": "Bilingual Drafting",
+                                "text": "Draft in Vietnamese and English. Vietnamese version takes precedence in court."
+                            },
+                            {
+                                "title": "Penalty Inclusion",
+                                "text": "Include 'Penalty' clause (capped at 8%) AND 'Compensation' clause (actual loss)."
+                            },
+                            {
+                                "title": "Dispute Resolution",
+                                "text": "Select VIAC arbitration for neutrality. Avoid local courts if possible."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "msa-key-clauses-insights",
+                    "type": "insights",
+                    "title": "Key Clauses",
+                    "heroIcon": "scales",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Penalty Cap",
+                                "text": "Commercial Law Art 301 limits penalties to 8% of the breached obligation value."
+                            },
+                            {
+                                "title": "Liquidated Damages",
+                                "text": "Not recognized as such. Use 'Commercial Penalty' + 'Damages' structure instead."
+                            },
+                            {
+                                "title": "Force Majeure",
+                                "text": "Must be explicitly defined. Courts are strict on what constitutes an 'event'."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "msa-essentials",
+                    "type": "essentials",
+                    "title": "Contract Essentials",
+                    "heroIcon": "file-text",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Governing Law",
+                                "text": "Vietnamese Law is standard. Foreign law valid only if not conflicting with VN civil code."
+                            },
+                            {
+                                "title": "Validity",
+                                "text": "Contracts must be signed by the Legal Representative. Stamps (Seal) are customary."
+                            },
+                            {
+                                "title": "Notarization",
+                                "text": "Generally not required for service MSAs, only for real estate/IP transfer."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "msa-costs-legal",
+                    "type": "cost_breakdown",
+                    "title": "Legal Costs",
+                    "heroIcon": "coins",
+                    "content": {
+                        "table": {
+                            "rows": [
+                                {
+                                    "title": "Contract Review",
+                                    "value": "$500 - $1,500",
+                                    "description": "Standard review of an MSA by a local law firm."
+                                },
+                                {
+                                    "title": "Drafting Fees",
+                                    "value": "$1,500 - $3,000",
+                                    "description": "Custom drafting of a robust bilingual commercial agreement."
+                                },
+                                {
+                                    "title": "Hourly Rate",
+                                    "value": "$150 - $350",
+                                    "description": "Rate for senior associates at reputable international/local firms."
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "msa-dispute-stages",
+                    "type": "key_steps",
+                    "title": "Dispute Resolution",
+                    "heroIcon": "gavel",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Amicable Negotiation",
+                                "text": "Parties must attempt to resolve disputes through negotiation first. This period typically lasts 30-60 days."
+                            },
+                            {
+                                "title": "Mediation",
+                                "text": "Commercial mediation is an option before arbitration. Mediated settlement agreements can be recognized by courts."
+                            },
+                            {
+                                "title": "Arbitration (VIAC)",
+                                "text": "If negotiation fails, file request with Vietnam International Arbitration Centre (VIAC). Arbitration is confidential and final."
+                            },
+                            {
+                                "title": "Enforcement",
+                                "text": "Arbitral awards are enforced by the Civil Judgment Enforcement Agency. Foreign awards require recognition by VN Courts first."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "msa-contract-structure",
+                    "type": "essentials",
+                    "title": "Contract Structure",
+                    "heroIcon": "file-code",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Bilingual Format",
+                                "text": "Two-column format (left English, right Vietnamese) is best practice. It ensures clarity for all stakeholders."
+                            },
+                            {
+                                "title": "Appendices",
+                                "text": "SOW (Statement of Work), SLA (Service Level Agreement), and DPA (Data Processing Agreement) should be separate appendices."
+                            },
+                            {
+                                "title": "Signatures",
+                                "text": "Must be signed by Legal Rep. If signed by proxy, a Power of Attorney (POA) must be attached."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "msa-faq",
+                    "type": "faq",
+                    "title": "Legal FAQ",
+                    "heroIcon": "question",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Are e-signatures valid?",
+                                "answer": "Yes, under E-Transaction Law. Digital signatures (token) have highest weight."
+                            },
+                            {
+                                "question": "Can I arbitrate abroad?",
+                                "answer": "Yes (e.g., SIAC Singapore), but enforcing foreign awards in Vietnam can be complex."
+                            },
+                            {
+                                "question": "Is the Company Seal required?",
+                                "answer": "Legally optional since 2015, but practically still required by banks and old-school partners."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software in Vietnam",
+                "subtitle": "Ecosystem and Top Tools",
+                "description": "Essential business software: ERP, CRM, and compliance tools.",
+                "bestFor": "CTOs and IT Managers",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "software-selection-steps",
+                    "type": "key_steps",
+                    "title": "Selection Steps",
+                    "heroIcon": "mouse-click",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Needs Assessment",
+                                "text": "Prioritize local compliance (e-invoice, tax) over generic global features."
+                            },
+                            {
+                                "title": "Market Scan",
+                                "text": "Evaluate MISA vs Global leaders. Local tools often win on price/compliance."
+                            },
+                            {
+                                "title": "Pilot",
+                                "text": "Test integration with General Dept of Taxation (mandatory for accounting)."
+                            },
+                            {
+                                "title": "Contracting",
+                                "text": "Ensure data residency clauses meet Vietnam Cybersecurity Law."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "software-top-providers",
+                    "type": "essentials",
+                    "title": "Top Providers",
+                    "heroIcon": "desktop",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "MISA",
+                                "text": "Dominant player for Accounting (SME.NET) and E-invoicing (meInvoice)."
+                            },
+                            {
+                                "title": "Zalo",
+                                "text": "De-facto standard for customer support and internal quick comms."
+                            },
+                            {
+                                "title": "KiotViet",
+                                "text": "Leading POS and retail management software for physical stores."
+                            },
+                            {
+                                "title": "Viettel/VNPT",
+                                "text": "State-owned giants providing enterprise ERP and digital signature services."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "software-implementation-insights",
+                    "type": "insights",
+                    "title": "Implementation",
+                    "heroIcon": "cpu",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Language Barrier",
+                                "text": "Frontend must be Vietnamese for operational staff. Admin can be English."
+                            },
+                            {
+                                "title": "Mobile First",
+                                "text": "Vietnamese workforce is mobile-first. Ensure mobile app UX is strong."
+                            },
+                            {
+                                "title": "Integration",
+                                "text": "Must integrate with e-invoice and digital signature tokens."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "software-costs-licensing",
+                    "type": "cost_breakdown",
+                    "title": "Licensing Costs",
+                    "heroIcon": "coins",
+                    "content": {
+                        "table": {
+                            "rows": [
+                                {
+                                    "title": "Local SaaS",
+                                    "value": "$5 - $15",
+                                    "description": "Per user/month. Very competitive compared to Western tools."
+                                },
+                                {
+                                    "title": "E-Invoice Cost",
+                                    "value": "$20 - $50",
+                                    "description": "Pack of 500-1000 invoice numbers. Pay per volume."
+                                },
+                                {
+                                    "title": "Digital Seal",
+                                    "value": "$50 - $80",
+                                    "description": "Annual fee for USB Token digital signature service (Viettel/VNPT)."
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "software-data-localization",
+                    "type": "insights",
+                    "title": "Data Localization",
+                    "heroIcon": "database",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Decree 53/2022",
+                                "text": "Requires foreign tech firms to store data in Vietnam if they have a local presence or upon specific government request."
+                            },
+                            {
+                                "title": "Personal Data",
+                                "text": "Under PDPD, personal data of Vietnamese citizens must be stored in Vietnam before transferring abroad."
+                            },
+                            {
+                                "title": "Server Placement",
+                                "text": "Companies often rent colocation space or use local cloud providers (Viettel, FPT) to comply."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "software-faq",
+                    "type": "faq",
+                    "title": "Software FAQ",
+                    "heroIcon": "question",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is pirated software common?",
+                                "answer": "Historically yes, but enforcement is tightening. Businesses should strictly use licensed software."
+                            },
+                            {
+                                "question": "Cloud vs On-prem?",
+                                "answer": "Cloud is booming (Viettel Cloud, CMC). Data localization laws favor local clouds."
+                            },
+                            {
+                                "question": "What is Zalo?",
+                                "answer": "The 'WeChat of Vietnam'. Essential for business-to-consumer communication."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing in Vietnam",
+                "subtitle": "Digital & Social Trends",
+                "description": "Navigate the dynamic Vietnamese marketing landscape. Agencies, influencers, and channels.",
+                "bestFor": "CMOs and Growth Leads",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "marketing-campaign-steps",
+                    "type": "key_steps",
+                    "title": "Campaign Launch",
+                    "heroIcon": "rocket-launch",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Audience Profiling",
+                                "text": "Target Gen-Z? Go TikTok/Instagram. Older gen? Facebook/Zalo."
+                            },
+                            {
+                                "title": "Localization",
+                                "text": "Translate and culturalize assets. 'Foreign' look is good, but message must be local."
+                            },
+                            {
+                                "title": "KOL Booking",
+                                "text": "Book influencers (KOC/KOL). They drive significant conversion in Vietnam."
+                            },
+                            {
+                                "title": "Seeding",
+                                "text": "Community seeding in Facebook Groups is a unique and powerful local tactic."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "marketing-agency-rates",
+                    "type": "cost_breakdown",
+                    "title": "Marketing Costs",
+                    "heroIcon": "coins",
+                    "content": {
+                        "table": {
+                            "rows": [
+                                {
+                                    "title": "Full Svc Retainer",
+                                    "value": "$1,500 - $4,000",
+                                    "description": "Monthly fee for a boutique digital agency (Social + Content)."
+                                },
+                                {
+                                    "title": "Macro KOL",
+                                    "value": "$2,000 - $5,000",
+                                    "description": "Per video/post for influencers with 500k+ followers."
+                                },
+                                {
+                                    "title": "Micro KOC",
+                                    "value": "$100 - $500",
+                                    "description": "Per review. High ROI for mass market products."
+                                },
+                                {
+                                    "title": "Ads CPM",
+                                    "value": "$0.5 - $2.0",
+                                    "description": "Facebook/TikTok CPM is relatively low compared to global/SG markets."
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "marketing-landscape-essentials",
+                    "type": "essentials",
+                    "title": "Digital Landscape",
+                    "heroIcon": "share-network",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Facebook",
+                                "text": "Still King. 76M+ users. Used for everything from news to shopping."
+                            },
+                            {
+                                "title": "Zalo",
+                                "text": "80M+ users. Essential for CRM and direct customer service."
+                            },
+                            {
+                                "title": "TikTok",
+                                "text": "Explosive growth. TikTok Shop is challenging traditional e-commerce (Shopee)."
+                            },
+                            {
+                                "title": "Cốc Cốc",
+                                "text": "Local browser with ~15-20% market share. Good for niche targeting."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "marketing-consumer-insights",
+                    "type": "insights",
+                    "title": "Consumer Trends",
+                    "heroIcon": "chart-line-up",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Shoppertainment",
+                                "text": "Livestream selling is huge. Users buy impulsively during entertainment streams."
+                            },
+                            {
+                                "title": "Reviews Matter",
+                                "text": "Vietnamese trust peer reviews and community seeding (forums/groups) over brand ads."
+                            },
+                            {
+                                "title": "Discount Hunting",
+                                "text": "Price sensitive. Mega-sale days (9.9, 11.11, Tet) drive massive volume."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "marketing-faq",
+                    "type": "faq",
+                    "title": "Marketing FAQ",
+                    "heroIcon": "question",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Google or Facebook?",
+                                "answer": "Facebook for brand/discovery. Google for intent/search. Use both."
+                            },
+                            {
+                                "question": "Is email marketing effective?",
+                                "answer": "Low open rates compared to West. Zalo/Messenger/SMS are far more effective."
+                            },
+                            {
+                                "question": "Do I need a license to advertise?",
+                                "answer": "Generally no, but specific sectors (health, finance) need pre-approval for ad content."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

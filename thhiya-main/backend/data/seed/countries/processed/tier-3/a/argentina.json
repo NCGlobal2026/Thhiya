@@ -1,0 +1,1939 @@
+{
+    "name": "Argentina",
+    "code": "AR",
+    "slug": "argentina",
+    "flag": "https://flagcdn.com/w160/ar.png",
+    "region": "Americas",
+    "languages": [
+        "TBD"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR & PEO Services in Argentina",
+                "subtitle": "Hire and manage local talent in Argentina without a local entity",
+                "description": "Navigate Argentina's complex 'Ley de Contrato de Trabajo' (LCT) with a professional Employer of Record provider. Our solution ensures 100% compliance with local mandates including 'Aguinaldo' (13th-month salary), 'Obra Social' (statutory health insurance), and the mandatory inflation-indexed salary adjustments required by Collective Bargaining Agreements. We mitigate your legal risks while allowing you to scale your local team instantly without the burden of setting up a legal entity.",
+                "bestFor": "International companies seeking rapid market entry and risk mitigation",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "arg-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Employee Onboarding Workflow",
+                    "subtitle": "Timeline: 2-5 Business Days",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Documentation Gathering",
+                                "description": "Collect the employee's DNI (Documento Nacional de Identidad), CUIL (Código Único de Identificación Laboral), and proof of address. For foreigners, a valid temporary or permanent residence with work authorization is required."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Employment Contract Drafting",
+                                "description": "Drafting contracts in Spanish (mandatory for local validity) that comply with the National Labor Law (LCT) and any applicable Collective Bargaining Agreement (CCT)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Obra Social Selection",
+                                "description": "The employee must choose a health insurance provider (Obra Social). The EOR handles the registration and ensure contributions are correctly routed."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "AFIP Registration (Alta Temprana)",
+                                "description": "Registering the new hire with the AFIP (Federal Administration of Public Revenue) before their first day of work to ensure legal coverage."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "ART & Life Insurance Enrollment",
+                                "description": "Mandatory enrollment in Labor Risk Insurance (ART) and the Statutory Collective Life Insurance (Seguro de Vida Obligatorio)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "arg-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Estimated Employer Burden 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Contribution Category",
+                                "Employer Rate",
+                                "Details"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Security (SIPA)",
+                                    "values": [
+                                        "10.74% - 12.35%",
+                                        "Pension contributions via ANSES"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Health Insurance (Obra Social)",
+                                    "values": [
+                                        "6.0%",
+                                        "Includes PAMI contribution"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Family Allowances (AAFF)",
+                                    "values": [
+                                        "4.70% - 5.40%",
+                                        "Fund for child/maternity support"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "National Unemployment Fund",
+                                    "values": [
+                                        "0.82% - 0.94%",
+                                        "Statutory unemployment insurance"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Labor Risk Insurance (ART)",
+                                    "values": [
+                                        "Variable (Approx 2-5%)",
+                                        "Based on industry risk profile"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Aguinaldo (13th Month)",
+                                    "values": [
+                                        "8.33%",
+                                        "Accrued monthly, paid twice a year"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "arg-eor-insights",
+                    "type": "insights",
+                    "title": "Market Compliance Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Inflation-Indexed Adjustments",
+                                "text": "Due to high inflation, Collective Bargaining Agreements (Paritarias) often mandate salary increases 4-6 times per year. EORs must monitor these closely."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Termination Risks",
+                                "text": "Argentina has high severance costs. Terminations without cause require 1 month of salary per year worked, plus notice periods and proportional aguinaldo/vacation."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Indefinite Contracts",
+                                "text": "The default employment type is indefinite. Fixed-term contracts are only allowed for specific, justifiable business needs and must be in writing."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Trial Period",
+                                "text": "The standard trial period (Periodo de Prueba) is 3 months, during which time either party can terminate with 15 days notice without severance."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "arg-eor-faq",
+                    "type": "faq",
+                    "title": "Frequently Asked Questions",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I pay my Argentine employees in USD?",
+                                "answer": "While the salary must be stated in the contract in local currency (ARS), it is common to use 'blue chip swap' or official rates for reference. Direct payment in USD into local accounts is subject to strict central bank regulations and may be automatically converted to ARS."
+                            },
+                            {
+                                "question": "What is the 'Aguinaldo'?",
+                                "answer": "The Sueldo Anual Complementario (SAC) is a mandatory 13th-month salary paid in two halves: one in June and one in December, calculated as 50% of the highest monthly wage in the semester."
+                            },
+                            {
+                                "question": "What is the 'Law of Telework' (Ley de Teletrabajo)?",
+                                "answer": "Enacted in 2021, this law regulates work-from-home arrangements. It mandates that employers provide equipment, reimburse connectivity costs, and respect 'digital disconnection' hours. Our EOR contracts are fully updated to reflect these requirements."
+                            },
+                            {
+                                "question": "Can I hire contractors through an EOR?",
+                                "answer": "Yes, some EOR providers offer 'Agent of Record' services to manage contractors, ensuring they are not misclassified and providing a platform for USD or ARS payments."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "arg-eor-good-to-know",
+                    "type": "good_to_know",
+                    "title": "Cultural & Legal Context",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Work Week",
+                                "text": "The standard work week is 48 hours, though many professional sectors work 40-44 hours."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Vacation Entitlement",
+                                "text": "Starts at 14 calendar days for the first 5 years of service, increasing with seniority."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Employee Seniority",
+                                "text": "Seniority (Antigüedad) is calculated from the first day of work. It affects vacation days, severance calculations, and certain salary bonuses defined by union agreements."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Payment Frequency",
+                                "text": "Salaries are paid monthly. However, for employees covered by the construction union (UOCRA), bi-weekly payments are standard. The EOR manages these specific frequencies."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "arg-payroll-flow",
+                    "type": "key_steps",
+                    "title": "Monthly Payroll Cycle",
+                    "subtitle": "Closing the month in Argentina",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Input Collection",
+                                "description": "Gathering overtime hours, bonuses, commissions, and unpaid leave data by the 25th of each month."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Gross-to-Net Calculation",
+                                "description": "Applying statutory deductions (17% for social security) and progressive income tax (Ganancias Second Category)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Aguinaldo Accrual",
+                                "description": "Ensuring the June and December installments of the 13th-month salary are correctly calculated based on the highest wage."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Payment to AFIP",
+                                "description": "Submitting the 'Libro de Sueldos Digital' (Digital Salary Book) and paying employer/employee contributions via AFIP Form 931."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Pay Slip Issuance",
+                                "description": "Distributing digital pay slips (Recibo de Sueldo) that meet the requirements of Law 24.013."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "arg-payroll-taxes",
+                    "type": "cost_breakdown",
+                    "title": "Mandatory Payroll Withholdings",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Tax/Contribution",
+                                "Employee Withholding",
+                                "Employer Contribution"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Pension Fund (SIPA)",
+                                    "values": [
+                                        "11%",
+                                        "10.74% - 12.35%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Health Insurance (Obra Social)",
+                                    "values": [
+                                        "3%",
+                                        "6%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "INSSJP (PAMI)",
+                                    "values": [
+                                        "3%",
+                                        "1.5% - 2%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Income Tax (Ganancias)",
+                                    "values": [
+                                        "Progressive (Up to 35%)",
+                                        "N/A"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Trade Union Fee",
+                                    "values": [
+                                        "2% - 3% (If applicable)",
+                                        "Variable"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "arg-payroll-insights",
+                    "type": "insights",
+                    "title": "Strategic Payroll Management",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Non-Remunerative Items",
+                                "text": "Some benefits (like food allowances or specific bonuses) can be marked as 'non-remunerative', reducing the social security burden for both parties."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "F.572 Web (Siradig)",
+                                "text": "Employees must submit their tax deductions (medical, insurance, domestic help) via the AFIP portal for accurate income tax withholding."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Salary Paritarias",
+                                "text": "Payroll systems must be flexible enough to handle mid-month salary retroactive increases dictated by union negotiations."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "arg-payroll-faq",
+                    "type": "faq",
+                    "title": "Common Payroll Questions",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the deadline for monthly payroll?",
+                                "answer": "Wages must be paid by the 4th business day of the following month. Tax contributions (AFIP) are typically due between the 7th and 11th."
+                            },
+                            {
+                                "question": "What is the 'Libro de Sueldos Digital'?",
+                                "answer": "It is a mandatory digital filing via AFIP where all payroll entries must be uploaded. It replaces the old hard-copy salary books and is the basis for tax Form 931."
+                            },
+                            {
+                                "question": "How do social security caps work?",
+                                "answer": "There is a 'Base Imponible Máxima' updated quarterly by ANSES. Salary above this cap does not attract additional pension or healthcare contributions, though income tax still applies."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "arg-payroll-gtk",
+                    "type": "good_to_know",
+                    "title": "Payroll Administration Tips",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Digital Recibo de Sueldo",
+                                "text": "Paper pay slips are almost extinct. Digital signatures (Firma Digital) are widely used and legally binding for payroll receipts."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Provincial Differences",
+                                "text": "Some provinces (like Córdoba or Santa Fe) have additional local reporting requirements for the 'Libro de Sueldos'."
+                            },
+                            {
+                                "type": "info",
+                                "title": "PAMI Contributions",
+                                "text": "Employer contributions to PAMI (healthcare for retirees) are mandatory and processed alongside regular social security."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "arg-calc-logic",
+                    "type": "key_steps",
+                    "title": "Calculation Parameters",
+                    "subtitle": "How the formula works",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Base Salary (Sueldo Bruto)",
+                                "description": "The contracted monthly amount before any deductions."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Employee Deductions (17%)",
+                                "description": "Includes Retirement (11%), Law 19.032 (3%), and Social Work/Obra Social (3%)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Employer Load (approx. 24-26%)",
+                                "description": "Social security (SIPA), PAMI, Family Allowances, and ART (Work Risk Insurance)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Income Tax Withholding",
+                                "description": "Applying the 'Cuarta Categoría' scale (Impuesto a las Ganancias) on net salaries above the minimum threshold."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Aguinaldo Provision",
+                                "description": "Adding 8.33% to the monthly budget to cover the June and December semi-annual bonuses."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "arg-calc-table",
+                    "type": "cost_breakdown",
+                    "title": "Sample Payroll Calculation",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Percentage",
+                                "Payer"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Retirement (Jubilación)",
+                                    "values": [
+                                        "11%",
+                                        "Employee"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Social Work (Obra Social)",
+                                    "values": [
+                                        "3% - 6% (Split)",
+                                        "Both"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Social Security (SIPA)",
+                                    "values": [
+                                        "10.77% - 12.35%",
+                                        "Employer"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Thirteenth Month (Aguinaldo)",
+                                    "values": [
+                                        "8.33% (Monthly Prov)",
+                                        "Employer"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "arg-calc-good-to-know",
+                    "type": "good_to_know",
+                    "title": "Payroll Nuances",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Paritarias (Union Hikes)",
+                                "text": "Many sectors have monthly or bi-monthly salary adjustments due to inflation. Calculators must be updated frequently to match union agreements."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Non-Remunerative Items",
+                                "text": "Items like 'Tickets Canasta' or specific compensations might not attract social security contributions, reducing the 'Tax Wedge'."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Retroactive Hikes",
+                                "text": "When a union agreement is signed late, the calculator must account for 'Retroactivos' that may hit the following month's payroll as a lump sum."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "arg-calc-insights",
+                    "type": "insights",
+                    "title": "Payroll Calculation Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Base Imponible Máxima",
+                                "text": "Social security contributions are capped at a specific gross salary amount, which is updated quarterly by ANSES."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Variable Pay Risks",
+                                "text": "Commissions and bonuses increase the 'Base Imponible' for both tax and social security, often pushing employees into higher income tax brackets."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Exempt Items",
+                                "text": "Certain benefits like 'Almuerzo' (lunches) or 'Capacitación' (training) can be paid as non-remunerative, provided they meet strict legal definitions."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "arg-calc-faq",
+                    "type": "faq",
+                    "title": "Calculator FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the average 'load' on top of gross salary?",
+                                "answer": "As a rule of thumb, you should budget for an extra 25% to 30% for social security, insurance, and the 13th-month salary provision."
+                            },
+                            {
+                                "question": "Are there caps on social security contributions?",
+                                "answer": "Yes, AFIP publishes a 'Base Imponible Máxima' quarterly. Salaries exceeding this cap do not pay additional pension/healthcare percentages on the excess."
+                            },
+                            {
+                                "question": "Does the calculator include provincial taxes?",
+                                "answer": "The calculator provides an estimate for federal social security. Provincial 'Ingresos Brutos' or 'Security and Hygiene' taxes depend on the specific location and business type."
+                            },
+                            {
+                                "question": "How often is the tax bracket updated?",
+                                "answer": "The federal government and AFIP typically update the 'Ganancias' (Income Tax) brackets annually, though in high-inflation years, 'extraordinary' updates may occur mid-year."
+                            },
+                            {
+                                "question": "What is the 'ART' cost exactly?",
+                                "answer": "Labor Risk Insurance (ART) consists of a fixed fee per employee plus a variable percentage of the gross salary (usually 2-5% depending on the industry risk level)."
+                            },
+                            {
+                                "question": "Can I calculate contractor costs here?",
+                                "answer": "This calculator is designed for formal employment. For contractors, you should factor in local VAT (21%) and the 'Gross Income' tax they will need to pay as freelancers."
+                            },
+                            {
+                                "question": "Is insurance for life mandatory?",
+                                "answer": "Yes, 'Seguro de Vida Obligatorio' is a mandatory small monthly fee for every employee, regardless of their role or seniority."
+                            },
+                            {
+                                "question": "What about union fees?",
+                                "answer": "Union fees (Cuota Sindical) vary by collective bargaining agreement (CCT). If the employee is covered, the calculator should deduct between 1.5% and 3% from the gross salary."
+                            },
+                            {
+                                "question": "What is the 'SAC'?",
+                                "answer": "The Sueldo Anual Complementario (SAC), also known as Aguinaldo, is the extra month's pay divided into two payments, ensuring a 13th salary per year."
+                            },
+                            {
+                                "question": "Are healthcare costs fixed?",
+                                "answer": "The statutory health contribution (Obra Social) is 3% for the employee. Many employers also offer a 'top-up' or 'Prepaga' which has a variable cost based on the plan selected."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Entity Incorporation in Argentina",
+                "subtitle": "Launch your business in one of LATAM's most dynamic markets",
+                "description": "From SRLs (Limited Liability) to the rapid-entry SAS (Simplified Shares), we guide you through the IGJ/DPPJ registration, CUIT acquisition, and mandatory local representation requirements.",
+                "bestFor": "Founders seeking long-term presence and full tax control",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "arg-inc-steps",
+                    "type": "key_steps",
+                    "title": "Company Setup Process",
+                    "subtitle": "Typical Timeline: 4-8 Weeks",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Entity Type Selection",
+                                "description": "Choosing between an SA (Joint Stock), SRL (Limited Liability), or SAS (Simplified Shares). SRL is the most common for international SMEs."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Power of Attorney (POA)",
+                                "description": "If directors are abroad, a certified and apostilled POA is needed to sign the incorporation deed locally."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Name Reservation",
+                                "description": "Checking for name availability with the IGJ (Buenos Aires City) or the relevant provincial registry."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Capital Deposit",
+                                "description": "Depositing 25% of the initial capital into the National Bank (Banco Nación) temporarily during the registration phase."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Publication & Registry",
+                                "description": "Publishing notice in the Official Gazette (Boletín Oficial) and obtaining the final registration number."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "arg-inc-types",
+                    "type": "cost_breakdown",
+                    "title": "Comparison of Entity Types",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Feature",
+                                "SRL",
+                                "SA",
+                                "SAS"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Min. Partners",
+                                    "values": [
+                                        "2",
+                                        "2",
+                                        "1"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Setup Speed",
+                                    "values": [
+                                        "Medium",
+                                        "Slow",
+                                        "Fast (24h in some cases)"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Audit Required?",
+                                    "values": [
+                                        "No (unless high capital)",
+                                        "Yes",
+                                        "No"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Digital Books?",
+                                    "values": [
+                                        "Optional",
+                                        "Optional",
+                                        "Mandatory"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "arg-inc-insights",
+                    "type": "insights",
+                    "title": "Strategic Setup Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Local Representative",
+                                "text": "Even if all shareholders are foreign, the company must appoint a local Legal Representative (Apoderado) with a permanent Argentine address."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Tax ID (CUIT) Delay",
+                                "text": "Registry is only half the battle. Obtaining the CUIT from AFIP requires a physical lease agreement or proof of fiscal address (Domicilio Fiscal)."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Foreign Direct Investment (FDI)",
+                                "text": "Transactions between the parent company and the local entity must be carefully documented to avoid 'deemed dividend' tax issues."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "arg-inc-faq",
+                    "type": "faq",
+                    "title": "Incorporation FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the minimum capital for an SRL?",
+                                "answer": "There is no fixed statutory minimum, but the IGJ recommends a capital that is 'adequate' for the business purpose (usually $100,000 ARS minimum as a placeholder)."
+                            },
+                            {
+                                "question": "Can a foreign company be a shareholder?",
+                                "answer": "Yes, but the foreign legal entity must register itself first with the IGJ (Article 123) to be able to participate in a local company."
+                            },
+                            {
+                                "question": "What is the 'Article 123' registration?",
+                                "answer": "It is the mandatory registration of a foreign company with the local registry (IGJ) to allow it to own shares in an Argentine subsidiary."
+                            },
+                            {
+                                "question": "How long does it take to open a bank account?",
+                                "answer": "Once the company is incorporated and has a CUIT, opening a corporate bank account can take 2-4 weeks due to strict 'Know Your Customer' (KYC) regulations."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "arg-inc-essentials",
+                    "type": "essentials",
+                    "title": "Registration Essentials",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Estatuto Social",
+                                "text": "The company bylaws must be drafted by a local lawyer and notarized before submission to the registry."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Libros Rubricados",
+                                "text": "Post-incorporation, companies must 'rubricar' (seal/notarize) their corporate books (Minutes, Registry, etc.) with the IGJ."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Directorship Ratios",
+                                "text": "The majority of the board of directors (SA) or managers (SRL) must be residents of Argentina."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Recruitment & Staffing in Argentina",
+                "subtitle": "Source top-tier talent in one of the world's best nearshoring hubs",
+                "description": "Unlock Argentina's highly educated, bilingual workforce. From software engineers in Buenos Aires to customer success teams in Córdoba, we help you find the right fit for your global operations.",
+                "bestFor": "Tech companies and agencies seeking high-quality nearshore talent",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "arg-staffing-steps",
+                    "type": "key_steps",
+                    "title": "Talent Sourcing Lifecycle",
+                    "subtitle": "Finding the 'A-Players'",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Market Benchmarking",
+                                "description": "Analyzing current 'Blue' and Official rate salary trends to ensure your offer is competitive in a volatile economy."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Sourcing Strategy",
+                                "description": "Leveraging LinkedIn, local job boards like ZonaJobs/Bumeran, and niche Slack communities for tech talent."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Technical Assessment",
+                                "description": "Rigorous vetting of coding skills and English proficiency (C1/C2 is common in the Argentine tech hub)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Cultural Alignment",
+                                "description": "Vetting for time-zone compatibility (GMT-3) and 'proactivity'—a hallmark of Argentine corporate culture."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Compensation Structuring",
+                                "description": "Designing packages that include ARS-indexed salaries, health tops (Prepagas), and remote work flexibility."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "arg-staffing-rates",
+                    "type": "cost_breakdown",
+                    "title": "Average Tech Salaries (Annual)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Role",
+                                "Experience",
+                                "Est. Range (USD Equiv.)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Software Engineer",
+                                    "values": [
+                                        "Mid (3-5 yrs)",
+                                        "$35,000 - $55,000"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "DevOps Engineer",
+                                    "values": [
+                                        "Senior (5+ yrs)",
+                                        "$50,000 - $75,000"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Product Manager",
+                                    "values": [
+                                        "Senior",
+                                        "$45,000 - $65,000"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "UX/UI Designer",
+                                    "values": [
+                                        "Junior-Mid",
+                                        "$20,000 - $35,000"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "arg-staffing-insights",
+                    "type": "insights",
+                    "title": "Talent Acquisiton Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "English Proficiency",
+                                "text": "Argentina consistently ranks as the highest English-proficiency country in Latin America (EF English Proficiency Index)."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Retention Strategies",
+                                "text": "In a competitive market, Argentine talent values 'USD parity' and high-end private health insurance (like OSDE or Swiss Medical)."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Remote First",
+                                "text": "Hybrid or fully remote work is now the standard for the IT sector in Argentina; office-mandatory roles may struggle to attract top talent."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "arg-staffing-faq",
+                    "type": "faq",
+                    "title": "Staffing FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "How common is it to pay 'en negro' (unregistered)?",
+                                "answer": "While it exists in the informal economy, professional international firms should avoid this at all costs due to severe legal penalties and lack of protection for the worker."
+                            },
+                            {
+                                "question": "What are the common benefits expected?",
+                                "answer": "Outside of statutory benefits, talent expects private health insurance (Prepagas), gym memberships, and Internet/home-office stipends."
+                            },
+                            {
+                                "question": "Is there a '13th month' for contractors?",
+                                "answer": "No, 'Aguinaldo' is a statutory benefit only for employees in a formal relationship. Contractors usually negotiate a flat annual or monthly fee."
+                            },
+                            {
+                                "question": "What is the role of a 'Headhunter' in Argentina?",
+                                "answer": "Headhunters are vital for Senior and C-level roles, leverage deep networks in the local 'Circle of Executives' and often provide market-entry salary guidance."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "arg-staffing-gtk",
+                    "type": "good_to_know",
+                    "title": "Hiring Nuances",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "University Culture",
+                                "text": "Argentina has a strong tradition of free, high-quality public universities (like UBA), resulting in a surplus of skilled professionals."
+                            },
+                            {
+                                "type": "info",
+                                "title": "LinkedIn Dominance",
+                                "text": "LinkedIn is the primary tool for white-collar recruitment in Argentina, more so than in other LATAM neighbors."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Trial Period Extension",
+                                "text": "While 3 months is standard, some unions allow for different arrangements, though 3 months remains the legal cap for most."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Solutions for Argentina",
+                "subtitle": "Streamline operations with locally-adapted HR technology",
+                "description": "Deploy HR systems that are fully integrated with AFIP's 'Libro de Sueldos Digital', manage vacation accruals according to local seniority laws, and handle multi-union compliance effortlessly.",
+                "bestFor": "Growing teams seeking automation and error-reduction",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "arg-hris-features",
+                    "type": "key_steps",
+                    "title": "Critical HRIS Implementation",
+                    "subtitle": "Beyond standard management",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Local Compliance Mapping",
+                                "description": "Configuring the system to handle ARS-specific tax tables, CUS (Health) fund routing, and Union-specific deductions."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Vacation & Leave Tracker",
+                                "description": "Automating the calculation of 'Plus Vacacional' (Vacation Premium) which is distinct from regular monthly pay."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "AFIP System Bridge",
+                                "description": "Setting up the API or export bridge for the 'Libro de Sueldos Digital' to avoid manual double-entry."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Self-Service Portal",
+                                "description": "Enabling employees to download digital pay slips and upload F.572 (Tax) documentation easily."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Reporting & Analytics",
+                                "description": "Generating mandatory local reports, including the 'Libro de Sueldos' (Legal Book) according to provincial requirements."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "arg-hris-essentials",
+                    "type": "essentials",
+                    "title": "Argentine HRIS Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Libro de Sueldos Digital",
+                                "text": "The system MUST be able to export a TXT file that conforms exactly to AFIP's layout for salary reporting."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Multi-Union Support",
+                                "text": "Ability to handle multiple collective bargaining agreements (CCT) within the same organization if workforce is diversified."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Digital Signature",
+                                "text": "Integrated support for digital signatures on pay slips according to Law 25.506."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "arg-hris-faq",
+                    "type": "faq",
+                    "title": "HRIS FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I use US-based HRIS like Workday?",
+                                "answer": "Yes, but you will likely need a 'middleware' or a local partner to handle the specific Argentine payroll and legal book exports, as global systems rarely handle the granular AFIP logic."
+                            },
+                            {
+                                "question": "Is cloud storage of payroll records legal?",
+                                "answer": "Yes, provided the data processing complies with the Personal Data Protection Law (No. 25.326)."
+                            },
+                            {
+                                "question": "Does HRIS help with inflation adjustments?",
+                                "answer": "Yes, a good system allows for mass salary updates and retroactive calculations required by union 'Paritarias'."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "arg-hris-insights",
+                    "type": "insights",
+                    "title": "Platform Strategy Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Integration Landscape",
+                                "text": "Most successful implementations in Argentina use a 'Top-Down' approach where global HRIS feeds into a local 'Engine' for payroll compliance."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Data Privacy (AAIP)",
+                                "text": "Storing employee data outside of Argentina requires a 'Transfer Agreement' that mimics the GDPR standard, registered with the local Data Protection Agency."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Mobile First",
+                                "text": "With high mobile penetration, Argentine employees overwhelmingly prefer downloading pay slips and requesting leave via mobile apps."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Services in Argentina",
+                "subtitle": "Professional bookkeeping and reporting in ARS and USD",
+                "description": "Ensure your financial statements (Balances) comply with FACPCE standards and RT 54. Manage complex tax inflation adjustments (Ajuste por Inflación) and maintain your local 'Libro Diario' and 'Inventario y Balances'.",
+                "bestFor": "International subsidiaries and local startups",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "arg-acc-tasks",
+                    "type": "key_steps",
+                    "title": "Annual Accounting Cycle",
+                    "subtitle": "Maintaining the books",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Daily Bookkeeping",
+                                "description": "Categorizing transactions in ARS, ensuring all vendor invoices (Facturas) are valid AFIP 'CAE' documents."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Monthly Closing",
+                                "description": "Reconciling bank accounts (Local and Foreign) and calculating VAT (IVA) and Gross Income (Ingresos Brutos) positions."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Inflation Adjustment",
+                                "description": "Applying RT 6 (Accounting Adjustment for Inflation) to financial statements to reflect the true economic reality."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Annual Audit & Balance",
+                                "description": "Preparing the annual financial statement and coordinating with external auditors (if required for SA/SRL)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Registry Legalization",
+                                "description": "Submitting the signed balance sheet to the Profesional Council (CPCECABA/PBA) for legalization and then to IGJ."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "arg-acc-costs",
+                    "type": "cost_breakdown",
+                    "title": "Accounting Service Fees",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service Tier",
+                                "Volume",
+                                "Est. Monthly Fee"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Basic Bookkeeping",
+                                    "values": [
+                                        "Micro (0-50 txns)",
+                                        "$250 - $400 USD"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Full Management",
+                                    "values": [
+                                        "Medium (50-300 txns)",
+                                        "$600 - $1,200 USD"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Enterprise / Audit",
+                                    "values": [
+                                        "Custom",
+                                        "Starting at $2,000 USD"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "arg-acc-insights",
+                    "type": "insights",
+                    "title": "Strategic Accounting Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Ajuste por Inflación (FACPCE)",
+                                "text": "Accounting in Argentina is legally required to be adjusted for inflation using the IPC index to ensure comparability."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Facturación Electrónica",
+                                "text": "ALL sales must be documented via electronic invoice (CAE). Paper invoices or manual bills are no longer legally valid for tax deduction."
+                            },
+                            {
+                                "type": "info",
+                                "title": "USD Reporting",
+                                "text": "While the legal books are in ARS, most international firms maintain a 'shadow' ledger in USD for management reporting."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "arg-acc-faq",
+                    "type": "faq",
+                    "title": "Accounting FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is RT 54?",
+                                "answer": "RT 54 is the newest simplified accounting standard for SMEs in Argentina, unified across all provinces."
+                            },
+                            {
+                                "question": "How often do I need to file VAT?",
+                                "answer": "VAT (IVA) is filed monthly. Income Tax (Ganancias) is filed annually."
+                            },
+                            {
+                                "question": "What is the 'Libro Copiador'?",
+                                "answer": "It is the archaic but still legal requirement to 'copy' your digital accounting entries into physical, rubricated (sealed) books for the IGJ."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "arg-acc-gtk",
+                    "type": "good_to_know",
+                    "title": "Accounting Best Practices",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Audit Frequency",
+                                "text": "While only larger companies are strictly required to have external audits for IGJ, many banks require audited financials for credit lines."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Chart of Accounts",
+                                "text": "Argentina uses a standard Chart of Accounts structure tailored to local GAAP, which must be mapped carefully to global ERPs like SAP or Oracle."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Inflation Indexing",
+                                "text": "Failing to apply RT 6 (Adjustment for Inflation) can lead to 'fictitious profits' and excessive tax liability if not managed correctly."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "arg-comp-check",
+                    "type": "key_steps",
+                    "title": "Governance & Filing Roadmap",
+                    "subtitle": "Maintaining legal standing",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Annual Information Regime",
+                                "description": "Submitting the annual list of shareholders and board members to the IGJ (General Inspectorship of Justice)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Beneficial Ownership Disclosure",
+                                "description": "Identifying and reporting the ultimate human beneficiaries (UBO) controlling 5% or more of the equity."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Foreign Registry (Art 123)",
+                                "description": "If foreign companies own the local entity, they must update their own registration with IGJ annually (Article 123 renew)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Central Bank (BCRA) Reporting",
+                                "description": "Quarterly or semi-annual reporting of external assets and liabilities (Survey 6401) for cross-border capital flow."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Data Privacy Compliance",
+                                "description": "Registering local databases with the AAIP (Agency for Access to Public Information) according to Law 25.326."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "arg-comp-essentials",
+                    "type": "essentials",
+                    "title": "Mandatory Compliance Books",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Minute Book (Libro de Actas)",
+                                "text": "Handwritten or printed (on rubricated pages) record of Board and Shareholder assembly meetings."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Shareholder Registry",
+                                "text": "The only official record of stock ownership in Argentina; must be physically kept at the registered office."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Attendance Book",
+                                "text": "Mandatory signatures of those attending shareholders' assemblies to prove quorum."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "arg-comp-insights",
+                    "type": "insights",
+                    "title": "Exchange Control Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "BCRA 'CEPO'",
+                                "text": "Cross-border payments for services or dividends are subject to strict BCRA approvals (SIRA/SIRASE systems) and specific availability of 'CCL' or official currency."
+                            },
+                            {
+                                "type": "info",
+                                "title": "FDI Reporting",
+                                "text": "All Foreign Direct Investment must be declared within 30-45 days to the Central Bank via a local commercial bank."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Resident Director",
+                                "text": "At least one member of the board (SA) or one manager (SRL) must have a permanent residence in Argentina and be the primary liaison for AFIP."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "arg-comp-faq",
+                    "type": "faq",
+                    "title": "Compliance FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What happens if I miss the IGJ annual filing?",
+                                "answer": "The company may be fined, and more importantly, the Directors can be held personally and solidarily liable for local debts if the company loses its standing."
+                            },
+                            {
+                                "question": "Are electronic signatures allowed for corporate books?",
+                                "answer": "While Law 25.506 allows digital signatures, many provincial registries (including IGJ) still require physical 'rubricated' paper books or have specific 'Digital Book' registration processes."
+                            },
+                            {
+                                "question": "What is the 'Registro de Beneficiarios Finales'?",
+                                "answer": "It is a central database managed by AFIP and IGJ to prevent money laundering by identifying the natural persons behind corporate structures."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "arg-comp-gtk",
+                    "type": "good_to_know",
+                    "title": "Compliance Red Flags",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Inactivity Risks",
+                                "text": "Entities that do not file annual reports for 3+ years can be 'cancelled' by the IGJ, leading to asset liquidation and legal limbo."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Digital Onboarding",
+                                "text": "Most AFIP procedures are now done via 'Clave Fiscal' (Tax ID password). The legal representative must have Level 3 security clearance."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Anti-Corruption (Law 27.401)",
+                                "text": "Corporate criminal liability exists in Argentina. Companies are encouraged to have a 'Compliance Program' (Integrity Program)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "arg-tax-annual",
+                    "type": "key_steps",
+                    "title": "Annual Tax Compliance Cycle",
+                    "subtitle": "Key deadlines and filings",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Income Tax (Ganancias)",
+                                "description": "Filing the annual corporate tax return (Form 713) based on the progressive scale (25% to 35% of net taxable income)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "VAT (IVA) Monthly Filings",
+                                "description": "Reporting monthly sales and purchases via the 'Libro de IVA Digital' to determine the monthly tax position (default rate 21%)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Gross Income (Ingresos Brutos)",
+                                "description": "Provincial tax filing (via Multilateral Agreement if active in multiple provinces) ranging from 3% to 5% of gross revenue."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Wealth Tax (Bienes Personales)",
+                                "description": "For subsidiaries, paying the 'Substitute Tax' (0.5%) on the equity value belonging to foreign shareholders."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Informational Regimes",
+                                "description": "Complying with mandatory reporting for bank transactions (Impuesto al Cheque) and international service payments."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "arg-tax-rates",
+                    "type": "cost_breakdown",
+                    "title": "Key Federal & Local Tax Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Tax Type",
+                                "Rate",
+                                "Frequency"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax",
+                                    "values": [
+                                        "25% - 35% (Progressive)",
+                                        "Annual"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Value Added Tax (IVA)",
+                                    "values": [
+                                        "21% (Standard)",
+                                        "Monthly"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Gross Income Tax (IIBB)",
+                                    "values": [
+                                        "3% - 5% (Avg)",
+                                        "Monthly"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Stamp Tax",
+                                    "values": [
+                                        "0.75% - 1.2% (Contracts)",
+                                        "Per Occurrence"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Dividend Withholding",
+                                    "values": [
+                                        "7% (Final Tax)",
+                                        "Upon Payout"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "arg-tax-insights",
+                    "type": "insights",
+                    "title": "Strategic Tax Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Double Taxation Treaties (DTT)",
+                                "text": "Argentina has active treaties with 20+ countries (including Germany, Brazil, UK, Spain) which can reduce withholding rates on royalties and interest."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Transfer Pricing (TP)",
+                                "text": "Transactions between the Argentine entity and foreign head offices MUST follow the Arm's Length Principle and require an annual TP report if thresholds are met."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Tax Incentives - Knowledge Economy",
+                                "text": "The 'Ley de Economía del Conocimiento' provides up to 60% reduction in Income Tax and 70% reduction in social security for tech and software firms."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Withholding & Perceptions",
+                                "text": "Argentina uses a system of 'Reverse Withholding' where customers and vendors may withhold taxes at source, creating 'Tax Balances' (Saldos a Favor)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "arg-tax-faq",
+                    "type": "faq",
+                    "title": "Taxation FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the progressive income tax scale?",
+                                "answer": "For 2024/2025, profits up to approx. $15M ARS are taxed at 25%, the next bracket at 30%, and profits exceeding $150M ARS at 35% (values indexed annually)."
+                            },
+                            {
+                                "question": "How do I claw back excess VAT credits?",
+                                "answer": "Excess VAT credits (Saldos Técnicos) can usually only be used against future VAT liabilities, but 'Saldos de Libre Disponibilidad' can sometimes be used for other federal taxes."
+                            },
+                            {
+                                "question": "What is the 'Knowledge Economy' tax benefit?",
+                                "answer": "It is a regime for software, biotech, and aerospace that offers significant Income Tax discounts and a transferable tax credit for social security contributions."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "arg-tax-gtk",
+                    "type": "good_to_know",
+                    "title": "Tax Optimization Tips",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "VAT Recovery",
+                                "text": "Export of services from Argentina is taxed at 0% VAT, and input VAT credits can be used to pay other federal taxes or requested as a refund (slow process)."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Municipal Taxes",
+                                "text": "Often overlooked, the 'Tasa de Seguridad e Higiene' is a municipal tax based on revenue that can add 0.5% to 1% to the tax load."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Tax Residency",
+                                "text": "Foreign directors spending more than 183 days in Argentina may accidentally trigger personal tax residency, making their global income taxable locally."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Engineering & MSA in Argentina",
+                "subtitle": "Robust legal architecture for Argentine operations",
+                "description": "Crafting Master Service Agreements, local vendor contracts, and IP protection strategies that withstand the scrutiny of Argentine commercial courts. Navigate the Civil and Commercial Code with confidence.",
+                "bestFor": "International groups needing localized legal frameworks",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "arg-msa-structure",
+                    "type": "key_steps",
+                    "title": "Legal Framework Setup",
+                    "subtitle": "Drafting local-proof agreements",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "MSA Localization",
+                                "description": "Adapting global templates to the Argentine Civil & Commercial Code (CCyCN), ensuring governing law and jurisdiction clauses are enforceable."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "IP Protection Strategy",
+                                "description": "Ensuring 'Work for Hire' clauses are explicit, as IP rights in Argentina generally belong to the individual unless strictly assigned in writing."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Vendor Due Diligence",
+                                "description": "Vetting local suppliers for AFIP 'Constancia de Inscripción' and ensuring no 'Solidarity' labor risks exist under Art 30 LCT."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Dispute Resolution Design",
+                                "description": "Drafting arbitration clauses (e.g., CEMA or Bolsa de Comercio) to avoid the slow-moving local commercial court system."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Contract Digitalization",
+                                "description": "Implementing 'Firma Digital' or 'Firma Electrónica' protocols that satisfy the evidentiary standards of Law 25.506."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "arg-msa-insights",
+                    "type": "insights",
+                    "title": "Local Legal Risks",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Labor Solidarity (Art 30)",
+                                "text": "Contracting services in Argentina (e.g., maintenance, security, IT) can make you liable for the vendor's employees' social security if not correctly monitored."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Stamp Tax (Impuesto de Sellos)",
+                                "text": "In many provinces and CABA, written and signed contracts attract a 'Stamp Tax' (approx 1%). Use of offer/acceptance letters via email can sometimes mitigate this."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Hardship Clauses",
+                                "text": "Given Argentina's economic volatility, MSA contracts should include 'Price Adjustment' and 'Hardship' (Imprevisión) clauses to allow for renegotiation."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "arg-msa-faq",
+                    "type": "faq",
+                    "title": "Legal FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I choose New York Law for my Argentina MSA?",
+                                "answer": "Yes for cross-border contracts, but local labor and real estate laws will always be governed by the laws of Argentina, regardless of what the contract says."
+                            },
+                            {
+                                "question": "Is an email contract binding in Argentina?",
+                                "answer": "Yes, it is considered 'Firma Electrónica'. However, it has a lower evidentiary weight than 'Firma Digital' (certified signatures) if the counterparty denies the content."
+                            },
+                            {
+                                "question": "How do I protect my brand in Argentina?",
+                                "answer": "You must register your trademark with INPI (National Institute of Industrial Property). Foreign registrations do not grant automatic protection in Argentina."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "arg-msa-essentials",
+                    "type": "essentials",
+                    "title": "Contractual Safeguards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Governing Law",
+                                "text": "While Parties can choose foreign law, Argentine public policy (Orden Público) rules for labor and consumer protection will always override."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Force Majeure",
+                                "text": "Contracts should explicitly list 'Economic Instability' and 'Exchange Control Changes' as specific risk factors for performance."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Signature Verification",
+                                "text": "Ensure the person signing the MSA has a valid 'Poder' (Power of Attorney) registered with the IGJ to commit the local company."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "arg-msa-gtk",
+                    "type": "good_to_know",
+                    "title": "Legal Negotiation Tips",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Sincerity in Clauses",
+                                "text": "Argentine judges often look for the 'Real Intent' of parties. Overly complex offshore structures used to hide local labor ties are frequently 'pierced'."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Notarial Culture",
+                                "text": "The 'Escribano Público' (Notary) is a central figure. Most serious corporate transactions require a notarized deed (Escritura pública)."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Litigation Speed",
+                                "text": "Commercial litigation in Buenos Aires can take 3-5 years. Mediation (Pre-judicial) is mandatory and often where the best results are achieved."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Development & Tech Ecosystem in Argentina",
+                "subtitle": "Leveraging Argentina's world-class tech talent",
+                "description": "Argentina is a global hub for software engineering, home to several unicorns and a massive pool of senior developers. Access local expertise in AI, FinTech, and SaaS with strategic nearshore advantages.",
+                "bestFor": "US and EU companies looking for high-quality nearshore development",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "arg-soft-stack",
+                    "type": "key_steps",
+                    "title": "Tech Implementation Journey",
+                    "subtitle": "Launching your tech project",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Discovery & Talent Mapping",
+                                "description": "Identifying the tech stack (React, Node, Python, etc.) and sourcing senior developers from major hubs like Buenos Aires, Córdoba, and Rosario."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Infrastructure Setup",
+                                "description": "Setting up local cloud instances or VPNs that comply with local data privacy laws (AAIP) and international security standards."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Knowledge Economy Application",
+                                "description": "Registering the project/entity for software tax benefits (Ley de Economía del Conocimiento) to optimize development costs."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Agile Delivery & QA",
+                                "description": "Implementing scrum methodologies with a focus on real-time collaboration facilitated by the ART (Timezone alignment) with the US."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "DevOps & Deployment",
+                                "description": "Continuous integration and delivery pipelines, ensuring high availability and localized user experience for the Latin American market."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "arg-soft-rates",
+                    "type": "cost_breakdown",
+                    "title": "Developer Market Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Role",
+                                "Seniority",
+                                "Monthly Range (USD Equiv)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Full Stack Engineer",
+                                    "values": [
+                                        "Senior",
+                                        "$4,500 - $7,000"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "DevOps Architect",
+                                    "values": [
+                                        "Senior",
+                                        "$5,000 - $7,500"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Product Manager",
+                                    "values": [
+                                        "Lead",
+                                        "$4,000 - $6,500"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "QA Automation",
+                                    "values": [
+                                        "Mid/Senior",
+                                        "$3,500 - $5,500"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "arg-soft-insights",
+                    "type": "insights",
+                    "title": "Software Market Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "The 'Nearshore' Advantage",
+                                "text": "Argentina shares a similar timezone with the US (Eastern/Central), allowing for high-bandwidth synchronous collaboration that offshore regions can't match."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "USD vs ARS Payments",
+                                "text": "Top tech talent in Argentina often negotiates 'USD-linked' or 'USD-split' salaries. Legal structures (EOR or Export services) must be carefully designed to manage this."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Unicorn Hub",
+                                "text": "Argentina has produced more tech unicorns per capita than many peers (Mercado Libre, Globant, Auth0), fostering a high-performance engineering culture."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "arg-soft-faq",
+                    "type": "faq",
+                    "title": "Software Development FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Why is Argentina better than other nearshore options?",
+                                "answer": "Argentina has the highest English proficiency in Latin America (EF EPI Index) and a high density of Senior-level talent due to its mature export industry."
+                            },
+                            {
+                                "question": "What is the 'Monotributo Tech'?",
+                                "answer": "It is a simplified tax regime for individual freelancers to export services and keep a portion of their USD income legally, often used by solo contractors."
+                            },
+                            {
+                                "question": "How do I handle IP in software contracts?",
+                                "answer": "All local contracts must specify that work is 'made for hire' and IP is transferred upon payment, as Argentine law protects 'Moral Rights' of creators."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "arg-soft-gtk",
+                    "type": "good_to_know",
+                    "title": "Tech Talent Retention",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "USD Incentives",
+                                "text": "To keep senior developers from moving to US-direct roles, local firms often use 'Perks' or 'Expense Reimbursements' in foreign currency."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Education Hubs",
+                                "text": "Centers like ITBA (Buenos Aires) and UTN (National-wide) produce consistently high-level engineers with a strong mathematical focus."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Community Events",
+                                "text": "Argentina has a very active 'Meetup' and conference culture (e.g., Nerdearla, JSConf AR), which are vital for employer branding."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Creative & Digital Marketing in Argentina",
+                "subtitle": "Award-winning creative talent for global brands",
+                "description": "Access Argentina's legendary creative industry. From specialized SEO and performance marketing to full-scale branding and production, Argentine agencies combine artistic flair with digital precision.",
+                "bestFor": "Vibrant brands seeking high-ROI creative and digital services",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "arg-mark-services",
+                    "type": "key_steps",
+                    "title": "Marketing Launch Roadmap",
+                    "subtitle": "Building your local presence",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Local Market Research",
+                                "description": "Understanding the unique 'Argentine slang' and culture for localized messaging (Voseo, local trends)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "E-commerce Localization",
+                                "description": "Integrating with local gateways (Mercado Pago, MODO) and major retailers for conversion optimization."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Multi-Channel Media Buying",
+                                "description": "Strategizing across Instagram, TikTok, and local news outlets (La Nación, Clarín) for maximum reach."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Performance Analysis",
+                                "description": "Real-time tracking of ROAS and CAC, adjusted for the high-inflation environment to ensure budget efficiency."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "arg-mark-insights",
+                    "type": "insights",
+                    "title": "Argentine Creative Scene",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Global Ad Hub",
+                                "text": "Buenos Aires is a repeated winner at Cannes Lions, offering premium agency quality at a significantly lower cost basis than New York or London."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Ad Tax (IVA on Ads)",
+                                "text": "Digital advertising on foreign platforms (Google/Meta) is subject to specific withholdings (IVA, PAIS tax) if paid with Argentine cards."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Influencer Impact",
+                                "text": "Argentina has a high concentration of digital influencers; partnerships are often more effective than traditional display ads for B2C."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "arg-mark-rates",
+                    "type": "cost_breakdown",
+                    "title": "Agency Fee Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service",
+                                "Scope",
+                                "Monthly Retainer (USD)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Media Mgmt",
+                                    "values": [
+                                        "3 Platforms, Daily Posts",
+                                        "$1,200 - $2,500"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Performance Mktg",
+                                    "values": [
+                                        "Ads + SEO + CRM",
+                                        "$3,000 - $6,000"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Full Service Brand",
+                                    "values": [
+                                        "Creative + Production",
+                                        "$8,000+"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "arg-mark-faq",
+                    "type": "faq",
+                    "title": "Marketing FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the most popular social network?",
+                                "answer": "Instagram is dominant for B2C, while TikTok is growing rapidly among younger demographics. LinkedIn is essential for B2B ventures."
+                            },
+                            {
+                                "question": "Can I use the same Spanish copy for Mexico?",
+                                "answer": "Not recommended. Argentine Spanish ('Rioplatense') uses 'voseo' (vos instead of tú) and unique slang. Using Mexican copy in Argentina can feel alienating."
+                            },
+                            {
+                                "question": "Is influencer marketing effective?",
+                                "answer": "Extremely. Argentina has a highly engaged 'celebrity' culture, and micro-influencers often provide the best ROI for niche products."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "arg-mark-gtk",
+                    "type": "good_to_know",
+                    "title": "Media Landscape",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "E-mail vs WhatsApp",
+                                "text": "WhatsApp is the primary business communication tool. Marketing automation that integrates with WA often sees 5x higher open rates than email."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Payment Gateways",
+                                "text": "Mercado Pago is the undisputed leader. Any digital marketing effort must ensure seamless integration with their local checkout."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Seasonal Peaks",
+                                "text": "CyberMonday (November) and Hot Sale (May) are the two biggest e-commerce events, requiring months of lead-time planning."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

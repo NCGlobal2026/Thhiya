@@ -1,0 +1,507 @@
+{
+    "name": "Mauritania",
+    "code": "MR",
+    "slug": "mauritania",
+    "flag": "https://flagcdn.com/w160/mr.png",
+    "region": "Africa",
+    "languages": [
+        "Arabic"
+    ],
+    "currencies": [
+        "MRU"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Mauritania",
+                "subtitle": "Hire in Nouakchott",
+                "description": "Compliant employment in the Sahel. We handle CNSS contributions.",
+                "bestFor": "Mining & Energy",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "mr-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Written contract in Arabic or French."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "CNSS",
+                                "description": "Register with Caisse Nationale de Sécurité Sociale."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "CNAM",
+                                "description": "Register with Caisse Nationale d'Assurance Maladie."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mr-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "CNSS (Social Security)",
+                                    "values": [
+                                        "15%",
+                                        "1%",
+                                        "13% Old Age/Pension, 2% Medical."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "CNAM (Health)",
+                                    "values": [
+                                        "5%",
+                                        "4%",
+                                        "Mandatory Health Insurance."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Occupational Risk",
+                                    "values": [
+                                        "1%",
+                                        "0%",
+                                        "Applicable on capped salary."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "mr-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Eid ul-Fitr",
+                                "description": "March 30-31 (Estimated)"
+                            },
+                            {
+                                "title": "Labor Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Africa Day",
+                                "description": "May 25"
+                            },
+                            {
+                                "title": "Eid al-Adha",
+                                "description": "June 6-8 (Estimated)"
+                            },
+                            {
+                                "title": "Islamic New Year",
+                                "description": "June 26"
+                            },
+                            {
+                                "title": "Prophet's Birthday",
+                                "description": "September 5"
+                            },
+                            {
+                                "title": "Independence Day",
+                                "description": "November 28"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mr-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax (ITS)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Monthly Income Brackets (MRU)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Up to 6,000",
+                                    "values": [
+                                        "0%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "6,001 - 9,000",
+                                    "values": [
+                                        "15%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "9,001 - 21,000",
+                                    "values": [
+                                        "25%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Above 21,000",
+                                    "values": [
+                                        "40%"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "mr-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Base Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Social Security",
+                                "description": "Deduct CNSS (1%) + CNAM (4%)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax Base",
+                                "description": "Gross - Social Contributions."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "ITS",
+                                "description": "Apply 0/15/25/40% brackets."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Net",
+                                "description": "Gross - Social - Tax."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Mauritania",
+                "subtitle": "SARL",
+                "description": "Standard business entity.",
+                "bestFor": "Operations",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "mr-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Notary",
+                                "description": "Statutes must be notarized."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Guichet Unique",
+                                "description": "Register via the One-Stop Shop (Commercial Registry)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "NIF",
+                                "description": "Obtain Fiscal Identification Number."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mr-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Banque Mauritanienne pour le Commerce International (BMCI)",
+                                "description": "Major bank."
+                            },
+                            {
+                                "title": "Société Générale Mauritanie",
+                                "description": "International branch."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Mauritania",
+                "subtitle": "Nouakchott",
+                "description": "Growing workforce.",
+                "bestFor": "Industrial",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "mr-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Nouakchott",
+                                "text": "Capital and economic hub."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Nouadhibou",
+                                "text": "Correct, commercial center."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Mauritania",
+                "subtitle": "Declarations",
+                "description": "CNSS reporting.",
+                "bestFor": "Compliance",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "mr-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Monthly Declarations",
+                                "description": "Mandatory for CNSS and Taxes."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Mauritania",
+                "subtitle": "PCG 2018",
+                "description": "Local Plan Comptable.",
+                "bestFor": "Reporting",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "mr-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Local GAAP",
+                                "text": "Generally follows French-based accounting principles."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mr-comp-labor",
+                    "type": "warning",
+                    "title": "Foreign Labor",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Permits",
+                                "description": "Strict requirements for work permits ('Permis de Travail')."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mr-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax (BIC)",
+                                    "values": [
+                                        "25%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Minimum Tax (IMF)",
+                                    "values": [
+                                        "2.5%",
+                                        "Of turnover (can be lower in some cases)."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "VAT",
+                                    "values": [
+                                        "16%"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Mauritania",
+                "subtitle": "Civil/Islamic",
+                "description": "Mixed legal system.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "mr-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "Arabic is official; French widely used in business legal texts."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Mauritania",
+                "subtitle": "Bankily",
+                "description": "Mobile banking.",
+                "bestFor": "Payments",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "mr-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Bankily",
+                                "description": "Popular mobile banking app."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Mauritania",
+                "subtitle": "Social",
+                "description": "Growing digital.",
+                "bestFor": "Reach",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "mr-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Facebook",
+                                "text": "Dominant social platform."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

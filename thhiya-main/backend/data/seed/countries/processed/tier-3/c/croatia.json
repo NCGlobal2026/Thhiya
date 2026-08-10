@@ -1,0 +1,1942 @@
+{
+    "name": "Croatia",
+    "code": "HR",
+    "slug": "croatia",
+    "flag": "https://flagcdn.com/w160/hr.png",
+    "region": "Europe",
+    "languages": [
+        "Croatian"
+    ],
+    "currencies": [
+        "Euro (EUR)"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR & PEO in Croatia",
+                "subtitle": "Hire compliant teams in Croatia without a local entity",
+                "description": "Expand into Croatia's growing economy by hiring local talent legally and efficiently. Our Employer of Record (EOR) services manage payroll, social security, and local labor law compliance so you can focus on growth.",
+                "bestFor": "Companies seeking fast market entry and cost-effective hiring",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "hr-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Employee Onboarding Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Documentation Gathering",
+                                "description": "Collect the employee's National ID (Osobna iskaznica), OIB (Tax Number), and proof of education. For foreign nationals, a valid work and residence permit (Dozvola za boravak i rad) is required."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Mandatory Medical Examination",
+                                "description": "Croatian law requires a 'prethodni zdravstveni pregled' for specific roles (especially those with increased risk) before the employee starts working."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Employment Contract Drafting",
+                                "description": "Prepare a written contract in Croatian (bilingual recommended). Contracts can be for an Indefinite term (default) or Fixed-term (max 3 years, with specific justifications)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Registration with Social Security",
+                                "description": "Submit the M-1P form to HZMO (Pension Insurance) and the M-1C form to HZZO (Health Insurance). This MUST be done no later than the day employment begins, before the first hour of work."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Workplace Safety Training",
+                                "description": "Provide mandatory occupational health and safety training (Zaštita na radu) as required by the Croatian Occupational Safety and Health Act."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hr-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Estimated Employer Burden 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Contribution Type",
+                                "Rate",
+                                "Basis"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Health Insurance (HZZO)",
+                                    "values": [
+                                        "16.5%",
+                                        "Gross Salary I"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Minimum Gross Salary",
+                                    "values": [
+                                        "€970.00",
+                                        "Statutory Minimum (2025)"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Severance Pay Reserve",
+                                    "values": [
+                                        "Varies",
+                                        "Accrues after 2 years"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "EOR Management Fee",
+                                    "values": [
+                                        "€200 - €500",
+                                        "Per employee / month"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "hr-eor-compliance",
+                    "type": "insights",
+                    "title": "Labor Law Compliance Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Probationary Period",
+                                "text": "The maximum statutory probation period is 6 months. During this time, the notice period for contract termination is at least 7 days."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Standard Working Hours",
+                                "text": "Full-time work is 40 hours per week. Overtime is limited to 10 hours per week, 180 hours per year (unless stipulated otherwise in a collective agreement)."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Final Payment Deadline",
+                                "text": "Upon termination, the employer must provide the final paycheck and all related documents within 8 days of the end of employment."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Notice Periods",
+                                "text": "Standard notice periods range from 2 weeks for less than 1 year of service to 3 months for 20+ years of service."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hr-eor-benefits",
+                    "type": "essentials",
+                    "title": "Statutory Leave & Entitlements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Annual Paid Leave",
+                                "description": "Employees are entitled to a minimum of 4 weeks (20 working days) of paid annual leave per year, assuming a 5-day work week."
+                            },
+                            {
+                                "title": "Sick Leave",
+                                "description": "Sick leave (Bolovanje) for the first 42 days is paid by the employer (usually 70-85% of salary). From the 43rd day, the cost is reimbursed by HZZO."
+                            },
+                            {
+                                "title": "Maternity Leave",
+                                "description": "Mandatory maternity leave is 98 days (28 days before birth, 70 days after). Total leave can extend significantly with parental leave options."
+                            },
+                            {
+                                "title": "Public Holiday Pay",
+                                "description": "Work on public holidays (14 days in Croatia) is entitled to increased pay, often 50% or more depending on the collective agreement."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hr-eor-pitfalls",
+                    "type": "insights",
+                    "title": "Common EOR Pitfalls",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Fixed-Term Abuses",
+                                "text": "Using fixed-term contracts without valid legal reasons (e.g., project-based work) can lead to the contract being legally reclassified as indefinite."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Vacation Carryover",
+                                "text": "Employees must use at least 2 weeks of vacation in the current year. The rest can be carried over but must be used by June 30th of the following year."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Medical Check Delays",
+                                "text": "Failing to conduct the mandatory medical exam before the start date can lead to significant fines during a labor inspection."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hr-eor-faq",
+                    "type": "faq",
+                    "title": "EOR Croatia FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I hire remote contractors through an EOR in Croatia?",
+                                "answer": "Yes, but if the relationship resembles employment (subordination, fixed hours), it's safer to use an EOR to hire them as full-time employees to avoid misclassification risks."
+                            },
+                            {
+                                "question": "Is a 13th-month salary mandatory in Croatia?",
+                                "answer": "No, a 13th-month salary is not legally required. However, it is common to provide 'Božićnica' (Christmas bonus) or 'Uskrsnica' (Easter bonus) as a benefit."
+                            },
+                            {
+                                "question": "Can an EOR sponsor work permits in Croatia?",
+                                "answer": "Yes, high-quality EOR providers can assist with the application for residence and work permits (Dozvola za boravak i rad) for foreign talent."
+                            },
+                            {
+                                "question": "What is the typical notice period for terminating an EOR agreement?",
+                                "answer": "Standard agreements usually specify 30 to 90 days, aligning with Croatian labor law requirements and the level of the roles involved."
+                            },
+                            {
+                                "question": "Are health insurance benefits included in EOR?",
+                                "answer": "Yes, mandatory state health insurance is covered via social security contributions. Supplemental private health insurance can also be offered as an additional benefit."
+                            },
+                            {
+                                "question": "How are expense reimbursements handled?",
+                                "answer": "Business expenses are processed alongside the monthly payroll, ensuring they comply with non-taxable limits set by Croatian tax authorities."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hr-payroll-workflow",
+                    "type": "key_steps",
+                    "title": "Monthly Payroll Execution",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross Salary Calculation",
+                                "description": "Consolidating base salary, bonuses, and taxable allowances. Calculations are performed in EUR following the 2025 exchange rules."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Social Contribution Withholding",
+                                "description": "Deducting 20% for Pension Insurance (Employee) and calculating 16.5% Health Insurance (Employer) on Gross salary I."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Personal Income Tax (PIT) Application",
+                                "description": "Applying the progressive tax rates (15% to 33% depending on city) after subtracting the personal allowance and pension contributions."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "JOPPD Form Submission",
+                                "description": "Submitting the mandatory electronic report (JOPPD) to the Tax Administration on the day of salary payment or the day after."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Net Disbursement",
+                                "description": "Disbursement of net salaries to employees' EUR bank accounts and filing of tax/contribution payments to the state."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hr-payroll-deductions",
+                    "type": "cost_breakdown",
+                    "title": "Payroll Tax & Contribution Brackets",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Rate",
+                                "Payer"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Pension Pillar I",
+                                    "values": [
+                                        "15%",
+                                        "Employee"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Pension Pillar II",
+                                    "values": [
+                                        "5%",
+                                        "Employee"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Health Insurance",
+                                    "values": [
+                                        "16.5%",
+                                        "Employer"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Lower PIT Rate",
+                                    "values": [
+                                        "15% - 23%",
+                                        "Employee"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Higher PIT Rate",
+                                    "values": [
+                                        "25% - 33%",
+                                        "Employee (on excess)"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "hr-payroll-insights",
+                    "type": "insights",
+                    "title": "Tax Landscape & Reforms",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Abolition of Surtax (Prirez)",
+                                "text": "Effective January 1, 2024, the local surtax (prirez) was abolished. Municipalities now have the power to set their own income tax rates within statutory ranges."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Personal Allowance",
+                                "text": "The monthly personal allowance (non-taxable base) has been increased in 2025 to support lower-income earners, typically around €600+ depending on dependents."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Non-Taxable Benefits",
+                                "text": "Employers can provide specific non-taxable bonuses such as meal allowances (€100/mo), transport reimbursements, and annual performance bonuses up to certain caps."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hr-payroll-deadlines",
+                    "type": "good_to_know",
+                    "title": "Critical Deadlines",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Salary Payment Date",
+                                "text": "Salaries must be paid by the 15th of the month for the previous month. Most professional firms pay between the 1st and 10th."
+                            },
+                            {
+                                "type": "info",
+                                "title": "JOPPD Reporting",
+                                "text": "Electronic reporting to the Tax Administration is mandatory via the ePorezna portal on the day of payment."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Public Holiday Shift",
+                                "text": "If the 15th falls on a weekend or holiday, the deadline for payroll payment is usually the last preceding business day."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hr-payroll-expat",
+                    "type": "insights",
+                    "title": "Expatriate Payroll Nuances",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "A1 Certificates",
+                                "text": "For EU employees working temporarily in Croatia, an A1 certificate is essential to remain covered by their home country's social security system."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Net-to-Gross Agreements",
+                                "text": "While common in expat packages, net-to-gross agreements must be carefully handled in payroll to account for variable municipal tax rates."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Housing & Benefits",
+                                "text": "Employer-provided housing or car benefits are taxable as personal income and must be grossed up and included in the monthly JOPPD reporting."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hr-payroll-faq",
+                    "type": "faq",
+                    "title": "Payroll FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Are payslips required to be in Croatian?",
+                                "answer": "Yes, payslips must be issued in Croatian. However, for international teams, providing a bilingual version is best practice."
+                            },
+                            {
+                                "question": "How are sick leave payments shared?",
+                                "answer": "The employer pays for the first 42 days (min 70% of average salary). Compensation from the 43rd day is paid by HZZO, though the employer often pays and then seeks reimbursement."
+                            },
+                            {
+                                "question": "Is digital filing of the JOPPD form mandatory?",
+                                "answer": "Yes, the JOPPD form must be submitted electronically to the Tax Administration for every single payment of income to an individual."
+                            },
+                            {
+                                "question": "Can we pay salaries in US Dollars?",
+                                "answer": "No, all salaries must be paid in Euro (EUR) into a bank account. Foreign currency payments are generally not permitted for local employment contracts."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hr-calc-logic",
+                    "type": "key_steps",
+                    "title": "Calculation Parameters",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross I Input",
+                                "description": "Enter the base monthly salary in EUR before any employee deductions."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Pension Deductions",
+                                "description": "The calculator automatically deducts 20% total (15% Pillar I + 5% Pillar II) from Gross I."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Personal Allowance",
+                                "description": "Subtracting the basic personal allowance (approx €600) and any additional credits for children or dependents."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Income Tax Calculation",
+                                "description": "Applying the lower (15-23%) or higher (25-33%) PIT rate based on the taxable base and the employee's municipality."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Total Cost Output",
+                                "description": "Adding the 16.5% Health Insurance to Gross I to calculate the 'Total Employer Cost' (Gross II)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hr-calc-summary",
+                    "type": "cost_breakdown",
+                    "title": "Calculator Data Requirements",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Field",
+                                "Required Data",
+                                "Impact"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Gross I Salary",
+                                    "values": [
+                                        "Currency: EUR",
+                                        "Primary Basis"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "City of Residence",
+                                    "values": [
+                                        "e.g., Zagreb, Split",
+                                        "Determines PIT rate"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Dependent Count",
+                                    "values": [
+                                        "Number of children",
+                                        "Reduces taxable base"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Employee Status",
+                                    "values": [
+                                        "e.g., First employment",
+                                        "May reduce contributions"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "hr-calc-benefits",
+                    "type": "insights",
+                    "title": "Including Non-Taxable Items",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Nutrition Allowance",
+                                "text": "Non-taxable meal stipends (up to €100/mo) can be added to net salary without increasing the tax base."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Commuting Reimbursement",
+                                "text": "Public transport costs are non-taxable when paid according to actual public transit prices or specific per-km rates."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Occasional Bonuses",
+                                "text": "Traditional bonuses (Božićnica, Uskrsnica) up to annual limits are non-taxable and should be included in total net planning."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hr-calc-examples",
+                    "type": "cost_breakdown",
+                    "title": "Net-to-Gross Examples 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Net Salary",
+                                "Gross I",
+                                "Total Employer Cost (Gross II)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Entry Level",
+                                    "values": [
+                                        "€1,200",
+                                        "€1,750",
+                                        "€2,038"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Mid-Level Professional",
+                                    "values": [
+                                        "€2,500",
+                                        "€3,800",
+                                        "€4,427"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Senior Executive",
+                                    "values": [
+                                        "€5,000",
+                                        "€8,200",
+                                        "€9,553"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "hr-calc-faq",
+                    "type": "faq",
+                    "title": "Payroll Calculator FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Does this calculator include the 2025 city tax changes?",
+                                "answer": "Yes, our logic is updated to reflect the abolition of separate 'prirez' and its integration into the new municipal PIT rates for 2025."
+                            },
+                            {
+                                "question": "What is the difference between Gross I and Gross II?",
+                                "answer": "Gross I is the employee's gross pay before their 20% pension deduction. Gross II includes the additional 16.5% health insurance paid by the employer."
+                            },
+                            {
+                                "question": "Can I calculate part-time salaries?",
+                                "answer": "Yes, the tax and contribution calculations apply proportionally to the gross amount earned, regardless of full-time or part-time status."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation in Croatia",
+                "subtitle": "Establish your d.o.o. or branch in Croatia",
+                "description": "Unlock the European market with a Croatian legal entity. Our experts guide you through the process of setting up a Limited Liability Company (d.o.o.), from notary appointments to tax registration.",
+                "bestFor": "Foreign investors and entrepreneurs entering the SEE region",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "hr-inc-steps",
+                    "type": "key_steps",
+                    "title": "Company Formation Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Name Reservation",
+                                "description": "Check and reserve the company name at the FINA (Financial Agency) or directly at the Commercial Court via the 'sudski registar' portal."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Notarization of Documents",
+                                "description": "Draft and notarize the Articles of Association (Izjava o osnivanju) and the Statement of Acceptance of Appointment by the Director."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Share Capital Deposit",
+                                "description": "Deposit the minimum share capital (€2,500 for a d.o.o.) into a temporary account at a local Croatian bank. Obtain a certificate of deposit."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Court Registration",
+                                "description": "Submit all documents to the Commercial Court (Trgovački sud). Registration is typically processed within 3-7 business days."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Tax & Statistical Registration",
+                                "description": "Apply for an OIB (Personal Identification Number) and register with the Central Bureau of Statistics (E-obrt/E-tvrtka)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hr-inc-costs",
+                    "type": "cost_breakdown",
+                    "title": "Setup Cost Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Item",
+                                "Estimated Cost",
+                                "Note"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Min Share Capital (d.o.o.)",
+                                    "values": [
+                                        "€2,500",
+                                        "Fully paid-in recommended"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Notary Public Fees",
+                                    "values": [
+                                        "€300 - €450",
+                                        "Depends on complexity"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Court Registration Fee",
+                                    "values": [
+                                        "€53",
+                                        "Standard stamp duty"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Official Gazette Publication",
+                                    "values": [
+                                        "€120",
+                                        "Mandatory notice"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "hr-inc-entities",
+                    "type": "insights",
+                    "title": "Entity Type Comparison",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Standard d.o.o.",
+                                "text": "Limited Liability Company. Best for most businesses. Minimum capital €2,500. Required for employing non-EU nationals under specific quotas."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Simple j.d.o.o.",
+                                "text": "Simplified LLC. Capital as low as €1.33. Restricted profit distribution rules until reserves reach €2,500. Often insufficient for work permits."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Branch Office (Podružnica)",
+                                "text": "Not a separate legal entity. The parent company carries full liability. Easier to set up for existing EU companies."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hr-inc-essentials",
+                    "type": "essentials",
+                    "title": "Post-Incorporation Compliance",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "VAT Registration",
+                                "description": "Mandatory if annual revenue exceeds €40,000 (PDV). Voluntary registration is possible from day one."
+                            },
+                            {
+                                "title": "Company Stamp",
+                                "description": "While increasingly optional in the EU, a physical company stamp ('pečat') is still widely used and often expected in Croatian administrative dealings."
+                            },
+                            {
+                                "title": "Ultimate Beneficial Owner (UBO)",
+                                "description": "Mandatory registration of the ultimate owner in the Croatian UBO register (Registar stvarnih vlasnika) within 30 days."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hr-inc-faq",
+                    "type": "faq",
+                    "title": "Incorporation FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is a physical office required?",
+                                "answer": "Yes, every Croatian company must have a registered office address. Virtual offices are legal and commonly used by foreign investors."
+                            },
+                            {
+                                "question": "Can I open a company remotely?",
+                                "answer": "Partially. Documents must be notarized, which often requires a visit or a Power of Attorney (PoA) certified with an Apostille."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing & Recruitment in Croatia",
+                "subtitle": "Source top-tier talent in Croatia's competitive market",
+                "description": "Navigate Croatia's labor market with ease. We specialize in finding skilled professionals for tech, tourism, and industrial sectors, ensuring all hires comply with the latest 2025 Foreigners Act regulations.",
+                "bestFor": "Growing teams and specialized skill sourcing",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "hr-staffing-process",
+                    "type": "key_steps",
+                    "title": "Recruitment & Hiring Workflow",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Talent Sourcing",
+                                "description": "Utilizing popular local platforms like MojPosao and LinkedIn to source both active and passive candidates in the SEE region."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Technical & Cultural Screening",
+                                "description": "Multi-stage interviews including language proficiency checks (English/German are common second languages in Croatia)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Work Permit Sponsorship (Non-EU)",
+                                "description": "Processing applications for the 'Dozvola za boravak i rad' via the MUP (Ministry of Interior) under the 2025 streamlined rules."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Reference & Background Checks",
+                                "description": "Verifying educational credentials and professional history in compliance with Croatian privacy laws."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Contract Execution",
+                                "description": "Issuing formal offer letters and employment contracts that specify the base salary in EUR and all statutory benefits."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hr-staffing-trends",
+                    "type": "insights",
+                    "title": "Croatia Talent Market Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Tech Talent Hub",
+                                "text": "Zagreb and Split have emerged as significant tech hubs in the Mediterranean, with a strong pool of software engineers and digital specialists."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Foreigners Act 2025",
+                                "text": "New regulations introduced in March 2025 require employers to demonstrate a clean tax record and specific housing standards when hiring non-EU workers."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Salary Expectations",
+                                "text": "Gross salaries in Croatia are rising. IT roles typically range from €2,500 to €6,000+ Gross I, depending on seniority."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hr-staffing-costs",
+                    "type": "cost_breakdown",
+                    "title": "Recruitment Cost Structure",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service",
+                                "Average Fee",
+                                "Frequency"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Agency Success Fee",
+                                    "values": [
+                                        "15% - 25%",
+                                        "Of Annual Gross Salary"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Work Permit Filing",
+                                    "values": [
+                                        "€100 - €200",
+                                        "Per application"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Job Board Posting",
+                                    "values": [
+                                        "€250 - €500",
+                                        "Per 30-day listing"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "hr-staffing-temp",
+                    "type": "essentials",
+                    "title": "Agency Worker Regulations",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Equal Treatment",
+                                "description": "Agency workers must be provided the same basic working and employment conditions as if they were hired directly by the user undertaking."
+                            },
+                            {
+                                "title": "Contract Duration",
+                                "description": "The assignment of a worker to a single user undertaking via an agency is generally limited to a maximum of 3 consecutive years."
+                            },
+                            {
+                                "title": "Liability",
+                                "description": "The user undertaking and the agency are jointly liable for specific labor obligations, emphasizing the need for licensed agency partners."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hr-staffing-faq",
+                    "type": "faq",
+                    "title": "Staffing FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the typical time-to-hire in Croatia?",
+                                "answer": "For technical roles, it usually takes 4-8 weeks. Standard administrative or commercial roles can often be filled within 3-5 weeks."
+                            },
+                            {
+                                "question": "Are there specific platforms for tech hiring in Croatia?",
+                                "answer": "Yes, localized platforms like MojPosao and Posao.hr are very effective, alongside LinkedIn and tech-focused communities like Joberty."
+                            },
+                            {
+                                "question": "Is it common to use headhunters for executive roles?",
+                                "answer": "Yes, executive search agencies are highly active in Zagreb and are commonly used for C-suite and senior management positions."
+                            },
+                            {
+                                "question": "Are background checks legal in Croatia?",
+                                "answer": "Yes, but they must be relevant to the job and comply with GDPR. Criminal record checks are only allowed for specific roles (e.g., finance, working with children)."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Solutions in Croatia",
+                "subtitle": "Centralize and automate your HR operations locally",
+                "description": "Modernize your workforce management with HRIS tools tailored for Croatian businesses. Ensure GDPR compliance while managing employee lifecycles and time-tracking digitally.",
+                "bestFor": "Digitally-forward companies and remote-first teams",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "hr-hris-adoption",
+                    "type": "key_steps",
+                    "title": "Implementing HRIS in Croatia",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Localization Setup",
+                                "description": "Configuring the system to handle Croatian public holidays, currency (EUR), and local date formats."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Data Privacy Mapping",
+                                "description": "Ensuring all personal data processing flows comply with GDPR and the Croatian Act on the Implementation of the General Data Protection Regulation."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Internal Communication",
+                                "description": "Setting up the employee self-service portal for leave requests, document access, and expense management."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Payroll Bridge Activation",
+                                "description": "Mapping HR data to payroll variables to ensure seamless generation of JOPPD reports and payslips."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hr-hris-compliance",
+                    "type": "insights",
+                    "title": "Digital Compliance Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Electronic Records",
+                                "text": "Croatian Labor Law permits electronic keeping of employee records, provided the integrity and accessibility of data are maintained for inspections."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Digital Signatures",
+                                "text": "Electronic signatures are increasingly accepted. Advanced electronic signatures (AdES) are recommended for formal employee notices and contract addendums."
+                            },
+                            {
+                                "type": "info",
+                                "title": "AZOP Oversight",
+                                "text": "The Personal Data Protection Agency (AZOP) enforces strict privacy rules. HR platforms must have robust audit trails and access controls."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hr-hris-essentials",
+                    "type": "essentials",
+                    "title": "Key HRIS Functional Features",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Time and Attendance",
+                                "description": "Automated tracking of working hours, necessary for calculating overtime and shift differentials according to local law."
+                            },
+                            {
+                                "title": "Leave Management",
+                                "description": "Digital workflows for approving annual leave, sick leave (requiring medical 'doznaka'), and personal days."
+                            },
+                            {
+                                "title": "Document Centralization",
+                                "description": "Secure storage of employment contracts, NDAs, and workplace safety certificates."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hr-hris-reporting",
+                    "type": "essentials",
+                    "title": "Mandatory Reporting & Analytics",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Personnel Records",
+                                "description": "Systematic tracking of employee data required for the 'Evidencija o radnicima' according to the Ministry of Labor regulations."
+                            },
+                            {
+                                "title": "Statistical Reports",
+                                "description": "Simplified generation of data for the 'RAD-1' and 'RAD-1G' forms required by the Croatian Bureau of Statistics."
+                            },
+                            {
+                                "title": "Gender Pay Gap",
+                                "description": "Increasingly important analytics for large companies to comply with evolving EU transparency directives and local expectations."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hr-hris-faq",
+                    "type": "faq",
+                    "title": "HRIS FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can we host our HR data outside of Croatia?",
+                                "answer": "Yes, provided the data remains within the EEA or in a country with adequate protection, and you have a valid Data Processing Agreement (DPA) in place."
+                            },
+                            {
+                                "question": "Is integration with local payroll providers possible?",
+                                "answer": "Yes, most modern HRIS platforms can be integrated with local Croatian payroll systems via API or regular flat-file exports."
+                            },
+                            {
+                                "question": "Does the system need to support the Croatian language?",
+                                "answer": "While not strictly mandatory for internal use, providing a Croatian interface is highly recommended for employee engagement and legal clarity during audits."
+                            },
+                            {
+                                "question": "Is it easy to integrate local payroll with global HRIS platforms?",
+                                "answer": "Most modern HRIS (like Workday or HiBob) can integrate via API or flat-file exchange with local Croatian payroll providers."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Services in Croatia",
+                "subtitle": "Professional bookkeeping and financial reporting",
+                "description": "Keep your Croatian entity compliant with HSFI and IFRS standards. Our accounting partners handle daily bookkeeping, tax filings, and annual audits with precision.",
+                "bestFor": "Foreign subsidiaries and local SMEs",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "hr-acc-cycle",
+                    "type": "key_steps",
+                    "title": "Annual Accounting Cycle",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Monthly Bookkeeping",
+                                "description": "Recording all transactions, bank reconciliations, and expense processing in accordance with Croatian accounting laws."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "VAT Reporting",
+                                "description": "Preparing and submitting the monthly or quarterly PDV report to the Tax Administration by the 20th of the following month."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Financial Statement Drafting",
+                                "description": "Compiling Profit & Loss statements and Balance Sheets under Croatian Financial Reporting Standards (HSFI)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Annual Filing (GFI)",
+                                "description": "Submitting the Annual Financial Report to FINA (Financial Agency) for public disclosure purposes by April 30."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Audit Coordination",
+                                "description": "Facilitating external audits for large entities or those meeting specific revenue/asset thresholds."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hr-acc-taxes",
+                    "type": "cost_breakdown",
+                    "title": "Corporate Tax Overview 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Tax Type",
+                                "Rate",
+                                "Threshold/Condition"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "CIT (Lower Rate)",
+                                    "values": [
+                                        "10%",
+                                        "Revenue up to €1 million"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "CIT (Standard Rate)",
+                                    "values": [
+                                        "18%",
+                                        "Revenue above €1 million"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "VAT (PDV)",
+                                    "values": [
+                                        "25%",
+                                        "Standard rate on most services"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Dividend Tax",
+                                    "values": [
+                                        "12% + City Tax (if apl.)",
+                                        "Withholding on profit distribution"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "hr-acc-einvoicing",
+                    "type": "essentials",
+                    "title": "E-Invoicing and Digitalization",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "B2G E-Invoicing",
+                                "description": "Since 2019, all invoices to government entities must be sent electronically via the FINA e-Račun portal."
+                            },
+                            {
+                                "title": "Fiscalization",
+                                "description": "Real-time reporting of cash transactions to the Tax Administration is mandatory for retail and service providers."
+                            },
+                            {
+                                "title": "Internal Controls",
+                                "description": "Implementation of digital approval workflows to ensure transaction validity and audit readiness."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hr-acc-audit",
+                    "type": "insights",
+                    "title": "Audit & Financial Oversight",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Statutory Audit Thresholds",
+                                "text": "Audits are mandatory for large and medium-sized entities. Thresholds include assets over €2M, revenue over €4M, or more than 50 employees."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Public Disclosure",
+                                "text": "All registered companies must publish their annual financial statements on the FINA portal, making certain financial data accessible to the public."
+                            },
+                            {
+                                "type": "info",
+                                "title": "HSFI Compliance",
+                                "text": "Small and micro entities use the Croatian Financial Reporting Standards (HSFI), which are simplified but still strictly enforced by the Tax Administration."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hr-acc-faq",
+                    "type": "faq",
+                    "title": "Accounting FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the standard VAT rate in Croatia?",
+                                "answer": "The standard PDV rate is 25%. Reduced rates of 13% and 5% apply to specific goods and services like accommodation, books, and basic foods."
+                            },
+                            {
+                                "question": "How long must I keep accounting records?",
+                                "answer": "Invoices and bookkeeping documents must be kept for at least 11 years. Payroll records and personnel files must be kept permanently."
+                            },
+                            {
+                                "question": "Can I use US GAAP for my Croatian subsidiary?",
+                                "answer": "For local statutory filing, you MUST use HSFI (or IFRS for large entities). You can maintain US GAAP records for group reporting separately."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hr-comp-roadmap",
+                    "type": "key_steps",
+                    "title": "Regulatory Compliance Roadmap",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "KYC & AML Screening",
+                                "description": "Verifying partners and clients against international and local sanction lists according to Croatian AML laws."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "UBO Register Filing",
+                                "description": "Identifying and registering ultimate beneficial owners in the state-held register managed by FINA."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Data Privacy Audit",
+                                "description": "Reviewing data processing activities for GDPR compliance and ensuring local 'Pravilnik o privatnosti' is in place."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Workplace Safety Audit",
+                                "description": "Annual assessment of health and safety protocols to maintain certificates required by the Labor Inspectorate."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hr-comp-gdpr",
+                    "type": "insights",
+                    "title": "Data Ethics & Privacy Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "AZOP Enforcement",
+                                "text": "The Croatian Personal Data Protection Agency (AZOP) has increased inspections, focusing on consumer rights and employee surveillance transparency."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Legal Basis for Processing",
+                                "text": "Consent is just one of several legal bases; contract performance and legitimate interest are frequently more appropriate for B2B operations."
+                            },
+                            {
+                                "type": "info",
+                                "title": "DPO Appointment",
+                                "text": "While not mandatory for all, appointing a Data Protection Officer is standard practice for firms processing high volumes of personal data."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hr-comp-reporting",
+                    "type": "essentials",
+                    "title": "Mandatory Business Reporting",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Statistical Reporting",
+                                "description": "Periodic surveys from the Central Bureau of Statistics on foreign trade, salaries, and staffing levels."
+                            },
+                            {
+                                "title": "Environmental Levies",
+                                "description": "Reporting to the Fund for Environmental Protection on packaging and waste management if applicable."
+                            },
+                            {
+                                "title": "Foreign Exchange Reporting",
+                                "description": "Requirements to report specific cross-border transactions to the Croatian National Bank (HNB)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hr-comp-fiscal",
+                    "type": "good_to_know",
+                    "title": "Fiscalization Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Real-time Reporting",
+                                "text": "In-scope transactions must be reported to the tax server instantly. Software must be certified for the Croatian 'fiskalizacija' protocol."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Cash Payment Limits",
+                                "text": "There are strict limits on cash transactions between business entities (typically limited to €5,000) to prevent money laundering."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Digital Certificate",
+                                "text": "Every business entity must obtain a specific digital certificate from FINA to sign and send fiscalized invoices to the Tax Administration."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hr-comp-faq",
+                    "type": "faq",
+                    "title": "Compliance FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What are the penalties for GDPR non-compliance in Croatia?",
+                                "answer": "Penalties follow the EU-wide GDPR framework, with fines reaching up to €20 million or 4% of global annual turnover, whichever is higher."
+                            },
+                            {
+                                "question": "Do we need a physical office in Croatia for compliance?",
+                                "answer": "While a registered address is mandatory, many administrative functions can be managed remotely with the help of a local representative or EOR."
+                            },
+                            {
+                                "question": "Are environmental reports required for software companies?",
+                                "answer": "Generally no, unless the company imports electronic equipment or produces significant physical waste falling under specific waste management regulations."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hr-tax-filing",
+                    "type": "key_steps",
+                    "title": "Periodic Tax Compliance Workflow",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Monthly PIT Withholding",
+                                "description": "Calculating and remitting Personal Income Tax on behalf of employees simultaneously with salary payments."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "VAT (PDV) Preparation",
+                                "description": "Compiling input and output VAT records to file monthly returns by the 20th of the following month (standard deadline)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "CIT Prepayment Estimation",
+                                "description": "Calculating monthly Corporate Income Tax prepayments based on the previous year's profitability."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Annual Tax Reconciliation",
+                                "description": "Finalizing the annual Corporate Income Tax return (Form PD) by April 30th for the previous calendar year."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hr-tax-rates",
+                    "type": "cost_breakdown",
+                    "title": "Primary Tax Rates 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Tax Category",
+                                "Standard Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "VAT (Standard)",
+                                    "values": [
+                                        "25%",
+                                        "Applies to most goods and services"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Capital Gains",
+                                    "values": [
+                                        "12%",
+                                        "On profits from sale of shares/property"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Dividend Tax",
+                                    "values": [
+                                        "12%",
+                                        "Withholding tax on distributions"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Real Estate Transfer",
+                                    "values": [
+                                        "3%",
+                                        "Paid by the buyer in property sales"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "hr-tax-reforms",
+                    "type": "insights",
+                    "title": "Recent Regulatory Tax Shifts",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "New PIT Brackets 2025",
+                                "text": "Municipal reforms have updated the income thresholds for the 33% higher tax rate, now adjusted to account for inflation and cost of living."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Crypto Asset Taxation",
+                                "text": "Profits from cryptocurrency trading are treated as capital income (12%), provided assets are held for less than two years."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Foreign Income Reporting",
+                                "text": "Croatian tax residents must report worldwide income, though double taxation treaties with 60+ countries often mitigate additional liability."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hr-tax-incentives",
+                    "type": "essentials",
+                    "title": "Tax Incentives & Reliefs",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "R&D Tax Deductions",
+                                "description": "Companies can reduce their taxable base by up to 150-200% of eligible Research and Development expenditure."
+                            },
+                            {
+                                "title": "Investment Incentives",
+                                "description": "Reduced CIT rates (as low as 0%) for major investments that create new employment in assisted regions."
+                            },
+                            {
+                                "title": "Youth Employment Relief",
+                                "description": "Full or partial exemption from certain social contributions for hiring workers under the age of 30 for their first permanent role."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hr-tax-treaties",
+                    "type": "insights",
+                    "title": "Double Tax Treaties",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Network of Treaties",
+                                "text": "Croatia has signed over 65 double tax treaties, including with the US, UK, and most EU nations, to prevent double taxation of income and capital."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Withholding Tax Reductions",
+                                "text": "Treaties often reduce the standard withholding tax on dividends (12%) and royalties/interest (15%) for residents of treaty countries."
+                            },
+                            {
+                                "type": "info",
+                                "title": "PE Risk Management",
+                                "text": "Guidelines on Permanent Establishment (PE) follow OECD patterns, defining when a foreign company's activities in Croatia trigger local corporate tax."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hr-tax-faq",
+                    "type": "faq",
+                    "title": "Tax FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the tax year in Croatia?",
+                                "answer": "The tax year is the calendar year. However, companies can request a different fiscal year if it matches their parent company's cycle."
+                            },
+                            {
+                                "question": "When is the deadline for personal income tax returns?",
+                                "answer": "Most individual income tax is settled via withholding. For those required to file (e.g., self-employed), the deadline is typically the end of February."
+                            },
+                            {
+                                "question": "Is there a wealth tax in Croatia?",
+                                "answer": "No, Croatia does not currently impose a general wealth tax, though there are specific taxes on vacation homes and motor vehicles."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Services & MSA in Croatia",
+                "subtitle": "Solidify your business agreements locally",
+                "description": "Protect your interests with ironclad legal agreements in Croatia. From Master Service Agreements to Intellectual Property protection, our legal experts ensure your contracts are enforceable and compliant with the Croatian Obligations Act.",
+                "bestFor": "B2B service providers and technology firms",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "hr-legal-contracting",
+                    "type": "key_steps",
+                    "title": "Contract Finalization Workflow",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Entity Verification",
+                                "description": "Checking the counterparty against the Sudski Registar to confirm valid registration and OIB."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Authority Check",
+                                "description": "Verifying that the signatories have the legal right to bind the company (Director vs Prokurist)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Drafting & Localization",
+                                "description": "Adapting global templates to include mandatory Croatian provisions on payments, termination, and liability."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Execution & Notarization",
+                                "description": "Signing the document. Specific agreements (e.g., real estate or large loans) require solemnization by a Notary Public."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hr-legal-framework",
+                    "type": "insights",
+                    "title": "Croatian Legal Landscape",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Civil Law Tradition",
+                                "text": "Croatia follows the Civil Law tradition, based primarily on encoded statutes like the Law on Obligations (ZOO)."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Choice of Law",
+                                "text": "While international parties can often choose foreign law, mandatory Croatian rules (e.g., labor, real estate) will always prevail for local operations."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Enforcement Timelines",
+                                "text": "Resolution of commercial disputes in Croatian courts can be lengthy; including arbitration clauses (e.g., HGK) is often recommended."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hr-legal-clauses",
+                    "type": "essentials",
+                    "title": "Essential MSA Provisions",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Intellectual Property",
+                                "description": "Explicit assignment of IP rights created during the service term to the buyer, adhering to the Copyright and Related Rights Act."
+                            },
+                            {
+                                "title": "Termination for Cause",
+                                "description": "Defining specific breaches (e.g., non-payment, insolvency) that allow for immediate contract dissolution."
+                            },
+                            {
+                                "title": "Liability Caps",
+                                "description": "Negotiating reasonable limits on damages, excluding gross negligence or willful misconduct as per local law."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hr-legal-fees",
+                    "type": "cost_breakdown",
+                    "title": "Legal Service Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service Type",
+                                "Estimate",
+                                "Unit"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Contract Review",
+                                    "values": [
+                                        "€250 - €600",
+                                        "Per standard document"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Notary Solemnization",
+                                    "values": [
+                                        "Varies",
+                                        "Based on contract value"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Legal Consulting",
+                                    "values": [
+                                        "€150 - €300",
+                                        "Per hour"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "hr-legal-dispute",
+                    "type": "insights",
+                    "title": "Dispute Resolution & Jurisdiction",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Choice of Law",
+                                "text": "Parties can choose a foreign law for international contracts, but mandatory Croatian labor and real estate laws cannot be bypassed for local operations."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Litigation Timelines",
+                                "text": "Commercial litigation in Croatian courts can be slow. Including an arbitration clause (e.g., Zagreb Rules) is often recommended for faster resolution."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Enforcement of Judgments",
+                                "text": "As an EU member, Croatia follows the Brussels I Regulation for the recognition and enforcement of judgments from other EU member states."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hr-legal-faq",
+                    "type": "faq",
+                    "title": "Legal & MSA FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Are oral contracts valid in Croatia?",
+                                "answer": "While generally valid for some commercial dealings, most significant contracts (employment, real estate, company formation) MUST be in writing to be enforceable."
+                            },
+                            {
+                                "question": "Do I need a local legal representative?",
+                                "answer": "For foreign entities without a local director, appointing a local proxy or legal representative is highly recommended for administrative and court dealings."
+                            },
+                            {
+                                "question": "What is the standard notice period for B2B contract termination?",
+                                "answer": "If not specified, the Law on Obligations dictates a 'reasonable' period, but market standard is typically 30 to 90 days."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Development in Croatia",
+                "subtitle": "Build and scale your digital products with SEE talent",
+                "description": "Access Croatia's thriving IT ecosystem. From custom software development to specialized AI and FinTech solutions, our partners provide high-quality engineering and design services for global markets.",
+                "bestFor": "Startups and enterprises seeking agile dev teams",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "hr-soft-selection",
+                    "type": "key_steps",
+                    "title": "Vendor Selection Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Technical Assessment",
+                                "description": "Reviewing the agency's technical stack (e.g., React, Go, Java) and engineering practices (CI/CD, code review)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Portfolio & Case Studies",
+                                "description": "Verifying experience in relevant sectors like Logistics, Tourism, or Banking within the EU."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Security & SDLC Audit",
+                                "description": "Ensuring the partner follows secure development lifecycles and adheres to ISO 27001 or equivalent standards."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Engagement Model Design",
+                                "description": "Choosing between Dedicated Teams, Staff Augmentation, or Fixed-Price project delivery."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hr-soft-trends",
+                    "type": "insights",
+                    "title": "Croatia's Technology Strengths",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "FinTech & Blockchain",
+                                "text": "Croatia has a robust community of blockchain developers and fintech specialists, anchored by several unicorn-scale success stories."
+                            },
+                            {
+                                "type": "info",
+                                "title": "High Technical Education",
+                                "text": "Universities in Zagreb, Osijek, and Split produce highly skilled engineers with strong mathematical foundations and English fluency."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Competitive Value",
+                                "text": "Croatian software firms offer a balance of Western European quality with Central European cost structures, making them ideal nearshore partners."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hr-soft-costs",
+                    "type": "cost_breakdown",
+                    "title": "Development Pricing Guide",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Role/Project",
+                                "Hourly Rate",
+                                "Estimated Range"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Senior Developer",
+                                    "values": [
+                                        "€55 - €95",
+                                        "Per hour"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "QA Engineer",
+                                    "values": [
+                                        "€35 - €55",
+                                        "Per hour"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "MVP Build",
+                                    "values": [
+                                        "€25,000+",
+                                        "Dependent on complexity"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "UI/UX Design",
+                                    "values": [
+                                        "€45 - €75",
+                                        "Per hour"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Project Management",
+                                    "values": [
+                                        "15% - 20%",
+                                        "Of project budget"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "hr-soft-models",
+                    "type": "essentials",
+                    "title": "Software Engagement Models",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Dedicated Development Teams",
+                                "description": "Long-term partnership where a team in Croatia works exclusively on your product, acting as an extension of your in-house engineering."
+                            },
+                            {
+                                "title": "Project-Based Outsourcing",
+                                "description": "Fixed-price or time-and-materials contracts for specific deliverables with defined milestones and acceptance criteria."
+                            },
+                            {
+                                "title": "Staff Augmentation",
+                                "description": "Rapidly scaling your current team by adding expert Croatian developers to fill specific skill gaps for a flexible duration."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hr-soft-faq",
+                    "type": "faq",
+                    "title": "Software Development FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is IP ownership clearly protected in Croatia?",
+                                "answer": "Yes, Croatian law provides strong IP protection. Standard contracts ensure that all work-for-hire IP is automatically transferred to the client."
+                            },
+                            {
+                                "question": "What is the English proficiency level in the IT sector?",
+                                "answer": "Very high. Most Croatian developers have professional working proficiency in English, as it is the primary language for technical education and global work."
+                            },
+                            {
+                                "question": "Are there any tax incentives for young employees in Croatia?",
+                                "answer": "Yes, employees under 25 are exempt from 100% of income tax on their salary, and those aged 25-30 are exempt from 50% of the income tax."
+                            },
+                            {
+                                "question": "What is the corporate tax rate for small businesses?",
+                                "answer": "Companies with annual revenues up to €1 million pay a reduced corporate income tax rate of 10%. Above that, the standard rate is 18%."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Digital Marketing in Croatia",
+                "subtitle": "Grow your brand in the Mediterranean market",
+                "description": "Leverage localized marketing strategies to reach Croatian and regional audiences. Our agency partners excel in performance marketing, SEO, and social media management tailored for the SEE region.",
+                "bestFor": "E-commerce brands and tourism operators",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "hr-mkt-strategy",
+                    "type": "key_steps",
+                    "title": "Campaign Launch Protocol",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Market Resonance Analysis",
+                                "description": "Analyzing local competitors and consumer behavior trends in the Croatian market."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Localized Content Creation",
+                                "description": "Developing English and Croatian copy that respects local cultural nuances and linguistic preferences."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Multi-Channel Integration",
+                                "description": "Coordinating efforts across Google Search, Instagram, and local portals like Index.hr."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Performance Optimization",
+                                "description": "Continuous A/B testing of creatives and landing pages to maximize conversion rates."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hr-mkt-trends",
+                    "type": "insights",
+                    "title": "Marketing Trends in Croatia",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Influencer Impact",
+                                "text": "Collaborations with Croatian lifestyle and travel influencers are highly effective for lifestyle brands and consumer goods."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Mobile-First Audience",
+                                "text": "With high mobile internet penetration, mobile-responsive campaigns and vertical video content are mandatory for success."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Tourism Seasonality",
+                                "text": "Ad spend and consumer intent peak significantly during the summer months (June-September), requiring strategic budget allocation."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hr-mkt-costs",
+                    "type": "cost_breakdown",
+                    "title": "Agency Service Retainers",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service Scope",
+                                "Monthly Retainer",
+                                "Minimum Term"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Media Mgmt",
+                                    "values": [
+                                        "€800 - €2,000",
+                                        "6 Months"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Full SEO Strategy",
+                                    "values": [
+                                        "€1,200 - €3,500",
+                                        "12 Months"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "PPC Ad Management",
+                                    "values": [
+                                        "€500 + % of Spend",
+                                        "Monthly"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

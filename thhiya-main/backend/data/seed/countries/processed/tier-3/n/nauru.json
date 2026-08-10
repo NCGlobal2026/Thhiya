@@ -1,0 +1,475 @@
+{
+    "name": "Nauru",
+    "code": "NR",
+    "slug": "nauru",
+    "flag": "https://flagcdn.com/w160/nr.png",
+    "region": "Oceania",
+    "languages": [
+        "Nauruan",
+        "English"
+    ],
+    "currencies": [
+        "AUD"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Nauru",
+                "subtitle": "Hire in Yaren",
+                "description": "Compliant employment in the Pacific. We handle contribution payments.",
+                "bestFor": "Remote",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "nr-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Agreement",
+                                "description": "Simple employment agreement in English."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Visa",
+                                "description": "Work visa required for non-citizens."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Registration",
+                                "description": "Register with Nauru Revenue Office."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "nr-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Superannuation (NSS)",
+                                    "values": [
+                                        "5%",
+                                        "5%",
+                                        "Mandatory for Nauruan citizens."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Expat Medical",
+                                    "values": [
+                                        "Variable",
+                                        "0%",
+                                        "Private health insurance recommended."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "nr-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Independence Day",
+                                "description": "January 31"
+                            },
+                            {
+                                "title": "International Women's Day",
+                                "description": "March 8"
+                            },
+                            {
+                                "title": "Good Friday",
+                                "description": "April 18"
+                            },
+                            {
+                                "title": "Easter Monday",
+                                "description": "April 21"
+                            },
+                            {
+                                "title": "Constitution Day",
+                                "description": "May 17"
+                            },
+                            {
+                                "title": "RONPhos Handover Day",
+                                "description": "July 1"
+                            },
+                            {
+                                "title": "Angam Day",
+                                "description": "October 26"
+                            },
+                            {
+                                "title": "Christmas Day",
+                                "description": "December 25"
+                            },
+                            {
+                                "title": "Boxing Day",
+                                "description": "December 26"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "nr-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Annual Income (AUD)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Up to 110,880",
+                                    "values": [
+                                        "0%",
+                                        "Residents (High tax-free threshold)."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Over 110,880",
+                                    "values": [
+                                        "20%",
+                                        "Flat rate on excess."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Non-Residents",
+                                    "values": [
+                                        "20%",
+                                        "Flat rate above 20,000 AUD."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "nr-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Base Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Super",
+                                "description": "Deduct 5% (Employee Share)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax",
+                                "description": "Apply 0% or 20% on taxable income."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Net",
+                                "description": "Gross - Super - Tax."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Nauru",
+                "subtitle": "Corporation",
+                "description": "Nauru Corporation.",
+                "bestFor": "Asset Protection",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "nr-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Application",
+                                "description": "Submit to Registrar of Corporations."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Fees",
+                                "description": "Pay registration fees."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Licenses",
+                                "description": "Business license if operating locally."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "nr-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Bendigo Bank",
+                                "description": "Agency presence."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Nauru",
+                "subtitle": "Yaren",
+                "description": "Small talent pool.",
+                "bestFor": "Admin",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "nr-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Yaren / Aiwo",
+                                "text": "Main population centers."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Nauru",
+                "subtitle": "Basic",
+                "description": "Manual.",
+                "bestFor": "Small Teams",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "nr-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Records",
+                                "description": "Basic employee records required."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Nauru",
+                "subtitle": "Simple",
+                "description": "Cash based.",
+                "bestFor": "SMEs",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "nr-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Local",
+                                "text": "Accepted practices usually follow Australian standards."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "nr-comp-labor",
+                    "type": "warning",
+                    "title": "Immigration",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Visas",
+                                "description": "Strict visa requirements for non-citizens."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "nr-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Business Profit Tax",
+                                    "values": [
+                                        "25%",
+                                        "Standard rate."
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Nauru",
+                "subtitle": "Common Law",
+                "description": "English derived.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "nr-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "English is the language of business and law."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Nauru",
+                "subtitle": "Limited",
+                "description": "Basic internet.",
+                "bestFor": "Connectivity",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "nr-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Basic",
+                                "description": "Reliant on Australian banking interfaces."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Nauru",
+                "subtitle": "Community",
+                "description": "Word of mouth.",
+                "bestFor": "Local",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "nr-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Social",
+                                "text": "Facebook is the main online community hub."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

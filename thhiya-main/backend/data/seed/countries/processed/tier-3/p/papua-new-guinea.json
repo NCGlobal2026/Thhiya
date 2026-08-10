@@ -1,0 +1,524 @@
+{
+    "name": "Papua New Guinea",
+    "code": "PG",
+    "slug": "papua-new-guinea",
+    "flag": "https://flagcdn.com/w160/pg.png",
+    "region": "Oceania",
+    "languages": [
+        "English",
+        "Tok Pisin",
+        "Hiri Motu"
+    ],
+    "currencies": [
+        "PGK"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in PNG",
+                "subtitle": "Hire in Port Moresby",
+                "description": "Compliant employment in Melanesia. We handle NASFUND.",
+                "bestFor": "Mining & Energy",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "pg-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Written contract is standard."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "TIN",
+                                "description": "Register for Tax Identification Number."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Superannuation",
+                                "description": "Register with Approved Superannuation Fund (e.g., NASFUND)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "pg-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Superannuation",
+                                    "values": [
+                                        "8.4%",
+                                        "6%",
+                                        "Mandatory for employers with 15+ employees."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Training Levy",
+                                    "values": [
+                                        "2%",
+                                        "0%",
+                                        "If payroll > K200,000 (deductible if training provided)."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "pg-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Remembrance Day (Late PM)",
+                                "description": "February 26"
+                            },
+                            {
+                                "title": "Good Friday",
+                                "description": "April 18"
+                            },
+                            {
+                                "title": "Easter Saturday",
+                                "description": "April 19"
+                            },
+                            {
+                                "title": "Easter Monday",
+                                "description": "April 21"
+                            },
+                            {
+                                "title": "King's Birthday",
+                                "description": "June 17 (Estimated)"
+                            },
+                            {
+                                "title": "National Remembrance Day",
+                                "description": "July 23"
+                            },
+                            {
+                                "title": "Repentance Day",
+                                "description": "August 26"
+                            },
+                            {
+                                "title": "Independence Day",
+                                "description": "September 16"
+                            },
+                            {
+                                "title": "Christmas Day",
+                                "description": "December 25"
+                            },
+                            {
+                                "title": "Boxing Day",
+                                "description": "December 26"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "pg-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax (Salary Wages Tax)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Annual Income (PGK)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Up to 20,000",
+                                    "values": [
+                                        "0%",
+                                        "Tax free threshold."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "20,001 - 33,000",
+                                    "values": [
+                                        "30%",
+                                        "Standard base rate."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "33,001 - 70,000",
+                                    "values": [
+                                        "35%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "70,001 - 250,000",
+                                    "values": [
+                                        "40%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Over 250,000",
+                                    "values": [
+                                        "42%",
+                                        "Top rate."
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "pg-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Gross Salary + Benefits (Taxable)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Super (Eee)",
+                                "description": "Calculate 6% (Deducted from Net generally, but funds are restricted)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax Base",
+                                "description": "Taxable Salary."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "SWT",
+                                "description": "Apply 0-42% Salary Wages Tax rates."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Net",
+                                "description": "Gross - SWT - Super Employee Contribution."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation PNG",
+                "subtitle": "Limited",
+                "description": "Company Limited by Shares.",
+                "bestFor": "Investment",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "pg-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "IPA",
+                                "description": "Register with Investment Promotion Authority."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "TIN",
+                                "description": "Register with Internal Revenue Commission (IRC)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Certification",
+                                "description": "Foreign Enterprise Certification if applicable."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "pg-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "BSP",
+                                "description": "Bank South Pacific."
+                            },
+                            {
+                                "title": "Kina Bank",
+                                "description": "Major commercial bank."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in PNG",
+                "subtitle": "Port Moresby",
+                "description": "Extractive industries.",
+                "bestFor": "Mining",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "pg-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Port Moresby",
+                                "text": "Capital city."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Lae",
+                                "text": "Industrial hub."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS PNG",
+                "subtitle": "Manual",
+                "description": "Developing.",
+                "bestFor": "Records",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "pg-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "SWT Remittance",
+                                "description": "Monthly Salary Wages Tax forms."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting PNG",
+                "subtitle": "IFRS",
+                "description": "Adopted.",
+                "bestFor": "Compliance",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "pg-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "IFRS",
+                                "text": "International Financial Reporting Standards adopted."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "pg-comp-labor",
+                    "type": "warning",
+                    "title": "Security",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Duty of Care",
+                                "description": "Employers have significant duty of care for employee safety due to security environment."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "pg-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax (Resident)",
+                                    "values": [
+                                        "30%",
+                                        "Standard rate."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Corporate Income Tax (Non-Res)",
+                                    "values": [
+                                        "48%",
+                                        "Higher rate for non-residents."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "GST",
+                                    "values": [
+                                        "10%",
+                                        "Goods and Services Tax."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal PNG",
+                "subtitle": "Common Law",
+                "description": "Australian influenced.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "pg-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "English is the official language for business and law."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software PNG",
+                "subtitle": "Limited",
+                "description": "Developing.",
+                "bestFor": "Payments",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "pg-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Mobile Banking",
+                                "description": "Increasingly popular (BSP Mobile)."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing PNG",
+                "subtitle": "Newspaper",
+                "description": "Traditional.",
+                "bestFor": "Reach",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "pg-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Print/Radio",
+                                "text": "Still very effective."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

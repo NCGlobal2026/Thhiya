@@ -1,0 +1,2057 @@
+{
+    "name": "Costa Rica",
+    "code": "CR",
+    "slug": "costa-rica",
+    "flag": "https://flagcdn.com/w160/cr.png",
+    "region": "Americas",
+    "languages": [
+        "Spanish",
+        "English"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR & PEO in Costa Rica",
+                "subtitle": "Compliant hiring solution without a local entity",
+                "description": "Hire talent in Costa Rica within days using our Employer of Record (EOR) services. We handle all local compliance, from CCSS social security to Aguinaldo bonuses, so you can focus on growth.",
+                "bestFor": "Companies seeking rapid market entry (1-10 employees)",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "cr-eor-onboarding-steps",
+                    "type": "key_steps",
+                    "title": "Employee Onboarding Workflow",
+                    "subtitle": "Timeline: 3-5 business days",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Employment Contract Execution",
+                                "description": "Drafting of bilingual (Spanish/English) contracts that strictly adhere to the Costa Rican Labor Code. Contracts must specify the 'jornada' (work shift) and salary in CRC or USD."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "CCSS & INS Registration",
+                                "description": "Mandatory enrollment with the Caja Costarricense de Seguro Social (CCSS) for health/pension and the Instituto Nacional de Seguros (INS) for occupational risk insurance."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Background & Reference Checks",
+                                "description": "Verification of academic credentials and prior employment history, often required for specialized and management roles in San José's tech hubs."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Digital Signature Setup",
+                                "description": "Assisting employees in obtaining a 'Firma Digital' if they need to sign official government documents or manage municipal permits on behalf of the company."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Equipment & IT Provisioning",
+                                "description": "Coordination of laptop delivery and secure VPN access, ensuring compliance with local data privacy standards and home office stipend requirements."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cr-eor-cost-breakdown",
+                    "type": "cost_breakdown",
+                    "title": "Total Cost of Employment",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Rate/Amount",
+                                "Frequency"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Security (CCSS) - Employer",
+                                    "values": [
+                                        "26.67%",
+                                        "Monthly"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Social Security (CCSS) - Employee",
+                                    "values": [
+                                        "10.67%",
+                                        "Monthly"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Occupational Risk (INS)",
+                                    "values": [
+                                        "0.5% - 5.0%",
+                                        "Variable by risk"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Christmas Bonus (Aguinaldo)",
+                                    "values": [
+                                        "8.33% (1/12th)",
+                                        "Annual"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "EOR Management Fee",
+                                    "values": [
+                                        "$199 - $599",
+                                        "Per Employee/Mo"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "cr-eor-compliance-insights",
+                    "type": "insights",
+                    "title": "Compliance & Labor Nuances",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Just Cause Termination",
+                                "text": "Costa Rica is highly pro-employee. Terminating without 'Justa Causa' requires payment of 'Cesantía' (severance), which can be up to 22 days per year of service."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Aguinaldo Deadline",
+                                "text": "The 13th-month salary (Aguinaldo) must be paid between December 1st and December 20th. Failure to meet this deadline leads to heavy fines from the Ministry of Labor."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Work Shift Flexibility",
+                                "text": "Utilize the 'Jornada Acumulativa' (cumulative shift) to allow 48 hours of work in 5 days instead of 6, a common practice to attract top talent who prefer weekends off."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cr-eor-faq",
+                    "type": "faq",
+                    "title": "EOR Costa Rica FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I pay employees in USD?",
+                                "answer": "Yes, salaries can be negotiated and paid in USD, but social security (CCSS) and income tax (Hacienda) must be calculated and reported based on the BCCR exchange rate on the date of payment."
+                            },
+                            {
+                                "question": "What is the standard probation period?",
+                                "answer": "The maximum legal probation period in Costa Rica is 3 months. During this time, either party can terminate the contract without notice or severance pay."
+                            },
+                            {
+                                "question": "Is health insurance provided through the EOR?",
+                                "answer": "The CCSS (Caja) provides universal healthcare. While mandatory, many EOR clients also offer private supplemental insurance (e.g., Pan-American or BlueCross) as a perk."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cr-eor-market-norms",
+                    "type": "good_to_know",
+                    "title": "Local Market Expectations",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "The 'Pura Vida' Culture",
+                                "text": "Business interactions are polite and relationship-oriented. Start meetings with small talk to build rapport before diving into technical agendas."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Education Hubs",
+                                "text": "San José and Heredia (Free Zones) are the primary talent hubs. The University of Costa Rica (UCR) and TEC are the top sources for engineering and tech talent."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Connectivity",
+                                "text": "Costa Rica has the highest fiber-optic penetration in Central America, making it ideal for remote teams working for US/Canada firms."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cr-payroll-cycle-steps",
+                    "type": "key_steps",
+                    "title": "Monthly Payroll Execution",
+                    "subtitle": "Standard 15th/30th Disbursement",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross Salary Calculation",
+                                "description": "Aggregating base pay, overtime (paid at 1.5x), and any taxable allowances like housing or transportation."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "CCSS Retentions",
+                                "description": "Calculating the mandatory 10.67% employee deduction for health, disability, and old-age pensions."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Income Tax Withholding (I.S.T.)",
+                                "description": "Applying the progressive tax brackets (0% to 25%) based on the monthly salary thresholds defined by Hacienda."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Net Disbursement",
+                                "description": "Executing bank transfers via SINPE (local real-time transfer system) to employee accounts in CRC or USD."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Statutory Reporting",
+                                "description": "Electronic filing of the 'Planilla Digital' with CCSS and the monthly tax declaration (D-103) with Hacienda."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cr-payroll-tax-brackets",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax Brackets (Current)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Monthly Income Range (CRC)",
+                                "Tax Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Up to 929,000",
+                                    "values": [
+                                        "0%",
+                                        "Exempt"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "929,001 - 1,363,000",
+                                    "values": [
+                                        "10%",
+                                        "Standard Rate"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "1,363,001 - 2,392,000",
+                                    "values": [
+                                        "15%",
+                                        "Mid-tier"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "2,392,001 - 4,783,000",
+                                    "values": [
+                                        "20%",
+                                        "High Income"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Above 4,783,000",
+                                    "values": [
+                                        "25%",
+                                        "Top Bracket"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "cr-payroll-deductions",
+                    "type": "deductions",
+                    "title": "Mandatory Payroll Deductions",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Deduction Type",
+                                "Employee Share",
+                                "Employer Share"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Health & Maternity (SEM)",
+                                    "values": [
+                                        "5.50%",
+                                        "9.25%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Old Age, Disability, Death (IVM)",
+                                    "values": [
+                                        "4.17%",
+                                        "5.42%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Worker Protection Fund (LPT)",
+                                    "values": [
+                                        "1.00%",
+                                        "4.75%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Banco Popular Contribution",
+                                    "values": [
+                                        "1.00%",
+                                        "0.50%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Total Social Burden",
+                                    "values": [
+                                        "10.67%",
+                                        "26.67%"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "cr-payroll-compliance-insights",
+                    "type": "insights",
+                    "title": "Payroll Compliance Strategy",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "SINPE System",
+                                "text": "The 'Sistema Nacional de Pagos Electrónicos' (SINPE) is the backbone of local payments. Ensure your payroll software integrates with SINPE to avoid 24-hour clearing delays."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Overtime Caps",
+                                "text": "Employees cannot exceed 12 hours of total daily work (8 regular + 4 overtime). Exceeding this triggers significant penalties and legal risk during labor audits."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Aguinaldo Provisions",
+                                "text": "Account for the 8.33% Accrued Aguinaldo monthly in your financial statements to avoid year-end cash flow shocks in December."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cr-payroll-faq",
+                    "type": "faq",
+                    "title": "Payroll Integration FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the fiscal year in Costa Rica?",
+                                "answer": "The fiscal year for individuals and companies runs from January 1st to December 31st."
+                            },
+                            {
+                                "question": "Are fringe benefits taxable?",
+                                "answer": "Yes, benefits like company cars or housing allowances are generally treated as 'Salario en Especie' (salary in kind) and are subject to CCSS and income tax."
+                            },
+                            {
+                                "question": "How do I handle sick leave payments?",
+                                "answer": "For the first 3 days, the employer pays 50% and CCSS pays 50%. After the 4th day, CCSS pays 60% and the employer pays nothing (though some offer top-ups)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cr-calc-employer-logic",
+                    "type": "key_steps",
+                    "title": "How the Calculation Works",
+                    "subtitle": "Automated Fiscal Rules",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Input Gross Monthly Salary",
+                                "description": "The user enters the monthly base salary in Costa Rican Colones (CRC) or USD equivalent."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Social Security Application",
+                                "description": "The calculator automatically deducts 10.67% from the employee and calculates the 26.67% employer liability for CCSS."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Progressive Tax Slicing",
+                                "description": "The logic applies the current Hacienda brackets (e.g., 10% above 929k per month) to find the net withholding."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Aguinaldo & Holiday Provision",
+                                "description": "An additional 8.33% is added to the 'Total Employer Cost' to reflect the mandatory Christmas bonus accrual."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Final Cost Simulation",
+                                "description": "Output showing: Total Net Pay to Employee vs Total Disbursement for Employer per month."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cr-calc-sample-scenario",
+                    "type": "table",
+                    "title": "Sample: $5,000 USD Monthly Salary",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Cost Item",
+                                "Amount (Approx)",
+                                "Percentage"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Gross Salary",
+                                    "values": [
+                                        "$5,000.00",
+                                        "100%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Social Security (Employer)",
+                                    "values": [
+                                        "$1,333.50",
+                                        "26.67%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Aguinaldo Provision",
+                                    "values": [
+                                        "$416.50",
+                                        "8.33%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Work Risk Insurance (INS)",
+                                    "values": [
+                                        "$50.00",
+                                        "1.00% (Est)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Total Cost to Employer",
+                                    "values": [
+                                        "$6,800.00",
+                                        "136%"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "cr-calc-accuracy-insights",
+                    "type": "insights",
+                    "title": "Precision Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Exchange Rate Volatility",
+                                "text": "Our calculator uses the Official BCCR 'Venta' rate. We recommend adding a 2% buffer for payrolls funded from foreign accounts to cover bank spread."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Ceiling for CCSS",
+                                "text": "Certain components of social security have a 'Tope' (ceiling) on high salaries. Our calculator logic adjusts for these caps automatically."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Family Credits",
+                                "text": "Don't forget to deduct 'Créditos Familiares' (approx $3 - $5 per month for spouse/children) to slightly reduce the net income tax."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cr-calc-faq",
+                    "type": "faq",
+                    "title": "Calculator FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is Aguinaldo included in the Net Pay?",
+                                "answer": "No, Aguinaldo is a separate payment in December. The calculator shows the monthly *accrual* cost for budgeting purposes."
+                            },
+                            {
+                                "question": "Does it handle 'Professional Services'?",
+                                "answer": "No, this calculator is for 'Relación de Dependencia' (Employees). Independent contractors have different tax rules (2% - 25% on gross)."
+                            },
+                            {
+                                "question": "Are the 2025 brackets updated?",
+                                "answer": "Yes, our engine is updated every January following Hacienda's official decree on the 'Tramas de Impuesto sobre la Renta'."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cr-calc-overtime-logic",
+                    "type": "good_to_know",
+                    "title": "Overtime & Holiday Logic",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Double Time",
+                                "text": "Work performed on mandatory holidays (Feriados de Pago Obligatorio) is paid at 2x the normal rate. Our calculator accounts for this in 'Advanced Mode'."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Night Shift Premium",
+                                "text": "The 'Jornada Nocturna' is limited to 6 hours per day. Pay rates are the same, but the hourly cost is effectively higher due to the shorter shift."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Aguinaldo Calculation",
+                                "text": "Aguinaldo is the sum of all ordinary and extraordinary wages (overtime, commissions, bonuses) divided by 12."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Business Incorporation in Costa Rica",
+                "subtitle": "Setup your SA or SRL entity with expert guidance",
+                "description": "Establish a legal presence in Costa Rica's booming economy. From drafting articles of incorporation to obtaining your NIF and municipal licenses, we simplify the path to doing business in Central America.",
+                "bestFor": "Investors seeking long-term operations and property ownership",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "cr-inc-registration-steps",
+                    "type": "key_steps",
+                    "title": "Entity Setup Process",
+                    "subtitle": "Digital-first registration workflow",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Selection of Entity Type",
+                                "description": "Choosing between a Sociedad Anónima (SA) for complex ownership structures or a Sociedad de Responsabilidad Limitada (SRL) for simpler, managerial control."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Articles of Incorporation (Notary)",
+                                "description": "Drafting the 'Escritura Pública' by a licensed Costa Rican notary. This document defines the board, resident agent, and share capital."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "National Registry Filing",
+                                "description": "Electronic submission to the Registro Nacional. Registration of the company name, ID (Cédula Jurídica), and official books."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "NIF & Hacienda Registration",
+                                "description": "Enrolling in the 'Registro Único Tributario' (RUT) to obtain a tax identification number and enable electronic invoicing."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Shareholder Disclosure (RTBF)",
+                                "description": "Mandatory annual reporting of the 'Registro de Transparencia y Beneficiarios Finales' to the Central Bank via digital signature."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cr-inc-cost-breakdown",
+                    "type": "cost_breakdown",
+                    "title": "Incorporation Fee Estimate",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service/Tax",
+                                "Estimated Fee (USD)",
+                                "Nature"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Notary & Legal Fees",
+                                    "values": [
+                                        "$800 - $1,500",
+                                        "One-time"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Registration Rights Tax",
+                                    "values": [
+                                        "$100 - $300",
+                                        "One-time"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Annual Corporation Tax",
+                                    "values": [
+                                        "$120 - $390",
+                                        "Annual"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Resident Agent Fee",
+                                    "values": [
+                                        "$250 - $500",
+                                        "Annual"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Total Initial Setup",
+                                    "values": [
+                                        "$1,500+",
+                                        "Estimated"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "cr-inc-legal-insights",
+                    "type": "insights",
+                    "title": "Strategic Entry Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Firma Digital Requirement",
+                                "text": "The 'Firma Digital' is essential for legal representatives. Without it, you must grant Power of Attorney (POA) to a local lawyer for almost all administrative tasks."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Free Trade Zones (FTZ)",
+                                "text": "If exporting services or manufacturing, consider registering under the FTZ regime (Ley de Zonas Francas) for 100% corporate tax exemption for up to 8 years."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Inactive Companies",
+                                "text": "Even if your company doesn't generate income, you MUST file the D-195 asset declaration annually. Failure results in fines exceeding $1,000."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cr-inc-faq",
+                    "type": "faq",
+                    "title": "Entity Setup FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "How long does it take to register a company?",
+                                "answer": "With the digital 'Crear Empresa' platform, the process can take as little as 24-48 hours once the notary submits the documents."
+                            },
+                            {
+                                "question": "Do I need a local partner?",
+                                "answer": "No, 100% foreign ownership is allowed for both SA and SRL entities. No residency is required for shareholders."
+                            },
+                            {
+                                "question": "What is a Resident Agent?",
+                                "answer": "A Resident Agent is a mandatory Costa Rican attorney who receives official legal notifications if the company's representatives do not live in the country."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cr-inc-essentials",
+                    "type": "table",
+                    "title": "Comparison: SA vs SRL",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Feature",
+                                "Sociedad Anónima (SA)",
+                                "Sociedad de Resp. Limitada (SRL)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Governance",
+                                    "values": [
+                                        "Board of 3+ (Pres, Sec, Treas)",
+                                        "1 or more Managers"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Transfer of Ownership",
+                                    "values": [
+                                        "Easy via share endorsement",
+                                        "Harder; requires partner consent"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Audit Requirement",
+                                    "values": [
+                                        "Mandatory Fiscal (Comptroller)",
+                                        "No Comptroller required"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Best For",
+                                    "values": [
+                                        "Large firms / US-style corps",
+                                        "Small/Medium biz / Holding cos"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing & Talent in Costa Rica",
+                "subtitle": "Access the top 1% of bilingual talent in LatAm",
+                "description": "Source high-caliber professionals in San José's tech corridor. From software developers to customer success experts, we connect you with Costa Rica's specialized workforce.",
+                "bestFor": "Nearshoring operations for US-based companies",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "cr-staffing-recruitment-steps",
+                    "type": "key_steps",
+                    "title": "Recruitment Lifecycle",
+                    "subtitle": "Efficient Sourcing to Offer",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Targeted Talent Mapping",
+                                "description": "Identifying candidates in competitive sectors like MedTech, FinTech, and BPO using local networks and LinkedIn."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Bilingual Assessment",
+                                "description": "Rigorous English proficiency testing (TOEIC/CEFR standards) as 90% of export-oriented roles require high-level English."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Technical Vetting",
+                                "description": "Hands-on coding challenges or case studies tailored to the specific technology stack (e.g., .NET, React, AWS)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Cultural Interview",
+                                "description": "Assessing soft skills and alignment with 'High-Context' business cultures prevalent in Costa Rica."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Compliant Offer Issuance",
+                                "description": "Drafting of offers that include local benefits like Aguinaldo, medical stipends, and work-from-home allowances."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cr-staffing-market-rates",
+                    "type": "cost_breakdown",
+                    "title": "Salary Estimates (Net USD)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Role",
+                                "Junior",
+                                "Senior/Lead"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Full Stack Developer",
+                                    "values": [
+                                        "$2,000 - $3,500",
+                                        "$5,500 - $8,500+"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Project Manager",
+                                    "values": [
+                                        "$2,500 - $4,000",
+                                        "$5,000 - $7,000"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Customer Success (Bilingual)",
+                                    "values": [
+                                        "$1,200 - $1,800",
+                                        "$2,200 - $3,500"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "QA Engineer",
+                                    "values": [
+                                        "$1,800 - $2,800",
+                                        "$4,500 - $6,500"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "cr-staffing-market-insights",
+                    "type": "insights",
+                    "title": "Talent Strategy Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Retention is Key",
+                                "text": "The market is highly competitive. To retain talent, companies offer 'Asociaciones Solidaristas' (savings funds) and flexible Friday schedules ('viernes corto')."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Nearshoring Advantage",
+                                "text": "Costa Rica shares the CST/EST time zone with the US, making it superior to Eastern European or Asian hubs for real-time collaboration."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Misclassification Risk",
+                                "text": "Hiring 'Independent Contractors' for full-time roles is risky. Labors courts often rule these as hidden employment, triggering retroactive benefits."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cr-staffing-faq",
+                    "type": "faq",
+                    "title": "Hiring FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Where is the best talent located?",
+                                "answer": "The 'GAM' (Gran Área Metropolitana), specifically San José, Heredia, and Alajuela, holds 85% of the professional workforce."
+                            },
+                            {
+                                "question": "What are common employee perks?",
+                                "answer": "Private medical insurance, lunch subsidies (tickets), gym memberships, and performance-based bonuses are standard for top-tier firms."
+                            },
+                            {
+                                "question": "How long is the notice period for resignation?",
+                                "answer": "Employees must give 1 month of notice for service over 1 year. During this month, they are entitled to one paid day off per week."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cr-staffing-good-to-know",
+                    "type": "good_to_know",
+                    "title": "Hiring Nuances",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "English Proficiency",
+                                "text": "Costa Rica consistently ranks #1 or #2 in Latin America for English proficiency, especially in technical and service sectors."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Solidarist Associations",
+                                "text": "A unique Costa Rican benefit where the employer and employee contribute to a fund for loans, housing, and social events."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Criminal Record Checks",
+                                "text": "Standard practice includes requesting a 'Hoja de Delincuencia' from the Judicial Power during the final stages of recruitment."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Solutions for Costa Rica",
+                "subtitle": "Localized HR Tech for CCSS & OBR Compliance",
+                "description": "Deploy HR systems that understand Costa Rica's complex labor landscape. Automate Aguinaldo calculations, manage vacation accruals, and ensure your 'Planilla' matches official CCSS formats.",
+                "bestFor": "Growing teams (20+ employees) seeking operational efficiency",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "cr-hris-implementation-steps",
+                    "type": "key_steps",
+                    "title": "HRIS Implementation Roadmap",
+                    "subtitle": "Go-live in 4-8 weeks",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Configuration of Local Rules",
+                                "description": "Setting up the system to handle the 48-hour work week, 2-week vacation accrual, and monthly tax bracket updates."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Employee Data Migration",
+                                "description": "Securely importing historical payroll data, NIFs (Cédula), and contact details into the new cloud platform."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Manager/Employee Training",
+                                "description": "Training the local team in San José on self-service portals for leave requests and digital pay slip access."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Integration with CCSS/Hacienda",
+                                "description": "Enabling API or flat-file exports that match the 'Planilla Digital' (CCSS) and D-103 (Hacienda) requirements."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Audit & Compliance Review",
+                                "description": "Performing a 3-month shadow payroll to ensure the HRIS perfectly matches manual calculations before full migration."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cr-hris-cost-breakdown",
+                    "type": "cost_breakdown",
+                    "title": "HRIS Investment Comparison",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Software Level",
+                                "Price Range (USD)",
+                                "Ideal For"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Basic (Attendance Only)",
+                                    "values": [
+                                        "$2 - $5 / user / mo",
+                                        "Small office"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Full HRIS + Payroll",
+                                    "values": [
+                                        "$8 - $15 / user / mo",
+                                        "Medium Scale"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Enterprise HCM",
+                                    "values": [
+                                        "$20+ / user / mo",
+                                        "MNCs / Large FTZ firms"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "cr-hris-system-insights",
+                    "type": "insights",
+                    "title": "Technology Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Cloud vs On-Premise",
+                                "text": "Cloud-based HRIS is the standard due to Costa Rica's high-speed internet. On-premise solutions are rarely recommended for service-based nearshoring."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Data Sovereignty",
+                                "text": "Ensure your provider is GDPR compliant or follows Costa Rica's 'Ley de Protección de la Persona frente al Tratamiento de sus Datos Personales'."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Mobile ESS",
+                                "text": "Employee Self-Service (ESS) on mobile is mandatory for employee engagement. Most Costa Rican workers manage their personal admin via smartphones."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cr-hris-faq",
+                    "type": "faq",
+                    "title": "HRIS Selection FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Does the system handle partial vacation days?",
+                                "answer": "Yes, our recommended systems allow for tracking the 12-day vacation entitlement down to half-day increments, as allowed by local custom."
+                            },
+                            {
+                                "question": "Can I integrate my clocking hardware?",
+                                "answer": "We support integration with biometric (fingerprint/facial) and RFID systems commonly used for physical access control in Heredia's business parks."
+                            },
+                            {
+                                "question": "Is the interface available in Spanish?",
+                                "answer": "All HRIS solutions provide 100% Spanish-language interfaces for the workforce, which is critical for legal and cultural reasons."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cr-hris-adoption-tips",
+                    "type": "good_to_know",
+                    "title": "Adoption & Engagement Tips",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Incentivize Profile Completion",
+                                "text": "Run a 'Pura Vida' contest where the first department to reach 100% profile completion wins a team lunch."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Bilingual Support",
+                                "text": "Ensure your HRIS helpdesk provides support in Spanish to assist local employees with complex benefit queries."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Mobile Accessibility",
+                                "text": "90% of employees in Costa Rica will access the HRIS via mobile. Test specifically on mid-range Android devices common in the region."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Services in Costa Rica",
+                "subtitle": "IFRS Compliant Bookkeeping & Financial Reporting",
+                "description": "Maintain impeccable financial records in Costa Rica. Our CPA-led services ensure your books stay compliant with IFRS standards and Hacienda's electronic reporting mandates.",
+                "bestFor": "Foreign subsidiaries and local SMEs",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "cr-acc-service-steps",
+                    "type": "key_steps",
+                    "title": "Ongoing Accounting Workflow",
+                    "subtitle": "Ensuring Monthly Integrity",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Document Collection (Factura Electrónica)",
+                                "description": "Automated gathering of XML and PDF versions of all electronic invoices, which are mandatory for tax deductibility."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Account Reconciliation",
+                                "description": "Monthly matching of local bank statements (CRC/USD/EUR) with GL entries to ensure 100% accuracy."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "VAT & Rental Tax Filing",
+                                "description": "Preparation of form D-101 (VAT) and other specific retentions due by the 15th of every month."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Financial Statement Preparation",
+                                "description": "Generating Balance Sheets and P&L reports compliant with IFRS for SMEs or Full IFRS for large corporations."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Legal Ledger Maintenance",
+                                "description": "Updating and notarizing the physical or digital 'Libros Legales' (Shareholders, Directors, and Minutes) required by law."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cr-acc-reporting-types",
+                    "type": "cost_breakdown",
+                    "title": "Standard Accounting Packages",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Package Tier",
+                                "Key Features",
+                                "Monthly Fee (USD)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Non-Active / Holding",
+                                    "values": [
+                                        "Annual Asset Reporting + Resident Agent",
+                                        "$500 - $800 / year"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Small Business",
+                                    "values": [
+                                        "Monthly VAT + Basic Bookkeeping",
+                                        "$300 - $600 / mo"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Standard Corporate",
+                                    "values": [
+                                        "Full IFRS + Payroll Accounting",
+                                        "$1,200 - $2,500 / mo"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "cr-acc-compliance-insights",
+                    "type": "insights",
+                    "title": "Financial Compliance Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "IFRS Adoption",
+                                "text": "Costa Rica has fully adopted IFRS. Financial statements must follow these global standards to be accepted by banks and tax authorities."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Electronic Invoicing (FE)",
+                                "text": "Any expense not backed by a valid 'Factura Electrónica' XML file is non-deductible for income tax purposes, regardless of a physical receipt."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Currency Diversification",
+                                "text": "Manage your books in both CRC and USD. While the CRC is the legal currency, most high-value transactions and payroll in tech are USD-denominated."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cr-acc-faq",
+                    "type": "faq",
+                    "title": "Accounting FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the D-101 form?",
+                                "answer": "The D-101 is the annual Income Tax return form that summarizes all taxable income and expenses for the fiscal year."
+                            },
+                            {
+                                "question": "Do I need to hire a CPA?",
+                                "answer": "Yes, annual financial statements for most corporations and all reports for public entities must be signed by a 'Contador Público Autorizado' (CPA)."
+                            },
+                            {
+                                "question": "Are digital books allowed?",
+                                "answer": "Yes, recent regulations allow for digital 'Libros de Legalización' provided they are properly registered with the Tax Administration."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cr-acc-inventory-rules",
+                    "type": "good_to_know",
+                    "title": "Inventory & Asset Management",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Periodic Inventories",
+                                "text": "Hacienda requires companies to perform at least one physical inventory count per year for tax-deductible status."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Depreciation Standards",
+                                "text": "Ensure your depreciation schedules align with the 'Anexo 1' of the Income Tax Regulation for both accounting and tax purposes."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Fixed Asset Records",
+                                "text": "Maintain a digital registry of all company equipment (laptops, furniture) linked to their corresponding Electronic Invoices (XML)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cr-comp-audits-steps",
+                    "type": "key_steps",
+                    "title": "Compliance Audit Workflow",
+                    "subtitle": "Annual Health Check",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Regulatory Inventory",
+                                "description": "Mapping all required permits including Sanitary Permits (Ministerio de Salud) and Patent (Municipal license)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Data Privacy Mapping",
+                                "description": "Reviewing data flows to ensure compliance with Law 8968, registering databases with PRODHAB if necessary."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "AML/CFT Controls Check",
+                                "description": "Establishing 'Know Your Client' (KYC) protocols for companies in real estate, law, or financial sectors per Law 7786."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Shareholder Reporting (RTBF)",
+                                "description": "Uploading the Transparency Registry data to the Central Bank's platform (Central Directo) using a secure digital signature."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Internal Policy Training",
+                                "description": "Training local staff on anti-bribery (Law 9699) and ethics policies to avoid corporate criminal liability."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cr-comp-penalty-table",
+                    "type": "cost_breakdown",
+                    "title": "Non-Compliance Penalties",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Infraction",
+                                "Penalty Estimate (USD)",
+                                "Risk Level"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Missing RTBF Filing",
+                                    "values": [
+                                        "$2,000 - $10,000",
+                                        "Critical"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "No Electronic Invoicing",
+                                    "values": [
+                                        "$1,000 / month",
+                                        "High"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Sanitary Permit Lapse",
+                                    "values": [
+                                        "Business Closure",
+                                        "Critical"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Missing Municipal Tax",
+                                    "values": [
+                                        "1% - 13% Interest",
+                                        "Medium"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "cr-comp-legal-insights",
+                    "type": "insights",
+                    "title": "Compliance Edge",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "PRODHAB Registration",
+                                "text": "If you process personal data for third parties, you must register your database. Fines for leaks or misuse of data are extremely high in 2025."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Criminal Liability",
+                                "text": "Law 9699 holds companies (not just individuals) liable for bribery of domestic and foreign public officials. Establishing a compliance officer is now a best practice."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Municipal Patent Licensing",
+                                "text": "The 'Patente de Funcionamiento' cost is based on gross income. Optimize your accounting structure to ensure you are accurately reporting locally-derived vs export income."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cr-comp-faq",
+                    "type": "faq",
+                    "title": "Compliance FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the 'Libro de Actas'?",
+                                "answer": "It is the official physical or digital book where all shareholder and director meeting minutes must be legally recorded."
+                            },
+                            {
+                                "question": "Who can register the company with RTBF?",
+                                "answer": "Only the legal representative with a valid Costa Rican digital signature can perform this filing directly."
+                            },
+                            {
+                                "question": "What is SUGEF and do I need it?",
+                                "answer": "SUGEF is the financial regulator. You only need registration if you are a bank, lender, or handling financial assets for third parties."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cr-comp-workplace-safety",
+                    "type": "good_to_know",
+                    "title": "Health & Safety (OHS) Compliance",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Occupational Risk (INS)",
+                                "text": "Every employer must have a valid INS policy. Failure to pay monthly premiums results in immediate suspension of business activities during inspections."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Ergonomics & Home Office",
+                                "text": "For remote teams, the Ministry of Labor now checks for 'Teletrabajo' compliance, including ergonomic standards for at-home setups."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Emergency Committees",
+                                "text": "Offices with more than 10 employees must have an internal 'Comisión de Salud Ocupacional' registered with the government."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cr-tax-filing-steps",
+                    "type": "key_steps",
+                    "title": "Annual Tax Compliance Cycle",
+                    "subtitle": "Deadlines & Deliverables",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Fiscal Opening",
+                                "description": "Updating economic activity codes (CIIU) and registering any new branches or digital platforms with Hacienda."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "VAT Reporting (Monthly)",
+                                "description": "Filing the D-101 (IVA) by the 15th of the following month, ensuring all input and output credits are matched via XML."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Advance Tax Payments",
+                                "description": "Calculation and payment of quarterly income tax advances required by the DGT for active businesses."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Annual Income Return (D-101)",
+                                "description": "Consolidated reporting of the year's P&L and calculation of final corporate tax due at the end of the fiscal year."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Informative Returns (D-151)",
+                                "description": "Reporting annual transactions with major suppliers and clients to Hacienda to prevent tax evasion."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cr-tax-rates-breakdown",
+                    "type": "cost_breakdown",
+                    "title": "Corporate Tax Rates 2024/25",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Tax Category",
+                                "Rate",
+                                "Basis"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "General Corporate Income",
+                                    "values": [
+                                        "30%",
+                                        "Net Income"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Small Business (MSMEs)",
+                                    "values": [
+                                        "5% - 20%",
+                                        "Tiered Net Income"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "VAT (Standard)",
+                                    "values": [
+                                        "13%",
+                                        "Sale Price"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "VAT (Health/Services)",
+                                    "values": [
+                                        "4%",
+                                        "Reduced Rate"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Capital Gains",
+                                    "values": [
+                                        "15%",
+                                        "Investment Profit"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "cr-tax-compliance-insights",
+                    "type": "insights",
+                    "title": "Tax Strategy Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Territoriality Principle",
+                                "text": "Costa Rica only taxes income generated within its borders. While this is changing due to OECD pressure, foreign-source income is generally exempt if properly structured."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Global Minimum Tax",
+                                "text": "Costa Rica is aligning with the OECD Pillar Two 15% global minimum tax, which may impact multinational tax planning in the next 12-24 months."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Withholding Tax (WHT)",
+                                "text": "Dividends sent abroad are subject to a 15% WHT. Check for Double Taxation Treaties (e.g., CR-UAE, CR-Germany) to reduce this to 5% or 10%."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cr-tax-faq",
+                    "type": "faq",
+                    "title": "Taxation FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the 'Cédula Jurídica'?",
+                                "answer": "The Cédula Jurídica is your company's permanent tax ID. It is required for all banking, contracts, and filings."
+                            },
+                            {
+                                "question": "Is there a tax on inactive companies?",
+                                "answer": "Yes, 'Personas Jurídicas' must pay an annual tax of approx. $120-$400 even if they don't operate."
+                            },
+                            {
+                                "question": "Are salaries spent abroad deductible?",
+                                "answer": "Only if they are necessary to generate Costa Rican source income and have the appropriate WHT applied if paid to non-residents."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cr-tax-dividend-rules",
+                    "type": "good_to_know",
+                    "title": "Dividend Tax & Remittance",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Standard Withholding",
+                                "text": "A flat 15% rate applies to dividends paid to both local and foreign shareholders unless a tax treaty specifies otherwise."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Free Zone Advantage",
+                                "text": "Companies under the Free Trade Zone regime (Regimen de Zona Franca) may benefit from exemption or reduced rates on dividend withholding."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Pillar Two Readiness",
+                                "text": "MNCs should prepare for the 15% global minimum tax reporting even if they currently operate under full tax holiday regimes."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "MSA & Legal Services in Costa Rica",
+                "subtitle": "Strong Contracts for Global Operations",
+                "description": "Draft and negotiate Master Service Agreements (MSA) that protect your interests under Costa Rican and International law. From IP protection to dispute resolution, we secure your commercial foundation.",
+                "bestFor": "Companies engaging with local vendors or selling to CR clients",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "cr-msa-drafting-steps",
+                    "type": "key_steps",
+                    "title": "MSA Drafting & Review Process",
+                    "subtitle": "Securing Multi-Year Partnerships",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Commercial Teahouse Mapping",
+                                "description": "Defining the core scope of work, service level agreements (SLAs), and payment terms (USD/CRC parity)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Jurisdiction & Governing Law",
+                                "description": "Selecting between Costa Rican courts or International Arbitration (e.g., ICC) for final dispute resolution."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Intellectual Property (IP) Clauses",
+                                "description": "Ensuring 'Work for Hire' status under the Ley de Derechos de Autor (Law 6683) to transfer all ownership to the client."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Liability & Indemnification",
+                                "description": "Setting caps on damages and defining indemnity for third-party claims, common in the Costa Rican services sector."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Digital Signature Execution",
+                                "description": "Finalizing the agreement via AdobeSign or local Firma Digital to ensure legal enforceability in Costa Rican courts."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cr-msa-legal-fees",
+                    "type": "cost_breakdown",
+                    "title": "Legal Service Fee Guide",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Legal Service",
+                                "Fee Range (USD)",
+                                "Duration"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "MSA Drafting (Standard)",
+                                    "values": [
+                                        "$1,200 - $2,500",
+                                        "1 - 2 weeks"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Contract Review & Redlining",
+                                    "values": [
+                                        "$150 - $400 / hr",
+                                        "As needed"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "IP Registration (Tradename)",
+                                    "values": [
+                                        "$600 - $1,000",
+                                        "3 - 6 months"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Dispute Resolution (Local)",
+                                    "values": [
+                                        "$200 - $500 / hr",
+                                        "Variable"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "cr-msa-strategic-insights",
+                    "type": "insights",
+                    "title": "Legal Strategy Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Arbitration in Costa Rica",
+                                "text": "The CAM (Center for Arbitration and Mediation) in San José is a speedy alternative to the slow local court system for commercial disputes."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Service Agreements vs Employment",
+                                "text": "Ensure your MSA doesn't inadvertently create an employment relationship. Avoid clauses that specify hours of work or direct supervision of individual vendor staff."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Digital Contracts",
+                                "text": "Contracts signed using international e-signature platforms (Docusign/HelloSign) are legally valid in CRC commercial law since 2021."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cr-msa-faq",
+                    "type": "faq",
+                    "title": "MSA FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Which language should the MSA be in?",
+                                "answer": "For commercial use, English is standard. However, if the contract must be produced in court, a certified translation to Spanish will be required."
+                            },
+                            {
+                                "question": "Can I use 'Unilateral Termination'?",
+                                "answer": "Yes, standard 30, 60, or 90-day 'Without Cause' termination notice periods are enforceable and common in tech MSAs."
+                            },
+                            {
+                                "question": "Are Non-Compete clauses legal in CR?",
+                                "answer": "They are difficult to enforce for individuals unless compensated, but Non-Solicitation of clients/staff at the B2B level is standard and enforceable."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cr-msa-termination-rules",
+                    "type": "good_to_know",
+                    "title": "Termination & Exit Strategy",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Standard Notice Period",
+                                "text": "A 30-day notice period is standard in B2B service agreements, though complex enterprise MSAs often extend this to 90 days for business continuity."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Liquidation Damages",
+                                "text": "Penalty clauses for early termination by the client are legal but must be 'reasonable' to avoid being struck down by commercial courts."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Post-Termination Support",
+                                "text": "Always define a 'Knowledge Transfer' phase of at least 2 weeks to ensure smooth transition of source code or confidential data back to the client."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Solutions in Costa Rica",
+                "subtitle": "Nearshore Hub for Enterprise Digital Transformation",
+                "description": "Leverage Costa Rica's mature tech ecosystem. From custom SaaS development to Cloud migration and AI implementation, access world-class engineering teams in San José.",
+                "bestFor": "Venture-backed startups and Fortune 500 enterprises",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "cr-soft-dev-steps",
+                    "type": "key_steps",
+                    "title": "Agile Software Development Lifecycle",
+                    "subtitle": "Built for Nearshore Collaboration",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Discovery & UX/UI Protoyping",
+                                "description": "Collaborative workshops in San José to define user journeys and high-fidelity Figma mockups aligned with global standards."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Tech Stack Alignment",
+                                "description": "Selection of scalable technologies (e.g., Python/Django, Node.js, Kubernetes) optimized for AWS or Azure hosting."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Sprint-Based Development",
+                                "description": "2-week Agile sprints with daily stand-ups in EST/CST time zones, ensuring seamless communication with North American teams."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Automated Testing & QA",
+                                "description": "Deep QA cycles including regression, load, and security testing conducted by local certified experts."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Deployment & Post-Launch Support",
+                                "description": "CI/CD pipeline execution and dedicated 24/7 support teams for critical enterprise applications."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cr-soft-stack-table",
+                    "type": "cost_breakdown",
+                    "title": "Popular Tech Stacks & Costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Stack / Role",
+                                "Junior Day Rate (USD)",
+                                "Senior Day Rate (USD)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Full Stack (JS/React/Node)",
+                                    "values": [
+                                        "$350 - $450",
+                                        "$700 - $950"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Mobile (React Native/Flutter)",
+                                    "values": [
+                                        "$400 - $550",
+                                        "$800 - $1,100"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "DevOps / SRE (Cloud)",
+                                    "values": [
+                                        "$450 - $600",
+                                        "$900 - $1,300"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Data Scientist / AI",
+                                    "values": [
+                                        "$500 - $700",
+                                        "$1,000 - $1,500"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "cr-soft-ecosystem-insights",
+                    "type": "insights",
+                    "title": "Tech Ecosystem Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Mature Tech Hub",
+                                "text": "Costa Rica is home to Intel's R&D center and major operations for Amazon, Microsoft, and IBM, ensuring a deep pool of experienced architects."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Nearshoring Talent Pool",
+                                "text": "With 25,000+ software engineers and a 10% annual growth in graduates, Costa Rica is the top destination for premium nearshoring in LatAm."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Time to Hire",
+                                "text": "For specialized roles (Golang, Rust, Advanced AI), expect a 6-8 week lead time as top engineers are often gainfully employed in Free Zones."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cr-soft-faq",
+                    "type": "faq",
+                    "title": "Tech Partnership FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What are the common work hours?",
+                                "answer": "Tech teams usually operate 8 AM - 5 PM (CST). This allows a 100% overlap with Mountain and Central US time zones."
+                            },
+                            {
+                                "question": "How do you handle IP rights?",
+                                "answer": "All our MSAs include clear clauses stating that all code and assets produced are the 100% property of the client upon payment."
+                            },
+                            {
+                                "question": "Do you offer staff augmentation?",
+                                "answer": "Yes, we provide both project-based delivery and dedicated staff augmentation ('body shopping') for existing engineering teams."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cr-soft-qa-standards",
+                    "type": "good_to_know",
+                    "title": "Quality Assurance & Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "CST Time Zone Sync",
+                                "text": "Real-time QA collaboration is optimized by the total time zone overlap with US Central Time (CST), enabling 'Follow-the-Sun' testing models."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Security Compliance",
+                                "text": "Verify that your provider follows ISO 27001 or SOC2 standards, which are increasingly adopted by top-tier agencies in the Free Zones."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "User Acceptance Testing (UAT)",
+                                "text": "Involve local stakeholder groups in San José for 'cultural testing' to ensure software localization resonates with the Tico market."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Services in Costa Rica",
+                "subtitle": "Creative Excellence for the LatAm & US Markets",
+                "description": "Drive growth with data-backed marketing strategies. From branding and performance marketing in San José to global SEO outreach, we help you capture attention in a digital-first world.",
+                "bestFor": "Brands seeking to expand into LatAm or optimize for US Hispanics",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "cr-mark-campaign-steps",
+                    "type": "key_steps",
+                    "title": "Growth Marketing Workflow",
+                    "subtitle": "Research to ROI",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Market Resonance Analysis",
+                                "description": "Analyzing local and regional consumer behavior using Google Trends and social listening tools focused on the Central American market."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Creative Concepting",
+                                "description": "Developing visual stories and copy that vibe with the 'Pura Vida' mentality while maintaining global brand consistency."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Multi-Channel Deployment",
+                                "description": "Execution across Meta, Google Ads, TikTok, and local OOH (Out-of-Home) media near high-traffic areas like Escazú and Santa Ana."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Conversion Rate Optimization (CRO)",
+                                "description": "Continuous A/B testing of landing pages and ad copy to lower CPA and maximize lead quality."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Performance Reporting",
+                                "description": "Monthly dashboard reviews focusing on ROAS, CAC, and Lifetime Value (LTV) metrics for transparent investment tracking."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cr-mark-service-costs",
+                    "type": "cost_breakdown",
+                    "title": "Agency Service Fees",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service Type",
+                                "Retainer Range (USD/mo)",
+                                "Engagement"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Digital Ads Management",
+                                    "values": [
+                                        "$800 - $2,500",
+                                        "+ 10-15% of Ad Spend"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Social Media & Content",
+                                    "values": [
+                                        "$1,200 - $3,500",
+                                        "Full Management"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "SEO & Technical Growth",
+                                    "values": [
+                                        "$1,500 - $4,000",
+                                        "Ongoing Audit + Backlinks"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Full Service Enterprise",
+                                    "values": [
+                                        "$5,000+",
+                                        "End-to-end Strategy"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "cr-mark-market-insights",
+                    "type": "insights",
+                    "title": "LatAm Marketing Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Mobile Dominance",
+                                "text": "Over 90% of digital interactions in Costa Rica happen on mobile. Your campaigns must be 'Mobile-First' with high-speed video content for 4G/5G networks."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Influencer Strategy",
+                                "text": "Local Micro-influencers in niche segments (Tourism, Tech, Sustainable Living) have 5x higher engagement rates than generic celebrities in San José."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Language Nuances",
+                                "text": "Avoid generic 'Neutral Spanish'. Localized Costa Rican Spanish ('Tico' slang) creates far better emotional resonance for B2C campaigns."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cr-mark-faq",
+                    "type": "faq",
+                    "title": "Marketing FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the best social platform for B2B?",
+                                "answer": "LinkedIn is overwhelmingly the preferred B2B platform in Costa Rica, while WhatsApp is the primary tool for direct lead closing."
+                            },
+                            {
+                                "question": "Do you handle content in English?",
+                                "answer": "Yes, our creative teams are 100% bilingual and often produce content directly for US and European markets from our San José hub."
+                            },
+                            {
+                                "question": "How do you measure success?",
+                                "answer": "We align on 'North Star' metrics (Sales, Quality Leads, Brand Awareness) during the discovery phase and report on them monthly."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cr-mark-branding-tips",
+                    "type": "good_to_know",
+                    "title": "Branding & Visual Identity",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Color Psychology",
+                                "text": "Green and blue tones resonate strongly with the Costa Rican focus on 'Eco-Tourism' and 'Sustainability'."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Photography Style",
+                                "text": "Use authentic photos of local landscapes and diverse 'Tico' teams to build immediate trust with the domestic audience."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Logo Registration",
+                                "text": "Ensure your brand assets are registered with the 'Registro de la Propiedad Intelectual' before launching major local campaigns."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "currencies": [
+        {
+            "code": "CRC",
+            "name": "Costa Rican Colón",
+            "symbol": "₡"
+        },
+        {
+            "code": "USD",
+            "name": "US Dollar",
+            "symbol": "$"
+        }
+    ]
+}

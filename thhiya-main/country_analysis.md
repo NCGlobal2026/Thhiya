@@ -1,0 +1,1591 @@
+# Country Analysis by Service
+
+## Countries using outdated "finance-tax-accounting"
+- Australia
+- Brazil
+- Canada
+- China
+- France
+- Germany
+- India
+- Japan
+- United Kingdom
+- United States of America
+- Ireland
+- Italy
+- Mexico
+- Netherlands
+- Poland
+- Singapore
+- South Korea
+- Spain
+- Switzerland
+- Afghanistan
+- Albania
+- Algeria
+- Andorra
+- Angola
+- Antigua and Barbuda
+- Argentina
+- Armenia
+- Austria
+- Azerbaijan
+- Bahamas
+- Bahrain
+- Bangladesh
+- Barbados
+- Belarus
+- Belgium
+- Belize
+- Benin
+- Bhutan
+- Bolivia
+- Bosnia and Herzegovina
+- Botswana
+- Brunei
+- Bulgaria
+- Burkina Faso
+- Burundi
+- Cabo Verde
+- Cambodia
+- Cameroon
+- Central African Republic
+- Chad
+- Chile
+- Colombia
+- Comoros
+- Costa Rica
+- Cote d'Ivoire
+- Croatia
+- Cuba
+- Cyprus
+- Czech Republic
+- Democratic Republic of the Congo
+- Denmark
+- Djibouti
+- Dominica
+- Dominican Republic
+- Ecuador
+- Egypt
+- El Salvador
+- Equatorial Guinea
+- Eritrea
+- Estonia
+- Eswatini
+- Ethiopia
+- Fiji
+- Finland
+- Gabon
+- Ghana
+- Greece
+- Grenada
+- Guatemala
+- Guinea-Bissau
+- Guinea
+- Guyana
+- Haiti
+- Honduras
+- Hungary
+- Iceland
+- Indonesia
+- Iran
+- Iraq
+- Israel
+- Jamaica
+- Jordan
+- Kenya
+- Kiribati
+- Kuwait
+- Kyrgyzstan
+- Laos
+- Latvia
+- Lebanon
+- Lesotho
+- Liberia
+- Libya
+- Liechtenstein
+- Lithuania
+- Luxembourg
+- Madagascar
+- Malawi
+- Malaysia
+- Maldives
+- Mali
+- Malta
+- Marshall Islands
+- Marshall Islands
+- Mauritania
+- Mauritius
+- Micronesia
+- Moldova
+- Monaco
+- Mongolia
+- Montenegro
+- Morocco
+- Mozambique
+- Myanmar
+- Namibia
+- Nauru
+- Nepal
+- New Zealand
+- Nicaragua
+- Niger
+- Nigeria
+- North Korea
+- North Macedonia
+- Norway
+- Oman
+- Pakistan
+- Palau
+- Panama
+- Papua New Guinea
+- Paraguay
+- Peru
+- Philippines
+- Portugal
+- Qatar
+- Republic of the Congo
+- Romania
+- Russia
+- Rwanda
+- Saint Kitts and Nevis
+- Saint Lucia
+- Saint Vincent and the Grenadines
+- Samoa
+- San Marino
+- Sao Tome and Principe
+- Saudi Arabia
+- Senegal
+- Serbia
+- Seychelles
+- Sierra Leone
+- Slovakia
+- Slovenia
+- Solomon Islands
+- Somalia
+- South Africa
+- South Sudan
+- Sri Lanka
+- State of Palestine
+- Sudan
+- Suriname
+- Sweden
+- Syria
+- Tajikistan
+- Tanzania
+- Thailand
+- Timor-Leste
+- Togo
+- Tonga
+- Trinidad and Tobago
+- Tunisia
+- Turkey
+- Turkmenistan
+- Tuvalu
+- Uganda
+- Ukraine
+- Uruguay
+- Uzbekistan
+- Vanuatu
+- Vatican City
+- Venezuela
+- Vietnam
+- Yemen
+- Zambia
+- Zimbabwe
+
+## Country Coverage by Remaining Valid Services
+
+### accounting-compliances
+*No countries currently offer this service.*
+
+### contractor-management
+*No countries currently offer this service.*
+
+### eor-peo-aor
+- Australia
+- Brazil
+- Canada
+- China
+- France
+- Germany
+- India
+- Japan
+- United Kingdom
+- United States of America
+- Ireland
+- Italy
+- Mexico
+- Netherlands
+- Poland
+- Singapore
+- South Korea
+- Spain
+- Switzerland
+- United Arab Emirates
+- Afghanistan
+- Albania
+- Algeria
+- Andorra
+- Angola
+- Antigua and Barbuda
+- Argentina
+- Armenia
+- Austria
+- Azerbaijan
+- Bahamas
+- Bahrain
+- Bangladesh
+- Barbados
+- Belarus
+- Belgium
+- Belize
+- Benin
+- Bhutan
+- Bolivia
+- Bosnia and Herzegovina
+- Botswana
+- Brunei
+- Bulgaria
+- Burkina Faso
+- Burundi
+- Cabo Verde
+- Cambodia
+- Cameroon
+- Central African Republic
+- Chad
+- Chile
+- Colombia
+- Comoros
+- Costa Rica
+- Cote d'Ivoire
+- Croatia
+- Cuba
+- Cyprus
+- Czech Republic
+- Democratic Republic of the Congo
+- Denmark
+- Djibouti
+- Dominica
+- Dominican Republic
+- Ecuador
+- Egypt
+- El Salvador
+- Equatorial Guinea
+- Eritrea
+- Estonia
+- Eswatini
+- Ethiopia
+- Fiji
+- Finland
+- Gabon
+- Gambia
+- Georgia
+- Ghana
+- Greece
+- Grenada
+- Guatemala
+- Guinea-Bissau
+- Guinea
+- Guyana
+- Haiti
+- Honduras
+- Hungary
+- Iceland
+- Indonesia
+- Iran
+- Iraq
+- Israel
+- Jamaica
+- Jordan
+- Kazakhstan
+- Kenya
+- Kiribati
+- Kuwait
+- Kyrgyzstan
+- Laos
+- Latvia
+- Lebanon
+- Lesotho
+- Liberia
+- Libya
+- Liechtenstein
+- Lithuania
+- Luxembourg
+- Madagascar
+- Malawi
+- Malaysia
+- Maldives
+- Mali
+- Malta
+- Marshall Islands
+- Marshall Islands
+- Mauritania
+- Mauritius
+- Micronesia
+- Moldova
+- Monaco
+- Mongolia
+- Montenegro
+- Morocco
+- Mozambique
+- Myanmar
+- Namibia
+- Nauru
+- Nepal
+- New Zealand
+- Nicaragua
+- Niger
+- Nigeria
+- North Korea
+- North Macedonia
+- Norway
+- Oman
+- Pakistan
+- Palau
+- Panama
+- Papua New Guinea
+- Paraguay
+- Peru
+- Philippines
+- Portugal
+- Qatar
+- Republic of the Congo
+- Romania
+- Russia
+- Rwanda
+- Saint Kitts and Nevis
+- Saint Lucia
+- Saint Vincent and the Grenadines
+- Samoa
+- San Marino
+- Sao Tome and Principe
+- Saudi Arabia
+- Senegal
+- Serbia
+- Seychelles
+- Sierra Leone
+- Slovakia
+- Slovenia
+- Solomon Islands
+- Somalia
+- South Africa
+- South Sudan
+- Sri Lanka
+- State of Palestine
+- Sudan
+- Suriname
+- Sweden
+- Syria
+- Tajikistan
+- Tanzania
+- Thailand
+- Timor-Leste
+- Togo
+- Tonga
+- Trinidad and Tobago
+- Tunisia
+- Turkey
+- Turkmenistan
+- Tuvalu
+- Uganda
+- Ukraine
+- Uruguay
+- Uzbekistan
+- Vanuatu
+- Vatican City
+- Venezuela
+- Vietnam
+- Yemen
+- Zambia
+- Zimbabwe
+
+### global-payroll
+*No countries currently offer this service.*
+
+### hris-hrms-ats
+- Australia
+- Brazil
+- Canada
+- China
+- France
+- Germany
+- India
+- Japan
+- United Kingdom
+- United States of America
+- Ireland
+- Italy
+- Mexico
+- Netherlands
+- Poland
+- Singapore
+- South Korea
+- Spain
+- Switzerland
+- United Arab Emirates
+- Afghanistan
+- Albania
+- Algeria
+- Andorra
+- Angola
+- Antigua and Barbuda
+- Argentina
+- Armenia
+- Austria
+- Azerbaijan
+- Bahamas
+- Bahrain
+- Bangladesh
+- Barbados
+- Belarus
+- Belgium
+- Belize
+- Benin
+- Bhutan
+- Bolivia
+- Bosnia and Herzegovina
+- Botswana
+- Brunei
+- Bulgaria
+- Burkina Faso
+- Burundi
+- Cabo Verde
+- Cambodia
+- Cameroon
+- Central African Republic
+- Chad
+- Chile
+- Colombia
+- Comoros
+- Costa Rica
+- Cote d'Ivoire
+- Croatia
+- Cuba
+- Cyprus
+- Czech Republic
+- Democratic Republic of the Congo
+- Denmark
+- Djibouti
+- Dominica
+- Dominican Republic
+- Ecuador
+- Egypt
+- El Salvador
+- Equatorial Guinea
+- Eritrea
+- Estonia
+- Eswatini
+- Ethiopia
+- Fiji
+- Finland
+- Gabon
+- Ghana
+- Greece
+- Grenada
+- Guatemala
+- Guinea-Bissau
+- Guinea
+- Guyana
+- Haiti
+- Honduras
+- Hungary
+- Iceland
+- Indonesia
+- Iran
+- Iraq
+- Israel
+- Jamaica
+- Jordan
+- Kenya
+- Kiribati
+- Kuwait
+- Kyrgyzstan
+- Laos
+- Latvia
+- Lebanon
+- Lesotho
+- Liberia
+- Libya
+- Liechtenstein
+- Lithuania
+- Luxembourg
+- Madagascar
+- Malawi
+- Malaysia
+- Maldives
+- Mali
+- Malta
+- Marshall Islands
+- Marshall Islands
+- Mauritania
+- Mauritius
+- Micronesia
+- Moldova
+- Monaco
+- Mongolia
+- Montenegro
+- Morocco
+- Mozambique
+- Myanmar
+- Namibia
+- Nauru
+- Nepal
+- New Zealand
+- Nicaragua
+- Niger
+- Nigeria
+- North Korea
+- North Macedonia
+- Norway
+- Oman
+- Pakistan
+- Palau
+- Panama
+- Papua New Guinea
+- Paraguay
+- Peru
+- Philippines
+- Portugal
+- Qatar
+- Republic of the Congo
+- Romania
+- Russia
+- Rwanda
+- Saint Kitts and Nevis
+- Saint Lucia
+- Saint Vincent and the Grenadines
+- Samoa
+- San Marino
+- Sao Tome and Principe
+- Saudi Arabia
+- Senegal
+- Serbia
+- Seychelles
+- Sierra Leone
+- Slovakia
+- Slovenia
+- Solomon Islands
+- Somalia
+- South Africa
+- South Sudan
+- Sri Lanka
+- State of Palestine
+- Sudan
+- Suriname
+- Sweden
+- Syria
+- Tajikistan
+- Tanzania
+- Thailand
+- Timor-Leste
+- Togo
+- Tonga
+- Trinidad and Tobago
+- Tunisia
+- Turkey
+- Turkmenistan
+- Tuvalu
+- Uganda
+- Ukraine
+- Uruguay
+- Uzbekistan
+- Vanuatu
+- Vatican City
+- Venezuela
+- Vietnam
+- Yemen
+- Zambia
+- Zimbabwe
+
+### human-resource-benefits
+*No countries currently offer this service.*
+
+### immigration-visa
+*No countries currently offer this service.*
+
+### incorporation-entity-setup
+- Australia
+- Brazil
+- Canada
+- China
+- France
+- Germany
+- India
+- Japan
+- United Kingdom
+- United States of America
+- Ireland
+- Italy
+- Mexico
+- Netherlands
+- Poland
+- Singapore
+- South Korea
+- Spain
+- Switzerland
+- United Arab Emirates
+- Afghanistan
+- Albania
+- Algeria
+- Andorra
+- Angola
+- Antigua and Barbuda
+- Argentina
+- Armenia
+- Austria
+- Azerbaijan
+- Bahamas
+- Bahrain
+- Bangladesh
+- Barbados
+- Belarus
+- Belgium
+- Belize
+- Benin
+- Bhutan
+- Bolivia
+- Bosnia and Herzegovina
+- Botswana
+- Brunei
+- Bulgaria
+- Burkina Faso
+- Burundi
+- Cabo Verde
+- Cambodia
+- Cameroon
+- Central African Republic
+- Chad
+- Chile
+- Colombia
+- Comoros
+- Costa Rica
+- Cote d'Ivoire
+- Croatia
+- Cuba
+- Cyprus
+- Czech Republic
+- Democratic Republic of the Congo
+- Denmark
+- Djibouti
+- Dominica
+- Dominican Republic
+- Ecuador
+- Egypt
+- El Salvador
+- Equatorial Guinea
+- Eritrea
+- Estonia
+- Eswatini
+- Ethiopia
+- Fiji
+- Finland
+- Gabon
+- Gambia
+- Georgia
+- Ghana
+- Greece
+- Grenada
+- Guatemala
+- Guinea-Bissau
+- Guinea
+- Guyana
+- Haiti
+- Honduras
+- Hungary
+- Iceland
+- Indonesia
+- Iran
+- Iraq
+- Israel
+- Jamaica
+- Jordan
+- Kazakhstan
+- Kenya
+- Kiribati
+- Kuwait
+- Kyrgyzstan
+- Laos
+- Latvia
+- Lebanon
+- Lesotho
+- Liberia
+- Libya
+- Liechtenstein
+- Lithuania
+- Luxembourg
+- Madagascar
+- Malawi
+- Malaysia
+- Maldives
+- Mali
+- Malta
+- Marshall Islands
+- Marshall Islands
+- Mauritania
+- Mauritius
+- Micronesia
+- Moldova
+- Monaco
+- Mongolia
+- Montenegro
+- Morocco
+- Mozambique
+- Myanmar
+- Namibia
+- Nauru
+- Nepal
+- New Zealand
+- Nicaragua
+- Niger
+- Nigeria
+- North Korea
+- North Macedonia
+- Norway
+- Oman
+- Pakistan
+- Palau
+- Panama
+- Papua New Guinea
+- Paraguay
+- Peru
+- Philippines
+- Portugal
+- Qatar
+- Republic of the Congo
+- Romania
+- Russia
+- Rwanda
+- Saint Kitts and Nevis
+- Saint Lucia
+- Saint Vincent and the Grenadines
+- Samoa
+- San Marino
+- Sao Tome and Principe
+- Saudi Arabia
+- Senegal
+- Serbia
+- Seychelles
+- Sierra Leone
+- Slovakia
+- Slovenia
+- Solomon Islands
+- Somalia
+- South Africa
+- South Sudan
+- Sri Lanka
+- State of Palestine
+- Sudan
+- Suriname
+- Sweden
+- Syria
+- Tajikistan
+- Tanzania
+- Thailand
+- Timor-Leste
+- Togo
+- Tonga
+- Trinidad and Tobago
+- Tunisia
+- Turkey
+- Turkmenistan
+- Tuvalu
+- Uganda
+- Ukraine
+- Uruguay
+- Uzbekistan
+- Vanuatu
+- Vatican City
+- Venezuela
+- Vietnam
+- Yemen
+- Zambia
+- Zimbabwe
+
+### it-provisioning
+*No countries currently offer this service.*
+
+### msa
+- Australia
+- Brazil
+- Canada
+- China
+- France
+- Germany
+- India
+- Japan
+- United Kingdom
+- United States of America
+- Ireland
+- Italy
+- Mexico
+- Netherlands
+- Poland
+- Singapore
+- South Korea
+- Spain
+- Switzerland
+- Afghanistan
+- Albania
+- Algeria
+- Andorra
+- Angola
+- Antigua and Barbuda
+- Argentina
+- Armenia
+- Austria
+- Azerbaijan
+- Bahamas
+- Bahrain
+- Bangladesh
+- Barbados
+- Belarus
+- Belgium
+- Belize
+- Benin
+- Bhutan
+- Bolivia
+- Bosnia and Herzegovina
+- Botswana
+- Brunei
+- Bulgaria
+- Burkina Faso
+- Burundi
+- Cabo Verde
+- Cambodia
+- Cameroon
+- Central African Republic
+- Chad
+- Chile
+- Colombia
+- Comoros
+- Costa Rica
+- Cote d'Ivoire
+- Croatia
+- Cuba
+- Cyprus
+- Czech Republic
+- Democratic Republic of the Congo
+- Denmark
+- Djibouti
+- Dominica
+- Dominican Republic
+- Ecuador
+- Egypt
+- El Salvador
+- Equatorial Guinea
+- Eritrea
+- Estonia
+- Eswatini
+- Ethiopia
+- Fiji
+- Finland
+- Gabon
+- Ghana
+- Greece
+- Grenada
+- Guatemala
+- Guinea-Bissau
+- Guinea
+- Guyana
+- Haiti
+- Honduras
+- Hungary
+- Iceland
+- Indonesia
+- Iran
+- Iraq
+- Israel
+- Jamaica
+- Jordan
+- Kenya
+- Kiribati
+- Kuwait
+- Kyrgyzstan
+- Laos
+- Latvia
+- Lebanon
+- Lesotho
+- Liberia
+- Libya
+- Liechtenstein
+- Lithuania
+- Luxembourg
+- Madagascar
+- Malawi
+- Malaysia
+- Maldives
+- Mali
+- Malta
+- Marshall Islands
+- Marshall Islands
+- Mauritania
+- Mauritius
+- Micronesia
+- Moldova
+- Monaco
+- Mongolia
+- Montenegro
+- Morocco
+- Mozambique
+- Myanmar
+- Namibia
+- Nauru
+- Nepal
+- New Zealand
+- Nicaragua
+- Niger
+- Nigeria
+- North Korea
+- North Macedonia
+- Norway
+- Oman
+- Pakistan
+- Palau
+- Panama
+- Papua New Guinea
+- Paraguay
+- Peru
+- Philippines
+- Portugal
+- Qatar
+- Republic of the Congo
+- Romania
+- Russia
+- Rwanda
+- Saint Kitts and Nevis
+- Saint Lucia
+- Saint Vincent and the Grenadines
+- Samoa
+- San Marino
+- Sao Tome and Principe
+- Saudi Arabia
+- Senegal
+- Serbia
+- Seychelles
+- Sierra Leone
+- Slovakia
+- Slovenia
+- Solomon Islands
+- Somalia
+- South Africa
+- South Sudan
+- Sri Lanka
+- State of Palestine
+- Sudan
+- Suriname
+- Sweden
+- Syria
+- Tajikistan
+- Tanzania
+- Thailand
+- Timor-Leste
+- Togo
+- Tonga
+- Trinidad and Tobago
+- Tunisia
+- Turkey
+- Turkmenistan
+- Tuvalu
+- Uganda
+- Ukraine
+- Uruguay
+- Uzbekistan
+- Vanuatu
+- Vatican City
+- Venezuela
+- Vietnam
+- Yemen
+- Zambia
+- Zimbabwe
+
+### marketing-agency
+- Australia
+- Brazil
+- Canada
+- China
+- France
+- Germany
+- India
+- Japan
+- United Kingdom
+- United States of America
+- Ireland
+- Italy
+- Mexico
+- Netherlands
+- Poland
+- Singapore
+- South Korea
+- Spain
+- Switzerland
+- Afghanistan
+- Albania
+- Algeria
+- Andorra
+- Angola
+- Antigua and Barbuda
+- Argentina
+- Armenia
+- Austria
+- Azerbaijan
+- Bahamas
+- Bahrain
+- Bangladesh
+- Barbados
+- Belarus
+- Belgium
+- Belize
+- Benin
+- Bhutan
+- Bolivia
+- Bosnia and Herzegovina
+- Botswana
+- Brunei
+- Bulgaria
+- Burkina Faso
+- Burundi
+- Cabo Verde
+- Cambodia
+- Cameroon
+- Central African Republic
+- Chad
+- Chile
+- Colombia
+- Comoros
+- Costa Rica
+- Cote d'Ivoire
+- Croatia
+- Cuba
+- Cyprus
+- Czech Republic
+- Democratic Republic of the Congo
+- Denmark
+- Djibouti
+- Dominica
+- Dominican Republic
+- Ecuador
+- Egypt
+- El Salvador
+- Equatorial Guinea
+- Eritrea
+- Estonia
+- Eswatini
+- Ethiopia
+- Fiji
+- Finland
+- Gabon
+- Ghana
+- Greece
+- Grenada
+- Guatemala
+- Guinea-Bissau
+- Guinea
+- Guyana
+- Haiti
+- Honduras
+- Hungary
+- Iceland
+- Indonesia
+- Iran
+- Iraq
+- Israel
+- Jamaica
+- Jordan
+- Kazakhstan
+- Kenya
+- Kiribati
+- Kuwait
+- Kyrgyzstan
+- Laos
+- Latvia
+- Lebanon
+- Lesotho
+- Liberia
+- Libya
+- Liechtenstein
+- Lithuania
+- Luxembourg
+- Madagascar
+- Malawi
+- Malaysia
+- Maldives
+- Mali
+- Malta
+- Marshall Islands
+- Marshall Islands
+- Mauritania
+- Mauritius
+- Micronesia
+- Moldova
+- Monaco
+- Mongolia
+- Montenegro
+- Morocco
+- Mozambique
+- Myanmar
+- Namibia
+- Nauru
+- Nepal
+- New Zealand
+- Nicaragua
+- Niger
+- Nigeria
+- North Korea
+- North Macedonia
+- Norway
+- Oman
+- Pakistan
+- Palau
+- Panama
+- Papua New Guinea
+- Paraguay
+- Peru
+- Philippines
+- Portugal
+- Qatar
+- Republic of the Congo
+- Romania
+- Russia
+- Rwanda
+- Saint Kitts and Nevis
+- Saint Lucia
+- Saint Vincent and the Grenadines
+- Samoa
+- San Marino
+- Sao Tome and Principe
+- Saudi Arabia
+- Senegal
+- Serbia
+- Seychelles
+- Sierra Leone
+- Slovakia
+- Slovenia
+- Solomon Islands
+- Somalia
+- South Africa
+- South Sudan
+- Sri Lanka
+- State of Palestine
+- Sudan
+- Suriname
+- Sweden
+- Syria
+- Tajikistan
+- Tanzania
+- Thailand
+- Timor-Leste
+- Togo
+- Tonga
+- Trinidad and Tobago
+- Tunisia
+- Turkey
+- Turkmenistan
+- Tuvalu
+- Uganda
+- Ukraine
+- Uruguay
+- Uzbekistan
+- Vanuatu
+- Vatican City
+- Venezuela
+- Vietnam
+- Yemen
+- Zambia
+- Zimbabwe
+
+### software-technology-solutions
+- Australia
+- Brazil
+- Canada
+- China
+- France
+- Germany
+- India
+- Japan
+- United Kingdom
+- United States of America
+- Ireland
+- Italy
+- Mexico
+- Netherlands
+- Poland
+- Singapore
+- South Korea
+- Spain
+- Switzerland
+- Afghanistan
+- Albania
+- Algeria
+- Andorra
+- Angola
+- Antigua and Barbuda
+- Argentina
+- Armenia
+- Austria
+- Azerbaijan
+- Bahamas
+- Bahrain
+- Bangladesh
+- Barbados
+- Belarus
+- Belgium
+- Belize
+- Benin
+- Bhutan
+- Bolivia
+- Bosnia and Herzegovina
+- Botswana
+- Brunei
+- Bulgaria
+- Burkina Faso
+- Burundi
+- Cabo Verde
+- Cambodia
+- Cameroon
+- Central African Republic
+- Chad
+- Chile
+- Colombia
+- Comoros
+- Costa Rica
+- Cote d'Ivoire
+- Croatia
+- Cuba
+- Cyprus
+- Czech Republic
+- Democratic Republic of the Congo
+- Denmark
+- Djibouti
+- Dominica
+- Dominican Republic
+- Ecuador
+- Egypt
+- El Salvador
+- Equatorial Guinea
+- Eritrea
+- Estonia
+- Eswatini
+- Ethiopia
+- Fiji
+- Finland
+- Gabon
+- Ghana
+- Greece
+- Grenada
+- Guatemala
+- Guinea-Bissau
+- Guinea
+- Guyana
+- Haiti
+- Honduras
+- Hungary
+- Iceland
+- Indonesia
+- Iran
+- Iraq
+- Israel
+- Jamaica
+- Jordan
+- Kazakhstan
+- Kenya
+- Kiribati
+- Kuwait
+- Kyrgyzstan
+- Laos
+- Latvia
+- Lebanon
+- Lesotho
+- Liberia
+- Libya
+- Liechtenstein
+- Lithuania
+- Luxembourg
+- Madagascar
+- Malawi
+- Malaysia
+- Maldives
+- Mali
+- Malta
+- Marshall Islands
+- Marshall Islands
+- Mauritania
+- Mauritius
+- Micronesia
+- Moldova
+- Monaco
+- Mongolia
+- Montenegro
+- Morocco
+- Mozambique
+- Myanmar
+- Namibia
+- Nauru
+- Nepal
+- New Zealand
+- Nicaragua
+- Niger
+- Nigeria
+- North Korea
+- North Macedonia
+- Norway
+- Oman
+- Pakistan
+- Palau
+- Panama
+- Papua New Guinea
+- Paraguay
+- Peru
+- Philippines
+- Portugal
+- Qatar
+- Republic of the Congo
+- Romania
+- Russia
+- Rwanda
+- Saint Kitts and Nevis
+- Saint Lucia
+- Saint Vincent and the Grenadines
+- Samoa
+- San Marino
+- Sao Tome and Principe
+- Saudi Arabia
+- Senegal
+- Serbia
+- Seychelles
+- Sierra Leone
+- Slovakia
+- Slovenia
+- Solomon Islands
+- Somalia
+- South Africa
+- South Sudan
+- Sri Lanka
+- State of Palestine
+- Sudan
+- Suriname
+- Sweden
+- Syria
+- Tajikistan
+- Tanzania
+- Thailand
+- Timor-Leste
+- Togo
+- Tonga
+- Trinidad and Tobago
+- Tunisia
+- Turkey
+- Turkmenistan
+- Tuvalu
+- Uganda
+- Ukraine
+- Uruguay
+- Uzbekistan
+- Vanuatu
+- Vatican City
+- Venezuela
+- Vietnam
+- Yemen
+- Zambia
+- Zimbabwe
+
+### staffing-recruiting
+- Australia
+- Brazil
+- Canada
+- China
+- France
+- Germany
+- India
+- Japan
+- United Kingdom
+- United States of America
+- Ireland
+- Italy
+- Mexico
+- Netherlands
+- Poland
+- Singapore
+- South Korea
+- Spain
+- Switzerland
+- United Arab Emirates
+- Afghanistan
+- Albania
+- Algeria
+- Andorra
+- Angola
+- Antigua and Barbuda
+- Argentina
+- Armenia
+- Austria
+- Azerbaijan
+- Bahamas
+- Bahrain
+- Bangladesh
+- Barbados
+- Belarus
+- Belgium
+- Belize
+- Benin
+- Bhutan
+- Bolivia
+- Bosnia and Herzegovina
+- Botswana
+- Brunei
+- Bulgaria
+- Burkina Faso
+- Burundi
+- Cabo Verde
+- Cambodia
+- Cameroon
+- Central African Republic
+- Chad
+- Chile
+- Colombia
+- Comoros
+- Costa Rica
+- Cote d'Ivoire
+- Croatia
+- Cuba
+- Cyprus
+- Czech Republic
+- Democratic Republic of the Congo
+- Denmark
+- Djibouti
+- Dominica
+- Dominican Republic
+- Ecuador
+- Egypt
+- El Salvador
+- Equatorial Guinea
+- Eritrea
+- Estonia
+- Eswatini
+- Ethiopia
+- Fiji
+- Finland
+- Gabon
+- Gambia
+- Georgia
+- Ghana
+- Greece
+- Grenada
+- Guatemala
+- Guinea-Bissau
+- Guinea
+- Guyana
+- Haiti
+- Honduras
+- Hungary
+- Iceland
+- Indonesia
+- Iran
+- Iraq
+- Israel
+- Jamaica
+- Jordan
+- Kazakhstan
+- Kenya
+- Kiribati
+- Kuwait
+- Kyrgyzstan
+- Laos
+- Latvia
+- Lebanon
+- Lesotho
+- Liberia
+- Libya
+- Liechtenstein
+- Lithuania
+- Luxembourg
+- Madagascar
+- Malawi
+- Malaysia
+- Maldives
+- Mali
+- Malta
+- Marshall Islands
+- Marshall Islands
+- Mauritania
+- Mauritius
+- Micronesia
+- Moldova
+- Monaco
+- Mongolia
+- Montenegro
+- Morocco
+- Mozambique
+- Myanmar
+- Namibia
+- Nauru
+- Nepal
+- New Zealand
+- Nicaragua
+- Niger
+- Nigeria
+- North Korea
+- North Macedonia
+- Norway
+- Oman
+- Pakistan
+- Palau
+- Panama
+- Papua New Guinea
+- Paraguay
+- Peru
+- Philippines
+- Portugal
+- Qatar
+- Republic of the Congo
+- Romania
+- Russia
+- Rwanda
+- Saint Kitts and Nevis
+- Saint Lucia
+- Saint Vincent and the Grenadines
+- Samoa
+- San Marino
+- Sao Tome and Principe
+- Saudi Arabia
+- Senegal
+- Serbia
+- Seychelles
+- Sierra Leone
+- Slovakia
+- Slovenia
+- Solomon Islands
+- Somalia
+- South Africa
+- South Sudan
+- Sri Lanka
+- State of Palestine
+- Sudan
+- Suriname
+- Sweden
+- Syria
+- Tajikistan
+- Tanzania
+- Thailand
+- Timor-Leste
+- Togo
+- Tonga
+- Trinidad and Tobago
+- Tunisia
+- Turkey
+- Turkmenistan
+- Tuvalu
+- Uganda
+- Ukraine
+- Uruguay
+- Uzbekistan
+- Vanuatu
+- Vatican City
+- Venezuela
+- Vietnam
+- Yemen
+- Zambia
+- Zimbabwe
+
+### taxation
+*No countries currently offer this service.*

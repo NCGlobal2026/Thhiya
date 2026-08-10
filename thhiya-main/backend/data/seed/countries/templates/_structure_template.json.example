@@ -1,0 +1,102 @@
+{
+    "name": "Country Name (e.g., Brazil)",
+    "code": "BR",
+    "slug": "country-slug (e.g., brazil)",
+    "region": "Region Name (e.g., South America)",
+    "flag": "🇺🇳",
+    "languages": [
+        "Language 1",
+        "Language 2"
+    ],
+    "currencies": [
+        "Currency Code (Currency Name)"
+    ],
+    "services": [
+        {
+            "serviceName": "Service Name (e.g., Global Payroll)",
+            "serviceSlug": "service-slug (e.g., global-payroll)",
+            "subtitle": "Service Subtitle (e.g., Simplify payroll compliance in Brazil)",
+            "heroData": {
+                "title": "Hero Title",
+                "subtitle": "Hero Subtitle",
+                "description": "Hero Description",
+                "bestFor": "Target Audience (e.g., Companies with 50+ employees)"
+            },
+            "ctaText": "CTA Button Text",
+            "ctaLink": "Optional custom link",
+            "operationalContext": "Context about the service in this country...",
+            "sections": [
+                {
+                    "id": "intro-section",
+                    "type": "markdown",
+                    "title": "Introduction",
+                    "order": 1,
+                    "content": {
+                        "markdown": "## Rich Text Content\n\nYou can write full **markdown** here."
+                    }
+                },
+                {
+                    "id": "key-steps",
+                    "type": "key_steps",
+                    "title": "Key Steps",
+                    "order": 2,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Step One",
+                                "description": "Description of step one."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Step Two",
+                                "description": "Description of step two."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "faq-section",
+                    "type": "faq",
+                    "title": "Frequently Asked Questions",
+                    "order": 3,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Question 1?",
+                                "answer": "Answer 1."
+                            },
+                            {
+                                "question": "Question 2?",
+                                "answer": "Answer 2."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "interactiveComponents": [
+                {
+                    "id": "salary-calc-1",
+                    "type": "salary_calculator",
+                    "sectionId": "section-id-where-this-appears",
+                    "config": {
+                        "baseSalary": {
+                            "min": 1000,
+                            "max": 100000,
+                            "default": 5000,
+                            "currency": "BRL"
+                        },
+                        "deductions": [
+                            {
+                                "name": "Social Security",
+                                "type": "percentage",
+                                "value": 11,
+                                "employerPaid": true
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

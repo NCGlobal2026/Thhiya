@@ -1,0 +1,537 @@
+{
+    "name": "Malawi",
+    "code": "MW",
+    "slug": "malawi",
+    "flag": "https://flagcdn.com/w160/mw.png",
+    "region": "Africa",
+    "languages": [
+        "English",
+        "Chewa"
+    ],
+    "currencies": [
+        "MWK"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Malawi",
+                "subtitle": "Hire in Lilongwe",
+                "description": "Compliant employment in the Warm Heart of Africa. We handle Pension contributions.",
+                "bestFor": "NGOs & Agri",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "mw-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Written contract required."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Pension",
+                                "description": "Register with a private pension administrator."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "TEVET",
+                                "description": "Register for TEVET Levy."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mw-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Pension",
+                                    "values": [
+                                        "10%",
+                                        "5%",
+                                        "Mandatory contribution."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "TEVET Levy",
+                                    "values": [
+                                        "1%",
+                                        "0%",
+                                        "Training levy on gross payroll."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Workers Comp",
+                                    "values": [
+                                        "~1-2%",
+                                        "0%",
+                                        "Occupational injury insurance."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "mw-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "John Chilembwe Day",
+                                "description": "January 15"
+                            },
+                            {
+                                "title": "Martyrs' Day",
+                                "description": "March 3"
+                            },
+                            {
+                                "title": "Eid al-Fitr",
+                                "description": "March 30 (Estimated)"
+                            },
+                            {
+                                "title": "Good Friday",
+                                "description": "April 18"
+                            },
+                            {
+                                "title": "Easter Saturday",
+                                "description": "April 19"
+                            },
+                            {
+                                "title": "Easter Monday",
+                                "description": "April 21"
+                            },
+                            {
+                                "title": "Labour Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Kamuzu Day",
+                                "description": "May 14"
+                            },
+                            {
+                                "title": "Independence Day",
+                                "description": "July 6 (Observed July 7)"
+                            },
+                            {
+                                "title": "Mother's Day",
+                                "description": "October 15"
+                            },
+                            {
+                                "title": "Christmas Day",
+                                "description": "December 25"
+                            },
+                            {
+                                "title": "Boxing Day",
+                                "description": "December 26"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mw-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax (PAYE)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Monthly Income (MWK)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Up to 150,000",
+                                    "values": [
+                                        "0%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "150,001 - 500,000",
+                                    "values": [
+                                        "25%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "500,001 - 2.55M",
+                                    "values": [
+                                        "30%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Above 2.55M",
+                                    "values": [
+                                        "35%"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "mw-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Base Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Pension",
+                                "description": "Deduct 5% Employee Contribution."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax Base",
+                                "description": "Gross - Pension."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "PAYE",
+                                "description": "Apply 0%/25%/30%/35% brackets."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Net",
+                                "description": "Gross - Pension - PAYE."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Malawi",
+                "subtitle": "Limited Company",
+                "description": "Registrar General.",
+                "bestFor": "Investment",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "mw-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Name Search",
+                                "description": "Check availability."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Registration",
+                                "description": "Submit Memorandum and Articles of Association to Registrar General."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "MRA",
+                                "description": "Register for Taxes (TPIN) with Malawi Revenue Authority."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mw-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "National Bank of Malawi",
+                                "description": "Largest bank."
+                            },
+                            {
+                                "title": "Standard Bank Malawi",
+                                "description": "Part of Standard Bank Group."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Malawi",
+                "subtitle": "Blantyre/Lilongwe",
+                "description": "Growing workforce.",
+                "bestFor": "Agriculture",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "mw-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Blantyre",
+                                "text": "Commercial capital."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Lilongwe",
+                                "text": "Political capital."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Malawi",
+                "subtitle": "Basic",
+                "description": "Payroll-first.",
+                "bestFor": "Records",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "mw-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Tax Certificates",
+                                "description": "Issuance of P9 forms at year end."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Malawi",
+                "subtitle": "IFRS",
+                "description": "Adopted standards.",
+                "bestFor": "Compliance",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "mw-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "IFRS",
+                                "text": "Specifically IFRS for SMEs is widely used."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mw-comp-labor",
+                    "type": "warning",
+                    "title": "Severance",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Pay",
+                                "description": "Required for redundancy or unfair dismissal."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mw-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax",
+                                    "values": [
+                                        "30%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Foreign Branches",
+                                    "values": [
+                                        "35%",
+                                        "Higher rate for branches."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "VAT",
+                                    "values": [
+                                        "16.5%"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Malawi",
+                "subtitle": "Common Law",
+                "description": "English influence.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "mw-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "English is the official language for business."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Malawi",
+                "subtitle": "Airtel Money",
+                "description": "Mobile payments.",
+                "bestFor": "Remittance",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "mw-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Airtel Money",
+                                "description": "Leading mobile money provider."
+                            },
+                            {
+                                "title": "Mpamba",
+                                "description": "TNM's mobile money service."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Malawi",
+                "subtitle": "Radio & FB",
+                "description": "Mixed media.",
+                "bestFor": "Awareness",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "mw-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Radio",
+                                "text": "still very strong reach in rural areas."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Facebook",
+                                "text": "Dominant social platform."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

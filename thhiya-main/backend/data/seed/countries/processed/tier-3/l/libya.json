@@ -1,0 +1,493 @@
+{
+    "name": "Libya",
+    "code": "LY",
+    "slug": "libya",
+    "flag": "https://flagcdn.com/w160/ly.png",
+    "region": "Africa",
+    "languages": [
+        "Arabic"
+    ],
+    "currencies": [
+        "LYD"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Libya",
+                "subtitle": "Hire in Tripoli",
+                "description": "Compliant employment in North Africa. We handle INAS contributions.",
+                "bestFor": "Oil & Gas",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "ly-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Written Arabic contract submitted to Ministry of Labor."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "INAS",
+                                "description": "Register with Social Security Fund (INAS)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax ID",
+                                "description": "Register with Tax Department."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ly-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Security (INAS)",
+                                    "values": [
+                                        "11.25% - 14.35%",
+                                        "3.75% - 5.125%",
+                                        "Basic: Emp 10.5%, Eee 3.75%. Total w/ addons can be higher."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Social Solidarity Fund",
+                                    "values": [
+                                        "1.0%",
+                                        "1.0%",
+                                        "Often applicable."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ly-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Revolution Day",
+                                "description": "February 17"
+                            },
+                            {
+                                "title": "Eid al-Fitr",
+                                "description": "March 30-April 1 (Estimated)"
+                            },
+                            {
+                                "title": "Labor Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Eid al-Adha",
+                                "description": "June 6-8 (Estimated)"
+                            },
+                            {
+                                "title": "Islamic New Year",
+                                "description": "June 26 (Estimated)"
+                            },
+                            {
+                                "title": "Prophet's Birthday",
+                                "description": "September 15 (Estimated)"
+                            },
+                            {
+                                "title": "Martyrs' Day",
+                                "description": "September 16"
+                            },
+                            {
+                                "title": "Liberation Day",
+                                "description": "October 23"
+                            },
+                            {
+                                "title": "Independence Day",
+                                "description": "December 24"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ly-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Income Level (LYD)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Up to 12,000/yr",
+                                    "values": [
+                                        "5%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Above 12,000/yr",
+                                    "values": [
+                                        "10%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Jehad Tax",
+                                    "values": [
+                                        "1% - 3%",
+                                        "Additional defense tax on monthly income."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ly-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Base Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "INAS",
+                                "description": "Deduct Social Security (Employee Share ~3.75% - 5.125%)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Jehad Tax",
+                                "description": "Deduct 1-3% depending on bracket."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Solidarity Fund",
+                                "description": "Deduct 1%."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Income Tax",
+                                "description": "Apply 5%/10% on remaining base."
+                            },
+                            {
+                                "stepNumber": 6,
+                                "title": "Net",
+                                "description": "Gross - INAS - Jehad - Solidarity - Tax."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Libya",
+                "subtitle": "JSC / Branch",
+                "description": "Complex registration process.",
+                "bestFor": "Oil Services",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "ly-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Ministry of Economy",
+                                "description": "Obtain approval for foreign participation."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Commercial Register",
+                                "description": "Register the company."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Chamber of Commerce",
+                                "description": "Membership required."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ly-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Jumhouria Bank",
+                                "description": "Largest bank."
+                            },
+                            {
+                                "title": "National Commercial Bank",
+                                "description": "Major state-owned bank."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Libya",
+                "subtitle": "Tripoli/Benghazi",
+                "description": "Rebuilding workforce.",
+                "bestFor": "Construction",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "ly-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Tripoli",
+                                "text": "The main economic hub."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Libya",
+                "subtitle": "Basic",
+                "description": "Manual & Excel.",
+                "bestFor": "Records",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "ly-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "INAS Forms",
+                                "description": "Monthly social security filings."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Libya",
+                "subtitle": "Local GAAP",
+                "description": "Arabic records.",
+                "bestFor": "Compliance",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "ly-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Libyan Commercial Code",
+                                "text": "Rules dictate accounting practices; not fully IFRS compliant."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ly-comp-labor",
+                    "type": "warning",
+                    "title": "Foreign Labor",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Quotas",
+                                "description": "Foreign employees must not exceed certain percentage of total workforce."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ly-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax",
+                                    "values": [
+                                        "20%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Jihad Tax (Corporate)",
+                                    "values": [
+                                        "4%",
+                                        "Of taxable income."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Libya",
+                "subtitle": "Civil Law",
+                "description": "Egyptian/French influence.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "ly-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "Arabic is mandatory for all legal documents."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Libya",
+                "subtitle": "MobiCash",
+                "description": "Mobile banking.",
+                "bestFor": "Payments",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "ly-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "MobiCash",
+                                "description": "Popular mobile payment service by Wahda Bank."
+                            },
+                            {
+                                "title": "Sadad",
+                                "description": "Payment gateway."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Libya",
+                "subtitle": "Social",
+                "description": "Facebook dominant.",
+                "bestFor": "Engagement",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "ly-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Facebook",
+                                "text": "Extremely high usage for news, business, and social."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

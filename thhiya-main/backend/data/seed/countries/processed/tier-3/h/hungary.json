@@ -1,0 +1,559 @@
+{
+    "name": "Hungary",
+    "code": "HU",
+    "slug": "hungary",
+    "flag": "https://flagcdn.com/w160/hu.png",
+    "region": "Europe",
+    "languages": [
+        "Hungarian"
+    ],
+    "currencies": [
+        "HUF"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR & PEO in Hungary",
+                "subtitle": "Hire in Budapest",
+                "description": "Compliant employment in Hungary. We manage the 13% Social Contribution Tax (SZOCHO) and Labor Code compliance.",
+                "bestFor": "Tech & SSCs",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "hu-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract (Munkaszerződés)",
+                                "description": "Draft employment contract in Hungarian. Must specify Base Salary, Job Title, and Place of Work."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Tax ID (Adóazonosító)",
+                                "description": "Obtain employee's Tax Identification Number from NAV (National Tax and Customs Administration)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "SS Registration (TAJ)",
+                                "description": "Register for Social Security (TAJ card) with the National Health Insurance Fund."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hu-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates 2024",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Contribution Tax (SZOCHO)",
+                                    "values": [
+                                        "13%",
+                                        "0%",
+                                        "Covers pension, health, and labor market contributions."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Social Security",
+                                    "values": [
+                                        "0%",
+                                        "18.5%",
+                                        "Deducted from gross salary."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Income Tax (SZJA)",
+                                    "values": [
+                                        "0%",
+                                        "15%",
+                                        "Flat rate personal income tax."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "hu-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Revision Day (1848)",
+                                "description": "March 15"
+                            },
+                            {
+                                "title": "Good Friday",
+                                "description": "April 18"
+                            },
+                            {
+                                "title": "Easter Monday",
+                                "description": "April 21"
+                            },
+                            {
+                                "title": "Labor Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Pentecost Monday",
+                                "description": "June 9"
+                            },
+                            {
+                                "title": "State Foundation Day",
+                                "description": "August 20"
+                            },
+                            {
+                                "title": "1956 Revolution Day",
+                                "description": "October 23"
+                            },
+                            {
+                                "title": "All Saints' Day",
+                                "description": "November 1"
+                            },
+                            {
+                                "title": "Christmas",
+                                "description": "December 25-26"
+                            },
+                            {
+                                "title": "Working Saturdays",
+                                "description": "May 17, Oct 18, Dec 13"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hu-gp-minwage",
+                    "type": "cost_breakdown",
+                    "title": "Minimum Wage 2024",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Category",
+                                "Monthly Gross (HUF)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Unskilled",
+                                    "values": [
+                                        "266,800 HUF"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Skilled",
+                                    "values": [
+                                        "326,000 HUF"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "hu-gp-cycle",
+                    "type": "key_steps",
+                    "title": "Monthly Cycle",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross Calculation",
+                                "description": "Base salary + Overtime + Sickness Benefit."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Deductions",
+                                "description": "Deduct 18.5% SS and 15% PIT from Employee."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Family Allowance",
+                                "description": "Apply Family Tax Allowance (Családi adókedvezmény) if applicable."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Filing",
+                                "description": "File '08' return with NAV by the 12th of the following month."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hu-calc-logic",
+                    "type": "key_steps",
+                    "title": "Calculation Logic",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Monthly Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Deductions",
+                                "description": "Subtract 18.5% SS and 15% PIT."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Net",
+                                "description": "Result."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Hungary",
+                "subtitle": "Kft Formation",
+                "description": "Establish a Korlátolt Felelősségű Társaság (Kft) - the standard LLC.",
+                "bestFor": "EU Market Entry",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "hu-inc-steps",
+                    "type": "key_steps",
+                    "title": "Kft Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Attorney Engagement",
+                                "description": "Countersignature by a Hungarian attorney is mandatory."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Articles of Association",
+                                "description": "Drafting and signing the deed of foundation."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Capital",
+                                "description": "Minimum share capital is 3,000,000 HUF (approx €7,500). Needs to be deposited or declared."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Court Registration",
+                                "description": "Electronic filing with the Court of Registration. Fast-track takes 1-2 days."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "VAT Registration",
+                                "description": "Automatic issuance of EU VAT number if requested."
+                            },
+                            {
+                                "stepNumber": 6,
+                                "title": "Chamber of Commerce",
+                                "description": "Mandatory registration with the local Chamber (MKIK)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hu-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "OTP Bank",
+                                "description": "Largest commercial bank in Hungary."
+                            },
+                            {
+                                "title": "K&H Bank",
+                                "description": "Part of KBC Group."
+                            },
+                            {
+                                "title": "Erste Bank",
+                                "description": "Austrian banking group."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Hungary",
+                "subtitle": "Budapest Tech Hub",
+                "description": "Sourcing engineers and multilingual support staff.",
+                "bestFor": "SSC & R&D",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "hu-staff-landscape",
+                    "type": "insights",
+                    "title": "Talent Landscape",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Languages",
+                                "text": "High proficiency in English and German, especially in Budapest."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Tech Talent",
+                                "text": "Hungary is a major hub for R&D and automotive engineering."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Hungary",
+                "subtitle": "Digital HR",
+                "description": "GDPR-compliant data management.",
+                "bestFor": "Data Security",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "hu-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "GDPR",
+                                "description": "Strict compliance with EU data protection regulations."
+                            },
+                            {
+                                "title": "NAV Integration",
+                                "description": "Real-time reporting capabilities for tax authority."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Hungary",
+                "subtitle": "HAS Standards",
+                "description": "Hungarian Accounting Standards (HAS) or IFRS.",
+                "bestFor": "Reporting",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "hu-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Double Entry",
+                                "text": "Mandatory for all double-entry bookkeeping entities."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Reporting",
+                                "text": "Annual reports must be published via the Ministry of Justice portal (e-beszamolo)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hu-comp-checklist",
+                    "type": "essentials",
+                    "title": "Checklist",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Data Protection",
+                                "description": "GDPR compliance is mandatory."
+                            },
+                            {
+                                "title": "Whistleblowing",
+                                "description": "New EU Directive implementation for companies >50 employees."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hu-tax-rates",
+                    "type": "cost_breakdown",
+                    "title": "Corporate Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax (TAO)",
+                                    "values": [
+                                        "9%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Local Business Tax (IPA)",
+                                    "values": [
+                                        "Max 2%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "VAT (ÁFA)",
+                                    "values": [
+                                        "27% (Standard) / 5% / 18%"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Hungary",
+                "subtitle": "Civil Code",
+                "description": "Hungarian Civil Code contracts.",
+                "bestFor": "Security",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "hu-msa-tips",
+                    "type": "insights",
+                    "title": "Tips",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Probation",
+                                "text": "Max 3 months usually, strictly regulated."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Hungary",
+                "subtitle": "Digital Tools",
+                "description": "Connectivity and tools.",
+                "bestFor": "Ops",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "hu-soft-isps",
+                    "type": "essentials",
+                    "title": "Providers",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Magyar Telekom",
+                                "description": "Leading provider."
+                            },
+                            {
+                                "title": "Vodafone",
+                                "description": "Major competitor."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Hungary",
+                "subtitle": "Local Consumers",
+                "description": "Reaching audiences.",
+                "bestFor": "Growth",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "hu-mark-overview",
+                    "type": "insights",
+                    "title": "Strategy",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Digital",
+                                "text": "Google and Facebook dominate. LinkedIn is strong for B2B."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

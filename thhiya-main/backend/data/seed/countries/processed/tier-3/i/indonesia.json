@@ -1,0 +1,2008 @@
+{
+    "name": "Indonesia",
+    "code": "ID",
+    "slug": "indonesia",
+    "flag": "https://flagcdn.com/w160/id.png",
+    "region": "Asia",
+    "languages": [
+        "Indonesian"
+    ],
+    "currencies": [
+        "IDR"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR & PEO in Indonesia",
+                "subtitle": "Hire in Jakarta, Bali & Surabaya",
+                "description": "Compliant employment in Indonesia. We manage the complex BPJS contributions, mandatory THR allowances, and OmniBus Law compliance to get you operational in days.",
+                "bestFor": "Rapid Market Entry",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "id-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Process",
+                    "subtitle": "Timeline: 5-7 business days",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract Classification",
+                                "description": "Choose between Fixed-Term (PKWT) or Indefinite (PKWTT) contracts. Fixed-term contracts are now capped at 5 years total under the OmniBus Law. Contracts MUST be in Bahasa Indonesia or bilingual."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "BPJS Health & Labor Registration",
+                                "description": "Register employees for BPJS Kesehatan (Health) and BPJS Ketenagakerjaan (including Pension, Old Age, Death, and Work Accident). Registration must happen before the first payday."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax Identification (NPWP)",
+                                "description": "Verify the employee's Tax ID. If the employee doesn't have one, the PPh 21 tax rate is 20% higher. The EOR can assist in obtaining this digitally."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Mandatory Tapera Setup",
+                                "description": "New for 2025: Enroll employees in the Public Housing Savings (Tapera) program. Private sector participation is mandatory by 2027, but many EORs are opting in now."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Breakdown 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Annual Cap"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "BPJS Health (Kesehatan)",
+                                    "values": [
+                                        "4.0%",
+                                        "1.0%",
+                                        "Cap: IDR 12M monthly wage base"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Old Age (JHT)",
+                                    "values": [
+                                        "3.7%",
+                                        "2.0%",
+                                        "No cap on wage base"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Pension (JP)",
+                                    "values": [
+                                        "2.0%",
+                                        "1.0%",
+                                        "Cap: IDR 10,547,400 (Adjusted 2025)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Work Accident (JKK)",
+                                    "values": [
+                                        "0.24% - 1.74%",
+                                        "0%",
+                                        "Based on industry risk"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Housing Savings (Tapera)",
+                                    "values": [
+                                        "0.5%",
+                                        "2.5%",
+                                        "Mandatory phased entry"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "id-eor-cultural",
+                    "type": "good_to_know",
+                    "title": "Indonesian Workplace Culture",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Maintaining 'Face'",
+                                "text": "Criticism should always be private and subtle. Public confrontation is avoided to maintain 'harmony' (Rukun)."
+                            },
+                            {
+                                "title": "Hierarchical Respect",
+                                "text": "Seniority is highly valued. Use 'Bapak' (Mr.) or 'Ibu' (Ms/Mrs) before the employee's name in official communication."
+                            },
+                            {
+                                "title": "Indirect Communication",
+                                "text": "A 'Yes' might sometimes mean 'I understand' rather than 'I agree'. Build deep relationships to understand true intent."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-eor-maternity",
+                    "type": "insights",
+                    "title": "2025 Labor Law Updates",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "3+3 Maternity Leave",
+                                "text": "New regulation provides 3 months full pay followed by an optional 3 months at 75% pay for mothers with health issues or childcare needs."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "THR Timing",
+                                "text": "The Religious Holiday Allowance must be paid NO LATER than 7 days before the holiday. Late payment results in a 5% penalty."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Paternity Leave",
+                                "text": "Standard paternity leave is 2 days, but many progressive companies are offering 1-2 weeks to stay competitive."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-eor-classification",
+                    "type": "insights",
+                    "title": "Worker Classification Risk",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Contractor Misclassification",
+                                "text": "Hiring Indonesian residents as 'independent contractors' for full-time roles can lead to reclassification as permanent employees, triggering backdated BPJS and severance liabilities."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Economic Dependence Test",
+                                "text": "If a worker relies solely on one foreign company for income and uses company equipment, Indonesian labor courts are highly likely to rule them as an employee."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Compliant Transition",
+                                "text": "Moving contractors to an EOR model is the standard 'safe harbor' for international companies scaling in Indonesia."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-eor-faq",
+                    "type": "faq",
+                    "title": "EOR in Indonesia FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I hire foreign workers through an EOR?",
+                                "answer": "Yes, but the EOR must process a RPTKA (utilization plan) and KITAS (stay permit). It typically takes 4-8 weeks."
+                            },
+                            {
+                                "question": "What is the probation period limit?",
+                                "answer": "Probation is only allowed for Indefinite (PKWTT) contracts and is capped at 3 months. Fixed-term (PKWT) contracts cannot have probation."
+                            },
+                            {
+                                "question": "Can I terminate an employee easily?",
+                                "answer": "No. Indonesia has strict labor laws. Termination requires proven grounds, a 14-day notice, and often substantial severance pay."
+                            },
+                            {
+                                "question": "What is 'Cuti Bersama'?",
+                                "answer": "It refers to 'Joint Leave' holidays declared by the government, which are usually deducted from the employee's 12-day annual leave entitlement."
+                            },
+                            {
+                                "question": "Are there mandatory medical check-ups?",
+                                "answer": "Yes, Indonesian Labor Law technically requires employees to undergo a medical check-up once a year, paid for by the employer."
+                            },
+                            {
+                                "question": "Can I use foreign employment contracts?",
+                                "answer": "No. Under Law No. 24 of 2009, all contracts must be in Bahasa Indonesia (or bilingual). Using only a foreign law contract is legally void."
+                            },
+                            {
+                                "question": "What is the notice period for PKWT?",
+                                "answer": "Fixed-term (PKWT) contracts don't technically have a notice period; if either party terminates early, they must pay the remaining salary of the contract term."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-gp-tax-2025",
+                    "type": "cost_breakdown",
+                    "title": "Annual Tax Brackets (PPh 21)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Annual Taxable Income (IDR)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "0 - 60,000,000",
+                                    "values": [
+                                        "5%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "60,000,001 - 250,000,000",
+                                    "values": [
+                                        "15%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "250,000,001 - 500,000,000",
+                                    "values": [
+                                        "25%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "500,000,001 - 5,000,000,000",
+                                    "values": [
+                                        "30%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Above 5,000,000,000",
+                                    "values": [
+                                        "35%"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "id-gp-ter",
+                    "type": "key_steps",
+                    "title": "The TER Methodology",
+                    "subtitle": "Introduced in 2024",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Category Identification",
+                                "description": "Identify if the employee falls under Category A, B, or C based on their PTKP status (dependents)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Monthly TER Application",
+                                "description": "Apply the Monthly Effective Rate (0% to 34%) to the gross income for Jan-Nov."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Annual Recalculation",
+                                "description": "In December, calculate tax using the traditional progressive Article 17 rates and subtract what was paid in Jan-Nov."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-gp-deadlines",
+                    "type": "insights",
+                    "title": "Compliance Deadlines",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Tax Filing (SPT Masa)",
+                                "text": "Must be filed by the 20th of the following month. Late filing results in a IDR 100,000 penalty per month."
+                            },
+                            {
+                                "type": "info",
+                                "title": "BPJS Payment Deadline",
+                                "text": "BPJS Ketenagakerjaan is due by the 15th, and BPJS Kesehatan by the 10th of the following month."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Annual Form 1721-A1",
+                                "text": "Provide employees with their annual tax form (1721-A1) no later than January or February following the tax year."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-gp-essentials",
+                    "type": "essentials",
+                    "title": "Payroll Compliance Kit",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Bilingual Payslips",
+                                "description": "While not strictly mandatory for all, providing payslips in both English and Bahasa Indonesia is best practice for foreign-owned entities."
+                            },
+                            {
+                                "title": "BPJS Certificate (Sertifikat BPJS)",
+                                "description": "Ensure your entity has a valid certificate for both Health and Labor to avoid issues during annual company audits."
+                            },
+                            {
+                                "title": "Monthly Tax Payment Slips (SSP)",
+                                "description": "Digital copies of Surat Setoran Pajak (SSP) must be archived for 10 years as proof of PPh 21 remittance."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-gp-good-to-know",
+                    "type": "good_to_know",
+                    "title": "Payroll Nuances",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "The 'THR' Expectation",
+                                "description": "Employees view THR as a performance-unrelated right. Reducing THR for performance reasons is highly contentious."
+                            },
+                            {
+                                "title": "Bank Mandate",
+                                "description": "State-owned banks (Mandiri, BNI) are often preferred for government-linked payments, though BCA is the retail favorite."
+                            },
+                            {
+                                "title": "Overtime Approval",
+                                "description": "Always have signed Overtime Orders. Verbal agreements for overtime are difficult to defend in labor court."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-gp-faq",
+                    "type": "faq",
+                    "title": "Payroll Questions",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the PTKP for 2025?",
+                                "answer": "The standard non-taxable income (TK/0) is IDR 54,000,000 per year, which is IDR 4,500,000 per month."
+                            },
+                            {
+                                "question": "Are fixed allowances taxable?",
+                                "answer": "Yes. All fixed and variable allowances (transport, meal, housing) are included in the gross income for PPh 21 calculation."
+                            },
+                            {
+                                "question": "Is payslip mandatory?",
+                                "answer": "Yes, under Government Regulation No. 36 of 2021, employers must provide a proof of salary payment containing details of earnings and deductions."
+                            },
+                            {
+                                "question": "Can I pay in USD?",
+                                "answer": "No. Law No. 7 of 2011 mandates the use of IDR for all transactions within Indonesia, including salary payments."
+                            },
+                            {
+                                "question": "What happens if a payday falls on a weekend?",
+                                "answer": "Standard practice is to pay on the last working day before the weekend or holiday to ensure compliance with 'timely payment' rules."
+                            },
+                            {
+                                "question": "How do I handle expense reimbursements?",
+                                "answer": "Reimbursements are usually processed alongside payroll. If they are business-related and supported by valid invoices, they are not subject to PPh 21 tax."
+                            },
+                            {
+                                "question": "Is the 13th-month pay mandatory?",
+                                "answer": "Yes, if the employee has worked for at least 1 month. It is called THR (Tunjangan Hari Raya) and is paid before the major religious holiday."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-calc-tax-logic-2025",
+                    "type": "key_steps",
+                    "title": "Monthly Calculation Logic",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Calculate Gross Pay",
+                                "description": "Sum of Base Salary + Fixed Allowances (Transport, Meal, Work-from-home)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Determine TER Category",
+                                "description": "Assign Category A (Unmarried/No kids), B (Married/1-2 kids), or C (Married/3 kids) based on PTKP status."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Apply Monthly TER Rate",
+                                "description": "Select the percentage (0% to 34%) from the government table corresponding to the Gross Pay and Category."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "BPJS Deductions",
+                                "description": "Subtract 1.0% for Health (Kesehatan) and 1.0% for Pension (JP), and 2.0% for Old Age (JHT) from the employee's gross."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Calculate Net Pay",
+                                "description": "Gross Pay - TER Tax - BPJS Employee Contributions = Take-home pay."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-calc-deductions",
+                    "type": "cost_breakdown",
+                    "title": "Employee Mandatory Deductions",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employee Rate",
+                                "Maximum Monthly Basis"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "BPJS Health",
+                                    "values": [
+                                        "1.0%",
+                                        "IDR 12,000,000"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "BPJS Pension (JP)",
+                                    "values": [
+                                        "1.0%",
+                                        "IDR 10,547,400"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "BPJS Old Age (JHT)",
+                                    "values": [
+                                        "2.0%",
+                                        "Actual Gross Salary"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Tapera (Housing)",
+                                    "values": [
+                                        "2.5%",
+                                        "Actual Gross Salary"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "id-calc-ptkp",
+                    "type": "essentials",
+                    "title": "Non-Taxable Income (PTKP) 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "TK/0 (Single)",
+                                "description": "IDR 54,000,000 annually (~IDR 4.5M monthly)."
+                            },
+                            {
+                                "title": "K/0 (Married)",
+                                "description": "IDR 58,500,000 annually."
+                            },
+                            {
+                                "title": "K/3 (Married + 3 Children)",
+                                "description": "IDR 72,000,000 annually (Maximum threshold)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-calc-insights",
+                    "type": "insights",
+                    "title": "Calculator Precision",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "TER Category Accuracy",
+                                "text": "Selecting the wrong category (A, B, or C) can lead to tax variances of up to 5% of gross salary."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "BPJS Caps",
+                                "text": "The calculator automatically applies the IDR 12M cap for health and IDR 10.5M cap for pension calculations."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "December Reconciliation",
+                                "text": "A manual true-up is always required in December to align the monthly TER totals with the annual Art 17 calculation."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-calc-good-to-know",
+                    "type": "good_to_know",
+                    "title": "Payroll Math Nuances",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Rounding Rules",
+                                "description": "Indonesian tax calculations typically round down to the nearest thousand for taxable income (PKP)."
+                            },
+                            {
+                                "title": "Net vs Gross Contracts",
+                                "description": "Most calculators assume a 'Gross' contract. 'Net' contracts require 'Gross-up' logic which is significantly more complex."
+                            },
+                            {
+                                "title": "Currency Fluctuations",
+                                "description": "If the contract is in USD but paid in IDR, use the KMK (Ministry of Finance) exchange rate for tax reporting."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-calc-faq",
+                    "type": "faq",
+                    "title": "Calculation FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Why is the tax lower in Jan-Nov?",
+                                "answer": "The TER method simplifies monthly withholding. In December, a 'true-up' calculation occurs which may lead to higher or lower tax in the final month."
+                            },
+                            {
+                                "question": "Is insurance deductible from tax?",
+                                "answer": "BPJS Old Age (JHT) and Pension (JP) contributions are deductible from the gross income before applying the Article 17 annual calculation."
+                            },
+                            {
+                                "question": "Does the calculator handle THR?",
+                                "answer": "Yes. THR is added to the regular monthly income and taxable under the same TER table for the month it is paid."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Entity Setup Indonesia",
+                "subtitle": "PT PMA & RO Solutions",
+                "description": "Navigate the updated capital requirements of 2025 to establish your foreign-owned company in the world's 4th most populous nation.",
+                "bestFor": "Long-term Investment",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "id-inc-types",
+                    "type": "insights",
+                    "title": "Choosing the Right Entity",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "PT PMA",
+                                "text": "Foreign Investment Company. Can generate revenue, sponsor visas, and own property (HGB). Requires min investment IDR 10 billion."
+                            },
+                            {
+                                "type": "info",
+                                "title": "KPPA (Representative Office)",
+                                "text": "Liaison office. Cannot generate revenue or issue invoices. Used for market research and brand presence."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "EOR as Alternative",
+                                "text": "If you need to hire immediately without the $650k capital commitment, use an EOR until you are ready to incorporate."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-inc-steps-2025",
+                    "type": "key_steps",
+                    "title": "Incorporation Steps",
+                    "subtitle": "Timeline: 4-6 Weeks",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Name Approval",
+                                "description": "Check and reserve company name with Ministry of Law and Human Rights (SABH)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Deed of Establishment",
+                                "description": "Draft and sign the Deed (Akta) before an Indonesian Notary. Details of shareholders and directors are formalized here."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "NIB Issuance (OSS RBA)",
+                                "description": "Register via the Online Single Submission (OSS) system to obtain the Business ID Number (NIB), which serves as your import license and operational permit."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Bank Account Setup",
+                                "description": "Open a local IDR and USD account. Large banks like Mandiri or BCA are recommended for digital features."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-inc-costs",
+                    "type": "cost_breakdown",
+                    "title": "Capital Requirements 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Requirement",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Total Investment Plan",
+                                    "values": [
+                                        "IDR 10 Billion",
+                                        "Approx. USD 640k"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Paid-Up Capital (New 2025)",
+                                    "values": [
+                                        "IDR 2.5 Billion",
+                                        "Minimum per business line"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Notary Fees",
+                                    "values": [
+                                        "IDR 15M - 35M",
+                                        "Depends on complexity"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Registered Address (Virtual)",
+                                    "values": [
+                                        "IDR 5M - 12M",
+                                        "Per year in Jakarta"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "id-inc-essentials",
+                    "type": "essentials",
+                    "title": "Entity Maintenance",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Annual LKPM Reporting",
+                                "description": "Mandatory quarterly Investment Activity Reports (LKPM) via the OSS system. Failure to file can lead to NIB suspension."
+                            },
+                            {
+                                "title": "Ratification of Articles",
+                                "description": "Any change in shareholders or directors must be ratified by the Ministry of Law (SK Kemenkumham)."
+                            },
+                            {
+                                "title": "Local Domicile Letter",
+                                "description": "In certain regions outside Jakarta, a 'Domisili' letter from the local sub-district (Kelurahan) is still required."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-inc-good-to-know",
+                    "type": "good_to_know",
+                    "title": "Cultural Business Setup",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "The 'Pajak' Landscape",
+                                "description": "Building a good relationship with your local 'Account Representative' (AR) at the tax office is as important as the filings themselves."
+                            },
+                            {
+                                "title": "Networking (KADIN)",
+                                "description": "Joining the Indonesian Chamber of Commerce (KADIN) or specific business associations (like AmCham) is highly recommended for PT PMAs."
+                            },
+                            {
+                                "title": "The Role of OJK",
+                                "description": "If your entity involves Fintech or multi-finance, you will need secondary licenses from the Financial Services Authority (OJK) which are notoriously slow."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-inc-faq",
+                    "type": "faq",
+                    "title": "Incorporation FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can a PT PMA be 100% foreign owned?",
+                                "answer": "Yes, for most sectors under the 2021 Positive Investment List, 100% ownership is allowed. Some sectors (e.g., small-scale tourism) remain closed or restricted."
+                            },
+                            {
+                                "question": "Do I need a local director?",
+                                "answer": "No. Directors and Commissioners can be foreigners, but at least one person must have an Indonesian Tax ID (NPWP) for administrative filings."
+                            },
+                            {
+                                "question": "Is a physical office required?",
+                                "answer": "Yes. Most regions (especially Jakarta) require a commercial office address. Virtual offices are permitted for certain business classifications (KBLI)."
+                            },
+                            {
+                                "question": "What is a 'NIB'?",
+                                "answer": "Business Identification Number (Nomor Induk Berusaha). It serves as your TDP (Company Reg), API (Import License), and NPI (Customs Access)."
+                            },
+                            {
+                                "question": "Can I change my business activity later?",
+                                "answer": "Yes, by amending your Articles of Association and updating your OSS (Online Single Submission) profile, which may require additional capital injection."
+                            },
+                            {
+                                "question": "What is the minimum capital for PT PMA?",
+                                "answer": "IDR 10 Billion (approx. USD 650k). At least 25% (IDR 2.5 Billion) must be paid-up capital and proven to the authorities."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing & Recruitment",
+                "subtitle": "Jakarta's Tech Talent",
+                "description": "Source top-tier talent in Southeast Asia's largest economy. From engineering hubs in Jakarta to creative talent in Bali, we bridge the gap between global standards and local expertise.",
+                "bestFor": "Scaling Teams",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "id-staff-salaries-2025",
+                    "type": "cost_breakdown",
+                    "title": "Monthly Salary Benchmarks 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Role",
+                                "Experience",
+                                "Monthly Range (IDR)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Software Engineer",
+                                    "values": [
+                                        "3-5 Years",
+                                        "15M - 35M"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Product Manager",
+                                    "values": [
+                                        "Senior",
+                                        "25M - 50M"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Sales Manager",
+                                    "values": [
+                                        "Mid-Level",
+                                        "18M - 30M"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Data Scientist",
+                                    "values": [
+                                        "Senior",
+                                        "30M - 60M"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "id-staff-process",
+                    "type": "key_steps",
+                    "title": "Recruitment Lifecycle",
+                    "subtitle": "Average Time-to-Hire: 45 Days",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Sourcing Strategy",
+                                "description": "Leverage LinkedIn, Glints, and Tech in Asia for digital roles. For traditional industries, local networks (KADIN) are essential."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Technical Assessment",
+                                "description": "Mandatory for tech roles. Indonesian candidates often prefer take-home assignments over live coding."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Cultural Fit & BPJS Check",
+                                "description": "Verify existing BPJS status and expectations regarding THR (13th-month pay) which is strictly mandatory."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "The 'Offer' Ceremony",
+                                "description": "Personal touches matter. Often, a verbal 'intent' call precedes the formal offer letter to ensure alignment with family expectations."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-staff-retention",
+                    "type": "essentials",
+                    "title": "Retention Essentials",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Healthcare Plus",
+                                "description": "Private insurance (Manulife/Allianz) on top of BPJS is the #1 requested benefit for mid-senior talent."
+                            },
+                            {
+                                "title": "Training Budget",
+                                "description": "Indonesian talent values upskilling. Certifications (AWS, PMP) are highly prized."
+                            },
+                            {
+                                "title": "Religious Leave",
+                                "description": "Respecting 'Mudik' (homecoming) during Eid al-Fitr is critical for long-term employee loyalty."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-staff-hubs-deep",
+                    "type": "insights",
+                    "title": "Talent Landscape",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "SCBD & Mega Kuningan",
+                                "text": "The 'Silicon Valley' of Jakarta. Home to GoTo, Traveloka, and major fintechs. Salaries are 20-30% higher here."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Jogja & Bandung",
+                                "text": "Emerging tech hubs for remote engineering teams. Lower overheads and high-quality alumni from ITB and UGM."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Bali Remote Scene",
+                                "text": "A global hotspot for creative and design talent. Digital Nomad Visas have made it easier to hire international talent locally."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-staff-good-to-know",
+                    "type": "good_to_know",
+                    "title": "Recruitment Etiquette",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Family Influence",
+                                "description": "Many Indonesian professionals consult their families before accepting an offer. Be prepared for longer decision times if family approval is needed."
+                            },
+                            {
+                                "title": "LinkedIn is Critical",
+                                "description": "While many platforms exist, LinkedIn is the primary tool for white-collar talent acquisition in Jakarta and Surabaya."
+                            },
+                            {
+                                "title": "Cultural Harmony",
+                                "description": "Questions about religious holidays and family commitments are common during interviews and should be handled with cultural sensitivity."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-staff-faq",
+                    "type": "faq",
+                    "title": "Staffing FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the typical notice period?",
+                                "answer": "1 month for junior/mid-level, 2-3 months for senior management roles is standard practice."
+                            },
+                            {
+                                "question": "Is LinkedIn popular in Indonesia?",
+                                "answer": "Extremely. It is the primary professional network, especially for white-collar talent in major cities."
+                            },
+                            {
+                                "question": "Are background checks common?",
+                                "answer": "Yes, especially verifying employment history and educational credentials (Ijazah)."
+                            },
+                            {
+                                "question": "How long does it take to find a developer?",
+                                "answer": "For mid-level developers in Jakarta, expect 4-8 weeks. Senior talent or niche roles (AI/DevOps) can take 3+ months."
+                            },
+                            {
+                                "question": "Do I need to pay for recruitment fees upfront?",
+                                "answer": "Most Indonesian agencies work on a success-fee basis (15-25% of annual salary), though some require a small retainer for executive search."
+                            },
+                            {
+                                "question": "Are reference checks legally restricted?",
+                                "answer": "No, but it is best practice to obtain candidate consent under the new PDP (Data Privacy) Law before contacting previous employers."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS & People Software",
+                "subtitle": "Localized Automation",
+                "description": "Streamline operations with platforms that natively handle Indonesian labor laws, from the OmniBus Law calculations to PPh 21 TER filing.",
+                "bestFor": "Efficiency",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "id-hris-must-haves",
+                    "type": "essentials",
+                    "title": "Localized Must-Haves",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "DJP Direct Integration",
+                                "description": "Direct upload of CSV files to e-Spt for Article 21 income tax filing."
+                            },
+                            {
+                                "title": "Attendance with Geofencing",
+                                "description": "Mobile check-ins with face recognition, essential for managing Jakarta's mobile workforce."
+                            },
+                            {
+                                "title": "THR Accrual Engine",
+                                "description": "Automated pro-rata calculation for the mandatory 13th-month Religious Holiday Allowance."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-hris-implementation",
+                    "type": "key_steps",
+                    "title": "Software Setup Steps",
+                    "subtitle": "Typical Migration: 2-4 Weeks",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Master Data Import",
+                                "description": "Import employee NPWP (Tax ID), NIK (ID Card), and existing BPJS numbers."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Policy Configuration",
+                                "description": "Set up 'Cuti Bersama' (Joint Leave) and specific shift patterns according to the MOM guidelines."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "TER Tax Mapping",
+                                "description": "Assign employees to Category A, B, or C for the 2024 Effective Tax Rate methodology."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "UAT & Parallel Run",
+                                "description": "Run the new HRIS alongside legacy manual sheets for 1 month to ensure calculation parity."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-hris-market",
+                    "type": "insights",
+                    "title": "Local Market Leaders",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Mekari Talenta",
+                                "text": "The market leader in Indonesia. Deeply integrated with local banks and the tax office."
+                            },
+                            {
+                                "type": "info",
+                                "title": "GreatDay HR",
+                                "text": "Strength in mobile-first attendance and geofencing for field-heavy workforces."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Global vs Local",
+                                "text": "While Workday is great for global HQ, it often lacks the granular BPJS/PPh 21 logic required for local Indonesian compliance."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-hris-costs",
+                    "type": "cost_breakdown",
+                    "title": "HRIS Pricing Benchmarks",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Provider Type",
+                                "License Fee (Monthly)",
+                                "Implementation Fee"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Local SaaS (Basic)",
+                                    "values": [
+                                        "IDR 10,000 - 25,000 / user",
+                                        "Minimal / Free"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Local SaaS (Full)",
+                                    "values": [
+                                        "IDR 35,000 - 60,000 / user",
+                                        "IDR 5M - 15M"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Global ERP (Tier 1)",
+                                    "values": [
+                                        "USD 15 - 40 / user",
+                                        "USD 10,000+"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "id-hris-good-to-know",
+                    "type": "good_to_know",
+                    "title": "Software Selection Tips",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Offline-First Mobile",
+                                "description": "Ensure the app works in areas with poor internet connectivity, a common issue for field workers outside Jakarta."
+                            },
+                            {
+                                "title": "Customer Support (WA)",
+                                "description": "Look for providers that offer WhatsApp-based support, as it is the preferred communication channel for most Indonesian HR managers."
+                            },
+                            {
+                                "title": "Data Residency",
+                                "description": "Verify if the provider complies with Indonesia's PDP Law regarding local data storage for sensitive employee information."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-hris-faq",
+                    "type": "faq",
+                    "title": "HRIS FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I use an offshore HRIS for Indonesia?",
+                                "answer": "You can, but you will likely need a 'shadow payroll' or local middleware to handle the PPh 21 and BPJS calculations which are unique to Indonesia."
+                            },
+                            {
+                                "question": "Does HRIS handle Tapera?",
+                                "answer": "Leading Indonesian HRIS systems like Talenta have already updated their modules for the 2025 Tapera requirements."
+                            },
+                            {
+                                "question": "Is cloud storage compliant?",
+                                "answer": "Yes, provided the software complies with Indonesia's PDP (Personal Data Protection) Law. Most major local providers use regional AWS/Google Cloud servers."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting & Bookkeeping",
+                "subtitle": "PSAK & IFRS Standards",
+                "description": "Ensure your Indonesian operations meet the complex PSAK standards with rigorous monthly reconciliation and annual audit preparation.",
+                "bestFor": "Financial Integrity",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "id-acc-cycle",
+                    "type": "key_steps",
+                    "title": "Monthly Closing Cycle",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Transaction Recording",
+                                "description": "Categorize expenses according to KBLI business lines and ensure VAT (PPN) info is captured."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Withholding Tax Check",
+                                "description": "Verify PPh 23 (Services) and PPh 4(2) (Rent) withholdings are correctly deducted from vendor payments."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Bank Reconciliation",
+                                "description": "Match IDR and USD accounts. Address exchange rate gains/losses according to PSAK 10."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Final Reporting",
+                                "description": "Generate Balance Sheet, P&L, and Cash Flow. File monthly tax returns (SPT Masa)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-acc-audit",
+                    "type": "insights",
+                    "title": "Audit & Reporting",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Mandatory Audit",
+                                "text": "PT PMAs (Foreign Investment Companies) are generally required to undergo an annual audit by a Public Accountant (KAP)."
+                            },
+                            {
+                                "type": "info",
+                                "title": "PSAK Framework",
+                                "text": "Indonesian Financial Accounting Standards (PSAK) are now largely converged with IFRS, making group consolidation easier."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Cloud Accounting",
+                                "text": "Xero and QuickBooks are popular for startups, but Jurnal.id is often preferred for its built-in Indonesian tax reporting."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-acc-reporting",
+                    "type": "essentials",
+                    "title": "Monthly Reporting Pack",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Trial Balance",
+                                "description": "Detailed breakdown of all ledger accounts including intercompany transactions."
+                            },
+                            {
+                                "title": "Fixed Asset Register",
+                                "description": "Maintenance of depreciation schedules according to fiscal tax categories (Group 1-4)."
+                            },
+                            {
+                                "title": "Account Payables",
+                                "description": "Aging report with specific focus on vendor tax ID (NPWP) verification."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-acc-costs",
+                    "type": "cost_breakdown",
+                    "title": "Outsourced Accounting Fees",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service Tier",
+                                "Monthly Fee (IDR)",
+                                "Scope"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Small PT (Dormant)",
+                                    "values": [
+                                        "3M - 5M",
+                                        "Basic monthly filing"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Active PT PMA",
+                                    "values": [
+                                        "8M - 15M+",
+                                        "Full bookkeeping + PPh filings"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Annual Audit Prep",
+                                    "values": [
+                                        "20M - 50M+",
+                                        "One-time project fee"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "id-acc-good-to-know",
+                    "type": "good_to_know",
+                    "title": "Accounting Best Practices",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Physical Archive",
+                                "description": "The '10-year physical record' rule is strictly enforced during tax audits. Invest in high-quality filing cabinets or secure storage."
+                            },
+                            {
+                                "title": "Stamp Duty (Meterai)",
+                                "description": "Ensure all legal contracts and financial receipts above IDR 5M are stamped with the IDR 10,000 Meterai for legal standing."
+                            },
+                            {
+                                "title": "Bilingual Ledger",
+                                "description": "Maintaining a bilingual chart of accounts saves significant time during group audit consolidations."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-acc-faq",
+                    "type": "faq",
+                    "title": "Accounting FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "When does the fiscal year end?",
+                                "answer": "The standard fiscal year in Indonesia is January 1 to December 31. Permission from the tax office is required to change it."
+                            },
+                            {
+                                "question": "What are the Big 4 in Indonesia?",
+                                "answer": "Deloitte (Imansyah), EY (Tanudiredja), KPMG (Siddharta), and PwC (Tanudiredja) all have large operations in Jakarta."
+                            },
+                            {
+                                "question": "Do I need to keep physical records?",
+                                "answer": "Yes. While digital records are common, Indonesia still requires physical accounting books and supporting documents to be kept for 10 years."
+                            },
+                            {
+                                "question": "What is the penalty for late financial reporting?",
+                                "answer": "Administrative penalties apply at the Ministry of Law and Human Rights (AHU), and chronic late filing can lead to business license suspension."
+                            },
+                            {
+                                "question": "Can I use IFRS instead of PSAK?",
+                                "answer": "While PSAK is largely aligned with IFRS, foreign companies must use PSAK for local statutory filings. IFRS is typically used for group reporting."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-comp-severance-calc",
+                    "type": "key_steps",
+                    "title": "Severance Calculation 2025",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Base Pay (UP)",
+                                "description": "Calculated as 1 month salary for every year of service, capped at 9 months."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Service Appreciation (UPMK)",
+                                "description": "Starts after 3 years of service. Typically 2 months salary for the first 3-6 years."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Compensation Rights (UPH)",
+                                "description": "Payout for unused annual leave and relocation costs (if applicable)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Reason-Based Multiplier",
+                                "description": "Under OmniBus Law, multipliers (e.g., 0.5x, 0.75x, 1x) are applied based on the reason (Efficiency, Bankruptcy, or Breach)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-comp-pdp-2025",
+                    "type": "insights",
+                    "title": "Data Privacy (PDP Law)",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Oct 2024/2025 Deadline",
+                                "text": "Full enforcement of the Personal Data Protection Law. Companies must appoint a Data Protection Officer (DPO)."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Cross-Border Transfer",
+                                "text": "Exporting Indonesian employee data requires ensuring the destination country has 'equivalent protection' or obtaining explicit consent."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Sanctions",
+                                "text": "Non-compliance can lead to fines up to 2% of annual turnover or criminal liability for directors."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-comp-work-hours",
+                    "type": "essentials",
+                    "title": "Work Hour Compliance",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Overtime Caps",
+                                "description": "Max 4 hours per day or 18 hours per week. Must be explicitly agreed upon (SPT/Overtime Order)."
+                            },
+                            {
+                                "title": "Rest Periods",
+                                "description": "Mandatory 30-minute break after 4 hours of work. Weekly rest of at least 1 day for 6-day weeks."
+                            },
+                            {
+                                "title": "Workweek Options",
+                                "description": "40 hours total: either 7 hours/day for 6 days or 8 hours/day for 5 days."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-comp-good-to-know",
+                    "type": "good_to_know",
+                    "title": "Manpower Audit Readiness",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Joint Inspection (Sidak)",
+                                "description": "Manpower officials may conduct spot checks. Ensure copies of NIK, NPWP, and employment contracts (PKWT/PKWTT) are accessible on-site."
+                            },
+                            {
+                                "title": "Bipartite Cooperation",
+                                "description": "Companies with >50 employees are encouraged to form a Bipartite Cooperation Forum (LKS Bipartit) to handle industrial relations."
+                            },
+                            {
+                                "title": "Religious Holidays",
+                                "description": "Respect the 'Cuti Bersama' government decrees. While technically optional for the private sector, most companies align to maintain morale."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-comp-faq",
+                    "type": "faq",
+                    "title": "Compliance FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Are electronic signatures valid?",
+                                "answer": "Yes, under the ITE Law. Certified signatures (e.g., PrivyID, Vida) have higher evidentiary weight in Indonesian courts."
+                            },
+                            {
+                                "question": "What is 'Wajib Lapor'?",
+                                "answer": "Mandatory Manpower Report (WLKP). Every entity must file this annually via the Kemnaker's online portal."
+                            },
+                            {
+                                "question": "Is insurance for expats mandatory?",
+                                "answer": "Expats must be enrolled in BPJS Ketenagakerjaan if they work in Indonesia for >6 months, but BPJS Kesehatan is often complemented by private insurance."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-tax-corp-rates-2025",
+                    "type": "cost_breakdown",
+                    "title": "Corporate Tax Rates 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Tax Type",
+                                "Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax (CIT)",
+                                    "values": [
+                                        "22%",
+                                        "Standard rate for PT PMA"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Value Added Tax (VAT)",
+                                    "values": [
+                                        "12%",
+                                        "Updated Jan 2025"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Small Business CIT",
+                                    "values": [
+                                        "0.5%",
+                                        "For revenue < IDR 4.8B (Final Tax)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Withholding Tax (PPh 23)",
+                                    "values": [
+                                        "2%",
+                                        "Domestic services"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "id-tax-incentives",
+                    "type": "insights",
+                    "title": "Strategic Tax Incentives",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Super Tax Deduction",
+                                "text": "Up to 200-300% deduction for R&D and vocational training activities in Indonesia."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "IKN (New Capital) Holidays",
+                                "text": "Investment in Nusantara (IKN) can grant 100% CIT reduction for up to 30 years depending on the sector."
+                            },
+                            {
+                                "type": "info",
+                                "title": "SEZ Benefits",
+                                "text": "Special Economic Zones like Galang Batang or Sanur offer VAT exemptions and specialized customs procedures."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-tax-deadlines",
+                    "type": "key_steps",
+                    "title": "Annual Tax Roadmap",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Monthly SPT Filings",
+                                "description": "File VAT by the end of the following month and withholding taxes by the 20th."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Annual CIT Return",
+                                "description": "Form 1771 must be filed by April 30th of the following year. Late filing incurs interest penalties."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Transfer Pricing (TP) Doc",
+                                "description": "Required if intercompany transactions exceed IDR 10B. Master File and Local File must be ready by year-end."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-tax-pph-21-recap",
+                    "type": "essentials",
+                    "title": "Employee Tax (PPh 21) Extras",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "NPWP vs Non-NPWP",
+                                "description": "Employees without a Tax ID are subject to a 20% surcharge on their tax rate."
+                            },
+                            {
+                                "title": "Expatriate Flat Rate",
+                                "description": "Non-resident expats are taxed at a flat 20% (PPh 26) unless a tax treaty applies."
+                            },
+                            {
+                                "title": "Benefit-in-Kind (BIK)",
+                                "description": "Most company-provided benefits (cars, housing) are now taxable income for the employee since 2023."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-tax-good-to-know",
+                    "type": "good_to_know",
+                    "title": "Indonesian Tax Culture",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Voluntary Disclosure",
+                                "description": "Indonesia frequently offers 'Tax Amnesties' or Voluntary Disclosure Programs. Consult a professional before joining one."
+                            },
+                            {
+                                "title": "E-Faktur Reliability",
+                                "description": "The DJP's online systems (DJP Online) can be slow on filing deadlines (20th and 30th). File 2-3 days early to avoid system timeouts."
+                            },
+                            {
+                                "title": "Tax Consultant Licenses",
+                                "description": "Ensure your advisor holds a 'B' or 'C' license (BKP) to represent you during audits or at the Tax Court."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal & Master Agreements",
+                "subtitle": "Bilingual Enforceability",
+                "description": "Drafting and vetting Master Service Agreements that comply with Law No. 24 of 2009 while protecting international IP rights.",
+                "bestFor": "Global Standardization",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "id-msa-bilingual",
+                    "type": "insights",
+                    "title": "The Language Mandate",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Law No. 24 of 2009",
+                                "text": "Agreements involving Indonesian entities MUST be in Bahasa Indonesia. English versions can be included, but Bahasa prevails in disputes."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Prevailing Clause",
+                                "text": "Always specify that the Bahasa version is an 'official translation' to satisfy the law while keeping the English version as the primary reference for intent."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Court Precedents",
+                                "text": "Indonesian courts have previously declared English-only contracts void (null and void) even if both parties agreed to English."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-msa-dispute",
+                    "type": "key_steps",
+                    "title": "Dispute Resolution Strategy",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Tier 1: Amicable Settlement",
+                                "description": "Mandatory 'Musyawarah' (consultation) period of 30-60 days before escalating."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Tier 2: Arbitration (BANI)",
+                                "description": "Preferred over public courts. The Indonesian National Board of Arbitration (BANI) is the standard for commercial disputes."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tier 3: SIAC Option",
+                                "description": "For high-stakes contracts, Singapore International Arbitration Centre (SIAC) is common, though local enforcement can be complex."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-msa-essentials",
+                    "type": "essentials",
+                    "title": "Indonesian MSA Clauses",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Waiver of Article 1266",
+                                "description": "Necessary to allow contract termination without a court order, a common requirement in Indonesian civil law."
+                            },
+                            {
+                                "title": "Intellectual Property",
+                                "description": "Explicitly state that IP created during the service belongs to the client, as default labor law can be ambiguous."
+                            },
+                            {
+                                "title": "Notary Authenticity",
+                                "description": "For certain long-term services, having the agreement notarized (Waarmaking) provides stronger legal standing."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-msa-good-to-know",
+                    "type": "good_to_know",
+                    "title": "Contractual Safeguards",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Bilingual Prevailing Law",
+                                "description": "Ensure the contract explicitly states which version (Bahasa vs English) prevails in case of inconsistency, usually the English version for international clients."
+                            },
+                            {
+                                "title": "Force Majeure Scope",
+                                "description": "In Indonesia, include specific events like 'demonstrations' or 'infrastructure failure' (blackouts) in FM clauses as they are relatively common."
+                            },
+                            {
+                                "title": "Termination Notice",
+                                "description": "Standard market notice for MSA termination is 30 to 90 days. Always verify if any 'Minimum Term' applies before signing."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-msa-faq",
+                    "type": "faq",
+                    "title": "Legal FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is wet-ink signature required?",
+                                "answer": "While ITE Law allows digital, many traditional Indonesian counterparties and gov offices still prefer wet-ink with a 'Meterai' (Stamp Duty)."
+                            },
+                            {
+                                "question": "What is the Stamp Duty rate for 2025?",
+                                "answer": "The single rate is IDR 10,000. Digital stamps (e-Meterai) are now available and mandatory for many government-linked documents."
+                            },
+                            {
+                                "question": "Can governed law be foreign?",
+                                "answer": "Yes, but if the service is performed entirely in Indonesia, judges may still apply local mandatory laws (overriding mandatory rules)."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Business Software Indonesia",
+                "subtitle": "Digital Ecosystems",
+                "description": "Deploy the right tech stack for Indonesia, integrating local payment gateways, digital signature platforms, and e-governance tools.",
+                "bestFor": "Modern Operations",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "id-soft-local-stack",
+                    "type": "essentials",
+                    "title": "The Indonesian Tech Stack",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Midtrans / Xendit",
+                                "description": "Leading payment gateways supporting QRIS, Virtual Accounts (VA), and local e-wallets."
+                            },
+                            {
+                                "title": "Privy / Vida",
+                                "description": "Certified digital signature providers recognized by Indonesian courts and government."
+                            },
+                            {
+                                "title": "Jurnal.id / Accurate",
+                                "description": "Local ERP and accounting software with built-in Indonesian tax reporting modules."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-soft-pmt-methods",
+                    "type": "insights",
+                    "title": "Payment Ecosystem 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "QRIS Dominance",
+                                "text": "The Quick Response Code Indonesia Standard is now universal. Even B2B vendors are adopting QRIS for real-time reconciliation."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "BI-FAST",
+                                "text": "National real-time payment system. Transactions up to IDR 250M cost only IDR 2,500 in fees, making it the standard for B2B transfers."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "E-Wallet Limitations",
+                                "text": "Gopay, OVO, and Dana have monthly balance caps (IDR 20M for upgraded accounts) which must be managed for corporate reimbursements."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-soft-implementation",
+                    "type": "key_steps",
+                    "title": "Digital Implementation Path",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Cloud Localization Check",
+                                "description": "Ensure SaaS providers have servers in-country if handling sensitive government or financial data (PP 71/2019)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "API Gateway Setup",
+                                "description": "Connect your global ERP (e.g., Salesforce/SAP) to local gateways for automated reconciliation."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Privy/NIK Verification",
+                                "description": "Automate identity checks by integrating with the national ID (Dukcapil) database via certified providers."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Cybersecurity Audit",
+                                "description": "Validate systems against the newest 2024 BSSN (National Cyber Agency) standards for private sector resilience."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-soft-good-to-know",
+                    "type": "good_to_know",
+                    "title": "IT Procurement Tips",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Hardware Import Taxes",
+                                "description": "Laptops and servers imported to Indonesia are subject to high PPh 22 import taxes (up to 10% for non-API holders). Source locally when possible."
+                            },
+                            {
+                                "title": "SaaS Withholding (PPh 26)",
+                                "description": "Payments to foreign SaaS providers (like AWS or Slack) are technically subject to 20% withholding tax unless a Tax Domicile Certificate (DGT) is provided."
+                            },
+                            {
+                                "title": "The 'WhatsApp' Culture",
+                                "description": "Almost all local software vendors provide primary support via WhatsApp. Ensure your IT team is comfortable with this informal but rapid communication style."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-soft-faq",
+                    "type": "faq",
+                    "title": "Software FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is WhatsApp allowed for business logic?",
+                                "answer": "Yes. WhatsApp Business API is the primary channel for customer support and even internal workflow approvals in Indonesia."
+                            },
+                            {
+                                "question": "Can I pay employees via E-Wallets?",
+                                "answer": "Legally, salary must be paid through a banking institution. However, reimbursements and small bonuses are frequently sent via Gopay/OVO."
+                            },
+                            {
+                                "question": "Do I need a local server?",
+                                "answer": "For most commercial sectors, cloud servers in Singapore/Australia are acceptable. Only critical infrastructure and public sector data require local Indonesian storage."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing & Advertising",
+                "subtitle": "Social & Influencer Growth",
+                "description": "Capture the world's most engaged social media audience through TikTok Shop, Shopee Live, and hyper-local influencer campaigns.",
+                "bestFor": "Consumer Growth",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "id-mark-landscape",
+                    "type": "insights",
+                    "title": "Social Commerce Hub",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "TikTok Shop / Tokopedia",
+                                "text": "The merger has created a massive social-commerce platform. Success in 2025 requires 'Live Shopping' capabilities."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "The Power of KOLs",
+                                "text": "Key Opinion Leaders (KOLs) drive 60%+ of purchase decisions. Localized, niche influencers often outperform high-reach celebrities."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Halal Labeling",
+                                "text": "Mandatory Halal certification for F&B and cosmetics. Marketing materials must respect these cultural sensitivities."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-mark-channels-2025",
+                    "type": "cost_breakdown",
+                    "title": "Ad Channel Performance",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Channel",
+                                "Primary Demographic",
+                                "Effectiveness"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "TikTok / Instagram Reel",
+                                    "values": [
+                                        "Gen Z & Millennial",
+                                        "High Convergence"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Facebook",
+                                    "values": [
+                                        "Gen X & Older",
+                                        "Community Growth"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Shopee Live",
+                                    "values": [
+                                        "Housewives & Students",
+                                        "Immediate Sales"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Search (Google Ads)",
+                                    "values": [
+                                        "Professionals",
+                                        "High Intent"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "id-mark-process",
+                    "type": "key_steps",
+                    "title": "Campaign Launch Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Localization of Content",
+                                "description": "Translate and adapt creative assets into 'Gaul' (youth slang) or formal Indonesian depending on the target segment."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "KOL Vetting & Booking",
+                                "description": "Analyze audience demographics. Ensure they don't have overlapping conflicts with competitors."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Media Placement",
+                                "description": "Coordinate with local agencies like Dentsu Indonesia or local boutiques for out-of-home (OOH) billboards in Jakarta's high-traffic zones."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Live Stream Ops",
+                                "description": "Set up a physical studio and trained hosts for 24/7 or prime-time Shopee/TikTok live sessions."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-mark-essentials",
+                    "type": "essentials",
+                    "title": "Regulatory Compliance",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "BPOM Restrictions",
+                                "description": "Marketing for health/beauty products requires BPOM (Food & Drug) approval on all claims."
+                            },
+                            {
+                                "title": "Indonesian Language Law",
+                                "description": "While English is common in SCBD, mass-market ads should be predominantly in Bahasa Indonesia."
+                            },
+                            {
+                                "title": "Ethical Codes",
+                                "description": "Avoid sensitive topics including religion, race, and ethnicity (SARA) to prevent social backlash."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-mark-good-to-know",
+                    "type": "good_to_know",
+                    "title": "Agency Selection Tips",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Performance vs Creative",
+                                "description": "Local boutique agencies often excel at creative 'Gaul' content, while international networks provide better performance tracking and attribution."
+                            },
+                            {
+                                "title": "Influencer Pricing",
+                                "description": "Influencer rates vary wildly. It's common to negotiate packages that include a mix of Feed posts, Stories, and Live appearances."
+                            },
+                            {
+                                "title": "Regional Nuances",
+                                "description": "What works in Jakarta might not resonate in Medan or Makassar. Consider regional dialects and local icons for provincial campaigns."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id-mark-faq",
+                    "type": "faq",
+                    "title": "Marketing FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is influencer marketing expensive?",
+                                "answer": "Micro-influencers can start from IDR 1M per post, while mega-celebs can charge IDR 100M+. Most ROI is found in mid-tier influencers (100k-500k followers)."
+                            },
+                            {
+                                "question": "Can I run ads in English?",
+                                "answer": "For B2B or ultra-premium products targeting the SCBD crowd, English is effective. For mass-market consumer products, Bahasa is a must."
+                            },
+                            {
+                                "question": "What is 'Jasa Titip' or Jastip?",
+                                "answer": "A grassroots personal shopper phenomenon. While not a formal channel, it's a huge informal marketing indicator for global brands entering Indonesia."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,579 @@
+{
+    "name": "Iran",
+    "code": "IR",
+    "slug": "iran",
+    "flag": "https://flagcdn.com/w160/ir.png",
+    "region": "Asia",
+    "languages": [
+        "Persian (Farsi)"
+    ],
+    "currencies": [
+        "IRR"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR & PEO in Iran",
+                "subtitle": "Hire in Tehran",
+                "description": "Local employment solutions in Iran. Managing SSO (Social Security), Tax, and strict Labor Code compliance.",
+                "bestFor": "Local Entities",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "ir-eor-sanctions",
+                    "type": "warning",
+                    "title": "International Sanctions",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Restricted Access",
+                                "description": "Due to extensive international sanctions (US/EU), most global EOR providers cannot operate in Iran. Financial transfers (SWIFT) are severely restricted."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ir-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract (Gharardad)",
+                                "description": "Written contract in Farsi is mandatory. Must specify duration (fixed/indefinite)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "SSO Registration",
+                                "description": "Register employee with Social Security Organization (Tamin-e Ejtemaei)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Clearance",
+                                "description": "Background checks (police clearance) often required for local roles."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ir-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Security (SSO)",
+                                    "values": [
+                                        "23%",
+                                        "7%",
+                                        "Includes Health, Pension, and Unemployment (3% charged to employer)."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "End of Service",
+                                    "values": [
+                                        "1 Month/Year",
+                                        "0%",
+                                        "Severance pay (Sanavat) accrual is mandatory, ~8.33% equivalent."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Housing Allowance",
+                                    "values": [
+                                        "Fixed Amount",
+                                        "0%",
+                                        "Mandatory monthly allowance (Hagh-e Maskan)."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ir-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025 (1403/1404)",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Victory of Revolution",
+                                "description": "February 11"
+                            },
+                            {
+                                "title": "Oil Nationalization",
+                                "description": "March 20"
+                            },
+                            {
+                                "title": "Nowruz (Persian New Year)",
+                                "description": "March 21-24 (Major holiday, often 2 weeks off in practice)"
+                            },
+                            {
+                                "title": "Islamic Republic Day",
+                                "description": "April 1"
+                            },
+                            {
+                                "title": "Nature Day (Sizdah Bedar)",
+                                "description": "April 2"
+                            },
+                            {
+                                "title": "Eid-e-Fetr",
+                                "description": "March 31 - April 1 (End of Ramadan)"
+                            },
+                            {
+                                "title": "Demise of Imam Khomeini",
+                                "description": "June 4"
+                            },
+                            {
+                                "title": "Ashura / Tassoua",
+                                "description": "July 5-6 (Religious mourning)"
+                            },
+                            {
+                                "title": "Arbaeen",
+                                "description": "August 14"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ir-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax Brackets (Annual)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Income Range (IRR)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "0 - 480,000,000",
+                                    "values": [
+                                        "0% (Exempt)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "480m - 960m",
+                                    "values": [
+                                        "10%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "960m - 1.44b",
+                                    "values": [
+                                        "15%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "1.44b - 2.16b",
+                                    "values": [
+                                        "20%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Above 2.16b",
+                                    "values": [
+                                        "30%"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ir-gp-components",
+                    "type": "key_steps",
+                    "title": "Salary Structure",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Base Salary",
+                                "description": "Must meet minimum wage (approx 71m IRR for 1403)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Housing Allowance",
+                                "description": "Mandatory fixed monthly amount (Hagh-e Maskan)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Family Allowance",
+                                "description": "Hagh-e Owlād (Child allowance) for eligible employees."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Bonuses",
+                                "description": "New Year Bonus (Eidi) is mandatory, usually 2x base pay capped at 3x minimum wage."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ir-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Base Pay + Allowances (Housing + Child)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "SSO",
+                                "description": "Deduct 7% Employee Social Security."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax Base",
+                                "description": "Gross - Exemptions."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Tax",
+                                "description": "Apply Progressive Rates (10-30%)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Net",
+                                "description": "Final Pay."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Iran",
+                "subtitle": "JSC Setup",
+                "description": "Establish a Private Joint Stock Company (Sherkat-e Sahami Khass).",
+                "bestFor": "Locals",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "ir-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Sherkat Registration",
+                                "description": "Register with Companies Registration Office (CRO)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Capital",
+                                "description": "Minimum capital is low (1 million Rials), but 35% must be deposited upfront."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Newspapers",
+                                "description": "Publish establishment notice in Official Gazette (Rooznameh Rasmi)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Economic Code",
+                                "description": "Obtain Economic Code (Kod-e Eghtesadi) for tax purposes."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ir-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Bank Melli",
+                                "description": "National Bank of Iran."
+                            },
+                            {
+                                "title": "Bank Mellat",
+                                "description": "Major commercial bank."
+                            },
+                            {
+                                "title": "Bank Pasargad",
+                                "description": "Leading private bank."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Iran",
+                "subtitle": "Engineering Talent",
+                "description": "Detailed insights into the highly educated engineering workforce.",
+                "bestFor": "Local Hiring",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "ir-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Landscape",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "STEM",
+                                "text": "Iran produces a very high number of STEM graduates, particularly in engineering."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Brain Drain",
+                                "text": "High emigration rates mean top senior talent is competitive to retain."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Iran",
+                "subtitle": "Jalali Calendar",
+                "description": "Systems supporting Solar Hijri dates.",
+                "bestFor": "Localization",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "ir-hris-features",
+                    "type": "essentials",
+                    "title": "Key Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Calendar Support",
+                                "description": "Must support Persian Calendar (Solar Hijri) for payroll and leave."
+                            },
+                            {
+                                "title": "Language",
+                                "description": "UI in Farsi (Right-to-Left) is essential for local adoption."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Iran",
+                "subtitle": "Iranian GAAP",
+                "description": "Compliance with Audit Organization standards.",
+                "bestFor": "Reporting",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "ir-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Accrual Basis",
+                                "text": "Iranian Accounting Standards are largely modeled on IFRS but with local modifications."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ir-comp-labor",
+                    "type": "warning",
+                    "title": "Termination",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Difficulty",
+                                "description": "Terminating employees is very difficult without 'Just Cause' approved by Islamic Labor Councils."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ir-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax",
+                                    "values": [
+                                        "25%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "VAT",
+                                    "values": [
+                                        "9% - 10%",
+                                        "Standard Rate"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Iran",
+                "subtitle": "Contracts",
+                "description": "Farsi contracts required.",
+                "bestFor": "Enforceability",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "ir-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Jurisdiction",
+                                "text": "Disputes are almost always settled in Iranian courts under Iranian Law."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Iran",
+                "subtitle": "Local Apps",
+                "description": "Use of local super-apps due to restricted global access.",
+                "bestFor": "Ops",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "ir-soft-tools",
+                    "type": "essentials",
+                    "title": "Local Ecosystem",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Snapp!",
+                                "description": "Ride-hailing, food delivery, and super-app."
+                            },
+                            {
+                                "title": "Digikala",
+                                "description": "Dominant e-commerce platform (Amazon equivalent)."
+                            },
+                            {
+                                "title": "Bale / Eitaa",
+                                "description": "Local messaging apps used for business communication."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Iran",
+                "subtitle": "Telegram & Insta",
+                "description": "Social media marketing despite filters.",
+                "bestFor": "Growth",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "ir-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Instagram",
+                                "text": "Extremely popular for business, accessed via VPNs."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Telegram",
+                                "text": "Major channel for content distribution."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

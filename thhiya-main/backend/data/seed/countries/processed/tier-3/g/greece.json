@@ -1,0 +1,2019 @@
+{
+    "name": "Greece",
+    "code": "GR",
+    "slug": "greece",
+    "flag": "https://flagcdn.com/w160/gr.png",
+    "region": "Europe",
+    "languages": [
+        "Greek"
+    ],
+    "currencies": [
+        "EUR"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR & PEO in Greece",
+                "subtitle": "Hire in Athens and Thessaloniki Without a Local Entity",
+                "description": "Our Greece Employer of Record (EOR) solution allows you to onboard talent in days. We handle monthly EFKA contributions, ERGANI filings, and the mandatory 13th/14th month salary payments while you manage the day-to-day work.",
+                "bestFor": "Market Entry, Remote Tech Teams, Sales Reps",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "gr-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "EOR Onboarding Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract Drafting",
+                                "description": "Preparation of a compliant Greek employment contract. While under Greek law a written statement of terms is required within 2 months, our EOR provides a full contract upfront covering hours, compensation, and 14-salary structure."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "EFKA Registration",
+                                "description": "Registration of the employee with the Unified Social Security Fund (e-EFKA) on their first day. Employees must obtain a Social Security Fund Number (AMA) within 15 days."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "ERGANI Submission",
+                                "description": "Mandatory digital submission of the hiring announcement (E3 form) to the ERGANI Information Sub-system before work commences."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Digital Work Card Setup",
+                                "description": "Integration with the 'Digital Work Card' (Ψηφιακή Κάρτα Εργασίας) via the myErgani app for real-time tracking of arrival and departure times."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Induction & Equipment",
+                                "description": "Finalizing local benefit enrollment and ensuring payroll data (bank account, tax ID/AFM) is correctly mapped for the first month's payment."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gr-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "EOR Cost Structure 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Rate / Cost",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Employer Social Security (EFKA)",
+                                    "values": [
+                                        "22.29%",
+                                        "Includes health, pension, and unemployment. Monthly cap applies."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Employee Social Security",
+                                    "values": [
+                                        "13.87%",
+                                        "Deducted from gross salary."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "EOR Management Fee",
+                                    "values": [
+                                        "€250 - €600 / month",
+                                        "Flat fee per employee; varies by volume and complexity."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Annual Admin Fee",
+                                    "values": [
+                                        "€20",
+                                        "Mandatory annual per-employee social security fee."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Setup Fee",
+                                    "values": [
+                                        "€400 - €1,200",
+                                        "One-time fee for registration and contract setup."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "gr-eor-compliance",
+                    "type": "insights",
+                    "title": "EOR Compliance Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Digital Work Card Penalties",
+                                "text": "Incorrect use or failure to scan the Digital Work Card can result in fines of up to €10,500 per violation for the employer. Real-time logging is strictly enforced."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Probation Periods",
+                                "text": "Statutory probation is typically 12 months, during which termination can occur without severance. However, collective agreements may shorten this period."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Notice Periods",
+                                "text": "After the first year, notice periods range from 1 to 4 months depending on seniority. Severance pay is mandatory for terminations with notice (half of the full severance if notice is given)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gr-eor-bonuses",
+                    "type": "insights",
+                    "title": "Mandatory Bonuses (14 Salaries)",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Christmas Bonus",
+                                "text": "Equivalent to 1 full month's salary, paid in December."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Easter Bonus",
+                                "text": "Equivalent to 0.5 month's salary, paid before Orthodox Easter."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Summer Bonus",
+                                "text": "Equivalent to 0.5 month's salary, paid when the employee takes annual leave (usually July/August)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gr-eor-faq",
+                    "type": "faq",
+                    "title": "Greece EOR FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I hire non-EU citizens through a Greece EOR?",
+                                "answer": "Yes, but the EOR must sponsor a work permit. This is common for high-skilled tech roles, but requires a longer lead time (3-6 months) for visa processing."
+                            },
+                            {
+                                "question": "Is insurance provided by the EOR?",
+                                "answer": "The EOR manages the statutory EFKA health insurance. Many international companies choose to add private supplementary health insurance as a perk."
+                            },
+                            {
+                                "question": "What is the maximum working hours?",
+                                "answer": "Standard is 40 hours per week. Overtime is regulated and must be recorded on the Digital Work Card."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gr-gp-tax-brackets",
+                    "type": "cost_breakdown",
+                    "title": "2025 Income Tax Brackets (Annual)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Annual Income (EUR)",
+                                "Tax Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "€0 - €10,000",
+                                    "values": [
+                                        "9%",
+                                        "Lowest bracket for basic income."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "€10,001 - €20,000",
+                                    "values": [
+                                        "22%",
+                                        "Standard professional bracket."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "€20,001 - €30,000",
+                                    "values": [
+                                        "28%",
+                                        "Step-up for mid-level salaries."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "€30,001 - €40,000",
+                                    "values": [
+                                        "36%",
+                                        "Upper-mid range."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Over €40,000",
+                                    "values": [
+                                        "44%",
+                                        "Highest marginal rate."
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "gr-gp-cycle",
+                    "type": "key_steps",
+                    "title": "Monthly Payroll Cycle",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Attendance Synchronization",
+                                "description": "Extract data from the ERGANI Digital Work Card to verify hours worked, overtime, and leave."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Bonus Calculation",
+                                "description": "Pro-rating Easter, Summer, or Christmas bonuses depending on the specific month and employee tenure."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Net-to-Gross Processing",
+                                "description": "Applying EFKA deductions (13.87% employee) and progressive income tax withholdings."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Statutory Remittance",
+                                "description": "Payment of EFKA contributions by the end of the following month and filing of the APD (Analytical Periodic Statement)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Disbursement",
+                                "description": "Transfer of net salary to local Greek IBANs by the end of the calendar month."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gr-gp-compliance",
+                    "type": "insights",
+                    "title": "Payroll Compliance Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Solidarity Tax Abolishment",
+                                "text": "Note that the special solidarity contribution tax was fully abolished for private sector employees as of Jan 1, 2023."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Family Allowances",
+                                "text": "Payroll must account for child allowances and marital status, which can impact the net-take-home pay through tax credits."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Payment Penalties",
+                                "text": "Late payment of EFKA contributions triggers automatic interest and surcharges. Accuracy in the APD statement is critical to avoid audits."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gr-gp-deductions",
+                    "type": "cost_breakdown",
+                    "title": "Mandatory Contributions 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Category",
+                                "Employer Rate",
+                                "Employee Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Basic Social Security (EFKA)",
+                                    "values": [
+                                        "22.29%",
+                                        "13.87%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Subsidiary Insurance",
+                                    "values": [
+                                        "Included",
+                                        "Included"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Annual Per-Head Fee",
+                                    "values": [
+                                        "€20",
+                                        "N/A"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "gr-gp-faq",
+                    "type": "faq",
+                    "title": "Greece Payroll FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Are 14 salaries mandatory in the private sector?",
+                                "answer": "Yes, the 13th and 14th salaries (distributed as Christmas, Easter, and Summer bonuses) are legally mandatory for all private sector employees in Greece."
+                            },
+                            {
+                                "question": "Can I pay employees in USD/GBP?",
+                                "answer": "Payroll must be calculated in EUR for statutory reporting. While the net contract can mention other currencies, the actual disbursement and tax calculation must follow EUR standards."
+                            },
+                            {
+                                "question": "What is the payroll deadline?",
+                                "answer": "Most companies process payroll between the 20th and 25th to ensure payment by the last working day of the month."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gr-calc-rates",
+                    "type": "cost_breakdown",
+                    "title": "Contribution Rates (2025)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Payer",
+                                "Percentage (%)",
+                                "Cap (Monthly)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Employee (EFKA)",
+                                    "values": [
+                                        "~13.87%",
+                                        "€7,373"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Employer (EFKA)",
+                                    "values": [
+                                        "~22.29%",
+                                        "€7,373"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Total Burden",
+                                    "values": [
+                                        "~36.16%",
+                                        "N/A"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "gr-calc-steps",
+                    "type": "key_steps",
+                    "title": "How to Calculate",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Determine Annual Gross",
+                                "description": "In Greece, remember to multiply the monthly gross by 14 to get the true annual gross salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Duct Social Security",
+                                "description": "Apply the ~13.87% EFKA employee deduction from the monthly gross."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Apply Income Tax",
+                                "description": "Calculate tax based on progressive brackets (9%, 22%, 28%, 36%, 44%) on the remaining taxable amount."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Add Employer Costs",
+                                "description": "Add ~22.29% for employee social insurance to find the Total Cost of Employment."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Factor in Bonuses",
+                                "description": "Ensure the Easter (0.5), Vacation (0.5), and Christmas (1.0) bonuses are accrued for in the annual total."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gr-calc-insights",
+                    "type": "insights",
+                    "title": "Calculation Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "The 14-Salary Multiplier",
+                                "text": "Greece mandates 14 salaries per year. These bonuses are paid based on specific dates: Easter in April, Vacation in July, and Christmas in December."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Salary Minima",
+                                "text": "As of Jan 2025, the minimum monthly gross salary for unskilled workers is being reviewed (expected around €830+). Never calculate below legal thresholds."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Family Discounts",
+                                "text": "Individual income tax is reduced via tax credits based on the number of dependent children."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gr-calc-tax-brackets",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax Brackets",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Annual Income (€)",
+                                "Rate (%)",
+                                "Tax on Bracket"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "0 - 10,000",
+                                    "values": [
+                                        "9%",
+                                        "€900"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "10,001 - 20,000",
+                                    "values": [
+                                        "22%",
+                                        "€2,200"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "20,001 - 30,000",
+                                    "values": [
+                                        "28%",
+                                        "€2,800"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "30,001 - 40,000",
+                                    "values": [
+                                        "36%",
+                                        "€3,600"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Over 40,000",
+                                    "values": [
+                                        "44%",
+                                        "Variable"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "gr-calc-faq",
+                    "type": "faq",
+                    "title": "Calculator FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is there a Solidarity Contribution?",
+                                "answer": "For private sector employees, the Special Solidarity Contribution has been permanently abolished as of 2023."
+                            },
+                            {
+                                "question": "Does the calculator include meal vouchers?",
+                                "answer": "Non-taxable benefits like meal vouchers (up to €6/day) are typically added after net pay calculation."
+                            },
+                            {
+                                "question": "Are the rates different for part-time?",
+                                "answer": "The percentages remain the same, but the total tax burden may be lower due to the lower tax brackets."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation in Greece",
+                "subtitle": "Set Up Your Business in the Hellenic Republic",
+                "description": "Establish your legal presence in Greece quickly. From the flexible IKE (Private Capital Company) to the traditional AE (Société Anonyme), we guide you through GEMI registration and tax activation.",
+                "bestFor": "Startups, Branch Offices, Holding Companies",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "gr-inc-types",
+                    "type": "cost_breakdown",
+                    "title": "Comparison of Legal Entities",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Feature",
+                                "IKE (Private Capital)",
+                                "AE (Société Anonyme)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Minimum Capital",
+                                    "values": [
+                                        "€1",
+                                        "€25,000"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Liability",
+                                    "values": [
+                                        "Limited",
+                                        "Limited"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Governance",
+                                    "values": [
+                                        "1+ Manager",
+                                        "Board of Directors (3+)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Best For",
+                                    "values": [
+                                        "SMEs & Startups",
+                                        "Large Corporations / Public"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "gr-inc-steps",
+                    "type": "key_steps",
+                    "title": "Incorporation Process (IKE)",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Name Reservation",
+                                "description": "Submission of the desired company name to the General Commercial Registry (GEMI) for availability check and reservation."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Articles of Association",
+                                "description": "Drafting of the statute using the 'One-Stop Service' model statute (to bypass notary requirements) or customized articles."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Digital Submission",
+                                "description": "Filing via the Electronic One-Stop Service (e-YMS). Registration is typically completed within 24-72 hours."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Tax ID (AFM) Issuance",
+                                "description": "Automatic issuance of the company Tax Identification Number upon successful GEMI registration."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Final Activation",
+                                "description": "Registration with the EFKA (Social Security) and setup of the local business bank account."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gr-inc-insights",
+                    "type": "insights",
+                    "title": "Entity Setup Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "The IKE Flexibility",
+                                "text": "The IKE is the most popular corporate form in Greece due to its €1 capital requirement and the ability to contribute 'capital', 'extra-capital' (e.g. labor), or 'guarantee' contributions."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "UBO Registry",
+                                "text": "All Greek companies must register their Ultimate Beneficial Owners (UBO) in the Central Registry within 60 days of incorporation."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Golden Visa Context",
+                                "text": "Business investment in Greece can sometimes be leveraged for residency permits (Golden Visa), though rules for real estate vs. business differ significantly."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gr-inc-costs",
+                    "type": "cost_breakdown",
+                    "title": "Typical Setup Costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service",
+                                "Estimated Cost",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "GEMI Registration Fee",
+                                    "values": [
+                                        "€200 - €300",
+                                        "Includes publication fees."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Legal & Drafting Fees",
+                                    "values": [
+                                        "€800 - €2,000",
+                                        "Varies by complexity of the AoA."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Accounting Setup",
+                                    "values": [
+                                        "€300 - €500",
+                                        "Initial books and tax activation."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "gr-inc-faq",
+                    "type": "faq",
+                    "title": "Incorporation FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can a foreigner be a manager?",
+                                "answer": "Yes, EU and non-EU citizens can manage Greek companies. Non-EU residents may need a specific residence permit for business activity."
+                            },
+                            {
+                                "question": "Is a physical office mandatory?",
+                                "answer": "Yes, a Greek company must have a physical registered address (headquarters) for tax purposes."
+                            },
+                            {
+                                "question": "How long does it take?",
+                                "answer": "With the e-YMS system, an IKE can be incorporated digitally in as little as 3 business days."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Greece",
+                "subtitle": "Discover Top Talent in the Mediterranean Hub",
+                "description": "Access Greece's highly educated workforce. We specialize in sourcing tech, maritime, and seasonal hospitality talent while ensuring all recruitment practices meet EU transparency standards.",
+                "bestFor": "Rapid Recruitment, Tech Hiring, Remote Expansion",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "gr-staffing-fees",
+                    "type": "cost_breakdown",
+                    "title": "Agency Fee Structure",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Placement Type",
+                                "Fee % (Annual Gross)",
+                                "Guarantee Period"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Junior / Entry Level",
+                                    "values": [
+                                        "15% - 18%",
+                                        "3 Months"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Mid-Level Professional",
+                                    "values": [
+                                        "18% - 22%",
+                                        "3-6 Months"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Senior Tech / Executive",
+                                    "values": [
+                                        "25% - 30%",
+                                        "6-12 Months"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Temporary Staffing",
+                                    "values": [
+                                        "Markup on Hourly",
+                                        "Trial Period"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "gr-staffing-steps",
+                    "type": "key_steps",
+                    "title": "Recruitment Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Market Benchmarking",
+                                "description": "Analyzing local salary expectations (including the 14-salary norm) to ensure a competitive offer."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Multi-Channel Sourcing",
+                                "description": "Leveraging LinkedIn, local job boards (Karyera, Skywalker), and university networks."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Compliance Screening",
+                                "description": "Verifying right-to-work status for non-EU candidates and checking academic credentials."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Technical Assessment",
+                                "description": "Coordinating interviews and skill tests tailored to the specific role requirements."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Offer Management",
+                                "description": "Managing salary negotiations and contract signing ensures a smooth handoff to the EOR or internal HR."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gr-staffing-insights",
+                    "type": "insights",
+                    "title": "Talent Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "The Tech Talent Boom",
+                                "text": "Greece (especially Athens) is emerging as a tech hub. Skilled software engineers are plentiful but increasingly transition to remote global roles."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Salary Transparency",
+                                "text": "EU Pay Transparency Directive rules apply: be prepared to disclose salary ranges in job postings or before the first interview."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Language Proficiency",
+                                "text": "Greek professionals typically have high English proficiency, especially in Athens, making it an ideal location for international support hubs."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gr-staffing-compliance",
+                    "type": "insights",
+                    "title": "Recruitment Compliance",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "GDPR Compliance",
+                                "text": "Strict adherence to data protection for candidate resumes and personal information is mandatory under Greek and EU law."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Anti-Discrimination",
+                                "text": "Greek labor law prohibits discrimination on the basis of gender, age, race, or religion in the hiring process."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Work Permits",
+                                "text": "Hiring non-EU nationals requires a specific work visa (Type D) and local residence permit approval."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gr-staffing-faq",
+                    "type": "faq",
+                    "title": "Staffing FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the notice period for new hires?",
+                                "answer": "Contract notice periods depend on length of service. During the first year of employment, the statutory notice period is zero (probation)."
+                            },
+                            {
+                                "question": "Are background checks standard?",
+                                "answer": "Yes, criminal record checks and degree verification are standard for executive and finance roles."
+                            },
+                            {
+                                "question": "Can I use contractors for seasonal work?",
+                                "answer": "Yes, but be careful of misclassification. Repeated short-term contracts may be deemed permanent by the Labour Inspectorate (SEPE)."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS in Greece",
+                "subtitle": "Digital Workforce Management with Ergani Integration",
+                "description": "Modernize your HR with systems that natively support the Greece Digital Work Card and real-time ERGANI II reporting. Manage 14-salary payroll, leave tracking, and document storage in a single platform.",
+                "bestFor": "Modern Businesses, Teams > 10 Employees",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "gr-hris-features",
+                    "type": "cost_breakdown",
+                    "title": "Key HRIS Features for Greece",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Feature",
+                                "Benefit",
+                                "Compliance Level"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Digital Work Card Sync",
+                                    "values": [
+                                        "Automatic sync with myErgani app.",
+                                        "Mandatory"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "14-Salary Payroll Engine",
+                                    "values": [
+                                        "Automated bonus pro-rating.",
+                                        "Statutory"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "EFKA/ERGANI Reporting",
+                                    "values": [
+                                        "One-click APD file generation.",
+                                        "Administrative"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "GDPR Secure Storage",
+                                    "values": [
+                                        "Hellenic Data Protection compliant.",
+                                        "Legal Requirement"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "gr-hris-implementation",
+                    "type": "key_steps",
+                    "title": "Implementation Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Data Migration",
+                                "description": "Existing employee records (AFM, AMKA, Salary history) are migrated from legacy systems or spreadsheets."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Ergani API Mapping",
+                                "description": "Connecting the HRIS to the ERGANI II web service using the company's business credentials."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Rule Configuration",
+                                "description": "Setting up local rules for leave (20-25 days), public holidays, and overtime calculation policies."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Work Card Pilot",
+                                "description": "Testing the QR code capture and real-time reporting for a small subset of employees before full rollout."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Manager Training",
+                                "description": "Training local managers on how to approve leave and handle 'Work Card' anomalies within the platform."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gr-hris-insights",
+                    "type": "insights",
+                    "title": "HR Tech Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "The End of Paper Files",
+                                "text": "As of Jan 2025, Greece is phasing out physical leave books. A compliant HRIS that stores this digitally is now the legal gold standard."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Work Card Anomalies",
+                                "text": "The ERGANI system flags delays. Your HRIS should provide real-time alerts if an employee forgets to clock out to avoid fines."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "ESS (Employee Self-Service)",
+                                "text": "Greek employees highly value mobile access. Mobile-first HRIS options see much higher engagement for expense and leave requests."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gr-hris-reporting",
+                    "type": "insights",
+                    "title": "Statutory Reporting",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Overtime Declaration",
+                                "text": "System must track and report overtime via the E8 form in ERGANI before it is performed."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Leave Declaration",
+                                "text": "Annual leave must be declared in ERGANI (E11 form) within the first month of the following year."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Annual Personnel Table",
+                                "text": "All employers must submit an annual personnel table (E4 form) detailing staff, hours, and salaries."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gr-hris-faq",
+                    "type": "faq",
+                    "title": "HRIS FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Does the system support Greek language?",
+                                "answer": "Yes, for local compliance and employee adoption, we recommend systems with a full Greek localization."
+                            },
+                            {
+                                "question": "Is cloud hosting safe for Greek data?",
+                                "answer": "Provided the server is within the EU (GDPR), cloud hosting is safe and widely used by Greek enterprises."
+                            },
+                            {
+                                "question": "Can I track field staff with a work card?",
+                                "answer": "Yes, the myErgani app is designed for mobile clocking, making it ideal for staff working at various locations."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Services in Greece",
+                "subtitle": "Compliant Financial Management with MyDATA Integration",
+                "description": "Navigate the complexities of Geek GAAP and the mandatory MyDATA digital platform. From monthly bookkeeping to annual financial statements, we ensure your accounts are transparent and audit-ready.",
+                "bestFor": "Local Entities, Multinationals, Branch Offices",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "gr-acc-vat",
+                    "type": "cost_breakdown",
+                    "title": "VAT Rates & Deadlines",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Category",
+                                "Rate",
+                                "Filing Frequency"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Standard Rate",
+                                    "values": [
+                                        "24%",
+                                        "Monthly/Quarterly"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Reduced Rate (Food, Meds)",
+                                    "values": [
+                                        "13%",
+                                        "Monthly/Quarterly"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Super-Reduced (Books, Theatre)",
+                                    "values": [
+                                        "6%",
+                                        "Monthly/Quarterly"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Accounting Audit Fee",
+                                    "values": [
+                                        "€1,500+",
+                                        "Annual"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "gr-acc-steps",
+                    "type": "key_steps",
+                    "title": "Monthly Accounting Workflow",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Invoicing via MyDATA",
+                                "description": "Issuance of electronic invoices and real-time transmission to the Independent Authority for Public Revenue (AADE)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Expense Tracking",
+                                "description": "Collection and categorization of business expenses, ensuring and matching with MyDATA electronic records."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Bank Reconciliation",
+                                "description": "Matching bank statements with accounting entries to ensure cash flow accuracy."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "VAT Return Submission",
+                                "description": "Preparation and filing of the monthly (for double-entry) or quarterly (for single-entry) VAT return."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Management Reporting",
+                                "description": "Generation of P&L and Balance Sheet reports for internal stakeholders and global consolidation if required."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gr-acc-insights",
+                    "type": "insights",
+                    "title": "Financial Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "MyDATA Mandatory Reporting",
+                                "text": "As of 2024, nearly all Greek businesses must use the MyDATA platform for e-invoicing. Manual books are largely obsolete."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Late Filing Fines",
+                                "text": "Fines for late VAT or income tax submissions can be significant, starting from €100 for simple delays and scaling with tax due."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Digital Invoicing Speed",
+                                "text": "Using an integrated accounting-invoicing software can reduce manual entry time by up to 60% and eliminate MyDATA sync errors."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gr-acc-requirements",
+                    "type": "insights",
+                    "title": "Accounting Classes",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Single-Entry (B' Class)",
+                                "text": "Used by small businesses and individual entrepreneurs with turnover under €1.5M."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Double-Entry (G' Class)",
+                                "text": "Mandatory for AE, EPE, and IKE companies. Requires a more rigorous bookkeeping standard."
+                            },
+                            {
+                                "type": "info",
+                                "title": "IFRS Option",
+                                "text": "Large companies or those part of international groups may opt to follow International Financial Reporting Standards."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gr-acc-faq",
+                    "type": "faq",
+                    "title": "Accounting FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the fiscal year in Greece?",
+                                "answer": "The fiscal year follows the calendar year (January 1 to December 31)."
+                            },
+                            {
+                                "question": "Can I keep my books in English?",
+                                "answer": "The statutory books must be in Greek, but management reports and internal documents can be in English."
+                            },
+                            {
+                                "question": "Is an external audit mandatory?",
+                                "answer": "Mandatory for large companies (AE) exceeding certain asset and turnover thresholds. For others, it is optional but recommended for transparency."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gr-comp-essentials",
+                    "type": "cost_breakdown",
+                    "title": "Mandatory Compliance Costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Requirement",
+                                "Estimated Cost",
+                                "Frequency"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Safety Officer (Technikos Asfaleias)",
+                                    "values": [
+                                        "€500 - €2,000 /yr",
+                                        "Annual"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Occupational Physician",
+                                    "values": [
+                                        "€300 - €1,000 /yr",
+                                        "For companies > 50 employees"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "GDPR Compliance Audit",
+                                    "values": [
+                                        "€1,500 - €5,000+",
+                                        "One-off / Periodic"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "AML/KYC Screening",
+                                    "values": [
+                                        "€50 - €200 /hire",
+                                        "Per case"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "gr-comp-steps",
+                    "type": "key_steps",
+                    "title": "Compliance Setup Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Risk Assessment",
+                                "description": "Conducting a mandatory written risk assessment for the workplace provided by a qualified Safety Officer."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "GDPR Mapping",
+                                "description": "Identifying data flows, appointing a DPO (if required), and updating privacy policies and employee contracts."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Labour Law Audit",
+                                "description": "Reviewing employment contracts to ensure compliance with the latest 'Ergani II' and Work Card requirements."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Internal Policies",
+                                "description": "Implementing Whistleblowing channels (mandatory for 50+ staff) and Anti-Harassment policies."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Ongoing Monitoring",
+                                "description": "Regular quarterly reviews to adapt to changes in Greek and EU regulations."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gr-comp-insights",
+                    "type": "insights",
+                    "title": "Risk Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Whistleblowing Hotline",
+                                "text": "Law 4990/2022 makes reporting channels mandatory for all companies with 50+ employees. Non-compliance leads to heavy fines."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Labour Inspectorate (SEPE)",
+                                "text": "SEPE audits are frequent. Ensure all Work Card logs and overtime forms are updated in real-time."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Safety Officer Hours",
+                                "text": "The hours a Safety Officer must spend on-site depend on the 'Risk Category' and number of employees. Most offices fall into Category C (Low Risk)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gr-comp-regulators",
+                    "type": "insights",
+                    "title": "Greek Regulatory Bodies",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "AADE",
+                                "text": "The Independent Authority for Public Revenue - governs all tax and customs matters."
+                            },
+                            {
+                                "type": "info",
+                                "title": "HDPA",
+                                "text": "Hellenic Data Protection Authority - enforces GDPR and privacy laws."
+                            },
+                            {
+                                "type": "info",
+                                "title": "SEPE",
+                                "text": "The Labour Inspectorate - monitors employment law and workplace safety compliance."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gr-comp-faq",
+                    "type": "faq",
+                    "title": "Compliance FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is a 'Technikos Asfaleias'?",
+                                "answer": "A Safety Officer (Legal requirement) who oversees workplace safety, provides staff training, and registers risks."
+                            },
+                            {
+                                "question": "Is insurance mandatory for employees?",
+                                "answer": "State health insurance (EFKA) is mandatory. Private health or life insurance is a highly valued benefit but not legally required."
+                            },
+                            {
+                                "question": "What are the rules for remote work contracts?",
+                                "answer": "Since 2021, Law 4808/2021 defines rules for remote work, including the 'Right to Disconnect' and equipment cost reimbursement."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gr-tax-corporate",
+                    "type": "cost_breakdown",
+                    "title": "Corporate Tax Overview",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Tax Type",
+                                "Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax",
+                                    "values": [
+                                        "22%",
+                                        "Standard rate for companies."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Dividend Withholding",
+                                    "values": [
+                                        "5%",
+                                        "Applicable to profit distributions."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Interest Withholding",
+                                    "values": [
+                                        "15%",
+                                        "Often reduced via Tax Treaties."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Business Tax (Telos Epitidevmatos)",
+                                    "values": [
+                                        "€400 - €1,000",
+                                        "Annual fixed fee (some exemptions apply)."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "gr-tax-steps",
+                    "type": "key_steps",
+                    "title": "Tax Compliance Calendar",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Corporate Tax Return",
+                                "description": "Submission of the annual corporate tax return (Form N) by the sixth month after the end of the fiscal year."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Withholding Tax Filing",
+                                "description": "Monthly filing and payment of withholding taxes on salaries, royalties, and professional fees."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "VIES/Intrastat",
+                                "description": "Reporting of intra-community acquisitions and supplies of goods/services to the EU."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Local Property Tax (ENFIA)",
+                                "description": "Annual filing and management of property-related taxes for companies owning real estate in Greece."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Transfer Pricing",
+                                "description": "Preparation of local and master files for transactions with related parties (if thresholds met)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gr-tax-insights",
+                    "type": "insights",
+                    "title": "Tax Planning Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "R&D Incentives",
+                                "text": "Greece offers significant tax breaks for R&D spending, including an extra 100% deduction on qualified expenses."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Advance Tax Payment",
+                                "text": "New companies must pay a portion (often 50-80%) of next year's estimated tax in advance, though discounts for first years exist."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Double Tax Treaties",
+                                "text": "Greece has a vast network of DTAs. Ensure you have 'Tax Residency Certificates' for cross-border payments to apply lower rates."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gr-tax-individual",
+                    "type": "insights",
+                    "title": "Individual Tax (Expatriates)",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Flat Tax for New Residents",
+                                "text": "High-net-worth individuals moving to Greece may opt for a €100k flat tax on global income for 15 years."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Digital Nomad Tax Break",
+                                "text": "Qualifying remote workers can get a 50% income tax exemption for the first 7 years of residency."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Social Security Cap",
+                                "text": "Employee and employer social security contributions are capped at a monthly gross salary of €7,373."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gr-tax-faq",
+                    "type": "faq",
+                    "title": "Tax FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the statute of limitations for tax audits?",
+                                "answer": "Typically 5 years, but it can be extended in cases of tax evasion or new data."
+                            },
+                            {
+                                "question": "Are digital assets taxed?",
+                                "answer": "Yes, capital gains from crypto-assets are generally taxed as capital gains income (15%), though specific guidance is evolving."
+                            },
+                            {
+                                "question": "Does Greece have a carbon tax?",
+                                "answer": "Greece follows EU ETS regulations and has specific environmental taxes on fuels and plastic containers."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Managed Services Agreement",
+                "subtitle": "Outcome-Based Professional Services",
+                "description": "Engage under results-driven agreements for IT, BPO, or facilities management. We ensure your Greek MSAs are legally sound, with clear KPIs and intellectual property protections for multi-year partnerships.",
+                "bestFor": "Project Outsourcing, IT Support, Back-office Hubs",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "gr-msa-structure",
+                    "type": "cost_breakdown",
+                    "title": "Standard MSA Pricing Models",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Model",
+                                "Basis",
+                                "Best For"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Time & Materials",
+                                    "values": [
+                                        "Hourly/Daily Rate",
+                                        "Short-term / Dynamic projects"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Fixed Price / Outcome",
+                                    "values": [
+                                        "Project Milestone",
+                                        "Well-defined deliverables"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Retainer",
+                                    "values": [
+                                        "Monthly Fee",
+                                        "Continuous Support / Maintenance"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "gr-msa-steps",
+                    "type": "key_steps",
+                    "title": "Contracting Roadmap",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "SOW Definition",
+                                "description": "Drafting a detailed Statement of Work with clear deliverables, timelines, and acceptance criteria."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Service Level Agreement (SLA)",
+                                "description": "Defining uptime, response times, and quality benchmarks with associated penalties for non-performance."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "IP Rights Clause",
+                                "description": "Ensuring that all intellectual property created during the service is transferred to the client under Greek Law."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Liability & Indemnity",
+                                "description": "Setting caps on liability and defining insurance requirements for the service provider."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Governance Setup",
+                                "description": "Establishing monthly review meetings and escalation paths for project management."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gr-msa-insights",
+                    "type": "insights",
+                    "title": "Managed Service Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Outsourcing vs. Staffing",
+                                "text": "Greek law distinguishes between 'Service Provision' (MSA) and 'Temporary Staffing'. MSAs must focus on outcomes, not constant supervision of individuals."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Exit Strategy",
+                                "text": "Ensure your MSA includes clear 'Termination for Convenience' clauses and data handover procedures to avoid vendor lock-in."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Local Law Choice",
+                                "text": "For services performed in Greece, local labour and data laws are often mandatory even if the contract is under foreign governing law."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gr-msa-compliance",
+                    "type": "insights",
+                    "title": "Compliance in MSAs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Subcontracting Approval",
+                                "text": "Contracts should clearly state if the provider is allowed to use subcontractors and who bears the liability."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Data Processing Annex",
+                                "text": "A DPA is essential for any MSA where the provider has access to personal data of employees or customers."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Confidentiality & NDAs",
+                                "text": "Robust non-disclosure clauses are standard to protect proprietary trade secrets during service delivery."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gr-msa-faq",
+                    "type": "faq",
+                    "title": "MSA FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is VAT applicable to MSAs?",
+                                "answer": "Yes, 24% VAT is standard. For cross-border services, the 'Reverse Charge' mechanism may apply within the EU."
+                            },
+                            {
+                                "question": "Can I white-label the services?",
+                                "answer": "Yes, MSAs can be structured for white-labeled deliverables, provided IP rights are assigned."
+                            },
+                            {
+                                "question": "What is the typical duration?",
+                                "answer": "MSAs usually range from 1 to 3 years with annual performance reviews."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software & Digital Solutions",
+                "subtitle": "Empowering Your Business with Greek Tech Innovations",
+                "description": "Access cutting-edge SaaS, ERP, and HR technology platforms tailored for the Greek market. From Ergani-ready time tracking to cloud accounting, we help you choose and implement the right stack.",
+                "bestFor": "SMEs, Digital Transformation, Enterprises",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "gr-soft-categories",
+                    "type": "cost_breakdown",
+                    "title": "Software Implementation Costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Solution Type",
+                                "Subscription (Per User)",
+                                "Setup Fee"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Cloud ERP (Ergani Ready)",
+                                    "values": [
+                                        "€25 - €60 /mo",
+                                        "€500 - €2,000"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "HRIS & Digital Work Card",
+                                    "values": [
+                                        "€5 - €15 /mo",
+                                        "€200 - €800"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Accounting & E-Invoicing",
+                                    "values": [
+                                        "€15 - €40 /mo",
+                                        "€100 - €500"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Custom Development",
+                                    "values": [
+                                        "Quote based",
+                                        "Project based"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "gr-soft-steps",
+                    "type": "key_steps",
+                    "title": "Digital Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Requirements Audit",
+                                "description": "Defining your business needs, specifically focusing on Greek statutory integrations (MyDATA, Ergani)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Vendor Selection",
+                                "description": "Evaluating local vs. global vendors based on localization, UI support, and regulatory compliance."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "System Configuration",
+                                "description": "Customizing the software for local tax codes, VAT rates, and employee benefit rules."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Integration Testing",
+                                "description": "Verifying the seamless flow of data between your HRIS, Payroll, and Accounting modules."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Rollout & Training",
+                                "description": "Onboarding your Greek team and providing training on the new digital workflows."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gr-soft-insights",
+                    "type": "insights",
+                    "title": "Tech Adoption Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Cloud-First Mandatory",
+                                "text": "With the rise of remote work and real-time state reporting, cloud-based software is now essential for 2025 operations in Greece."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "API Reliability",
+                                "text": "Ensure your software uses reliable APIs for Ergani/MyDATA. Delays in system-to-state reporting can trigger compliance flags."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Voucher Programs",
+                                "text": "The Greek government frequently offers 'Digital Transformation' vouchers to cover up to 90% of software costs for SMEs."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gr-soft-trends",
+                    "type": "insights",
+                    "title": "Market Trends",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "AI in Greek HR",
+                                "text": "Growing adoption of AI-driven recruitment and sentiment analysis within local Athenian enterprises."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Cybersecurity Focus",
+                                "text": "Increased investment in EU-based data hosting and security as Greek businesses prepare for NIS2 compliance."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Low-Code/No-Code",
+                                "text": "Growing use of rapid application development platforms within Greek startups to accelerate digital transformation."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gr-soft-faq",
+                    "type": "faq",
+                    "title": "Software FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Are global ERPs like SAP or Oracle compliant in Greece?",
+                                "answer": "Yes, but they usually require 'Localisation Packs' or middleware to handle specific Greek tax and payroll reporting."
+                            },
+                            {
+                                "question": "Can I use software for paperless expense management?",
+                                "answer": "Yes, as long as the software creates MyDATA-compliant records, physical paper trails can be eliminated."
+                            },
+                            {
+                                "question": "What is Ergani II ready?",
+                                "answer": "It refers to software that can communicate live with the second generation of the Greek labour platform, including QR work card functionality."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing & Creative Services",
+                "subtitle": "Grow Your Brand in the Greek & Global Markets",
+                "description": "Leverage Athens' creative talent for your digital marketing, branding, and content strategies. We connect you with agencies that understand local consumer behavior and EU advertising standards.",
+                "bestFor": "Consumer Brands, E-commerce, Global Brands",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "gr-mark-pricing",
+                    "type": "cost_breakdown",
+                    "title": "Agency Pricing Overview",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service",
+                                "Monthly Retainer",
+                                "Project-Based"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Media Management",
+                                    "values": [
+                                        "€800 - €2,500",
+                                        "N/A"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Performance Marketing (Ads)",
+                                    "values": [
+                                        "10% - 15% of Spend",
+                                        "€500+ Startup"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Content & Copywriting",
+                                    "values": [
+                                        "By volume",
+                                        "€0.10 - €0.25 /word"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Full Branding Package",
+                                    "values": [
+                                        "N/A",
+                                        "€3,000 - €10,000+"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "gr-mark-steps",
+                    "type": "key_steps",
+                    "title": "Campaign Launch Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Market Research",
+                                "description": "Analyzing the Greek competitive landscape and defining target personas (e.g. Gen Z in Athens vs. Tourist market)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Creative Briefing",
+                                "description": "Defining the visual identity and tone of voice, ensuring it resonates with local cultural nuances."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Channel Strategy",
+                                "description": "Selecting between Meta, TikTok, and local PR outlets based on the campaign objectives."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Production & Execution",
+                                "description": "Creating video content, localized copy, and setting up ad campaigns."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Optimization",
+                                "description": "Monitoring ROAS (Return on Ad Spend) and adjusting creatives based on real-time performance data."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gr-mark-insights",
+                    "type": "insights",
+                    "title": "Marketing Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Social Dominance",
+                                "text": "Greece has one of the highest social media engagement rates in Europe, particularly on Instagram and TikTok for consumer goods."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Language Nuance",
+                                "text": "Direct translations of English marketing copy often fail. 'Transcreation' by local Greek copywriters is mandatory for effective engagement."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Influencer Impact",
+                                "text": "Local influencers in the lifestyle, food, and tech niches have very high trust levels compared to traditional TV advertising."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gr-mark-compliance",
+                    "type": "insights",
+                    "title": "Advertising Compliance",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "SEE (Sumboulio Elenchou Epikoinonias)",
+                                "text": "Adhere to the Greek Code of Advertising-Communication Practice enforced by the SEE."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Influencer Disclosure",
+                                "text": "Paid partnerships must be clearly labeled (e.g., #adv or #ad) to comply with consumer protection laws."
+                            },
+                            {
+                                "type": "info",
+                                "title": "GDPR for Marketing",
+                                "text": "Strict 'opt-in' rules for email marketing and SMS campaigns are enforced by the HDPA."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gr-mark-faq",
+                    "type": "faq",
+                    "title": "Marketing FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I run campaigns for all of Greece from Athens?",
+                                "answer": "Yes, most major agencies are based in Athens but handle nationwide and sometimes Balkan-wide campaigns."
+                            },
+                            {
+                                "question": "Is Google Search or Social better in Greece?",
+                                "answer": "For lead gen, Google Search is dominant. For brand awareness and e-commerce, Meta and TikTok currently perform best."
+                            },
+                            {
+                                "question": "What is the typical lead time?",
+                                "answer": "Major campaigns usually require 4-6 weeks for research and creative production."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

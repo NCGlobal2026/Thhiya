@@ -1,0 +1,472 @@
+{
+    "name": "Qatar",
+    "code": "QA",
+    "slug": "qatar",
+    "flag": "https://flagcdn.com/w160/qa.png",
+    "region": "Asia",
+    "languages": [
+        "Arabic"
+    ],
+    "currencies": [
+        "QAR"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Qatar",
+                "subtitle": "Hire in Doha",
+                "description": "Compliant employment in the Gulf. We handle GRSIA for nationals.",
+                "bestFor": "Energy & Construction",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "qa-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Employment contract approved by Ministry of Labour (ADLSA)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Work Permit",
+                                "description": "Obtain work visa and residence permit (RP)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "GRSIA",
+                                "description": "Register Qatari nationals with General Retirement & Social Insurance Authority."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "qa-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "GRSIA (Qatari Nationals)",
+                                    "values": [
+                                        "14%",
+                                        "7%",
+                                        "Pension and Social Security."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Expats",
+                                    "values": [
+                                        "0%",
+                                        "0%",
+                                        "No social security for non-nationals."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "End of Service",
+                                    "values": [
+                                        "~3-5%",
+                                        "0%",
+                                        "Gratuity provision (accrual)."
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "qa-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "National Sports Day",
+                                "description": "February 11"
+                            },
+                            {
+                                "title": "Eid al-Fitr",
+                                "description": "March 30 - April 1 (Estimated)"
+                            },
+                            {
+                                "title": "Eid al-Adha",
+                                "description": "June 6-8 (Estimated)"
+                            },
+                            {
+                                "title": "National Day",
+                                "description": "December 18"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "qa-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Employment Income",
+                                    "values": [
+                                        "0%",
+                                        "No personal income tax."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Self-Employed",
+                                    "values": [
+                                        "10%",
+                                        "On Qatar-sourced business income."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "qa-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Base Salary + Allowances."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "GRSIA (Nationals)",
+                                "description": "Deduct 7% if Qatari."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax",
+                                "description": "0% income tax."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Net",
+                                "description": "Gross - GRSIA (for nationals only)."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Qatar",
+                "subtitle": "LLC / WLL",
+                "description": "Limited Liability.",
+                "bestFor": "Free Zones",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "qa-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Sponsor",
+                                "description": "51% Qatari ownership required (or 100% in Free Zones)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "MOCI",
+                                "description": "Register with Ministry of Commerce and Industry."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax",
+                                "description": "Register with General Tax Authority."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "qa-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Qatar National Bank",
+                                "description": "Largest bank in the region."
+                            },
+                            {
+                                "title": "Commercial Bank of Qatar",
+                                "description": "Major commercial bank."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Qatar",
+                "subtitle": "Doha",
+                "description": "Expat workforce.",
+                "bestFor": "Energy",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "qa-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Doha",
+                                "text": "Main business center and capital."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Qatar Foundation Education City",
+                                "text": "University hub for skilled talent."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Qatar",
+                "subtitle": "WPS",
+                "description": "Wage Protection.",
+                "bestFor": "Compliance",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "qa-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "WPS",
+                                "description": "Wage Protection System (mandatory electronic salary payment)."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Qatar",
+                "subtitle": "IFRS",
+                "description": "Adopted.",
+                "bestFor": "Compliance",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "qa-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "IFRS",
+                                "text": "International Financial Reporting Standards mandatory."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "qa-comp-labor",
+                    "type": "warning",
+                    "title": "Labor Law",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Exit Permit Abolished",
+                                "description": "Workers can now change jobs without employer permission (subject to notice)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "qa-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax",
+                                    "values": [
+                                        "10%",
+                                        "Standard rate (35% for Oil & Gas)."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "VAT",
+                                    "values": [
+                                        "0%",
+                                        "No VAT currently."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Qatar",
+                "subtitle": "Sharia & Civil",
+                "description": "Mixed system.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "qa-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "Arabic is official language (English widely used in business)."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Qatar",
+                "subtitle": "Digital",
+                "description": "Modern infrastructure.",
+                "bestFor": "Payments",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "qa-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Mobile Banking",
+                                "description": "All major banks offer robust apps."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Qatar",
+                "subtitle": "Premium",
+                "description": "High spending.",
+                "bestFor": "Luxury",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "qa-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Instagram",
+                                "text": "High engagement for luxury and lifestyle."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

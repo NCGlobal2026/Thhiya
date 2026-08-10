@@ -1,0 +1,47 @@
+name: Security
+
+on:
+  pull_request:
+    branches: [development]  # All checks happen before merging to development
+    paths:
+      - 'frontend/package.json'
+      - 'frontend/bun.lock'
+      - 'backend/package.json'
+      - 'backend/bun.lock'
+  schedule:
+    # Run weekly on Sundays at midnight UTC
+    - cron: '0 0 * * 0'
+  workflow_dispatch:  # Allow manual trigger when needed
+
+permissions:
+  contents: read
+
+jobs:
+  security-check:
+    name: Security & Package Check
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Check Frontend
+        working-directory: frontend
+        run: |
+          echo "=== Frontend Check ==="
+          bun install
+          bun outdated || true
+          echo "✅ Frontend packages checked"
+
+      - name: Check Backend
+        working-directory: backend
+        run: |
+          echo "=== Backend Check ==="
+          bun install
+          bun outdated || true
+          echo "✅ Backend packages checked"

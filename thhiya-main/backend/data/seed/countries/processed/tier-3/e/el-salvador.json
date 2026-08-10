@@ -1,0 +1,1982 @@
+{
+    "name": "El Salvador",
+    "code": "SV",
+    "slug": "el-salvador",
+    "flag": "https://flagcdn.com/w160/sv.png",
+    "region": "Americas",
+    "languages": [
+        "Spanish"
+    ],
+    "currencies": [
+        {
+            "code": "USD",
+            "name": "US Dollar",
+            "symbol": "$"
+        },
+        {
+            "code": "BTC",
+            "name": "Bitcoin",
+            "symbol": "₿"
+        }
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR & PEO in El Salvador",
+                "subtitle": "Comprehensive guide to EOR & PEO in El Salvador",
+                "description": "Detailed insights and providers for EOR & PEO in El Salvador.",
+                "bestFor": "Global expansion teams",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "sv-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Employee Onboarding Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract Drafting",
+                                "description": "Drafting an employment contract in Spanish is mandatory. It must specify the probation period, which is legally capped at 30 days in El Salvador."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "National ID & NIT Collection",
+                                "description": "Collecting the employee's Unique Identity Document (DUI) and Tax Identification Number (NIT). Note that for residents, NIT is now often unified with DUI."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "ISSS & AFP Registration",
+                                "description": "Registering the employee with the Salvadoran Social Security Institute (ISSS) and the chosen Pension Fund Administrator (AFP) within 15 days of hiring."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Life Insurance Setup",
+                                "description": "Arranging mandatory life insurance for employees as per Article 308 of the Labor Code (often managed via EOR provider plugins)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Digital Gateway Setup",
+                                "description": "Setting up internal communication and payroll portals. Most EORs provide a unified dashboard for remote workers."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "sv-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Estimated Employment Costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Cost Item",
+                                "Rate/Amount",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Security (ISSS)",
+                                    "values": [
+                                        "7.50%",
+                                        "Employer contribution capped at a salary of $1,000."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Pension (AFP)",
+                                    "values": [
+                                        "7.75%",
+                                        "Employer contribution to the selected private pension fund."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "INSAFORP",
+                                    "values": [
+                                        "1.00%",
+                                        "Training tax for companies with 10+ employees."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Christmas Bonus (Aguinaldo)",
+                                    "values": [
+                                        "15 - 21 Days",
+                                        "Statutory bonus paid in December based on years of service."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Vacation Bonus",
+                                    "values": [
+                                        "30%",
+                                        "A 30% premium on top of the 15 days of annual paid leave."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "sv-eor-compliance",
+                    "type": "insights",
+                    "title": "Compliance & Risk Management",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Probation Limit",
+                                "text": "The statutory probation period is exactly 30 days. Any attempt to extend this in the contract is legally void."
+                            },
+                            {
+                                "type": "info",
+                                "title": "13th Month Rules",
+                                "text": "Aguinaldo must be paid between December 12th and 20th. Rates: 15 days salary (1-3 yrs), 19 days (3-10 yrs), 21 days (10+ yrs)."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Severance Calculation",
+                                "text": "In El Salvador, severance for 'unjustified dismissal' typically equals 30 days of salary for each year of service, capped at a specific monthly multiplier."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Bitcoin Payroll",
+                                "text": "While Bitcoin is legal tender, Article 120 of the Labor Code requires salaries to be paid in legal currency (USD or BTC). Most employees strictly prefer USD."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "sv-eor-essentials",
+                    "type": "essentials",
+                    "title": "EOR Operational Essentials",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Standard Hours",
+                                "text": "44 hours per week (8 hours weekdays, 4 hours Saturday). Overtime premium is 100% (double pay)."
+                            },
+                            {
+                                "title": "Paid Leave",
+                                "text": "15 days of paid annual leave after one year of continuous service."
+                            },
+                            {
+                                "title": "Public Holidays",
+                                "text": "Employees are entitled to 11 mandatory paid public holidays annually."
+                            },
+                            {
+                                "title": "Currency",
+                                "text": "The US Dollar (USD) is the primary currency for all payroll and business transactions."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "sv-eor-faq",
+                    "type": "faq",
+                    "title": "Frequently Asked Questions",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Does EOR reduce Permanent Establishment (PE) risk in El Salvador?",
+                                "answer": "Yes, using an EOR ensures that the foreign company does not need to register a branch, significantly lowering tax nexus risks."
+                            },
+                            {
+                                "question": "Can I hire part-time workers via EOR?",
+                                "answer": "Yes, but they are still entitled to pro-rated social security and Aguinaldo benefits."
+                            },
+                            {
+                                "question": "What is the typical EOR fee?",
+                                "answer": "Management fees in El Salvador range from $200 to $500 per employee per month depending on the provider and volume."
+                            },
+                            {
+                                "question": "Is insurance mandatory?",
+                                "answer": "Employers must provide ISSS (health) and AFP (pension) by law, plus workers' compensation coverage."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "sv-payroll-cycle",
+                    "type": "key_steps",
+                    "title": "Monthly Payroll Cycle",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross Salary Calculation",
+                                "description": "Aggregating base salary, commissions, overtime hours, and any applicable bonuses or 'Quincena 25' benefits."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Statutory Deductions",
+                                "description": "Applying ISSS (3.0% employee) and AFP (7.25% employee) deductions. Note the ISSS salary cap of $1,000 for deductions."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Income Tax (ISR) Calculation",
+                                "description": "Applying the progressive tax table to the taxable income after social security deductions. Rates range from 10% to 30%."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Net Payment Execution",
+                                "description": "Disbursing net salary to employees via local bank transfers. payments are usually made on a bi-monthly (every 15 days) basis."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Regulatory Reporting",
+                                "description": "Submitting the OIKOS (Social Security) and Ministry of Finance (Tax) reports by the 10th and 15th of the following month respectively."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "sv-payroll-tax-table",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax (ISR) Monthly Scale 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Monthly Income Range",
+                                "Fixed Fee",
+                                "Percentage on Excess",
+                                "Threshold"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "$0.01 - $472.00",
+                                    "values": [
+                                        "$0.00",
+                                        "Exempt",
+                                        "-"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "$472.01 - $895.24",
+                                    "values": [
+                                        "$17.67",
+                                        "10%",
+                                        "Over $472.00"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "$895.25 - $2,038.10",
+                                    "values": [
+                                        "$60.00",
+                                        "20%",
+                                        "Over $895.24"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "$2,038.11 and more",
+                                    "values": [
+                                        "$288.57",
+                                        "30%",
+                                        "Over $2,038.10"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "sv-payroll-compliance",
+                    "type": "insights",
+                    "title": "Payroll Compliance Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Bi-Monthly Frequency",
+                                "text": "It is customary in El Salvador to pay employees twice a month (15th and 30th), though monthly payment is legally permissible."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Late Filing Penalties",
+                                "text": "Failing to remit ISSS/AFP payments on time can result in interest charges and being barred from certain government contracts."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "The Quincena 25 Law",
+                                "text": "Ensure your payroll system accounts for the special 'Quincena 25' law which designates specific bonuses as exempt from social security and pension under certain conditions."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "sv-payroll-pension",
+                    "type": "essentials",
+                    "title": "Mandatory Pension System",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "AFP Choice",
+                                "text": "Employees can choose between AFP Crecer or AFP Confía for their retirement fund مدیریت."
+                            },
+                            {
+                                "title": "Contribution Split",
+                                "text": "Employer pays 7.75%; Employee pays 7.25%. Total 15% is deposited monthly."
+                            },
+                            {
+                                "title": "Reporting Portal",
+                                "text": "All pension reporting is serialized through the UNICO software for electronic filing to the Superintendent of the Financial System."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "sv-payroll-faq",
+                    "type": "faq",
+                    "title": "Payroll Administration FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I pay employees in any currency?",
+                                "answer": "Legally, USD is the official currency. Bitcoin is also legal, but for tax reporting, all values must be converted to USD equivalents."
+                            },
+                            {
+                                "question": "What happens if an employee has multiple jobs?",
+                                "answer": "The primary employer handles the standard deductions, but the employee is responsible for annual tax finalization."
+                            },
+                            {
+                                "question": "Are bonuses taxable?",
+                                "answer": "Yes, bonuses like Aguinaldo are subject to income tax above the legal exemption threshold (approx. 2 minimum salaries)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "sv-calc-inputs",
+                    "type": "key_steps",
+                    "title": "Calculator Data Inputs",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross Base Salary",
+                                "description": "Primary input. Must be at least the sectoral minimum wage (approx. $365 USD)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Overtime & Commissions",
+                                "description": "Variable inputs. Overtime hours are calculated at a 100% premium (double time)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tenure (Years of Service)",
+                                "description": "Required to calculate the Aguinaldo (Christmas Bonus) bracket (1-3, 3-10, 10+ years)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Vacation Status",
+                                "description": "Determining if the 30% vacation bonus should be applied to the current period."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Deduction Caps",
+                                "description": "Ensuring the ISSS deduction does not exceed the $1,000 salary cap."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "sv-calc-rates",
+                    "type": "cost_breakdown",
+                    "title": "Calculation Formulae 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employee Rate",
+                                "Employer Rate",
+                                "Formula"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Security (ISSS)",
+                                    "values": [
+                                        "3.00%",
+                                        "7.50%",
+                                        "Min(Salary, $1000) * Rate"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Pension (AFP)",
+                                    "values": [
+                                        "7.25%",
+                                        "7.75%",
+                                        "Total Salary * Rate"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Training (INSAFORP)",
+                                    "values": [
+                                        "0.00%",
+                                        "1.00%",
+                                        "Employer only (if 10+ staff)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Income Tax (ISR)",
+                                    "values": [
+                                        "Progressive",
+                                        "0.00%",
+                                        "(Taxable Income - Threshold) * % + Fee"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "sv-calc-insights",
+                    "type": "insights",
+                    "title": "Calculator Accuracy Tips",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Taxable Income Base",
+                                "text": "Taxable income for ISR is calculated AFTER deducting ISSS and AFP contributions from the gross salary."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Aguinaldo Brackets",
+                                "text": "Don't forget to update the Aguinaldo logic: 15 days (1-3 yrs), 19 days (3-10 yrs), 21 days (10+ yrs)."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Currency Sync",
+                                "text": "Since El Salvador uses USD, there are no FX conversion risks in the calculator unless paying from a non-USD parent company."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "sv-calc-results",
+                    "type": "essentials",
+                    "title": "Result Interpretations",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Net Take-Home",
+                                "text": "The final amount the employee receives after all statutory deductions."
+                            },
+                            {
+                                "title": "Total Cost of Employment",
+                                "text": "Includes Gross Salary + Employer ISSS/AFP + INSAFORP + Accrued Bonuses."
+                            },
+                            {
+                                "title": "Statutory Accruals",
+                                "text": "Monthly estimation of Aguinaldo and Vacation bonuses to avoid year-end cash flow shocks."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "sv-calc-faq",
+                    "type": "faq",
+                    "title": "Calculator FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Does the calculator handle Bitcoin payments?",
+                                "answer": "The logic is identical, but the final result should be displayed in both USD and BTC using a real-time API."
+                            },
+                            {
+                                "question": "How often do tax tables change?",
+                                "answer": "Rarely, but it's important to monitor the Legislative Assembly's 'Decretos' at the start of each fiscal year."
+                            },
+                            {
+                                "question": "Can I calculate severance for redundancy?",
+                                "answer": "Yes, the standard is 30 days per year of service, capped at 4 minimum salaries per month of calculation."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation in El Salvador",
+                "subtitle": "Comprehensive guide to Incorporation in El Salvador",
+                "description": "Detailed insights and providers for Incorporation in El Salvador.",
+                "bestFor": "Global expansion teams",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "sv-inc-steps",
+                    "type": "key_steps",
+                    "title": "S.A. de C.V. Registration Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Company Name Clearance",
+                                "description": "Verify availability of the corporate name at the Registry of Commerce (Registro de Comercio)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Public Deed Execution",
+                                "description": "A local notary must draft and certify the Articles of Incorporation (Public Deed). Requires a minimum of 2 shareholders."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Capital Deposit",
+                                "description": "Deposit at least 5% of the initial capital (minimum $2,000 for S.A. de C.V.) into a local bank client account."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Registry Submission",
+                                "description": "Submit documents to MiEmpresa.gob.sv for unified registration including NRC (Tax ID), NIT, and Municipal License."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Legal Book Legalization",
+                                "description": "Legalizing accounting and administrative books (Shareholder Registry, Board Meetings) via an authorized auditor."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "sv-inc-costs",
+                    "type": "cost_breakdown",
+                    "title": "Initial Setup Investment",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Category",
+                                "Amount (USD)",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Minimum Social Capital",
+                                    "values": [
+                                        "$2,000",
+                                        "At least 5% ($100) must be paid upfront during registration."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Registry Fees",
+                                    "values": [
+                                        "$0.57 per $1,000",
+                                        "Charged based on the total capital amount."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Legal & Notary Fees",
+                                    "values": [
+                                        "$1,500 - $3,000",
+                                        "Varies based on complexity and law firm seniority."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Municipal License",
+                                    "values": [
+                                        "$50 - $200",
+                                        "Annual fee varying by the municipality (San Salvador vs. others)."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Commercial License",
+                                    "values": [
+                                        "$100",
+                                        "Initial registration with the Registry of Commerce."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "sv-inc-insights",
+                    "type": "insights",
+                    "title": "Business Entity Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "S.A. de C.V. Flexibility",
+                                "text": "The Stock Company with Variable Capital is most popular for foreign investors due to ease of increasing/decreasing capital without public deed modification."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "MiEmpresa Portal",
+                                "text": "Utilize the 'Ventanilla Única' at MiEmpresa.gob.sv to cut registration time from 30 days to approximately 5-7 business days."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Resident Agent",
+                                "text": "Foreign shareholders do not need to be residents, but the company must have a legal representative who is a Salvadoran resident or citizen."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "sv-inc-types",
+                    "type": "essentials",
+                    "title": "Available Legal Structures",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "S.A. de C.V.",
+                                "text": "Corporate entity with limited liability. Minimum 2 shareholders. Capital is represented by shares."
+                            },
+                            {
+                                "title": "Sucursal (Branch)",
+                                "text": "Extension of a foreign parent company. Requires registration of the parent's charters and financial statements."
+                            },
+                            {
+                                "title": "Limited Liability (Ltda.)",
+                                "text": "Similar to S.A. but capital is divided into quotas. Transfers require public deed amendment."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "sv-inc-faq",
+                    "type": "faq",
+                    "title": "Incorporation FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can a company be 100% foreign-owned?",
+                                "answer": "Yes, El Salvador allows 100% foreign ownership of share capital in most sectors."
+                            },
+                            {
+                                "question": "What is the timeline for bank account setup?",
+                                "answer": "Typically 2-4 weeks after the company is registered, depending on KYC requirements."
+                            },
+                            {
+                                "question": "Do I need a physical office?",
+                                "answer": "Yes, a physical address is required for the Registry of Commerce and the Ministry of Finance."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in El Salvador",
+                "subtitle": "Comprehensive guide to Staffing in El Salvador",
+                "description": "Detailed insights and providers for Staffing in El Salvador.",
+                "bestFor": "Global expansion teams",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "sv-staffing-steps",
+                    "type": "key_steps",
+                    "title": "Recruitment Lifecycle",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Talent Sourcing",
+                                "description": "Leveraging local platforms like Tecoloco.com and LinkedIn to source bilingual talent, especially in San Salvador and Santa Tecla."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Technical Assessment",
+                                "description": "Conducting skill-based assessments. Tech talent often undergoes English proficiency testing (TOEFL/TOEIC) for multinational roles."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Background Verification",
+                                "description": "Checking criminal records (Antecedentes Penales) and police records (Solvencia de la PNC), which is a standard requirement for local hiring."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Interview & Selection",
+                                "description": "Multi-stage interviews focusing on cultural fit and adaptability to remote or hybrid work environments."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Offer & Contract",
+                                "description": "Finalizing the offer letter in line with the Minimum Wage Decree (currently $365 for most sectors) and drafting the formal contract."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "sv-staffing-salaries",
+                    "type": "cost_breakdown",
+                    "title": "Average Monthly Salaries 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Role",
+                                "Junior (USD)",
+                                "Mid-Level (USD)",
+                                "Senior (USD)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Software Developer",
+                                    "values": [
+                                        "$1,200 - $1,800",
+                                        "$2,000 - $3,500",
+                                        "$4,000+"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Project Manager",
+                                    "values": [
+                                        "$1,500 - $2,200",
+                                        "$2,500 - $4,000",
+                                        "$4,500+"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Customer Support (Bilingual)",
+                                    "values": [
+                                        "$600 - $900",
+                                        "$1,000 - $1,400",
+                                        "$1,600+"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Accountant",
+                                    "values": [
+                                        "$800 - $1,200",
+                                        "$1,500 - $2,500",
+                                        "$3,000+"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "sv-staffing-insights",
+                    "type": "insights",
+                    "title": "Market Talent Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Growing Tech Hub",
+                                "text": "San Salvador is emerging as a 'nearshore' tech hub due to its alignment with US Central Time (CST) and high English proficiency among youth."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Recruitment Fees",
+                                "text": "Local agencies typically charge between 10% and 15% of the candidate's annual gross salary for successful placement."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "90/10 Rule",
+                                "text": "Article 7 of the Labor Code requires that at least 90% of a company's staff must be Salvadoran nationals, and they must receive at least 85% of total wages."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "sv-staffing-market",
+                    "type": "essentials",
+                    "title": "Talent Ecosystem",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Principal Hubs",
+                                "text": "San Salvador (Capital), Santa Tecla, and Antiguo Cuscatlán are the primary zones for high-skilled labor."
+                            },
+                            {
+                                "title": "Free Trade Zones",
+                                "text": "Many staffing firms operate within Export Processing Zones (Zonas Francas) like American Park or World Trade Center San Salvador."
+                            },
+                            {
+                                "title": "University Pipelines",
+                                "text": "UCA (Universidad Centroamericana) and Don Bosco University are the top producers of engineering and CS talent."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "sv-staffing-faq",
+                    "type": "faq",
+                    "title": "Staffing FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the notice period for termination?",
+                                "answer": "The standard legal notice period is 15 days, although contracts often specify 30 days for senior roles."
+                            },
+                            {
+                                "question": "Are remote workers subject to local labor laws?",
+                                "answer": "Yes, if they are physically performing work in El Salvador, the local Labor Code applies regardless of the employer's location."
+                            },
+                            {
+                                "question": "How long does it take to hire a senior dev?",
+                                "answer": "Typically 4-6 weeks from initial sourcing to contract signing in the current competitive market."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS in El Salvador",
+                "subtitle": "Comprehensive guide to HRIS in El Salvador",
+                "description": "Detailed insights and providers for HRIS in El Salvador.",
+                "bestFor": "Global expansion teams",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "sv-hris-adoption",
+                    "type": "key_steps",
+                    "title": "HRIS Implementation Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Requirements Mapping",
+                                "description": "Defining needs for automated payroll, attendance tracking (biometrics integration), and statutory reporting (OIKOS/UNICO)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Vendor Selection",
+                                "description": "Choosing between global platforms (Deel, BambooHR) or localized Salvadoran solutions that handle local tax tables natively."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Data Migration",
+                                "description": "Securely migrating employee records, historical payroll data, and benefit accruals into the new system."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Configuration & Testing",
+                                "description": "Setting up the 13th-month (Aguinaldo) and vacation bonus logic according to Salvadoran legal tiers."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Staff Training",
+                                "description": "Training the local HR team and employees on self-service portals for leave requests and payslip access."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "sv-hris-features",
+                    "type": "cost_breakdown",
+                    "title": "Software Feature Matrix",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Feature",
+                                "Local Provider",
+                                "Global HRIS",
+                                "Priority"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Local Tax Integration",
+                                    "values": [
+                                        "Built-in",
+                                        "Often requires API/Middleware",
+                                        "High"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Multi-Currency support",
+                                    "values": [
+                                        "Limited (USD focus)",
+                                        "Full support",
+                                        "Medium"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Mobile Employee App",
+                                    "values": [
+                                        "Varies",
+                                        "Native High Quality",
+                                        "Medium"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Statutory Reporting",
+                                    "values": [
+                                        "Direct Export",
+                                        "Requires Manual Effort",
+                                        "High"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "sv-hris-insights",
+                    "type": "insights",
+                    "title": "HR Tech Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Digital Transformation",
+                                "text": "The Ministry of Labor is increasingly moving towards digital audits, making an organized HRIS essential for rapid compliance verification."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Privacy Laws",
+                                "text": "Ensure your HRIS provider complies with the Law on the Protection of Personal Data, especially regarding sensitive employee biometric data."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Attendance Compliance",
+                                "text": "Wait-time and attendance tracking is strictly regulated; the HRIS must accurately log 44-hour workweeks to avoid overtime disputes."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "sv-hris-platforms",
+                    "type": "essentials",
+                    "title": "Popular Platforms in SV",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Global Leaders",
+                                "text": "Deel and Remote.com are heavily used by startups hiring tech talent in El Salvador."
+                            },
+                            {
+                                "title": "Mid-Market",
+                                "text": "BambooHR and Hibob are popular for their intuitive UI and performance management modules."
+                            },
+                            {
+                                "title": "Local Tools",
+                                "text": "Softland and local ERP-modules are preferred by large traditional manufacturing and commerce firms."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "sv-hris-faq",
+                    "type": "faq",
+                    "title": "HRIS FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I use an HRIS to manage Aguinaldo payments?",
+                                "answer": "Yes, but you must ensure the system can handle the specific 15/19/21-day logic based on tenure."
+                            },
+                            {
+                                "question": "Is cloud-hosting legal for employee data?",
+                                "answer": "Yes, provided there are adequate security measures and it doesn't violate sectoral privacy regulations."
+                            },
+                            {
+                                "question": "Do I need to report HRIS usage to the government?",
+                                "answer": "No, but the *outputs* (reports) must meet government formatting standards."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting in El Salvador",
+                "subtitle": "Comprehensive guide to Accounting in El Salvador",
+                "description": "Detailed insights and providers for Accounting in El Salvador.",
+                "bestFor": "Global expansion teams",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "sv-acc-annual",
+                    "type": "key_steps",
+                    "title": "Annual Compliance Calendar",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Monthly VAT Filing",
+                                "description": "Filing the F07 tax form by the 10th business day of each month (13% VAT)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Municipal Tax Declaration",
+                                "description": "Annual declaration of company assets/income to the local Mayor's Office (Alcaldía) for municipal licensing."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "External Audit",
+                                "description": "Engaging a certified public auditor to review financial statements if the company meets turnover/asset thresholds."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Income Tax Finalization",
+                                "description": "Filing the F11 Annual Income Tax Return by April 30th of the following fiscal year."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Financial Statement Filing",
+                                "description": "Submitting audited financial statements to the Registry of Commerce (CNR) within 120 days after year-end."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "sv-acc-tax-rates",
+                    "type": "cost_breakdown",
+                    "title": "Corporate Tax Overview",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Tax Type",
+                                "Standard Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax",
+                                    "values": [
+                                        "30%",
+                                        "Reduces to 25% for companies with net income below $150,000."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "VAT (IVA)",
+                                    "values": [
+                                        "13%",
+                                        "Standard rate on goods and services. Exports are 0% rated."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Dividend Tax",
+                                    "values": [
+                                        "5%",
+                                        "Withholding tax on dividends paid to residents or non-residents."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Capital Gains",
+                                    "values": [
+                                        "10%",
+                                        "Applied on the profit from the sale of assets."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "sv-acc-insights",
+                    "type": "insights",
+                    "title": "Accounting & Audit Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "IFRS Adoption",
+                                "text": "El Salvador has fully adopted IFRS (Full and for SMEs). Local statutory accounting must be maintained in Spanish and USD."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Mandatory Auditor",
+                                "text": "Companies with assets over $34,285 or annual sales over $57,142 must appoint an external auditor (Auditor Fiscal)."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Electronic Invoicing",
+                                "text": "The Ministry of Finance is mandating 'Factura Electrónica' (DTE). Ensure your accounting software is compatible with government APIs."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "sv-acc-essentials",
+                    "type": "essentials",
+                    "title": "Statutory Bookkeeping",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Legal Books",
+                                "text": "Daily Book, General Ledger, Inventory/Financial Statement Book, and VAT Purchase/Sales Books must be legalized."
+                            },
+                            {
+                                "title": "Retention Taxes",
+                                "text": "Services provided by individuals are subject to a 10% income tax withholding (Retention)."
+                            },
+                            {
+                                "title": "Fiscal Year",
+                                "text": "Strictly January 1st to December 31st."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "sv-acc-faq",
+                    "type": "faq",
+                    "title": "Accounting FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I keep my books in a foreign currency?",
+                                "answer": "No, legal books and tax filings must be expressed in US Dollars (USD)."
+                            },
+                            {
+                                "question": "How long should I keep accounting records?",
+                                "answer": "The statute of limitations for tax audits is generally 3-5 years, but it's recommended to keep records for 10 years."
+                            },
+                            {
+                                "question": "Are software licenses taxable for VAT?",
+                                "answer": "Yes, 13% VAT applies to digital services provided from abroad if consumed in El Salvador."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "sv-comp-audit",
+                    "type": "key_steps",
+                    "title": "Compliance Audit Workflow",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Regulatory Review",
+                                "description": "Monthly check against updated Labor, Tax, and Social Security decrees from the 'Diario Oficial'."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "AML/KYC Screening",
+                                "description": "Screening all local suppliers and high-value clients against global and local PEP/Sanction lists as per UIFAF regulations."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Health & Safety Filing",
+                                "description": "Submitting the annual Occupational Health and Safety report to the Ministry of Labor."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Data Privacy Impact",
+                                "description": "Reviewing data storage practices to ensure compliance with the Personal Data Protection Law (especially for HR data)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Compliance Certification",
+                                "description": "Obtaining the 'Solvencia' certificates from ISSS, AFP, and Hacienda to participate in public or large-scale private bids."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "sv-comp-risks",
+                    "type": "cost_breakdown",
+                    "title": "Compliance Risk Matrix",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Area",
+                                "Critical Requirement",
+                                "Penalty Risk"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Labor Law",
+                                    "values": [
+                                        "Mandatory 90% local staff ratio.",
+                                        "High - Fines per non-compliant head."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Social Security",
+                                    "values": [
+                                        "Payment by the 15th of the month.",
+                                        "Medium - Interest and civil liability."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Tax (DTE)",
+                                    "values": [
+                                        "Issuing electronic receipts for all sales.",
+                                        "High - Closure of business for 1-5 days."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Environment",
+                                    "values": [
+                                        "Disposal of e-waste/chemicals (if applicable).",
+                                        "Low/Medium - Operational suspensions."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "sv-comp-insights",
+                    "type": "insights",
+                    "title": "Corporate Compliance Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Ministry of Labor Audits",
+                                "text": "Audits are frequent and often unannounced. Ensure all physical employment contracts and safety equipment are on-site."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "AML Requirements",
+                                "text": "Law firms and accountants are 'Obligated Subjects' and must report suspicious transactions to the Financial Investigation Unit (UIF)."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Digital Solvency",
+                                "text": "Most compliance certificates can now be generated instantly online if the company is in good standing with 'Hacienda' and 'ISSS'."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "sv-comp-essentials",
+                    "type": "essentials",
+                    "title": "Key Compliance Laws",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Labor Code",
+                                "text": "The primary governing statute for all employment relationships."
+                            },
+                            {
+                                "title": "Law against Money Laundering",
+                                "text": "Requires a dedicated Compliance Officer for many sectors."
+                            },
+                            {
+                                "title": "Commercial Code",
+                                "text": "Governs the legal nature of companies and governance duties of directors."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "sv-comp-faq",
+                    "type": "faq",
+                    "title": "Compliance FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Who is responsible for corporate compliance?",
+                                "answer": "The Legal Representative is personally liable for the company's statutory compliance in El Salvador."
+                            },
+                            {
+                                "question": "Are there specific rules for foreign directors?",
+                                "answer": "Foreign directors must have a local Tax ID (NIT) even if they do not reside inEl Salvador."
+                            },
+                            {
+                                "question": "What happens if I miss an ISSS payment?",
+                                "answer": "The employee might be denied healthcare services, and the company will face a fine and automatic interest accrual."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "sv-tax-registration",
+                    "type": "key_steps",
+                    "title": "Tax Compliance Setup",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Obtain NIT/NRC",
+                                "description": "Applying for the Tax Identification Number (NIT) and Tax Registration Number (NRC) at the Ministry of Finance (Ministerio de Hacienda)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Electronic Invoicing (DTE)",
+                                "description": "Enrolling in the 'Factura Electrónica' system, which is mandatory for all new businesses to issue Electronic Tax Documents."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Withholding Agent Status",
+                                "description": "Setting up systems to automatically withhold 10% for professional services and 1% VAT for certain transactions as required by law."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Transfer Pricing Study",
+                                "description": "Preparing documentation for intercompany transactions if they exceed $571,429 annually with related parties."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Annual Finalization",
+                                "description": "Reconciling all monthly payments (F07, F14) with the annual income tax return (F11) by April."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "sv-tax-incentives",
+                    "type": "cost_breakdown",
+                    "title": "Corporate Tax Incentives",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Incentive Law",
+                                "Benefit",
+                                "Eligibility"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Services Export Law",
+                                    "values": [
+                                        "0% Income Tax",
+                                        "Companies exporting 100% of services (Tech, BPO)."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Free Trade Zone Law",
+                                    "values": [
+                                        "Exemption from VAT/Duties",
+                                        "Manufacturing/Industrial units located in designated zones."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Bitcoin Law",
+                                    "values": [
+                                        "No Capital Gains Tax",
+                                        "Transactions in BTC are exempt from capital gains tax."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Tourism Law",
+                                    "values": [
+                                        "Partial ROI credits",
+                                        "Investments in tourism infrastructure over $25k."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "sv-tax-insights",
+                    "type": "insights",
+                    "title": "Strategic Tax Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Territoriality",
+                                "text": "El Salvador generally follows a territorial tax system, meaning only income generated within the country is taxed."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "VAT Recovery",
+                                "text": "Foreign companies exporting services can claim a refund of the VAT paid on local inputs, improving cash flow."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Bitcoin Volatility",
+                                "text": "While BTC is legal tender, companies must maintain accounting in USD. Tax liabilities must be settled in USD equivalents at the time of transaction."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "sv-tax-types",
+                    "type": "essentials",
+                    "title": "Key Tax Categories",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "VAT (IVA)",
+                                "text": "13% applied to almost all commerce. Refundable for exporters."
+                            },
+                            {
+                                "title": "Ad-valorem Taxes",
+                                "text": "Specific taxes on alcohol, tobacco, and sugar-sweetened beverages."
+                            },
+                            {
+                                "title": "Municipal Taxes",
+                                "text": "Based on the company's asset value and varies by municipality (usually around 0.1% to 0.5%)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "sv-tax-faq",
+                    "type": "faq",
+                    "title": "Tax FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the deadline for monthly tax filing?",
+                                "answer": "The 10th business day of each month for VAT and income tax withholdings."
+                            },
+                            {
+                                "question": "Are foreign dividends taxed?",
+                                "answer": "Dividends sent abroad are subject to a 5% withholding tax unless a treaty provides otherwise (SV has few treaties)."
+                            },
+                            {
+                                "question": "Can I pay taxes in Bitcoin?",
+                                "answer": "The government accepts BTC for tax payments via the Chivo platform or authorized bank portals."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "MSA & Legal in El Salvador",
+                "subtitle": "Comprehensive guide to MSA & Legal in El Salvador",
+                "description": "Detailed insights and providers for MSA & Legal in El Salvador.",
+                "bestFor": "Global expansion teams",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "sv-legal-contracting",
+                    "type": "key_steps",
+                    "title": "Legal Contracting Workflow",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Drafting in Spanish",
+                                "description": "Ensuring all Master Service Agreements (MSA) have a valid Spanish version for legal standing in Salvadoran courts."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Notarial Certification",
+                                "description": "Having key signatures authenticated by a local Notary Public for increased evidentiary value."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "IP Clause Hardening",
+                                "description": "Explicitly defining 'Work for Hire' in the context of Chapter III of the Intellectual Property Law of El Salvador."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Arbitration Agreement",
+                                "description": "Including a clause to resolve disputes via the Chamber of Commerce Arbitration Center (CCIES) to avoid slow public courts."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Electronic Signature Setup",
+                                "description": "Implementing 'Firma Electrónica Certificada' for legally binding digital agreements under the Electronic Signature Law."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "sv-legal-services",
+                    "type": "cost_breakdown",
+                    "title": "Standard Legal Service Fees",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service",
+                                "Estimated Fee (USD)",
+                                "Timeline"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "MSA Drafting & Review",
+                                    "values": [
+                                        "$800 - $1,500",
+                                        "3-5 Business Days"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Trademark Registration",
+                                    "values": [
+                                        "$400 + government fees",
+                                        "6-9 Months"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Notarial Authentication",
+                                    "values": [
+                                        "$50 - $150 per signature",
+                                        "Same Day"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Legal Opinion (FDI)",
+                                    "values": [
+                                        "$2,000+",
+                                        "10-15 Business Days"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "sv-legal-insights",
+                    "type": "insights",
+                    "title": "MSA & Legal Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Civil Law System",
+                                "text": "El Salvador uses a Civil Law system; written statutes and codes take precedence over previous court rulings (precedents)."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Jurisdiction Issues",
+                                "text": "Foreign choices of law are often valid, but labor and tax matters always remain under the exclusive jurisdiction of Salvadoran law."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "IP Protection",
+                                "text": "Register your trademarks and patents with the CNR (Registro de la Propiedad Intelectual) as protection is strictly 'First-to-file'."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "sv-legal-essentials",
+                    "type": "essentials",
+                    "title": "Contractual Best Practices",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Dual Language",
+                                "text": "Always use side-by-side Spanish/English formatting for MSAs to avoid translation disputes."
+                            },
+                            {
+                                "title": "Notary Role",
+                                "text": "In El Salvador, a Notary is a highly qualified lawyer who provides public faith to acts and contracts."
+                            },
+                            {
+                                "title": "Force Majeure",
+                                "text": "Explicitly include clauses for social unrest or volcanic/seismic activity, which are standard in the region."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "sv-legal-faq",
+                    "type": "faq",
+                    "title": "Legal FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I use DocuSign for MSAs in El Salvador?",
+                                "answer": "Yes, it is generally accepted, but for high-value assets or real estate, a certified 'Firma Electrónica' or physical notary is required."
+                            },
+                            {
+                                "question": "How long do commercial disputes take?",
+                                "answer": "Public courts can take 2-4 years; arbitration centers usually resolve issues within 6-12 months."
+                            },
+                            {
+                                "question": "Is non-compete enforceable?",
+                                "answer": "Yes, provided it is reasonable in time (usually 1-2 years), geography, and includes compensation."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software in El Salvador",
+                "subtitle": "Comprehensive guide to Software in El Salvador",
+                "description": "Detailed insights and providers for Software in El Salvador.",
+                "bestFor": "Global expansion teams",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "sv-sw-adoption",
+                    "type": "key_steps",
+                    "title": "Software Implementation Roadmap",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Infrastructure Audit",
+                                "description": "Evaluating local bandwidth and legal requirements for data residency before selecting cloud vs. on-premise solutions."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Solution Evaluation",
+                                "description": "Comparing global SaaS (Microsoft, Google) with regional ERP providers like Softland or Itecna for better localized support."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Vendor Negotiation",
+                                "description": "Negotiating enterprise licenses often through local 'Resellers' to secure better terms and in-country support SLAs."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Localization & API",
+                                "description": "Configuring software for Spanish language and connecting with local government APIs (Hacienda/DTE) for electronic invoicing."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Deployment & Support",
+                                "description": "Phased rollout with training sessions in Spanish. Setting up a local helpdesk or ticket system for employees."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "sv-sw-costs",
+                    "type": "cost_breakdown",
+                    "title": "Software Licensing Benchmarks",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Software Category",
+                                "Global Solution",
+                                "Local/Regional Alternative",
+                                "Est. Monthly Cost"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "ERP & CRM",
+                                    "values": [
+                                        "Salesforce / SAP",
+                                        "Softland / ERP-GT",
+                                        "$50 - $200 per user"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Productivity",
+                                    "values": [
+                                        "Microsoft 365 / Workspace",
+                                        "Open Source (uncommon)",
+                                        "$8 - $25 per user"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Cybersecurity",
+                                    "values": [
+                                        "Crowdstrike / SentinelOne",
+                                        "Local MSSP Managed",
+                                        "$10 - $30 per endpoint"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Accounting",
+                                    "values": [
+                                        "QuickBooks Online",
+                                        "Contaportable (SV)",
+                                        "$15 - $40 per month"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "sv-sw-insights",
+                    "type": "insights",
+                    "title": "Tech Ecosystem Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Cloud Growth",
+                                "text": "Azure and AWS have a strong presence via local partners. Government digitalization is driving cloud adoption across all sectors."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "FinTech Ready",
+                                "text": "El Salvador is a leader in regional FinTech due to the Bitcoin Law; many software systems now require BTC-lightning wallet integrations."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Connectivity Risks",
+                                "text": "While urban centers have fiber, redundancy is key. Always implement offline-first features for mission-critical industrial software."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "sv-sw-essentials",
+                    "type": "essentials",
+                    "title": "Enterprise Software Must-haves",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "DTE Ready",
+                                "text": "Systems must be able to generate and sign JSON files for the Salvadoran Electronic Invoice (DTE) format."
+                            },
+                            {
+                                "title": "Bilingual Support",
+                                "text": "Technical support during US Central Time and in Spanish is a high-priority requirement."
+                            },
+                            {
+                                "title": "Data Privacy",
+                                "text": "Compliance with the Law on Personal Data Protection regarding storage location and encryption."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "sv-sw-faq",
+                    "type": "faq",
+                    "title": "Software FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I buy software licenses directly from US vendors?",
+                                "answer": "Yes, but you may be subject to a 10% withholding tax on 'Regalías' (Royalties) if not managed correctly."
+                            },
+                            {
+                                "question": "Is Bitcoin accepted for SaaS payments?",
+                                "answer": "Major local providers and some global ones via BitPay accept it. The government ecosystem (Chivo) supports it natively."
+                            },
+                            {
+                                "question": "What is the typical internet speed for office software?",
+                                "answer": "Fiber plans range from 100Mbps to 1Gbps at competitive prices in San Salvador."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing in El Salvador",
+                "subtitle": "Comprehensive guide to Marketing in El Salvador",
+                "description": "Detailed insights and providers for Marketing in El Salvador.",
+                "bestFor": "Global expansion teams",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "sv-mkt-campaign",
+                    "type": "key_steps",
+                    "title": "Campaign Launch Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Cultural Alignment",
+                                "description": "Reviewing creative assets to ensure Salvadoran Spanish nuances (voseo) and cultural relevance."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Platform Strategy",
+                                "description": "Allocating budget primarily to Facebook (Meta) and WhatsApp, which are the most used platforms in the country."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Influencer Selection",
+                                "description": "Partnering with local Salvadoran YouTubers and TikTokers who have high demographic alignment with the target audience."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "OOH Integration",
+                                "description": "Booking physical billboards (Vallas) in high-traffic zones like Carretera a Santa Tecla or Multiplaza area."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Performance Tracking",
+                                "description": "Real-time monitoring of conversion rates using UTM tags and localized landing pages."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "sv-mkt-costs",
+                    "type": "cost_breakdown",
+                    "title": "Marketing Budget Benchmarks",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Channel",
+                                "Standard Package",
+                                "Est. Monthly Cost (USD)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Media Management",
+                                    "values": [
+                                        "3 Platforms, Daily Posts, Community Mgmt",
+                                        "$500 - $1,200"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "PPC Management",
+                                    "values": [
+                                        "Google Ads + Meta Ads Optimization",
+                                        "$300 - $800 + Spend"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "SEO Services",
+                                    "values": [
+                                        "Technical SEO + Local Keyword Targeting",
+                                        "$600 - $1,500"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Video Production",
+                                    "values": [
+                                        "30s Ad Spot (Professional)",
+                                        "$1,500+"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "sv-mkt-insights",
+                    "type": "insights",
+                    "title": "Market Entry Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Facebook Dominance",
+                                "text": "Facebook remains the undisputed leader for both B2C and B2B lead generation in El Salvador."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "WhatsApp Commerce",
+                                "text": "Integrating WhatsApp into your sales funnel is critical; Salvadorans prefer direct messaging over email for inquiries."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Language Nuance",
+                                "text": "Avoid 'Neutral Spanish' for high-impact campaigns. 'Voseo' (using 'vos' instead of 'tú') is essential for local authenticity."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "sv-mkt-agencies",
+                    "type": "essentials",
+                    "title": "Agency Landscape",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Global Networks",
+                                "text": "Ogilvy, McCann, and Publicis have established offices in San Salvador serving regional clients."
+                            },
+                            {
+                                "title": "Local Boutiques",
+                                "text": "Numerous creative boutiques excel in digital-first and influencer-led strategies."
+                            },
+                            {
+                                "title": "BPO Marketing",
+                                "text": "The country is a hub for offshore marketing services (Ad-ops, Design) serving the US market."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "sv-mkt-faq",
+                    "type": "faq",
+                    "title": "Marketing FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is advertising in Bitcoin allowed?",
+                                "answer": "Yes, but prices must also be shown in USD as per consumer protection laws (Defensoría del Consumidor)."
+                            },
+                            {
+                                "question": "What is the VAT on digital ads?",
+                                "answer": "13% VAT applies to ad spend invoiced locally. For direct spend on Meta/Google, it depends on your billing entity."
+                            },
+                            {
+                                "question": "Which is the top-rated influencer platform?",
+                                "answer": "TikTok has seen the fastest growth, especially for Gen Z and Millennials in El Salvador."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

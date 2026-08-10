@@ -1,0 +1,1792 @@
+{
+    "name": "Guinea-Bissau",
+    "code": "GW",
+    "slug": "guinea-bissau",
+    "flag": "https://flagcdn.com/w160/gw.png",
+    "region": "Africa",
+    "languages": [
+        "Portuguese"
+    ],
+    "currencies": [
+        "XOF (West African CFA Franc)"
+    ],
+    "services": [
+        {
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "heroData": {
+                "title": "EOR/PEO Services in Guinea-Bissau",
+                "subtitle": "Compliant hiring without a local entity",
+                "description": "Expand into the Guinea-Bissau market through our Employer of Record (EOR) services. We handle the General Labor Act compliance, Portuguese-language contracts, and INPS social security filings while you manage your team directly.",
+                "bestFor": "Companies seeking fast market entry without the overhead of incorporation.",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "gw-eor-cost-1",
+                    "type": "cost_breakdown",
+                    "title": "Employment Cost Infrastructure 2025",
+                    "order": 1,
+                    "content": {
+                        "markdown": "### Strategic Cost Management\n\nEmployer costs in Guinea-Bissau are structured around the INPS system. Total employer burden typically ranges between 15% and 18% over the gross salary. Accurate budgeting requires accounting for the 2025 wage adjustments and the 19% VAT on service fees.",
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Rate / Amount",
+                                "Frequency"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "EOR Management Fee",
+                                    "values": [
+                                        "$500 - $950 per employee",
+                                        "Monthly"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Employer Social Security (INPS)",
+                                    "values": [
+                                        "14.0%",
+                                        "Monthly"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Social Security Contribution",
+                                    "values": [
+                                        "Included in 14%",
+                                        "Monthly"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Accrued 13th Month",
+                                    "values": [
+                                        "~8.33% of monthly base",
+                                        "Monthly Accrual"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Onboarding Fee",
+                                    "values": [
+                                        "$650 - $1,500 One-time",
+                                        "One-time"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Portuguese Contract Prep",
+                                    "values": [
+                                        "$450 fixed",
+                                        "Per hire"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Training & Equipment",
+                                    "values": [
+                                        "Variable",
+                                        "Startup"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "gw-eor-steps-1",
+                    "type": "key_steps",
+                    "title": "Employee Onboarding Workflow",
+                    "order": 2,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Portuguese Contract Drafting",
+                                "description": "Creation of mandatory Portuguese-language employment agreements following the General Labor Act (Lei Geral do Trabalho)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "KYC and Document Collection",
+                                "description": "Verification of National ID/Passport, residency status, and specialized credentials. For expats, this initiates the Long-Stay Visa process."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "INPS Registration",
+                                "description": "Enrolling the employee in the Instituto Nacional de Previdência Social (INPS) to secure health and pension benefits."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Statutory Medical Checkup",
+                                "description": "Ensuring the employee undergoes the required fitness-for-work examination at a recognized medical facility in Bissau."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Payroll & Tax Setup",
+                                "description": "Mapping bank details (BCEAO standards) and applying the latest progressive income tax (Imposto Profissional) logic."
+                            },
+                            {
+                                "stepNumber": 6,
+                                "title": "First Month Execution",
+                                "description": "Disbursement of net salary in CFA Francs (XOF) and filing of the first monthly social security returns."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gw-eor-insights-1",
+                    "type": "insights",
+                    "title": "Strategic Hiring Intelligence",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Portuguese Language Mandate",
+                                "text": "All official labor documentation, including contracts and payslips, must be in Portuguese to be legally recognized by the Labor Inspectorate."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "CFA Franc Peg",
+                                "text": "The XOF is pegged to the Euro (655.957). While this provides stability, ensure your EOR partner manages local currency disbursements to avoid exchange leakage."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Rice Allowance Custom",
+                                "text": "It is customary (and often expected) in Guinea-Bissau to provide a monthly bag of rice or equivalent allowance to employees as a standard benefit."
+                            },
+                            {
+                                "type": "important",
+                                "title": "2025 Wage Adjustments",
+                                "text": "A phased 20% wage increase (12% in 2025, 8% in 2026) is being applied in several sectors. Ensure your salary simulations reflect these updates."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gw-eor-faq-1",
+                    "type": "faq",
+                    "title": "Hiring & EOR FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I hire expats via EOR in Guinea-Bissau?",
+                                "answer": "Yes, but they require a Long-Stay Visa and work permit. The EOR assists with the local sponsorship and justification of the hire."
+                            },
+                            {
+                                "question": "What is the standard probation period?",
+                                "answer": "Probation is typically 1 month for staff and can be extended to 3-6 months for specialized or management roles."
+                            },
+                            {
+                                "question": "Are there mandatory bonuses?",
+                                "answer": "A 13th-month bonus is customary and should be explicitly stated in the employment contract whether it is included in the base or extra."
+                            },
+                            {
+                                "question": "What is the notice period for termination?",
+                                "answer": "Notice periods range from 8 to 30 days depending on the length of service and the specific terms of the 'Lei Geral do Trabalho'."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gw-eor-goodtoknow-1",
+                    "type": "good_to_know",
+                    "title": "Local Business Culture",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Personal Relationships",
+                                "text": "Business in Bissau is built on trust and personal visits. Regular face-to-face or video meetings are highly valued over email."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Religious Holidays",
+                                "text": "Respecting both Christian and Islamic holidays is critical for workforce management, as the country has significant populations of both."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gw-eor-essentials-1",
+                    "type": "essentials",
+                    "title": "Compliance Checkpoints",
+                    "order": 6,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Requirement",
+                                "Agency",
+                                "Importance"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "INPS Registration",
+                                    "values": [
+                                        "Social Security",
+                                        "Critical"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Labor Contract",
+                                    "values": [
+                                        "Ministry of Labor",
+                                        "Mandatory"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Local Bank Account",
+                                    "values": [
+                                        "Multiple Banks",
+                                        "Required for XOF"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "gw-pay-cost-1",
+                    "type": "cost_breakdown",
+                    "title": "Payroll Administration Budget",
+                    "order": 1,
+                    "content": {
+                        "markdown": "### Optimizing Payroll Costs\n\nPayroll costs in Guinea-Bissau include both the technology fee and the local compliance filing fees. Implementing a centralized system avoids the risks of manual error in a changing tax environment.",
+                        "table": {
+                            "headers": [
+                                "Service Component",
+                                "Est. Cost (SME)",
+                                "Frequency"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Payroll Processing Fee",
+                                    "values": [
+                                        "$25 - $60 per employee",
+                                        "Monthly"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Annual Tax Summary",
+                                    "values": [
+                                        "$400 - $800",
+                                        "Annual"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "INPS Filing Service",
+                                    "values": [
+                                        "Included in processing",
+                                        "Monthly"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "XOF Disbursement Fee",
+                                    "values": [
+                                        "$10 - $25 per batch",
+                                        "Monthly"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Support Retainer",
+                                    "values": [
+                                        "$200",
+                                        "Monthly"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "gw-pay-steps-1",
+                    "type": "key_steps",
+                    "title": "Monthly Payroll Cycle",
+                    "order": 2,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Data Collection",
+                                "description": "Consolidation of hours worked, overtime, and allowances (including the customary rice allowance) by the 20th."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Gross-to-Net Calculation",
+                                "description": "Application of the 8% employee INPS deduction and the progressive 'Imposto Profissional' brackets."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Internal Compliance Review",
+                                "description": "Secondary audit of the payroll register to ensure alignment with the 2025 Labor Act updates."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Fund Disbursement",
+                                "description": "Transfer of net salaries in XAF to employees' local Bissau bank accounts (BCEAO compliant)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Statutory Remittances",
+                                "description": "Payment of social security (14% employer + 8% employee) to INPS and tax withholdings to the DGCI."
+                            },
+                            {
+                                "stepNumber": 6,
+                                "title": "Payslip Distribution",
+                                "description": "Issuance of bilingual (Portuguese/English) payslips through a secure digital portal."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gw-pay-insights-1",
+                    "type": "insights",
+                    "title": "Payroll Intelligence 2025",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "19% VAT on Services",
+                                "text": "Effective 2025, payroll and professional service fees are subject to 19% VAT. This must be factored into your total administrative budget."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "BCEAO Reporting",
+                                "text": "All cross-border transfers into Guinea-Bissau for payroll must be reported to the BCEAO to avoid delays in fund clearance."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Digital Payslip Adoption",
+                                "text": "While paper is still common, the Ivorian and Bissau authorities are increasingly accepting digital records; switching early reduces admin overhead."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gw-pay-faq-1",
+                    "type": "faq",
+                    "title": "Payroll FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can we pay employees in USD or EUR?",
+                                "answer": "Legally, employees in Guinea-Bissau must be paid in the local currency, XOF (CFA Franc). Payments in foreign currency are restricted by exchange controls."
+                            },
+                            {
+                                "question": "What is the payroll tax deadline?",
+                                "answer": "INPS and income tax withholdings must generally be remitted by the 15th of the month following the payment."
+                            },
+                            {
+                                "question": "How are bonuses taxed?",
+                                "answer": "Bonuses are treated as taxable income and subject to the same progressive rates as the base salary."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gw-pay-goodtoknow-1",
+                    "type": "good_to_know",
+                    "title": "Financial Landscape",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Banking Infrastructure",
+                                "text": "Major banks like BDU (Banco da União) and BAO are the primary partners for large-scale payroll disbursements in Bissau."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Cash Culture",
+                                "text": "Despite digitization, some segments of the workforce still prefer physical cash; ensure your payroll provider manages these edge cases."
+                            },
+                            {
+                                "type": "important",
+                                "title": "Electronic Bank Transfers",
+                                "text": "For senior staff, electronic bank transfers (RTGS) are becoming the norm to ensure audit trails for tax compliance."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gw-pay-essentials-1",
+                    "type": "essentials",
+                    "title": "Payroll Checklist",
+                    "order": 1,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Item",
+                                "Target Date",
+                                "Responsible"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Salary Disbursement",
+                                    "values": [
+                                        "28th of month",
+                                        "Payroll Provider"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "INPS/Tax Remittance",
+                                    "values": [
+                                        "15th of next month",
+                                        "Client/Provider"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "gw-calc-essentials-1",
+                    "type": "essentials",
+                    "title": "Statutory Contributions 2025",
+                    "order": 1,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employee Rate",
+                                "Employer Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Security (INPS)",
+                                    "values": [
+                                        "6.0%",
+                                        "14.0%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Salary Tax (IPR)",
+                                    "values": [
+                                        "5.0% - 12.0%",
+                                        "N/A"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Accident Insurance",
+                                    "values": [
+                                        "N/A",
+                                        "2.0% - 4.0%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Total Burden Info",
+                                    "values": [
+                                        "Deducted from Gross",
+                                        "Add-on to Gross"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "gw-calc-insights-1",
+                    "type": "insights",
+                    "title": "Payroll Intelligence",
+                    "order": 2,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "IPR Progressive Bands",
+                                "text": "The Imposto Profissional de Rendimento (IPR) is applied progressively. Always ensure the latest 2025 bands are used for high-earning staff."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Rice Allowance Logic",
+                                "text": "Customary allowances like rice or transport may have specific tax-exempt ceilings. Consult local authorities for the 2025 thresholds."
+                            },
+                            {
+                                "type": "info",
+                                "title": "13th Month Customary",
+                                "text": "While not strictly mandatory for all, the 13th-month bonus is a standard expectation and should be included in your payroll budgeting."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "service": "EOR, PEO & AOR"
+        },
+        {
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "heroData": {
+                "title": "Entity Formation in Guinea-Bissau",
+                "icon": "incorporation-entity-setup",
+                "subtitle": "Localized business setup in Bissau",
+                "description": "Establish your legal presence in Guinea-Bissau with expert guidance. We navigate the CFCE 'One-Stop Shop', manage OHADA-compliant bylaws, and secure your local tax and trade licenses efficiently.",
+                "bestFor": "Companies planning long-term operations or large-scale investments in West Africa."
+            },
+            "sections": [
+                {
+                    "id": "gw-inc-cost-1",
+                    "type": "cost_breakdown",
+                    "title": "Incorporation Cost Matrix 2025",
+                    "order": 1,
+                    "content": {
+                        "markdown": "### Structuring Your Capital\n\nIncorporating in Guinea-Bissau is cost-effective compared to regional peers. The primary investment is the share capital, which must be deposited in local XAF accounts.",
+                        "table": {
+                            "headers": [
+                                "Formation Element",
+                                "Est. Cost (XOF)",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Minimum Share Capital (Lda)",
+                                    "values": [
+                                        "~1,000,000 XAF",
+                                        "Bank deposit required"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "CFCE Filing Fees",
+                                    "values": [
+                                        "150,000 XAF",
+                                        "Government fixed fee"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Notary & Authentication",
+                                    "values": [
+                                        "200,000 XAF",
+                                        "Estimate for bylaws"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Legal Advisory (Setup)",
+                                    "values": [
+                                        "1.2M - 3M XAF",
+                                        "Strategic consulting"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Office Lease (Bissau)",
+                                    "values": [
+                                        "Variable",
+                                        "Mandatory for registration"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "gw-inc-steps-1",
+                    "type": "key_steps",
+                    "title": "Incorporation Roadmap",
+                    "order": 2,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Entity Type Selection",
+                                "description": "Choosing between 'Sociedade por Quotas' (Lda) for SMEs or 'Sociedade Anónima' (SA) for larger capital structures."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Bylaws Drafting (OHADA)",
+                                "description": "Preparation of articles of association following the OHADA Uniform Act standards in Portuguese."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Capital Deposit",
+                                "description": "Opening a temporary bank account in Bissau to deposit the minimum regulatory capital."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "CFCE One-Stop Registration",
+                                "description": "Unified filing at the Centro de Formalização de Empresas for trade registry (RCCM) and tax ID (NUIF)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Publication & Notification",
+                                "description": "Announcement of the company formation in the Official Gazette (Boletim Oficial)."
+                            },
+                            {
+                                "stepNumber": 6,
+                                "title": "Final Licensing",
+                                "description": "Securing specific sector-based licenses (e.g., Telecom, Mining, Trade) required to begin operations."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gw-inc-insights-1",
+                    "type": "insights",
+                    "title": "Business Setup Intelligence",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "CFCE Efficiency",
+                                "text": "The CFCE has significantly reduced the time to incorporate, with simple setups often completed in under 10 business days."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Resident Manager Custom",
+                                "text": "While not strictly mandatory in all cases, having a local resident manager simplifies bank interactions and government liaison."
+                            },
+                            {
+                                "type": "important",
+                                "title": "Bissau Address Requirement",
+                                "text": "Every entity must have a physical registered address in Bissau for legal service and tax inspections."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gw-inc-faq-1",
+                    "type": "faq",
+                    "title": "Incorporation FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is OHADA?",
+                                "answer": "OHADA is the regional legal system ensuring standardized business law across 17 African countries, including Guinea-Bissau."
+                            },
+                            {
+                                "question": "Can 100% foreign ownership exist?",
+                                "answer": "Yes, in most sectors, Guinea-Bissau allows 100% foreign ownership of local companies."
+                            },
+                            {
+                                "question": "How long is the setup timeline?",
+                                "answer": "Expect 4-6 weeks for the full process including bank account opening and final licensing."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gw-inc-goodtoknow-1",
+                    "type": "good_to_know",
+                    "title": "Entity Governance",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Audit Requirements",
+                                "text": "SA entities and large Lda companies must appoint an external auditor (Revisor Oficial de Contas)."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Branch vs Subsidiary",
+                                "text": "Branches are simpler to set up initially but offer less liability protection for the parent company than a full subsidiary (Lda)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gw-inc-essentials-1",
+                    "type": "essentials",
+                    "title": "Standard Entity Types",
+                    "order": 6,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Min. Capital",
+                                "Liability"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Lda (S. por Quotas)",
+                                    "values": [
+                                        "1.0M XOF",
+                                        "Limited"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)"
+        },
+        {
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "heroData": {
+                "title": "Staffing Solutions in Guinea-Bissau",
+                "icon": "staffing-talent-acquisition",
+                "subtitle": "Connecting you with Bissau's top talent",
+                "description": "Source high-caliber professionals in Guinea-Bissau's growing economy. From local executive search to expat work permit management, our staffing services ensure you find the right skills with full legal compliance.",
+                "bestFor": "Companies needing specialized technical skills or local management teams in West Africa."
+            },
+            "sections": [
+                {
+                    "id": "gw-staff-cost-1",
+                    "type": "cost_breakdown",
+                    "title": "Recruitment & Talent Investment",
+                    "order": 1,
+                    "content": {
+                        "markdown": "### Strategic Talent Budgeting\n\nAttracting top-tier talent in Bissau requires a mix of competitive base salary and customary benefits. Recruitment fees are typically structured as a percentage of the annual gross salary.",
+                        "table": {
+                            "headers": [
+                                "Service Item",
+                                "Rate / Fee",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Executive Search Fee",
+                                    "values": [
+                                        "20% - 25% AGS",
+                                        "For C-suite & Management"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Contingency Recruitment",
+                                    "values": [
+                                        "15% - 18% AGS",
+                                        "Success-based fee"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Expat Work Permit Mgmt",
+                                    "values": [
+                                        "$1,200 - $2,500",
+                                        "Includes local sponsorship"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Background & KYC Vetting",
+                                    "values": [
+                                        "$250 per candidate",
+                                        "Criminal & academic checks"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Psychometric Testing",
+                                    "values": [
+                                        "Optional add-on",
+                                        "Available for tech roles"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "gw-staff-steps-1",
+                    "type": "key_steps",
+                    "title": "Recruitment Lifecycle",
+                    "order": 2,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Role Definition & Localization",
+                                "description": "Adapting job descriptions to match the Guinea-Bissau market and the 2025 Labor Act requirements."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Multi-Channel Sourcing",
+                                "description": "Leveraging local networks in Bissau, LinkedIn, and specialized West African talent portals."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Structured Interviewing",
+                                "description": "Conducting technical and cultural fit assessments, primarily in Portuguese or French."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Verification & Compliance",
+                                "description": "Deep-dive vetting of credentials, references, and eligibility for INPS registration."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Offer Management",
+                                "description": "Negotiating packages that include the customary rice allowance and 13th-month expectations."
+                            },
+                            {
+                                "stepNumber": 6,
+                                "title": "Onboarding Handover",
+                                "description": "Seamless transition to either the EOR or the client's local HR department."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gw-staff-insights-1",
+                    "type": "insights",
+                    "title": "Market Talent Intelligence",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Linguistic Diversity",
+                                "text": "While Portuguese is official, many professionals are also fluent in French or English. Bilingualism is a premium asset in Bissau."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Expat Justification",
+                                "text": "Hiring expats requires formal justification to the Ministry of Labor, proving that the specialized skill set is not locally available."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "University Partnerships",
+                                "text": "Connecting with local institutions like 'Universidade Amílcar Cabral' is effective for junior-level graduate recruitment."
+                            },
+                            {
+                                "type": "important",
+                                "title": "Work Permit Quotas",
+                                "text": "Certain industries have unofficial quotas for local vs. foreign staff. Navigating these requires strong local government relations."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gw-staff-faq-1",
+                    "type": "faq",
+                    "title": "Recruitment FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "How long does it take to hire a technical manager?",
+                                "answer": "The average timeline is 6-10 weeks, including sourcing, multi-stage interviews, and the standard notice period."
+                            },
+                            {
+                                "question": "Are there quotas for local hiring?",
+                                "answer": "While no fixed percentage exists for all sectors, the government strongly prioritizes 'Guineization' of the workforce."
+                            },
+                            {
+                                "question": "Can we hire remote contractors?",
+                                "answer": "Yes, but they must be compliant with local tax laws. We recommend the EOR model for long-term remote engagements to mitigate risk."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gw-staff-goodtoknow-1",
+                    "type": "good_to_know",
+                    "title": "Candidate Engagement",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Professionalism & Titles",
+                                "text": "In Bissau, formal titles (Dr., Eng., Professor) are used in business settings and should be respected during interviews."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Networking Culture",
+                                "text": "Much of Bissau's high-level talent is found through personal references and social circles rather than traditional job boards."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "service": "Staffing and Recruiting"
+        },
+        {
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "heroData": {
+                "title": "Accounting & Tax Compliance in Bissau",
+                "icon": "accounting",
+                "subtitle": "OHADA-compliant financial management",
+                "description": "Ensure your Bissau entity remains in good standing with our comprehensive accounting services. From SYSCOHADA financial reporting to the new 19% VAT filings, we handle your local fiscal obligations with precision.",
+                "bestFor": "Companies with local entities (Lda/SA) requiring professional bookkeeping and statutory audit support."
+            },
+            "sections": [
+                {
+                    "id": "gw-acc-cost-1",
+                    "type": "cost_breakdown",
+                    "title": "Financial Management Budget",
+                    "order": 1,
+                    "content": {
+                        "markdown": "### Professional Accounting Fees\n\nOur fees are structured based on the volume of transactions and the complexity of the reporting requirements. Adherence to the OHADA Uniform Act is standard in all packages.",
+                        "table": {
+                            "headers": [
+                                "Service Tier",
+                                "Est. Monthly Fee",
+                                "Inclusions"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Core Bookkeeping",
+                                    "values": [
+                                        "$400 - $800",
+                                        "Monthly recording & VAT filing"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Full Managed Accounting",
+                                    "values": [
+                                        "$1,200 - $2,500",
+                                        "Reporting, Tax, and Audit prep"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Annual Tax Return (IRC)",
+                                    "values": [
+                                        "$1,000 - $2,000",
+                                        "Per fiscal year"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Statutory Audit Support",
+                                    "values": [
+                                        "Variable",
+                                        "Liaison with external auditors"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Transfer Pricing File",
+                                    "values": [
+                                        "$2,500+",
+                                        "Required for multinationals"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "gw-acc-steps-1",
+                    "type": "key_steps",
+                    "title": "Financial Compliance Cycle",
+                    "order": 2,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Chart of Accounts Setup",
+                                "description": "Mapping your local transactions to the SYSCOHADA (OHADA) uniform system of accounts."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Monthly Ledger Maintenance",
+                                "description": "Recording all local sales, expenses, and bank transactions in accordance with Bissau fiscal laws."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "VAT Reporting (19%)",
+                                "description": "Calculating and filing the monthly Value Added Tax returns by the 15th of each month."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Mid-Year Financial Review",
+                                "description": "Conducting a comprehensive audit of the ledgers to ensure tax health and accrual accuracy."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Year-End Closing",
+                                "description": "Finalizing the balance sheet and profit/loss statements for the annual general meeting (AGM)."
+                            },
+                            {
+                                "stepNumber": 6,
+                                "title": "Tax Declaration (IRC)",
+                                "description": "Submitting the corporate income tax return and paying final assessments to the DGCI."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gw-acc-insights-1",
+                    "type": "insights",
+                    "title": "Fiscal Intelligence 2025",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "VAT Implementation 2025",
+                                "text": "The transition from IGV to VAT (19%) requires updated invoicing software and precise input/output tax tracking to reclaim credits."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "SYSCOHADA Standards",
+                                "text": "All financial statements must be submitted in the standardized OHADA format; manual spreadsheets are often insufficient for larger entities."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Corporate Tax Incentives",
+                                "text": "Incentives exist for investments in agribusiness and renewable energy. Consult with our team to optimize your tax position in Bissau."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gw-acc-faq-1",
+                    "type": "faq",
+                    "title": "Accounting FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the corporate tax rate in Guinea-Bissau?",
+                                "answer": "The standard corporate income tax rate is 25%, though reduced rates may apply for specific sectors or sizes."
+                            },
+                            {
+                                "question": "When is the fiscal year?",
+                                "answer": "The fiscal year in Guinea-Bissau follows the calendar year (January 1 to December 31)."
+                            },
+                            {
+                                "question": "Are electronic invoices mandatory?",
+                                "answer": "While the adoption is growing, traditional stamped invoices from the DGCI are still the primary legal standard."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gw-comp-cost-1",
+                    "type": "cost_breakdown",
+                    "title": "Compliance Monitoring Costs",
+                    "order": 1,
+                    "content": {
+                        "markdown": "### Investing in Integrity\n\nCompliance costs are an essential hedge against regulatory risk. We provide tiered monitoring services tailored to your industry's specific risk profile.",
+                        "table": {
+                            "headers": [
+                                "Service Component",
+                                "Est. Pricing",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "AML/CFT Framework Setup",
+                                    "values": [
+                                        "$2,500 - $5,000",
+                                        "One-time internal policy manual"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Ongoing Compliance Audit",
+                                    "values": [
+                                        "$300 - $600",
+                                        "Monthly monitoring"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "KYC/Sanctions Screening",
+                                    "values": [
+                                        "$150 per entity",
+                                        "Global database check"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "RCCM Maintenance",
+                                    "values": [
+                                        "Included",
+                                        "Annual trade registry updates"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "gw-comp-steps-1",
+                    "type": "key_steps",
+                    "title": "Compliance Shield Workflow",
+                    "order": 2,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "CENTIF Registration",
+                                "description": "Registering the entity and the compliance officer with the Cellule Nationale de Traitement des Informations Financières (CENTIF)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "B.O. Registry Filing",
+                                "description": "Submitting details of Ultimate Beneficial Owners (UBO) as required by the 2024 transparency laws."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Internal Controls Audit",
+                                "description": "Reviewing local transaction monitoring and whistleblowing procedures for OHADA compliance."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Annual Board Reporting",
+                                "description": "Standardized summary of compliance health and regulatory changes for the company directors."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gw-comp-insights-1",
+                    "type": "insights",
+                    "title": "Regulatory Intelligence",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "important",
+                                "title": "WAEMU Harmonization",
+                                "text": "Guinea-Bissau is actively harmonizing its AML laws with the WAEMU region, meaning stricter reporting for cross-border XOF transfers."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Shell Company Restrictions",
+                                "text": "Entities without 'local substance' (office and staff) are facing increased scrutiny during bank account maintenance reviews."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "KYC Automation",
+                                "text": "Leveraging digital KYC tools for local onboarding can reduce compliance-related delays by up to 40% in the Bissau market."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gw-tax-cost-1",
+                    "type": "cost_breakdown",
+                    "title": "Tax Advisory Fee Structure",
+                    "order": 1,
+                    "content": {
+                        "markdown": "### Strategic Tax Budgeting\n\nOur tax services are priced competitively to support businesses through the 2025 VAT transition. Fees vary based on the scale of operations and the complexity of local vs. international tax treaties.",
+                        "table": {
+                            "headers": [
+                                "Service Type",
+                                "Estimated Fee",
+                                "Frequency"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Tax (IRC) Filing",
+                                    "values": [
+                                        "$1,500 - $3,000",
+                                        "Annual"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "VAT Compliance Retainer",
+                                    "values": [
+                                        "$500 - $1,200",
+                                        "Monthly"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Withholding Tax Mgmt",
+                                    "values": [
+                                        "$400",
+                                        "Monthly"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Tax Audit Representation",
+                                    "values": [
+                                        "$250 / hour",
+                                        "As needed"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Double Tax Treaty Review",
+                                    "values": [
+                                        "$2,000 fixed",
+                                        "Per review"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "gw-tax-steps-1",
+                    "type": "key_steps",
+                    "title": "Tax Compliance Workflow",
+                    "order": 2,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "NUIF Registration",
+                                "description": "Ensuring your entity has a valid Tax Identification Number (Número Único de Identificação Fiscal) at the DGCI."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Monthly VAT Submission",
+                                "description": "Analyzing sales and purchases to file the 19% VAT return by the 15th of each month."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Payroll Tax Remittance",
+                                "description": "Calculating and paying the monthly 'Imposto Profissional' withheld from employee salaries."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Quarterly IRC Pre-payments",
+                                "description": "Managing the mandatory installment payments of corporate income tax based on prior year turnover."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Annual Tax Declaration",
+                                "description": "Final preparation and submission of the Model 1 and Model 2 forms before the statutory deadline."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gw-tax-insights-1",
+                    "type": "insights",
+                    "title": "Bissau Tax Intelligence",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "VAT Reform 2025",
+                                "text": "The switch to a 19% VAT has significantly increased the formalization requirements for B2B transactions in Guinea-Bissau."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Withholding on Services",
+                                "text": "Payments to non-residents for technical services are subject to a significant withholding tax (standard 20%, often reduced by treaties)."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Electronic Filing Growth",
+                                "text": "The DGCI is modernizing. Utilizing their growing online portal for minor filings can save significant time over physical queues in Bissau."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gw-tax-faq-1",
+                    "type": "faq",
+                    "title": "Bissau Tax FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the standard VAT rate in 2025?",
+                                "answer": "The standard VAT rate is 19%. A reduced rate of 10% applies to some essential commodities like medicines."
+                            },
+                            {
+                                "question": "Are there penalties for late filing?",
+                                "answer": "Yes, late filings incur monthly interest and fixed fines which can scale with the tax liability."
+                            },
+                            {
+                                "question": "Does Guinea-Bissau have tax treaties?",
+                                "answer": "Yes, primarily within the WAEMU/UEMOA zone and with Portugal and some other Lusophone partners."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "service": "Finance, Tax and Accounting"
+        },
+        {
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "heroData": {
+                "title": "Digital HR Transformation in Bissau",
+                "icon": "hris",
+                "subtitle": "Modernizing workforce management",
+                "description": "Streamline your HR operations in Guinea-Bissau with digital solutions. From automated payslips in Portuguese to centralized leave management, our HRIS tools ensure compliance and efficiency in the West African region.",
+                "bestFor": "Growing teams needing to move beyond manual spreadsheets to a secure, compliant HR platform."
+            },
+            "sections": [
+                {
+                    "id": "gw-hris-cost-1",
+                    "type": "cost_breakdown",
+                    "title": "Software & Implementation",
+                    "order": 1,
+                    "content": {
+                        "markdown": "### Technology Investment\n\nTransitioning to an HRIS involves a per-user subscription model and a one-time setup fee to ensure all local Bissau labor rules are correctly programmed.",
+                        "table": {
+                            "headers": [
+                                "Cost Category",
+                                "Est. Pricing",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "License Fee (SaaS)",
+                                    "values": [
+                                        "$5 - $12 per user/mo",
+                                        "Scalable based on headcount"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Implementation Fee",
+                                    "values": [
+                                        "$1,500 - $3,500",
+                                        "Configuration & training"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Local Rule Customization",
+                                    "values": [
+                                        "Included",
+                                        "INPS & Labor Act logic"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Mobile App Access",
+                                    "values": [
+                                        "Free",
+                                        "For employee self-service"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "gw-hris-steps-1",
+                    "type": "key_steps",
+                    "title": "Digital Deployment Plan",
+                    "order": 2,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Needs Assessment",
+                                "description": "Defining your core HR requirements (leave, payroll, document storage) for the Guinea-Bissau market."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "System Configuration",
+                                "description": "Programming the local 2025 tax brackets and INPS rates into the payroll engine."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Data Migration",
+                                "description": "Securing local employee records and migrating them to the new encrypted cloud environment."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "User Training",
+                                "description": "Conducting workshops for HR admins and employees on how to use the portal in Portuguese."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gw-hris-insights-1",
+                    "type": "insights",
+                    "title": "Digital Workforce Insights",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Connectivity Focus",
+                                "text": "Ensure your HRIS provider has a mobile-first approach, as smartphone penetration is high among the professional tier in Bissau."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Audit Trail",
+                                "text": "Digital records provide an automated audit trail, making it significantly easier to respond to Labor Inspectorate inquiries."
+                            },
+                            {
+                                "type": "important",
+                                "title": "Data Privacy 2025",
+                                "text": "Ensure your HRIS complies with the latest West African data protection standards for storing sensitive employee information."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "service": "HRIS/HRMS/ATS"
+        },
+        {
+            "name": "M & A",
+            "serviceName": "M & A",
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "heroData": {
+                "title": "M&A Advisory in Guinea-Bissau",
+                "icon": "msa",
+                "subtitle": "Strategic growth and deal sourcing",
+                "description": "Unlock growth opportunities in Guinea-Bissau's key sectors. From agribusiness consolidation to mining assets, our MSA team provides local due diligence, OHADA-compliant deal structuring, and strategic valuation support.",
+                "bestFor": "Investment funds and corporate strategists looking to acquire or merge with existing Guinea-Bissau entities."
+            },
+            "sections": [
+                {
+                    "id": "gw-msa-cost-1",
+                    "type": "cost_breakdown",
+                    "title": "Transaction Fee Matrix",
+                    "order": 1,
+                    "content": {
+                        "markdown": "### Structuring the Deal\n\nFees for M&A advisory are typically split between a monthly retainer (work fee) and a success fee based on the total transaction value (Enterprise Value).",
+                        "table": {
+                            "headers": [
+                                "Service Element",
+                                "Est. Rate",
+                                "Type"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Retainer Fee",
+                                    "values": [
+                                        "$3,000 - $7,000",
+                                        "Monthly"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Legal Due Diligence",
+                                    "values": [
+                                        "$5,000 - $12,000",
+                                        "Flat fee per target"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Success Fee",
+                                    "values": [
+                                        "2% - 5% of EV",
+                                        "At closing"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Valuation Report",
+                                    "values": [
+                                        "$3,500",
+                                        "Per asset/entity"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "gw-msa-steps-1",
+                    "type": "key_steps",
+                    "title": "Deal Execution Roadmap",
+                    "order": 2,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Target Identification",
+                                "description": "Filtering local Bissau companies based on financial health, license status, and market share."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "NBO / Letter of Intent",
+                                "description": "Drafting and presenting the Non-Binding Offer with OHADA-compliant terminology."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Comprehensive Due Diligence",
+                                "description": "Deep-dive audit of tax records (DGCI), labor compliance (INPS), and historical trade registry (RCCM)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "SPA Negotiation",
+                                "description": "Finalizing the Share Purchase Agreement, ensuring all warranties and indemnities are legally enforceable in Bissau courts."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Closure & Registration",
+                                "description": "Executing the transfer of shares and updating the company's registry at the CFCE."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "gw-msa-insights-1",
+                    "type": "insights",
+                    "title": "Investment Intelligence",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Agribusiness Potential",
+                                "text": "The cashew processing sector is the primary target for consolidation as the government incentivizes local value-add over exports."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Trade Registry Latency",
+                                "text": "Physical record checks at the trade registry (RCCM) are still necessary as digital migration is incomplete in certain regions."
+                            },
+                            {
+                                "type": "important",
+                                "title": "OHADA Uniform Acts",
+                                "text": "All transaction documents must strictly adhere to the OHADA Uniform Act on Commercial Companies and Economic Interest Groups."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "service": "M & A"
+        },
+        {
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "heroData": {
+                "title": "Digital Infrastructure Solutions",
+                "icon": "software-solutions",
+                "subtitle": "Scalable technology for Bissau's enterprises",
+                "description": "Empower your business with modern software tailored for the Guinea-Bissau market. From Odoo ERP implementation to custom CRM development and secure cloud hosting, we provide the digital foundations for your growth.",
+                "bestFor": "Enterprises looking to automate operations, improve financial reporting, and secure their digital assets."
+            },
+            "sections": [
+                {
+                    "id": "gw-soft-cost-1",
+                    "type": "cost_breakdown",
+                    "title": "Technology Implementation Budget",
+                    "order": 1,
+                    "content": {
+                        "markdown": "### Budgeting for Digital Growth\n\nSoftware project costs in Bissau reflect the requirement for both robust offline capabilities and secure cloud synchronization. Implementation fees include localized training in Portuguese.",
+                        "table": {
+                            "headers": [
+                                "Solution Type",
+                                "Est. Setup Fee",
+                                "Annual License/Maint."
+                            ],
+                            "rows": [
+                                {
+                                    "label": "ERP Implementation (Odoo/SME)",
+                                    "values": [
+                                        "$5,000 - $15,000",
+                                        "$1,200+"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Custom CRM Development",
+                                    "values": [
+                                        "$8,000 - $12,000",
+                                        "$2,000"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Localized Accounting Software",
+                                    "values": [
+                                        "$3,000",
+                                        "$800"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Enterprise Cybersecurity Audit",
+                                    "values": [
+                                        "$4,500",
+                                        "N/A"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Cloud Infrastructure (Hosting)",
+                                    "values": [
+                                        "N/A",
+                                        "$1,500 - $5,000"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "gw-soft-steps-1",
+                    "type": "key_steps",
+                    "title": "Implementation Roadmap",
+                    "order": 2,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Requirement Discovery",
+                                "description": "Analyzing your workflow through the lens of local Bissau operational realities and infrastructure constraints."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Localized Customization",
+                                "description": "Adapting UI/UX for Portuguese/French users and integrating OHADA accounting logic into the system."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Infrastructure Setup",
+                                "description": "Deploying servers or configuring secure cloud environments with fallback systems for power/internet stability."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "User Acceptance Testing (UAT)",
+                                "description": "Piloting the solution with key local staff to ensure it meets operational needs in Bissau."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Deployment & Staff Training",
+                                "description": "Full rollout supported by hands-on training sessions in Portuguese for the entire team."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "service": "Software & Technology Solutions"
+        },
+        {
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "heroData": {
+                "title": "Marketing & Brand Strategy in Bissau",
+                "icon": "marketing-agencies",
+                "subtitle": "Build your brand across the Lusophone market",
+                "description": "Connect with consumers in Guinea-Bissau through high-impact marketing strategies. We combine traditional media leverage with high-growth digital channels like Facebook and Messenger to amplify your brand presence.",
+                "bestFor": "FMCG brands, financial services, and telecom companies looking to capture market share in Bissau."
+            },
+            "sections": [
+                {
+                    "id": "gw-mark-cost-1",
+                    "type": "cost_breakdown",
+                    "title": "Media & Campaign Costs 2025",
+                    "order": 1,
+                    "content": {
+                        "markdown": "### Marketing Investment Efficiency\n\nMarketing costs in Bissau are highly optimized for localized reach. Digital channels currently offer the best ROI for targeting the professional and urban demographics.",
+                        "table": {
+                            "headers": [
+                                "Channel / Service",
+                                "Est. Monthly Spend",
+                                "Expected Reach"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Media Mgmt (Meta/WA)",
+                                    "values": [
+                                        "$600 - $1,500",
+                                        "50k - 150k impressions"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Digital Ad Spend (Meta/Google)",
+                                    "values": [
+                                        "$500 - $2,500",
+                                        "Targeted per CPC"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Radio Advertising (Bissau)",
+                                    "values": [
+                                        "$400 - $800",
+                                        "Mass urban/rural audience"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Out-of-Home (OOH/Banners)",
+                                    "values": [
+                                        "$1,000+",
+                                        "Key traffic corridors"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Influencer Engagement",
+                                    "values": [
+                                        "$300 - $1,000",
+                                        "Niche Bissau communities"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "gw-mark-insights-1",
+                    "type": "insights",
+                    "title": "Bissau Market Insights",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Digital Growth 2025",
+                                "text": "Social media reach in Guinea-Bissau has increased to over 36% of the adult population, with Facebook and Messenger dominating."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Linguistic Content Strategy",
+                                "text": "While Portuguese is professional, using 'Kriol' (Guinea-Bissau Creole) in social media copy significantly increases engagement for consumer brands."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Influencer Impact",
+                                "text": "Local musicians and cultural figures in Bissau hold significant sway; partnerships with these 'key opinion leaders' are highly effective."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "service": "MARKETING AGENCY"
+        }
+    ]
+}

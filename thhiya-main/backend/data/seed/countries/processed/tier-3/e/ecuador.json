@@ -1,0 +1,1956 @@
+{
+    "name": "Ecuador",
+    "code": "EC",
+    "slug": "ecuador",
+    "flag": "https://flagcdn.com/w160/ec.png",
+    "region": "Americas",
+    "languages": [
+        "Spanish",
+        "Kichwa",
+        "Shuar"
+    ],
+    "currencies": [
+        "USD"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR & PEO in Ecuador",
+                "subtitle": "Comprehensive guide to EOR & PEO in Ecuador",
+                "description": "Detailed insights and providers for EOR & PEO in Ecuador.",
+                "bestFor": "Global expansion teams",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "ec-eor-providers",
+                    "type": "cost_breakdown",
+                    "title": "Top EOR Providers",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Provider",
+                                "Specialty",
+                                "Est. Cost"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Deel",
+                                    "values": [
+                                        "Global Tech/Remote",
+                                        "$599/mo"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Ontop",
+                                    "values": [
+                                        "LatAm Specialist",
+                                        "$29/mo (Contractor)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Remote",
+                                    "values": [
+                                        "IP Protection Focus",
+                                        "Standard"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ec-eor-regulations",
+                    "type": "key_steps",
+                    "title": "Mandato 8 & Outsourcing",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Core vs Complementary",
+                                "description": "Mandato 8 prohibits outsourcing 'core' business activities. EOR is legal only for specialized services not central to the local entity's main purpose."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Joint Liability",
+                                "description": "The client company is jointly liable (Responsabilidad Solidaria) for all labor obligations if the EOR fails to pay."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Direct Hire Preference",
+                                "description": "Ecuadorian law strongly favors direct employment. Long-term EOR arrangements can be reclassified as direct employment by courts."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ec-eor-risks",
+                    "type": "insights",
+                    "title": "EOR Risks & Considerations",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Permanent Establishment",
+                                "text": "Having senior managers or sales agents acting through an EOR can trigger PE status for the foreign parent company."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Employee Tenure",
+                                "text": "Employees often prefer direct hires due to job security perception. EORs are seen as temporary."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Benefits Parity",
+                                "text": "Ensure EOR employees receive the same statutory benefits (13th/14th/Profits) as they would if hired directly."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ec-eor-process",
+                    "type": "key_steps",
+                    "title": "EOR Onboarding Timeline",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "KYC & MSA",
+                                "description": "Client passes compliance checks and signs Master Services Agreement (1-3 Days)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Employee Data Collection",
+                                "description": "Provider collects bank details, ID copies, and beneficiary info (1-2 Days)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Contract Registration",
+                                "description": "Contract is signed and registered with SUT (Ministry of Labor) (1 Day)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "IESS Affiliation",
+                                "description": "Employee is affiliated with Social Security from Day 1 (Immediate)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ec-eor-faq",
+                    "type": "faq",
+                    "title": "EOR FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is EOR 100% legal?",
+                                "answer": "It operates in a gray area under 'Prestación de Servicios Especializados'. Indefinite use for core roles acts against Mandato 8 spirit."
+                            },
+                            {
+                                "question": "Can we terminate at will?",
+                                "answer": "No. 'Despido Intempestivo' (Unjustified Dismissal) carries a penalty of 1 year of salary (if <3 years tenure) or more."
+                            },
+                            {
+                                "question": "What is the probation period?",
+                                "answer": "90 days maximum. Termination during this period is penalty-free."
+                            },
+                            {
+                                "question": "Does EOR cover profit sharing?",
+                                "answer": "Yes, legally the EOR is the employer and must distribute its profits. However, since EORs have low margins/profits per head, this creates disparity."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ec-payroll-taxes",
+                    "type": "cost_breakdown",
+                    "title": "Employer Contributions",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Item",
+                                "Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "IESS (Social Security)",
+                                    "values": [
+                                        "11.15%",
+                                        "Employer contribution part."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "SECAP & IECE",
+                                    "values": [
+                                        "1.0%",
+                                        "Training (0.5%) and Student Loan (0.5%) Taxes."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Reserve Fund",
+                                    "values": [
+                                        "8.33%",
+                                        "Payable monthly or yearly after Year 1."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Total Load",
+                                    "values": [
+                                        "~21-25%",
+                                        "Includes 13th/14th provisions."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ec-payroll-benefits",
+                    "type": "key_steps",
+                    "title": "Mandatory Bonuses",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "13th Salary (Bono Navideño)",
+                                "description": "One month's salary paid by Dec 24th. Tax-free."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "14th Salary (Bono Escolar)",
+                                "description": "One Unified Basic Salary (SBU, $460 in 2025). Paid in March (Coast) or August (Sierra)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "15% Profit Sharing",
+                                "description": "15% of net pre-tax profits must be distributed. 10% to all employees, 5% based on family dependents."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ec-payroll-banking",
+                    "type": "insights",
+                    "title": "Banking & Payments",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Check Payments",
+                                "text": "Paying salaries by check is outdated and legally risky. Direct bank transfer is the standard proof of payment."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Combined Accounts",
+                                "text": "Payroll payments are often done via 'Cash Management' files uploaded to banks like Pichincha, Produbanco, or Guayaquil."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Currency (USD)",
+                                "text": "Ecuador uses the US Dollar. No FX conversion is needed for US companies, simplifying payroll funding."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ec-payroll-schedule",
+                    "type": "key_steps",
+                    "title": "Monthly Payroll Cycle",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Update Novelties",
+                                "description": "Report overtime, vacations, and sick leave by the 25th of the month."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Calculate Provisions",
+                                "description": "Accrue 13th, 14th, and Vacation portions to avoid cash flow shock in Dec/Apr."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Disbursement",
+                                "description": "Pay net salary to employees by the last working day of the month/start of next."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "IESS Payment",
+                                "description": "Submit employer/employee contributions to IESS by the 15th of the following month."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ec-payroll-faq",
+                    "type": "faq",
+                    "title": "Payroll FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the 2025 Minimum Wage?",
+                                "answer": "USD $460.00 per month (SBU)."
+                            },
+                            {
+                                "question": "Is profit sharing capped?",
+                                "answer": "Yes, the individual distribution is capped at 24 times the Unified Basic Salary (SBU)."
+                            },
+                            {
+                                "question": "Are bonuses taxable?",
+                                "answer": "13th and 14th salaries are exempt from Income Tax and IESS contributions."
+                            },
+                            {
+                                "question": "What about overtime?",
+                                "answer": "Saturdays/Sundays are 100% surcharge. Weeknight overtime is 50%. Night shift (7pm-6am) has a 25% surcharge."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ec-payroll-steps",
+                    "type": "key_steps",
+                    "title": "Calculation Methodology",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Start with Base",
+                                "description": "Identify Unified Basic Salary (SBU) or contracted monthly salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Add Overtime",
+                                "description": "Calculate 50% or 100% surcharges based on hours worked."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Deduct IESS",
+                                "description": "Subtract 9.45% (Employee Contribution) from the total income."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Deduct Tax",
+                                "description": "Apply Income Tax (Impuesto a la Renta) withholding based on the annual projection."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ec-payroll-calc",
+                    "type": "cost_breakdown",
+                    "title": "Employer Cost Example ($1000)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Item",
+                                "Calculation",
+                                "Cost (USD)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Gross Salary",
+                                    "values": [
+                                        "Base",
+                                        "$1,000.00"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "IESS (Employer)",
+                                    "values": [
+                                        "12.15%",
+                                        "$121.50"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "13th Salary (Accrual)",
+                                    "values": [
+                                        "1/12th",
+                                        "$83.33"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "14th Salary (Accrual)",
+                                    "values": [
+                                        "$460 / 12",
+                                        "$38.33"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Reserve Fund",
+                                    "values": [
+                                        "8.33% (after Year 1)",
+                                        "$83.33"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Total Estimated",
+                                    "values": [
+                                        "~32.6% Load",
+                                        "~$1,326.49"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ec-payroll-disclaimer",
+                    "type": "insights",
+                    "title": "Variable Costs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "15% Profit Sharing",
+                                "text": "Not included in the monthly calc. Companies must distribute 15% of annual pre-tax profits to employees in April."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Vacation",
+                                "text": "15 days per year (standard). After 5 years, add 1 day per year. Unused vacation is paid out upon termination."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Reserve Fund",
+                                "text": "8.33% monthly or accumulated. Must be paid directly to IESS or the employee (if requested)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ec-payroll-hidden",
+                    "type": "insights",
+                    "title": "Hidden Costs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Maternity Leave",
+                                "text": "12 weeks paid. Employer pays 25%, IESS pays 75%. If IESS liability exists, Employer pays 100%."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Paternity Leave",
+                                "text": "10 days paid (optional extension to 15 days in special cases)."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Severance Risk",
+                                "text": "Unjustified dismissal indemnification is high, deterring casual firing."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ec-calc-faq",
+                    "type": "faq",
+                    "title": "Calculator FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I pay in crypto?",
+                                "answer": "No. Salaries must be paid in legal tender (USD) via the financial system."
+                            },
+                            {
+                                "question": "Is insurance mandatory?",
+                                "answer": "IESS is mandatory. Private health insurance is optional but common as a benefit."
+                            },
+                            {
+                                "question": "How do I calculate severance?",
+                                "answer": "It depends on the cause. Unjustified dismissal is expensive (1 year salary min). Resignation (Desahucio) gets 25% of monthly salary per year served."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation in Ecuador",
+                "subtitle": "Comprehensive guide to Incorporation in Ecuador",
+                "description": "Detailed insights and providers for Incorporation in Ecuador.",
+                "bestFor": "Global expansion teams",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "ec-inc-sas",
+                    "type": "insights",
+                    "title": "The SAS Revolution",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Zero Minimum Capital",
+                                "text": "SAS (Sociedad por Acciones Simplificada) can be formed with $0 capital, though $400 is recommended for banks."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Digital Formation",
+                                "text": "Can be constituted via private document (no notary deed required), saving ~USD $500-800 in fees."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "One Shareholder",
+                                "text": "Unlike traditional S.A.s, an SAS can be owned by a single person (Foreign or Local)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ec-inc-steps",
+                    "type": "key_steps",
+                    "title": "Incorporation Process (SAS)",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Name Reservation",
+                                "description": "Reserve name with Superintendencia de Compañías (online)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Constitutive Act",
+                                "description": "Draft private bylaws appointing the Legal Representative (must be resident or foreign with Ecuador visa)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Registration",
+                                "description": "Register the SAS with the Superintendencia's Mercantile Registry."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Obtain RUC",
+                                "description": "Register with SRI (Tax Authority) to get the tax ID (RUC)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "IESS Employer ID",
+                                "description": "Register as an employer with the Social Security Institute."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ec-inc-costs",
+                    "type": "cost_breakdown",
+                    "title": "Setup Costs (Estimate)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Item",
+                                "Cost (USD)",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Legal Fees (Lawyer)",
+                                    "values": [
+                                        "$800 - $1,500",
+                                        "For drafting bylaws and handling filings."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Notary/Registry",
+                                    "values": [
+                                        "$50 - $100",
+                                        "Minimal for SAS. Higher for S.A."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Municipal Patent",
+                                    "values": [
+                                        "$20 - $50",
+                                        "Annual fee based on assets."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ec-inc-docs",
+                    "type": "insights",
+                    "title": "Document Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Apostille",
+                                "text": "Foreign shareholder documents (Power of Attorney, Good Standing) must be apostilled in the home country."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Translation",
+                                "text": "Documents not in Spanish must be translated by an accredited translator in Ecuador."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Visa",
+                                "text": "The foreign Legal Rep needs a temporary residence visa (Mercosur or Professional) to sign the RUC."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ec-inc-faq",
+                    "type": "faq",
+                    "title": "Incorporation FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Do I need a resident director?",
+                                "answer": "Yes, the Legal Representative must be an Ecuadorian citizen or a foreigner with a valid residency visa."
+                            },
+                            {
+                                "question": "How long does it take?",
+                                "answer": "SAS incorporation is fast—typically 2-4 weeks. Traditional S.A.s take 6-8 weeks."
+                            },
+                            {
+                                "question": "Is a physical office required?",
+                                "answer": "Yes, for the RUC and municipal patent (Patente Municipal), a local fiscal address is required."
+                            },
+                            {
+                                "question": "Can I open a bank account online?",
+                                "answer": "Partially. You can start the process, but the Legal Rep usually must sign in person at the bank."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Ecuador",
+                "subtitle": "Comprehensive guide to Staffing in Ecuador",
+                "description": "Detailed insights and providers for Staffing in Ecuador.",
+                "bestFor": "Global expansion teams",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "ec-staffing-channels",
+                    "type": "cost_breakdown",
+                    "title": "Recruitment Channels",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Channel",
+                                "Audience",
+                                "Cost"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Multitrabajos",
+                                    "values": [
+                                        "General Staffing",
+                                        "$$"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "LinkedIn",
+                                    "values": [
+                                        "Professionals/Execs",
+                                        "$$$"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Computrabajo",
+                                    "values": [
+                                        "Entry Level/Manual",
+                                        "$"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ec-staffing-compliance",
+                    "type": "key_steps",
+                    "title": "Hiring Compliance",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "SUT Registration",
+                                "description": "Contracts must be registered in the 'Sistema Único de Trabajo' (SUT) of the Ministry of Labor within 30 days."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Probation Period",
+                                "description": "Fixed at 90 days. Must be explicitly stated in the written contract."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Foreign Quota",
+                                "description": "At least 80% of the workforce must be Ecuadorian. Foreign hires need valid visas."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ec-staffing-culture",
+                    "type": "insights",
+                    "title": "Work Culture",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Hierarchy",
+                                "text": "Ecuadorian business culture is hierarchical. Decisions are typically made by the top executive."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Punctuality",
+                                "text": "While deadlines are important, meeting start times can be flexible ('Hora Ecuatoriana'). Be patient."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Termination",
+                                "text": "Firing is difficult. Documentation of poor performance (memos) is critical for a 'Visto Bueno' case."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ec-staffing-contracts",
+                    "type": "key_steps",
+                    "title": "Contract Types",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Indefinite Contract",
+                                "description": "The standard form. Can only be terminated for cause or with indemnification."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Special Types",
+                                "description": "Productive, Tourist, and Entrepreneurial contracts offered more flexibility but have specific sector requirements."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Telework",
+                                "description": "Legally recognized. Requires an addendum specifying equipment provision and disconnection rights."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ec-staffing-faq",
+                    "type": "faq",
+                    "title": "Staffing FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is 'Visto Bueno'?",
+                                "answer": "A procedure to request government approval for firing an employee for 'Just Cause' (e.g., absenteeism, insubordination)."
+                            },
+                            {
+                                "question": "Is background checking legal?",
+                                "answer": "Yes, requesting judicial records (Récord Policial) is common, but discrimination based on it is prohibited."
+                            },
+                            {
+                                "question": "Can I use fixed-term contracts?",
+                                "answer": "Strictly limited to temporary, occasional, or seasonal needs. Indefinite contracts are the default mandated by law."
+                            },
+                            {
+                                "question": "Are 13th/14th salaries mandatory?",
+                                "answer": "Yes, absolutely. They can be paid monthly (acumulado) if the employee requests it in writing."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ec-staffing-visas",
+                    "type": "cost_breakdown",
+                    "title": "Work Visas",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Visa Type",
+                                "Gov. Fee",
+                                "Duration"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Temporary Resident (Work)",
+                                    "values": [
+                                        "$450",
+                                        "2 Years (Renewable)"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Professional Visa",
+                                    "values": [
+                                        "$450",
+                                        "Indefinite (Permanent)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Mercosur Visa",
+                                    "values": [
+                                        "$250",
+                                        "2 Years (South American citizens)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Digital Nomad",
+                                    "values": [
+                                        "$450",
+                                        "2 Years (Remote work allowed)"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ec-staffing-col",
+                    "type": "cost_breakdown",
+                    "title": "Cost of Living (Quito)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Item",
+                                "Cost (Avg)",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Rent (1-bed City Center)",
+                                    "values": [
+                                        "$350 - $500",
+                                        "Available unfurnished or furnished."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Monthly Groceries",
+                                    "values": [
+                                        "$200 - $300",
+                                        "Local markets are significantly cheaper."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Coworking Desk",
+                                    "values": [
+                                        "$100 - $180",
+                                        "Monthly hot desk in major cities."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Internet (Fiber)",
+                                    "values": [
+                                        "$25 - $40",
+                                        "High speed usage is common."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS in Ecuador",
+                "subtitle": "Comprehensive guide to HRIS in Ecuador",
+                "description": "Detailed insights and providers for HRIS in Ecuador.",
+                "bestFor": "Global expansion teams",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "ec-hris-data",
+                    "type": "insights",
+                    "title": "Data Privacy (LOPDP)",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Biometric Consent",
+                                "text": "Under LOPDP, biometrics are 'Sensitive Data'. Employers must obtain explicit, free, and informed consent. Coercion (fear of job loss) invalidates consent."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Impact Assessment",
+                                "text": "A 'Evaluación de Impacto de Protección de Datos' (EIPD) is mandatory before implementing invasive monitoring systems."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Employee Rights",
+                                "text": "Employees have the right to access, rectify, delete, and oppose data processing (ARCO rights)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ec-hris-steps",
+                    "type": "key_steps",
+                    "title": "Implementation Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Requirements Gathering",
+                                "description": "Define scope: Payroll, Time Tracking, Performance Mgmt, etc."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Vendor Selection",
+                                "description": "Choose between local (compliant with SRI/IESS) or global vendors (integrations)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Data Migration",
+                                "description": "Migrate employee master data. Ensure LOPDP compliance during transfer."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "User Training",
+                                "description": "Train HR admins and employees on self-service portals."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ec-hris-vendors",
+                    "type": "cost_breakdown",
+                    "title": "Popular Vendors",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Vendor",
+                                "Type",
+                                "Est. Cost"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Buk",
+                                    "values": [
+                                        "LatAm Regional",
+                                        "$$"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Factorial",
+                                    "values": [
+                                        "Global SME",
+                                        "$$"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "SAP SuccessFactors",
+                                    "values": [
+                                        "Enterprise",
+                                        "$$$$"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ec-hris-compliance",
+                    "type": "insights",
+                    "title": "Digital Disconnect",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Disconnect Right",
+                                "text": "Employees have the right to disconnect outside working hours. HRIS notification settings must respect this."
+                            },
+                            {
+                                "type": "info",
+                                "title": "IESS Integration",
+                                "text": "Local payroll/HR systems often output 'Planillas' in the specific .txt format required for IESS uploads."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Audit Trails",
+                                "text": "HRIS systems must maintain immutable logs of all data access and modifications to demonstrate LOPDP compliance."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ec-hris-faq",
+                    "type": "faq",
+                    "title": "HRIS FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I use fingerprint scanners for attendance?",
+                                "answer": "Yes, but you must offer a non-biometric alternative (e.g., ID card) to ensure consent is truly free."
+                            },
+                            {
+                                "question": "Where is data stored?",
+                                "answer": "Cross-border transfer requires adequacy decisions or standard contractual clauses approved by the Superintendence."
+                            },
+                            {
+                                "question": "What are the penalties?",
+                                "answer": "Fines can reach up to 1% of annual turnover for severe infractions."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting in Ecuador",
+                "subtitle": "Comprehensive guide to Accounting in Ecuador",
+                "description": "Detailed insights and providers for Accounting in Ecuador.",
+                "bestFor": "Global expansion teams",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "ec-acc-standards",
+                    "type": "insights",
+                    "title": "Accounting Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "NIIF (IFRS)",
+                                "text": "Ecuador mandates International Financial Reporting Standards (NIIF) for all companies overseen by the Superintendencia."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "E-Invoicing",
+                                "text": "Electronic invoicing is mandatory. From Aug 2025, stricter rules apply to cancelling issued invoices."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Currency",
+                                "text": "Books must be kept in US Dollars. Spanish is the official language for accounting records."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ec-acc-dates",
+                    "type": "key_steps",
+                    "title": "Key Filing Dates",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "REBEFICS (UBO Report)",
+                                "description": "Due in February (dates vary by RUC 9th digit)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Profit Sharing Payment",
+                                "description": "Must be paid to employees by April 15th."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Annual Tax Return",
+                                "description": "Form 101 (Corporate Income Tax) is due in April."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "SuperCías Financials",
+                                "description": "Full financial statements must be uploaded to the Superintendencia portal by April 30th."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ec-acc-costs",
+                    "type": "cost_breakdown",
+                    "title": "Accounting Costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service",
+                                "Frequency",
+                                "Est. Cost"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Monthly Bookkeeping",
+                                    "values": [
+                                        "Monthly",
+                                        "$300 - $800"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Annual Filing",
+                                    "values": [
+                                        "Yearly",
+                                        "$1,000+"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Audit (if required)",
+                                    "values": [
+                                        "Yearly",
+                                        "$3,000+"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ec-acc-books",
+                    "type": "insights",
+                    "title": "Record Keeping",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Retention Period",
+                                "text": "Accounting records and supporting documents must be kept for 7 years."
+                            },
+                            {
+                                "type": "info",
+                                "title": "External Audit",
+                                "text": "Mandatory for companies with assets >$500k. Auditor must be appointed by the Shareholders' Meeting."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "All accounting records must be maintained in Spanish and denominated in US Dollars."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ec-acc-faq",
+                    "type": "faq",
+                    "title": "Accounting FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I offshore accounting?",
+                                "answer": "Partial processing yes, but the Accountant signing the returns must be an Ecuadorian CPA (Contador Público Autorizado)."
+                            },
+                            {
+                                "question": "Is software mandatory?",
+                                "answer": "Not legally, but practically required for E-Invoicing and generating XMLs for SRI."
+                            },
+                            {
+                                "question": "What is 'Anexo Transaccional'?",
+                                "answer": "A monthly report detailing all purchases, sales, withholdings, and exports, submitted to SRI."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ec-comp-insights",
+                    "type": "insights",
+                    "title": "Regulatory Governance",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Superintendencia de Compañías",
+                                "text": "The primary regulator for all corporate entities. Oversees financial reporting and UBO compliance."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "UAFE Reporting",
+                                "text": "Construction, Automotive, and Legal sectors must report monthly to the Financial Analysis Unit (UAFE) to prevent money laundering."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Electronic Mailbox",
+                                "text": "Maintain an active email address registered with the Superintendencia; legal notices are served digitally."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ec-comp-ubo",
+                    "type": "key_steps",
+                    "title": "UBO Reporting (REBEFICS)",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Who must file?",
+                                "description": "All companies (SAS, S.A., Cía. Ltda) and foreign branches."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "What to report?",
+                                "description": "Full chain of ownership up to the natural person (Ultimate Beneficial Owner)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Deadline",
+                                "description": "Annually in February. Late filing triggers heavy fines and the 28% CIT rate penalty."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ec-comp-checklist",
+                    "type": "insights",
+                    "title": "Annual Compliance Checklist",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Shareholders Meeting",
+                                "text": "Must be held by March 31st each year to approve financial statements."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Municipal Patents",
+                                "text": "Payable to the local municipality (e.g., Quito/Guayaquil) by May."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Updates",
+                                "text": "Update the Legal Representative or Address in the Mercantile Registry immediately upon change."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ec-comp-fines",
+                    "type": "cost_breakdown",
+                    "title": "Potential Fines",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Violation",
+                                "Fine (USD)",
+                                "Outcome"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Late REBEFICS",
+                                    "values": [
+                                        "$460 - $4,600",
+                                        "+3% CIT Rate"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Late Financials",
+                                    "values": [
+                                        "Up to 12 SBU",
+                                        "Company Dissolution Risk"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "No 13th/14th Pmt",
+                                    "values": [
+                                        "Up to $200 per worker",
+                                        "Labor Inspection"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ec-comp-faq",
+                    "type": "faq",
+                    "title": "Compliance FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is UAFE?",
+                                "answer": "The Financial Analysis Unit. Real estate, auto dealers, and lawyers must report suspicious transactions for AML."
+                            },
+                            {
+                                "question": "Is a resident legal rep mandatory?",
+                                "answer": "Yes. Foreign owners must appoint a resident (national or visa holder) to face the SRI and SuperCías."
+                            },
+                            {
+                                "question": "Does the Legal Rep have liability?",
+                                "answer": "Yes, they are civilly and criminally liable for the company's tax and labor obligations."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ec-tax-rates",
+                    "type": "cost_breakdown",
+                    "title": "Tax Rates (2025)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Tax",
+                                "Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax (CIT)",
+                                    "values": [
+                                        "25%",
+                                        "Standard rate. Can rise to 28% if UBOs are hidden."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "VAT (IVA)",
+                                    "values": [
+                                        "15%",
+                                        "Standard rate for 2025 (increased from 12%)."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Dividend Withholding",
+                                    "values": [
+                                        "10%",
+                                        "Standard withholding on dividends to non-residents."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Currency Outflow (ISD)",
+                                    "values": [
+                                        "3.5% - 5%",
+                                        "Impuesto a la Salida de Divisas (varies by sector/policy)."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ec-tax-steps",
+                    "type": "key_steps",
+                    "title": "Tax Filing Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Monthly Declarations",
+                                "description": "VAT and Withholdings (Form 104 and 103) are due monthly based on the 9th digit of the RUC."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Dividend Reporting",
+                                "description": "ADI (Anexo de Dividendos) must be filed annually reporting distributed profits."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Income Tax Prep",
+                                "description": "Calculate tax reconciliation (Conciliación Tributaria) to determine deductible/non-deductible expenses."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Payment",
+                                "description": "CIT payment is due in April. Can be paid in installments if authorized."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ec-tax-incentives",
+                    "type": "insights",
+                    "title": "Incentives & Risks",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Investment Contracts",
+                                "text": "Companies investing >$1M can sign an Investment Contract with the state to freeze tax rules/rates for 15 years."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Transfer Pricing",
+                                "text": "Transactions with related parties abroad >$3M require a comprehensive TP Report."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Double Taxation",
+                                "text": "Ecuador has treaties (CDIs) with Canada, France, Germany, Spain, etc., allowing reduced withholding rates."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ec-tax-risks",
+                    "type": "insights",
+                    "title": "Common Pitfalls",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Non-Deductibles",
+                                "text": "Expenses without proper electronic invoices or withholdings are non-deductible and increase the effective tax rate."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Bancarization",
+                                "text": "Payments >$1000 must use the baking system to be deductible. Cash payments are disallowed."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Late Filing",
+                                "text": "Late tax filings attract immediate interest and fines, and repeated offences can lead to closure."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ec-tax-faq",
+                    "type": "faq",
+                    "title": "Tax FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Why 28% CIT?",
+                                "answer": "The rate increases +3% if the company has shareholders in tax havens or fails to report UBOs (REBEFICS)."
+                            },
+                            {
+                                "question": "Is tech VAT exempt?",
+                                "answer": "Some digital services were targeted, but verify specific exemptions. Generally, 15% applies."
+                            },
+                            {
+                                "question": "What is ISD?",
+                                "answer": "Tax on Currency Outflows. It applies when transferring money abroad. Rates have been fluctuating but generally around 3.5-5%."
+                            },
+                            {
+                                "question": "Are there local taxes?",
+                                "answer": "Yes, Municipal Patents (Patente) and the 1.5 per thousand tax on total assets are paid to the local municipality."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "MSA & Legal in Ecuador",
+                "subtitle": "Comprehensive guide to MSA & Legal in Ecuador",
+                "description": "Detailed insights and providers for MSA & Legal in Ecuador.",
+                "bestFor": "Global expansion teams",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "ec-msa-process",
+                    "type": "key_steps",
+                    "title": "Contracting Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Drafting",
+                                "description": "Draft contracts in Spanish (mandatory) and English (for HQ reference). Prevailing version is Spanish."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Review",
+                                "description": "Local legal counsel reviews for Labor Code compliance (non-waivable rights)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Signing",
+                                "description": "Sign via wet ink or Certified Digital Signature (Token/Cloud)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Registration",
+                                "description": "Register labor contracts on the SUT platform within 30 days."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ec-msa-terms",
+                    "type": "insights",
+                    "title": "Critical Contract Terms",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Indefinite Term",
+                                "text": "This is the default. Fixed-term contracts (Plazo Fijo) only apply to specific temporary needs."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Probation Period",
+                                "text": "Must be explicitly stated (90 days). If not written, the contract is deemed indefinite from Day 1."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "IP Assignment",
+                                "text": "Include a 'Cesión de Derechos' clause to ensure work product belongs to the employer."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ec-msa-costs",
+                    "type": "cost_breakdown",
+                    "title": "Legal Costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service",
+                                "Provider",
+                                "Est. Cost"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Contract Review",
+                                    "values": [
+                                        "Local Firm",
+                                        "$150 - $300/hr"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Template Pack",
+                                    "values": [
+                                        "Online/Standard",
+                                        "$500 (one-off)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Litigation",
+                                    "values": [
+                                        "Specialist",
+                                        "$2,000+ retainer"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ec-msa-checklist",
+                    "type": "insights",
+                    "title": "Contract Essentials",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Indefinite Term",
+                                "text": "Specify 'Indefinite Term' (default) or justify 'Fixed Term' strictly."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Data Protection",
+                                "text": "Include a specific Data Protection Clause (LOPDP consent) in all contracts."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Arbitration",
+                                "text": "Arbitration Clause (Mediation Center) is recommended for commercial B2B to avoid slow local courts."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ec-msa-faq",
+                    "type": "faq",
+                    "title": "Legal FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Are digital signatures valid on contracts?",
+                                "answer": "Yes, if using a 'Firma Electrónica Calificada' from an authorized certifier."
+                            },
+                            {
+                                "question": "Can I agree to foreign law?",
+                                "answer": "For labor contracts, No. Ecuadorian Labor Code is non-waivable. For B2B, yes, but local enforcement may require homologation."
+                            },
+                            {
+                                "question": "What is 'Desahucio'?",
+                                "answer": "Termination notice. Historically applied to both, but recent rulings restrict it in public sector. In private, it usually implies a 25% bonus."
+                            },
+                            {
+                                "question": "Is arbitration binding?",
+                                "answer": "Yes, Ecuador respects arbitration clauses if they designate a recognized center (e.g., Chamber of Commerce)."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software in Ecuador",
+                "subtitle": "Comprehensive guide to Software in Ecuador",
+                "description": "Detailed insights and providers for Software in Ecuador.",
+                "bestFor": "Global expansion teams",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "ec-soft-steps",
+                    "type": "key_steps",
+                    "title": "Procurement Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Needs Assessment",
+                                "description": "Identify if software needs local tax compliance (e-invoicing) features."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Vendor Vetting",
+                                "description": "Verify local support and integration with SRI webservices."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Implementation",
+                                "description": "Set up digital certificates (.p12 files) for signing XMLs."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Testing",
+                                "description": "Run test environment (Pruebas) with SRI before Production (Producción)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ec-soft-providers",
+                    "type": "cost_breakdown",
+                    "title": "E-Signature Providers",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Provider",
+                                "Type",
+                                "Use Case"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Registro Civil / BCE",
+                                    "values": [
+                                        "Government",
+                                        "Standard for all public filings (SRI, SuperCías)."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Security Data",
+                                    "values": [
+                                        "Private/Fast",
+                                        "Corporate use, Token or File."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Uanataca",
+                                    "values": [
+                                        "Innovative",
+                                        "Cloud signatures, API integration."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ec-soft-insights",
+                    "type": "insights",
+                    "title": "Software Landscape",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Local vs Global",
+                                "text": "Global ERPs (SAP, Oracle) often need a 'Localisation Partner' to handle Ecuadorian tax reporting."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "SaaS Taxation",
+                                "text": "Payments for foreign software licenses are subject to 25% withholding tax unless a Double Taxation Treaty applies."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Data Localization",
+                                "text": "While strict data localization isn't mandated, sensitive financial data is best stored with latency in mind."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ec-soft-types",
+                    "type": "insights",
+                    "title": "Common Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Accounting",
+                                "text": "Contifico and Dora are popular local cloud-based accounting platforms for SMEs."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Payroll",
+                                "text": "Paradiso and Novit are widely used for local payroll processing."
+                            },
+                            {
+                                "type": "info",
+                                "title": "CRM",
+                                "text": "Global tools like HubSpot and Salesforce are widely adopted, though local support may be limited."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ec-soft-faq",
+                    "type": "faq",
+                    "title": "Software FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is e-signature mandatory?",
+                                "answer": "Yes, for the Legal Representative to sign tax returns and corporate filings."
+                            },
+                            {
+                                "question": "What is the 'Token'?",
+                                "answer": "A physical USB device. Most modern use is the 'Archivo' (.p12) format which is more flexible."
+                            },
+                            {
+                                "question": "Can I use Docusign?",
+                                "answer": "For private agreements, yes. For government filings, no—you need a local 'Firma Electrónica'."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing in Ecuador",
+                "subtitle": "Comprehensive guide to Marketing in Ecuador",
+                "description": "Detailed insights and providers for Marketing in Ecuador.",
+                "bestFor": "Global expansion teams",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "ec-mkt-steps",
+                    "type": "key_steps",
+                    "title": "Campaign Launch",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Audience Definition",
+                                "description": "Regional differences are key (Costa vs. Sierra culture)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Channel Selection",
+                                "description": "Prioritize Facebook and TikTok for B2C; LinkedIn for B2B."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Localization",
+                                "description": "Use local slang ('modismos') carefully. Ecuadorian Spanish is neutral but has regional variations."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Compliance",
+                                "description": "Ensure ads respect Consumer Protection Law (no misleading claims)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ec-mkt-agencies",
+                    "type": "cost_breakdown",
+                    "title": "Top Marketing Agencies",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Agency",
+                                "Focus",
+                                "Location"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Synergia",
+                                    "values": [
+                                        "Digital Strategy",
+                                        "Quito"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Creativos RD",
+                                    "values": [
+                                        "Full Service/Creative",
+                                        "Guayaquil/Quito"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Grupo Enroke",
+                                    "values": [
+                                        "Growth/B2B",
+                                        "Quito"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ec-mkt-insights",
+                    "type": "insights",
+                    "title": "Digital Trends",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Influencer Tax",
+                                "text": "Influencers must issue invoices and are subject to income tax. Barter deals are also taxable events in theory."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Social Commerce",
+                                "text": "WhatsApp and TikTok are dominant sales channels in Ecuador, often outperforming traditional web e-commerce."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Data Privacy",
+                                "text": "Marketing emails require opt-in consent under LOPDP."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ec-mkt-channels",
+                    "type": "insights",
+                    "title": "Top Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Facebook",
+                                "text": "Still the most widely used platform across all demographics."
+                            },
+                            {
+                                "type": "info",
+                                "title": "TikTok",
+                                "text": "Exploding growth, especially for younger demographics and viral trends."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Instagram",
+                                "text": "Essential for lifestyle branding and reaching urban millennials."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ec-mkt-faq",
+                    "type": "faq",
+                    "title": "Marketing FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I advertise in English?",
+                                "answer": "It is better to use Spanish. English proficiency is low outside of top-tier professionals."
+                            },
+                            {
+                                "question": "Are there restrictions?",
+                                "answer": "Alcohol and tobacco advertising is heavily regulated/prohibited in mass media."
+                            },
+                            {
+                                "question": "What is the VAT on ads?",
+                                "answer": "15%. Digital ads purchased from abroad (e.g., Meta Ads) also attract 5% ISD and potentially VAT."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

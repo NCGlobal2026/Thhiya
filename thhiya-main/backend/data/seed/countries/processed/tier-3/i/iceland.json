@@ -1,0 +1,573 @@
+{
+    "name": "Iceland",
+    "code": "IS",
+    "slug": "iceland",
+    "flag": "https://flagcdn.com/w160/is.png",
+    "region": "Europe",
+    "languages": [
+        "Icelandic"
+    ],
+    "currencies": [
+        "ISK"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR & PEO in Iceland",
+                "subtitle": "Hire in Reykjavík",
+                "description": "Compliant employment in Iceland. We handle Union Agreements (VR/Efling), Pension Fund contributions, and Payroll Tax.",
+                "bestFor": "Tech & Energy",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "is-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract (Ráðningarsamningur)",
+                                "description": "Written contract required. Must specify Union affiliation and Pension Fund."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Union Selection",
+                                "description": "Determine applicable union (e.g., VR for office workers) based on job role."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax Card (Skattkort)",
+                                "description": "Employee applies for digital tax card via Skatturinn to determine withholding rate."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "is-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Payroll Tax (Tryggingagjald)",
+                                    "values": [
+                                        "6.35%",
+                                        "0%",
+                                        "Covers social security, maternity, unemployment."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Pension Fund",
+                                    "values": [
+                                        "11.5%",
+                                        "4.0%",
+                                        "Mandatory occupational pension (Lífeyrissjóður)."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Union Dues",
+                                    "values": [
+                                        "Matches Emp",
+                                        "~0.7% - 1.0%",
+                                        "Employer contributes to Union Education/Sickness funds (~2%)."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Personal Income Tax",
+                                    "values": [
+                                        "0%",
+                                        "31.48% - 46.28%",
+                                        "Progressive withholding tax (Staðgreiðsla)."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "is-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Maundy Thursday",
+                                "description": "April 17"
+                            },
+                            {
+                                "title": "Good Friday",
+                                "description": "April 18"
+                            },
+                            {
+                                "title": "Easter Monday",
+                                "description": "April 21"
+                            },
+                            {
+                                "title": "First Day of Summer",
+                                "description": "April 24 (Unique to Iceland)"
+                            },
+                            {
+                                "title": "Labor Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Ascension Day",
+                                "description": "May 29"
+                            },
+                            {
+                                "title": "Whit Monday",
+                                "description": "June 9"
+                            },
+                            {
+                                "title": "National Day",
+                                "description": "June 17"
+                            },
+                            {
+                                "title": "Commerce Day",
+                                "description": "August 4 (Verslunarmannahelgi)"
+                            },
+                            {
+                                "title": "Christmas",
+                                "description": "December 24 (Half), 25, 26"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "is-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax Brackets 2024 (Monthly)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Income Range (ISK)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "0 - 446,136",
+                                    "values": [
+                                        "31.48%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "446,137 - 1,252,501",
+                                    "values": [
+                                        "37.98%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Above 1,252,501",
+                                    "values": [
+                                        "46.28%"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "is-gp-cycle",
+                    "type": "key_steps",
+                    "title": "Payroll Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Tax Card",
+                                "description": "Retrieve employee's electronic tax card usage (credits)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Deductions",
+                                "description": "Calculate Pension (4%) and Union Dues (~1%)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Withholding",
+                                "description": "Apply Tax Rate to (Gross - Pension) - Tax Credits."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Reporting",
+                                "description": "Submit PAYE return to RSK by the 14th of the following month."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "is-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Monthly Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Pension",
+                                "description": "Deduct 4% Pension."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax Base",
+                                "description": "Result is Taxable Income."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Tax",
+                                "description": "Apply 31.48% - 46.28% Brackets."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Credits",
+                                "description": "Subtract Personal Tax Credit (Persónuafsláttur)."
+                            },
+                            {
+                                "stepNumber": 6,
+                                "title": "Net",
+                                "description": "Final Pay."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Iceland",
+                "subtitle": "Ehf. Setup",
+                "description": "Establish an Einkahlutafélag (Private Limited Liability Company).",
+                "bestFor": "Permanent Operations",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "is-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Name Reservation",
+                                "description": "Check availability of company name."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Memorandum",
+                                "description": "Draft Memorandum and Articles of Association."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Capital Deposit",
+                                "description": "Deposit minimum share capital of ISK 500,000 in a bank account."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Registration",
+                                "description": "File with the Register of Enterprises (Fyrirtækjaskrá)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "VAT ID",
+                                "description": "Register for VAT (VSK) if turnover exceeds ISK 2 million."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "is-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Landsbankinn",
+                                "description": "State-owned, largest bank."
+                            },
+                            {
+                                "title": "Arion Banki",
+                                "description": "Major commercial bank."
+                            },
+                            {
+                                "title": "Íslandsbanki",
+                                "description": "Major commercial bank."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Iceland",
+                "subtitle": "Highly Skilled",
+                "description": "Recruiting in a small but highly educated market.",
+                "bestFor": "Specialized Roles",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "is-staff-overview",
+                    "type": "insights",
+                    "title": "Market Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "English",
+                                "text": "English proficiency is extremely high, near-native for business contexts."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Remote Work",
+                                "text": "Highly accepted, but candidates expect high wages due to cost of living."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Iceland",
+                "subtitle": "Union & Tax",
+                "description": "Managing complex union rates and tax brackets.",
+                "bestFor": "Efficiency",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "is-hris-features",
+                    "type": "essentials",
+                    "title": "Key Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Union Logic",
+                                "description": "Ability to handle variable pension and dues rates per union (VR, Efling, etc.)."
+                            },
+                            {
+                                "title": "Electronic ID",
+                                "description": "Integration with Rafræn skilríki (Electronic ID) for government portals."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Iceland",
+                "subtitle": "Annual Accounts",
+                "description": "Compliance with Annual Accounts Act.",
+                "bestFor": "Reporting",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "is-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "IFRS",
+                                "text": "Mandatory for listed companies, optional for others who usually use local GAAP."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "is-comp-cba",
+                    "type": "warning",
+                    "title": "Universality",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "CBA Coverage",
+                                "description": "Almost all employees in Iceland are covered by a CBA, setting minimum rights for wages, vacation, and hours."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "is-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax",
+                                    "values": [
+                                        "20% (LLC) / 37.6% (Partnership)"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "VAT (VSK)",
+                                    "values": [
+                                        "24% (Standard) / 11% (Reduced)"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Iceland",
+                "subtitle": "Employment Law",
+                "description": "Contracts under Icelandic Law.",
+                "bestFor": "Protection",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "is-msa-clauses",
+                    "type": "insights",
+                    "title": "Contracts",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Termination",
+                                "text": "Notice periods are 3 months for most employees after probation."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Iceland",
+                "subtitle": "Connectivity",
+                "description": "High-speed fiber connectivity.",
+                "bestFor": "Remote Work",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "is-soft-isps",
+                    "type": "essentials",
+                    "title": "Providers",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Síminn",
+                                "description": "Leading telecom provider."
+                            },
+                            {
+                                "title": "Vodafone Iceland",
+                                "description": "Major competitor."
+                            },
+                            {
+                                "title": "Nova",
+                                "description": "Mobile and internet."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Iceland",
+                "subtitle": "Small Market",
+                "description": "Digital-first approach.",
+                "bestFor": "Growth",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "is-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Social",
+                                "text": "Facebook is the daily newspaper of Iceland. Very high penetration."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,2142 @@
+{
+    "name": "South Africa",
+    "code": "ZA",
+    "slug": "south-africa",
+    "flag": "https://flagcdn.com/w160/za.png",
+    "region": "Africa",
+    "languages": [
+        "English",
+        "Zulu",
+        "Xhosa",
+        "Afrikaans"
+    ],
+    "currencies": [
+        "ZAR"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "Hire in South Africa",
+                "subtitle": "B-BBEE Compliant",
+                "description": "Navigate complex Labor Relations Act (LRA) and B-BBEE scores without a local entity. EOR handles UIF, SDL, and PAYE.",
+                "bestFor": "Expansion.",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "za-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding & Hiring Lifecycle",
+                    "subtitle": "Standard Timeline: 3-5 Business Days",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "BCEA-Compliant Contract Drafting",
+                                "description": "Drafting the employment contract to align specifically with the Basic Conditions of Employment Act. This includes specifying hours of work, leave entitlements, and notice periods (usually 4 weeks for permanent staff)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "UIF & SARS Registration",
+                                "description": "Linking the employee to the company's PAYE (Pay As You Earn) and UIF (Unemployment Insurance Fund) profiles. All employees must be registered with SARS even if they fall below the tax threshold."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Medical Aid & Retirement Setup",
+                                "description": "South Africa does not have a mandatory national health insurance for private employees. Setting up group medical aid (e.g., Discovery, Momentum) and pension/provident funds is a standard competitive requirement."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "B-BBEE Alignment",
+                                "description": "Ensuring the hire and the internal role description align with the employer's Employment Equity targets and B-BBEE (Broad-Based Black Economic Empowerment) points strategy."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Work Tooling & COIDA Coverage",
+                                "description": "Finalizing laptop logistics and ensuring the employee is registered under COIDA (Compensation for Occupational Injuries and Diseases Act) for workplace safety coverage."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "za-eor-insights",
+                    "type": "insights",
+                    "title": "South African Labor Realities",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "LRA Protections",
+                                "text": "The Labor Relations Act (LRA) makes it difficult to terminate 'at will'. Any dismissal must be substantively and procedurally fair, often requiring a formal disciplinary hearing."
+                            },
+                            {
+                                "type": "info",
+                                "title": "The 13th Cheque",
+                                "text": "While not legally mandated, it is a deep-seated custom in South Africa to pay a 13th-month bonus in December. This should be explicitly negotiated during the offer stage."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Remote Work Allowances",
+                                "text": "Since the shift to remote work, providing data and fiber stipends is standard. These can often be structured partially tax-free as business expenses."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Retrenchment Process",
+                                "text": "Downsizing (Section 189) requires a mandatory consultation process with employees to explore alternatives before any final notices are served."
+                            },
+                            {
+                                "type": "success",
+                                "title": "B-BBEE Competitive Edge",
+                                "text": "Employing local talent through an EOR with a high B-BBEE Level (1 or 2) allows you to maintain compliance when bidding for local contracts."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "za-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Estimated Employment Burden",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Percentage / Rate",
+                                "Responsibility"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "UIF (Unemployment Insurance)",
+                                    "values": [
+                                        "1% (Capped at R177.12)",
+                                        "Employer Contribution"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "SDL (Skills Development Levy)",
+                                    "values": [
+                                        "1% of Total Payroll",
+                                        "Employer (if annual payroll > R500k)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Medical Aid (Group Rate)",
+                                    "values": [
+                                        "R2,500 - R5,000 / month",
+                                        "Optional (Shared or Employer Paid)"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Provident Fund",
+                                    "values": [
+                                        "5% - 15% of Basic",
+                                        "Shared Contribution"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "za-eor-faq",
+                    "type": "faq",
+                    "title": "Hiring in SA FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the standard probation period?",
+                                "answer": "Usually 3 months. During this time, the employer must provide guidance and feedback to address performance issues before considering termination."
+                            },
+                            {
+                                "question": "Are notice periods fixed by law?",
+                                "answer": "Yes. 1 week for the first 6 months, 2 weeks for 6-12 months, and 4 weeks (1 month) after a year of employment."
+                            },
+                            {
+                                "question": "Can we hire independent contractors?",
+                                "answer": "Yes, but be careful of 'deemed employment'. If the worker is under your direct supervision and has no other clients, SARS may reclassify them as an employee."
+                            },
+                            {
+                                "question": "How many days of leave are mandatory?",
+                                "answer": "15 working days (21 consecutive days) of paid annual leave per year, plus public holidays."
+                            },
+                            {
+                                "question": "What is COIDA?",
+                                "answer": "The Compensation for Occupational Injuries and Diseases Act. It provides a fund that pays for medical expenses if an employee is injured on the job."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "za-eor-essentials",
+                    "type": "essentials",
+                    "title": "Mandatory Employee Rights",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Sick Leave",
+                                "text": "30 days of paid sick leave in a 3-year cycle (the first 6 months is 1 day for every 26 days worked)."
+                            },
+                            {
+                                "title": "Maternity Leave",
+                                "text": "4 consecutive months of unpaid leave. Employees can claim UIF maternity benefits during this period."
+                            },
+                            {
+                                "title": "Family Responsibility Leave",
+                                "text": "3 days of paid leave per year for domestic emergencies or the death of a family member."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "za-payroll-process",
+                    "type": "key_steps",
+                    "title": "Monthly Payroll Lifecycle",
+                    "subtitle": "Submission Deadline: 7th of Every Month",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross Earnings Computation",
+                                "description": "Calculating basic salary plus overtime, commissions, and travel allowances (which have specific tax implications in SA)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "PAYE & UIF Calculation",
+                                "description": "Applying the progressive tax brackets (up to 45%) and withholding the 1% UIF contribution from both the employer and employee."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Third-Party Deductions",
+                                "description": "Processing payments for Medical Aid (Discovery/Momentum) and Provident Funds, ensuring 'fringe benefit' taxes are applied correctly."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "EMP201 Submission via eFiling",
+                                "description": "Generating and submitting the monthly EMP201 return to SARS. Payment must be cleared by the 7th of the following month to avoid 10% penalties."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Bi-Annual EMP501 Reconciliation",
+                                "description": "Reconciling the monthly declarations with the actual tax certificates (IRP5s) issued twice a year (August and February)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "za-payroll-insights",
+                    "type": "insights",
+                    "title": "SA Payroll Compliance",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Tax Directives",
+                                "text": "If paying a large lump sum or bonus, you must apply for a specific 'Tax Directive' from SARS to ensure the correct withholding rate is applied."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Skills Development Levy (SDL)",
+                                "text": "Employers with an annual payroll exceeding R500,000 must pay an additional 1% SDL to fund national training initiatives."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Employment Tax Incentive (ETI)",
+                                "text": "You can reduce your monthly PAYE liability by hiring qualifying young people (18-29 years) through the ETI scheme."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Public Holiday Pay",
+                                "text": "If an employee works on a public holiday, they must be paid double their standard daily rate, or their standard rate plus a day off."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Garnishee Orders",
+                                "text": "Employers are legally obligated to process court-ordered salary attachments (garnishees) if served by the Sheriff of the Court."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "za-payroll-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Statutory Burden",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Tax / Contribution",
+                                "Rate",
+                                "Frequency"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Income Tax (PAYE)",
+                                    "values": [
+                                        "18% - 45% (Progressive)",
+                                        "Monthly"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "UIF (Employer Share)",
+                                    "values": [
+                                        "1% (Max R177.12)",
+                                        "Monthly"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "SDL (If applicable)",
+                                    "values": [
+                                        "1% of Total Earnings",
+                                        "Monthly"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Worker's Comp (COIDA)",
+                                    "values": [
+                                        "Varies by Industry Risk",
+                                        "Annual"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "za-payroll-faq",
+                    "type": "faq",
+                    "title": "Payroll Administration FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Are payslips mandatory?",
+                                "answer": "Yes. A detailed payslip (digital or paper) must be provided on or before payday, showing all earnings and deductions."
+                            },
+                            {
+                                "question": "When is the tax year end?",
+                                "answer": "The South African tax year for individuals and payroll runs from 1 March to 28 February."
+                            },
+                            {
+                                "question": "How do travel allowances work?",
+                                "answer": "Usually, 80% of a travel allowance is subject to PAYE. Specific logbooks must be kept by the employee to claim back at year-end."
+                            },
+                            {
+                                "question": "Can we pay in USD?",
+                                "answer": "Technically yes, but the conversion to ZAR must be shown on the payslip, and tax must be calculated and paid to SARS in ZAR."
+                            },
+                            {
+                                "question": "Is payroll software required?",
+                                "answer": "Highly recommended. SARS eFiling requires specific XML formats (IRP5s) that are generated automatically by compliant software like Sage or SimplePay."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "za-payroll-essentials",
+                    "type": "essentials",
+                    "title": "Critical Payroll Reporting",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "EMP201 Return",
+                                "text": "The monthly declaration of PAYE, UIF, and SDL totals submitted to SARS."
+                            },
+                            {
+                                "title": "IRP5 / IT3(a)",
+                                "text": "The annual tax certificates issued to employees summarizing their earnings and tax paid."
+                            },
+                            {
+                                "title": "UI.19 Form",
+                                "text": "Declarations to the Department of Labour regarding employee status (hired, terminated, or maternity)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "za-calc-logic",
+                    "type": "key_steps",
+                    "title": "Net Salary Calculation Flow",
+                    "subtitle": "2024/2025 Tax Tables",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross Salary Assessment",
+                                "description": "The starting point including base pay, car allowance, and any taxable fringe benefits (medical aid, housing)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Taxable Income Deductions",
+                                "description": "Subtracting allowable deductions, primarily Retirement Fund contributions (capped at 27.5% of taxable income or R350k)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "PAYE Tax Calculation",
+                                "description": "Applying the sliding tax scales (18% to 45%) and then subtracting the relevant annual Tax Rebate (Primary, Secondary, or Tertiary)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Statutory UIF Contribution",
+                                "description": "Calculating the 1% employee contribution, capped at R177.12 per month (for salaries over R17,712)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Final Net Calculation",
+                                "description": "Reconciling all deductions and medical aid tax credits (Section 6B) to arrive at the final take-home 'Net' pay."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "za-calc-insights",
+                    "type": "insights",
+                    "title": "Calculator Mechanics",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Annual Rebates",
+                                "text": "Every SA taxpayer receives a primary rebate (R17,235 for 2024/25), effectively creating a 'Tax-Free' threshold around R95,750 per year."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "The UIF Ceiling",
+                                "text": "UIF is 1% but is capped. Even if you earn R2 million, your UIF contribution remains under R180 per month."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Medical Aid Credits",
+                                "text": "Having dependents on your medical aid reduces your tax liability directly through 'Medical Scheme Fees Tax Credits'."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Bonuses & Tax",
+                                "text": "Annual bonuses are taxed at your marginal rate. It often feels 'higher' because it pushes you into a temporary higher bracket for that month."
+                            },
+                            {
+                                "type": "success",
+                                "title": "Travel Allowance Benefits",
+                                "text": "Structured car allowances can be tax-efficient for employees who travel extensively for business purposes."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "za-calc-costs",
+                    "type": "cost_breakdown",
+                    "title": "Sample Monthly Calculation",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "ZAR Amount",
+                                "% of Gross"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Gross Monthly Salary",
+                                    "values": [
+                                        "R50,000",
+                                        "100%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Estimated PAYE Tax",
+                                    "values": [
+                                        "-R9,850",
+                                        "19.7%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "UIF Contribution",
+                                    "values": [
+                                        "-R177",
+                                        "0.35%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Estimated Net Take-Home",
+                                    "values": [
+                                        "R39,973",
+                                        "79.9%"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "za-calc-faq",
+                    "type": "faq",
+                    "title": "Payroll Calculation FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the highest tax bracket?",
+                                "answer": "The top marginal rate is 45% for taxable income exceeding R1,817,000 per year."
+                            },
+                            {
+                                "question": "Does my employer pay tax too?",
+                                "answer": "Yes, they pay 1% UIF, 1% SDL (if applicable), and COIDA levies on top of your gross salary."
+                            },
+                            {
+                                "question": "What is a 'Fringe Benefit'?",
+                                "answer": "Non-cash perks like a company car or school fees, which are assigned a 'ZAR value' and then taxed as part of your income."
+                            },
+                            {
+                                "question": "How do medical credits work?",
+                                "answer": "They are fixed monthly amounts (e.g., R364 for the main member) that are subtracted directly from your tax owed, not your income."
+                            },
+                            {
+                                "question": "Is interest income taxed?",
+                                "answer": "Yes, but there is an annual exemption (R23,800 for those under 65) before interest becomes taxable."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "za-calc-essentials",
+                    "type": "essentials",
+                    "title": "Calculator Variables",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Retirement Contribution",
+                                "text": "Percentage of salary paid into a Pension or Provident fund (Tax deductible)."
+                            },
+                            {
+                                "title": "Medical Aid Dependents",
+                                "text": "Total number of people covered by the employee's medical scheme."
+                            },
+                            {
+                                "title": "Tax Year Selection",
+                                "text": "Ensuring the calculator uses the correct legislative tables for the current fiscal period."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "eor-peo-aor",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR"
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Pty Ltd",
+                "subtitle": "CIPC Registration",
+                "description": "Private Company (Proprietary Limited) is the standard vehicle. Registered via CIPC.",
+                "bestFor": "Long Term.",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "za-inc-steps",
+                    "type": "key_steps",
+                    "title": "Entity Registration Workflow",
+                    "subtitle": "Timeline: 10-15 Business Days",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "CIPC Name Reservation",
+                                "description": "Reserving a unique corporate name. You can provide up to 4 options. This usually takes 1-3 business days through the CIPC BizPortal."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Company Incorporation (Cor 14.1/14.3)",
+                                "description": "Submitting the Memorandum of Incorporation (MOI). For most startups, a 'Standard MOI' is sufficient and accelerates the approval process."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "SARS Tax Registration",
+                                "description": "Upon successful CIPC registration, an Income Tax number is automatically generated. The company must then be 'verified' on SARS eFiling."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Appointment of Public Officer",
+                                "description": "Every SA company must appoint a resident Public Officer to be responsible for tax communications and signing returns."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "FICA Business Banking",
+                                "description": "Opening a local corporate account. This is a rigorous process requiring Proof of Residence and ID for all directors and stakeholders (UBOs)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "za-inc-insights",
+                    "type": "insights",
+                    "title": "Strategic Entry Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Proprietary Limited (Pty Ltd)",
+                                "text": "The most common business entity. It provides limited liability and allows for multiple shareholders (domestic or foreign)."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "FICA Compliance",
+                                "text": "The Financial Intelligence Centre Act (FICA) requires deep documentation on 'Ultimate Beneficial Owners' to prevent money laundering."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "B-BBEE Levels",
+                                "text": "New companies with under R10m annual turnover qualify as EMEs and automatically receive a Level 4 B-BBEE status (or Level 1/2 if 51%+ Black-owned)."
+                            },
+                            {
+                                "type": "success",
+                                "title": "100% Foreign Ownership",
+                                "text": "South Africa allows for 100% foreign ownership of companies, with no requirement for a local shareholder in most commercial sectors."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "CIPC Annual Returns",
+                                "text": "Failing to file annual returns with the CIPC can lead to 'deregistration', which freezes company bank accounts and legal standing."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "za-inc-costs",
+                    "type": "cost_breakdown",
+                    "title": "Initial Setup Costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service",
+                                "Government Fee (ZAR)",
+                                "Est. Professional Fee (USD)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Name Reservation",
+                                    "values": [
+                                        "R50 - R75",
+                                        "$0 (Self-service)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Company Registration",
+                                    "values": [
+                                        "R125 - R475",
+                                        "$150 - $400"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Public Officer Retainer",
+                                    "values": [
+                                        "N/A",
+                                        "$500 - $1,500 / year"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "B-BBEE Sworn Affidavit",
+                                    "values": [
+                                        "None (Free)",
+                                        "$0 (Notarized by SAPS)"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "za-inc-faq",
+                    "type": "faq",
+                    "title": "Registration FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I be a Director if I'm not a resident?",
+                                "answer": "Yes. Foreign nationals can be directors. However, at least one person (the Public Officer) must be a resident for tax compliance."
+                            },
+                            {
+                                "question": "What is a 'Shelf Company'?",
+                                "answer": "A pre-registered company with no assets or liabilities. It is used to start trading immediately while name changes are processed."
+                            },
+                            {
+                                "question": "Is an audit required?",
+                                "answer": "Only if the company exceeds certain 'Public Interest Scores' or turnover thresholds defined in the Companies Act."
+                            },
+                            {
+                                "question": "How do I get a VAT number?",
+                                "answer": "VAT registration is mandatory once taxable supplies exceed R1 million in a 12-month period, but voluntary registration is possible above R50,000."
+                            },
+                            {
+                                "question": "What is the CIPC?",
+                                "answer": "The Companies and Intellectual Property Commission. It is the government agency responsible for business registrations and IP."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "za-inc-essentials",
+                    "type": "essentials",
+                    "title": "Governance Prerequisites",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "MOI (Memorandum of Incorporation)",
+                                "text": "The founding document that sets out the rights, duties, and responsibilities of shareholders and directors."
+                            },
+                            {
+                                "title": "Share Certificates",
+                                "text": "Official proof of ownership that must be issued to all shareholders upon incorporation."
+                            },
+                            {
+                                "title": "Registered Address",
+                                "text": "A physical address in South Africa where legal documents and notices may be served."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "incorporation-entity-setup",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)"
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Recruitment",
+                "subtitle": "Pnet & LinkedIn",
+                "description": "Strong agency market. Focus on Employment Equity (EE) candidates often required.",
+                "bestFor": "Skilled.",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "za-staffing-lifecycle",
+                    "type": "key_steps",
+                    "title": "Talent Acquisition Cycle",
+                    "subtitle": "Average Time-to-Hire: 4-6 Weeks",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Role Profiling & EE Analysis",
+                                "description": "Defining technical requirements while assessing the potential impact on the company's Employment Equity (EE) plan and sectoral targets."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Multi-Channel Sourcing",
+                                "description": "Utilizing Pnet, Careers24, and LinkedIn, alongside specialized tech recruiters in Cape Town and Johannesburg hubs."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Structured Competency Interviews",
+                                "description": "Assessing candidates for both technical skills and cultural alignment, often including specialized psychometric or aptitude testing."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Vetting & Verification",
+                                "description": "Mandatory background checks include MIE or Managed Integrity Evaluation for criminal records, credit history (for financial roles), and qualification verification."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Offer Construction & 'Total Cost' Talk",
+                                "description": "Presenting offers that break down base pay vs benefits (Medical Aid/Provident Fund) to ensure the candidate understands the full package value."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "za-staffing-insights",
+                    "type": "insights",
+                    "title": "SA Workforce Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Silicon Cape Talent",
+                                "text": "Cape Town is the primary hub for software development and creative talent, while Johannesburg remains the center for financial services and engineering."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Skills Scarcity",
+                                "text": "Critical skills (Data Science, Cloud Architects, Specialized Engineering) attract high premiums and often require 'Critical Skills Visas' if hiring from abroad."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Graduate Programs",
+                                "text": "Tapping into top universities (UCT, Wits, Stellenbosch) through early internship programs is a key strategy for long-term talent pipelines."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Notice Period Wars",
+                                "text": "Senior candidates often have 3-month notice periods. Buy-outs are common in the tech sector to accelerate start dates."
+                            },
+                            {
+                                "type": "success",
+                                "title": "English Proficiency",
+                                "text": "South Africa ranks highly in global English proficiency indexes, making it an ideal hub for BPO, customer support, and global tech teams."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "za-staffing-costs",
+                    "type": "cost_breakdown",
+                    "title": "Recruitment & Salary Benchmarks",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Professional Level",
+                                "Est. Annual Salary (ZAR)",
+                                "Est. Annual Salary (USD)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Junior Software Dev (1-3 yrs)",
+                                    "values": [
+                                        "R350k - R550k",
+                                        "$18,000 - $28,000"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Senior Dev / Tech Lead",
+                                    "values": [
+                                        "R1.1m - R1.8m",
+                                        "$58,000 - $95,000"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Project Manager",
+                                    "values": [
+                                        "R700k - R1.2m",
+                                        "$37,000 - $63,000"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Accountant / Financial Controller",
+                                    "values": [
+                                        "R800k - R1.4m",
+                                        "$42,000 - $74,000"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "za-staffing-faq",
+                    "type": "faq",
+                    "title": "Human Resources FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What are the common benefits in SA?",
+                                "answer": "Medical Aid, Retirement Fund, Group Life Cover, and highly flexible leave policies are standard for white-collar roles."
+                            },
+                            {
+                                "question": "Are agencies expensive?",
+                                "answer": "Standard fees range from 12% to 20% of the candidate's first-year annual salary, depending on the role's seniority and scarcity."
+                            },
+                            {
+                                "question": "What is 'Section 197'?",
+                                "answer": "It refers to the transfer of employment contracts when a business is sold or transferred, protecting employee rights during the transition."
+                            },
+                            {
+                                "question": "Do I need to verify degrees?",
+                                "answer": "Yes. Qualification fraud is a risk. Using SAPRIS or MIE for SAQA-accredited verification is highly recommended."
+                            },
+                            {
+                                "question": "Is remote work popular?",
+                                "answer": "Extremely so in the tech sector. Many 'Silicon Cape' companies now operate on hybrid or 100% remote models."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "za-staffing-essentials",
+                    "type": "essentials",
+                    "title": "Hiring Compliance Checks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Criminal Record Check",
+                                "text": "Biometric (fingerprint) checks are required for accuracy; name-only checks are insufficient."
+                            },
+                            {
+                                "title": "Credit Check",
+                                "text": "Only legal for roles requiring trust or handling of finances (regulated by the National Credit Act)."
+                            },
+                            {
+                                "title": "Right to Work",
+                                "text": "Verification of SA ID documents or valid DHA work permits with the Department of Home Affairs."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "staffing-recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting"
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HR Software",
+                "subtitle": "Leave Mgmt",
+                "description": "Systems like Sage 300 People, SimplePay, or BambooHR used for leave & payroll integration.",
+                "bestFor": "Admin.",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "za-hris-logic",
+                    "type": "key_steps",
+                    "title": "HRIS Implementation Roadmap",
+                    "subtitle": "Setup Time: 2-3 Weeks",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "B-BBEE / EE Structure Mapping",
+                                "description": "Configuring the system to capture vital Employment Equity data (Race, Gender, Disability) required for annual Department of Labour reporting."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Leave Policy Automation",
+                                "description": "Setting up statutory leave types (Annual, Sick, Maternity, Family Responsibility) and any custom 'Prestaciones' or study leave policies."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Employee Self-Service (ESS) Portal",
+                                "description": "Enabling employees to view IRP5 tax certificates, submit expense claims, and apply for leave via mobile or web interfaces."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Payroll Integration Sync",
+                                "description": "Linking HR data (new hires, salary changes) directly to the payroll engine to ensure one-click EMP201 generation and SARS compliance."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "POPIA Consent & Data Security",
+                                "description": "Ensuring all employee data storage and processing aligns with the Protection of Personal Information Act (POPIA) requirements."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "za-hris-insights",
+                    "type": "insights",
+                    "title": "HR Tech in South Africa",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "POPIA Compliance",
+                                "text": "The Protection of Personal Information Act is South Africa's version of GDPR. Your HRIS must have robust consent logging and data breach protocols."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Cloud Adoption",
+                                "text": "SA businesses are rapidly moving from legacy desktop systems (like old Sage versions) to cloud-native platforms to facilitate remote work management."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Reporting Deadlines",
+                                "text": "Automated reporting for the Employment Equity (EE) and Skills Development Levy (SDL) is a must-have feature to avoid manual filing errors in October."
+                            },
+                            {
+                                "type": "success",
+                                "title": "Mobile First",
+                                "text": "Given high mobile usage and limited fixed-line fiber in some areas, mobile-friendly ESS portals see 40% higher engagement among SA workforces."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Local Integrations",
+                                "text": "Leading SA platforms (Sage 300 People, SimplePay) offer direct API links to local banks for bulk EFT payments and salary distributions."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "za-hris-costs",
+                    "type": "cost_breakdown",
+                    "title": "HR Software Pricing Models",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Platform Category",
+                                "Est. Monthly Fee (Per Emp)",
+                                "Core Features"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Basic Payroll & Leave",
+                                    "values": [
+                                        "R30 - R60 ($2 - $4)",
+                                        "Payslips, Leave management, EMP201 generation."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Full HRIS & EE Suite",
+                                    "values": [
+                                        "R80 - R150 ($5 - $8)",
+                                        "Performance reviews, EE reporting, Training logs."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Enterprise ERP Integration",
+                                    "values": [
+                                        "Custom Quote",
+                                        "Global sync, complex workflows, advanced analytics."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "za-hris-faq",
+                    "type": "faq",
+                    "title": "SA HRIS FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is POPIA similar to GDPR?",
+                                "answer": "Yes, very similar. It protects how personal data is collected, processed, and stored, with heavy penalties for non-compliance."
+                            },
+                            {
+                                "question": "Does the system handle SARS returns?",
+                                "answer": "Yes, compliant systems generate tax certificates (IRP5s) and monthly EMP201 files for direct upload to SARS eFiling."
+                            },
+                            {
+                                "question": "Can we manage remote teams?",
+                                "answer": "Most modern HRIS include GPS clocking, digital task assignment, and virtual onboarding modules perfect for remote SA talent."
+                            },
+                            {
+                                "question": "What is the Department of Labour reporting?",
+                                "answer": "Companies with 50+ employees must submit annual EE reports showing the racial and gender breakdown of their workforce."
+                            },
+                            {
+                                "question": "Is cloud data storage in SA required?",
+                                "answer": "Not strictly, but POPIA requires 'adequate protection' in the host country, making local Azure or AWS regions a safer bet."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "za-hris-essentials",
+                    "type": "essentials",
+                    "title": "System Requirement Checklist",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "EE Gender/Race Categories",
+                                "text": "Must include African, Coloured, Indian, and White categories as per the Employment Equity Act."
+                            },
+                            {
+                                "title": "SARS IRP5 Generation",
+                                "text": "Ability to produce the annual tax certificates in the specific layout required by the tax authorities."
+                            },
+                            {
+                                "title": "Leave Cycle Management",
+                                "text": "Tracking the 3-year sick leave cycle and annual carry-over limits per the BCEA."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "hris-hrms-ats",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS"
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Bookkeeping",
+                "subtitle": "Xero / Sage",
+                "description": "Cloud accounting widely adopted. Accountants must be registered with SAICA/SAIPA.",
+                "bestFor": "Growth.",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "za-acc-lifecycle",
+                    "type": "key_steps",
+                    "title": "Accounting & Tax Compliance Flow",
+                    "subtitle": "Monthly & Annual Obligations",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Day-to-Day Cloud Bookkeeping",
+                                "description": "Managing transactions on Xero or Sage. Categorizing expenses and ensuring all local ZAR invoices meet SARS 'Tax Invoice' requirements."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Monthly VAT (201) Processing",
+                                "description": "Calculating Input vs Output VAT (currently 15%). Preparing the return for submission via SARS eFiling on the 25th of the month."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Provisional Tax Estimates",
+                                "description": "Calculating and paying corporate tax in two installments (August and February) to avoid interest and penalties on the final assessment."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Annual Financial Statement (AFS) Audit",
+                                "description": "Preparing the year-end books. Depending on the company's 'Public Interest Score', an independent review or full audit by a SAICA-registered CA may be required."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "ITR14 Corporate Tax Filing",
+                                "description": "The final submission of the company's annual tax return, reconciling the provisional payments with the final calculated liability."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "za-acc-insights",
+                    "type": "insights",
+                    "title": "SA Financial Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "IFRS for SMEs",
+                                "text": "Most South African private companies report under the International Financial Reporting Standards (IFRS) for Small and Medium-sized Entities."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "VAT Registration Threshold",
+                                "text": "Registration is mandatory once turnover exceeds R1 million. Failing to register can result in back-tax liabilities and heavy fines."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Section 12I Incentives",
+                                "text": "Speak to your accountant about green energy and manufacturing tax breaks designed to stimulate industrial expansion."
+                            },
+                            {
+                                "type": "success",
+                                "title": "Digital Invoicing Efficiency",
+                                "text": "SARS is highly digitized. Using integrated software reduces manual data entry and speeds up VAT refund approvals."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Exchange Control",
+                                "text": "Moving money out of South Africa (dividends, service fees) requires SARB approval or specific 'Circular' compliance through your bank."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "za-acc-costs",
+                    "type": "cost_breakdown",
+                    "title": "Accounting Service Fees",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service Level",
+                                "Est. Annual Cost (ZAR)",
+                                "Est. Annual Cost (USD)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Bookkeeping & VAT (SME)",
+                                    "values": [
+                                        "R60,000 - R120,000",
+                                        "$3,200 - $6,400"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Annual Financials + Tax (ITR14)",
+                                    "values": [
+                                        "R25,000 - R50,000",
+                                        "$1,300 - $2,700"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Full Audit (Mid-Market)",
+                                    "values": [
+                                        "R150,000+",
+                                        "$8,000+"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Company Secretarial (CIPC)",
+                                    "values": [
+                                        "R5,000 - R10,000",
+                                        "$270 - $540"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "za-acc-faq",
+                    "type": "faq",
+                    "title": "Accounting & Banking FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the current VAT rate?",
+                                "answer": "The standard VAT rate in South Africa is 15%. Some basic foodstuffs are zero-rated."
+                            },
+                            {
+                                "question": "What is 'Provisional Tax'?",
+                                "answer": "It is a system that allows taxpayers to pay their income tax in advance (twice a year) to avoid a large lump sum at the end of the year."
+                            },
+                            {
+                                "question": "Do I need a local bank account?",
+                                "answer": "Yes, to pay staff in ZAR and to register for VAT, a local South African bank account is a prerequisite."
+                            },
+                            {
+                                "question": "How long should I keep records?",
+                                "answer": "Under the Tax Administration Act, you must keep all accounting records and supporting documents for at least 5 years."
+                            },
+                            {
+                                "question": "What is AR (Annual Return)?",
+                                "answer": "A summary of information filed with the CIPC once a year to confirm that the company is still active."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "za-acc-essentials",
+                    "type": "essentials",
+                    "title": "Required Financial Documents",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Valid Tax Invoice",
+                                "text": "Must include 'Tax Invoice' wording, vendor's VAT number, and the full physical address of both parties."
+                            },
+                            {
+                                "title": "Dividend Tax (DT)",
+                                "text": "A 20% tax on dividends paid to shareholders, which must be withheld and paid to SARS by the company."
+                            },
+                            {
+                                "title": "Customs Code",
+                                "text": "If importing or exporting goods, you must apply for a specific Customs and Excise code from SARS."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "za-comp-check",
+                    "type": "key_steps",
+                    "title": "Statutory Compliance Audit",
+                    "subtitle": "Annual Compliance Calendar",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "B-BBEE Scorecard Assessment",
+                                "description": "Calculating current points across Ownership, Management Control, Skills Development, Enterprise/Supplier Development, and Socio-Economic Development."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Employment Equity (EE) Reporting",
+                                "description": "Designated employers (50+ staff) must submit EEA2 and EEA4 forms to the Dept of Labour by January each year."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Workplace Skills Plan (WSP)",
+                                "description": "Submitting a WSP and Annual Training Report (ATR) to the relevant SETA by April 30 to reclaim mandatory SDL levies."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "CIPC Annual Returns & FS",
+                                "description": "Filing the yearly summary and Financial Accountability Supplement to maintain the company's 'Active' legal status."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "COIDA Return of Earnings",
+                                "description": "Submitting the annual declaration of total salaries to the Compensation Fund to ensure workers' compensation coverage is maintained."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "za-comp-insights",
+                    "type": "insights",
+                    "title": "Regulated Market Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "The Role of SETAs",
+                                "text": "Sector Education and Training Authorities (SETAs) oversee skills development. Engaging with your SETA is vital for B-BBEE points and SDL rebates."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "POPIA Risk Officers",
+                                "text": "Every company must formally appoint an Information Officer and register them with the Information Regulator to ensure data privacy accountability."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "SANAS Accredited Agencies",
+                                "text": "Only use SANAS-accredited agencies for B-BBEE verification. Self-signed affidavits are only for EMEs (<R10m turnover)."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Occupational Health & Safety",
+                                "text": "Employers must comply with the OHS Act, providing a safe working environment and maintaining an active safety committee if staff count exceeds 20."
+                            },
+                            {
+                                "type": "success",
+                                "title": "Employment Equity Pride",
+                                "text": "Proactive EE strategies increase your 'Public Interest Score' and make your firm more attractive for both government and multinational partnership."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "za-comp-costs",
+                    "type": "cost_breakdown",
+                    "title": "Compliance Maintenance Fees",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Requirement",
+                                "Typical Cost (ZAR)",
+                                "Renewal Frequency"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "B-BBEE Verification (SME)",
+                                    "values": [
+                                        "R15,000 - R35,000",
+                                        "Annual"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "EE Reporting (Consultant)",
+                                    "values": [
+                                        "R5,000 - R12,000",
+                                        "Annual"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Health & Safety Audit",
+                                    "values": [
+                                        "R8,000 - R20,000",
+                                        "Annual / Bi-Annual"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "POPIA Compliance Package",
+                                    "values": [
+                                        "R10,000 - R40,000",
+                                        "Once-off + Audit"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "za-comp-faq",
+                    "type": "faq",
+                    "title": "Strategic Compliance FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is a 'Designated Employer'?",
+                                "answer": "An employer who employs 50 or more employees, or whose annual turnover exceeds certain industry-specific limits."
+                            },
+                            {
+                                "question": "What happens if I ignore B-BBEE?",
+                                "answer": "It is not a legal 'crime' to have a poor score, but you will be effectively 'locked out' of bidding for large contracts or government work."
+                            },
+                            {
+                                "question": "What is the Information Regulator?",
+                                "answer": "The independent body that monitors POPIA compliance and handles complaints regarding personal data privacy."
+                            },
+                            {
+                                "question": "Are there penalties for poor EE reporting?",
+                                "answer": "Yes. Fines of up to R1.5 million or 2% of turnover can be imposed for non-compliance with the Employment Equity Act."
+                            },
+                            {
+                                "question": "What is a Letter of Good Standing?",
+                                "answer": "A certificate from the Compensation Fund (COIDA) proving your company is up to date with its payments for workers' comp."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "za-comp-essentials",
+                    "type": "essentials",
+                    "title": "Mandatory Compliance Filing",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "B-BBEE Affidavit / Certificate",
+                                "text": "The core document required by clients to prove your transformation status."
+                            },
+                            {
+                                "title": "EEA2 / EEA4 Forms",
+                                "text": "The quantitative and qualitative reports on workforce diversity submitted to the DOL."
+                            },
+                            {
+                                "title": "WSP / ATR Submissions",
+                                "text": "Skills development plans required to claim back mandatory training levies."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "za-tax-workflow",
+                    "type": "key_steps",
+                    "title": "Corporate Tax Cycle",
+                    "subtitle": "27% Standard Corporate Rate",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Tax Registration & Public Officer",
+                                "description": "Ensuring the entity is registered for Corporate Income Tax and that a resident Public Officer is formally appointed and linked on eFiling."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "1st Provisional Payment (August)",
+                                "description": "Estimating the first half of the year's taxable income and paying 50% of the estimated tax to SARS."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "2nd Provisional Payment (February)",
+                                "description": "Reviewing the full year's performance and paying the balance of the estimated tax. Accuracy is vital to avoid 'under-estimation' penalties."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "ITR14 Annual Return Submission",
+                                "description": "Lodging the final company tax return based on Audited or Independently Reviewed Financial Statements."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Tax Clearance Status (TCS)",
+                                "description": "Maintaining a 'Compliant' status on the TCS system to enable government bidding and international funds transfers."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "za-tax-insights",
+                    "type": "insights",
+                    "title": "Advanced Tax Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "SBC Tax Brackets",
+                                "text": "Small Business Corporations (turnover <R20m) enjoy progressive rates from 0% on the first R95k to 27% only on profits over R550k."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Withholding Tax on Interest",
+                                "text": "A 15% withholding tax applies to interest paid to non-residents, subject to Double Taxation Agreements (DTAs)."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "R&D Tax Incentive",
+                                "text": "Claim up to 150% of qualifying R&D expenditure as a tax deduction. Prior approval from the Dept of Science and Innovation is required."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Transfer Pricing",
+                                "text": "Transactions with foreign related parties must be at 'arm's length' and require specific documentation for SARS review."
+                            },
+                            {
+                                "type": "success",
+                                "title": "VAT Zero-Rating",
+                                "text": "Services exported to foreign clients are generally zero-rated for VAT (0%), providing a cashflow advantage for SA-based service exporters."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "za-tax-costs",
+                    "type": "cost_breakdown",
+                    "title": "Tax Compliance Benchmarks",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Tax Type",
+                                "Standard Rate",
+                                "Thresholds / Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax (CIT)",
+                                    "values": [
+                                        "27%",
+                                        "Calculated on taxable profit."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Value Added Tax (VAT)",
+                                    "values": [
+                                        "15%",
+                                        "Mandatory above R1m turnover."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Dividends Tax",
+                                    "values": [
+                                        "20%",
+                                        "Withheld before payment to shareholders."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Capital Gains Tax (CGT)",
+                                    "values": [
+                                        "21.6% (Effective)",
+                                        "80% of gain included in taxable income."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "za-tax-faq",
+                    "type": "faq",
+                    "title": "Tax Compliance FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is a Tax Directive?",
+                                "answer": "An official instruction from SARS to an employer or payer on how much tax to withhold from a specific payment."
+                            },
+                            {
+                                "question": "Is South Africa a 'Global' tax regime?",
+                                "answer": "Yes. Residents are taxed on their worldwide income, while non-residents are only taxed on SA-sourced income."
+                            },
+                            {
+                                "question": "What are 'E-filing' hours?",
+                                "answer": "The SARS eFiling platform is generally available 24/7, though certain payment processing may only occur during bank business hours."
+                            },
+                            {
+                                "question": "How do DTAs affect me?",
+                                "answer": "Double Taxation Agreements prevent you from paying tax on the same income in two countries. SA has a wide network of these agreements."
+                            },
+                            {
+                                "question": "What is the penalty for late filing?",
+                                "answer": "Administrative penalties range from R250 to R16,000 per month of non-compliance, depending on the taxpayer's income level."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "za-tax-essentials",
+                    "type": "essentials",
+                    "title": "Critical Tax Identifiers",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Income Tax Number",
+                                "text": "A unique 10-digit number issued to all individuals and registered business entities."
+                            },
+                            {
+                                "title": "VAT Number",
+                                "text": "Beginning with '4', this number must appear on all tax invoices issued by the vendor."
+                            },
+                            {
+                                "title": "PAYE Number",
+                                "text": "Beginning with '7', used for all payroll tax submissions and employee registrations."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "finance-tax-accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting"
+        },
+        {
+            "serviceSlug": "msa",
+            "service": "M & A",
+            "heroData": {
+                "title": "Legal Services",
+                "subtitle": "English / Roman-Dutch",
+                "description": "Hybrid legal system. commercial law is English-based.",
+                "bestFor": "Contracts.",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "za-msa-steps",
+                    "type": "key_steps",
+                    "title": "Master Service Agreement Framework",
+                    "subtitle": "Common Law Juridical Framework",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Choice of Law & Jurisdiction",
+                                "description": "Defining whether the agreement is governed by the laws of the Republic of South Africa and which High Court (e.g., Gauteng or Western Cape) has jurisdiction."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "B-BBEE Compliance Clauses",
+                                "description": "Incorporating provisions requiring the service provider to maintain a specific B-BBEE level throughout the contract duration to protect the client's procurement score."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "POPIA Data Processing Addendum",
+                                "description": "Drafting mandatory clauses regarding the processing of personal information, including breach notification duties and cross-border data transfer restrictions."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "IP Rights & Work-for-Hire",
+                                "description": "Explicitly stating that all intellectual property created during the service period vests in the client, particularly relevant for software and creative services."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Dispute Resolution (Arbitration)",
+                                "description": "Establishing mediation or arbitration procedures (often via AFSA - Arbitration Foundation of Southern Africa) to avoid lengthy High Court delays."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "za-msa-insights",
+                    "type": "insights",
+                    "title": "Legal & MSA Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Roman-Dutch Influence",
+                                "text": "While SA commercial law is heavily influenced by English law, it sits on a Roman-Dutch common law foundation, creating a unique hybrid legal system."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Section 197 Risk",
+                                "text": "Always include clauses protecting against the unintended 'transfer of business' under the Labour Relations Act, which could force a client to take on a provider's staff."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Currency Fluctuations",
+                                "text": "If contracting in USD/EUR, clarify the exchange rate deck and who bears the risk of ZAR volatility to avoid invoicing disputes."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Exchange Control (Excon)",
+                                "text": "Agreements involving payments to non-residents must comply with South African Reserve Bank (SARB) regulations for the 'export' of funds."
+                            },
+                            {
+                                "type": "success",
+                                "title": "Arbitration Speed",
+                                "text": "AFSA arbitration is the gold standard for commercial disputes in SA, usually resolving cases in months whereas the High Court can take years."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "za-msa-costs",
+                    "type": "cost_breakdown",
+                    "title": "Legal & Drafting Fees",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Legal Service",
+                                "Est. Hourly Rate (ZAR)",
+                                "Est. Hourly Rate (USD)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Junior Attorney / Associate",
+                                    "values": [
+                                        "R1,500 - R2,500",
+                                        "$80 - $130"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Senior Partner (Specialist)",
+                                    "values": [
+                                        "R4,500 - R7,500",
+                                        "$240 - $400"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Standard MSA Review",
+                                    "values": [
+                                        "R10,000 - R25,000",
+                                        "$530 - $1,300"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Full Custom Contract Suite",
+                                    "values": [
+                                        "R50,000+",
+                                        "$2,700+"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "za-msa-faq",
+                    "type": "faq",
+                    "title": "SA Contract Law FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Are electronic signatures valid?",
+                                "answer": "Yes. Most commercial contracts can be signed via DocuSign or similar platforms under the Electronic Communications and Transactions Act (ECTA)."
+                            },
+                            {
+                                "question": "What is 'Suretyship'?",
+                                "answer": "A common requirement in SA where directors personally guarantee the company's performance. International firms should avoid this where possible."
+                            },
+                            {
+                                "question": "How long is a 'Notice Period'?",
+                                "answer": "For MSAs, 30 to 90 days is standard. However, specific SaaS or EOR contracts may have longer lock-in periods."
+                            },
+                            {
+                                "question": "What is AFSA?",
+                                "answer": "The Arbitration Foundation of Southern Africa. It is the leading private dispute resolution body for commercial law."
+                            },
+                            {
+                                "question": "Is VAT charged on legal fees?",
+                                "answer": "Yes, if the legal firm is VAT-registered, they will add 15% to the invoice for services rendered within South Africa."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "za-msa-essentials",
+                    "type": "essentials",
+                    "title": "Standard Contract Clauses",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Bolation Clauses",
+                                "text": "Standard 'Force Majeure' clauses that account for South Africa's specific energy and infrastructure challenges."
+                            },
+                            {
+                                "title": "Indemnity Limits",
+                                "text": "Clearly defined caps on liability to protect against consequential damages in high-risk service sectors."
+                            },
+                            {
+                                "title": "Confidentiality (NDA)",
+                                "text": "Robust non-disclosure terms aligned with both local POPIA and international GDPR standards."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "msa",
+            "name": "M & A",
+            "serviceName": "M & A"
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Tech Dev",
+                "subtitle": "Cape Town Hub",
+                "description": "Growing tech hub ('Silicon Cape'). Good talent, time zone aligned with Europe.",
+                "bestFor": "Dev Teams.",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "za-soft-devops",
+                    "type": "key_steps",
+                    "title": "Software Development Lifecycle",
+                    "subtitle": "Agile & DevOps Focused",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Stack Selection & Architecture",
+                                "description": "Defining the technical roadmap. Common SA stacks include .NET/C#, Java, and React/Node.js, with heavy AWS/Azure cloud adoption."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Remote/Hybrid Team Setup",
+                                "description": "Setting up collaborative tools (Jira, Slack, GitHub) to support the distributed nature of the 'Silicon Cape' talent pool."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Sprint Planning & Execution",
+                                "description": "Utilizing two-week sprints managed by local Scrum Masters to ensure alignment with European or US time zones."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "QA & Automated Testing",
+                                "description": "Implementing rigorous testing protocols, including unit, integration, and security testing (essential for Fintech/Healthcare apps)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Cloud Deployment & Support",
+                                "description": "Continuous Integration and Deployment (CI/CD) to local SA cloud regions for low latency and high availability."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "za-soft-insights",
+                    "type": "insights",
+                    "title": "The Silicon Cape Ecosystem",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Time Zone Advantage",
+                                "text": "South Africa (GMT+2) is perfectly aligned with the UK & Europe, making real-time collaboration seamless and cost-effective."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Energy Constraints",
+                                "text": "Reliable teams must have 'load-shedding' backup plans (Inverters/Solar) to ensure uninterrupted development and delivery."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Section 11D Incentives",
+                                "text": "Registered R&D projects in software development can qualify for significant tax deductions from the Department of Science."
+                            },
+                            {
+                                "type": "success",
+                                "title": "Global Tech Hubs",
+                                "text": "Amazon, Microsoft, and Google all have significant infrastructure or development centers in SA, validating the local talent level."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Fintech Innovation",
+                                "text": "SA is a world leader in Fintech and mobile banking solutions, making it an ideal location for complex financial systems development."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "za-soft-costs",
+                    "type": "cost_breakdown",
+                    "title": "Tech Talent Pricing",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Role",
+                                "Monthly Retainer (ZAR)",
+                                "Monthly Retainer (USD)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Full-Stack Dev (Mid-Level)",
+                                    "values": [
+                                        "R55k - R85k",
+                                        "$2,900 - $4,500"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Senior Architect / Lead",
+                                    "values": [
+                                        "R100k - R150k",
+                                        "$5,300 - $8,000"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "UI/UX Designer",
+                                    "values": [
+                                        "R45k - R75k",
+                                        "$2,400 - $4,000"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Project Manager / Scrum Master",
+                                    "values": [
+                                        "R60k - R95k",
+                                        "$3,200 - $5,000"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "za-soft-faq",
+                    "type": "faq",
+                    "title": "Software Outsourcing FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Why hire developers in SA?",
+                                "answer": "Excellent English skills, matching time zones with Europe, and high technical standards at roughly 40-60% lower cost than London or SF."
+                            },
+                            {
+                                "question": "What is 'Skill Scarcity'?",
+                                "answer": "Certain niche skills (AI, specialized cloud security) are in high demand, leading to rapid salary inflation in these specific verticals."
+                            },
+                            {
+                                "question": "How do we handle IP?",
+                                "answer": "All SA software contracts should explicitly state that IP ownership transfers to the funder upon payment, compliant with SARB rules."
+                            },
+                            {
+                                "question": "Is the infrastructure reliable?",
+                                "answer": "While the grid faces challenges, professional tech hubs and home offices are almost universally equipped with backup power systems."
+                            },
+                            {
+                                "question": "Which city is best for tech?",
+                                "answer": "Cape Town is the 'tech capital', but Johannesburg has a deep bench of enterprise and financial services developers."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "za-soft-essentials",
+                    "type": "essentials",
+                    "title": "Development Prerequisites",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "GitHub / GitLab Flow",
+                                "text": "Standardized branching and code review processes to maintain international quality benchmarks."
+                            },
+                            {
+                                "title": "Agile Methodology",
+                                "text": "Adherence to Scrum or Kanban frameworks for transparent project management and delivery."
+                            },
+                            {
+                                "title": "Secure DevOps",
+                                "text": "Hardened CI/CD pipelines with automated vulnerability scanning for all cloud deployments."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "software-technology-solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions"
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Digital Agencies",
+                "subtitle": "Creative & SEO",
+                "description": "Strong creative industry. Cost-effective compared to US/UK/EU.",
+                "bestFor": "Campaigns.",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "za-mark-strategy",
+                    "type": "key_steps",
+                    "title": "Market Entry & Campaign Flow",
+                    "subtitle": "Multicultural & Polyglot Market",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Brand Localization & Tone",
+                                "description": "Adapting messaging to resonate with SA's diverse audience, ensuring cultural sensitivity and 'Mzansi' relevance."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Multi-Channel Media Planning",
+                                "description": "Optimizing spend across Digital (Top of FB/Instagram), Radio (still massive in SA), and High-Traffic Out-of-Home (OOH) billboards."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Influencer & Community Outreach",
+                                "description": "Partnering with local creators who command high trust in specific linguistic or regional micro-markets."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Performance SEO & PPC",
+                                "description": "Focusing on local search intent in ZAR and optimizing for mobile devices, which account for over 75% of web traffic in SA."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Conversion Rate Optimization (CRO)",
+                                "description": "Refining landing pages to accommodate slower data speeds and local payment gateways like PayFast or Peach Payments."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "za-mark-insights",
+                    "type": "insights",
+                    "title": "SA Creative Industry",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "11 Official Languages",
+                                "text": "While English is the language of business, campaigns in isiZulu or Afrikaans often see 3x higher engagement in specific regions."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "The Data Divide",
+                                "text": "South Africa has high data costs. Video content should be optimized for 'data-lite' viewing to reach the broader mass market."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Mobile First Strategy",
+                                "text": "Most SA consumers bypass desktop entirely. All marketing funnels must be meticulously designed for a mobile-first user experience."
+                            },
+                            {
+                                "type": "success",
+                                "title": "Global Creative Recognition",
+                                "text": "SA agencies regularly win at Cannes Lions, providing world-class creative work at a currency-advantaged price point for global brands."
+                            },
+                            {
+                                "type": "success",
+                                "title": "Social Commerce Boom",
+                                "text": "WhatsApp and Facebook Marketplace are central to the SA shopping experience. Social commerce integration is a high-growth strategy."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "za-mark-costs",
+                    "type": "cost_breakdown",
+                    "title": "Agency Fee Benchmarks",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service Scope",
+                                "Monthly Retainer (ZAR)",
+                                "Estimated Value"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Media (SME)",
+                                    "values": [
+                                        "R10,000 - R25,000",
+                                        "Content, community mgmt, basic ads."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Full Performance Agency",
+                                    "values": [
+                                        "R45k - R100k+",
+                                        "SEO, PPC, CRO, and Strategy."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Creative Boutique",
+                                    "values": [
+                                        "R30,000 - R60,000",
+                                        "High-end design, branding, and video."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "PR & Crisis Mgmt",
+                                    "values": [
+                                        "R20,000 - R40,000",
+                                        "Media relations and reputation."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "za-mark-faq",
+                    "type": "faq",
+                    "title": "Marketing & Media FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is Google Ads effective in SA?",
+                                "answer": "Extremely. However, competition in sectors like banking and insurance is intense, requiring high bids and advanced strategies."
+                            },
+                            {
+                                "question": "What about Facebook?",
+                                "answer": "Facebook remains the dominant social platform in SA for broad reach, while TikTok is seeing exponential growth among Gen Z."
+                            },
+                            {
+                                "question": "How do I pay influencers?",
+                                "answer": "Standard practices involve a mix of 'gifting' for micro-influencers and fixed campaign fees for established creators."
+                            },
+                            {
+                                "question": "What is ASOM?",
+                                "answer": "The Association of Strategy and Marketing. It's one of several bodies that set ethical and professional standards for the industry."
+                            },
+                            {
+                                "question": "Are data laws strict for marketing?",
+                                "answer": "Yes. POPIA requires explicit 'Opt-In' for direct marketing via email or SMS. Violation carries significant reputational risks."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "za-mark-essentials",
+                    "type": "essentials",
+                    "title": "Brand Compliance Checklist",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "POPIA Consent Forms",
+                                "text": "Ensuring all lead generation forms are fully compliant with South African data privacy laws."
+                            },
+                            {
+                                "title": "ASA Code of Conduct",
+                                "text": "Adhering to the Advertising Regulatory Board (ARB) rules on honesty and competitive claims."
+                            },
+                            {
+                                "title": "Multi-Language Assets",
+                                "text": "Providing creative assets in core languages (English, Zulu, Xhosa) specifically for the local audience."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "marketing-agency",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY"
+        }
+    ]
+}

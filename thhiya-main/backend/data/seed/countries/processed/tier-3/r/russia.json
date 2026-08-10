@@ -1,0 +1,512 @@
+{
+    "name": "Russia",
+    "code": "RU",
+    "slug": "russia",
+    "flag": "https://flagcdn.com/w160/ru.png",
+    "region": "Europe",
+    "languages": [
+        "Russian"
+    ],
+    "currencies": [
+        "RUB"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Russia",
+                "subtitle": "Hire in Moscow",
+                "description": "Compliant employment. We handle Unified Social Tax.",
+                "bestFor": "Tech & Energy",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "ru-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Employment contract in Russian (трудовой договор)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Labor Book",
+                                "description": "Maintain employment record (трудовая книжка)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Insurance",
+                                "description": "Register for unified social insurance contributions."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ru-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Unified Social Tax",
+                                    "values": [
+                                        "30%",
+                                        "0%",
+                                        "Up to RUB 2,225,000 threshold."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Excess Contributions",
+                                    "values": [
+                                        "15.1%",
+                                        "0%",
+                                        "Above threshold."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ru-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year Holidays",
+                                "description": "January 1-6, 8"
+                            },
+                            {
+                                "title": "Orthodox Christmas",
+                                "description": "January 7"
+                            },
+                            {
+                                "title": "Defender of the Fatherland Day",
+                                "description": "February 23"
+                            },
+                            {
+                                "title": "International Women's Day",
+                                "description": "March 8"
+                            },
+                            {
+                                "title": "Spring and Labor Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Victory Day",
+                                "description": "May 9"
+                            },
+                            {
+                                "title": "Russia Day",
+                                "description": "June 12"
+                            },
+                            {
+                                "title": "Unity Day",
+                                "description": "November 4"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ru-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax (NDFL)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Income Bracket (RUB)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Up to 2,400,000",
+                                    "values": [
+                                        "13%",
+                                        "Base rate."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "2,400,001 - 5,000,000",
+                                    "values": [
+                                        "15%",
+                                        "Second bracket."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "5,000,001 - 20,000,000",
+                                    "values": [
+                                        "18%",
+                                        "Third bracket."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "20,000,001 - 50,000,000",
+                                    "values": [
+                                        "20%",
+                                        "Fourth bracket."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Above 50,000,000",
+                                    "values": [
+                                        "22%",
+                                        "Top rate."
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ru-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Monthly Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "NDFL",
+                                "description": "Apply progressive NDFL rates (13-22%). Employees pay 0% social insurance."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Net",
+                                "description": "Gross - NDFL."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Russia",
+                "subtitle": "OOO",
+                "description": "Limited Liability.",
+                "bestFor": "Business",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "ru-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "FTS",
+                                "description": "Register with Federal Tax Service."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Bank",
+                                "description": "Open corporate account."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Seal",
+                                "description": "Obtain company seal (often required)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ru-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Sberbank",
+                                "description": "Largest Russian bank **(Sanctioned by US/EU)**."
+                            },
+                            {
+                                "title": "VTB",
+                                "description": "Major state bank **(Sanctioned by US/EU)**."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Russia",
+                "subtitle": "Tech Talent",
+                "description": "Strong engineering.",
+                "bestFor": "Software Dev",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "ru-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Moscow",
+                                "text": "Capital and largest business center."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Saint Petersburg",
+                                "text": "Major IT and cultural hub."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Novosibirsk",
+                                "text": "Growing tech center (Akademgorodok)."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Russia",
+                "subtitle": "Digital",
+                "description": "E-reporting.",
+                "bestFor": "Compliance",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "ru-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "RSV",
+                                "description": "Unified calculation of insurance contributions (monthly)."
+                            },
+                            {
+                                "title": "6-NDFL",
+                                "description": "Personal income tax report (quarterly)."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Russia",
+                "subtitle": "RAS",
+                "description": "Russian standards.",
+                "bestFor": "Compliance",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "ru-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "RAS",
+                                "text": "Russian Accounting Standards (converging with IFRS for some companies)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ru-comp-labor",
+                    "type": "warning",
+                    "title": "Sanctions",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "International Sanctions",
+                                "description": "**Critical**: Comprehensive US/EU/UK sanctions affect banking, trade, and investment. Consult legal counsel."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ru-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax",
+                                    "values": [
+                                        "20%",
+                                        "3% Federal + 17% Regional."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "VAT",
+                                    "values": [
+                                        "20%",
+                                        "Standard rate (10% reduced)."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Russia",
+                "subtitle": "Civil Law",
+                "description": "Russian system.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "ru-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "Russian is mandatory for employment contracts and official documents."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Russia",
+                "subtitle": "Domestic",
+                "description": "Local platforms.",
+                "bestFor": "Payments",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "ru-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Mir",
+                                "description": "National payment system (replacing Visa/Mastercard domestically)."
+                            },
+                            {
+                                "title": "SBP",
+                                "description": "Faster Payment System (Sistema Bystrykh Platezhey)."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Russia",
+                "subtitle": "VK & Yandex",
+                "description": "Local platforms.",
+                "bestFor": "Reach",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "ru-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "VK",
+                                "text": "Dominant social network (VKontakte)."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Yandex",
+                                "text": "Leading search engine and digital ecosystem."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

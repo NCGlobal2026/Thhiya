@@ -1,0 +1,541 @@
+{
+    "name": "Mali",
+    "code": "ML",
+    "slug": "mali",
+    "flag": "https://flagcdn.com/w160/ml.png",
+    "region": "Africa",
+    "languages": [
+        "French",
+        "Bambara"
+    ],
+    "currencies": [
+        "XOF"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Mali",
+                "subtitle": "Hire in Bamako",
+                "description": "Compliant employment in West Africa. We handle INPS contributions.",
+                "bestFor": "Mining & NGOs",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "ml-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Written contract in French required."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "INPS",
+                                "description": "Register with Institut National de Prévoyance Sociale."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "AMO",
+                                "description": "Register with Assurance Maladie Obligatoire (CANAM)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ml-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "INPS (Social Security)",
+                                    "values": [
+                                        "~18.4%",
+                                        "~3.6%",
+                                        "Includes Family Allowances, Accidents, Pension."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "AMO (Health)",
+                                    "values": [
+                                        "3.5%",
+                                        "3.06%",
+                                        "Mandatory Health Insurance."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Taxe Logement",
+                                    "values": [
+                                        "1%",
+                                        "0%",
+                                        "Housing tax on gross salary."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Taxe Formation",
+                                    "values": [
+                                        "2%",
+                                        "0%",
+                                        "Vocational training tax."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ml-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Army Day",
+                                "description": "January 20"
+                            },
+                            {
+                                "title": "Martyrs' Day",
+                                "description": "March 26"
+                            },
+                            {
+                                "title": "Easter Monday",
+                                "description": "April 21"
+                            },
+                            {
+                                "title": "Labour Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Africa Day",
+                                "description": "May 25"
+                            },
+                            {
+                                "title": "Tabaski (Eid al-Adha)",
+                                "description": "June 6 (Estimated)"
+                            },
+                            {
+                                "title": "Independence Day",
+                                "description": "September 22"
+                            },
+                            {
+                                "title": "Prophet's Birthday",
+                                "description": "September 5 (Estimated)"
+                            },
+                            {
+                                "title": "Christmas Day",
+                                "description": "December 25"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ml-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax (ITS)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Annual Income Brackets (XOF)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Up to 330,000",
+                                    "values": [
+                                        "0%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "330,001 - 578,400",
+                                    "values": [
+                                        "5%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "578,401 - 1,176,400",
+                                    "values": [
+                                        "12%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "1,176,401 - 1,789,733",
+                                    "values": [
+                                        "18%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "1,789,734 - 2,384,195",
+                                    "values": [
+                                        "26%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "2,384,196 - 3,494,130",
+                                    "values": [
+                                        "31%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Above 3,494,130",
+                                    "values": [
+                                        "37%"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ml-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Base Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Social Security",
+                                "description": "Deduct INPS (3.6%) + AMO (3.06%)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax Base",
+                                "description": "Gross - Social Contributions."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "ITS",
+                                "description": "Apply progressive tax schedule."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Net",
+                                "description": "Gross - Social - Tax."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Mali",
+                "subtitle": "SARL",
+                "description": "Limited Liability Company.",
+                "bestFor": "Mining Services",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "ml-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Notary",
+                                "description": "Articles of Association must be notarized."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "API-Mali",
+                                "description": "One-Stop Shop (Guichet Unique) for registration."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "NINA",
+                                "description": "Obtain Identification Number."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ml-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Bank of Africa Mali",
+                                "description": "Major regional bank."
+                            },
+                            {
+                                "title": "BDM SA",
+                                "description": "Banque de Développement du Mali."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Mali",
+                "subtitle": "Bamako",
+                "description": "Local workforce.",
+                "bestFor": "Construction",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "ml-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Bamako",
+                                "text": "Economic center."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Mali",
+                "subtitle": "Manual",
+                "description": "Excel dominant.",
+                "bestFor": "Records",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "ml-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Declarations",
+                                "description": "Monthly declarations to INPS and AMO."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Mali",
+                "subtitle": "SYSCOHADA",
+                "description": "OHADA Standards.",
+                "bestFor": "Compliance",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "ml-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "SYSCOHADA",
+                                "text": "Uniform Act on Accounting Law and Financial Reporting."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ml-comp-labor",
+                    "type": "warning",
+                    "title": "Contracts",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "CDD",
+                                "description": "Fixed-term contracts limited in renewal."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ml-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax (IS)",
+                                    "values": [
+                                        "30%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Minimum Tax",
+                                    "values": [
+                                        "1%",
+                                        "Of turnover (IMF)."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "VAT",
+                                    "values": [
+                                        "18%"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Mali",
+                "subtitle": "Civil Law",
+                "description": "French based.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "ml-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "French is official."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Mali",
+                "subtitle": "Orange Money",
+                "description": "Mobile payments.",
+                "bestFor": "Cashless",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "ml-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Orange Money",
+                                "description": "Dominant mobile wallet."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Mali",
+                "subtitle": "Mobile",
+                "description": "SMS & Radio.",
+                "bestFor": "Mass Market",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "ml-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Radio",
+                                "text": "Still key for broad reach."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

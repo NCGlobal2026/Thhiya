@@ -1,0 +1,1956 @@
+{
+    "name": "Poland",
+    "code": "PL",
+    "slug": "poland",
+    "flag": "https://flagcdn.com/w160/pl.png",
+    "region": "Europe",
+    "languages": [
+        "Polish"
+    ],
+    "currencies": [
+        "PLN"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "Hire in Poland (No Entity)",
+                "subtitle": "EU Tech Hub",
+                "description": "Fastest way to hire Polish developers without a local Sp. z o.o. EOR handles ZUS, PIT, and PPK compliance.",
+                "bestFor": "Tech Teams & Sales Reps.",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "eor-steps",
+                    "type": "key_steps",
+                    "title": "Onboarding Process",
+                    "subtitle": "Timeline: 5-10 Days",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Medical Examination",
+                                "description": "Mandatory 'Medicine of Labour' (Medycyna Pracy) checkup must be completed before the employee's start date. The employer covers the cost (approx 100-200 PLN) and provides a referral form."
+                            },
+                            {
+                                "title": "BHP Training",
+                                "description": "Occupational Health & Safety (BHP) training is mandatory for all employees. Initial training lasts 1 day and must be refreshed every 3-5 years. This covers office ergonomics and fire safety."
+                            },
+                            {
+                                "title": "Contract Execution",
+                                "description": "Employment contracts must be in Polish or bilingual. Qualified Electronic Signatures (QES) like DocuSign or Autenti are legally valid for employment contracts in Poland."
+                            },
+                            {
+                                "title": "ZUS Registration",
+                                "description": "The EOR partner registers the employee with the Social Insurance Institution (ZUS) using form ZUS ZUA within 7 days of the contract start date."
+                            },
+                            {
+                                "title": "IT & Assets Dispatch",
+                                "description": "If providing hardware, it should arrive 2 days before the start date. PPE or specific work equipment must be documented in a handover protocol signed by the employee."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "eor-insights",
+                    "type": "insights",
+                    "title": "Local Compliance Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "B2B Reclassification Risk (2026)",
+                                "text": "Starting Jan 2026, the Labor Inspectorate (PIP) will have increased powers to convert B2B contracts into employment contracts instantly if they show signs of subordination (fixed hours, manager oversight). EOR is the safest alternative."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Notice Period Tenure",
+                                "text": "Notice periods are fixed by law: 2 weeks for tenure < 6 months, 1 month for tenure 6 months to 3 years, and 3 months for tenure > 3 years. These cannot be shortened by contract."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "KUP (Creator Tax Costs)",
+                                "text": "Poland offers a 50% Tax Deductible Cost (KUP) for employees transferring Intellectual Property. This is highly effective for software developers, increasing Net take-home by up to 10-15%."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Holiday Allowance",
+                                "text": "Employees with < 10 years of seniority (aggregated from education and previous jobs) get 20 days. Those with > 10 years get 26 days. University graduates gain 8 years of seniority automatically."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Remote Work Regulations",
+                                "text": "Under the 2024 Labor Code update, employers must pay a monthly remote work allowance (Ekwiwalent) covering electricity and internet costs, typically 50-100 PLN."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Estimated EOR Costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Fee Type",
+                                "Monthly Amount",
+                                "Description"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Management Fee",
+                                    "values": [
+                                        "€350 - €550",
+                                        "Per employee, per month management fee."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Social Security (ZUS)",
+                                    "values": [
+                                        "~20.48%+",
+                                        "Employer burden on top of Gross salary."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Security Deposit",
+                                    "values": [
+                                        "1-month total",
+                                        "Refundable deposit held until contract termination."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Training/Medical",
+                                    "values": [
+                                        "250 PLN",
+                                        "One-time setup cost for BHP and medical check."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Remote Allowance",
+                                    "values": [
+                                        "70 PLN",
+                                        "Average monthly mandatory home-office refund."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Total Burden",
+                                    "values": [
+                                        "25% - 30%",
+                                        "Estimated overhead including management fee."
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "eor-faq",
+                    "type": "faq",
+                    "title": "EOR & PEO FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I hire a Polish contractor via EOR?",
+                                "answer": "Yes, but they are typically converted to a 'Contract of Employment' (UoP) to ensure full compliance. If you need them to stay B2B, the provider acts as a 'Contractor Management' portal rather than EOR."
+                            },
+                            {
+                                "question": "What is the probation period in Poland?",
+                                "answer": "The maximum probation period is 3 months. It must be clearly stated in the contract. Termination during probation only requires 1-2 weeks of notice depending on the duration."
+                            },
+                            {
+                                "question": "Is a 13th-month salary required?",
+                                "answer": "No. In Poland's private sector, 13th-month salaries are not mandatory. They are common only in public administration and some specific industry unions (like mining)."
+                            },
+                            {
+                                "question": "How do sick leaves work with EOR?",
+                                "answer": "Employees get paid 80% of their salary during sick leave. The employer (via EOR) pays for the first 33 days per year; after that, the Social Insurance Institution (ZUS) takes over payments."
+                            },
+                            {
+                                "question": "Does EOR handle the PPK pension?",
+                                "answer": "Yes. EOR providers must legally auto-enroll employees into the Employee Capital Plans (PPK). Employees can choose to opt-out, but the EOR must manage the deductions and employer contributions of 1.5%."
+                            },
+                            {
+                                "question": "Can I fire an employee easily with EOR?",
+                                "answer": "Termination requires a valid reason if the contract is for an 'indefinite' term. EOR providers handle the legal documentation (Wypowiedzenie) and ensure the reason meets Polish Labor Court standards."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "eor-essentials",
+                    "type": "essentials",
+                    "title": "Legal Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Bilingual Contracts",
+                                "text": "Mandatory if the manager is non-Polish. The Polish version remains the source of truth for local courts."
+                            },
+                            {
+                                "title": "UODO Data Processing",
+                                "text": "EOR must have a signed DPA. Poland has separate laws for monitoring employees (CCTV/E-mail)."
+                            },
+                            {
+                                "title": "Medical Referrals",
+                                "text": "Referral for medical exams must specify all environmental hazards (e.g., computer use >4h, driving)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "payroll-steps",
+                    "type": "key_steps",
+                    "title": "Monthly Payroll Lifecycle",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Fixed Data Collection",
+                                "description": "By the 25th of the month, collect timesheets, overtime hours, bonuses, and sick leave certificates (e-ZLA)."
+                            },
+                            {
+                                "title": "Gross-to-Net Calculation",
+                                "description": "Calculations must include ZUS (Pension, Disability, Sickness, Health), PIT advances, and PPK deductions for each employee."
+                            },
+                            {
+                                "title": "Client Approval",
+                                "description": "Payroll register and funding request sent to client. Standard approval deadline is the 28th to ensure timely payment."
+                            },
+                            {
+                                "title": "Salary Disbursement",
+                                "description": "Payments must reach employee accounts by the 10th of the following month, though many companies pay by the last day of the current month."
+                            },
+                            {
+                                "title": "Statutory Reporting",
+                                "description": "Submit ZUS DRA reports by the 15th and PIT-4 tax advances by the 20th of the following month."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "payroll-insights",
+                    "type": "insights",
+                    "title": "Payroll Compliance & Tips",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Tax Free Amount (2025)",
+                                "text": "The tax-free allowance remains at 30,000 PLN per year. This is applied monthly (250 PLN reduction in tax) unless the employee requests otherwise."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "32% Tax Threshold",
+                                "text": "Once an employee's annual gross exceeds 120,000 PLN, their PIT rate jumps from 12% to 32% on the excess."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "The Zero PIT for Youth",
+                                "text": "Employees under 26 years old are exempt from PIT on income up to 85,528 PLN per year. This is a massive hiring incentive."
+                            },
+                            {
+                                "type": "info",
+                                "title": "PPK Contribution Rates",
+                                "text": "Basic: Employer 1.5% + Employee 2.0%. Total 3.5% into private savings."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "L4 Sick Pay",
+                                "text": "The first 33 days of illness per year are paid by the employer at 80% of salary."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "payroll-costs",
+                    "type": "cost_breakdown",
+                    "title": "Payroll Outsourcing Fees",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Headcount",
+                                "Standard Monthly Fee",
+                                "Implementation"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "1 - 10 Employees",
+                                    "values": [
+                                        "50 PLN / head",
+                                        "€250 Setup"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "11 - 50 Employees",
+                                    "values": [
+                                        "40 PLN / head",
+                                        "€500 Setup"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "51 - 200 Employees",
+                                    "values": [
+                                        "30 PLN / head",
+                                        "€1,000 Setup"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Annual PIT-11",
+                                    "values": [
+                                        "25 PLN / form",
+                                        "Included"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "payroll-faq",
+                    "type": "faq",
+                    "title": "Payroll Questions",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the ZUS deadline?",
+                                "answer": "The 15th of the following month for entities."
+                            },
+                            {
+                                "question": "Do I pay tax on benefits?",
+                                "answer": "Yes, benefits-in-kind (like health insurance or gym cards) are added to gross income and taxed at 12/32%."
+                            },
+                            {
+                                "question": "What is the annual PIT-11?",
+                                "answer": "It's the mandatory earnings statement given to employees by end of February for previous year taxes."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "payroll-essentials",
+                    "type": "essentials",
+                    "title": "Mandatory Contributions",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Employer Burden (~20.48%)",
+                                "text": "Includes Pension, Disability, Labor Fund, and Accident insurance."
+                            },
+                            {
+                                "title": "Employee Deductions (~13.71% + 9%)",
+                                "text": "Includes ZUS Social and Health Insurance (Zdrowotna)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "calc-steps",
+                    "type": "key_steps",
+                    "title": "Calculation Parameters",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Gross Base Entry",
+                                "description": "Select monthly or annual gross salary in PLN. Ensure you differentiate between Base and Bonus components."
+                            },
+                            {
+                                "title": "Social Security (ZUS)",
+                                "description": "Automated slicing for Pension (9.76%), Disability (1.5%), and Sickness (2.45%) from the gross amount."
+                            },
+                            {
+                                "title": "Tax Free Deduction",
+                                "description": "Applying the 30,000 PLN annual tax-free threshold (approx 250 PLN monthly tax reduction)."
+                            },
+                            {
+                                "title": "PPK Opt-in Modeling",
+                                "description": "Modeling the impact of the 2.0% employee and 1.5% employer contribution to the pension scheme."
+                            },
+                            {
+                                "title": "Final Net Calculation",
+                                "description": "Presentation of 'Take-home pay' after PIT advances and health insurance (Zdrowotna) deductions."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "calc-insights",
+                    "type": "insights",
+                    "title": "2025 Tax & Band Logic",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "12% Entry Bracket",
+                                "text": "The standard PIT rate for the first 120,000 PLN of annual taxable income."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "30-Fold Cap (ZUS Cap)",
+                                "text": "Once annual earnings hit approx 234,000 PLN, social insurance (Pension/Disability) contributions stop, increasing net pay for H2."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Contractor B2B Flat Rate",
+                                "text": "For IT contractors, a flat tax rate (Ryczałt) of 8.5% or 12% is often much more efficient than the standard bracket."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Health Insurance (9%)",
+                                "text": "The 9% health insurance contribution is calculated based on (Gross - ZUS Social) and is NOT tax-deductible."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Student Exemption",
+                                "text": "Students under 26 working on a 'Mandate Contract' (Uzlec) enjoy 0% ZUS and 0% PIT in most cases."
+                            },
+                            {
+                                "type": "warning",
+                                "title": " Solidarity Levy",
+                                "text": "An additional 4% tax applies to income exceeding 1,000,000 PLN per year."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "calc-costs",
+                    "type": "cost_breakdown",
+                    "title": "Contribution Table 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Employee Portion",
+                                "Employer Portion",
+                                "Cap Status"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Pension (Emerytalna)",
+                                    "values": [
+                                        "9.76%",
+                                        "9.76%",
+                                        "Capped @ 234k"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Disability (Rentowa)",
+                                    "values": [
+                                        "1.50%",
+                                        "6.50%",
+                                        "Capped @ 234k"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Sickness (Chorobowa)",
+                                    "values": [
+                                        "2.45%",
+                                        "0.00%",
+                                        "No Cap"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Health (Zdrowotna)",
+                                    "values": [
+                                        "9.00%",
+                                        "0.00%",
+                                        "No Cap"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Labor Fund (FP)",
+                                    "values": [
+                                        "0.00%",
+                                        "2.45%",
+                                        "No Cap"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "calc-faq",
+                    "type": "faq",
+                    "title": "Budgeting FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the 'Super-Gross' cost?",
+                                "answer": "The total cost to the employer, adding approx 20.48% (Employer ZUS) on top of the agreed Gross salary."
+                            },
+                            {
+                                "question": "How does the Zero PIT for Youth work?",
+                                "answer": "Employees under 26 pay 0% PIT on income up to 85,528 PLN per year, significantly boosting their net take-home."
+                            },
+                            {
+                                "question": "What is the tax-deductible cost (KUP)?",
+                                "answer": "A standard 250 PLN/mo deduction for all, or 50% KUP for creative workers like developers (specific rules apply)."
+                            },
+                            {
+                                "question": "Is PPK mandatory?",
+                                "answer": "Entry is auto-enrollment, but employees can officially sign an opt-out form every 4 years."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "calc-essentials",
+                    "type": "table",
+                    "title": "Minimum Wage 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Effective Date",
+                                "Gross Monthly (PLN)",
+                                "Hourly Rate (PLN)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Jan 2025",
+                                    "values": [
+                                        "4,626",
+                                        "30.20"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "July 2025",
+                                    "values": [
+                                        "~4,700 (EST)",
+                                        "~31.00"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "slug": "eor-peo-aor",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR"
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Register a Polish Sp. z o.o.",
+                "subtitle": "Gateway to the EU Market",
+                "description": "Establish a Limited Liability Company in Poland. Fast-track online registration or bespoke notarized setup.",
+                "bestFor": "Scaling Businesses & EU Hubs.",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "inc-steps",
+                    "type": "key_steps",
+                    "title": "Registration Walkthrough",
+                    "subtitle": "5 Days (S24) to 4 Weeks (Notarized)",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Articles of Association",
+                                "description": "Drafting 'Umowa Spółki'. S24 uses templates; Notary allows customization."
+                            },
+                            {
+                                "title": "PESEL & e-Signature",
+                                "description": "Foreign directors need a PESEL ID and ePUAP or QES for digital signing."
+                            },
+                            {
+                                "title": "KRS Court Filing",
+                                "description": "Submit to the National Court Register. Usually processed in 2-3 business days online."
+                            },
+                            {
+                                "title": "Tax (NIP) & REGON",
+                                "description": "Automatically assigned within 72 hours of KRS approval."
+                            },
+                            {
+                                "title": "VAT-R Activation",
+                                "description": "Mandatory filing for VAT. Requires office address verification by tax office staff."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "inc-insights",
+                    "type": "insights",
+                    "title": "Strategic Entry Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Virtual Office Scrutiny",
+                                "text": "Tax offices are strict with VAT for virtual offices. Use reputable providers with mail-log integrity."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Director Residency",
+                                "text": "No local residency requirement, but a local proxy simplifies banking."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "CRBR Deadline",
+                                "text": "UBO registration must be done within 14 days of KRS entry to avoid massive fines."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Minimum Capital",
+                                "text": "5,000 PLN. Fully paid up. Accessible immediately for business spend."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Dual Shareholding",
+                                "text": "Avoid 100% single shareholding to steer clear of ZUS 'sole trader' obligations for the owner."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "inc-costs",
+                    "type": "cost_breakdown",
+                    "title": "Incorporation Fee Comparison",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Item",
+                                "S24 (Online)",
+                                "Traditional (Notarized)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "KRS Court Fee",
+                                    "values": [
+                                        "350 PLN",
+                                        "600 PLN"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Notary Fee",
+                                    "values": [
+                                        "0 PLN",
+                                        "1,500 PLN"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Translation",
+                                    "values": [
+                                        "~300 PLN",
+                                        "~1,000 PLN"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Legal Fee",
+                                    "values": [
+                                        "€1,200",
+                                        "€3,500"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "inc-faq",
+                    "type": "faq",
+                    "title": "Entity Setup FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I register remotely?",
+                                "answer": "Yes, with a QES or Power of Attorney."
+                            },
+                            {
+                                "question": "What is a 'NIP'?",
+                                "answer": "It is your 10-digit Tax Identification Number."
+                            },
+                            {
+                                "question": "How long for a bank account?",
+                                "answer": "1-2 weeks for traditional banks, 2 days for Neo-banks."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "inc-essentials",
+                    "type": "essentials",
+                    "title": "Reporting Obligations",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "KRS Fin Reports",
+                                "text": "Annual accounts must be uploaded to the KRS repository by end of June."
+                            },
+                            {
+                                "title": "NIP-8 Form",
+                                "text": "Supplemental tax info must be filed within 21 days of registration."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "incorporation-entity-setup",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)"
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Polish Tech Talent Hub",
+                "subtitle": "B2B & Permanent Hiring",
+                "description": "Access Europe's largest pool of English-speaking software engineers. Specialized B2B matching and executive search.",
+                "bestFor": "Dev Centers & Tech Startups.",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "staffing-steps",
+                    "type": "key_steps",
+                    "title": "Recruitment Lifecycle",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Sourcing Strategy",
+                                "description": "Leveraging specialized boards like JustJoin.it and NoFluffJobs."
+                            },
+                            {
+                                "title": "Technical Vetting",
+                                "description": "English check (B2+) and live coding assessments."
+                            },
+                            {
+                                "title": "Offer Management",
+                                "description": "Negotiating Total Reward (B2B vs Employment) and benefits."
+                            },
+                            {
+                                "title": "Notice Mgmt",
+                                "description": "Handling the 1-3 month transition for senior hires."
+                            },
+                            {
+                                "title": "Integration",
+                                "description": "Onboarding the candidate into the remote/local team."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "staffing-insights",
+                    "type": "insights",
+                    "title": "Hiring Market Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Salary Transparency",
+                                "text": "Mandatory for tech ads. Ranges must be clearly listed."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "B2B Popularity",
+                                "text": "Senior devs prefer B2B for higher take-home pay (8.5/12% tax)."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Warsaw Hub",
+                                "text": "The largest concentration of software engineers in CEE."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "MultiSport Cards",
+                                "text": "A standard benefit expected by almost every candidate."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Nearshoring",
+                                "text": "Poland is a Top 3 global nearshoring destination."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "staffing-costs",
+                    "type": "cost_breakdown",
+                    "title": "Recruitment Fees",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Role Level",
+                                "Success Fee",
+                                "Guarantee"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Mid Level",
+                                    "values": [
+                                        "18% - 20%",
+                                        "3 Months"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Senior / Lead",
+                                    "values": [
+                                        "22% - 25%",
+                                        "6 Months"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "staffing-faq",
+                    "type": "faq",
+                    "title": "Hiring FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Why is B2B preferred?",
+                                "answer": "Lower taxes and fixed health insurance costs."
+                            },
+                            {
+                                "question": "Notice periods?",
+                                "answer": "Usually 3 months for tech seniors."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "staffing-essentials",
+                    "type": "essentials",
+                    "title": "Board Rankings",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "JustJoin.it",
+                                "text": "Top board for JavaScript/Python."
+                            },
+                            {
+                                "title": "NoFluffJobs",
+                                "text": "Best for transparent salary ads."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "staffing-recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting"
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "Digital HR for Poland",
+                "subtitle": "E-Teczka Compliance",
+                "description": "Implement modern HRIS solutions tailored to Polish labor law, ensuring digital file (E-Teczka) integrity.",
+                "bestFor": "Modern Workforces.",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "hris-steps",
+                    "type": "key_steps",
+                    "title": "Implementation Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "E-Teczka Prep",
+                                "description": "Digitizing personnel files."
+                            },
+                            {
+                                "title": "PUE ZUS Connect",
+                                "description": "Linking for automated sick leave."
+                            },
+                            {
+                                "title": "Policy Setup",
+                                "description": "Configuring 20/26 holiday days."
+                            },
+                            {
+                                "title": "Training",
+                                "description": "Admin and employee training."
+                            },
+                            {
+                                "title": "Go Live",
+                                "description": "Full digital lifecycle launch."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hris-insights",
+                    "type": "insights",
+                    "title": "Digitization Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "10-Year Storage",
+                                "text": "Modern record keeping requirement."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "GDPR Compliance",
+                                "text": "EU data hosting mandated."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "e-ZLA Automation",
+                                "text": "Auto-sync sick notes to payroll."
+                            },
+                            {
+                                "type": "info",
+                                "title": "E-Contracts",
+                                "text": "Sign all UoP/Uzlec digitally."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Mobile First",
+                                "text": "Empower deskless workers."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hris-costs",
+                    "type": "cost_breakdown",
+                    "title": "Platform Fees",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Plan",
+                                "Per Head / Mo",
+                                "Features"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Basics",
+                                    "values": [
+                                        "€5",
+                                        "Admin Only"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Full Suite",
+                                    "values": [
+                                        "€12",
+                                        "E-Teczka + ZUS"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "hris-faq",
+                    "type": "faq",
+                    "title": "Platform FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Support E-Teczka?",
+                                "answer": "Yes, mandatory for local use."
+                            },
+                            {
+                                "question": "Global payroll sync?",
+                                "answer": "Available via custom APIs."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hris-essentials",
+                    "type": "essentials",
+                    "title": "System Needs",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "ZUS PUE Export",
+                                "text": "Must generate KDU/ZUA formats."
+                            },
+                            {
+                                "title": "AES Signatures",
+                                "text": "For legally binding digital files."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "hris-hrms-ats",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS"
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Polish Full Accounting",
+                "subtitle": "Księgowość Handlowa",
+                "description": "Comprehensive accounting services for Sp. z o.o. ensuring compliance with JPK filing mandates.",
+                "bestFor": "Scaling Companies.",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "acc-steps",
+                    "type": "key_steps",
+                    "title": "Accounting Cycle",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Cost Booking",
+                                "description": "Monthly audit of expenses."
+                            },
+                            {
+                                "title": "JPK Submission",
+                                "description": "VAT reporting by the 25th."
+                            },
+                            {
+                                "title": "CIT Estimates",
+                                "description": "Profit tax advances monthly."
+                            },
+                            {
+                                "title": "Annual Close",
+                                "description": "FS upload by June 30th."
+                            },
+                            {
+                                "title": "Internal Audit",
+                                "description": "Quarterly sanity checks."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "acc-insights",
+                    "type": "insights",
+                    "title": "Compliance Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "White List",
+                                "text": "Verify sellers before paying >15k PLN."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Split Payment",
+                                "text": "Mandatory VAT sub-account use."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Estonian CIT",
+                                "text": "Defer tax until dividend pay-out."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Small CIT (9%)",
+                                "text": "Available for rev < €2M."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "KSeF (2026)",
+                                "text": "E-invoicing mandatory soon."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "acc-costs",
+                    "type": "cost_breakdown",
+                    "title": "Accounting Fees",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Volume",
+                                "Fee / Month",
+                                "Annual Report"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Small",
+                                    "values": [
+                                        "800 PLN",
+                                        "1 Mo Fee"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Medium",
+                                    "values": [
+                                        "1,800 PLN",
+                                        "1.5 Mo Fee"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "acc-faq",
+                    "type": "faq",
+                    "title": "Accounting FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is JPK?",
+                                "answer": "Unified audit file for tax."
+                            },
+                            {
+                                "question": "Audit threshold?",
+                                "answer": "€5M revenue or 50 staff."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "acc-essentials",
+                    "type": "essentials",
+                    "title": "Required IDs",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "NIP",
+                                "text": "10-digit tax identification."
+                            },
+                            {
+                                "title": "VAT-UE",
+                                "text": "Prefix PL for intra-EU trade."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "comp-steps",
+                    "type": "key_steps",
+                    "title": "Compliance Audit",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "UODO Audit",
+                                "description": "GDPR logs and DPAs check."
+                            },
+                            {
+                                "title": "AML Screening",
+                                "description": "Verifying beneficial owners."
+                            },
+                            {
+                                "title": "BHP Check",
+                                "description": "Mandatory safety training."
+                            },
+                            {
+                                "title": "Whistleblower",
+                                "description": "Launching anonymous hotlines."
+                            },
+                            {
+                                "title": "ESG Reporting",
+                                "description": "Sustainability disclosures."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "comp-insights",
+                    "type": "insights",
+                    "title": "Compliance Priorities",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "GIIF Reports",
+                                "text": "Log large cash transactions."
+                            },
+                            {
+                                "type": "info",
+                                "title": "UBO Register",
+                                "text": "Continuous updates mandated."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Workplace Safety",
+                                "text": "Appoint an external BHP expert."
+                            },
+                            {
+                                "type": "info",
+                                "title": "GDPR Fines",
+                                "text": "Poland is active in enforcement."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Sanctions",
+                                "text": "Daily checks on RU/BY lists."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "comp-costs",
+                    "type": "cost_breakdown",
+                    "title": "Compliance Fees",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service",
+                                "Annual Fee",
+                                "One-time"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "AML Monitoring",
+                                    "values": [
+                                        "€1,200",
+                                        "€500"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Data / DPO",
+                                    "values": [
+                                        "€3,000",
+                                        "€1,500"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "comp-faq",
+                    "type": "faq",
+                    "title": "Compliance FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Whistleblower law?",
+                                "answer": "Mandatory for 50+ staff."
+                            },
+                            {
+                                "question": "BHP Referral?",
+                                "answer": "Required for every single hire."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "comp-essentials",
+                    "type": "essentials",
+                    "title": "Government Portals",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "PUE ZUS",
+                                "text": "Social insurance platform."
+                            },
+                            {
+                                "title": "Biznes.gov.pl",
+                                "text": "General business permits."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "tax-steps",
+                    "type": "key_steps",
+                    "title": "Tax Compliance",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "VAT Reg",
+                                "description": "NIP and VAT-UE setup."
+                            },
+                            {
+                                "title": "Monthly Filings",
+                                "description": "JPK and VAT-7 forms."
+                            },
+                            {
+                                "title": "CIT Advances",
+                                "description": "Monthly profit tax pre-pay."
+                            },
+                            {
+                                "title": "WHT Audit",
+                                "description": "Reviewing cross-border fees."
+                            },
+                            {
+                                "title": "Annual CIT-8",
+                                "description": "Final tax return by March 31."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "tax-insights",
+                    "type": "insights",
+                    "title": "Tax Incentives",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "IP Box (5%)",
+                                "text": "Low rate for R&D software."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "R&D Relief",
+                                "text": "Double-deduct development costs."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "MDR Reporting",
+                                "text": "Tax arrangements must be logged."
+                            },
+                            {
+                                "type": "info",
+                                "title": "23% VAT",
+                                "text": "Standard rate for IT services."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Bad Debt Relief",
+                                "text": "Recover VAT on unpaid invoices."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "tax-costs",
+                    "type": "cost_breakdown",
+                    "title": "Tax Advisory",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service",
+                                "Hourly Rate",
+                                "Success Fee"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Review",
+                                    "values": [
+                                        "€150",
+                                        "N/A"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "IP Box Ruling",
+                                    "values": [
+                                        "€2,000",
+                                        "Included"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "tax-faq",
+                    "type": "faq",
+                    "title": "Tax FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Estonian CIT?",
+                                "answer": "0% tax until distribution."
+                            },
+                            {
+                                "question": "Withholding Tax?",
+                                "answer": "20% on royalties sans treaty."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "tax-essentials",
+                    "type": "essentials",
+                    "title": "Tax Deadlines",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "VAT-7",
+                                "text": "25th of next month"
+                            },
+                            {
+                                "title": "CIT-8",
+                                "text": "March 31 of next year"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "finance-tax-accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting"
+        },
+        {
+            "serviceSlug": "msa",
+            "service": "M & A",
+            "heroData": {
+                "title": "Polish Commercial Law",
+                "subtitle": "MSA & IP Legal",
+                "description": "Secure Master Service Agreements and IP transfers under the Polish Civil Code.",
+                "bestFor": "Contract Risk.",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "msa-steps",
+                    "type": "key_steps",
+                    "title": "Contract Lifecycle",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Term Sheet",
+                                "description": "Defining commercial scope."
+                            },
+                            {
+                                "title": "Legal Drafting",
+                                "description": "Polish Civil Code alignment."
+                            },
+                            {
+                                "title": "IP Clause",
+                                "description": "Ensuring irrevocable transfer."
+                            },
+                            {
+                                "title": "Negotiation",
+                                "description": "Limiting liability and caps."
+                            },
+                            {
+                                "title": "Execution",
+                                "description": "Signing via QES or Notary."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "msa-insights",
+                    "type": "insights",
+                    "title": "Liability Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Contractual Penalties",
+                                "text": "Courts can reduce 'excessive' penalties."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Written Form",
+                                "text": "Mandatory for IP and NDA."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Non-Compete",
+                                "text": "Usually requires additional pay."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Arbitration",
+                                "text": "Recommend KIG (Krakow/Warsaw)."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Force Majeure",
+                                "text": "Review war/pandemic clauses."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "msa-costs",
+                    "type": "cost_breakdown",
+                    "title": "Legal Retainers",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Activity",
+                                "Hourly Rate",
+                                "Bundle"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Review",
+                                    "values": [
+                                        "€250",
+                                        "Included"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Full MSA Draft",
+                                    "values": [
+                                        "€450",
+                                        "€2,500 Fixed"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "msa-faq",
+                    "type": "faq",
+                    "title": "Legal FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "IP Transfer?",
+                                "answer": "Must specify 'Economic Rights'."
+                            },
+                            {
+                                "question": "Court language?",
+                                "answer": "Polish, unless arbitration."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "msa-essentials",
+                    "type": "essentials",
+                    "title": "Legal Sources",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Civil Code",
+                                "text": "Main source of contract law."
+                            },
+                            {
+                                "title": "Competition Act",
+                                "text": "Governs anti-monopoly rules."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "msa",
+            "name": "M & A",
+            "serviceName": "M & A"
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Nearshoring Hub",
+                "subtitle": "IT Dev Centers",
+                "description": "Leverage Poland's elite software development ecosystem for high-stakes product engineering. Poland ranks in the top 3 global destinations for software talent density and polyglot proficiency.",
+                "bestFor": "CTOs & Scaling Tech.",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "soft-steps",
+                    "type": "key_steps",
+                    "title": "Engagement Models",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Staff Augmentation",
+                                "description": "T&M based developer leasing for rapid scaling. Ideal for filling specific tech gaps within existing teams (e.g., React, Node, or DevOps)."
+                            },
+                            {
+                                "title": "Dedicated Team",
+                                "description": "Fully managed squad setup including PMs, QAs, and Architects. The team operates autonomously but remains fully aligned with client culture."
+                            },
+                            {
+                                "title": "BOT Model (Build-Operate-Transfer)",
+                                "description": "A long-term strategy where the agency builds a local R&D center, operates it for 2-3 years, and then legally transfers it to the client as a local entity."
+                            },
+                            {
+                                "title": "Fixed Price Projects",
+                                "description": "Milestone-based delivery for well-defined scopes and MVPs. Best for startups needing predictable budgeting for initial builds."
+                            },
+                            {
+                                "title": "Technology Advisory",
+                                "description": "High-level architecture review, legacy migration planning, and DX (Developer Experience) optimization for scaling platforms."
+                            },
+                            {
+                                "title": "QA & Independent Testing",
+                                "description": "Specialized testing squads focused on security, penetration testing, and automated regression suites."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "soft-insights",
+                    "type": "insights",
+                    "title": "Ecosystem Trends",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Node.js & Go Dominance",
+                                "text": "Top trending backends in Poland (2025). The local community is heavily invested in distributed systems and microservices architecture."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Cloud Experts Pool",
+                                "text": "Huge AWS/Azure/GCP talent pool due to large engineering hubs for these giants in Warsaw and Wroclaw."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Talent Retention (1.8y)",
+                                "text": "Average tenure in Polish IT is approx 1.8 years. Focus on Developer Experience, modern tech stacks, and remote-first policies to increase loyalty."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Java Legacy vs Modern",
+                                "text": "Strong financial sector dominance keeps Java relevant, but Green-field projects are moving rapidly toward Kotlin and Scala."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "AI/ML Hubs",
+                                "text": "Krakow is the local AI hub, housing several generative AI startups and major R&D units for global enterprise leaders."
+                            },
+                            {
+                                "type": "info",
+                                "title": "English Proficiency",
+                                "text": "Poland consistently ranks in the top 15 globally for English as a second language, making communication seamless for UK/US clients."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "soft-costs",
+                    "type": "cost_breakdown",
+                    "title": "Detailed Developer Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Role",
+                                "Junior (EUR/hr)",
+                                "Mid (EUR/hr)",
+                                "Senior (EUR/hr)",
+                                "Lead (EUR/hr)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Fullstack (TS/Node/React)",
+                                    "values": [
+                                        "€35-€45",
+                                        "€50-€65",
+                                        "€70-€90",
+                                        "€100+"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "DevOps / SRE (K8s/AWS)",
+                                    "values": [
+                                        "€40-€50",
+                                        "€60-€75",
+                                        "€85-€110",
+                                        "€125+"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Mobile (iOS/Android/RN)",
+                                    "values": [
+                                        "€35-€45",
+                                        "€55-€70",
+                                        "€75-€95",
+                                        "€115+"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Python / AI Engineer",
+                                    "values": [
+                                        "€45-€55",
+                                        "€65-€80",
+                                        "€95-€130",
+                                        "€150+"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "QA Automation",
+                                    "values": [
+                                        "€30-€40",
+                                        "€45-€60",
+                                        "€65-€80",
+                                        "€90+"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "soft-faq",
+                    "type": "faq",
+                    "title": "Outsourcing FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the typical timezone overlap?",
+                                "answer": "Poland is UTC+1. It offers 100% overlap with Western Europe, 4-6 hours with US East Coast, and early morning sync for US West Coast."
+                            },
+                            {
+                                "question": "Is IP ownership protected?",
+                                "answer": "Yes. Polish MSA contracts follow EU-standard IP transfer laws. We ensure 'Economic Copyright' is transferred irrevocably upon payment."
+                            },
+                            {
+                                "question": "Can I hire developers for on-site relocation?",
+                                "answer": "While most are remote-first, agencies can support 'Relocation as a Service' (RaaS) for key hires moving to the client's HQ."
+                            },
+                            {
+                                "question": "How quickly can a team start?",
+                                "answer": "Standard T&M bench developers can start in 2-4 weeks. Bespoke recruited teams typically require 2-3 months."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "soft-essentials",
+                    "type": "table",
+                    "title": "Geographic Hubs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "City",
+                                "Specialization",
+                                "Estimated Talent Pool"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Warsaw",
+                                    "values": [
+                                        "FinTech & Cloud",
+                                        "100,000+"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Krakow",
+                                    "values": [
+                                        "Enterprise & AI",
+                                        "70,000+"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Wroclaw",
+                                    "values": [
+                                        "Embedded & R&D",
+                                        "55,000+"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Gdansk (Tri-City)",
+                                    "values": [
+                                        "E-commerce & SaaS",
+                                        "45,000+"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "slug": "software-technology-solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions"
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Digital Growth Poland",
+                "subtitle": "E-commerce & Local SEO",
+                "description": "Master the Polish market with localized strategies for Allegro, Google, and Social. Highly competitive performance marketing for the CEE gateway.",
+                "bestFor": "Brands entering CEE.",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "mark-steps",
+                    "type": "key_steps",
+                    "title": "Growth Roadmap",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Market Audit",
+                                "description": "Competitor landscape analysis specifically for the Polish search and marketplace ecosystem."
+                            },
+                            {
+                                "title": "Cultural Localization",
+                                "description": "Adapting messaging and creative assets to suit the 'Janusz/Kowalski' consumer persona (high value focus)."
+                            },
+                            {
+                                "title": "Multi-Channel Setup",
+                                "description": "Integrated management of Allegro Ads, TikTok Spark, and Google PMax for maximum reach."
+                            },
+                            {
+                                "title": "Campaign Execution",
+                                "description": "A/B testing of local ad copies and influencer-led social proof campaigns."
+                            },
+                            {
+                                "title": "Payment & Logistics UX",
+                                "description": "Optimizing checkout for BLIK payments and InPost parcel locker delivery integration."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mark-insights",
+                    "type": "insights",
+                    "title": "Market Nuances & Tips",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "The Allegro Advantage",
+                                "text": "Allegro dominates Polish e-commerce with over 20M monthly users. A brand not on Allegro is effectively invisible to 80% of native shoppers."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Price Sensitivity",
+                                "text": "Polish consumers are among the most price-sensitive in the EU. Compare-tools (Ceneo) are used for almost every purchase."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "The BLIK Standard",
+                                "text": "Integrating BLIK (mobile code payment) is mandatory. It accounts for over 70% of mobile transactions in the Polish market."
+                            },
+                            {
+                                "type": "info",
+                                "title": "InPost Lockers (Paczkomaty)",
+                                "text": "Standard home delivery is secondary. Over 90% of buyers prefer InPost lockers due to 24/7 availability and lower costs."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Content is Queen",
+                                "text": "Polish shoppers expect massive amounts of data, specs, and reviews before buying. Lean product pages fail here."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Sunday Trade Ban",
+                                "text": "Most physical retail is closed on Sundays, leading to massive spikes in online browsing and ad engagement."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mark-costs",
+                    "type": "cost_breakdown",
+                    "title": "Marketing Fee Structures",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service Tier",
+                                "Retainer (Monthly)",
+                                "Percentage of Spend",
+                                "Goal"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Early Growth",
+                                    "values": [
+                                        "€1,500 - €2,000",
+                                        "10-15%",
+                                        "Market Penetration"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Established Scale",
+                                    "values": [
+                                        "€3,500 - €6,000",
+                                        "8-10%",
+                                        "ROAS Optimization"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Enterprise / Omni",
+                                    "values": [
+                                        "€10,000+",
+                                        "Negotiable",
+                                        "Market Dominance"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "mark-faq",
+                    "type": "faq",
+                    "title": "CEE Marketing FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is Amazon Poland a threat to Allegro?",
+                                "answer": "Amazon PL is growing but remains a distant second. Allegro Smart's loyalty and ecosystem are deeply entrenched."
+                            },
+                            {
+                                "question": "What is the CPC average in PL?",
+                                "answer": "Generally 40-60% lower than in the UK/DE, making it an excellent high-margin test market for international brands."
+                            },
+                            {
+                                "question": "Do I need a local agency?",
+                                "answer": "Yes. Cultural nuances, idiomatic translation, and the specific Allegro algorithm require localized expertise."
+                            },
+                            {
+                                "question": "Influencer marketing ROI?",
+                                "answer": "High. Poland has a very active YouTube and Instagram community with high trust in local creators."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mark-essentials",
+                    "type": "essentials",
+                    "title": "Platform Breakdown",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Allegro (Marketplace)",
+                                "text": "The alpha platform. Critical for any B2C retail entry into Poland."
+                            },
+                            {
+                                "title": "Wirtualna Polska / Onet",
+                                "text": "Top local portals for programmatic and display reach to older demographics."
+                            },
+                            {
+                                "title": "TikTok (Social)",
+                                "text": "Explosive growth among Gen Z. Focus on authentic 'native' content and local sounds."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "marketing-agency",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY"
+        }
+    ]
+}

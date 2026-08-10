@@ -1,0 +1,496 @@
+{
+    "name": "Kuwait",
+    "code": "KW",
+    "slug": "kuwait",
+    "flag": "https://flagcdn.com/w160/kw.png",
+    "region": "Asia",
+    "languages": [
+        "Arabic"
+    ],
+    "currencies": [
+        "KWD"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Kuwait",
+                "subtitle": "Hire in Kuwait City",
+                "description": "Compliant employment in the Gulf. We handle Residency Visa sponsorship and PAM regulations.",
+                "bestFor": "Oil & Gas",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "kw-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Work Permit",
+                                "description": "Employer must obtain a work permit from the Public Authority for Manpower (PAM)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Residency (Article 18)",
+                                "description": "Employee applies for residency visa (Civil ID) based on work permit."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Medical Test",
+                                "description": "Mandatory blood test and chest X-ray for expats."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "kw-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Security (Kuwaitis)",
+                                    "values": [
+                                        "11.5%",
+                                        "10.5%",
+                                        "Applicable only to Kuwaiti nationals (Employer: 11.5%, Employee: 8% + 2.5% special)."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Social Security (Expats)",
+                                    "values": [
+                                        "0%",
+                                        "0%",
+                                        "Not applicable. Expats get End of Service Benefit (Indemnity)."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Health Insurance",
+                                    "values": [
+                                        "Varies",
+                                        "0%",
+                                        "Mandatory for residency renewal."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "kw-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Prophet's Ascension",
+                                "description": "January 27"
+                            },
+                            {
+                                "title": "National Day",
+                                "description": "February 25"
+                            },
+                            {
+                                "title": "Liberation Day",
+                                "description": "February 26"
+                            },
+                            {
+                                "title": "Eid al-Fitr",
+                                "description": "March 30 - April 1 (Estimated)"
+                            },
+                            {
+                                "title": "Waqfat Arafat Day",
+                                "description": "June 5"
+                            },
+                            {
+                                "title": "Eid al-Adha",
+                                "description": "June 6-8 (Estimated)"
+                            },
+                            {
+                                "title": "Islamic New Year",
+                                "description": "June 26"
+                            },
+                            {
+                                "title": "Prophet's Birthday",
+                                "description": "September 15"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "kw-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Income Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Personal Income",
+                                    "values": [
+                                        "0%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Social Security (Kuwaitis)",
+                                    "values": [
+                                        "10.5%"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "kw-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Base Salary (Usually Monthly)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Social Security",
+                                "description": "Deduct depending on nationality (Kuwaiti: ~8-10.5%, Expat: 0%)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax",
+                                "description": "0% for individuals."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Net",
+                                "description": "Gross - S.S."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Kuwait",
+                "subtitle": "WLL",
+                "description": "Limited Liability Company (WLL).",
+                "bestFor": "Consulting",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "kw-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Partner",
+                                "description": "Historically required 51% Kuwaiti ownership, though new FDI laws allow 100% foreign ownership in specific sectors."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "MOCI Approval",
+                                "description": "Approval from Ministry of Commerce and Industry."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Chamber of Commerce",
+                                "description": "Register with Kuwait Chamber of Commerce and Industry (KCCI)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "kw-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "NBK (National Bank of Kuwait)",
+                                "description": "Largest financial institution."
+                            },
+                            {
+                                "title": "KFH (Kuwait Finance House)",
+                                "description": "Leading Islamic bank."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Kuwait",
+                "subtitle": "Kuwaitization",
+                "description": "Navigating national quota systems.",
+                "bestFor": "Construction",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "kw-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Kuwait City",
+                                "text": "The economic engine."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Kuwait",
+                "subtitle": "Indemnity",
+                "description": "EOSB calculators.",
+                "bestFor": "Legal Safety",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "kw-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "WPS Compliance",
+                                "description": "Wage Protection System ensures timely salary payments via banks."
+                            },
+                            {
+                                "title": "Indemnity Calculation",
+                                "description": "Complex logic for End of Service Benefit based on tenure (15 days/year first 5 years, then 1 month/year)."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Kuwait",
+                "subtitle": "IFRS",
+                "description": "Mandatory for all companies.",
+                "bestFor": "Reporting",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "kw-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "IFRS",
+                                "text": "The sole accounting standard used."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "kw-comp-labor",
+                    "type": "warning",
+                    "title": "Indemnity",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "End of Service",
+                                "description": "Mandatory accrued benefit for expats, critical compliance point."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "kw-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Foreign Companies",
+                                    "values": [
+                                        "15%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "GCC Companies",
+                                    "values": [
+                                        "0%",
+                                        "Generally exempt."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Zakat",
+                                    "values": [
+                                        "1%",
+                                        "Contribution to Kuwait Foundation for the Advancement of Sciences (KFAS)."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Kuwait",
+                "subtitle": "Civil Law",
+                "description": "Sharia influence.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "kw-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Arabic Contract",
+                                "text": "The Arabic version of the employment contract is the one filed with PAM and legally binding."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Kuwait",
+                "subtitle": "K-Net",
+                "description": "Advanced payment infra.",
+                "bestFor": "Fintech",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "kw-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "K-Net",
+                                "description": "The national shared electronic banking services company. Ubiquitous."
+                            },
+                            {
+                                "title": "Talabat",
+                                "description": "Started in Kuwait, dominant food delivery."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Kuwait",
+                "subtitle": "Social Media",
+                "description": "High engagement.",
+                "bestFor": "Luxury",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "kw-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Instagram / Snapchat",
+                                "text": "Extremely high penetration. Influencer marketing (Fashonistas) is very powerful."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

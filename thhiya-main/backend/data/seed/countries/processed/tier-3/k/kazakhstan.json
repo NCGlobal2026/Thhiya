@@ -1,0 +1,1312 @@
+{
+    "name": "Kazakhstan",
+    "code": "KZ",
+    "slug": "kazakhstan",
+    "flag": "https://flagcdn.com/w160/kz.png",
+    "region": "Asia",
+    "languages": [
+        "Kazakh",
+        "Russian"
+    ],
+    "currencies": [
+        "KZT"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Kazakhstan",
+                "subtitle": "Hire in Almaty & Astana",
+                "description": "Compliant employment in Central Asia's largest economy. We handle everything from registration on the Enbek portal to 2025 social tax and mandatory pension contributions.",
+                "bestFor": "Energy, Tech & Mining",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "kz-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding & Hiring Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Employment Agreement",
+                                "description": "Drafting of the contract in both Kazakh and Russian languages. This is a mandatory requirement for all local hires."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Enbek.kz Registration",
+                                "description": "Mandatory registration of the employment contract on the Unified Employment Agreements Accounting System (UEAAS) within 5 working days of signing."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "IIN & Personal ID",
+                                "description": "Obtaining an Individual Identification Number (IIN) for foreign residents or verifying the existing IIN for local citizens for tax filing."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Medical Examination",
+                                "description": "Ensuring the employee undergoes a preliminary medical check if the role involves heavy labor, hazardous conditions, or food services."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Workplace Safety Induction",
+                                "description": "Conducting mandatory health and safety training as required by the Kazakhstan Labor Code 2025."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "kz-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "2025 Employer Burden Breakdown",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate (2025)",
+                                "Employee Rate",
+                                "Frequency"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Tax (ST)",
+                                    "values": [
+                                        "11%",
+                                        "0%",
+                                        "Monthly"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Social Insurance (SC)",
+                                    "values": [
+                                        "5.0%",
+                                        "0%",
+                                        "Monthly"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Employer Pension (OEPC)",
+                                    "values": [
+                                        "2.5%",
+                                        "10%",
+                                        "Monthly"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Health Insurance (OSMS)",
+                                    "values": [
+                                        "3.0%",
+                                        "2.0%",
+                                        "Monthly"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Total Estimated Burden",
+                                    "values": [
+                                        "~21.5% - 24%",
+                                        "~12%",
+                                        "Aggregated"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "kz-eor-benefits",
+                    "type": "essentials",
+                    "title": "Mandatory Benefits & Leave",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Annual Paid Leave",
+                                "description": "Minimum of 24 calendar days per year. Additional days are required for employees in hazardous conditions or for disabled workers."
+                            },
+                            {
+                                "title": "Sick Leave Pay",
+                                "description": "Employers must pay for the first 15 days of sick leave per year, capped at 25 MCI (~98,300 KZT) per month."
+                            },
+                            {
+                                "title": "Maternity Benefits",
+                                "description": "Standard leave is 126 calendar days (70 before birth, 56 after). Payment is largely covered by the State Social Insurance Fund."
+                            },
+                            {
+                                "title": "Severance Pay",
+                                "description": "One month's average salary is mandatory for termination due to redundancy or liquidation."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "kz-eor-termination",
+                    "type": "warning",
+                    "title": "Termination Compliance",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Notice Period",
+                                "description": "Minimum 1 month written notice is required for most standard employer-initiated terminations. Mutual agreement can bypass this."
+                            },
+                            {
+                                "title": "Just Cause Requirement",
+                                "description": "Dismissal without just cause is strictly prohibited and often leads to reinstatement and back-pay penalties via labor courts."
+                            },
+                            {
+                                "title": "Mutual Agreement",
+                                "description": "The safest and most common way to terminate in Kazakhstan is via a signed Mutual Agreement with a negotiated settlement (usually 1-3 months salary)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "kz-eor-norms",
+                    "type": "local_employment_norms",
+                    "title": "Working Requirements 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Standard Work Week",
+                                "description": "40 hours max. 5-day or 6-day weeks are permitted, but overtime must not exceed 12 hours per month."
+                            },
+                            {
+                                "title": "Public Holidays",
+                                "description": "14 public holidays in 2025. If a holiday falls on a weekend, the following Monday is a mandatory day off."
+                            },
+                            {
+                                "title": "Remote Work (Enbek)",
+                                "description": "Remote work must be explicitly defined in the labor contract and registered on 'Enbek.kz' as such."
+                            },
+                            {
+                                "title": "Annual Leave",
+                                "description": "Minimum 24 calendar days per year. Unused leave must be compensated upon termination."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "kz-eor-snapshot",
+                    "type": "market_snapshot",
+                    "title": "2025 Economic Indicators",
+                    "content": {
+                        "items": [
+                            {
+                                "label": "GDP Growth Forecast",
+                                "value": "5.3%",
+                                "description": "Robust recovery driven by energy sector expansion and mining."
+                            },
+                            {
+                                "label": "Inflation Target",
+                                "value": "7.5% - 8%",
+                                "description": "Easing from previous highs, supported by tight monetary policy."
+                            },
+                            {
+                                "label": "Unemployment Rate",
+                                "value": "4.6%",
+                                "description": "Highly stable labor market with strong demand in urban hubs."
+                            },
+                            {
+                                "label": "Average Monthly Wage",
+                                "value": "~400,000 KZT",
+                                "description": "Varies significantly between Almaty/Astana and rural regions."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "kz-eor-culture",
+                    "type": "cultural_insights",
+                    "title": "Business Etiquette in Almaty",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Hospitality & Rapport",
+                                "description": "Business in Kazakhstan is relationship-driven. Initial meetings often involve tea and extended small talk to build personal trust."
+                            },
+                            {
+                                "title": "Hierarchical Structure",
+                                "description": "Respect for seniority and authority is paramount. Decisions usually flow top-down."
+                            },
+                            {
+                                "title": "Indirect Communication",
+                                "description": "Softening direct refusals is common. 'We will consider it' often means 'No' or 'Not now'."
+                            },
+                            {
+                                "title": "Nauryz Celebrations",
+                                "description": "March is dominated by the New Year (Nauryz). Business slows down during the 10-day cultural festival."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "kz-eor-faq",
+                    "type": "faq",
+                    "title": "EOR in Kazakhstan FAQ",
+                    "content": {
+                        "items": [
+                            {
+                                "question": "Can I hire foreigners through a Kazakhstan EOR?",
+                                "answer": "Yes, but they must obtain a C-type work visa or have a residence permit. EAEU citizens (Russia, Belarus, Armenia, Kyrgyzstan) have simplified access."
+                            },
+                            {
+                                "question": "What is the typical management fee for EOR in Kazakhstan?",
+                                "answer": "Management fees typically range from $250 to $600 USD per employee per month, depending on the complexity and volume of hires."
+                            },
+                            {
+                                "question": "Is the 13th-month salary mandatory?",
+                                "answer": "No, a 13th-month salary is not legally required but is common as an annual bonus in sectors like banking and energy."
+                            },
+                            {
+                                "question": "What happens if an employee gets sick?",
+                                "answer": "Employers pay for the first 15 days using a specific MCI-based formula. Social security covers longer periods."
+                            },
+                            {
+                                "question": "Is probation mandatory?",
+                                "answer": "Probation is optional but highly recommended. The maximum duration is 3 months for regular staff and 6 months for management."
+                            },
+                            {
+                                "question": "Are electronic labor contracts legal?",
+                                "answer": "Yes, and they are now mandatory to be registered in the state 'Enbek' system to be considered legally valid."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "kz-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Payroll Tax Rates 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Tax Category",
+                                "Rate",
+                                "Payer",
+                                "Max Base"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Individual Income Tax (IIT)",
+                                    "values": [
+                                        "10%",
+                                        "Employee",
+                                        "None (Flat)"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Mandatory Pension (OPC)",
+                                    "values": [
+                                        "10%",
+                                        "Employee",
+                                        "50x Min Wage"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Social Tax",
+                                    "values": [
+                                        "11%",
+                                        "Employer",
+                                        "N/A"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Social Insurance",
+                                    "values": [
+                                        "5.0%",
+                                        "Employer",
+                                        "7x Min Wage"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Employer Pension (OPV)",
+                                    "values": [
+                                        "2.5%",
+                                        "Employer",
+                                        "50x Min Wage"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Medical Insurance (OSMS)",
+                                    "values": [
+                                        "3.0%",
+                                        "Employer",
+                                        "10x Min Wage"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "kz-gp-cycles",
+                    "type": "essentials",
+                    "title": "Payroll Cycles & Deadlines",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Payment Frequency",
+                                "description": "Salaries must be paid at least once every month. Many companies use a semi-monthly cycle (Advance + Balance)."
+                            },
+                            {
+                                "title": "Tax Filing Deadline",
+                                "description": "Payroll taxes and social contributions must be remitted by the 25th of the month following the reporting month."
+                            },
+                            {
+                                "title": "Reporting Form 200.00",
+                                "description": "Quarterly submission of Form 200.00 is mandatory for all employers to report employee income and social taxes."
+                            },
+                            {
+                                "title": "Currency Requirement",
+                                "description": "Salaries for Kazakhstan residents must be denominated and paid in Tenge (KZT)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "kz-gp-calendar",
+                    "type": "tax_reporting_calendar",
+                    "title": "2025 Payroll Calendar",
+                    "content": {
+                        "items": [
+                            {
+                                "date": "15th Monthly",
+                                "title": "Salary Payment",
+                                "description": "Recommended date for final monthly salary payment."
+                            },
+                            {
+                                "date": "25th Monthly",
+                                "title": "Tax Remittance",
+                                "description": "Deadline for paying PIT, Social Tax, and Pension contributions."
+                            },
+                            {
+                                "date": "Feb 15, 2025",
+                                "title": "Q4 2024 Report",
+                                "description": "Deadline for Form 200.00 submission for the previous quarter."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "kz-gp-allowances",
+                    "type": "insights",
+                    "title": "Typical Payroll Allowances",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Ecological Allowance",
+                                "text": "Employees working in ecologically damaged areas (e.g., Near Semipalatinsk) are entitled to additional pay and leave."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Shift Premium",
+                                "text": "Standard night shift (10 PM to 6 AM) requires at least 1.5x the normal hourly rate."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Personal Tax Deduction",
+                                "text": "Standard deduction of 14 MCI (~55,000 KZT) per month applies to the income tax base for residents."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "kz-gp-calc-case",
+                    "type": "case_study",
+                    "title": "Employer Burden Case Study",
+                    "content": {
+                        "title": "Hiring a Senior IT Specialist",
+                        "description": "Total cost analysis for a monthly gross salary of 1,500,000 KZT (~$3,200 USD).",
+                        "items": [
+                            {
+                                "label": "Monthly Gross Salary",
+                                "value": "1,500,000 KZT"
+                            },
+                            {
+                                "label": "Social Tax (11%)",
+                                "value": "165,000 KZT"
+                            },
+                            {
+                                "label": "Social Insurance (5.0%)",
+                                "value": "75,000 KZT"
+                            },
+                            {
+                                "label": "Employer Pension (2.5%)",
+                                "value": "37,500 KZT"
+                            },
+                            {
+                                "label": "Health Insurance (3.0%)",
+                                "value": "45,000 KZT"
+                            },
+                            {
+                                "label": "Total Employer Burden",
+                                "value": "322,500 KZT (21.5%)"
+                            },
+                            {
+                                "label": "Total Monthly Cost",
+                                "value": "1,822,500 KZT (~$3,880 USD)"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "kz-gp-faq",
+                    "type": "faq",
+                    "title": "Payroll FAQ",
+                    "content": {
+                        "items": [
+                            {
+                                "question": "Can I pay employees in USD in Kazakhstan?",
+                                "answer": "No. According to the Law on Currency Regulation, residents must be paid in Tenge (KZT). Only non-residents under specific conditions might receive foreign currency."
+                            },
+                            {
+                                "question": "Are there different rates for non-residents?",
+                                "answer": "Non-residents are generally taxed at a 10% or 15% income tax rate depending on their residency status. Social taxes may vary based on international treaties."
+                            },
+                            {
+                                "question": "How is overtime calculated?",
+                                "answer": "Overtime is calculated at 1.5x for the first two hours and 2x for subsequent hours or work on weekends/holidays."
+                            },
+                            {
+                                "question": "What is the frequency of PIT payments?",
+                                "answer": "PIT must be remitted monthly by the 25th of the month following the payment."
+                            },
+                            {
+                                "question": "Is salary secrecy protected by law?",
+                                "answer": "Yes, employers must maintain confidentiality of personal data, including salary details, under the Data Protection Law."
+                            },
+                            {
+                                "question": "Are payroll slips electronic or paper?",
+                                "answer": "Both are legal, but electronic slips via email or HR portal are the standard practice in urban business hubs."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "kz-calc-steps",
+                    "type": "key_steps",
+                    "title": "Calculation Roadmap (Employee)",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Determine Gross Salary",
+                                "description": "Start with the agreed monthly gross in KZT."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Deduct Mandatory Pension (OPV)",
+                                "description": "10% of gross (capped at 50 minimum salaries)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Deduct Health Insurance (OSMS)",
+                                "description": "2% of gross paid by the employee (capped)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Apply Min Wage Deduction",
+                                "description": "Subtract 14 MCI (standard deduction for residents) from the taxable base."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Calculate Income Tax (IPN)",
+                                "description": "Apply 10% on the remaining taxable base."
+                            },
+                            {
+                                "stepNumber": 6,
+                                "title": "Result: Net Take-Home",
+                                "description": "Final amount deposited into the employee's bank account."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "kz-calc-employer",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimate (2025)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Rate",
+                                "Paid By"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Tax",
+                                    "values": [
+                                        "9.5% - 11%",
+                                        "Employer"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Social Insurance (CO)",
+                                    "values": [
+                                        "3.5% - 5%",
+                                        "Employer"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Medical Insurance (VOSMS)",
+                                    "values": [
+                                        "3.0%",
+                                        "Employer"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Employer Pension (OPVR)",
+                                    "values": [
+                                        "2.5%",
+                                        "Employer"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "kz-payroll-calc-bench",
+                    "type": "benchmarking",
+                    "title": "Tax Burden vs Global Average",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Indicator",
+                                "Kazakhstan",
+                                "OECD Average"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "PIT Rate",
+                                    "values": [
+                                        "10% (Flat)",
+                                        "25-45% (Prog)"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Employer Cost",
+                                    "values": [
+                                        "~21%",
+                                        "~17-25%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Net Take-Home",
+                                    "values": [
+                                        "High",
+                                        "Moderate"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "kz-calc-faq",
+                    "type": "faq",
+                    "title": "Calculator FAQ",
+                    "content": {
+                        "items": [
+                            {
+                                "question": "How often does the MCI rate change?",
+                                "answer": "The Monthly Calculation Index (MCI) is updated annually by the state budget (4,060 KZT for 2025)."
+                            },
+                            {
+                                "question": "Does this apply to foreigners?",
+                                "answer": "Foreigners from EAEU countries have identical rates. Non-EAEU foreigners may have different pension contribution requirements depending on their residency status."
+                            },
+                            {
+                                "question": "What is the 2025 Minimum Salary (MZP)?",
+                                "answer": "The Minimum Salary for 2025 is set at 85,000 KZT, which serves as a base for many tax calculations."
+                            },
+                            {
+                                "question": "Is there a cap on social contributions?",
+                                "answer": "Yes, most contributions are capped at 7 or 10 times the Minimum Salary, preventing excessive tax for high earners."
+                            },
+                            {
+                                "question": "Do remote workers have different taxes?",
+                                "answer": "No, if they are under a local labor contract, standard rates apply regardless of physical office attendance."
+                            },
+                            {
+                                "question": "How is overtime calculated?",
+                                "answer": "Overtime must be paid at no less than 1.5x the standard rate, and holiday work at 2.0x, per Art. 108 of the Labor Code."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Kazakhstan",
+                "subtitle": "LLP (TOO) & AIFC Registration",
+                "description": "Establish your presence in Central Asia. From standard Limited Liability Partnerships (TOO) to high-tech AIFC structures with 50-year tax holidays.",
+                "bestFor": "Direct Investment & Market Entry",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "kz-inc-steps",
+                    "type": "key_steps",
+                    "title": "TOO Registration Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Corporate Name Reservation",
+                                "description": "Verify and reserve a unique name for the TOO through the National Register of Business Identification Numbers."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "IIN & EDS Setup",
+                                "description": "Foreign directors must obtain an Individual Identification Number (IIN) and an Electronic Digital Signature (EDS) for online filing."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Charter & Articles drafting",
+                                "description": "Develop the company's foundation documents, including the Charter (Ustav) and the Foundation Agreement if multiple partners are involved."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "State Registration",
+                                "description": "Submit application via eGov.kz or at the Public Service Center (PSC). Registration is typically completed in 1-3 working days for SMEs."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Bank Account & Seal",
+                                "description": "Open a local Tenge and multi-currency bank account. While official seals are now optional for some, they remain common for customs."
+                            },
+                            {
+                                "stepNumber": 6,
+                                "title": "Tax Regime Election",
+                                "description": "Choose between the Simplified Tax Regime (3% on revenue) or the General Regime (20% on profit) within 30 days of registration."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "kz-inc-visas",
+                    "type": "essentials",
+                    "title": "Work & Business Visas",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "C3 Work Visa",
+                                "description": "The standard visa for foreign employees. Issued for 1-3 years based on a local work permit. AIFC/Hub participants get 5-year multi-entry."
+                            },
+                            {
+                                "title": "C5 Business Immigrant",
+                                "description": "Mandatory for foreign founders who wish to actively manage their local company (TOO)."
+                            },
+                            {
+                                "title": "EAEU/CIS Exceptions",
+                                "description": "Citizens of Russia, Belarus, Armenia, Kyrgyzstan, and Uzbekistan only need a Temporary Residence Permit (RVP), not a work visa."
+                            },
+                            {
+                                "title": "B10 Private Visa",
+                                "description": "Used for short-term business visits but does not grant the right to engage in long-term local employment."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "kz-inc-aifc",
+                    "type": "insights",
+                    "title": "AIFC vs Mainland TOO",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "AIFC (Special Zone)",
+                                "text": "Operates under English Common Law. Ideal for financial services and tech. CIT/VAT exemptions available until 2066 for priority activities."
+                            },
+                            {
+                                "type": "info",
+                                "title": "TOO (Mainland LLP)",
+                                "text": "Standard legal form under Civil Law. Simple to manage, low minimum capital (often zero for SMEs), and widely accepted for trading and services."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Branch/Representation",
+                                "text": "Easiest for foreign companies to set up for marketing or support. Not a separate legal entity, taxed based on local revenue."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "kz-inc-office",
+                    "type": "office_setup_requirements",
+                    "title": "Local Office Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Legal Address",
+                                "description": "A valid physical office space lease or property certificate is required for registration. Virtual offices are increasingly scrutinized by tax authorities."
+                            },
+                            {
+                                "title": "State Inspection Access",
+                                "description": "Offices must be accessible to fire safety and san-epidemic inspectors, especially in industrial zones."
+                            },
+                            {
+                                "title": "Localized Signage",
+                                "description": "Company name on the office door must be in Kazakh and Russian languages per the Language Law."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "kz-inc-costs",
+                    "type": "cost_breakdown",
+                    "title": "Incorporation Cost Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Item",
+                                "Estimated Fee (KZT)",
+                                "Estimated Fee (USD)",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "State Registration Fee",
+                                    "values": [
+                                        "~24,000",
+                                        "~$50",
+                                        "Waived for small businesses."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Certified Translations",
+                                    "values": [
+                                        "~100,000 - 250,000",
+                                        "~$200 - $500",
+                                        "For foreign corporate docs."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Legal Service Package",
+                                    "values": [
+                                        "~500,000 - 1,500,000",
+                                        "~$1,000 - $3,000",
+                                        "End-to-end setup."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Minimum Charter Capital",
+                                    "values": [
+                                        "0 (SME) - 100 MCI",
+                                        "Variable",
+                                        "Paid within 1 year of setup."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "kz-inc-faq",
+                    "type": "faq",
+                    "title": "Incorporation FAQ",
+                    "content": {
+                        "items": [
+                            {
+                                "question": "Can a 100% foreign-owned company open a TOO?",
+                                "answer": "Yes, foreign individuals and legal entities can have 100% ownership of a Kazakhstan TOO without a local partner."
+                            },
+                            {
+                                "question": "Do I need to visit Kazakhstan to open a company?",
+                                "answer": "Initial IIN/EDS setup usually requires a visit or a Power of Attorney. The actual registration can be done remotely via the e-Gov portal once IDs are secured."
+                            },
+                            {
+                                "question": "What is the C5 Business Immigrant Visa?",
+                                "answer": "It is a mandatory visa for foreign citizens who wish to be the founder/director of a local company. It requires a criminal record check and health certificate."
+                            },
+                            {
+                                "question": "How long does it take to open a bank account?",
+                                "answer": "Typically 3-7 working days after registration, depending on the bank's KYC requirements for foreign UBOs."
+                            },
+                            {
+                                "question": "Are there annual renewal fees?",
+                                "answer": "There is no 'annual license fee' for a TOO, but companies must file quarterly and annual tax reports to remain active."
+                            },
+                            {
+                                "question": "Can a TOO have multiple directors?",
+                                "answer": "Yes, but usually one 'General Director' is the primary authorized signatory. Joint signing powers can be defined in the Charter."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing Kazakhstan",
+                "subtitle": "Top Talent Acquisition",
+                "description": "Connecting global businesses with Kazakhstan's skilled workforce. Specialized recruitment for the Almaty tech hub and the AIFC financial ecosystem.",
+                "bestFor": "IT, Engineering & Finance",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "kz-staff-hubs",
+                    "type": "insights",
+                    "title": "Major Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Almaty",
+                                "text": "The cultural and commercial heart. Houses 70% of the country's software developers and creative agencies."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Astana",
+                                "text": "The administrative capital. Prime location for government-facing roles, AIFC financial experts, and the Astana Hub tech ecosystem."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Atyrau & Aktau",
+                                "text": "Strategic centers for the Oil & Gas sector and engineering specialists."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "kz-staff-channels",
+                    "type": "essentials",
+                    "title": "Recruitment Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "HeadHunter.kz (HH)",
+                                "description": "The dominant professional job board for white-collar and management roles in Kazakhstan."
+                            },
+                            {
+                                "title": "Enbek.kz",
+                                "description": "The national state platform, vital for reporting and broad labor market reach."
+                            },
+                            {
+                                "title": "LinkedIn",
+                                "description": "Gaining traction for IT and senior executive recruitment in Almaty and Astana."
+                            },
+                            {
+                                "title": "Telegram Channels",
+                                "description": "Hyper-local tech and creative communities used for rapid recruitment and freelance sourcing."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "kz-staff-retention",
+                    "type": "talent_retention",
+                    "title": "Talent Retention Strategies",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Health Insurance (VHI)",
+                                "description": "Voluntary Health Insurance is the #1 requested benefit for skilled talent in Kazakhstan."
+                            },
+                            {
+                                "title": "Training Budgets",
+                                "description": "Access to international certifications (AWS, PMP, CFA) is highly valued by the ambitious younger workforce."
+                            },
+                            {
+                                "title": "Work-Life Balance",
+                                "description": "Flexible hours and remote work options are now standard expectations in the tech sector."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "kz-staff-energy",
+                    "type": "insights",
+                    "title": "Energy Sector Trends 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Oil & Gas Demand",
+                                "text": "The Tengiz expansion project is expected to create 22,000 technical jobs by 2025-2026."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Nuclear Energy",
+                                "text": "New power plant projects are projected to add 5,000 operational roles by 2030."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Technical Skill Gap",
+                                "text": "High demand for specialized petroleum engineers and project managers often requires expat sourcing or rapid local re-skilling."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "kz-staff-benchmarking",
+                    "type": "cost_breakdown",
+                    "title": "Regional Salary Comparison",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Region",
+                                "IT Developer (Avg)",
+                                "Accountant (Avg)",
+                                "Cost Index"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Kazakhstan (Almaty)",
+                                    "values": [
+                                        "$2,500",
+                                        "$1,200",
+                                        "100"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Uzbekistan (Tashkent)",
+                                    "values": [
+                                        "$1,800",
+                                        "$800",
+                                        "75"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Kyrgyzstan (Bishkek)",
+                                    "values": [
+                                        "$1,500",
+                                        "$700",
+                                        "65"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "kz-staff-salaries",
+                    "type": "cost_breakdown",
+                    "title": "2025 Salary Benchmarks (Monthly)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Role",
+                                "Junior (KZT)",
+                                "Senior (KZT)",
+                                "Average (USD)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Software Developer",
+                                    "values": [
+                                        "400k - 600k",
+                                        "1.5M - 2.5M+",
+                                        "~$3,500"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Accountant",
+                                    "values": [
+                                        "250k - 400k",
+                                        "800k - 1.5M",
+                                        "~$1,800"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Sales Manager",
+                                    "values": [
+                                        "200k + Comm",
+                                        "600k + Comm",
+                                        "~$1,500+"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Office Admin",
+                                    "values": [
+                                        "180k - 300k",
+                                        "400k - 600k",
+                                        "~$900"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "kz-staff-screening",
+                    "type": "warning",
+                    "title": "Candidate Screening Rules",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Background Checks",
+                                "description": "Criminal record checks (Police Certificates) can be obtained via eGov but require the candidate's explicit digital consent."
+                            },
+                            {
+                                "title": "Degree Verification",
+                                "description": "Verification of diplomas is recommended, as fraudulent credentials remain a localized risk in some sectors."
+                            },
+                            {
+                                "title": "Data Privacy",
+                                "description": "Handling of recruitment data must comply with the Kazakhstan Law on Personal Data protection."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "kz-staff-faq",
+                    "type": "faq",
+                    "title": "Staffing FAQ",
+                    "content": {
+                        "items": [
+                            {
+                                "question": "How long does it take to fill a role?",
+                                "answer": "Typical time-to-hire in Almaty is 4-6 weeks for technical roles and 2-3 weeks for administrative positions."
+                            },
+                            {
+                                "question": "What are the common benefits expected by employees?",
+                                "answer": "Private medical insurance, mobile allowance, and performance bonuses are standard for white-collar roles in larger cities."
+                            },
+                            {
+                                "question": "Is remote work popular in Kazakhstan?",
+                                "answer": "Since 2020, remote work has been legally codified and is very common in the IT sector, though many traditional companies prefer a hybrid approach."
+                            },
+                            {
+                                "question": "What is the notice period for resignations?",
+                                "answer": "Standard notice period for employees is 1 month, unless a longer period is specified in the labor contract."
+                            },
+                            {
+                                "question": "Are there quotas for hiring foreign workers?",
+                                "answer": "Yes, unless you are in a special zone like AIFC or hiring citizens of EAEU countries, you must comply with government-set foreign labor quotas."
+                            },
+                            {
+                                "question": "What is the average probation period?",
+                                "answer": "Usually 3 months. During this time, either party can terminate with 3 days' notice if performance is unsatisfactory."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Solutions Kazakhstan",
+                "subtitle": "Digital Ecosystem Mastery",
+                "description": "Implementing and localizing business software for the Central Asian market. Expertise in Kaspi integration, ERP systems, and cloud localization.",
+                "bestFor": "Digital Transformation",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "kz-soft-ecosystem",
+                    "type": "insights",
+                    "title": "The Kaspi Ecosystem",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Super App Dominance",
+                                "text": "Kaspi.kz is the primary tool for retail, B2B payments, and tax filing. Software solutions must often integrate with this ecosystem."
+                            },
+                            {
+                                "type": "info",
+                                "title": "GovTech Leadership",
+                                "text": "Kazakhstan ranks high in E-Government. Systems like e-SFF (invoicing) and Enbek (labor) are API-driven and mandatory for business."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "kz-soft-stack",
+                    "type": "essentials",
+                    "title": "Local Tech Stack",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "1C Enterprise",
+                                "description": "The core ERP and accounting backbone for localized businesses, with specialized modules for Kazakh taxation."
+                            },
+                            {
+                                "title": "Cloud Computing",
+                                "description": "Increasing adoption of Microsoft Azure and local providers like Kaztelecom for on-soil data storage, ensuring compliance with localization laws."
+                            },
+                            {
+                                "title": "API Integrations",
+                                "description": "Mandatory integration with the state 'Smart Data Ukimet' and 'E-Invoicing' (ESF) systems for real-time reporting."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "kz-soft-faq",
+                    "type": "faq",
+                    "title": "Software FAQ",
+                    "content": {
+                        "items": [
+                            {
+                                "question": "Is there a local SaaS market?",
+                                "answer": "Yes, Almaty and Astana Hub host hundreds of SaaS startups focusing on CRM, retail, and fleet management localized for Central Asia."
+                            },
+                            {
+                                "question": "What are the cybersecurity requirements?",
+                                "answer": "Businesses must follow state standards for information security, especially if handling citizen IDs (IINs) and banking data."
+                            },
+                            {
+                                "question": "Can we host our data on AWS/GCP?",
+                                "answer": "Yes, but personal data of Kazakhstani citizens MUST be stored on a local mirror or primary server within Kazakhstan territory."
+                            },
+                            {
+                                "question": "Is open-source software common in gov projects?",
+                                "answer": "Yes, the government promotes the use of open-source to reduce licensing costs and enhance sovereignty."
+                            },
+                            {
+                                "question": "How do we integrate with 'Enbek.kz'?",
+                                "answer": "Enbek provides rest APIs for HRIS systems to automate the registration of labor contracts and social contributions."
+                            },
+                            {
+                                "question": "What is the 'Digital Tenge'?",
+                                "answer": "The National Bank is piloting a Central Bank Digital Currency (CBDC) to streamline B2B and gov payments, expected for full release by late 2025."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Kazakhstan",
+                "subtitle": "Growth & Localization",
+                "description": "Drive demand in Central Asia through curated marketing strategies. Focus on Instagram-heavy social commerce and bilingual consumer trends.",
+                "bestFor": "Market Growth",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "kz-mark-trends",
+                    "type": "insights",
+                    "title": "Consumer Trends 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Visual-First Economy",
+                                "text": "High-quality video content and Reels on Instagram/TikTok are the primary drivers of B2C conversion."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Bilingualism",
+                                "text": "Content must be localized into Kazakh and Russian. The use of Kazakh is rapidly increasing in marketing for younger demographics."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "kz-mark-channels",
+                    "type": "essentials",
+                    "title": "Top Marketing Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Instagram & TikTok",
+                                "description": "The most effective platforms for reaching the tech-savvy urban population of Almaty and Astana."
+                            },
+                            {
+                                "title": "Influencer Marketing",
+                                "description": "Highly developed ecosystem with micro-influencers yielding high ROI for niche B2B and B2C brands."
+                            },
+                            {
+                                "title": "Contextual Ads",
+                                "description": "Google Ads remains vital, while Yandex Direct is also used for specific industrial sectors."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "kz-mark-faq",
+                    "type": "faq",
+                    "title": "Marketing FAQ",
+                    "content": {
+                        "items": [
+                            {
+                                "question": "What is the 'influencer tax'?",
+                                "answer": "Since 2024, influencers must register as taxpayers and clearly label their advertising content to comply with new media laws."
+                            },
+                            {
+                                "question": "Is email marketing effective?",
+                                "answer": "B2B email marketing is standard, but B2C consumers strongly prefer messengers (WhatsApp/Telegram) for brand interaction."
+                            },
+                            {
+                                "question": "What are the rules for outdoor advertising?",
+                                "answer": "Placement requires permits from the local 'Akimat' (municipality) and must strictly comply with language laws (Kazakh always on top/left)."
+                            },
+                            {
+                                "question": "Can we run ads in English?",
+                                "answer": "English is allowed but must be accompanied by Kazakh and Russian translations, except for registered trademarks."
+                            },
+                            {
+                                "question": "How popular is YouTube in Kazakhstan?",
+                                "answer": "Extremely. localized Kazakh-language YouTube content (mini-series, talk shows) is a prime spot for mid-roll sponsorships."
+                            },
+                            {
+                                "question": "Is Google and Meta advertising stable?",
+                                "answer": "Yes, although payments must often be routed through local agencies to ensure tax compliance with the 'Digital Services VAT'."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

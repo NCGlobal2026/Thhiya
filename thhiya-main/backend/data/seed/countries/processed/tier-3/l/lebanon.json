@@ -1,0 +1,534 @@
+{
+    "name": "Lebanon",
+    "code": "LB",
+    "slug": "lebanon",
+    "flag": "https://flagcdn.com/w160/lb.png",
+    "region": "Asia",
+    "languages": [
+        "Arabic"
+    ],
+    "currencies": [
+        "LBP"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Lebanon",
+                "subtitle": "Hire in Beirut",
+                "description": "Compliant employment in the Levantine hub. We handle NSSF registration and salary domiciliation.",
+                "bestFor": "NGOs & Tech",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "lb-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Employment contract registered with the Ministry of Labor."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "NSSF",
+                                "description": "Register employee with the National Social Security Fund (CNSS)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Ministry of Finance",
+                                "description": "Register for payroll tax deduction (R3)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "lb-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Maternity & Sickness",
+                                    "values": [
+                                        "8.0%",
+                                        "3.0%",
+                                        "Employer 8%, Employee 3% (Medical)."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Family Allowance",
+                                    "values": [
+                                        "6.0%",
+                                        "0%",
+                                        "Capped base."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "End of Service (EOS)",
+                                    "values": [
+                                        "8.5%",
+                                        "0%",
+                                        "Indemnity fund. No cap."
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "lb-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Armenian Christmas",
+                                "description": "January 6"
+                            },
+                            {
+                                "title": "St. Maroun",
+                                "description": "February 9"
+                            },
+                            {
+                                "title": "Annunciation",
+                                "description": "March 25"
+                            },
+                            {
+                                "title": "Good Friday",
+                                "description": "April 18 (Western & Eastern often differ, 2025 coincides)"
+                            },
+                            {
+                                "title": "Easter Monday",
+                                "description": "April 21"
+                            },
+                            {
+                                "title": "Labour Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Resistance and Liberation",
+                                "description": "May 25"
+                            },
+                            {
+                                "title": "Assumption",
+                                "description": "August 15"
+                            },
+                            {
+                                "title": "Independence Day",
+                                "description": "November 22"
+                            },
+                            {
+                                "title": "Christmas",
+                                "description": "December 25"
+                            },
+                            {
+                                "title": "Eid al-Fitr",
+                                "description": "March 30 (Estimated)"
+                            },
+                            {
+                                "title": "Eid al-Adha",
+                                "description": "June 6 (Estimated)"
+                            },
+                            {
+                                "title": "Ashura",
+                                "description": "July 6 (Estimated)"
+                            },
+                            {
+                                "title": "Prophet's Birthday",
+                                "description": "September 15 (Estimated)"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "lb-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax Brackets (Progressive)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Bracket",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Lowest Bracket",
+                                    "values": [
+                                        "2%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Middle Brackets",
+                                    "values": [
+                                        "4% - 15%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Highest Bracket",
+                                    "values": [
+                                        "25%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Note",
+                                    "values": [
+                                        "Brackets adjusted frequently due to inflation."
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "lb-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Base Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "NSSF (Medical)",
+                                "description": "Deduct 3%."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Family Allowance",
+                                "description": "Add allowance if married/children (paid by NSSF through employer)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Tax Base",
+                                "description": "Gross - NSSF - Family Allowance (deduction tiers apply)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Income Tax",
+                                "description": "Apply progressive tax (2-25%)."
+                            },
+                            {
+                                "stepNumber": 6,
+                                "title": "Net",
+                                "description": "Final Pay."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Lebanon",
+                "subtitle": "SARL",
+                "description": "Registering a Limited Liability Company (SARL).",
+                "bestFor": "Regional HQs",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "lb-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Trade Register",
+                                "description": "File articles with Commercial Registrar."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Capital Deposit",
+                                "description": "Deposit minimum capital (nominally 5m LBP but check current bank reqs)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Ministry of Finance",
+                                "description": "Obtain fiscal number."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "lb-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Bank Audi",
+                                "description": "Major bank."
+                            },
+                            {
+                                "title": "BLOM Bank",
+                                "description": "Leading commercial bank."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Lebanon",
+                "subtitle": "Creative Talent",
+                "description": "Hub for design and advertising.",
+                "bestFor": "Creative",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "lb-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Beirut",
+                                "text": "The center for creative industries, media, and tech."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Lebanon",
+                "subtitle": "NSSF Ready",
+                "description": " CNSS compliant.",
+                "bestFor": "Compliance",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "lb-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "NSSF Forms",
+                                "description": "Must generate monthly and annual NSSF declaration schedules."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Lebanon",
+                "subtitle": "IAS/IFRS",
+                "description": "International standards.",
+                "bestFor": "Reporting",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "lb-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "IFRS",
+                                "text": "Required for banks and recommended for other companies."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "lb-comp-labor",
+                    "type": "warning",
+                    "title": "Termination",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Warning Notice",
+                                "description": "1 to 4 months depending on tenure."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "lb-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax",
+                                    "values": [
+                                        "17%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Capital Gains",
+                                    "values": [
+                                        "15%",
+                                        "On disposal of fixed assets."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "VAT",
+                                    "values": [
+                                        "11%"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Lebanon",
+                "subtitle": "Civil Law",
+                "description": "Mixed system.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "lb-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "Arabic is official, but English/French widely used in business."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Lebanon",
+                "subtitle": "Anghami",
+                "description": "Streaming giant.",
+                "bestFor": "Entertainment",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "lb-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Whish",
+                                "description": "Money transfer and payment app gaining popularity."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Lebanon",
+                "subtitle": "Creative",
+                "description": "Regional ad hub.",
+                "bestFor": "Strategy",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "lb-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "TV / Digital",
+                                "text": "Strong local TV networks and high social media penetration."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1911 @@
+{
+    "name": "Singapore",
+    "code": "SG",
+    "slug": "singapore",
+    "flag": "https://flagcdn.com/w160/sg.png",
+    "region": "Asia Pacific",
+    "languages": [
+        "English",
+        "Malay",
+        "Mandarin",
+        "Tamil"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "name": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "Hire in Singapore Fast",
+                "subtitle": "No entity required. Fully compliant employment.",
+                "description": "Engage talent in Singapore in days using an EOR. The provider handles MOM Ministry of Manpower filings, CPF contributions, and risk mitigation.",
+                "bestFor": "Market entry, hiring < 5 staff, speed to market.",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "cost-eor-sg-1",
+                    "type": "cost_breakdown",
+                    "title": "EOR Service Pricing 2025",
+                    "subtitle": "Monthly Management Fees",
+                    "description": "Standard market rates for EOR providers in Singapore (excluding employee salary and statutory costs).",
+                    "order": 1,
+                    "content": {
+                        "table": {
+                            "rows": [
+                                {
+                                    "label": "Standard EOR Fee",
+                                    "value": "SGD 199 - 699",
+                                    "description": "Per employee/month. Lower end for volume hiring; higher end include visa sponsorship."
+                                },
+                                {
+                                    "label": "Security Deposit",
+                                    "value": "1-2 Months",
+                                    "description": "Of total payroll burden, refundable at contract end."
+                                },
+                                {
+                                    "label": "Visa Processing",
+                                    "value": "SGD 1,500+",
+                                    "description": "One-time fee for Employment Pass (EP) or S Pass application."
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "table-eor-benefits-sg",
+                    "type": "cost_breakdown",
+                    "title": "Mandatory Benefits 2025",
+                    "subtitle": "Statutory Entitlements",
+                    "description": "Benefits mandated by the Ministry of Manpower (MOM) for employees covered under the Employment Act.",
+                    "order": 1,
+                    "content": {
+                        "table": {
+                            "columns": [
+                                "Benefit Type",
+                                "Entitlement",
+                                "Notes"
+                            ],
+                            "rows": [
+                                [
+                                    "Annual Leave",
+                                    "7-14 Days",
+                                    "Minimum 7 days for 1st year service, increasing by 1 day per year up to 14 days."
+                                ],
+                                [
+                                    "Sick Leave",
+                                    "14 Days",
+                                    "Paid outpatient sick leave. Up to 60 days including hospitalization."
+                                ],
+                                [
+                                    "Maternity Leave",
+                                    "16 Weeks",
+                                    "Paid gov-funded leave for eligible citizen births; employer-paid for others (min 12 weeks)."
+                                ],
+                                [
+                                    "Childcare Leave",
+                                    "6 Days",
+                                    "Per year for parents of citizen children under 7 years old."
+                                ],
+                                [
+                                    "CPF (Citizens/PR)",
+                                    "17% Employer",
+                                    "Capped at salary ceiling of SGD 6,800 (rising to SGD 7,400 in 2025)."
+                                ]
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-houu3des1",
+                    "type": "key_steps",
+                    "title": "Onboarding Workflow",
+                    "subtitle": "2-4 Weeks",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "KYC & Screening",
+                                "description": "Employee background checks and right-to-work verification."
+                            },
+                            {
+                                "title": "Contract Signing",
+                                "description": "Key Employment Terms (KETs) issued in compliance with Employment Act."
+                            },
+                            {
+                                "title": "MOM Notification",
+                                "description": "Scanning EP/IC credentials for MOM database."
+                            },
+                            {
+                                "title": "CPF Setup",
+                                "description": "Enrolling employee in Central Provident Fund (Citizens/PRs only)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-l2zcb6om2",
+                    "type": "insights",
+                    "title": "Compliance Radar",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "EP Quota",
+                                "text": "EORs usually have their own quota, but E-Pass criteria (COMPASS framework) are strict on salary/qualifications."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Non-Compete",
+                                "text": "Courts are increasingly scrutinizing non-compete clauses. Must be reasonable in geography and time."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-eor-offboarding",
+                    "type": "key_steps",
+                    "title": "Offboarding Workflow",
+                    "subtitle": "Termination Process",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Notice Period",
+                                "description": "Serve notice as per contract (typically 1 month). Salary in lieu allowed."
+                            },
+                            {
+                                "title": "Tax Clearance",
+                                "description": "File IR21 for foreign employees (withholding 1 month salary for tax)."
+                            },
+                            {
+                                "title": "Cancel EP",
+                                "description": "Cancel Employment Pass within 1 week of last day."
+                            },
+                            {
+                                "title": "Final Pay",
+                                "description": "Must be paid by the last day of employment (or within 3 days if employee resigns)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "faq-eor-sg",
+                    "type": "faq",
+                    "title": "EOR FAQs",
+                    "subtitle": "Common Questions",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I hire foreigners via an EOR in Singapore?",
+                                "answer": "Yes, but it is stricter than other countries. The EOR must have quota eligibility or use an Employment Pass (EP). The candidate must meet the high salary criteria (min S$5,600) and COMPASS scoring."
+                            },
+                            {
+                                "question": "Is EOR a permanent solution?",
+                                "answer": "It is not recommended for long-term (>3 years). MOM may view it as 'phantom employment' if there is no plan to incorporate, especially for senior roles."
+                            },
+                            {
+                                "question": "Who owns the Intellectual Property (IP)?",
+                                "answer": "The employment contract explicitly assigns all IP created by the employee to your company (the client), not the EOR."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cost-payroll-sg-1",
+                    "type": "cost_breakdown",
+                    "title": "Payroll Provider Costs",
+                    "subtitle": "Outsourced Processing Fees",
+                    "description": "Typical monthly costs for full-service payroll administration in Singapore.",
+                    "order": 1,
+                    "content": {
+                        "table": {
+                            "rows": [
+                                {
+                                    "label": "Per Payslip",
+                                    "value": "SGD 15 - 50",
+                                    "description": "Depends on headcount. Includes CPF calculation, bank file generation, and playslip distribution."
+                                },
+                                {
+                                    "label": "Year-End Filing",
+                                    "value": "SGD 150+",
+                                    "description": "Preparation and submission of IR8A (Auto-Inclusion Scheme)."
+                                },
+                                {
+                                    "label": "Implementation",
+                                    "value": "SGD 500+",
+                                    "description": "One-time setup fee for system configuration and data migration."
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "table-cpf-rates-2025",
+                    "type": "cost_breakdown",
+                    "title": "CPF Contribution Rates 2025",
+                    "subtitle": "Employer & Employee Rates",
+                    "description": "Effective Jan 1, 2025 (for monthly wages > SGD 750). New rates for senior workers.",
+                    "order": 1,
+                    "content": {
+                        "table": {
+                            "columns": [
+                                "Age Group",
+                                "Employer Contribution",
+                                "Employee Contribution",
+                                "Total Contribution"
+                            ],
+                            "rows": [
+                                [
+                                    "55 and below",
+                                    "17%",
+                                    "20%",
+                                    "37%"
+                                ],
+                                [
+                                    "Above 55 to 60",
+                                    "15.5%",
+                                    "17%",
+                                    "32.5%"
+                                ],
+                                [
+                                    "Above 60 to 65",
+                                    "12%",
+                                    "11.5%",
+                                    "23.5%"
+                                ],
+                                [
+                                    "Above 65 to 70",
+                                    "9%",
+                                    "7.5%",
+                                    "16.5%"
+                                ],
+                                [
+                                    "Above 70",
+                                    "7.5%",
+                                    "5%",
+                                    "12.5%"
+                                ]
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-maf10bpur",
+                    "type": "key_steps",
+                    "title": "Monthly Cycle",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Cut-off",
+                                "description": "Usually 20th of the month for overtime/expenses."
+                            },
+                            {
+                                "title": "Processing",
+                                "description": "Calculating OW (Ordinary Wages) and AW (Additional Wages) for CPF caps."
+                            },
+                            {
+                                "title": "Payment",
+                                "description": "Salary must be paid by 7th of the following month (Employment Act)."
+                            },
+                            {
+                                "title": "CPF Submission",
+                                "description": "Due by 14th of the following month via CPF EZPay."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-lan7cj0i7",
+                    "type": "insights",
+                    "title": "Statutory Contributions",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "SDL",
+                                "text": "Skills Development Levy: 0.25% of salary (min S$2, max S$11.25)."
+                            },
+                            {
+                                "type": "info",
+                                "title": "CDAC/MBMF",
+                                "text": "Self-help group fund contributions ($0.50 - $30) automatically deducted unless opted out."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "table-cpf-rates-2025",
+                    "type": "cost_breakdown",
+                    "title": "CPF Contribution Rates 2025",
+                    "subtitle": "By Age Group",
+                    "description": "Total contribution rates (Employer + Employee) for Citizens/PRs (>3 years).",
+                    "order": 1,
+                    "content": {
+                        "table": {
+                            "columns": [
+                                "Age Group",
+                                "Employer Share",
+                                "Employee Share",
+                                "Total"
+                            ],
+                            "rows": [
+                                [
+                                    "55 and below",
+                                    "17%",
+                                    "20%",
+                                    "37%"
+                                ],
+                                [
+                                    "Above 55 to 60",
+                                    "15.5%",
+                                    "17%",
+                                    "32.5%"
+                                ],
+                                [
+                                    "Above 60 to 65",
+                                    "12%",
+                                    "11.5%",
+                                    "23.5%"
+                                ],
+                                [
+                                    "Above 65 to 70",
+                                    "9%",
+                                    "7.5%",
+                                    "16.5%"
+                                ],
+                                [
+                                    "Above 70",
+                                    "7.5%",
+                                    "5%",
+                                    "12.5%"
+                                ]
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-payroll-errors",
+                    "type": "insights",
+                    "title": "Common Errors",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Late CPF",
+                                "text": "CPF must be paid by the 14th of the following month. Late interest is 1.5% per month."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "SDL Omission",
+                                "text": "Often forgotten: Employers must contribute SDL (min $2) for ALL employees, including foreign workers."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "faq-payroll-sg",
+                    "type": "faq",
+                    "title": "Payroll FAQs",
+                    "subtitle": "Processing Queries",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is the '13th Month' or AWS mandatory?",
+                                "answer": "No. The Annual Wage Supplement (AWS) is not required by law, but it is a very common market practice to pay it in December or January."
+                            },
+                            {
+                                "question": "When is the deadline for CPF contributions?",
+                                "answer": "CPF contributions for a month are due by the 14th of the following month. Late payment attracts interest and penalties."
+                            },
+                            {
+                                "question": "Are itemised payslips compulsory?",
+                                "answer": "Yes. Since 2016, employers must issue itemised payslips (hard copy or soft copy) to all employees covered by the Employment Act."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cost-calculator-sg-1",
+                    "type": "cost_breakdown",
+                    "title": "Levies & Contributions",
+                    "subtitle": "Employer Costs",
+                    "description": "Mandatory levies on top of gross salary.",
+                    "order": 1,
+                    "content": {
+                        "table": {
+                            "rows": [
+                                {
+                                    "label": "Skills Dev Levy (SDL)",
+                                    "value": "0.25%",
+                                    "description": "Capped at S$11.25/month. Min S$2. For all employees (Foreign & Local)."
+                                },
+                                {
+                                    "label": "Ethnic Funds",
+                                    "value": "SGD 0.50 - 30.00",
+                                    "description": "CDAC (Chinese), SINDA (Indian), MBMF (Malay), ECF (Eurasian). Deducted from employee, but employer must process."
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "table-calculator-caps",
+                    "type": "cost_breakdown",
+                    "title": "Contribution Caps 2025",
+                    "subtitle": "Financial Limits",
+                    "description": "Maximum amounts applicable for statutory calculations.",
+                    "order": 1,
+                    "content": {
+                        "table": {
+                            "columns": [
+                                "Item",
+                                "Rate/Cap",
+                                "Scope"
+                            ],
+                            "rows": [
+                                [
+                                    "CPF Ordinary Wages",
+                                    "S$7,400",
+                                    "Monthly Salary Ceiling (Employee & Employer share applies up to this)."
+                                ],
+                                [
+                                    "SDL Cap",
+                                    "S$11.25",
+                                    "Max payable per employee/month (reached at S$4,500 salary)."
+                                ],
+                                [
+                                    "SUTE Exemption",
+                                    "S$200,000",
+                                    "Max chargeable income eligible for partial tax exemption."
+                                ]
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-eohugsxyg",
+                    "type": "insights",
+                    "title": "Wage Ceiling",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "OW Ceiling",
+                                "text": "Ordinary Wage ceiling is S$7,400 (2025)."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Foreigners",
+                                "text": "EP/S-Pass holders do NOT contribute to CPF."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "table-sdl-rates",
+                    "type": "cost_breakdown",
+                    "title": "Skills Development Levy (SDL)",
+                    "subtitle": "Employer Contribution",
+                    "description": "Mandatory levy for the Skills Development Fund.",
+                    "order": 1,
+                    "content": {
+                        "table": {
+                            "columns": [
+                                "Monthly Wage",
+                                "Levy Rate",
+                                "Min/Max"
+                            ],
+                            "rows": [
+                                [
+                                    "Up to S$800",
+                                    "0.25%",
+                                    "Min S$2.00"
+                                ],
+                                [
+                                    "S$800 to S$4,500",
+                                    "0.25%",
+                                    "Variable"
+                                ],
+                                [
+                                    "Above S$4,500",
+                                    "0.25%",
+                                    "Max S$11.25"
+                                ]
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "faq-calculator-sg",
+                    "type": "faq",
+                    "title": "Calculator FAQs",
+                    "subtitle": "Computation Details",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Does a Permanent Resident (PR) pay full CPF rates?",
+                                "answer": "Not immediately. For the first two years of PR status, graduated (lower) rates apply to both employer and employee essentially to ease the transition."
+                            },
+                            {
+                                "question": "Do bonuses attract CPF?",
+                                "answer": "Yes. Bonuses are considered 'Additional Wages' (AW) and are subject to CPF contributions, capped at the annual AW ceiling (approx S$102k - Total Ordinary Wages)."
+                            },
+                            {
+                                "question": "What is 'Net Salary'?",
+                                "answer": "Gross Salary minus the Employee's share of CPF (20%) and any ethnic fund donations. It does not deduct income tax (which is not withheld by employers in SG)."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "eor-peo-aor",
+            "serviceName": "EOR, PEO & AOR",
+            "service": "EOR, PEO & AOR"
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Company Registration (Pte Ltd)",
+                "subtitle": "World's easiest place to do business",
+                "description": "Incorporate a Private Limited company with ACRA in under 24 hours. Requirements: 1 Resident Director, 1 Shareholder, 1 Company Secretary.",
+                "bestFor": "Regional HQs, IP holding, Trading hubs.",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "cost-incorp-sg-1",
+                    "type": "cost_breakdown",
+                    "title": "Incorporation Costs 2025",
+                    "subtitle": "ACRA & Admin Fees",
+                    "description": "Standard government and professional fees for setting up a Private Limited Company.",
+                    "order": 1,
+                    "content": {
+                        "table": {
+                            "rows": [
+                                {
+                                    "label": "ACRA Name Application",
+                                    "value": "SGD 15",
+                                    "description": "Name reservation fee (valid for 60 days)."
+                                },
+                                {
+                                    "label": "ACRA Registration",
+                                    "value": "SGD 300",
+                                    "description": "One-time company registration fee."
+                                },
+                                {
+                                    "label": "Nominee Director",
+                                    "value": "SGD 2,000 - 4,000",
+                                    "description": "Annual fee if you do not have a local resident director."
+                                },
+                                {
+                                    "label": "Corporate Secretary",
+                                    "value": "SGD 300 - 800",
+                                    "description": "Annual retainer for mandatory company secretary."
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "table-entity-comparison-sg",
+                    "type": "cost_breakdown",
+                    "title": "Entity Structures",
+                    "subtitle": "Pte Ltd vs Branch vs Rep Office",
+                    "description": "Choosing the right vehicle for your Singapore expansion.",
+                    "order": 1,
+                    "content": {
+                        "table": {
+                            "columns": [
+                                "Feature",
+                                "Private Limited (Pte Ltd)",
+                                "Branch Office",
+                                "Representative Office (RO)"
+                            ],
+                            "rows": [
+                                [
+                                    "Legal Identity",
+                                    "Separate legal entity",
+                                    "Extension of parent company",
+                                    "No legal status"
+                                ],
+                                [
+                                    "Liability",
+                                    "Limited to share capital",
+                                    "Parent company fully liable",
+                                    "Parent company fully liable"
+                                ],
+                                [
+                                    "Activities",
+                                    "All profit-generating activities",
+                                    "Same as parent company",
+                                    "Market research & liaison ONLY"
+                                ],
+                                [
+                                    "Taxation",
+                                    "17% (Resident rates + Incentives)",
+                                    "17% (Non-resident, no exempts)",
+                                    "N/A (Cost center only)"
+                                ]
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-ho9248t6b",
+                    "type": "key_steps",
+                    "title": "The Process",
+                    "subtitle": "1-3 Days",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Name Reserv.",
+                                "description": "Instant approval via BizFile+ unless name is restricted."
+                            },
+                            {
+                                "title": "KYC/Structure",
+                                "description": "Identify UBOs and structure directors/shareholders."
+                            },
+                            {
+                                "title": "Incorporation",
+                                "description": "Online filing. UEN (Unique Entity Number) issued immediately."
+                            },
+                            {
+                                "title": "Bank Acct",
+                                "description": "Open corporate account (DBS, OCBC, UOB) - requires physical or video interview."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-c50vcvymm",
+                    "type": "insights",
+                    "title": "Why Singapore?",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Tax Exemptions",
+                                "text": "Startups get 75% tax exemption on first S$100k chargeable income for first 3 years."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Resident Director",
+                                "text": "Strict requirement. Can be Citizen, PR, or EP holder. Must be ordinarily resident."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "table-incorp-comparison-sg-hk",
+                    "type": "cost_breakdown",
+                    "title": "Singapore vs Hong Kong",
+                    "subtitle": "Regional Hub Comparison",
+                    "description": "Comparing the two leading Asian financial centers for business incorporation.",
+                    "order": 1,
+                    "content": {
+                        "table": {
+                            "columns": [
+                                "Criteria",
+                                "Singapore",
+                                "Hong Kong"
+                            ],
+                            "rows": [
+                                [
+                                    "Headline Corp Tax",
+                                    "17%",
+                                    "16.5%"
+                                ],
+                                [
+                                    "Capital Gains Tax",
+                                    "0%",
+                                    "0%"
+                                ],
+                                [
+                                    "Dividends Tax",
+                                    "0%",
+                                    "0%"
+                                ],
+                                [
+                                    "Legal System",
+                                    "English Common Law",
+                                    "English Common Law"
+                                ],
+                                [
+                                    "Primary Market",
+                                    "Southeast Asia (ASEAN)",
+                                    "China (Greater Bay Area)"
+                                ],
+                                [
+                                    "Politcal Stability",
+                                    "Very High",
+                                    "Stable (China Integration)"
+                                ]
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "faq-incorp-sg",
+                    "type": "faq",
+                    "title": "Incorporation FAQs",
+                    "subtitle": "Setup Questions",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can a foreigner own 100% of a Singapore company?",
+                                "answer": "Yes. Singapore allows 100% foreign shareholding. You do not need a local partner."
+                            },
+                            {
+                                "question": "Do I need to live in Singapore?",
+                                "answer": "No. You can operate the business from overseas, but you must appoint at least one locally resident director (Nominee Director)."
+                            },
+                            {
+                                "question": "What is the minimum paid-up capital?",
+                                "answer": "S$1. However, if you plan to apply for an Employment Pass (EP), a higher capital (e.g., S$50,000) is recommended to show financial stability."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "incorporation-entity-setup",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)"
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "name": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Recruitment & Executive Search",
+                "subtitle": "Access to global and local talent",
+                "description": "MOM regulates Employment Agencies (EA License). Fair Consideration Framework (FCF) requires advertising jobs on MyCareersFuture before hiring foreigners.",
+                "bestFor": "Hard-to-fill tech and finance roles.",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "cost-staffing-sg-1",
+                    "type": "cost_breakdown",
+                    "title": "Recruitment Fees 2025",
+                    "subtitle": "Agency Placement Rates",
+                    "description": "Standard market rates for permanent and contract staffing in Singapore.",
+                    "order": 1,
+                    "content": {
+                        "table": {
+                            "rows": [
+                                {
+                                    "label": "Permanent Placement",
+                                    "value": "15% - 25%",
+                                    "description": "Of candidate's first-year annual salary. Executive search can go up to 30%."
+                                },
+                                {
+                                    "label": "Contract Staffing",
+                                    "value": "25% - 40%",
+                                    "description": "Markup on hourly/monthly rate for temporary staff."
+                                },
+                                {
+                                    "label": "Foreign Worker Fee Cap",
+                                    "value": "1-2 Months",
+                                    "description": "MOM regulation: Agencies cannot charge foreign workers more than 2 months' salary as fees."
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-7186rpzce",
+                    "type": "key_steps",
+                    "title": "FCF Compliance",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Post Job",
+                                "description": "Post on MyCareersFuture for 14 days."
+                            },
+                            {
+                                "title": "Assess Locals",
+                                "description": "Fairly consider all local applicants."
+                            },
+                            {
+                                "title": "EP Application",
+                                "description": "Apply for EP only after proving no local fit (if selected candidate is foreign)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "table-staffing-passes",
+                    "type": "cost_breakdown",
+                    "title": "Work Pass Comparison 2025",
+                    "subtitle": "Visa Options",
+                    "description": "Differences between the main work visas for foreigners.",
+                    "order": 1,
+                    "content": {
+                        "table": {
+                            "columns": [
+                                "Pass Type",
+                                "Min. Salary (Monthly)",
+                                "Target Audience",
+                                "Quota/Levy"
+                            ],
+                            "rows": [
+                                [
+                                    "Employment Pass (EP)",
+                                    "S$5,600 (General) / S$6,200 (Finance)",
+                                    "Professionals, Managers, Execs",
+                                    "None (But COMPASS applies)"
+                                ],
+                                [
+                                    "Overseas Networks & Expertise (ONE) Pass",
+                                    "S$30,000 (Fixed)",
+                                    "Top Global Talent",
+                                    "None (5-year validity)"
+                                ],
+                                [
+                                    "S Pass",
+                                    "S$3,150",
+                                    "Mid-skilled technical staff",
+                                    "Yes (Quota capped at 10-15% of workforce)"
+                                ],
+                                [
+                                    "Work Permit",
+                                    "N/A (Market rate)",
+                                    "Semi-skilled workers (Construction, Marine)",
+                                    "Yes (High Levy & Quota)"
+                                ]
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "faq-staffing-sg",
+                    "type": "faq",
+                    "title": "Staffing FAQs",
+                    "subtitle": "Hiring Questions",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the Fair Consideration Framework (FCF)?",
+                                "answer": "It is a rule requiring employers to consider Singaporeans fairly for job openings. You must advertise on MyCareersFuture for 14 days before hiring an EP holder."
+                            },
+                            {
+                                "question": "What is the standard guarantee period?",
+                                "answer": "Recruitment agencies typically offer a 3-month guarantee. If the candidate leaves within this period, they will find a replacement for free."
+                            },
+                            {
+                                "question": "Can I hire independent contractors?",
+                                "answer": "Yes. A Contract for Service is different from a Contract of Service (Employment). Contractors do not get CPF or statutory leave benefits."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "staffing-recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "service": "Staffing and Recruiting"
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "name": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HR Tech Solutions",
+                "subtitle": "Digitalizing HR workflows",
+                "description": "High adoption of cloud HR. Govt grants (PSG) often available for adopting pre-approved digital solutions.",
+                "bestFor": "SMEs digitizing ops.",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "cost-hris-sg-1",
+                    "type": "cost_breakdown",
+                    "title": "HR Tech Pricing 2025",
+                    "subtitle": "Software Subscriptions",
+                    "description": "Estimated costs for popular HRIS platforms (Talenox, JustLogin, HReasily).",
+                    "order": 1,
+                    "content": {
+                        "table": {
+                            "rows": [
+                                {
+                                    "label": "Base Subscription",
+                                    "value": "SGD 40 - 100",
+                                    "description": "Monthly base fee for small teams (up to 5 employees)."
+                                },
+                                {
+                                    "label": "Per Employee Fee",
+                                    "value": "SGD 4 - 8",
+                                    "description": "Additional monthly cost per headcount for full-suite (Payroll + Leave + Claims)."
+                                },
+                                {
+                                    "label": "PSG Grant Cap",
+                                    "value": "Up to SGD 30k",
+                                    "description": "50% funding support for pre-approved digital solutions (SMEs only)."
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-bqjionr5j",
+                    "type": "insights",
+                    "title": "Grant Support",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "PSG Grant",
+                                "text": "Productivity Solutions Grant covers up to 50% of qualifying costs for pre-scoped solutions."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-hris-implementation",
+                    "type": "key_steps",
+                    "title": "Implementation Roadmap",
+                    "subtitle": "Go-Live Plan",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Data Cleanse",
+                                "description": "Ensure all employee data (NRIC, Bank Accts) is accurate."
+                            },
+                            {
+                                "title": "Config",
+                                "description": "Setup Pay Items, CPF settings, and Approval workflows."
+                            },
+                            {
+                                "title": "Parallel Run",
+                                "description": "Run new HRIS alongside legacy system for 1 month to verify accuracy."
+                            },
+                            {
+                                "title": "Go Live",
+                                "description": "Cutover to new system and onboard employees (Self-Service)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "faq-hris-sg",
+                    "type": "faq",
+                    "title": "HR Tech FAQs",
+                    "subtitle": "Digital Solutions",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I claim the PSG grant for any software?",
+                                "answer": "No. The software must be on the list of pre-approved solutions found on the GoBusiness Gov Assist portal."
+                            },
+                            {
+                                "question": "Is digital payroll mandatory?",
+                                "answer": "While not strictly mandatory to be 'digital', you must maintain detailed employment records and issue compliant payslips, which HRIS automates."
+                            },
+                            {
+                                "question": "How long does PSG approval take?",
+                                "answer": "Typically 4-6 weeks. You must not make any payment or sign contracts before receiving the Letter of Offer."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "hris-hrms-ats",
+            "serviceName": "HRIS/HRMS/ATS",
+            "service": "HRIS/HRMS/ATS"
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "name": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Corporate Secretary & Accounting",
+                "subtitle": "Keeping your Pte Ltd compliant",
+                "description": "Annual Filing with ACRA and Tax Filing with IRAS are statutory obligations. Small companies (EPC) are audit-exempt.",
+                "bestFor": "All Singapore Companies.",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "cost-accounting-sg-1",
+                    "type": "cost_breakdown",
+                    "title": "Accounting & Corp Sec Fees",
+                    "subtitle": "Compliance Costs",
+                    "description": "Annual compliance costs for a standard Private Limited company.",
+                    "order": 1,
+                    "content": {
+                        "table": {
+                            "rows": [
+                                {
+                                    "label": "Bookkeeping (Monthly)",
+                                    "value": "SGD 300 - 800",
+                                    "description": "Depends on transaction volume. Higher for multi-currency or GST-registered firms."
+                                },
+                                {
+                                    "label": "Corporate Tax Filing",
+                                    "value": "SGD 400 - 2,000",
+                                    "description": "Annual filing of Form C-S or Form C with IRAS."
+                                },
+                                {
+                                    "label": "ACRA Annual Return",
+                                    "value": "SGD 60",
+                                    "description": "Mandatory government filing fee (Professional filing fees extra)."
+                                },
+                                {
+                                    "label": "Unaudited Financials",
+                                    "value": "SGD 500+",
+                                    "description": "Compilation of financial statements for AGM."
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-lbxmi4vff",
+                    "type": "insights",
+                    "title": "Deadlines",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "ECI",
+                                "text": "Estimated Chargeable Income must be filed within 3 months of FYE."
+                            },
+                            {
+                                "type": "info",
+                                "title": "AGM",
+                                "text": "Annual General Meeting must be held within 6 months of FYE."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "faq-accounting-sg",
+                    "type": "faq",
+                    "title": "Accounting FAQs",
+                    "subtitle": "Compliance Queries",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "When is my first AGM due?",
+                                "answer": "The Annual General Meeting must be held within 6 months of your Financial Year End (FYE). For new companies, within 18 months of incorporation."
+                            },
+                            {
+                                "question": "Is an audit mandatory?",
+                                "answer": "Only if you are NOT a 'Small Company'. A company is exempt if it meets 2 of 3 criteria: Revenue < S$10M, Assets < S$10M, Employees < 50."
+                            },
+                            {
+                                "question": "What is ECI?",
+                                "answer": "Estimated Chargeable Income. It is an estimate of your company's taxable income, filed within 3 months of the financial year end."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cost-compliance-sg-1",
+                    "type": "cost_breakdown",
+                    "title": "Regulatory Penalties",
+                    "subtitle": "Non-Compliance Costs",
+                    "description": "Financial penalties for failing to meet statutory obligations in Singapore.",
+                    "order": 1,
+                    "content": {
+                        "table": {
+                            "rows": [
+                                {
+                                    "label": "PDPA Data Breach",
+                                    "value": "Up to 10% Turnover",
+                                    "description": "Or S$1 Million (whichever is higher) for major data breaches."
+                                },
+                                {
+                                    "label": "Late Annual Return",
+                                    "value": "SGD 300 - 600",
+                                    "description": "Per default. Directors may also face debarment for chronic failure."
+                                },
+                                {
+                                    "label": "Stamp Duty (Shares)",
+                                    "value": "0.2%",
+                                    "description": "Of purchase price or Net Asset Value (whichever is higher) on share transfers."
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-vr9xzf3w2",
+                    "type": "key_steps",
+                    "title": "Oversight",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "DPO",
+                                "description": "Must appoint a Data Protection Officer and register them with PDPC."
+                            },
+                            {
+                                "title": "KETs",
+                                "description": "Issue Key Employment Terms in writing within 14 days of start."
+                            },
+                            {
+                                "title": "Itemised Payslips",
+                                "description": "Mandatory for all employees covered under Employment Act."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-cq18vxddz",
+                    "type": "insights",
+                    "title": "Penalties",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "PDPA Fines",
+                                "text": "Up to 10% of annual turnover or S$1M for data breaches."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Late Filing",
+                                "text": "ACRA/IRAS penalties range from S$60 to S$300 per default."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-pdpa-audit",
+                    "type": "key_steps",
+                    "title": "PDPA Compliance Audit",
+                    "subtitle": "Data Protection",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Data Mapping",
+                                "description": "Identify all personal data collected (NRIC, emails, phone)."
+                            },
+                            {
+                                "title": "Consent Check",
+                                "description": "Ensure consent was obtained for each purpose."
+                            },
+                            {
+                                "title": "DPO Appointment",
+                                "description": "Appoint DPO and publish contact details (e.g., dpo@company.com)."
+                            },
+                            {
+                                "title": "Breach Plan",
+                                "description": "Establish a data breach response plan."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "table-compliance-penalties",
+                    "type": "cost_breakdown",
+                    "title": "Penalty Framework 2025",
+                    "subtitle": "Key Offences",
+                    "description": "Maximum penalties for common corporate offences.",
+                    "order": 1,
+                    "content": {
+                        "table": {
+                            "columns": [
+                                "Offence",
+                                "Max Fine",
+                                "Jail Term",
+                                "Agency"
+                            ],
+                            "rows": [
+                                [
+                                    "Late CPF Payment",
+                                    "S$10,000",
+                                    "7 Years (Repeat)",
+                                    "MOM / CPF Board"
+                                ],
+                                [
+                                    "PDPA Data Breach",
+                                    "10% Turnover (or S$1M)",
+                                    "N/A",
+                                    "PDPC"
+                                ],
+                                [
+                                    "Tax Evasion",
+                                    "4x Tax Avoided + S$50k",
+                                    "5 Years",
+                                    "IRAS"
+                                ],
+                                [
+                                    "Illegal Employment",
+                                    "S$30,000",
+                                    "12 Months",
+                                    "MOM"
+                                ]
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "faq-compliance-sg",
+                    "type": "faq",
+                    "title": "Compliance FAQs",
+                    "subtitle": "Regulatory Q&A",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Who needs to appoint a DPO?",
+                                "answer": "Every organization in Singapore must appoint at least one individual as the Data Protection Officer (DPO) to ensure PDPA compliance."
+                            },
+                            {
+                                "question": "What are the penalties for late ACRA filing?",
+                                "answer": "Late lodging of Annual Returns incurs a penalty ranging from S$60 to S$300 depending on the length of default. Persistent default can lead to court summons."
+                            },
+                            {
+                                "question": "Must I keep physical copies of documents?",
+                                "answer": "Electronic records are generally acceptable under the Evidence Act and Companies Act, provided they are authentic and accessible. Verification with specific auditors is recommended."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cost-tax-sg-1",
+                    "type": "cost_breakdown",
+                    "title": "Effective Tax Rates 2025",
+                    "subtitle": "After Exemptions",
+                    "description": "Corporate tax burden for new startups under the Start-Up Tax Exemption (SUTE) scheme.",
+                    "order": 1,
+                    "content": {
+                        "table": {
+                            "rows": [
+                                {
+                                    "label": "First S$100k Profit",
+                                    "value": "4.25% (Effective)",
+                                    "description": "75% exemption on the first S$100,000 of chargeable income."
+                                },
+                                {
+                                    "label": "Next S$100k Profit",
+                                    "value": "8.5% (Effective)",
+                                    "description": "50% exemption on the next S$100,000 of chargeable income."
+                                },
+                                {
+                                    "label": "Above S$200k Profit",
+                                    "value": "17% (Headline)",
+                                    "description": "Flat corporate tax rate on remaining income."
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "table-wht-rates",
+                    "type": "cost_breakdown",
+                    "title": "Withholding Tax Rates 2025",
+                    "subtitle": "Payments to Non-Residents",
+                    "description": "Applicable rates unless reduced by a Double Taxation Agreement (DTA).",
+                    "order": 1,
+                    "content": {
+                        "table": {
+                            "columns": [
+                                "Payment Type",
+                                "Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                [
+                                    "Interest / Loan Fees",
+                                    "15%",
+                                    "On gross interest paid to non-resident lenders."
+                                ],
+                                [
+                                    "Royalties (IP/Tech)",
+                                    "10%",
+                                    "Rights to use scientific, technical, or industrial knowledge."
+                                ],
+                                [
+                                    "Technical Fees",
+                                    "17%",
+                                    "Prevailing corporate rate (for services rendered in SG)."
+                                ],
+                                [
+                                    "Directors' Fees",
+                                    "24%",
+                                    "For non-resident board directors."
+                                ]
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-erzdjss1v",
+                    "type": "insights",
+                    "title": "Incentives",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "SUTE",
+                                "text": "Start-Up Tax Exemption: 75% off first S$100k income."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "PTE",
+                                "text": "Partial Tax Exemption: 75% off first S$10k, 50% off next S$190k."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-tax-filing-steps",
+                    "type": "key_steps",
+                    "title": "Corporate Tax Cycle",
+                    "subtitle": "Annual Workflow",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "File ECI",
+                                "description": "Within 3 months of Financial Year End (FYE)."
+                            },
+                            {
+                                "title": "File Form C-S",
+                                "description": "By 30 Nov (Paper) or 15 Dec (E-filing)."
+                            },
+                            {
+                                "title": "Pay Tax",
+                                "description": "Within 1 month of receiving Notice of Assessment (NOA)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "table-dta-rates",
+                    "type": "cost_breakdown",
+                    "title": "Double Tax Agreements (DTA)",
+                    "subtitle": "Treaty Rates",
+                    "description": "Reduced Withholding Tax rates for key partners.",
+                    "order": 1,
+                    "content": {
+                        "table": {
+                            "columns": [
+                                "Country",
+                                "Dividends",
+                                "Interest",
+                                "Royalties"
+                            ],
+                            "rows": [
+                                [
+                                    "Australia",
+                                    "0% / 15%",
+                                    "10%",
+                                    "10%"
+                                ],
+                                [
+                                    "China",
+                                    "0% / 5%",
+                                    "7% / 10%",
+                                    "6% / 10%"
+                                ],
+                                [
+                                    "India",
+                                    "10% / 15%",
+                                    "10% / 15%",
+                                    "10% / 15%"
+                                ],
+                                [
+                                    "United Kingdom",
+                                    "0% / 15%",
+                                    "12%",
+                                    "8%"
+                                ],
+                                [
+                                    "United States",
+                                    "N/A (No DTA)",
+                                    "30% (US WHT)",
+                                    "30% (US WHT)"
+                                ]
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "faq-tax-sg",
+                    "type": "faq",
+                    "title": "Tax FAQs",
+                    "subtitle": "Common Questions",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is foreign-sourced income taxed?",
+                                "answer": "Generally, strictly foreign-sourced income remitted into Singapore is tax-exempt for companies if the headline tax rate in the foreign jurisdiction is >=15% and the income has been subject to tax there."
+                            },
+                            {
+                                "question": "Is GST registration mandatory?",
+                                "answer": "Yes, if your taxable turnover exceeds S$1 million at the end of the calendar year, or if you expect it to effectively exceed S$1 million in the next 12 months."
+                            },
+                            {
+                                "question": "What is SUTE?",
+                                "answer": "The Start-Up Tax Exemption (SUTE) scheme grants significant tax exemptions (75% on first S$100k) to qualifying new companies for their first 3 consecutive YAs."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "finance-tax-accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "service": "Finance, Tax and Accounting"
+        },
+        {
+            "serviceSlug": "msa",
+            "name": "M & A",
+            "heroData": {
+                "title": "Commercial Contracts",
+                "subtitle": "English Common Law basis",
+                "description": "Contract law is based on English Common Law, making it familiar and reliable for international business.",
+                "bestFor": "Structuring deals.",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "cost-msa-sg-1",
+                    "type": "cost_breakdown",
+                    "title": "M&A Transaction Costs",
+                    "subtitle": "Deal Expenses",
+                    "description": "Estimated professional fees for Mergers & Acquisitions due diligence in Singapore.",
+                    "order": 1,
+                    "content": {
+                        "table": {
+                            "rows": [
+                                {
+                                    "label": "Due Diligence (Small)",
+                                    "value": "SGD 35k - 100k",
+                                    "description": "For deals < S$15M. Covers legal, financial, and tax DD."
+                                },
+                                {
+                                    "label": "Due Diligence (Mid)",
+                                    "value": "0.5% - 2% of Deal",
+                                    "description": "For deals S$15M - S$130M."
+                                },
+                                {
+                                    "label": "M&A Tax Allowance",
+                                    "value": "5% Deduction",
+                                    "description": "Tax deduction on acquisition value (capped at S$5M) for qualifying deals."
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-s8cox6d9z",
+                    "type": "insights",
+                    "title": "Dispute Resolution",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "SIAC",
+                                "text": "Singapore International Arbitration Centre is a top global venue for dispute resolution."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "E-Signatures",
+                                "text": "Electronic signatures are legally recognized (Electronic Transactions Act)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-dispute-resolution",
+                    "type": "key_steps",
+                    "title": "Dispute Protocols",
+                    "subtitle": "Resolution Flow",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Negotiation",
+                                "description": "Parties attempt to resolve amicably for 30 days."
+                            },
+                            {
+                                "title": "Mediation",
+                                "description": "Referral to Singapore Mediation Centre (SMC)."
+                            },
+                            {
+                                "title": "Arbitration",
+                                "description": "Final binding arbitration under SIAC Rules (if specified)."
+                            },
+                            {
+                                "title": "Litigation",
+                                "description": "Singapore Courts (SICC for international commercial disputes)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "faq-msa-sg",
+                    "type": "faq",
+                    "title": "Legal FAQs",
+                    "subtitle": "Contract Queries",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Are digital signatures legally valid?",
+                                "answer": "Yes. Under the Electronic Transactions Act (ETA), secure digital signatures are functionally equivalent to wet-ink signatures for most commercial contracts."
+                            },
+                            {
+                                "question": "Can we use foreign law for Singapore contracts?",
+                                "answer": "Yes, parties are free to choose the governing law. However, for employment contracts in Singapore, the Employment Act's mandatory provisions usually override foreign choice of law."
+                            },
+                            {
+                                "question": "Is arbitration expensive?",
+                                "answer": "SIAC arbitration can be costly compared to local litigation for small disputes, but it offers confidentiality and enforceability across 150+ countries (New York Convention)."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "msa",
+            "serviceName": "M & A",
+            "service": "M & A"
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "name": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Tech Ecosystem",
+                "subtitle": "Asian Tech Hub",
+                "description": "Singapore is the HQ choice for global tech firms in Asia. High availability of data centers and cloud regions (AWS, Google, Azure).",
+                "bestFor": "Regional tech infrastructure.",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "cost-software-sg-1",
+                    "type": "cost_breakdown",
+                    "title": "Infrastructure Costs",
+                    "subtitle": "Hosting & Colocation",
+                    "description": "Estimated monthly costs for data center colocation and connectivity in Singapore.",
+                    "order": 1,
+                    "content": {
+                        "table": {
+                            "rows": [
+                                {
+                                    "label": "1U Colocation",
+                                    "value": "SGD 175 - 300",
+                                    "description": "Per month. Includes power (0.5A - 1A) and basic bandwidth."
+                                },
+                                {
+                                    "label": "Full Rack (42U)",
+                                    "value": "SGD 3,500+",
+                                    "description": "Depends on power density (kW). High demand in SG drives prices up."
+                                },
+                                {
+                                    "label": "Business Fibre (1Gbps)",
+                                    "value": "SGD 80 - 150",
+                                    "description": "Monthly subscription for static IP commercial broadband."
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-4h6dwouv5",
+                    "type": "insights",
+                    "title": "Infrastructure",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Connectivity",
+                                "text": "Highest internet speeds and subsea cable connectivity in the region."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Grants",
+                                "text": "Look for IMDA grants for adopting advanced digital solutions."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-cloud-migration",
+                    "type": "key_steps",
+                    "title": "Cloud Migration",
+                    "subtitle": "Step-by-Step",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Assessment",
+                                "description": "Audit existing apps for cloud readiness (Rehost, Replatform, Refactor)."
+                            },
+                            {
+                                "title": "Data Residency",
+                                "description": "Select SG Region (e.g., AWS ap-southeast-1) for compliance."
+                            },
+                            {
+                                "title": "Pilot",
+                                "description": "Migrate non-critical workloads first."
+                            },
+                            {
+                                "title": "Cutover",
+                                "description": "Full migration with failback plan."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "table-tech-salaries",
+                    "type": "cost_breakdown",
+                    "title": "Tech Salary Benchmarks",
+                    "subtitle": "Monthly Base (SGD)",
+                    "description": "2024/2025 Market Rates for Key Tech Roles.",
+                    "order": 1,
+                    "content": {
+                        "table": {
+                            "columns": [
+                                "Role",
+                                "Junior (1-3 Yrs)",
+                                "Mid (3-5 Yrs)",
+                                "Senior (5-8 Yrs)"
+                            ],
+                            "rows": [
+                                [
+                                    "Software Engineer",
+                                    "S$4,500 - 6,500",
+                                    "S$6,500 - 9,500",
+                                    "S$9,500 - 14,000"
+                                ],
+                                [
+                                    "DevOps Engineer",
+                                    "S$5,000 - 7,000",
+                                    "S$7,000 - 10,000",
+                                    "S$10,000 - 16,000"
+                                ],
+                                [
+                                    "Data Scientist",
+                                    "S$5,500 - 8,000",
+                                    "S$8,000 - 12,000",
+                                    "S$12,000 - 18,000"
+                                ],
+                                [
+                                    "Product Manager",
+                                    "S$5,000 - 8,000",
+                                    "S$8,000 - 12,000",
+                                    "S$12,000 - 20,000"
+                                ]
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "faq-software-sg",
+                    "type": "faq",
+                    "title": "Tech Infrastructure FAQs",
+                    "subtitle": "Hosting & Connectivity",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Must I host customer data locally?",
+                                "answer": "Not strictly for all sectors, but the PDPA requires that if data is transferred overseas, the recipient must have a comparable standard of protection. Financial institutions (MAS) have stricter guidelines."
+                            },
+                            {
+                                "question": "How is connectivity to the region?",
+                                "answer": "Singapore is the primary subsea cable hub for Southeast Asia, offering the lowest latency connections to Indonesia, Malaysia, and good routes to China and India."
+                            },
+                            {
+                                "question": "Are there grants for software adoption?",
+                                "answer": "Yes, the Productivity Solutions Grant (PSG) supports the adoption of pre-approved off-the-shelf software (HR, Accounting, CRM, Inventory) for local SMEs."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "software-technology-solutions",
+            "serviceName": "Software & Technology Solutions",
+            "service": "Software & Technology Solutions"
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "name": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Digital Marketing",
+                "subtitle": "Highly connected consumer base",
+                "description": "High mobile and social media penetration. Campaigns map to 'Singlish' nuances and multicultural festivals.",
+                "bestFor": "Consumer brands.",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "cost-marketing-sg-1",
+                    "type": "cost_breakdown",
+                    "title": "Agency Retainers 2025",
+                    "subtitle": "Digital Marketing Fees",
+                    "description": "Standard monthly retainer fees for digital agencies.",
+                    "order": 1,
+                    "content": {
+                        "table": {
+                            "rows": [
+                                {
+                                    "label": "SEO Package",
+                                    "value": "SGD 600 - 3,000",
+                                    "description": "Standard monthly retainer for keyword optimization and content."
+                                },
+                                {
+                                    "label": "Social Media Mgmt",
+                                    "value": "SGD 500 - 5,000",
+                                    "description": "Content creation, scheduling, and community management."
+                                },
+                                {
+                                    "label": "Full-Service Retainer",
+                                    "value": "SGD 5,000 - 20,000",
+                                    "description": "Comprehensive strategy, ad spend mgmt, and creative direction."
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-gtm-sg",
+                    "type": "key_steps",
+                    "title": "Go-To-Market",
+                    "subtitle": "Launch Strategy",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Localize",
+                                "description": "Adapt messaging for Singlish nuances (if B2C) or formal business English (B2B)."
+                            },
+                            {
+                                "title": "Channels",
+                                "description": "B2B: LinkedIn & Events (SFF, Tech Week). B2C: WhatsApp, Instagram, Telegram."
+                            },
+                            {
+                                "title": "Partners",
+                                "description": "Engage local distributors or agencies for network access."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "table-ad-benchmarks",
+                    "type": "cost_breakdown",
+                    "title": "Ad Cost Benchmarks",
+                    "subtitle": "Digital Marketing Costs",
+                    "description": "Average CPC and CPM rates in Singapore.",
+                    "order": 1,
+                    "content": {
+                        "table": {
+                            "columns": [
+                                "channel",
+                                "Metric",
+                                "Average Cost (SGD)",
+                                "Notes"
+                            ],
+                            "rows": [
+                                [
+                                    "Google Search",
+                                    "CPC",
+                                    "S$1.50 - 4.00",
+                                    "High intent; Finance/Tech keywords are expensive (S$10+)."
+                                ],
+                                [
+                                    "LinkedIn",
+                                    "CPC",
+                                    "S$8.00 - 15.00",
+                                    "Premium B2B audience; high cost but high quality."
+                                ],
+                                [
+                                    "Facebook/IG",
+                                    "CPM",
+                                    "S$5.00 - 12.00",
+                                    "Consumer branding; significantly cheaper than LinkedIn."
+                                ],
+                                [
+                                    "TikTok",
+                                    "CPM",
+                                    "S$3.00 - 8.00",
+                                    "Growing reach for <35 demographic."
+                                ]
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "faq-marketing-sg",
+                    "type": "faq",
+                    "title": "Marketing FAQs",
+                    "subtitle": "Strategy Q&A",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What are the dominant social platforms?",
+                                "answer": "WhatsApp, YouTube, Facebook, Instagram, and TikTok are the leaders. LinkedIn is crucial for B2B. Telegram is also widely used for community updates."
+                            },
+                            {
+                                "question": "Is English the main language for marketing?",
+                                "answer": "Yes, English is the working language. However, localized 'Singlish' or vernacular (Mandarin/Malay) nuances can increase engagement in B2C campaigns."
+                            },
+                            {
+                                "question": "How expensive are influencers?",
+                                "answer": "Micro-influencers (10k-50k followers) may charge S$500-S$2,000 per post. Macro-influencers can command S$5,000+ per engagement."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "marketing-agency",
+            "serviceName": "MARKETING AGENCY",
+            "service": "MARKETING AGENCY"
+        }
+    ]
+}

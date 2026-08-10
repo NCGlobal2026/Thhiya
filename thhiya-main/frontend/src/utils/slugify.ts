@@ -1,0 +1,111 @@
+export const SLUG_MAPPING: Record<string, string> = {
+  // Canonical and common variants
+  'eor-peo-services': 'eor-peo-aor',
+  'eor-peo-aor-services': 'eor-peo-aor',
+  'eor-peo-aor': 'eor-peo-aor',
+  'eor-peo': 'eor-peo-aor',
+  'eor': 'eor-peo-aor',
+  'peo': 'eor-peo-aor',
+  'employer-of-record': 'eor-peo-aor',
+  'eor-peo-services-in-dubai-uae': 'eor-peo-aor',
+
+  'global-payroll': 'global-payroll',
+  'payroll': 'global-payroll',
+  'payroll-calculator': 'global-payroll',
+
+  'incorporation-registration-entity-setup': 'incorporation-entity-setup',
+  'incorporation-entity-setup': 'incorporation-entity-setup',
+  'incorporation-and-entity-setup': 'incorporation-entity-setup',
+  'incorporation': 'incorporation-entity-setup',
+
+  'staffing-talent-acquisition': 'staffing-recruiting',
+  'staffing-and-talent-acquisition': 'staffing-recruiting',
+  'staffing-and-recruiting': 'staffing-recruiting',
+  'staffing-recruiting': 'staffing-recruiting',
+  'staffing': 'staffing-recruiting',
+  'talent-acquisition': 'staffing-recruiting',
+
+  'hris': 'hris-hrms-ats',
+  'hris-hrsm-ats': 'hris-hrms-ats',
+  'hris-hrms-ats': 'hris-hrms-ats',
+  'hris-human-resources-information-system': 'hris-hrms-ats',
+
+  'accounting-services': 'accounting-compliances',
+  'accounting': 'accounting-compliances',
+  'accounting-compliances': 'accounting-compliances',
+  'compliance-services': 'accounting-compliances',
+  'compliance': 'accounting-compliances',
+  'finance': 'accounting-compliances',
+  'finance-tax-accounting': 'accounting-compliances', // fallback mapping for old data
+
+  'tax-services': 'taxation',
+  'taxation': 'taxation',
+  'tax': 'taxation',
+
+  'bank-account-opening': 'accounting-compliances',
+  'bank-account': 'accounting-compliances',
+  'global-payments': 'accounting-compliances',
+  'payments': 'accounting-compliances',
+  'global-payments-services': 'accounting-compliances',
+
+  'mergers-acquisitions': 'msa',
+  'mergers-and-acquisitions': 'msa',
+  'm-a-services': 'msa',
+  'm-a': 'msa',
+  'msa': 'msa',
+  'market-entry-advice': 'msa',
+  'market-entry-advice-mca': 'msa',
+  'mca': 'msa',
+
+  'software-solutions': 'software-technology-solutions',
+  'software-technology-solutions': 'software-technology-solutions',
+  'software': 'software-technology-solutions',
+
+  'msp-services': 'marketing-agency',
+  'msp-managed-service-provider': 'marketing-agency',
+  'marketing-agencies': 'marketing-agency',
+  'marketing-agency': 'marketing-agency',
+  'msp': 'marketing-agency',
+
+  'visa-immigration': 'immigration-visa',
+  'immigration-support': 'immigration-visa',
+  'immigration-and-visa': 'immigration-visa',
+  'visa': 'immigration-visa',
+  'immigration': 'immigration-visa',
+  'immigration-visa': 'immigration-visa',
+
+  'benefits': 'human-resource-benefits',
+  'benefits-administration': 'human-resource-benefits',
+  'human-resource-benefits': 'human-resource-benefits',
+  'human-resource-and-benefits': 'human-resource-benefits',
+  'human-resources': 'human-resource-benefits',
+  'hr': 'human-resource-benefits',
+
+  'contractor-management': 'contractor-management',
+  'contractor-management-services': 'contractor-management',
+
+  'employee-equipment-management': 'it-provisioning',
+  'equipment-management': 'it-provisioning',
+  'equipment': 'it-provisioning',
+  'it-provisioning': 'it-provisioning'
+};
+
+export const slugify = (value: string | null | undefined): string => {
+  if (!value) return '';
+
+  const baseSlug = String(value)
+    .toLowerCase()
+    .trim()
+    .replace(/\s+services?$/i, '') // drop trailing "services" / "service"
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+
+  // Check specific mapping
+  if (SLUG_MAPPING[baseSlug]) {
+    return SLUG_MAPPING[baseSlug];
+  }
+
+  return baseSlug;
+};
+
+export default slugify;

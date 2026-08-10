@@ -1,0 +1,38 @@
+{
+  "name": "backend",
+  "scripts": {
+    "dev": "bun --hot src/server.ts",
+    "test": "bun test",
+    "seed": "bun src/scripts/seed.ts",
+    "seed:prepare": "bun src/scripts/prepare_brazil_seed.ts",
+    "db:migrate:providers": "bun src/scripts/migrateProviders.ts",
+    "db:seed:scores": "bun src/scripts/seedProviderScores.ts",
+    "db:seed:scores:prod": "NODE_ENV=production bun src/scripts/seedProviderScores.ts",
+    "seed:prod": "NODE_ENV=production bun src/scripts/seed.ts",
+    "start": "bun src/server.ts",
+    "start:prod": "node dist/server.js",
+    "build": "bun build --compile src/server.ts --outfile .thhiyabackend",
+    "distBuild": "bun build src/server.ts --outdir dist --target node",
+    "dist": "bun dist/server.js",
+    "typecheck": "bun x tsc --noEmit"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@hono/node-server": "^1.19.7",
+    "@scalar/hono-api-reference": "^0.10.5",
+    "dotenv": "^17.2.3",
+    "hono": "^4.11.4",
+    "mongoose": "^9.0.2",
+    "node-cron": "^4.2.1",
+    "prom-client": "^15.1.3",
+    "puppeteer": "^24.36.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "zod": "^4.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "@types/node-cron": "^3.0.11",
+    "bun-types": "^1.3.5"
+  }
+}

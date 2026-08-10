@@ -1,0 +1,506 @@
+{
+    "name": "Myanmar",
+    "code": "MM",
+    "slug": "myanmar",
+    "flag": "https://flagcdn.com/w160/mm.png",
+    "region": "Asia",
+    "languages": [
+        "Burmese"
+    ],
+    "currencies": [
+        "MMK"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Myanmar",
+                "subtitle": "Hire in Yangon",
+                "description": "Compliant employment in SE Asia. We handle SSB contributions.",
+                "bestFor": "Manufacturing & Dev",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "mm-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Standard Employment Contract (SEC) registered with Township Labour Office."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "SSB",
+                                "description": "Register with Social Security Board."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax",
+                                "description": "Register for Personal Income Tax (PIT)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mm-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Security (SSB)",
+                                    "values": [
+                                        "3%",
+                                        "2%",
+                                        "Capped at salary of 300,000 MMK (Max Emp contrib ~9,000 MMK)."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Severance",
+                                    "values": [
+                                        "Variable",
+                                        "0%",
+                                        "Accrued liability based on tenure."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "mm-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Independence Day",
+                                "description": "January 4"
+                            },
+                            {
+                                "title": "Union Day",
+                                "description": "February 12"
+                            },
+                            {
+                                "title": "Peasants' Day",
+                                "description": "March 2"
+                            },
+                            {
+                                "title": "Full Moon of Tabaung",
+                                "description": "March (Variable)"
+                            },
+                            {
+                                "title": "Armed Forces Day",
+                                "description": "March 27"
+                            },
+                            {
+                                "title": "Maha Thingyan (Water Festival)",
+                                "description": "April 13-16"
+                            },
+                            {
+                                "title": "Myanmar New Year",
+                                "description": "April 17"
+                            },
+                            {
+                                "title": "Labour Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Martyrs' Day",
+                                "description": "July 19"
+                            },
+                            {
+                                "title": "Thadingyut (Lighting Festival)",
+                                "description": "October (Variable)"
+                            },
+                            {
+                                "title": "National Day",
+                                "description": "November (Variable)"
+                            },
+                            {
+                                "title": "Christmas Day",
+                                "description": "December 25"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mm-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Annual Income (MMK)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Up to 4.8M",
+                                    "values": [
+                                        "0%",
+                                        "Exempt."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Standard Bands",
+                                    "values": [
+                                        "5% - 25%",
+                                        "Progressive rates."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Non-Residents",
+                                    "values": [
+                                        "25%",
+                                        "Flat Rate (Unless salary earned abroad by citizens - special rules)."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "mm-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Base Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "SSB",
+                                "description": "Deduct 2% (capped at 6k MMK)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Allowances",
+                                "description": "Deduct Reliefs (e.g. 20% basic allowance, parents, spouse, kids)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Tax",
+                                "description": "Apply 0-25% tax table."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Net",
+                                "description": "Gross - SSB - Tax."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Myanmar",
+                "subtitle": "Private Company",
+                "description": "Limited by Shares.",
+                "bestFor": "FDI",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "mm-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "MyCO",
+                                "description": "Register online via Myanmar Companies Online."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "DICA",
+                                "description": "Investment approval from Directorate of Investment and Company Administration."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Bank Account",
+                                "description": "Open corporate account."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mm-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "KBZ Bank",
+                                "description": "Kanbawza Bank (Largest private bank)."
+                            },
+                            {
+                                "title": "CB Bank",
+                                "description": "Co-operative Bank."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Myanmar",
+                "subtitle": "Garment & Tech",
+                "description": "Cost-effective.",
+                "bestFor": "Manufacturing",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "mm-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Yangon",
+                                "text": "Commercial hub with largest talent pool."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Myanmar",
+                "subtitle": "Paper/Excel",
+                "description": "Manual dominant.",
+                "bestFor": "Records",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "mm-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Form 15/16",
+                                "description": "Employment forms often still physical."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Myanmar",
+                "subtitle": "MFRS",
+                "description": "Myanmar Reporting Standards.",
+                "bestFor": "Compliance",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "mm-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "MFRS",
+                                "text": "Based on IFRS."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mm-comp-labor",
+                    "type": "warning",
+                    "title": "Contracts",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Registration",
+                                "description": "Employment contracts must be registered with the Township Labour Office."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mm-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax",
+                                    "values": [
+                                        "22%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Capital Gains",
+                                    "values": [
+                                        "10%",
+                                        "For resident companies."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Commercial Tax",
+                                    "values": [
+                                        "5%",
+                                        "Similar to VAT."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Myanmar",
+                "subtitle": "Common Law",
+                "description": "British heritage.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "mm-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Updates",
+                                "text": "Legal landscape changes frequently; local counsel essential."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Myanmar",
+                "subtitle": "KBZPay",
+                "description": "Dominant wallet.",
+                "bestFor": "Payments",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "mm-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "KBZPay",
+                                "description": "Ubiquitous mobile wallet."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Myanmar",
+                "subtitle": "Facebook",
+                "description": "Primary internet.",
+                "bestFor": "Reach",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "mm-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Facebook/Viber",
+                                "text": "Main platforms for engagement."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

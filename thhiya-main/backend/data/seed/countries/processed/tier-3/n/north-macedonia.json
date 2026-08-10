@@ -1,0 +1,513 @@
+{
+    "name": "North Macedonia",
+    "code": "MK",
+    "slug": "north-macedonia",
+    "flag": "https://flagcdn.com/w160/mk.png",
+    "region": "Europe",
+    "languages": [
+        "Macedonian"
+    ],
+    "currencies": [
+        "MKD"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Macedonia",
+                "subtitle": "Hire in Skopje",
+                "description": "Compliant employment in the Balkans. We handle social contributions.",
+                "bestFor": "Tech & Support",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "mk-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Employment contract in Macedonian."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "ESA",
+                                "description": "Register with Employment Service Agency (AVRM)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Insurance",
+                                "description": "Automatic enrollment in Pension and Health Fund."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mk-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Contributions",
+                                    "values": [
+                                        "0%",
+                                        "28%",
+                                        "Gross Salary system. Contributions withheld from employee salary but remitted by employer."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Pension",
+                                    "values": [
+                                        "-",
+                                        "18.8%",
+                                        "Included in Gross"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Health",
+                                    "values": [
+                                        "-",
+                                        "7.5%",
+                                        "Included in Gross"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Employment",
+                                    "values": [
+                                        "-",
+                                        "1.2%",
+                                        "Included in Gross"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Add. Health",
+                                    "values": [
+                                        "-",
+                                        "0.5%",
+                                        "Included in Gross"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "mk-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Orthodox Christmas",
+                                "description": "January 7"
+                            },
+                            {
+                                "title": "Ramadan Bajram (Eid)",
+                                "description": "March 30"
+                            },
+                            {
+                                "title": "Orthodox Easter Monday",
+                                "description": "April 21"
+                            },
+                            {
+                                "title": "Labour Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "St. Cyril and Methodius",
+                                "description": "May 24"
+                            },
+                            {
+                                "title": "Republic Day",
+                                "description": "August 2"
+                            },
+                            {
+                                "title": "Independence Day",
+                                "description": "September 8"
+                            },
+                            {
+                                "title": "People's Uprising Day",
+                                "description": "October 11"
+                            },
+                            {
+                                "title": "Revolutionary Struggle",
+                                "description": "October 23"
+                            },
+                            {
+                                "title": "St. Clement of Ohrid",
+                                "description": "December 8"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mk-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Taxable Income",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Personal Income Tax",
+                                    "values": [
+                                        "10%",
+                                        "Flat rate on Net Income (Gross - Contributions - Personal Allowance)."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Personal Allowance",
+                                    "values": [
+                                        "MKD 9,540",
+                                        "Monthly tax-free allowance."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "mk-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Agreed Gross Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Social Contributions",
+                                "description": "Deduct ~28% (Pension, Health, Emp)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax Base",
+                                "description": "Gross - Contributions - Personal Relief."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "PIT",
+                                "description": "Apply 10% Flat Tax."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Net",
+                                "description": "Gross - Contributions - PIT."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Macedonia",
+                "subtitle": "DOOEL",
+                "description": "Limited Liability Company.",
+                "bestFor": "Nearshoring",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "mk-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "CRRM",
+                                "description": "Register with Central Registry of Republic of North Macedonia."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Bank",
+                                "description": "Deposit minimum capital (EUR 5,000 for DOO)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Activation",
+                                "description": "Activate bank account and register employees."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mk-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Komercijalna Banka",
+                                "description": "Leading bank."
+                            },
+                            {
+                                "title": "NLB Banka",
+                                "description": "Part of NLB Group."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Macedonia",
+                "subtitle": "Skopje",
+                "description": "Strong English skills.",
+                "bestFor": "BPO",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "mk-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Skopje",
+                                "text": "Capital with many universities and tech companies."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Macedonia",
+                "subtitle": "MPIN",
+                "description": "Integrated collection.",
+                "bestFor": "Compliance",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "mk-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "MPIN",
+                                "description": "Monthly calculation of integrated payment of contributions and taxes."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Macedonia",
+                "subtitle": "IFRS",
+                "description": "Aligned with EU.",
+                "bestFor": "Compliance",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "mk-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "IFRS",
+                                "text": "Mandatory for large entities."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mk-comp-labor",
+                    "type": "warning",
+                    "title": "M-Forms",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Registration",
+                                "description": "Employee must be registered (M1/M2 forms) one day before starting work."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mk-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax",
+                                    "values": [
+                                        "10%",
+                                        "Flat rate."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "VAT",
+                                    "values": [
+                                        "18%"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Macedonia",
+                "subtitle": "Civil Law",
+                "description": "Continental.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "mk-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "Contracts must be in Macedonian."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Macedonia",
+                "subtitle": "Payten",
+                "description": "Digital pay.",
+                "bestFor": "Payments",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "mk-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "e-Banking",
+                                "description": "Standard bank apps."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Macedonia",
+                "subtitle": "Digital",
+                "description": "Savvy market.",
+                "bestFor": "Tech",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "mk-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Social",
+                                "text": "Facebook and Instagram dominant."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

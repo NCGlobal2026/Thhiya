@@ -1,0 +1,483 @@
+{
+    "name": "Oman",
+    "code": "OM",
+    "slug": "oman",
+    "flag": "https://flagcdn.com/w160/om.png",
+    "region": "Asia",
+    "languages": [
+        "Arabic"
+    ],
+    "currencies": [
+        "OMR"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Oman",
+                "subtitle": "Hire in Muscat",
+                "description": "Compliant employment in the Sultanate. We handle PASI.",
+                "bestFor": "Oil & Gas",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "om-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Register contract with Ministry of Labour."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Visa",
+                                "description": "Obtain employment visa for expats."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "PASI",
+                                "description": "Register Omani nationals with Public Authority for Social Insurance."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "om-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Security (Omanis)",
+                                    "values": [
+                                        "12.5%",
+                                        "8%",
+                                        "11% Pension + 1% Injury + 0.5% Job Security."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Security (Expats)",
+                                    "values": [
+                                        "0%",
+                                        "0%",
+                                        "Generally 0% (EOS Gratuity applies)."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Vocational Training",
+                                    "values": [
+                                        "OMR 200-300",
+                                        "0%",
+                                        "Visa fees include training levy."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "om-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Isra'a Wal Miraj",
+                                "description": "January 27 (Estimated)"
+                            },
+                            {
+                                "title": "Eid Al Fitr",
+                                "description": "March 30 - April 2 (Estimated)"
+                            },
+                            {
+                                "title": "Eid Al Adha",
+                                "description": "June 6-9 (Estimated)"
+                            },
+                            {
+                                "title": "Islamic New Year",
+                                "description": "June 26 (Estimated)"
+                            },
+                            {
+                                "title": "Prophet's Birthday",
+                                "description": "September 5 (Estimated)"
+                            },
+                            {
+                                "title": "National Day",
+                                "description": "November 18-19"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "om-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Personal Income Tax",
+                                    "values": [
+                                        "0%",
+                                        "No personal income tax."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "WPS",
+                                    "values": [
+                                        "Mandatory",
+                                        "Wage Protection System compliance required."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "om-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Total Allowances (Basic + Housing + Transport)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "PASI (Omanis)",
+                                "description": "Deduct 8% (capped)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax",
+                                "description": "0% Income Tax."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Net",
+                                "description": "Gross - PASI."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Oman",
+                "subtitle": "LLC",
+                "description": "Limited Liability Company.",
+                "bestFor": "Regional HQ",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "om-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "MOCI",
+                                "description": "Register with Ministry of Commerce and Industry (Invest Easy)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Chamber",
+                                "description": "Register with Oman Chamber of Commerce."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Municipality",
+                                "description": "Obtain Municipality License (Baladiya)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "om-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Bank Muscat",
+                                "description": "Leading financial institution."
+                            },
+                            {
+                                "title": "National Bank of Oman",
+                                "description": "Major local bank."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Oman",
+                "subtitle": "Muscat",
+                "description": "Local & Expat mix.",
+                "bestFor": "Infrastructure",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "om-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Muscat",
+                                "text": "Capital and business center."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Oman",
+                "subtitle": "WPS",
+                "description": "Bank integration.",
+                "bestFor": "Compliance",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "om-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "WPS",
+                                "description": "Wage Protection System file generation needed."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Oman",
+                "subtitle": "IFRS",
+                "description": "Standard.",
+                "bestFor": "Compliance",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "om-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "IFRS",
+                                "text": "Adopted for all companies."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "om-comp-labor",
+                    "type": "warning",
+                    "title": "Omanisation",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Quotas",
+                                "description": "Strict requirements to hire Omani nationals in certain roles and ratios."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "om-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax",
+                                    "values": [
+                                        "15%",
+                                        "Standard rate."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Small Business",
+                                    "values": [
+                                        "3%",
+                                        "For SMEs (conditions apply)."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "VAT",
+                                    "values": [
+                                        "5%",
+                                        "Implemented recently."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Oman",
+                "subtitle": "Civil Law",
+                "description": "Sharia influence.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "om-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "Arabic is official. Bilingual contracts common."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Oman",
+                "subtitle": "Thawani",
+                "description": "e-Payments.",
+                "bestFor": "Transactions",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "om-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Thawani",
+                                "description": "Popular payment gateway."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Oman",
+                "subtitle": "Instagram",
+                "description": "Visual focus.",
+                "bestFor": "Lifestyle",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "om-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Instagram/WhatsApp",
+                                "text": "Primary channels for business communication."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

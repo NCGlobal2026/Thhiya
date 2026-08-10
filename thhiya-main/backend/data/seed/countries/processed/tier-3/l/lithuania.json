@@ -1,0 +1,528 @@
+{
+    "name": "Lithuania",
+    "code": "LT",
+    "slug": "lithuania",
+    "flag": "https://flagcdn.com/w160/lt.png",
+    "region": "Europe",
+    "languages": [
+        "Lithuanian"
+    ],
+    "currencies": [
+        "EUR"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Lithuania",
+                "subtitle": "Hire in Vilnius",
+                "description": "Compliant employment in the Baltics. We handle Sodra contributions.",
+                "bestFor": "Fintech & IT",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "lt-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Employment contract in Lithuanian/English."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Sodra Notification",
+                                "description": "Notify Sodra (Social Security) at least 1 working day before start."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Health Check",
+                                "description": "Mandatory medical examination."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "lt-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Security (Sodra)",
+                                    "values": [
+                                        "1.77%",
+                                        "19.5%",
+                                        "Employer contributes mainly to unemployment/accident. Employee pays main pension/health."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Term Contract Tax",
+                                    "values": [
+                                        "+0.72%",
+                                        "0%",
+                                        "Extra unemployment tax for fixed-term contracts."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "lt-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Restoration of the State",
+                                "description": "February 16"
+                            },
+                            {
+                                "title": "Restoration of Independence",
+                                "description": "March 11"
+                            },
+                            {
+                                "title": "Easter Sunday",
+                                "description": "April 20"
+                            },
+                            {
+                                "title": "Easter Monday",
+                                "description": "April 21"
+                            },
+                            {
+                                "title": "Labor Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Mother's Day",
+                                "description": "May 4"
+                            },
+                            {
+                                "title": "Father's Day",
+                                "description": "June 1"
+                            },
+                            {
+                                "title": "St. John's Day",
+                                "description": "June 24"
+                            },
+                            {
+                                "title": "Statehood Day",
+                                "description": "July 6"
+                            },
+                            {
+                                "title": "Assumption Day",
+                                "description": "August 15"
+                            },
+                            {
+                                "title": "All Saints' Day",
+                                "description": "November 1"
+                            },
+                            {
+                                "title": "All Souls' Day",
+                                "description": "November 2"
+                            },
+                            {
+                                "title": "Christmas Eve",
+                                "description": "December 24"
+                            },
+                            {
+                                "title": "Christmas Day",
+                                "description": "December 25"
+                            },
+                            {
+                                "title": "Second Day of Christmas",
+                                "description": "December 26"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "lt-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax (PIT)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Annual Income (EUR)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Up to ~114,162",
+                                    "values": [
+                                        "20%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Above ~114,162",
+                                    "values": [
+                                        "32%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "NPD (Tax Free)",
+                                    "values": [
+                                        "Variable",
+                                        "Tax-exempt amount decreases as income rises."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "lt-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Base Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Tax-Free Amount (NPD)",
+                                "description": "Calculate applicable NPD."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Sodra (Employee)",
+                                "description": "Deduct 19.5% (+3% pension)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Income Tax",
+                                "description": "Apply 20% to (Gross - NPD - Sodra) base? No, PIT is on Gross - NPD."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Net",
+                                "description": "Gross - Sodra - PIT."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Lithuania",
+                "subtitle": "UAB",
+                "description": "Private Limited Liability Company.",
+                "bestFor": "EU Access",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "lt-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Name Reservation",
+                                "description": "Reserve temporary name."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Share Capital",
+                                "description": "Minimum 2,500 EUR deposit."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Register",
+                                "description": "Submit to Centre of Registers in person or online (e-signature)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "lt-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Swedbank",
+                                "description": "Market leader."
+                            },
+                            {
+                                "title": "SEB",
+                                "description": "Major Nordic bank."
+                            },
+                            {
+                                "title": "Revolut Bank",
+                                "description": "Licensed bank HQ in Lithuania."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Lithuania",
+                "subtitle": "Tech Talent",
+                "description": "Highly skilled developers.",
+                "bestFor": "Software",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "lt-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Vilnius",
+                                "text": "Capital and main tech hub."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Kaunas",
+                                "text": "University city with strong engineering talent."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Lithuania",
+                "subtitle": "Sodra Sync",
+                "description": "Automated reporting.",
+                "bestFor": "Compliance",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "lt-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Sodra (SAM) Reports",
+                                "description": "Monthly notifications of income and contributions."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Lithuania",
+                "subtitle": "BFAS",
+                "description": "Business Accounting Standards.",
+                "bestFor": "Reporting",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "lt-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "National Standards",
+                                "text": "Based on EU directives. IFRS used by listed companies."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "lt-comp-labor",
+                    "type": "warning",
+                    "title": "Probation",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Period",
+                                "description": "Max 3 months."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "lt-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax",
+                                    "values": [
+                                        "15%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Small Companies",
+                                    "values": [
+                                        "0% / 5%",
+                                        "Reduced rates depending on employees/revenue."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "VAT",
+                                    "values": [
+                                        "21%"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Lithuania",
+                "subtitle": "Civil Law",
+                "description": "EU Harmonized.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "lt-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "Contracts must be in Lithuanian. Bilingual formats common."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Lithuania",
+                "subtitle": "Smart-ID",
+                "description": "Digital Identity.",
+                "bestFor": "Auth",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "lt-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Smart-ID",
+                                "description": "Widely used for banking and government service authentication."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Lithuania",
+                "subtitle": "Digital",
+                "description": "Tech savvy audience.",
+                "bestFor": "Conversion",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "lt-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Facebook / Instagram",
+                                "text": "Main social channels."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

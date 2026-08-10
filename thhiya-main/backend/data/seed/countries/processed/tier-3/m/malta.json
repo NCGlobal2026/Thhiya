@@ -1,0 +1,534 @@
+{
+    "name": "Malta",
+    "code": "MT",
+    "slug": "malta",
+    "flag": "https://flagcdn.com/w160/mt.png",
+    "region": "Europe",
+    "languages": [
+        "Maltese",
+        "English"
+    ],
+    "currencies": [
+        "EUR"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Malta",
+                "subtitle": "Hire in Valletta",
+                "description": "Compliant employment in the Mediterranean. We handle Class 1 contributions.",
+                "bestFor": "iGaming & Finance",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "mt-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Written statement of conditions required within 7 days."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "JobsPlus",
+                                "description": "Register engagement with JobsPlus ('Engagement Form')."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Social Security",
+                                "description": "Ensure employee has Social Security Number."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mt-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Security (Class 1)",
+                                    "values": [
+                                        "10%",
+                                        "10%",
+                                        "Of basic weekly wage. Capped (e.g. ~€53/week max)."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Maternity Fund",
+                                    "values": [
+                                        "0.3%",
+                                        "0%",
+                                        "Contribution to Maternity Leave Trust Fund."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "mt-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Feast of St. Paul's Shipwreck",
+                                "description": "February 10"
+                            },
+                            {
+                                "title": "Feast of St. Joseph",
+                                "description": "March 19"
+                            },
+                            {
+                                "title": "Freedom Day",
+                                "description": "March 31"
+                            },
+                            {
+                                "title": "Good Friday",
+                                "description": "April 18"
+                            },
+                            {
+                                "title": "Labour Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Sette Giugno",
+                                "description": "June 7"
+                            },
+                            {
+                                "title": "Feast of St. Peter and St. Paul",
+                                "description": "June 29"
+                            },
+                            {
+                                "title": "The Assumption",
+                                "description": "August 15"
+                            },
+                            {
+                                "title": "Victory Day",
+                                "description": "September 8"
+                            },
+                            {
+                                "title": "Independence Day",
+                                "description": "September 21"
+                            },
+                            {
+                                "title": "Immaculate Conception",
+                                "description": "December 8"
+                            },
+                            {
+                                "title": "Republic Day",
+                                "description": "December 13"
+                            },
+                            {
+                                "title": "Christmas Day",
+                                "description": "December 25"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mt-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax (FSS)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Chargeable Income (EUR)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Up to ~9,100 (Single)",
+                                    "values": [
+                                        "0%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Progressive Bands",
+                                    "values": [
+                                        "15% - 25%",
+                                        "Multiple brackets."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Above ~60,000",
+                                    "values": [
+                                        "35%",
+                                        "Top marginal rate."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Basis",
+                                    "values": [
+                                        "FSS",
+                                        "Final Settlement System."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "mt-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Base Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Social Security",
+                                "description": "Deduct 10% (capped at weekly max)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax Base",
+                                "description": "Gross - Social Security."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Income Tax",
+                                "description": "Apply Single/Married/Parent rates (FSS)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Net",
+                                "description": "Gross - SS - Tax."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Malta",
+                "subtitle": "Ltd Company",
+                "description": "MBR Registration.",
+                "bestFor": "Holding & Trading",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "mt-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Name Reservation",
+                                "description": "Reserve with Malta Business Registry (MBR)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Deposit Capital",
+                                "description": "Min ~1,165 EUR (20% paid up)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Register",
+                                "description": "Submit Memorandum and Articles of Association to MBR."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mt-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Bank of Valletta (BOV)",
+                                "description": "Largest local bank."
+                            },
+                            {
+                                "title": "HSBC Malta",
+                                "description": "Major international presence."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Malta",
+                "subtitle": "iGaming Hub",
+                "description": "International workforce.",
+                "bestFor": "Tech & Betting",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "mt-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Sliema / St. Julian's",
+                                "text": "Hub for iGaming and Tech companies."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Malta",
+                "subtitle": "FSS Compatible",
+                "description": "Tax compliant.",
+                "bestFor": "Reporting",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "mt-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "FS3",
+                                "description": "Annual payee statement."
+                            },
+                            {
+                                "title": "FS5",
+                                "description": "Monthly payroll remittance form."
+                            },
+                            {
+                                "title": "FS7",
+                                "description": "Annual tax return."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Malta",
+                "subtitle": "GAPSME",
+                "description": "Local GAAP / IFRS.",
+                "bestFor": "Compliance",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "mt-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "IFRS",
+                                "text": "Adopted for all companies, but GAPSME (General Accounting Principles for SMEs) usually applied for smaller entities."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mt-comp-labor",
+                    "type": "warning",
+                    "title": "Probation",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Standard",
+                                "description": "6 months standard, up to 1 year for high earners."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mt-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax",
+                                    "values": [
+                                        "35%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Effective Refund Rate",
+                                    "values": [
+                                        "5%",
+                                        "Shareholders may claim 6/7ths refund of tax paid."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "VAT",
+                                    "values": [
+                                        "18%"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Malta",
+                "subtitle": "Mixed System",
+                "description": "Civil Law based.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "mt-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "English and Maltese are official. Contracts usually English."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Malta",
+                "subtitle": "Revolut",
+                "description": "Digital banking popular.",
+                "bestFor": "Finance",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "mt-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Revolut",
+                                "description": "Very high penetration in Malta."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Malta",
+                "subtitle": "SEO/Affiliate",
+                "description": "Strong iGaming marketing.",
+                "bestFor": "Digital",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "mt-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Facebook",
+                                "text": "Primary social platform."
+                            },
+                            {
+                                "type": "info",
+                                "title": "LinkedIn",
+                                "text": "Strong for B2B and recruitment."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

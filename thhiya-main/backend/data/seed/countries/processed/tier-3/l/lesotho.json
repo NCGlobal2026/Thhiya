@@ -1,0 +1,501 @@
+{
+    "name": "Lesotho",
+    "code": "LS",
+    "slug": "lesotho",
+    "flag": "https://flagcdn.com/w160/ls.png",
+    "region": "Africa",
+    "languages": [
+        "Sesotho",
+        "English"
+    ],
+    "currencies": [
+        "LSL"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Lesotho",
+                "subtitle": "Hire in Maseru",
+                "description": "Compliant employment in the Mountain Kingdom. We handle tax filings.",
+                "bestFor": "Mining & Textiles",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "ls-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Written employment contract required."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Tax Registration",
+                                "description": "Register employee with Revenue Services Lesotho (RSL)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Work Permit",
+                                "description": "Required for non-citizens."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ls-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Security",
+                                    "values": [
+                                        "0%",
+                                        "0%",
+                                        "No mandatory national social security contributions currently."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Workmen’s Compensation",
+                                    "values": [
+                                        "Insurance",
+                                        "0%",
+                                        "Employer must insure against injury."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ls-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Moshoeshoe's Day",
+                                "description": "March 11"
+                            },
+                            {
+                                "title": "Good Friday",
+                                "description": "April 18"
+                            },
+                            {
+                                "title": "Easter Monday",
+                                "description": "April 21"
+                            },
+                            {
+                                "title": "Workers' Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Ascension Day",
+                                "description": "May 29"
+                            },
+                            {
+                                "title": "Africa Day",
+                                "description": "May 25"
+                            },
+                            {
+                                "title": "King's Birthday",
+                                "description": "July 17"
+                            },
+                            {
+                                "title": "Independence Day",
+                                "description": "October 4"
+                            },
+                            {
+                                "title": "Christmas Day",
+                                "description": "December 25"
+                            },
+                            {
+                                "title": "Boxing Day",
+                                "description": "December 26"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ls-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax Brackets (Annual LSL)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Income (LSL)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Up to 70,500",
+                                    "values": [
+                                        "20%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Above 70,500",
+                                    "values": [
+                                        "30%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Tax Credit",
+                                    "values": [
+                                        "M 11,040",
+                                        "Non-refundable annual tax credit."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ls-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Base Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Tax Base",
+                                "description": "Gross Amount (no SS deduction)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Income Tax",
+                                "description": "Apply 20%/30% brackets."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Tax Credit",
+                                "description": "Subtract tax credit (M 920/mo)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Net",
+                                "description": "Gross - Final Tax."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Lesotho",
+                "subtitle": "Pty Ltd",
+                "description": "Registering a Private Company.",
+                "bestFor": "Market Entry",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "ls-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Name Reservation",
+                                "description": "Reserve company name."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Registration",
+                                "description": "Register with One Stop Business Facilitation Centre (OBFC)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax Registration",
+                                "description": "Obtain TIN."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ls-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Standard Lesotho Bank",
+                                "description": "Largest bank."
+                            },
+                            {
+                                "title": "Nedbank Lesotho",
+                                "description": "Major commercial bank."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Lesotho",
+                "subtitle": "Textile focus",
+                "description": "Labor intensive industries.",
+                "bestFor": "Manufacturing",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "ls-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Maseru",
+                                "text": "Capital and industrial center."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Lesotho",
+                "subtitle": "Basic",
+                "description": "Manual systems common.",
+                "bestFor": "Records",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "ls-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "PAYE Records",
+                                "description": "Maintain accurate PAYE deduction records."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Lesotho",
+                "subtitle": "IFRS",
+                "description": "Adopted standards.",
+                "bestFor": "Compliance",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "ls-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "IFRS",
+                                "text": "Generally adopted for financial reporting."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ls-comp-labor",
+                    "type": "warning",
+                    "title": "Severance",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Mandatory",
+                                "description": "Statutory severance pay required after 1 year of service."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ls-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax",
+                                    "values": [
+                                        "25%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Manufacturing",
+                                    "values": [
+                                        "10%",
+                                        "Reduced rate for manufacturing income."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "VAT",
+                                    "values": [
+                                        "15%",
+                                        "Standard rate."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Lesotho",
+                "subtitle": "Mixed Law",
+                "description": "Roman-Dutch & Customary.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "ls-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "English and Sesotho are officials. Contracts usually in English."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Lesotho",
+                "subtitle": "M-Pesa",
+                "description": "Mobile money.",
+                "bestFor": "Payments",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "ls-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Vodacom M-Pesa",
+                                "description": "Dominant payment method for individuals."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Lesotho",
+                "subtitle": "Radio",
+                "description": "Strong reach.",
+                "bestFor": "Awareness",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "ls-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Radio",
+                                "text": "Highly effective for mass market reach."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

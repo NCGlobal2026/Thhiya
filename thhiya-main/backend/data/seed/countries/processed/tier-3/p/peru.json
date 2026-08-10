@@ -1,0 +1,538 @@
+{
+    "name": "Peru",
+    "code": "PE",
+    "slug": "peru",
+    "flag": "https://flagcdn.com/w160/pe.png",
+    "region": "Americas",
+    "languages": [
+        "Spanish"
+    ],
+    "currencies": [
+        "PEN"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Peru",
+                "subtitle": "Hire in Lima",
+                "description": "Compliant employment in the Andes. We handle EsSalud & AFP.",
+                "bestFor": "Mining & Tech",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "pe-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Employment contract registered via T-Registro."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "SUNAT",
+                                "description": "Registration with tax authority."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "AFP/ONP",
+                                "description": "Enrollment in Pension System chosen by employee."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "pe-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Health (EsSalud)",
+                                    "values": [
+                                        "9%",
+                                        "0%",
+                                        "Mandatory health insurance."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Pension (AFP/ONP)",
+                                    "values": [
+                                        "0%",
+                                        "~13%",
+                                        "Paid by employee (rate varies by fund)."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "CTS",
+                                    "values": [
+                                        "8.33% +",
+                                        "0%",
+                                        "Compensation for Time of Service (Severance fund)."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Bonuses",
+                                    "values": [
+                                        "16.66%",
+                                        "0%",
+                                        "2 monthly salaries (July & Dec)."
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "pe-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Maundy Thursday",
+                                "description": "April 17"
+                            },
+                            {
+                                "title": "Good Friday",
+                                "description": "April 18"
+                            },
+                            {
+                                "title": "Labor Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "St. Peter and St. Paul",
+                                "description": "June 29"
+                            },
+                            {
+                                "title": "Independence Day",
+                                "description": "July 28"
+                            },
+                            {
+                                "title": "Independence Day Holiday",
+                                "description": "July 29"
+                            },
+                            {
+                                "title": "St. Rose of Lima",
+                                "description": "August 30"
+                            },
+                            {
+                                "title": "Battle of Angamos",
+                                "description": "October 8"
+                            },
+                            {
+                                "title": "All Saints' Day",
+                                "description": "November 1"
+                            },
+                            {
+                                "title": "Immaculate Conception",
+                                "description": "December 8"
+                            },
+                            {
+                                "title": "Christmas Day",
+                                "description": "December 25"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "pe-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax (5th Category)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Annual Income (UIT)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "0 - 5 UIT",
+                                    "values": [
+                                        "8%",
+                                        "After 7 UIT exempt deduction."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "5 - 20 UIT",
+                                    "values": [
+                                        "14%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "20 - 35 UIT",
+                                    "values": [
+                                        "17%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "35 - 45 UIT",
+                                    "values": [
+                                        "20%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Over 45 UIT",
+                                    "values": [
+                                        "30%",
+                                        "Top rate."
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "pe-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Monthly Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Pension",
+                                "description": "Deduct ~13% (ONP) or ~12% (AFP)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax Base",
+                                "description": "Annual Projection - 7 UIT."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Income Tax",
+                                "description": "Apply 8-30% rates."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Net",
+                                "description": "Gross - Pension - Tax."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Peru",
+                "subtitle": "S.A.C.",
+                "description": "Closed Corp.",
+                "bestFor": "SMEs",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "pe-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Deed",
+                                "description": "Public Deed signed before Notary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "SUNARP",
+                                "description": "Registration in Public Registry."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "RUC",
+                                "description": "Obtain Tax ID from SUNAT."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "pe-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "BCP",
+                                "description": "Banco de Crédito del Perú."
+                            },
+                            {
+                                "title": "BBVA Peru",
+                                "description": "Major bank."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Peru",
+                "subtitle": "Lima",
+                "description": "Skilled workforce.",
+                "bestFor": "Services",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "pe-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Lima",
+                                "text": "Economic and political capital."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Peru",
+                "subtitle": "PLAME",
+                "description": "SUNAT filing.",
+                "bestFor": "Compliance",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "pe-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "PLAME",
+                                "description": "Monthly electronic payroll (Planilla Mensual) mandatory."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Peru",
+                "subtitle": "IFRS",
+                "description": "NIIF Official.",
+                "bestFor": "Compliance",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "pe-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "NIIF",
+                                "text": "IFRS (NIIF) are mandatory for listed companies and larger entities."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "pe-comp-labor",
+                    "type": "warning",
+                    "title": "Profit Sharing",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Utilidades",
+                                "description": "Companies with >20 employees must distribute % of pre-tax income to employees."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "pe-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax",
+                                    "values": [
+                                        "29.5%",
+                                        "Standard rate."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Dividends",
+                                    "values": [
+                                        "5%",
+                                        "Withholding tax."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "VAT (IGV)",
+                                    "values": [
+                                        "18%",
+                                        "Includes 2% Municipal Promotion Tax."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Peru",
+                "subtitle": "Civil Law",
+                "description": "Code based.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "pe-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "Spanish is the governing language."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Peru",
+                "subtitle": "Yape",
+                "description": "Payments.",
+                "bestFor": "Transactions",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "pe-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Yape",
+                                "description": "Dominant P2P payment app (BCP)."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Peru",
+                "subtitle": "Digital",
+                "description": "Growing.",
+                "bestFor": "Reach",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "pe-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "TikTok/Insta",
+                                "text": "High usage among youth."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

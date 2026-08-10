@@ -1,0 +1,503 @@
+{
+    "name": "Monaco",
+    "code": "MC",
+    "slug": "monaco",
+    "flag": "https://flagcdn.com/w160/mc.png",
+    "region": "Europe",
+    "languages": [
+        "French"
+    ],
+    "currencies": [
+        "EUR"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Monaco",
+                "subtitle": "Hire in Monte Carlo",
+                "description": "Exclusive employment services. We handle CCSS contributions.",
+                "bestFor": "Luxury & Finance",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "mc-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Work Permit",
+                                "description": "Strict requirement for foreigners. Priority to locals/residents."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "CCSS",
+                                "description": "Register with Caisse de Compensation des Services Sociaux."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "CAR",
+                                "description": "Register with Caisse Autonome des Retraites."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mc-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "CCSS (Sickness/Family)",
+                                    "values": [
+                                        "~13.4%",
+                                        "0%",
+                                        "Employer cost."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "CAR (Pension)",
+                                    "values": [
+                                        "~8.33%",
+                                        "~6.85%",
+                                        "Retirement contributions."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Unemployment",
+                                    "values": [
+                                        "~4.05%",
+                                        "~2.4%",
+                                        "Covered by French Pôle Emploi system usually."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "mc-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Saint Dévote's Day",
+                                "description": "January 27"
+                            },
+                            {
+                                "title": "Easter Monday",
+                                "description": "April 21"
+                            },
+                            {
+                                "title": "Labour Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Ascension Day",
+                                "description": "May 29"
+                            },
+                            {
+                                "title": "Whit Monday",
+                                "description": "June 9"
+                            },
+                            {
+                                "title": "Corpus Christi",
+                                "description": "June 19"
+                            },
+                            {
+                                "title": "Assumption Day",
+                                "description": "August 15"
+                            },
+                            {
+                                "title": "All Saints' Day",
+                                "description": "November 1"
+                            },
+                            {
+                                "title": "National Day",
+                                "description": "November 19"
+                            },
+                            {
+                                "title": "Immaculate Conception",
+                                "description": "December 8"
+                            },
+                            {
+                                "title": "Christmas Day",
+                                "description": "December 25"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mc-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "PIT (Residents)",
+                                    "values": [
+                                        "0%",
+                                        "No personal income tax for residents (except French nationals)."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "French Nationals",
+                                    "values": [
+                                        "French Rates",
+                                        "Taxed in France under 1963 bilateral convention."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "mc-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Base Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Social Security",
+                                "description": "Deduct CAR (~6.85%) + Unemployment (~2.4%)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Income Tax",
+                                "description": "0% (Unless French Resident)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Net",
+                                "description": "Gross - Social Contributions."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Monaco",
+                "subtitle": "SAM / SARL",
+                "description": "Société Anonyme Monégasque.",
+                "bestFor": "Local Presence",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "mc-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Government Authorization",
+                                "description": "Mandatory prior approval for all business activities."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Capital",
+                                "description": "Significant minimum capital (e.g., €150k for SAM)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Registration",
+                                "description": "RCI (Répertoire du Commerce et de l'Industrie)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mc-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "CFM Indosuez",
+                                "description": "Wealth management focus."
+                            },
+                            {
+                                "title": "Barclays Monaco",
+                                "description": "Private banking."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Monaco",
+                "subtitle": "Commuters",
+                "description": "French/Italian works.",
+                "bestFor": "Services",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "mc-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Fontvieille",
+                                "text": "Industrial and business district."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Monaco",
+                "subtitle": "CCSS Link",
+                "description": "Social processing.",
+                "bestFor": "Records",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "mc-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Electronic Declarations",
+                                "description": "To Caisses Sociales de Monaco."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Monaco",
+                "subtitle": "Monegasque GAAP",
+                "description": "Similar to French.",
+                "bestFor": "Compliance",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "mc-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Monegasque Accounting Standards",
+                                "text": "Closely resembles French GAAP."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mc-comp-labor",
+                    "type": "warning",
+                    "title": "Priority",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Hiring Order",
+                                "description": "Locals > Residents > Neighborhood commuters. SEIT approval needed to skip."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mc-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Business Profits Tax (ISB)",
+                                    "values": [
+                                        "25% (dropping progressively)",
+                                        "Applies if >25% turnover is from outside Monaco."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Local Business",
+                                    "values": [
+                                        "0%",
+                                        "If >75% turnover is generated within Monaco."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "VAT",
+                                    "values": [
+                                        "20%",
+                                        "Same as French VAT."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Monaco",
+                "subtitle": "Civil Law",
+                "description": "Napoleonic Code base.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "mc-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "French is the official language."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Monaco",
+                "subtitle": "High Tech",
+                "description": "Modern infra.",
+                "bestFor": "Fintech",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "mc-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Monaco Telecom",
+                                "description": "Key provider, 5G widespread."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Monaco",
+                "subtitle": "Luxury",
+                "description": "Events & Print.",
+                "bestFor": "Ultra HNW",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "mc-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Events",
+                                "text": "Yacht Show, Grand Prix are key marketing moments."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

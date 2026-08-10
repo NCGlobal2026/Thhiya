@@ -1,0 +1,2270 @@
+{
+    "name": "Togo",
+    "code": "TG",
+    "slug": "togo",
+    "flag": "https://flagcdn.com/w160/tg.png",
+    "region": "Africa",
+    "languages": [
+        "French"
+    ],
+    "currencies": [
+        "XOF"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR & PEO Services in Togo",
+                "subtitle": "Wealth of insights on EOR & PEO in Togo",
+                "description": "Hire and manage local talent in Togo without a local entity. Our EOR services handle compliant onboarding, local payroll, and social security (CNSS) contributions.",
+                "bestFor": "Strategic decision makers and HR leaders",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Employee Onboarding Journey",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Contractual Compliance",
+                                "description": "Drafting the employment contract in French, ensuring it adheres to the 2021 Togo Labor Code (CDD/CDI options)."
+                            },
+                            {
+                                "title": "KYC and Document Verification",
+                                "description": "Collection of the National ID, proof of address, and academic certificates. Work permits for expats if needed."
+                            },
+                            {
+                                "title": "Mandatory Health Check-up",
+                                "description": "Conducting a pre-employment medical examination at an approved occupational health center (Médecine du Travail)."
+                            },
+                            {
+                                "title": "CNSS Enrollment",
+                                "description": "Registering the employee with the Caisse Nationale de Sécurité Sociale (CNSS) within 8 business days."
+                            },
+                            {
+                                "title": "Payroll Integration",
+                                "description": "Setting up the employee in the local payroll system with correct IRPP tax mappings."
+                            },
+                            {
+                                "title": "Tools & Resource Provisioning",
+                                "description": "Allocating necessary work equipment and setting up local communication channels."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "eor-burden",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden & Statutory Costs 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Contribution Type",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Old Age Pension (CNSS)",
+                                    "values": [
+                                        "12.5%",
+                                        "4.0%",
+                                        "Primary social protection"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Family Allowances",
+                                    "values": [
+                                        "3.0%",
+                                        "0.0%",
+                                        "Employer only"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Occupational Risk",
+                                    "values": [
+                                        "2.0%",
+                                        "0.0%",
+                                        "Varies by sector"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Universal Health (AMU)",
+                                    "values": [
+                                        "5.0%",
+                                        "5.0%",
+                                        "Mandatory for all"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Training Levy (FNAFPP)",
+                                    "values": [
+                                        "1.0%",
+                                        "0.0%",
+                                        "Vocational training support"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Subtotal Statutory",
+                                    "values": [
+                                        "23.5%",
+                                        "9.0%",
+                                        "On gross salary"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "eor-regulations",
+                    "type": "insights",
+                    "title": "Key Labor Regulation Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Standard Working Hours",
+                                "text": "The statutory work week in Togo is 40 hours. Overtime is capped and requires premium pay (+20% for first 8 hours)."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Termination and Notice",
+                                "text": "Notice periods vary by seniority: 8 days for laborers, up to 3 months for executives. Improper dismissal leads to high court damages."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Annual Leave Entitlement",
+                                "text": "Employees earn 1.5 days of paid leave per month (18 days/year), increasing with tenure (extra 2 days after 15 years)."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Probation Rules",
+                                "text": "Probation is limited to 6 months for managers and 1-3 months for others, renewable once in writing."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Severance Pay",
+                                "text": "Severance is due after 1 year of service for CDI contracts, based on a percentage of monthly salary per year served."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "eor-benefits",
+                    "type": "essentials",
+                    "title": "Mandatory and Customary Benefits",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Maternity Leave",
+                                "description": "14 weeks of partially paid leave (8 weeks post-natal), often supplemented by CNSS payments."
+                            },
+                            {
+                                "title": "Sick Leave",
+                                "description": "Payment for the first few days of certified illness, transitioning to social security coverage."
+                            },
+                            {
+                                "title": "13th Month Bonus",
+                                "description": "Customary in Togo, typically paid in December to coincide with festivities."
+                            },
+                            {
+                                "title": "Transport Allowance",
+                                "description": "Statutory requirement to contribute towards commuting costs, often partially tax-exempt."
+                            },
+                            {
+                                "title": "Medical Insurance",
+                                "description": "While AMU is mandatory, many international firms provide private supplemental top-up plans."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "eor-faq",
+                    "type": "faq",
+                    "title": "EOR in Togo FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I pay in USD?",
+                                "answer": "The contract can be pegged to USD, but actual disbursement must be in XOF to ensure compliant social filings."
+                            },
+                            {
+                                "question": "How long is the onboarding?",
+                                "answer": "Typically 5-10 business days once all documents are received."
+                            },
+                            {
+                                "question": "Are background checks allowed?",
+                                "answer": "Yes, criminal record checks (Casier Judiciaire) are standard for sensitive roles."
+                            },
+                            {
+                                "question": "What is the SMIG?",
+                                "answer": "The minimum wage (Salaire Minimum Interprofessionnel Garanti) is currently XOF 52,500 per month."
+                            },
+                            {
+                                "question": "Can EOR hire expats?",
+                                "answer": "Yes, but requires a work permit and proof that the skills aren't locally available."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "payroll-cycle",
+                    "type": "key_steps",
+                    "title": "Monthly Payroll Processing",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Data Gathering",
+                                "description": "Collecting variables like overtime and bonuses by the 20th of the month."
+                            },
+                            {
+                                "title": "Tax Calculation",
+                                "description": "Applying IRPP progressive rates and calculating social security subtractions."
+                            },
+                            {
+                                "title": "Payslip Generation",
+                                "description": "Issuing the 'Bulletin de Paie' in French with required tax IDs (NIF)."
+                            },
+                            {
+                                "title": "Funding & Payouts",
+                                "description": "Transferring XAF to local employee bank accounts (Ecobank, UTB) by month-end."
+                            },
+                            {
+                                "title": "Statutory Filings",
+                                "description": "Submitting the DISI (Social) and IRPP (Tax) to OTR by the 15th of next month."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "payroll-tax",
+                    "type": "cost_breakdown",
+                    "title": "2025 IRPP Income Tax Brackets",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Monthly Income (XOF)",
+                                "Tax Rate",
+                                "Category"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "0 - 75,000",
+                                    "values": [
+                                        "0%",
+                                        "Exempt"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "75,001 - 150,000",
+                                    "values": [
+                                        "7%",
+                                        "Low Earners"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "150,001 - 600,000",
+                                    "values": [
+                                        "15%",
+                                        "Standard"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "600,001 - 1,500,000",
+                                    "values": [
+                                        "25%",
+                                        "Upper Middle"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Above 1,500,000",
+                                    "values": [
+                                        "30% - 35%",
+                                        "High Earners"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "payroll-deductions",
+                    "type": "deductions",
+                    "title": "Mandatory Payroll Deductions",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate",
+                                "Base"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Old Age (CNSS)",
+                                    "values": [
+                                        "4.0%",
+                                        "Gross Salary"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Health (AMU)",
+                                    "values": [
+                                        "5.0%",
+                                        "Gross Salary"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Local Tax addition",
+                                    "values": [
+                                        "7% of IRPP",
+                                        "Income Tax Amount"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Audiovisual Tax",
+                                    "values": [
+                                        "Fixed",
+                                        "Flat monthly fee per employee"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "payroll-insights",
+                    "type": "insights",
+                    "title": "Payroll Compliance Best Practices",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Late Filing Penalties",
+                                "text": "Failing to pay OTR/CNSS by the 15th results in 5% instant surcharge plus 1% monthly interest."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Tax Free Allowances",
+                                "text": "Transport and housing allowances have specific non-taxable thresholds defined by the General Tax Code."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Electronic Portals",
+                                "text": "The OTR requires digital filing for most enterprises via 'SYDONIA' or equivalent platforms."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Record Keeping",
+                                "text": "Payroll records must be archived for at least 10 years for potential audit purposes."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "CNSS Caps",
+                                "text": "The CNSS contribution is capped at a monthly ceiling (currently XOF 400,000 for some components)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "payroll-faq",
+                    "type": "faq",
+                    "title": "Payroll FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "How often is payroll?",
+                                "answer": "Monthly, usually arriving in accounts between the 25th and 30th."
+                            },
+                            {
+                                "question": "Are bonuses taxable?",
+                                "answer": "Yes, performance and year-end bonuses are taxed as standard income."
+                            },
+                            {
+                                "question": "Can we use overseas banks?",
+                                "answer": "While funding can come from abroad, payments must arrive in local currency (XOF) to employee accounts."
+                            },
+                            {
+                                "question": "Is payslip digital authorized?",
+                                "answer": "Yes, provided it is signed/stamped if requested by local authorities."
+                            },
+                            {
+                                "question": "Work permit cost?",
+                                "answer": "Varies by nationality; ECOWAS nationals have easier processing."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "calc-burden",
+                    "type": "cost_breakdown",
+                    "title": "Statutory Burden Components",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer %",
+                                "Employee %",
+                                "Impact"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Pensions (CNSS)",
+                                    "values": [
+                                        "12.5%",
+                                        "4.0%",
+                                        "Standard Social Base"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Universal Health (AMU)",
+                                    "values": [
+                                        "5.0%",
+                                        "5.0%",
+                                        "Compulsory Cover"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Training Tax (FNAFPP)",
+                                    "values": [
+                                        "1.0%",
+                                        "0.0%",
+                                        "Skills Development"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Total Burden",
+                                    "values": [
+                                        "23.5% +",
+                                        "9.0% +",
+                                        "Excl Income Tax"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "calc-deductions",
+                    "type": "deductions",
+                    "title": "Mandatory Tax Withholdings",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Tax",
+                                "Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "IRPP (Income Tax)",
+                                    "values": [
+                                        "0% - 35%",
+                                        "Progressive 5-tier scale"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Salaries Tax",
+                                    "values": [
+                                        "Flat %",
+                                        "Usually employer expense"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Local Surcharges",
+                                    "values": [
+                                        "~7%",
+                                        "Centimes Additionnels"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "calc-steps",
+                    "type": "key_steps",
+                    "title": "How to Calculate Net Pay",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Define Gross Base",
+                                "description": "Starting with the negotiated monthly salary in XAF."
+                            },
+                            {
+                                "title": "Add Allowances",
+                                "description": "Including taxable housing or utility benefits."
+                            },
+                            {
+                                "title": "Subtract Social (9%)",
+                                "description": "Deducting employee share for CNSS and AMU."
+                            },
+                            {
+                                "title": "Apply IRPP Brackets",
+                                "description": "Calculating income tax on the remaining balance."
+                            },
+                            {
+                                "title": "Apply CAC Surcharge",
+                                "description": "Adding the 7% local municipal tax on the calculated IRPP."
+                            },
+                            {
+                                "title": "Final Net Disbursement",
+                                "description": "The amount transferred to the local bank account."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "calc-insights",
+                    "type": "insights",
+                    "title": "Calculator Accuracy Factors",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "SMIG Guardrail",
+                                "text": "Gross < 52,500 XAF is non-compliant in Togo."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Family Deductions",
+                                "text": "IRPP decreases based on number of children (Charge de Famille)."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Transport Exemptions",
+                                "text": "First 30,000 XAF of transport allowance is subtracted from the taxable base."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Overtime Premiums",
+                                "text": "Overtime pay is added to gross and taxed normally."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Professional Expenses",
+                                "text": "A standard 20% flat abatement applies to some salary components for professional costs."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "calc-faq",
+                    "type": "faq",
+                    "title": "Calculator FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is it 100% accurate?",
+                                "answer": "High-confidence estimate; final payslips may vary slightly by rounding."
+                            },
+                            {
+                                "question": "Does it include 13th month?",
+                                "answer": "You must input it as a specific bonus month."
+                            },
+                            {
+                                "question": "What about day rates?",
+                                "answer": "Optimized for monthly; divide by 26 for daily estimate."
+                            },
+                            {
+                                "question": "Are HQ benefits included?",
+                                "answer": "Only if they are deemed taxable in-kind benefits in Togo."
+                            },
+                            {
+                                "question": "Frequency?",
+                                "answer": "Monthly calculations as per Togo labor law."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Entity Setup in Togo",
+                "subtitle": "Wealth of insights on Incorporation in Togo",
+                "description": "Establish your business in West Africa's logistics hub. We guide you through the OHADA-compliant registration at the CFE (One-Stop Shop).",
+                "bestFor": "Strategic decision makers and HR leaders",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "inc-process",
+                    "type": "key_steps",
+                    "title": "Company Registration Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Name & Statutes",
+                                "description": "Reserving the trade name and drafting Articles of Association (Statuts) under OHADA law."
+                            },
+                            {
+                                "title": "Capital Deposit",
+                                "description": "Depositing the registered capital (min 100k for SARL) in a local bank or with a notary."
+                            },
+                            {
+                                "title": "CFE Submission",
+                                "description": "Filing documents at the Centre de Formalités des Entreprises for RCCM, NIF, and CNSS numbers."
+                            },
+                            {
+                                "title": "Ad Publication",
+                                "description": "Publishing the creation notice in a legal gazette or authorized newspaper."
+                            },
+                            {
+                                "title": "Final Licensing",
+                                "description": "Obtaining the Economic Operator Card (Carte d'Opérateur) and the Patente license."
+                            },
+                            {
+                                "title": "Bank Account Activation",
+                                "description": "Converting the temporary capital account to a fully active trade account."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "inc-types",
+                    "type": "insights",
+                    "title": "Legal Entity Options",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "SARL (LLC)",
+                                "text": "Most common; requires 1+ shareholders. Management is flexible under the OHADA framework."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "SA (Public Ltd)",
+                                "text": "Higher capital (10M XOF). Mandatory for banking, insurance, and large industrial firms."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Branch Office",
+                                "text": "Valid for 2 years; must be converted to a local subsidiary or closed after the term expires."
+                            },
+                            {
+                                "type": "info",
+                                "title": "SAS (Simplified Joint Stock)",
+                                "text": "Introduced in 2014, offers maximum contractual freedom for shareholder agreements."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Sole Proprietorship",
+                                "text": "Known as 'Entreprise Individuelle', best for single consultants; unlimited liability."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "inc-costs",
+                    "type": "cost_breakdown",
+                    "title": "Registration Fees 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Item",
+                                "Cost (XOF)",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "CFE Fees",
+                                    "values": [
+                                        "35,000",
+                                        "Government processing fee"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Notary Fees",
+                                    "values": [
+                                        "300,000+",
+                                        "Required for high capital companies"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Stamp Duty",
+                                    "values": [
+                                        "~50,000",
+                                        "Variable based on documentation volumes"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Opérateurs Card",
+                                    "values": [
+                                        "50,000",
+                                        "Annual renewal required"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Minimum Capital",
+                                    "values": [
+                                        "100,000",
+                                        "Blocked until incorporation completes"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "inc-requirements",
+                    "type": "good_to_know",
+                    "title": "Critical Setup Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Registered Address",
+                                "text": "A physical office lease (Bail Commercial) is mandatory for registration."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Local Manager",
+                                "text": "Foreigners can be managers, but a local resident signatory eases banking operations."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Annual Tax License",
+                                "text": "The 'Patente' is due annually and depends on turnover and office rental value."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Free Zone status",
+                                "text": "Export-oriented firms should apply for 'Zone Franche' for tax exemptions up to 10 years."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Board Members",
+                                "text": "Residency for board members is not strictly required but simplifies logistics."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "inc-faq",
+                    "type": "faq",
+                    "title": "Incorporation FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "How long does it take?",
+                                "answer": "Registering at the CFE takes 24-48 hours, but banking and notary steps add 1-2 weeks."
+                            },
+                            {
+                                "question": "Remote setup possible?",
+                                "answer": "Possible via Power of Attorney, but bank KYC usually requires physical presence."
+                            },
+                            {
+                                "question": "Can I own 100% of shares?",
+                                "answer": "Yes, 100% foreign ownership is allowed for most sectors."
+                            },
+                            {
+                                "question": "What is OHADA?",
+                                "answer": "The regional business law that harmonizes legal systems across 17 African countries."
+                            },
+                            {
+                                "question": "Need a local partner?",
+                                "answer": "No local partner requirement for SARL formation."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Togo",
+                "subtitle": "Wealth of insights on Staffing in Togo",
+                "description": "Access top bilingual talent in Lomé. Our recruitment experts provide search, headhunting, and RPO services tailored to Togo's unique market.",
+                "bestFor": "Strategic decision makers and HR leaders",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "staffing-search",
+                    "type": "key_steps",
+                    "title": "Recruitment Pipeline",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Target Definition",
+                                "description": "Defining the role profile and required technical/linguistic skills (French/English/Ewe)."
+                            },
+                            {
+                                "title": "Sourcing",
+                                "description": "Leveraging local networks, job boards like 'Emploi Togo', and alumni groups."
+                            },
+                            {
+                                "title": "Screening",
+                                "description": "Initial interviews and technical assessments for cultural and skill fit."
+                            },
+                            {
+                                "title": "Verification",
+                                "description": "Academic credential checks and reference validation with previous local employers."
+                            },
+                            {
+                                "title": "Offer Management",
+                                "description": "Final negotiations including statutory benefits and local market expectations."
+                            },
+                            {
+                                "title": "Onboarding Support",
+                                "description": "Handholding the candidate through the final resignation and start process."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "staffing-pricing",
+                    "type": "cost_breakdown",
+                    "title": "Service Fee Models",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Plan",
+                                "Fee %",
+                                "Guarantee"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Standard Search",
+                                    "values": [
+                                        "15% - 18%",
+                                        "90 Days Replacement"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Executive Search",
+                                    "values": [
+                                        "25% - 30%",
+                                        "180 Days Protection"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Contractor Placements",
+                                    "values": [
+                                        "20% Markup",
+                                        "Flexible end date"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "RPO Engagement",
+                                    "values": [
+                                        "Retainer",
+                                        "Long-term partnership"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Assessment Only",
+                                    "values": [
+                                        "Flat Fee",
+                                        "Per candidate"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "staffing-market",
+                    "type": "insights",
+                    "title": "Togolese Labor Market Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Bilingual Hub",
+                                "text": "Lomé has a high density of professionals fluent in both French and English, especially in trade and finance."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Senior Talent Shortage",
+                                "text": "Experienced senior leadership is scarce; many firms look to the diaspora for high-level technical roles."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Port & Logistics focus",
+                                "text": "A large portion of skilled talent is concentrated in maritime, supply chain, and infrastructure sectors."
+                            },
+                            {
+                                "type": "info",
+                                "title": "University graduates",
+                                "text": "The University of Lomé produces strong candidates in Law, Economics, and Management."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Tech Talent",
+                                "text": "Emerging tech hubs and incubators in Lomé are growing the local developer pool."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "staffing-essentials",
+                    "type": "essentials",
+                    "title": "Sourcing Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Lomé Job Portals",
+                                "description": "The primary digital destinations for local white-collar professionals."
+                            },
+                            {
+                                "title": "Social Media (FB/LI)",
+                                "description": "Facebook is highly active for job ads in Togo; LinkedIn for executive roles."
+                            },
+                            {
+                                "title": "Professional Chambers",
+                                "description": "Networking via the CCIT (Chamber of Commerce) for sector-specific leads."
+                            },
+                            {
+                                "title": "Referral Programs",
+                                "description": "Word-of-mouth is powerful in the close-knit Lomé business community."
+                            },
+                            {
+                                "title": "Radio Ads",
+                                "description": "Still effective for mass recruitment of operational or field staff."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "staffing-faq",
+                    "type": "faq",
+                    "title": "Staffing FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "How long to fill a role?",
+                                "answer": "Usually 4-6 weeks for professional roles; 8-12 weeks for executives."
+                            },
+                            {
+                                "question": "Do you handle work permits?",
+                                "answer": "Yes, we support documentation for foreign specialist hires."
+                            },
+                            {
+                                "question": "What is the standard guarantee?",
+                                "answer": "Most agencies offer a 3-month replacement guarantee if the candidate leaves."
+                            },
+                            {
+                                "question": "Is English testing included?",
+                                "answer": "Yes, we can run CEFR-aligned assessments for international firms."
+                            },
+                            {
+                                "question": "Can you hire interns?",
+                                "answer": "Yes, we handle recruitment for Togolese internship programs (Stagiaires)."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Solutions in Togo",
+                "subtitle": "Wealth of insights on HRIS in Togo",
+                "description": "Digitize your HR operations with local compliance. Automated CNSS reporting and digital leave management designed for Togo.",
+                "bestFor": "Strategic decision makers and HR leaders",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "hris-setup",
+                    "type": "key_steps",
+                    "title": "Software Implementation Roadmap",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Requirement Audit",
+                                "description": "Mapping existing paper workflows to digital structures compliant with Togo law."
+                            },
+                            {
+                                "title": "System Config",
+                                "description": "Setting up 40h work weeks, 1.5 day leave accruals, and OTR tax tables."
+                            },
+                            {
+                                "title": "Data Migration",
+                                "description": "Importing historical employee files, NIFs, and CNSS records securely."
+                            },
+                            {
+                                "title": "Internal Training",
+                                "description": "Sessions for HR teams and employee self-service (ESS) orientations."
+                            },
+                            {
+                                "title": "Go-Live & Support",
+                                "description": "Launching with dedicated support for the first two payroll cycles."
+                            },
+                            {
+                                "title": "Quarterly Review",
+                                "description": "Adjusting configurations based on latest Finance Law amendments."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hris-data",
+                    "type": "insights",
+                    "title": "Data Privacy & Security",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Law 2019-014",
+                                "text": "Compliance with Togo's Data Protection Law is mandatory for all employee record systems."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Local Sovereignty",
+                                "text": "Sensitive data must be handled with care; specific ministerial rules apply to government contractors."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Cloud vs On-Prem",
+                                "text": "Cloud is generally preferred in Lomé business districts due to fiber reliability."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Digital Signatures",
+                                "text": "Legally valid under the 2017 Digital Transaction Law for employment contracts."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Data Agency Filings",
+                                "text": "Companies must declare their databases to the Instance de Protection des Données (IPDCP)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hris-modules",
+                    "type": "essentials",
+                    "title": "Targeted HR Modules",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Auto-Payroll (Togo)",
+                                "description": "Native IRPP/CNSS calculation with 'one-click' OTR report export."
+                            },
+                            {
+                                "title": "Time & Attendance",
+                                "description": "Mobile tracking for field staff or office biometrics integration."
+                            },
+                            {
+                                "title": "Leave Management",
+                                "description": "Self-service portal for holiday and medical leave requests."
+                            },
+                            {
+                                "title": "Performance Tracking",
+                                "description": "Annual appraisal cycles aligned with local career development norms."
+                            },
+                            {
+                                "title": "Expense Claims",
+                                "description": "Digitized receipts for transport and travel reimbursement."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hris-benefits",
+                    "type": "good_to_know",
+                    "title": "Why Digitize in Togo?",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Efficiency",
+                                "text": "Reduces time spent on manual OTR filing by up to 70%."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Accuracy",
+                                "text": "Eliminates calculation errors in complex IRPP tax brackets."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Compliance Safety",
+                                "text": "Guarantees that mandatory social security updates are reflecting in pay accurately."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Transparency",
+                                "text": "Employees have 24/7 access to their payslips and leave status via mobile app."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Scalability",
+                                "text": "Easily manages workforce expansion from 10 to 500+ employees."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hris-faq",
+                    "type": "faq",
+                    "title": "HRIS FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "French interface?",
+                                "answer": "Yes, our systems are fully localized in French for Togo staff usage."
+                            },
+                            {
+                                "question": "Updates for tax changes?",
+                                "answer": "Yes, we update tax tables whenever the Togo Finance Law is amended."
+                            },
+                            {
+                                "question": "Does it link to CNSS?",
+                                "answer": "It generates files compatible with the CNSS online declaration portal."
+                            },
+                            {
+                                "question": "What is the typical cost?",
+                                "answer": "Usually based on a subscription per employee per month (SaaS model)."
+                            },
+                            {
+                                "question": "Implementation time?",
+                                "answer": "Typically 4-8 weeks depending on data complexity."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting in Togo",
+                "subtitle": "Wealth of insights on Accounting in Togo",
+                "description": "Expert financial management under SYSCOHADA standards. Bookkeeping, VAT returns, and annual financial statements for the OTR.",
+                "bestFor": "Strategic decision makers and HR leaders",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "acc-cycle",
+                    "type": "key_steps",
+                    "title": "Annual Accounting Cycle",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Daily Booking",
+                                "description": "Recording all local XAF transactions in accordance with SYSCOHADA chart of accounts."
+                            },
+                            {
+                                "title": "Monthly VAT",
+                                "description": "Reconciling 18% VAT and filing with OTR by the 15th of each month."
+                            },
+                            {
+                                "title": "Asset Management",
+                                "description": "Updating depreciation schedules for office equipment and vehicles (Togo tax lives)."
+                            },
+                            {
+                                "title": "Financial Closing",
+                                "description": "Quarterly reviews and P&L generation for management reporting."
+                            },
+                            {
+                                "title": "Annual Liasse Fiscale",
+                                "description": "Submission of audited statutory accounts to OTR by March 31st."
+                            },
+                            {
+                                "title": "External Audit",
+                                "description": "Coordinating with the Commissaire aux Comptes for the annual sign-off."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "acc-standards",
+                    "type": "insights",
+                    "title": "SYSCOHADA Compliance",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "OHADA Rules",
+                                "text": "Togo follows the 2017 Revised Uniform Act on Accounting and Financial Reporting."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Audit Thresholds",
+                                "text": "Mandatory audit (Commissaire aux Comptes) if turnover > 250M XAF or assets > 125M XAF."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Certified Accountants",
+                                "text": "Must use members of the ONECCA-TOGO for official statutory signing."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Record Duration",
+                                "text": "In Togo, all accounting vouchers must be kept for 10 years by law."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Electronic Invoicing",
+                                "text": "Strict adherence to the SIN (Système d'Invoicing Normalisé) for all local expenses."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "acc-fees",
+                    "type": "cost_breakdown",
+                    "title": "Outsourced Accounting Costs 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service",
+                                "Estimated Fee (XOF)",
+                                "Frequency"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Monthly Bookkeeping",
+                                    "values": [
+                                        "200,000 - 500,000",
+                                        "Monthly"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "VAT Filing",
+                                    "values": [
+                                        "50,000",
+                                        "Monthly"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Annual Liasse Fiscale",
+                                    "values": [
+                                        "1,500,000+",
+                                        "Annual"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Statutory Audit",
+                                    "values": [
+                                        "Variable",
+                                        "Annual"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Financial Advisory",
+                                    "values": [
+                                        "75,000 / hr",
+                                        "Ad-hoc"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "acc-essentials",
+                    "type": "essentials",
+                    "title": "Core Bookkeeping Pillars",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Multi-Currency Tracking",
+                                "description": "Converting HQ transactions (USD/EUR) into XAF for local reporting."
+                            },
+                            {
+                                "title": "Invoice Normalization",
+                                "description": "Ensuring all local receipts are OTR-certified 'Factures Normalisées' to be deductible."
+                            },
+                            {
+                                "title": "Cash Control",
+                                "description": "Daily reconciliation of local cash boxes and bank statements (UTB, Orabank)."
+                            },
+                            {
+                                "title": "Inter-company management",
+                                "description": "Managing intra-group loans and invoices compliant with transfer pricing rules."
+                            },
+                            {
+                                "title": "Inventory Audit",
+                                "description": "Physical counts of local stock to match accounting records annually."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "acc-faq",
+                    "type": "faq",
+                    "title": "Accounting FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Fiscal year in Togo?",
+                                "answer": "Matches the calendar year (Jan 1 - Dec 31)."
+                            },
+                            {
+                                "question": "Are IFRS allowed?",
+                                "answer": "Mandatory only for listed firms; others use SYSCOHADA."
+                            },
+                            {
+                                "question": "Accounting software?",
+                                "answer": "Odoo, Sage, and QuickBooks are popular; must be configured for SYSCOHADA."
+                            },
+                            {
+                                "question": "Can HQ keep the books abroad?",
+                                "answer": "Statutory books MUST be kept locally in Togo and in French."
+                            },
+                            {
+                                "question": "VAT registration limit?",
+                                "answer": "Turnover above XOF 60M requires mandatory VAT registration."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "comp-essentials",
+                    "type": "essentials",
+                    "title": "Mandatory Governance Filings",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Annual General Meeting",
+                                "description": "Approving financial accounts within 6 months of year-end as per OHADA."
+                            },
+                            {
+                                "title": "RCCM Updates",
+                                "description": "Modifying company records for changes in directors, address, or capital within 30 days."
+                            },
+                            {
+                                "title": "Economic Operator Card",
+                                "description": "Annual renewal required for importing goods and signing large contracts."
+                            },
+                            {
+                                "title": "Beneficial Ownership",
+                                "description": "Submission of the BO registry to the trade court for AML compliance."
+                            },
+                            {
+                                "title": "CAMAFA reports",
+                                "description": "Reporting to the Chamber of Commerce as required for specific sectors."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "comp-insights",
+                    "type": "insights",
+                    "title": "Operational Risk Compliance",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "AML/CFT Rules",
+                                "text": "Firms must have internal policies to detect money laundering, overseen by CENTIF."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Labor Safety (SST)",
+                                "text": "Mandatory safety plans and equipment provision; periodic inspections by Labor Inspectors."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Anti-Corruption",
+                                "text": "Zero-tolerance policies and whistleblower channels are increasingly expected (HAPLUCIA)."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Local Content",
+                                "text": "Specific sectors (e.g. mining, energy) have quotas for local hiring."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Health Checkups",
+                                "text": "Failure to provide annual medical checks for staff can lead to labor law penalties."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "comp-steps",
+                    "type": "key_steps",
+                    "title": "Annual Compliance Roadmap",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Document Audit",
+                                "description": "Reviewing all corporate and labor contracts for alignment with new 2021 laws."
+                            },
+                            {
+                                "title": "License Renewals",
+                                "description": "Managing the window for Patente and Operator card renewals in Q1."
+                            },
+                            {
+                                "title": "Safety Certification",
+                                "description": "Ensuring the 'Médecine du Travail' contracts are active."
+                            },
+                            {
+                                "title": "IP Monitoring",
+                                "description": "Checking for trademark infringements in the Togo market via OAPI."
+                            },
+                            {
+                                "title": "Compliance Status meeting",
+                                "description": "Quarterly internal check on social security and tax statuses."
+                            },
+                            {
+                                "title": "Archive Management",
+                                "description": "Ensuring all tax and social documents are safely stored for 10 years."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "comp-legal",
+                    "type": "good_to_know",
+                    "title": "West African Regulatory Landscape",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "OHADA Dominance",
+                                "text": "OHADA Uniform Acts cover 80% of corporate compliance requirements."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Inspector Presence",
+                                "text": "Labor and Tax inspectors have broad powers of entry and inspection in Togo."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Digital Forensics",
+                                "text": "Records in digital HRIS or Accounting systems are now key targets for audits."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Bilingual Contracts",
+                                "text": "French versions are the only ones legally binding in local Togo courts."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Local Legal Counsel",
+                                "text": "Engaging a member of the Barreau du Togo is essential for formal litigation."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "comp-faq",
+                    "type": "faq",
+                    "title": "Compliance FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Who is the primary regulator?",
+                                "answer": "The OTR for tax, Ministry of Labor, and the Trade Court."
+                            },
+                            {
+                                "question": "Are board meetings mandatory?",
+                                "answer": "For an SA yes; for a SARL the manager typically calls the AGM."
+                            },
+                            {
+                                "question": "Work permits required?",
+                                "answer": "Mandatory for any non-ECOWAS national working long-term."
+                            },
+                            {
+                                "question": "Environmental permits?",
+                                "answer": "Required for industrial or agro projects via the ANGE agency."
+                            },
+                            {
+                                "question": "Data protection agency?",
+                                "answer": "The IPDCP (Instance de Protection des Données à Caractère Personnel)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "tax-rates",
+                    "type": "cost_breakdown",
+                    "title": "Togo Tax Summary 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Tax Type",
+                                "Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income (IS)",
+                                    "values": [
+                                        "27%",
+                                        "Standard rate for services/trade"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Industrial Rate",
+                                    "values": [
+                                        "25%",
+                                        "To encourage local manufacturing"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Minimum Tax (IMF)",
+                                    "values": [
+                                        "1% of Turnover",
+                                        "Payable even if in deficit"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "VAT (TVA)",
+                                    "values": [
+                                        "18%",
+                                        "Standard value added tax"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Dividend Withholding",
+                                    "values": [
+                                        "10% - 13%",
+                                        "Depends on residency"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "tax-timeline",
+                    "type": "key_steps",
+                    "title": "Tax Compliance Timeline",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "VAT Submission",
+                                "description": "Monthly filing and payment by the 15th via OTR portal."
+                            },
+                            {
+                                "title": "Tax Installments",
+                                "description": "Three prepayments (Acomptes) based on last year's liability."
+                            },
+                            {
+                                "title": "Annual Final Return",
+                                "description": "Filing the complete 'Déclaration de Résultats' by March 31st."
+                            },
+                            {
+                                "title": "Local Taxes",
+                                "description": "Payment of the Patente and property taxes in the first quarter."
+                            },
+                            {
+                                "title": "Withholding Reports",
+                                "description": "Monthly filings for taxes withheld on salaries and local subcontractors."
+                            },
+                            {
+                                "title": "Transfer Pricing",
+                                "description": "Annual declaration of transactions with overseas related parties."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "tax-insights",
+                    "type": "insights",
+                    "title": "Advanced Taxation Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Tax Treaties",
+                                "text": "Togo has active treaties with France and the UEMOA block to avoid double taxation."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Digital Invoicing (SIN)",
+                                "text": "OTR's digital invoice system is now mandatory; paper invoices are frequently rejected during audits."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Management Fees",
+                                "text": "Fees paid to overseas HQ must be 'reasonable' and documented for transfer pricing."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Registration Duty",
+                                "text": "Specific duties apply to lease agreements and capital increase documents."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Adétikopé hub (PIA)",
+                                "text": "Firms in the Industrial Platform enjoy significant tax holidays and VAT exemptions."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "tax-essentials",
+                    "type": "essentials",
+                    "title": "Corporate Tax Pillars",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Ductible Expenses",
+                                "description": "Strict proof of expense 'in the interest of the business' is required for OTR deduction."
+                            },
+                            {
+                                "title": "Loss Carry Forward",
+                                "description": "Business losses can generally be carried forward for up to 3 years."
+                            },
+                            {
+                                "title": "Dividend Optimization",
+                                "description": "Strategy for repatriating profits compliant with WAEMU exchange controls."
+                            },
+                            {
+                                "title": "Special Incentives",
+                                "description": "Tax holidays for sectors like renewable energy or large agro-projects."
+                            },
+                            {
+                                "title": "Stamp duties",
+                                "description": "Mandatory on certain legal documents to make them valid for OTR and courts."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "tax-faq",
+                    "type": "faq",
+                    "title": "Tax FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the NIF?",
+                                "answer": "The Numéro d'Identification Fiscale - the unique ID for all tax deals."
+                            },
+                            {
+                                "question": "Late payment interest?",
+                                "answer": "Usually 1% per month plus a 10-25% administrative fine if audited."
+                            },
+                            {
+                                "question": "Expat IRPP rules?",
+                                "answer": "Expats are taxed if Togo is their primary residence or they stay > 183 days."
+                            },
+                            {
+                                "question": "VAT refund possible?",
+                                "answer": "Possible for exporters, but involves a detailed OTR audit process."
+                            },
+                            {
+                                "question": "Business license cost?",
+                                "answer": "Base fee + percentage of rental value of your office premises."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "MSA & Legal Support in Togo",
+                "subtitle": "Wealth of insights on MSA & Legal in Togo",
+                "description": "Secure contracts within the OHADA legal framework. Expert drafting for Master Service Agreements and local labor contracts.",
+                "bestFor": "Strategic decision makers and HR leaders",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "msa-roadmap",
+                    "type": "key_steps",
+                    "title": "Contractual Framework Setup",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Drafting the MSA",
+                                "description": "Establishing core terms: scope, liability, and payment in XAF."
+                            },
+                            {
+                                "title": "Local Law Validation",
+                                "description": "Reviewing clauses against Togo Labor and Commercial codes."
+                            },
+                            {
+                                "title": "Dispute Clause",
+                                "description": "Setting up arbitration parameters (OHADA CCJA or Togo courts)."
+                            },
+                            {
+                                "title": "Intellectual Property",
+                                "description": "Defining ownership of deliverables following OAPI standards."
+                            },
+                            {
+                                "title": "Execution & Stamping",
+                                "description": "Formalizing the agreement with authorized signatures and tax stamps."
+                            },
+                            {
+                                "title": "Notarial filing",
+                                "description": "If required by the contract value or type of transaction."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "msa-ohada",
+                    "type": "insights",
+                    "title": "OHADA Legal Context",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Harmonized Law",
+                                "text": "Togo's commercial laws match 16 other African nations."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Bail Commercial",
+                                "text": "OHADA leases grant tenants a 'right to renewal' after 2 years."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Notarial Utility",
+                                "text": "Contracts involving real estate MUST be public deeds via a Notary."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Security Interests",
+                                "text": "Simplified rules for taking collateral (mortgages, pledges)."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Arbitration Speed",
+                                "text": "CCJA arbitration is significantly faster than local court litigation."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "msa-essentials",
+                    "type": "essentials",
+                    "title": "Essential Contract Clauses",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Force Majeure",
+                                "description": "Definitions including local administrative closures or grid instabilities."
+                            },
+                            {
+                                "title": "Anti-Bribery",
+                                "description": "Compliance with FCPA and Togo anti-corruption laws (HAPLUCIA)."
+                            },
+                            {
+                                "title": "Tax Gross-up",
+                                "description": "Clear clauses on who bears the 18% VAT or withholding taxes."
+                            },
+                            {
+                                "title": "Termination Notice",
+                                "description": "Specific 30-90 day timelines agreed for 'convenience' terms."
+                            },
+                            {
+                                "title": "Confidentiality",
+                                "description": "Binding NDA clauses following Togo's 2019 data law principles."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "msa-risks",
+                    "type": "good_to_know",
+                    "title": "Legal Risk Management",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Misclassification",
+                                "text": "MSAs acting like employment contracts are routinely reclassified."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Language Hierarchy",
+                                "text": "The French version prevails in translation discrepancies in Togo courts."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Stamp Duty",
+                                "text": "Contracts must be stamped to be admissible as evidence in court."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Lien Rights",
+                                "text": "OHADA rules allow providers to hold assets until payment."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Electronic Evidence",
+                                "text": "Email chains are increasingly accepted as binding proof if authenticated."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "msa-faq",
+                    "type": "faq",
+                    "title": "Legal & MSA FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can we choose NY Law?",
+                                "answer": "For international deals yes, but Togo labor law is mandatory for staff."
+                            },
+                            {
+                                "question": "How to resolve disputes?",
+                                "answer": "Arbitration at the CCJA (Abidjan) is most common for B2B."
+                            },
+                            {
+                                "question": "Digital contracts valid?",
+                                "answer": "Yes, following the 2017 digital transactions law."
+                            },
+                            {
+                                "question": "Stamp duty cost?",
+                                "answer": "Usually a fixed fee for services or % for property leases."
+                            },
+                            {
+                                "question": "Penalty for late payment?",
+                                "answer": "Contractual interest is allowed but capped by WAEMU usury laws."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Solutions in Togo",
+                "subtitle": "Wealth of insights on Software in Togo",
+                "description": "Accelerate your digital transformation. Custom ERP integration, cloud hosting, and cyber-security audits for the Togo market.",
+                "bestFor": "Strategic decision makers and HR leaders",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "sw-roadmap",
+                    "type": "key_steps",
+                    "title": "Technology Integration Workflow",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Connectivity Audit",
+                                "description": "Analyzing local fiber stability and latency for cloud-based tools."
+                            },
+                            {
+                                "title": "Localization",
+                                "description": "Adapting UI and workflows to French and Togo tax requirements (OTR)."
+                            },
+                            {
+                                "title": "Cloud Migration",
+                                "description": "Configuring AWS/Azure for secure data hosting compliant with IPDCP."
+                            },
+                            {
+                                "title": "API Integrations",
+                                "description": "Linking systems to Moov/Togocom mobile money for payments."
+                            },
+                            {
+                                "title": "Performance Tuning",
+                                "description": "Optimization for bandwidth outside the capital cities."
+                            },
+                            {
+                                "title": "User Acceptance (UAT)",
+                                "description": "Local staff testing workflows for cultural and linguistic fit."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "sw-insights",
+                    "type": "insights",
+                    "title": "Togo Digital Infrastructure",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Mobile Money Power",
+                                "text": "Integration with Flooz and TMoney is non-negotiable for Togo software."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Power Reliability",
+                                "text": "Servers require robust UPS and generator backup in Togo data centers."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Open Source",
+                                "text": "Strong local expertise in Python/Odoo provides cost-effective options."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Cyber Agency (ANCy)",
+                                "text": "Regulations from the National Cyber-Security Agency must be followed."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Ecommerce Trends",
+                                "text": "Togolese prefer Cash-on-Delivery or Mobile Money over credit cards."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "sw-stack",
+                    "type": "essentials",
+                    "title": "Recommended Tech Stack",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Odoo ERP",
+                                "description": "Leading choice due to strong French and OHADA accounting modules."
+                            },
+                            {
+                                "title": "Azure West Africa",
+                                "description": "Low-latency cloud hosting with regional data redundancy."
+                            },
+                            {
+                                "title": "Custom E-Sig",
+                                "description": "Speeding up local approvals following the 2017 digital laws."
+                            },
+                            {
+                                "title": "Cisco Meraki",
+                                "description": "Centralized network management for multiple Togolese branches."
+                            },
+                            {
+                                "title": "PostgreSQL",
+                                "description": "The preferred database choice for local enterprise scalability."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "sw-compliance",
+                    "type": "good_to_know",
+                    "title": "Software Compliance",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "IPDCP Rules",
+                                "text": "Software handling personal data must be registered with the IPDCP."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Digital Tax",
+                                "text": "Electronic service imports (SaaS) are subject to 18% VAT collected locally."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Bilingual Support",
+                                "text": "Enterprise tools should offer 24/7 support in French."
+                            },
+                            {
+                                "type": "info",
+                                "title": "e-Gov links",
+                                "text": "Increasing opportunities to link software to OTR and CNSS portals."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Spam Laws",
+                                "text": "Strict rules on SMS/Email marketing to Togolese consumers."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "sw-faq",
+                    "type": "faq",
+                    "title": "Software FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is internet fast enough?",
+                                "answer": "In Lomé business districts, 100Mbps+ fiber is reliable."
+                            },
+                            {
+                                "question": "Can we host data locally?",
+                                "answer": "Yes, Togo has private Tier III centers like CFAO DataCenter."
+                            },
+                            {
+                                "question": "Local dev available?",
+                                "answer": "Yes, there is a vibrant dev scene in Lomé (e.g. Energy Generation hub)."
+                            },
+                            {
+                                "question": "Do you offer SEO?",
+                                "answer": "Yes, focusing on French Search trends in the region."
+                            },
+                            {
+                                "question": "ERP setup time?",
+                                "answer": "Typically 3-6 months for a full enterprise rollout."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing & Creative in Togo",
+                "subtitle": "Wealth of insights on Marketing in Togo",
+                "description": "Grow your brand presence in the 'Gateway to West Africa'. Social media, billboard, and radio strategies for localized impact.",
+                "bestFor": "Strategic decision makers and HR leaders",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "mkt-strategy",
+                    "type": "key_steps",
+                    "title": "Go-to-Market Workflow",
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Consumer Persona",
+                                "description": "Segmenting urban Lomé vs agricultural/mining hubs in the North."
+                            },
+                            {
+                                "title": "Media Mix",
+                                "description": "Planning budget across Facebook, TVT (National TV), and billboards."
+                            },
+                            {
+                                "title": "Content Creation",
+                                "description": "Developing video and static ads in French and local dialects (Ewe)."
+                            },
+                            {
+                                "title": "Influencer Pairing",
+                                "description": "Collaborating with local celebrities for brand trust."
+                            },
+                            {
+                                "title": "Campaign Launch",
+                                "description": "Coordinated rollout across major urban centers (Lomé, Sokodé)."
+                            },
+                            {
+                                "title": "Performance Tracking",
+                                "description": "Monitoring engagement, leads and brand lift post-launch."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mkt-trends",
+                    "type": "insights",
+                    "title": "Togo Media Trends 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Facebook Dominance",
+                                "text": "The primary platform for B2C interaction in Togo."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "HAAC Regulation",
+                                "text": "Ads on TV/Radio must be vetted for cultural morals and neutrality."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "WhatsApp Sales",
+                                "text": "Togolese buy heavily via WhatsApp status updates."
+                            },
+                            {
+                                "type": "info",
+                                "title": "OOH Impact",
+                                "text": "Digital billboards in Lomé port/airport offer massive B2B reach."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "TikTok Rise",
+                                "text": "Explosive growth among younger demographics for viral challenges."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mkt-pricing",
+                    "type": "cost_breakdown",
+                    "title": "Media Placement Costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Channel",
+                                "Est. Cost (XOF)",
+                                "Reach"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "National Radio Spot",
+                                    "values": [
+                                        "25,000 - 50,000",
+                                        "Wide Audience"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Prime Time TV Ad",
+                                    "values": [
+                                        "150,000+",
+                                        "National (TVT)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Main Road Billboard",
+                                    "values": [
+                                        "500,000 / month",
+                                        "Lomé Traffic"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Influencer Post",
+                                    "values": [
+                                        "50,000 - 300,000",
+                                        "Niche Interest"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Facebook Ad spend",
+                                    "values": [
+                                        "Variable",
+                                        "Highly Targeted"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "mkt-essentials",
+                    "type": "essentials",
+                    "title": "Marketing Pillars",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Field Marketing",
+                                "description": "Direct engagement at markets and fairs like Foire TOGO 2000."
+                            },
+                            {
+                                "title": "Bilingual Copy",
+                                "description": "Ensuring slogans work in French and resonance in regional dialects."
+                            },
+                            {
+                                "title": "PR Events",
+                                "description": "Hosting corporate mixers in Lomé business hotels."
+                            },
+                            {
+                                "title": "SEO for Togo",
+                                "description": "Targeting local Google search terms (.tg suffix)."
+                            },
+                            {
+                                "title": "SMS Marketing",
+                                "description": "Pushing offers via Togocom/Moov databases (requires opt-in compliance)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mkt-faq",
+                    "type": "faq",
+                    "title": "Marketing FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Most popular app?",
+                                "answer": "WhatsApp, followed by Facebook and TikTok."
+                            },
+                            {
+                                "question": "Radio importance?",
+                                "answer": "Primary info source for 60% outside Lomé."
+                            },
+                            {
+                                "question": "Digital vs Traditional?",
+                                "answer": "A 30/70 split is usually recommended in Togo."
+                            },
+                            {
+                                "question": "Agency fees?",
+                                "answer": "Typically 10-15% of media buy for management."
+                            },
+                            {
+                                "question": "Local video production?",
+                                "answer": "Yes, Lomé has skilled production houses for high-quality TV commercials."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

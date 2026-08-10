@@ -1,0 +1,499 @@
+{
+    "name": "Palau",
+    "code": "PW",
+    "slug": "palau",
+    "flag": "https://flagcdn.com/w160/pw.png",
+    "region": "Oceania",
+    "languages": [
+        "Palauan",
+        "English"
+    ],
+    "currencies": [
+        "USD"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Palau",
+                "subtitle": "Hire in Koror",
+                "description": "Compliant employment in Micronesia. We handle SS and HCF.",
+                "bestFor": "Tourism & Research",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "pw-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Employment contract under Palauan law."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Work Permit",
+                                "description": "Requried for non-citizens."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Registration",
+                                "description": "Register with Tax and Social Security Administration."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "pw-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Security",
+                                    "values": [
+                                        "7%",
+                                        "7%",
+                                        "Cap at $3,000 quarterly wages."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Healthcare Fund",
+                                    "values": [
+                                        "2.5%",
+                                        "2.5%",
+                                        "No wage cap."
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "pw-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Youth Day",
+                                "description": "March 15"
+                            },
+                            {
+                                "title": "Senior Citizens Day",
+                                "description": "May 5"
+                            },
+                            {
+                                "title": "President's Day",
+                                "description": "June 1"
+                            },
+                            {
+                                "title": "Constitution Day",
+                                "description": "July 9"
+                            },
+                            {
+                                "title": "Labor Day",
+                                "description": "September 1"
+                            },
+                            {
+                                "title": "Independence Day",
+                                "description": "October 1"
+                            },
+                            {
+                                "title": "United Nations Day",
+                                "description": "October 24"
+                            },
+                            {
+                                "title": "Thanksgiving Day",
+                                "description": "November 27"
+                            },
+                            {
+                                "title": "Family Day",
+                                "description": "November 28"
+                            },
+                            {
+                                "title": "Christmas Day",
+                                "description": "December 25"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "pw-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax (Wages & Salary)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Annual Wages (USD)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "0 - 8,000",
+                                    "values": [
+                                        "9.3%",
+                                        "(Previously 6%, updated)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "8,001 - 40,000",
+                                    "values": [
+                                        "15%",
+                                        "Update reflects progressive system."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Over 40,000",
+                                    "values": [
+                                        "20%",
+                                        "Top rate."
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "pw-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Gross Wages."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "SS & HCF",
+                                "description": "Deduct 7% (SS up to cap) + 2.5% (HCF)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Wages Tax",
+                                "description": "Apply 9.3%, 15%, or 20% rates."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Net",
+                                "description": "Gross - Deduction - Tax."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Palau",
+                "subtitle": "Corporation",
+                "description": "Domestic Corp.",
+                "bestFor": "Local Ops",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "pw-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "FIB",
+                                "description": "Foreign Investment Approval (if applicable)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Charter",
+                                "description": "File Corporate Charter with Registrar of Corporations."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "License",
+                                "description": "Obtain Business License from State Government."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "pw-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Bank of Hawaii",
+                                "description": "Branch in Koror."
+                            },
+                            {
+                                "title": "Bank of Guam",
+                                "description": "Branch in Koror."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Palau",
+                "subtitle": "Koror",
+                "description": "Tourism focus.",
+                "bestFor": "Hospitality",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "pw-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Koror",
+                                "text": "Main commercial center."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Palau",
+                "subtitle": "Basic",
+                "description": "Simple payroll.",
+                "bestFor": "Small Biz",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "pw-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Quarterly Returns",
+                                "description": "SS and Tax filings."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Palau",
+                "subtitle": "US GAAP",
+                "description": "Commonly used.",
+                "bestFor": "Compliance",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "pw-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "GAAP",
+                                "text": "US GAAP is generally followed."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "pw-comp-labor",
+                    "type": "warning",
+                    "title": "Expats",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Foreign Workers",
+                                "description": "Annual fee and strict permit requirements."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "pw-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Gross Revenue Tax (GRT)",
+                                    "values": [
+                                        "4%",
+                                        "On gross receipts."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Business Profits Tax",
+                                    "values": [
+                                        "12%",
+                                        "New Net Income Tax option/system."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "PGST",
+                                    "values": [
+                                        "10%",
+                                        "Goods and Services Tax."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Palau",
+                "subtitle": "US Derived",
+                "description": "Trust Territory code.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "pw-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "System",
+                                "text": "Based on Trust Territory Code and US Common Law."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Palau",
+                "subtitle": "Limited",
+                "description": "Cash based.",
+                "bestFor": "Payments",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "pw-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Bank Transfers",
+                                "description": "Primary method for business."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Palau",
+                "subtitle": "Tourism",
+                "description": "Visitor focused.",
+                "bestFor": "Travel",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "pw-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Social Media",
+                                "text": "Facebook is widely used."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

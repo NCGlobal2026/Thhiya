@@ -1,0 +1,563 @@
+{
+    "name": "Malaysia",
+    "code": "MY",
+    "slug": "malaysia",
+    "flag": "https://flagcdn.com/w160/my.png",
+    "region": "Asia",
+    "languages": [
+        "Malay",
+        "English"
+    ],
+    "currencies": [
+        "MYR"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Malaysia",
+                "subtitle": "Hire in Kuala Lumpur",
+                "description": "Compliant employment in Malaysia. We handle EPF, SOCSO, and EIS.",
+                "bestFor": "Tech & Services",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "my-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Employment contract compliant with Employment Act 1955."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Statutory Registration",
+                                "description": "Register with EPF (KWSP), SOCSO (PERKESO), and LHDN (Tax)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Work Permit",
+                                "description": "Employment Pass required for foreign nationals."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "my-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "EPF (Retirement)",
+                                    "values": [
+                                        "12% - 13%",
+                                        "11%",
+                                        "13% for wage <= RM5k, 12% for > RM5k. Reduced rates for foreigners."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "SOCSO (Social Security)",
+                                    "values": [
+                                        "~1.75%",
+                                        "~0.5%",
+                                        "Employment Injury & Invalidity. Capped at RM6k salary."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "EIS (Insurance)",
+                                    "values": [
+                                        "~0.2%",
+                                        "~0.2%",
+                                        "Employment Insurance System. Capped."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "HRDF (Training)",
+                                    "values": [
+                                        "1%",
+                                        "0%",
+                                        "Levy for Human Resources Development (certain sectors)."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "my-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1 (Not all states)"
+                            },
+                            {
+                                "title": "Chinese New Year",
+                                "description": "January 29-30"
+                            },
+                            {
+                                "title": "Nuzul Al-Quran",
+                                "description": "March 18 (Some states)"
+                            },
+                            {
+                                "title": "Hari Raya Aidilfitri",
+                                "description": "March 31-April 1"
+                            },
+                            {
+                                "title": "Labour Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Wesak Day",
+                                "description": "May 12"
+                            },
+                            {
+                                "title": "Agong's Birthday",
+                                "description": "June 2"
+                            },
+                            {
+                                "title": "Hari Raya Haji",
+                                "description": "June 7"
+                            },
+                            {
+                                "title": "Awal Muharram",
+                                "description": "June 26 (Estimated)"
+                            },
+                            {
+                                "title": "National Day",
+                                "description": "August 31"
+                            },
+                            {
+                                "title": "Malaysia Day",
+                                "description": "September 16"
+                            },
+                            {
+                                "title": "Prophet's Birthday",
+                                "description": "September 5"
+                            },
+                            {
+                                "title": "Deepavali",
+                                "description": "October 20"
+                            },
+                            {
+                                "title": "Christmas Day",
+                                "description": "December 25"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "my-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax (PCB)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Annual Income (MYR)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Up to 5,000",
+                                    "values": [
+                                        "0%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "5,001 - 2M",
+                                    "values": [
+                                        "1% - 28%",
+                                        "Progressive scale."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Above 2M",
+                                    "values": [
+                                        "30%",
+                                        "Top rate."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Non-Residents",
+                                    "values": [
+                                        "30%",
+                                        "Flat rate usually."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "my-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Base Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "EPF",
+                                "description": "Deduct Employee Share (11% typically)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "SOCSO & EIS",
+                                "description": "Deduct small statutory amounts (~RM20-50)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Tax Base",
+                                "description": "Gross - EPF (limit) - Personal Reliefs."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "PCB (Tax)",
+                                "description": "Apply MTD schedule."
+                            },
+                            {
+                                "stepNumber": 6,
+                                "title": "Net",
+                                "description": "Gross - EPF - SOCSO - EIS - PCB."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Malaysia",
+                "subtitle": "Sdn Bhd",
+                "description": "Private Limited Company.",
+                "bestFor": "Regional Hub",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "my-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Name Search",
+                                "description": "Check availability via SSM (Suruhanjaya Syarikat Malaysia)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Registration",
+                                "description": "Submit application via MyCoID."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Company Secretary",
+                                "description": "Must appoint a qualified Company Secretary within 30 days."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "my-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Maybank",
+                                "description": "Largest bank."
+                            },
+                            {
+                                "title": "CIMB",
+                                "description": "Leading ASEAN bank."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Malaysia",
+                "subtitle": "Multilingual",
+                "description": "English/Malay/Chinese/Tamil.",
+                "bestFor": "SSC / BPO",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "my-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Kuala Lumpur",
+                                "text": "Finance and Tech hub."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Penang",
+                                "text": "Silicon Valley of the East (Hardware/Manufacturing)."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Malaysia",
+                "subtitle": "Statutory",
+                "description": "EA Form capable.",
+                "bestFor": "Compliance",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "my-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "EA Form",
+                                "description": "Annual remuneration statement for employees."
+                            },
+                            {
+                                "title": "PCB II",
+                                "description": "Monthly tax deduction calc."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Malaysia",
+                "subtitle": "MFRS",
+                "description": "Aligned with IFRS.",
+                "bestFor": "Consolidation",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "my-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "MFRS",
+                                "text": "Malaysian Financial Reporting Standards (IFRS compliant)."
+                            },
+                            {
+                                "type": "info",
+                                "title": "MPERS",
+                                "text": "For private entities (similar to IFRS for SMEs)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "my-comp-labor",
+                    "type": "warning",
+                    "title": "Working Hours",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Reduced Hours",
+                                "description": "Standard work week reduced to 45 hours (from 48) effective 2023."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "my-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax",
+                                    "values": [
+                                        "24%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "SME Rate",
+                                    "values": [
+                                        "15% - 17%",
+                                        "On first 150k/600k chargeable income."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "SST",
+                                    "values": [
+                                        "6% - 10%",
+                                        "Sales and Service Tax."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Malaysia",
+                "subtitle": "Common Law",
+                "description": "British heritage.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "my-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "English widely used in commercial contracts; Malay in official govt documents."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Malaysia",
+                "subtitle": "Touch 'n Go",
+                "description": "E-wallet.",
+                "bestFor": "Transactions",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "my-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Touch 'n Go eWallet",
+                                "description": "Ubiquitous payment app."
+                            },
+                            {
+                                "title": "GrabPay",
+                                "description": "Superapp payment."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Malaysia",
+                "subtitle": "Digital",
+                "description": "Social commerce.",
+                "bestFor": "Sales",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "my-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "TikTok",
+                                "text": "Extremely high engagement for sales (TikTok Shop)."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,579 @@
+{
+    "name": "Philippines",
+    "code": "PH",
+    "slug": "philippines",
+    "flag": "https://flagcdn.com/w160/ph.png",
+    "region": "Asia",
+    "languages": [
+        "Filipino",
+        "English"
+    ],
+    "currencies": [
+        "PHP"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Philippines",
+                "subtitle": "Hire in Manila",
+                "description": "Compliant employment in SE Asia. We handle SSS, PhilHealth, Pag-IBIG.",
+                "bestFor": "BPO & Tech",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "ph-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Employment contract compliant with Labor Code."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Statutory",
+                                "description": "Register with SSS, PhilHealth, and Pag-IBIG (HDMF)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "BIR",
+                                "description": "Tax Registration (Form 1902/2305)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ph-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "SSS",
+                                    "values": [
+                                        "9.5%",
+                                        "4.5%",
+                                        "Social Security System (14% Total)."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "PhilHealth",
+                                    "values": [
+                                        "2.5%",
+                                        "2.5%",
+                                        "Health Insurance (5% Total, Cap 100k)."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Pag-IBIG",
+                                    "values": [
+                                        "2%",
+                                        "2%",
+                                        "Housing Fund (Max 200 PHP each)."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "13th Month",
+                                    "values": [
+                                        "8.33%",
+                                        "0%",
+                                        "Mandatory year-end bonus."
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ph-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Chinese New Year",
+                                "description": "January 29"
+                            },
+                            {
+                                "title": "People Power Anniv",
+                                "description": "February 25"
+                            },
+                            {
+                                "title": "Day of Valor",
+                                "description": "April 9"
+                            },
+                            {
+                                "title": "Maundy Thursday",
+                                "description": "April 17"
+                            },
+                            {
+                                "title": "Good Friday",
+                                "description": "April 18"
+                            },
+                            {
+                                "title": "Black Saturday",
+                                "description": "April 19"
+                            },
+                            {
+                                "title": "Labor Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Eid al-Adha",
+                                "description": "June 6 (Estimated)"
+                            },
+                            {
+                                "title": "Independence Day",
+                                "description": "June 12"
+                            },
+                            {
+                                "title": "Ninoy Aquino Day",
+                                "description": "August 21"
+                            },
+                            {
+                                "title": "National Heroes Day",
+                                "description": "August 25"
+                            },
+                            {
+                                "title": "All Saints' Day",
+                                "description": "November 1"
+                            },
+                            {
+                                "title": "Bonifacio Day",
+                                "description": "November 30"
+                            },
+                            {
+                                "title": "Immaculate Conception",
+                                "description": "December 8"
+                            },
+                            {
+                                "title": "Christmas Eve",
+                                "description": "December 24"
+                            },
+                            {
+                                "title": "Christmas Day",
+                                "description": "December 25"
+                            },
+                            {
+                                "title": "Rizal Day",
+                                "description": "December 30"
+                            },
+                            {
+                                "title": "New Year's Eve",
+                                "description": "December 31"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ph-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax (TRAIN Law)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Annual Income (PHP)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Up to 250,000",
+                                    "values": [
+                                        "0%",
+                                        "Exempt."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "250,001 - 400,000",
+                                    "values": [
+                                        "15%",
+                                        "Of excess over 250k."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "400,001 - 800,000",
+                                    "values": [
+                                        "20%",
+                                        "+ 22,500 base."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "800,001 - 2,000,000",
+                                    "values": [
+                                        "25%",
+                                        "+ 102,500 base."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Over 8,000,000",
+                                    "values": [
+                                        "35%",
+                                        "Top rate."
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ph-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Basic Salary + Allowances."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "SSS/PhilHealth/PagIBIG",
+                                "description": "Deduct employee share of all statutory contributions."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax Base",
+                                "description": "Gross - De Minimis - Contributions."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Income Tax",
+                                "description": "Apply TRAIN law table (0-35%)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Net",
+                                "description": "Gross - Contributions - Tax."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Philippines",
+                "subtitle": "SEC",
+                "description": "Domestic Corp.",
+                "bestFor": "BPO",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "ph-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "SEC",
+                                "description": "Register with Securities and Exchange Commission."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "LGU",
+                                "description": "Obtain Mayor's Permit from Local Government Unit."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "BIR",
+                                "description": "Register with Bureau of Internal Revenue."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ph-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "BDO",
+                                "description": "Banco de Oro."
+                            },
+                            {
+                                "title": "BPI",
+                                "description": "Bank of the Philippine Islands."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Philippines",
+                "subtitle": "BPO Capital",
+                "description": "English speaking.",
+                "bestFor": "Support",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "ph-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Metro Manila",
+                                "text": "Main business hub (Makati, BGC)."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Cebu",
+                                "text": "Major BPO center."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Philippines",
+                "subtitle": "Cloud",
+                "description": "Tech savvy.",
+                "bestFor": "Efficiency",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "ph-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Alphalist",
+                                "description": "Annual 1604-C/F submission support."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Philippines",
+                "subtitle": "PFRS",
+                "description": "IFRS adopted.",
+                "bestFor": "Compliance",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "ph-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "PFRS",
+                                "text": "Philippine Financial Reporting Standards (based on IFRS)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ph-comp-labor",
+                    "type": "warning",
+                    "title": "Due Process",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Termination",
+                                "description": "Strict requirements for Just/Authorized causes and twin-notice rule."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ph-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "RCIT",
+                                    "values": [
+                                        "25%",
+                                        "Regular Corporate Income Tax (20% for SMEs)."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "MCIT",
+                                    "values": [
+                                        "2%",
+                                        "Minimum Corporate Income Tax."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "VAT",
+                                    "values": [
+                                        "12%",
+                                        "Standard rate."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Philippines",
+                "subtitle": "Mixed",
+                "description": "Civil & Common.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "ph-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "English is officially used for business and law."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Philippines",
+                "subtitle": "GCash",
+                "description": "Super app.",
+                "bestFor": "Payments",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "ph-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "GCash",
+                                "description": "Dominant mobile wallet."
+                            },
+                            {
+                                "title": "Maya",
+                                "description": "Digital bank and wallet."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Philippines",
+                "subtitle": "Social",
+                "description": "Top users.",
+                "bestFor": "Engagement",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "ph-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Facebook",
+                                "text": "Extremely high penetration."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

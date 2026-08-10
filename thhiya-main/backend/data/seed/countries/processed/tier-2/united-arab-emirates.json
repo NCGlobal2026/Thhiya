@@ -1,0 +1,636 @@
+{
+    "name": "United Arab Emirates",
+    "code": "AE",
+    "slug": "united-arab-emirates",
+    "flag": "https://flagcdn.com/w160/ae.png",
+    "region": "Middle East",
+    "languages": [
+        "Arabic",
+        "English"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "Hire in UAE Without a Local Entity",
+                "subtitle": "Visa Sponsorship & Payroll Compliance",
+                "description": "Legally hire expats and UAE nationals in Dubai, Abu Dhabi, and across all Free Zones without a local trade license. Our EOR holds the visa quota, handles MoHRE contracts, and ensures 100% WPS compliance.",
+                "bestFor": "Startups and multinationals scaling without a dedicated UAE entity.",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "ae-eor-visa-process",
+                    "type": "key_steps",
+                    "title": "Residency Visa & Work Permit",
+                    "subtitle": "2-4 Weeks Timeline",
+                    "description": "Comprehensive sponsorship oversight for skilled and unskilled labor.",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Quota & Offer Letter",
+                                "description": "Verify visa quota availability and issue MoHRE-standard offer letter to the candidate."
+                            },
+                            {
+                                "title": "Entry Permit (Pink Slip)",
+                                "description": "Apply for the preliminary entry permit to allow the employee to enter the UAE legally."
+                            },
+                            {
+                                "title": "Change of Status",
+                                "description": "Update the visa status from 'Visit' to 'Employment' if the employee is already in-country."
+                            },
+                            {
+                                "title": "Medical & Biometrics",
+                                "description": "Mandatory blood test for infectious diseases and fingerprinting for the Emirates ID."
+                            },
+                            {
+                                "title": "Contract Attestation",
+                                "description": "Digital signing and attestation of the MoHRE employment contract (fixed-term)."
+                            },
+                            {
+                                "title": "Visa Stamping/E-Visa",
+                                "description": "Final residency approval and issuance of the digital Emirates ID card."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ae-eor-workforce-rules",
+                    "type": "insights",
+                    "title": "Employment Regulations 2026",
+                    "subtitle": "Statutory Compliance",
+                    "description": "Critical updates for headcount management and hiring targets.",
+                    "order": 2,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Emiratisation (Nafis)",
+                                "text": "Mainland firms with 20-49 staff must hire 1 Emirati by end-2025 and an additional 1 by end-2026. Non-compliance results in monthly fines of AED 6,000+ per headcount."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Fixed-Term Contracts",
+                                "text": "All private sector employees must be on fixed-term contracts (max 3 years, renewable). Unlimited contracts are no longer valid under the 2022 Labor Law."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Golden Visa Eligibility",
+                                "text": "Highly skilled professionals with a monthly basic salary of AED 30,000+ can apply for self-sponsored 10-year residency, reducing EOR dependency."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Part-Time & Remote",
+                                "text": "Specific MOHRE work permits are required for part-time, temporary, or flexible work arrangements to avoid labor inspection fines."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ae-eor-benefits-mandate",
+                    "type": "insights",
+                    "title": "Mandatory Benefits",
+                    "subtitle": "Legal Requirements",
+                    "description": "Statutory entitlements for all employees under UAE labor law.",
+                    "order": 4,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Health Insurance",
+                                "text": "Mandatory for all employees. In Dubai (ISAHD) and Abu Dhabi (CHIAD), the employer MUST provide a minimum level of coverage (Essential Benefit Plan)."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Annual Leave",
+                                "text": "30 calendar days for each year of service. 2 days per month if employed more than 6 months but less than a year."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Unemployment Insurance",
+                                "text": "ILOE (Involuntary Loss of Employment) is mandatory for ALL employees. While typically paid by the employee, the EOR must ensure registration."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Sick Leave",
+                                "text": "Entitled to 90 days total (after probation): first 15 days full pay, next 30 days half pay, remaining 45 days unpaid."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ae-payroll-monthly-cycle",
+                    "type": "key_steps",
+                    "title": "The Monthly WPS Cycle",
+                    "subtitle": "Deadlines & SIF Format",
+                    "description": "The standardized process for salary disbursement enforced by MoHRE.",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Data Consolidation",
+                                "description": "Gather basic pay, housing, transport, and variable commissions for all staff."
+                            },
+                            {
+                                "title": "SIF File Generation",
+                                "description": "Create the Salary Information File (.SIF) containing Employer ID and Bank Agent ID."
+                            },
+                            {
+                                "title": "Portal Submission",
+                                "description": "Upload the SIF to the bank's WPS portal. Common bank fees range from AED 50 to AED 100 per file."
+                            },
+                            {
+                                "title": "Central Bank Validation",
+                                "description": "The UAE Central Bank validates the file against registered MoHRE contracts."
+                            },
+                            {
+                                "title": "Fund Release",
+                                "description": "Salaries are credited to employee accounts or exchange house cards (e.g., Al Ansari)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ae-payroll-wps-rules",
+                    "type": "insights",
+                    "title": "WPS Compliance Rules",
+                    "subtitle": "Avoiding Blocks & Fines",
+                    "description": "Strict thresholds for maintaining a healthy company status.",
+                    "order": 2,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "The 80% Rule",
+                                "text": "At least 80% of the total registered workforce must receive their salary via WPS every month to avoid labor system blocks."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Payment Deadlines",
+                                "text": "Salaries are considered late if not paid within 15 days of the due date. Delays beyond 30 days trigger immediate work permit bans."
+                            },
+                            {
+                                "type": "info",
+                                "title": "SIF Record Fees",
+                                "text": "Banks typically charge AED 3.15 per employee record in the SIF file. Manual branch processing is significantly more expensive (AED 700+)."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Unpaid Leave Documentation",
+                                "text": "Employees on unpaid leave must be reported via the MoHRE portal to prevent 'salary mismatch' flags during SIF validation."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ae-payroll-end-of-service",
+                    "type": "insights",
+                    "title": "End of Service Gratuity",
+                    "subtitle": "Statutory Calculation",
+                    "description": "Mandatory benefit for expatriates upon contract termination.",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Statutory Formula",
+                                "text": "21 days of basic wage for each year (yrs 1-5). 30 days of basic wage for each year thereafter (yrs 5+)."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Eligibility Threshold",
+                                "text": "Gratuity is only payable after 1 continuous year of service. Probation periods are included in the cumulative calculation."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Global Pension (GP)",
+                                "text": "DIFC-based firms use the DEWS (DIFC Employee Workplace Savings) scheme instead of end-of-service gratuity."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Maximum Entitlement",
+                                "text": "The total gratuity payment cannot exceed two years' worth of the employee's total wages."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ae-payroll-pension-rules",
+                    "type": "insights",
+                    "title": "Social Security (GPSSA)",
+                    "subtitle": "UAE & GCC Citizens",
+                    "description": "Mandatory pension contributions for local talent.",
+                    "order": 4,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Registration Deadline",
+                                "text": "Emirati staff must be registered with the General Pension and Social Security Authority (GPSSA) within 30 days of joining."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Contribution Split 2026",
+                                "text": "Employer share is 12.5% to 15%, employee share is 5%. Calculations are based on Basic salary + specific allowances."
+                            },
+                            {
+                                "type": "info",
+                                "title": "GCC Reciprocity",
+                                "text": "Omani, Saudi, and Kuwaiti nationals in UAE must be enrolled in their home country's pension scheme via the GPSSA portal."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ae-payroll-year-end",
+                    "type": "key_steps",
+                    "title": "Year-End Compliance",
+                    "subtitle": "Annual Audit Prep",
+                    "description": "Critical tasks to close the financial year for UAE payroll.",
+                    "order": 5,
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Gratuity Reconciliation",
+                                "description": "Verify EOS accruals against current basic salaries and tenure updates."
+                            },
+                            {
+                                "title": "SIF Audit",
+                                "description": "Cross-reference annual bank disbursements with MoHRE registered figures."
+                            },
+                            {
+                                "title": "Pension Adjustment",
+                                "description": "Update GPSSA contributions based on annual salary increments for Emirati staff."
+                            },
+                            {
+                                "title": "Leave Entitlement Carryover",
+                                "description": "Calculate and document unused annual leave for the next cycle per labor law."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "eor-peo-aor",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR"
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "UAE Company Formation",
+                "subtitle": "Mainland & 40+ Free Zones",
+                "description": "Navigate the complexities of UAE entity setup. From 100% foreign-owned Mainland companies to specialized Free Zones like DMCC, ADGM, and DIFC, we handle the entire licensing and registration workflow.",
+                "bestFor": "Enterprises and tech startups establishing a physical presence in the MEA region.",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "ae-inc-formation-steps",
+                    "type": "key_steps",
+                    "title": "Formation Roadmap",
+                    "subtitle": "5-15 Days Timeline",
+                    "description": "Standard procedure for establishing a legal entity in the UAE.",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Jurisdiction Choice",
+                                "description": "Select between Mainland (DED), Free Zone (e.g., DMCC), or Offshore (e.g., JAFZA)."
+                            },
+                            {
+                                "title": "Activity Selection",
+                                "description": "Map your business to specific MoHRE and DED activity codes (e.g., 'IT Consultancy')."
+                            },
+                            {
+                                "title": "Trade Name Approval",
+                                "description": "Reserve a unique name. Note: Names with 'Global' or 'International' carry higher reservation fees."
+                            },
+                            {
+                                "title": "Initial Approval",
+                                "description": "Obtain a 'No Objection' certificate from relevant authorities to proceed with leasing."
+                            },
+                            {
+                                "title": "Office Lease (Ejari)",
+                                "description": "Sign a physical or virtual office lease. Mandatory for license issuance in most jurisdictions."
+                            },
+                            {
+                                "title": "License Issuance",
+                                "description": "Pay final fees and receive your Commercial, Industrial, or Professional license."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ae-inc-ownership-rules",
+                    "type": "insights",
+                    "title": "Ownership & Control",
+                    "subtitle": "100% Foreign Ownership",
+                    "description": "Understanding the 2021 Commercial Companies Law changes.",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Mainland Liberalization",
+                                "text": "Non-oil commercial activities in the Mainland no longer require a local Emirati partner (51%). Investors can own 100% of the company."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Strategic Impact List",
+                                "text": "Certain sectors (Defense, Telecom, Banking) still require Emirati majority ownership or UAE Cabinet approval."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Local Service Agent",
+                                "text": "Professional licenses (e.g., Doctors, Lawyers) still require a Local Service Agent (LSA) for MoHRE liaison, though ownership remains 100% foreign."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ae-inc-bank-account",
+                    "type": "insights",
+                    "title": "Corporate Banking",
+                    "subtitle": "Final Compliance Gate",
+                    "description": "The most complex step in the UAE setup journey.",
+                    "order": 4,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "KYC Depth",
+                                "text": "Banks like Wio, EDB, and FAB require 3-6 months of personal/business bank statements and proof of residency for all UBOs."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Digital Banking",
+                                "text": "Wio and Mashreq NeoBiz offer faster onboarding (sub-48 hours) for SMEs compared to traditional branch-based banking (4-6 weeks)."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Sanction Checks",
+                                "text": "Strict screening for transactions involving high-risk jurisdictions. Maintaining a clean audit trail is vital for account longevity."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ae-inc-renewal-cycle",
+                    "type": "insights",
+                    "title": "License Renewal Obligations",
+                    "subtitle": "Annual Maintenance",
+                    "description": "Maintaining legal standing for your UAE entity.",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Grace Periods",
+                                "text": "Most jurisdictions offer a 30-day grace period. Beyond this, daily fines of AED 100 - 500 apply, and the license may be suspended."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Ejari Sync",
+                                "text": "License renewal requires a valid office lease (Ejari). Virtual offices in Free Zones must also show active renewal status."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Audit Submission",
+                                "text": "Ensure audited financials (if required) are uploaded to the DED/Free Zone portal at least 30 days before the license expiry."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "incorporation-entity-setup",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)"
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "heroData": {
+                "title": "UAE Talent Sourcing",
+                "subtitle": "Connecting with Global & Local Talent",
+                "description": "Access the UAE's diverse expat and national talent pool. From executive search to high-volume recruitment for retail and construction, our partners use MoHRE-licensed frameworks for ethical and compliant hiring.",
+                "bestFor": "Rapidly scaling teams in Dubai, Abu Dhabi, and Riyadh.",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "ae-staffing-agency-types",
+                    "type": "key_steps",
+                    "title": "Agency Licensing Models",
+                    "subtitle": "2025 MoHRE Guidelines",
+                    "description": "Understanding the legal requirements for recruitment firms in the UAE.",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Intermediation License",
+                                "description": "For agencies focusing on sourcing and placement only. Bank guarantee: AED 300,000."
+                            },
+                            {
+                                "title": "Temporary Staffing",
+                                "description": "For agencies that employ staff and outsource them to clients. Bank guarantee: AED 1,000,000."
+                            },
+                            {
+                                "title": "Ejari Requirement",
+                                "description": "Physical office space (minimum 500 sq ft) is mandatory for license approval."
+                            },
+                            {
+                                "title": "MoHRE Inspection",
+                                "description": "On-site audit of premises and credit report check for all directors."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ae-staffing-emiratisation-focus",
+                    "type": "insights",
+                    "title": "Emiratisation Sourcing",
+                    "subtitle": "Meeting Nafis Targets",
+                    "description": "Strategy for hiring UAE National citizens.",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Salary Minima",
+                                "text": "Effective Jan 2026, the minimum monthly wage for Emiratis in the private sector is AED 6,000 for university graduates."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Nafis Platform",
+                                "text": "All vacancies for UAE nationals MUST be posted on the Nafis portal for at least 5 days before an offer can be finalized."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Pension Support",
+                                "text": "Nafis provides pension contribution support (up to AED 1,250/month) for eligible Emirati employees, reducing the employer's burden."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ae-staffing-legal-protections",
+                    "type": "insights",
+                    "title": "Candidate Protections",
+                    "subtitle": "Ethical Recruitment",
+                    "description": "Strict MoHRE rules protecting foreign workers.",
+                    "order": 4,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "No Placement Fees",
+                                "text": "It is ILLEGAL in the UAE to charge candidates any fees for recruitment. All costs must be borne by the employer."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Passport Retention",
+                                "text": "Employers and agencies are strictly prohibited from retaining an employee's original passport."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Offer Letter Integrity",
+                                "text": "The terms in the MoHRE-approved offer letter cannot be changed to the candidate's detriment in the final labor contract."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "staffing-recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting"
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "UAE-Localized HR Tech",
+                "subtitle": "Insurance, Payroll & Document Management",
+                "description": "Streamline your UAE operations with HRIS platforms built for the Middle East. Automate WPS file generation, Emirates ID expiration alerts, and mandatory health insurance renewals through a single digital interface.",
+                "bestFor": "Growing teams needing localized compliance and employee self-service.",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "ae-hris-compliance-automation",
+                    "type": "key_steps",
+                    "title": "Compliance Automation",
+                    "subtitle": "Reducing Admin Burden",
+                    "description": "How modern HRIS handles UAE-specific administrative tasks.",
+                    "order": 2,
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "WPS Integration",
+                                "description": "Auto-generate .SIF files formatted specifically for UAE banks (ENBD, ADCB, etc.)."
+                            },
+                            {
+                                "title": "Document Expiry Tracking",
+                                "description": "Automated alerts for Passport, Visa, and Emirates ID renewals (90/60/30 days)."
+                            },
+                            {
+                                "title": "EndOfService (EOS) Logic",
+                                "description": "Real-time calculation of gratuity accruals based on the 2022 Labor Law."
+                            },
+                            {
+                                "title": "Health Insurance Sync",
+                                "description": "Direct portal links to DHA/DoH for adding/removing dependents and employees."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ae-hris-employee-experience",
+                    "type": "insights",
+                    "title": "Employee Self-Service",
+                    "subtitle": "Digital UAE Experience",
+                    "description": "Empowering workers with mobile-first HR tools.",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Digital Payslips",
+                                "text": "WPS-linked payslips delivered via mobile apps, ensuring workers have proof of salary for personal banking/loans."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Leave Management",
+                                "text": "Automated balance tracking for Annual, Sick, and Hajj leave (statutory entitlements)."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Letter Automation",
+                                "text": "Instant generation of Salary Certificates and NOCs required for UAE apartment rentals and car financing."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ae-hris-data-sovereignty",
+                    "type": "insights",
+                    "title": "Security & Privacy",
+                    "subtitle": "UAE Data Law Compliance",
+                    "description": "Protecting sensitive HR data under local regulations.",
+                    "order": 4,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Personal Data Law",
+                                "text": "Compliance with Federal Decree-Law No. 45 of 2021 regarding the Protection of Personal Data is mandatory for HR vendors."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Local Hosting",
+                                "text": "Many government-linked entities require HR data to be hosted on UAE-based servers (e.g., Azure UAE or AWS ME)."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "SOC2/ISO27001",
+                                "text": "Ensure your HRIS provider maintains high international security standards for cloud-based payroll records."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ae-hris-security-depth",
+                    "type": "insights",
+                    "title": "Cloud Security Framework",
+                    "subtitle": "Data Protection",
+                    "description": "Technical standards for UAE HR software vendors.",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Encryption At Rest",
+                                "text": "All employee PII (Personally Identifiable Information) must be encrypted using AES-256 standards as per TDRA recommendations."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Access Logging",
+                                "text": "Maintain immutable audit logs for all administrative actions, required for FTA and MoHRE compliance reviews."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "MFA Mandate",
+                                "text": "Enable Multi-Factor Authentication for all 'Manager' and 'Admin' level roles to prevent unauthorized payroll manipulation."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "hris-hrms-ats",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS"
+        }
+    ]
+}

@@ -1,0 +1,536 @@
+{
+    "name": "Mauritius",
+    "code": "MU",
+    "slug": "mauritius",
+    "flag": "https://flagcdn.com/w160/mu.png",
+    "region": "Africa",
+    "languages": [
+        "English",
+        "French"
+    ],
+    "currencies": [
+        "MUR"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Mauritius",
+                "subtitle": "Hire in Port Louis",
+                "description": "Compliant employment in the Indian Ocean. We handle CSG contributions.",
+                "bestFor": "Finance & Tech",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "mu-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Standard employment contract required."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "MRA",
+                                "description": "Register employee with Mauritius Revenue Authority (PAYE/CSG)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Data Protection",
+                                "description": "Ensure compliance with Data Protection Act."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mu-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "CSG (Social Security)",
+                                    "values": [
+                                        "3% - 6%",
+                                        "1.5% - 3%",
+                                        "Contribution Sociale Généralisée. Rate depends on salary level."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "NSF",
+                                    "values": [
+                                        "2.5%",
+                                        "1%",
+                                        "National Savings Fund."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "HRDC Levy",
+                                    "values": [
+                                        "1.5%",
+                                        "0%",
+                                        "Training Levy."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "PRGF",
+                                    "values": [
+                                        "4.5%",
+                                        "0%",
+                                        "Portable Retirement Gratuity Fund (if applicable)."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "mu-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year",
+                                "description": "January 1-2"
+                            },
+                            {
+                                "title": "Chinese Spring Festival",
+                                "description": "January 29"
+                            },
+                            {
+                                "title": "Abolition of Slavery",
+                                "description": "February 1"
+                            },
+                            {
+                                "title": "Thaipoosam Cavadee",
+                                "description": "February 11"
+                            },
+                            {
+                                "title": "Maha Shivaratree",
+                                "description": "February 26"
+                            },
+                            {
+                                "title": "National Day",
+                                "description": "March 12"
+                            },
+                            {
+                                "title": "Ugadi",
+                                "description": "March 30"
+                            },
+                            {
+                                "title": "Eid-Ul-Fitr",
+                                "description": "March 31 (Subject to moon)"
+                            },
+                            {
+                                "title": "Labour Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Ganesh Chaturthi",
+                                "description": "August 28"
+                            },
+                            {
+                                "title": "All Saints' Day",
+                                "description": "November 1"
+                            },
+                            {
+                                "title": "Arrival of Indentured Labourers",
+                                "description": "November 2"
+                            },
+                            {
+                                "title": "Christmas Day",
+                                "description": "December 25"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mu-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax (PAYE)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Chargeable Income (MUR)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "First 390,000",
+                                    "values": [
+                                        "0%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Next Bands",
+                                    "values": [
+                                        "2% - 18%",
+                                        "Graduated rates (2, 4, 6, 8, 10, 12, 14, 16, 18%)."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Above ~2.39M",
+                                    "values": [
+                                        "20%",
+                                        "Top Rate."
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "mu-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Base Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "CSG & NSF",
+                                "description": "Deduct (1.5-3% CSG) + (1% NSF)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax Base",
+                                "description": "Gross - Exemptions/Deductions."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "PAYE",
+                                "description": "Apply 0-20% graduated rates."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Net",
+                                "description": "Gross - CSG/NSF - PAYE."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Mauritius",
+                "subtitle": "GBC",
+                "description": "Global Business Company.",
+                "bestFor": "Offshore",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "mu-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Name Reservation",
+                                "description": "Reserve with ROC (Registrar of Companies)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Application",
+                                "description": "Submit formation docs to FSC (Financial Services Commission) for GBCs."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Licensing",
+                                "description": "Obtain Global Business License."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mu-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "MCB",
+                                "description": "Mauritius Commercial Bank."
+                            },
+                            {
+                                "title": "SBM",
+                                "description": "State Bank of Mauritius."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Mauritius",
+                "subtitle": "Bilingual",
+                "description": "English/French workers.",
+                "bestFor": "BPO",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "mu-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Ebène Cybercity",
+                                "text": "Tech and Business hub."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Mauritius",
+                "subtitle": "MRA Compliant",
+                "description": "Annual Returns.",
+                "bestFor": "Records",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "mu-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "EDF",
+                                "description": "Employee Declaration Form for tax reliefs."
+                            },
+                            {
+                                "title": "Annual Return",
+                                "description": "Submit Statement of Emoluments."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Mauritius",
+                "subtitle": "IFRS",
+                "description": "Global standard.",
+                "bestFor": "Compliance",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "mu-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "IFRS",
+                                "text": "Mandatory for most entities."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mu-comp-labor",
+                    "type": "warning",
+                    "title": "Portable Gratuity",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "PRGF",
+                                "description": "Contribution required to fund end-of-service gratuity."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mu-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax",
+                                    "values": [
+                                        "15%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "GBC Partial Exemption",
+                                    "values": [
+                                        "80%",
+                                        "Exemption on certain income, effective rate ~3%."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "VAT",
+                                    "values": [
+                                        "15%"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Mauritius",
+                "subtitle": "Hybrid",
+                "description": "French Civil + English Common Law.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "mu-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Arbitration",
+                                "text": "Mauritius is a key arbitration center for Africa."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Mauritius",
+                "subtitle": "Juice",
+                "description": "MCB Juice app.",
+                "bestFor": "Payments",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "mu-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Juice by MCB",
+                                "description": "Dominant payment app."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Mauritius",
+                "subtitle": "Digital",
+                "description": "Sophisticated market.",
+                "bestFor": "Targeting",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "mu-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Facebook/Instagram",
+                                "text": "Very high penetration."
+                            },
+                            {
+                                "type": "info",
+                                "title": "LinkedIn",
+                                "text": "Standard for B2B."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

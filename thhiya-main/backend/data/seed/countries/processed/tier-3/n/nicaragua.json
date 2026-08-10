@@ -1,0 +1,521 @@
+{
+    "name": "Nicaragua",
+    "code": "NI",
+    "slug": "nicaragua",
+    "flag": "https://flagcdn.com/w160/ni.png",
+    "region": "Americas",
+    "languages": [
+        "Spanish"
+    ],
+    "currencies": [
+        "NIO"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Nicaragua",
+                "subtitle": "Hire in Managua",
+                "description": "Compliant employment in Central America. We handle INSS contributions.",
+                "bestFor": "Textiles & BPO",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "ni-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Written contract in Spanish filed with Ministry of Labor (MITRAB)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "INSS",
+                                "description": "Register with Instituto Nicaragüense de Seguridad Social."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "INATEC",
+                                "description": "Register for vocational training fund."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ni-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Security (INSS)",
+                                    "values": [
+                                        "21.5% - 22.5%",
+                                        "7%",
+                                        "Employer rate depends on company size (<50 vs >50 employees)."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "INATEC",
+                                    "values": [
+                                        "2%",
+                                        "0%",
+                                        "Vocational Training contribution."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "13th Month",
+                                    "values": [
+                                        "8.33%",
+                                        "0%",
+                                        "Mandatory Christmas Bonus (Aguinaldo)."
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ni-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Holy Thursday",
+                                "description": "April 17"
+                            },
+                            {
+                                "title": "Good Friday",
+                                "description": "April 18"
+                            },
+                            {
+                                "title": "Labor Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Mother's Day",
+                                "description": "May 30"
+                            },
+                            {
+                                "title": "Revolution Day",
+                                "description": "July 19"
+                            },
+                            {
+                                "title": "Battle of San Jacinto",
+                                "description": "September 14"
+                            },
+                            {
+                                "title": "Independence Day",
+                                "description": "September 15"
+                            },
+                            {
+                                "title": "Immaculate Conception",
+                                "description": "December 8"
+                            },
+                            {
+                                "title": "Christmas Day",
+                                "description": "December 25"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ni-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Annual Income (NIO)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Up to 100,000",
+                                    "values": [
+                                        "0%",
+                                        "Exempt."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "100,001 - 200,000",
+                                    "values": [
+                                        "15%",
+                                        "Plus base amount."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "200,001 - 350,000",
+                                    "values": [
+                                        "20%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "350,001 - 500,000",
+                                    "values": [
+                                        "25%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Over 500,000",
+                                    "values": [
+                                        "30%",
+                                        "Top rate."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Non-Residents",
+                                    "values": [
+                                        "20%",
+                                        "Flat withholding."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ni-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Base Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "INSS",
+                                "description": "Deduct 7%."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax Base",
+                                "description": "Gross - INSS."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "IR",
+                                "description": "Apply 0-30% progressive tax."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Net",
+                                "description": "Gross - INSS - IR."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Nicaragua",
+                "subtitle": "S.A.",
+                "description": "Sociedad Anónima.",
+                "bestFor": "Investment",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "ni-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Deed",
+                                "description": "Public Deed of Incorporation before a Notary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Registry",
+                                "description": "Register with Mercantile Registry."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "RUC",
+                                "description": "Obtain Tax ID (RUC) from DGI."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ni-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "BAC",
+                                "description": "Banco de América Central."
+                            },
+                            {
+                                "title": "Banpro",
+                                "description": "Banco de la Producción."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Nicaragua",
+                "subtitle": "Managua",
+                "description": "BPO & Manufacturing.",
+                "bestFor": "Cost",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "ni-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Managua",
+                                "text": "Call center and industrial hub."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Nicaragua",
+                "subtitle": "INSS Online",
+                "description": "Digital reporting.",
+                "bestFor": "Compliance",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "ni-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "INSS Portal",
+                                "description": "Monthly declarations via online system."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Nicaragua",
+                "subtitle": "NIIF",
+                "description": "IFRS adopted.",
+                "bestFor": "Compliance",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "ni-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "NIIF",
+                                "text": "Normas Internacionales de Información Financiera (IFRS)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ni-comp-labor",
+                    "type": "warning",
+                    "title": "Minimum Wage",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Sectors",
+                                "description": "Different minimum wages for different economic sectors, updated every 6 months."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ni-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax (IR)",
+                                    "values": [
+                                        "30%",
+                                        "Or Minimum Payment (PMD) 1-3% of gross income, whichever is higher."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "VAT (IVA)",
+                                    "values": [
+                                        "15%"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Nicaragua",
+                "subtitle": "Civil Law",
+                "description": "Spanish influence.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "ni-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "Spanish is the official language."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Nicaragua",
+                "subtitle": "Banking",
+                "description": "App based.",
+                "bestFor": "Payments",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "ni-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Kash",
+                                "description": "Transfer app."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Nicaragua",
+                "subtitle": "Facebook",
+                "description": "Social heavy.",
+                "bestFor": "Engagement",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "ni-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Facebook",
+                                "text": "Most popular platform."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

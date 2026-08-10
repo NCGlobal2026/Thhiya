@@ -1,0 +1,502 @@
+{
+    "name": "Liberia",
+    "code": "LR",
+    "slug": "liberia",
+    "flag": "https://flagcdn.com/w160/lr.png",
+    "region": "Africa",
+    "languages": [
+        "English"
+    ],
+    "currencies": [
+        "LRD"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Liberia",
+                "subtitle": "Hire in Monrovia",
+                "description": "Compliant employment in West Africa. We handle NASSCORP contributions.",
+                "bestFor": "NGOs & Shipping",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "lr-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Employment contract in English."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "NASSCORP",
+                                "description": "Register employee with National Social Security and Welfare Corporation."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Work Permit",
+                                "description": "Required for non-Lliberians (ECOWAS exempt/special rules)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "lr-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Security (NASSCORP)",
+                                    "values": [
+                                        "6.0%",
+                                        "4.0%",
+                                        "Pension & Work Injury schemes."
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "lr-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Pioneers' Day",
+                                "description": "January 7"
+                            },
+                            {
+                                "title": "Armed Forces Day",
+                                "description": "February 11"
+                            },
+                            {
+                                "title": "Decoration Day",
+                                "description": "March 12"
+                            },
+                            {
+                                "title": "J.J. Roberts Birthday",
+                                "description": "March 15"
+                            },
+                            {
+                                "title": "Fast and Prayer Day",
+                                "description": "April 11"
+                            },
+                            {
+                                "title": "National Unification Day",
+                                "description": "May 14"
+                            },
+                            {
+                                "title": "Independence Day",
+                                "description": "July 26"
+                            },
+                            {
+                                "title": "Flag Day",
+                                "description": "August 24 (Observed August 25)"
+                            },
+                            {
+                                "title": "Thanksgiving Day",
+                                "description": "November 6"
+                            },
+                            {
+                                "title": "William V.S. Tubman Birthday",
+                                "description": "November 29"
+                            },
+                            {
+                                "title": "Christmas Day",
+                                "description": "December 25"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "lr-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax Brackets (Annual LRD)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Income (LRD)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "0 - 70,000",
+                                    "values": [
+                                        "0%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "70,001 - 200,000",
+                                    "values": [
+                                        "5%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "200,001 - 800,000",
+                                    "values": [
+                                        "15%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Above 800,000",
+                                    "values": [
+                                        "25%"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "lr-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Base Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "NASSCORP",
+                                "description": "Deduct 4%."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax Base",
+                                "description": "Gross Amount (Tax applies to gross, usually brackets applied directly)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Income Tax",
+                                "description": "Apply progressive rates (0-25%)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Net",
+                                "description": "Gross - NASSCORP - Tax."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Liberia",
+                "subtitle": "LLC / Corp",
+                "description": "Registering a Business Corporation.",
+                "bestFor": "Shipping",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "lr-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Name Reservation",
+                                "description": "Reserve with LBR (Liberia Business Registry)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Registration",
+                                "description": "File Articles of Incorporation."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax ID",
+                                "description": "Obtain TIN."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "lr-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Ecobank Liberia",
+                                "description": "Major pan-African bank."
+                            },
+                            {
+                                "title": "United Bank for Africa (UBA)",
+                                "description": "Strong regional presence."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Liberia",
+                "subtitle": "NGO Focus",
+                "description": "Development sector talent.",
+                "bestFor": "NGOs",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "lr-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Monrovia",
+                                "text": "Capital and economic hub."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Liberia",
+                "subtitle": "Low Tech",
+                "description": "Spreadsheets common.",
+                "bestFor": "Basic",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "lr-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "NASSCORP Reporting",
+                                "description": "Monthly contribution schedules."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Liberia",
+                "subtitle": "GAAP",
+                "description": "US GAAP / IFRS.",
+                "bestFor": "Reporting",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "lr-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "IFRS",
+                                "text": "Adopted but implementation varies. US GAAP also common due to historical ties."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "lr-comp-labor",
+                    "type": "warning",
+                    "title": "Minimum Wage",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Rates",
+                                "description": "Fixed daily/monthly rates depending on sector (Formal/Informal)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "lr-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax",
+                                    "values": [
+                                        "25%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "GST",
+                                    "values": [
+                                        "7% / 10%",
+                                        "Goods and Services Tax on various goods/services."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Liberia",
+                "subtitle": "Common Law",
+                "description": "US Common Law based.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "lr-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "System",
+                                "text": "Legal system heavily influenced by US Common Law."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Liberia",
+                "subtitle": "TipMe",
+                "description": "Mobile wallets.",
+                "bestFor": "Payments",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "lr-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "TipMe Liberia",
+                                "description": "Popular mobile wallet app."
+                            },
+                            {
+                                "title": "Sendwave",
+                                "description": "Used for remittances."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Liberia",
+                "subtitle": "Radio/FB",
+                "description": "Mix of old and new.",
+                "bestFor": "Reach",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "lr-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Radio",
+                                "text": "Still key for nationwide reach."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Facebook",
+                                "text": "Growing fast among youth."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

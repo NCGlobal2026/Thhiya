@@ -1,0 +1,512 @@
+{
+    "name": "Latvia",
+    "code": "LV",
+    "slug": "latvia",
+    "flag": "https://flagcdn.com/w160/lv.png",
+    "region": "Europe",
+    "languages": [
+        "Latvian"
+    ],
+    "currencies": [
+        "EUR"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Latvia",
+                "subtitle": "Hire in Riga",
+                "description": "Compliant employment in the Baltics. We handle VSAOI contributions.",
+                "bestFor": "Tech & Logistics",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "lv-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Employment Agreement",
+                                "description": "Written contract in Latvian. Electronic Data System (EDS) registration."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "SRS Registration",
+                                "description": "Register employee with State Revenue Service (VID) at least 1 hour before work starts."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Health Check",
+                                "description": "Mandatory initial health examination (OVP)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "lv-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Security (VSAOI)",
+                                    "values": [
+                                        "23.59%",
+                                        "10.50%",
+                                        "Total 34.09%. Covers pension, unemployment, disability, etc."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Business Risk Duty",
+                                    "values": [
+                                        "0.36 EUR/mo",
+                                        "0",
+                                        "Tiny monthly fee per employee."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "lv-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Good Friday",
+                                "description": "April 18"
+                            },
+                            {
+                                "title": "Easter Monday",
+                                "description": "April 21"
+                            },
+                            {
+                                "title": "Labour Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Independence Restoration",
+                                "description": "May 4 (Observed May 5)"
+                            },
+                            {
+                                "title": "Midsummer Eve (Līgo)",
+                                "description": "June 23"
+                            },
+                            {
+                                "title": "Midsummer Day (Jāņi)",
+                                "description": "June 24"
+                            },
+                            {
+                                "title": "Proclamation Day",
+                                "description": "November 18"
+                            },
+                            {
+                                "title": "Christmas Eve",
+                                "description": "December 24"
+                            },
+                            {
+                                "title": "Christmas Day",
+                                "description": "December 25"
+                            },
+                            {
+                                "title": "Boxing Day",
+                                "description": "December 26"
+                            },
+                            {
+                                "title": "New Year's Eve",
+                                "description": "December 31"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "lv-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax (2025 Rules)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Annual Income (EUR)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Up to 105,300",
+                                    "values": [
+                                        "25.5%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Above 105,300",
+                                    "values": [
+                                        "33%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Non-taxable Minimum",
+                                    "values": [
+                                        "500 EUR/mo",
+                                        "Fixed monthly non-taxable minimum (replaces differentiated structure)."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "lv-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Base Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "VSAOI (Employee)",
+                                "description": "Deduct 10.5%."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Non-taxable Min",
+                                "description": "Deduct fixed €500 (2025)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "IIN (Income Tax)",
+                                "description": "Apply 25.5% on remaining base."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Net",
+                                "description": "Gross - VSAOI - Tax."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Latvia",
+                "subtitle": "SIA",
+                "description": "Registering a Limited Liability Company (SIA).",
+                "bestFor": "EU Market",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "lv-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Enterprise Register",
+                                "description": "Submit application to 'Uzņēmumu reģistrs'. Can be done electronically with e-signature."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Share Capital",
+                                "description": "Minimum 2,800 EUR. 'Low capital' SIA possible with reduced requirements (1 EUR)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "VAT Registration",
+                                "description": "Mandatory if turnover > 40,000 EUR."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "lv-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Swedbank",
+                                "description": "Leading bank in the Baltics."
+                            },
+                            {
+                                "title": "SEB",
+                                "description": "Strong corporate presence."
+                            },
+                            {
+                                "title": "Citadele",
+                                "description": "Local champion with good tech."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Latvia",
+                "subtitle": "Fintech Hub",
+                "description": "Highly educated workforce.",
+                "bestFor": "IT & Finance",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "lv-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Riga",
+                                "text": "The capital dominates the labor market, especially for tech and shared services."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Latvia",
+                "subtitle": "EDS Integration",
+                "description": "Direct reporting to VID.",
+                "bestFor": "Compliance",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "lv-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "EDS Export",
+                                "description": "Must suffice for reporting via Electronic Declaration System (EDS)."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Latvia",
+                "subtitle": "Local GAAP",
+                "description": "Law on Annual Reports.",
+                "bestFor": "Reporting",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "lv-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Latvian GAAP",
+                                "text": "Aligned with EU directives. IFRS permitted for consolidated accounts."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "lv-comp-labor",
+                    "type": "warning",
+                    "title": "Overtime",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Limits",
+                                "description": "Max 8 hours overtime in 7 days. Double pay (100% premium) is required for overtime."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "lv-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Retained Earnings",
+                                    "values": [
+                                        "0%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Distributed Profit (Dividends)",
+                                    "values": [
+                                        "20%",
+                                        "Effective rate is 20/80 (25%) on the net dividend."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "VAT",
+                                    "values": [
+                                        "21%"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Latvia",
+                "subtitle": "Civil Law",
+                "description": "Solid EU framework.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "lv-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "Contracts must be in Latvian or bilingual."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Latvia",
+                "subtitle": "E-Signature",
+                "description": "Advanced digital ID.",
+                "bestFor": "Ops",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "lv-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "eParaksts",
+                                "description": "National e-Signature system, essential for B2G and B2B contracts."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Latvia",
+                "subtitle": "Digital",
+                "description": "High internet usage.",
+                "bestFor": "Growth",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "lv-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Facebook / Instagram",
+                                "text": "Dominant platforms."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Draugiem.lv",
+                                "text": "Local social network, still has some niche relevance but fading."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+name: Dependabot Auto-Merge
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  pull-requests: write
+  contents: write
+
+jobs:
+  dependabot:
+    runs-on: ubuntu-latest
+    if: github.actor == 'dependabot[bot]'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          sparse-checkout: .github/workflows
+          sparse-checkout-cone-mode: false
+
+      - name: Check if PR modifies workflow files
+        id: check-workflows
+        run: |
+          # Get list of changed files in this PR
+          FILES=$(gh pr view "$PR_URL" --json files --jq '.files[].path')
+          echo "Changed files:"
+          echo "$FILES"
+          
+          # Check if any workflow files are modified
+          if echo "$FILES" | grep -q "^\.github/workflows/"; then
+            echo "has_workflow_changes=true" >> $GITHUB_OUTPUT
+            echo "⚠️ PR modifies workflow files - skipping auto-merge"
+          else
+            echo "has_workflow_changes=false" >> $GITHUB_OUTPUT
+            echo "✅ No workflow changes - eligible for auto-merge"
+          fi
+        env:
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Enable auto-merge for Dependabot PRs
+        if: steps.check-workflows.outputs.has_workflow_changes == 'false'
+        run: gh pr merge --auto --merge "$PR_URL"
+        env:
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Skip auto-merge for workflow PRs
+        if: steps.check-workflows.outputs.has_workflow_changes == 'true'
+        run: |
+          echo "⚠️ Skipping auto-merge: This PR modifies workflow files."
+          echo "Please review and merge manually."
+

@@ -1,0 +1,498 @@
+{
+    "name": "Moldova",
+    "code": "MD",
+    "slug": "moldova",
+    "flag": "https://flagcdn.com/w160/md.png",
+    "region": "Europe",
+    "languages": [
+        "Romanian"
+    ],
+    "currencies": [
+        "MDL"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Moldova",
+                "subtitle": "Hire in Chișinău",
+                "description": "Compliant employment in Eastern Europe. We handle CNAS contributions.",
+                "bestFor": "Tech & Services",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "md-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Individual employment contract in Romanian."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Order",
+                                "description": "Internal order ('Ordin') regarding hiring."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "CNAS",
+                                "description": "Register with National Social Insurance House."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "md-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Security (CNAS)",
+                                    "values": [
+                                        "24%",
+                                        "0%",
+                                        "Employer covers most of social insurance."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Health Insurance (CNAM)",
+                                    "values": [
+                                        "0%",
+                                        "9%",
+                                        "Mandatory Health Insurance (AOAM) paid by employee."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "md-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Orthodox Christmas",
+                                "description": "January 7-8"
+                            },
+                            {
+                                "title": "International Women's Day",
+                                "description": "March 8"
+                            },
+                            {
+                                "title": "Orthodox Easter",
+                                "description": "April 20-21"
+                            },
+                            {
+                                "title": "Memorial Easter (Paștele Blajinilor)",
+                                "description": "April 27-28"
+                            },
+                            {
+                                "title": "Labour Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Victory Day / Europe Day",
+                                "description": "May 9"
+                            },
+                            {
+                                "title": "Children's Day",
+                                "description": "June 1"
+                            },
+                            {
+                                "title": "Independence Day",
+                                "description": "August 27"
+                            },
+                            {
+                                "title": "Limba Noastra (Language Day)",
+                                "description": "August 31"
+                            },
+                            {
+                                "title": "Western Christmas",
+                                "description": "December 25"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "md-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Personal Income Tax",
+                                    "values": [
+                                        "12%",
+                                        "Flat rate."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Personal Exemption",
+                                    "values": [
+                                        "MDL 27,000+",
+                                        "Annual personal allowance deductible."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "md-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Base Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Health Insurance",
+                                "description": "Deduct 9% (Employee share)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax Base",
+                                "description": "Gross - Health Ins - Personal Exemption."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Income Tax",
+                                "description": "Apply 12% Flat Rate."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Net",
+                                "description": "Gross - Health - Tax."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Moldova",
+                "subtitle": "SRL",
+                "description": "Limited Liability Company.",
+                "bestFor": "IT Park",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "md-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "ASP",
+                                "description": "Register with Public Services Agency (ASP)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Bank Account",
+                                "description": "Open temporary account for capital."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Fiscal Code",
+                                "description": "Obtained upon registration."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "md-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "maib",
+                                "description": "Moldova Agroindbank (Largest)."
+                            },
+                            {
+                                "title": "Victoriabank",
+                                "description": "Major bank."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Moldova",
+                "subtitle": "IT Talent",
+                "description": "Strong engineering.",
+                "bestFor": "Development",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "md-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Chișinău",
+                                "text": "Main tech and business hub."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Moldova",
+                "subtitle": "IPC",
+                "description": "Unified reports.",
+                "bestFor": "Reporting",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "md-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "IPC21",
+                                "description": "Unified monthly report for tax, social, and health contributions."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Moldova",
+                "subtitle": "SNC",
+                "description": "National Standards.",
+                "bestFor": "Compliance",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "md-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "SNC",
+                                "text": "National Accounting Standards (aligned with IFRS/EU Directives)."
+                            },
+                            {
+                                "type": "info",
+                                "title": "IFRS",
+                                "text": "Required for public interest entities."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "md-comp-labor",
+                    "type": "warning",
+                    "title": "Termination",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Grounds",
+                                "description": "Strict legal grounds required for dismissal."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "md-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax",
+                                    "values": [
+                                        "12%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Moldova IT Park",
+                                    "values": [
+                                        "7%",
+                                        "Single tax on turnover for residents (covers CIT, SS, etc.). Highly attractive."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "VAT",
+                                    "values": [
+                                        "20%"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Moldova",
+                "subtitle": "Civil Law",
+                "description": "Romanian/Continental.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "md-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "Romanian is the official language for legal documents."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Moldova",
+                "subtitle": "MIA",
+                "description": "Instant payments.",
+                "bestFor": "Transactions",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "md-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "MIA Instant Payments",
+                                "description": "National instant payment system."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Moldova",
+                "subtitle": "Digital",
+                "description": "Facebook/Insta.",
+                "bestFor": "Local Reach",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "md-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Social Media",
+                                "text": "High usage of Facebook and Instagram."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

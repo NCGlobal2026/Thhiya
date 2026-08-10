@@ -1,0 +1,522 @@
+{
+    "name": "Niger",
+    "code": "NE",
+    "slug": "niger",
+    "flag": "https://flagcdn.com/w160/ne.png",
+    "region": "Africa",
+    "languages": [
+        "French"
+    ],
+    "currencies": [
+        "XOF"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Niger",
+                "subtitle": "Hire in Niamey",
+                "description": "Compliant employment in West Africa. We handle CNSS contributions.",
+                "bestFor": "NGOs & Mining",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "ne-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Written contract stamped by ANPE (Employment Agency)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "CNSS",
+                                "description": "Register with Caisse Nationale de Sécurité Sociale."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Medical",
+                                "description": "Pre-employment medical exam."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ne-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "CNSS (Social Security)",
+                                    "values": [
+                                        "15.4%",
+                                        "5.25%",
+                                        "Pension 6.25%, Family 8.4%, Work Injury 1.75%."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Apprenticeship Tax",
+                                    "values": [
+                                        "3%",
+                                        "0%",
+                                        "3% for locals, 5% for expats."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "ANPE",
+                                    "values": [
+                                        "1%",
+                                        "0%",
+                                        "Employment agency tax."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ne-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Eid al-Fitr",
+                                "description": "March 30 (Estimated)"
+                            },
+                            {
+                                "title": "Concord Day",
+                                "description": "April 24"
+                            },
+                            {
+                                "title": "Labour Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Eid al-Adha",
+                                "description": "June 6 (Estimated)"
+                            },
+                            {
+                                "title": "Independence Day",
+                                "description": "August 3"
+                            },
+                            {
+                                "title": "Maouloud",
+                                "description": "September 5 (Estimated)"
+                            },
+                            {
+                                "title": "Republic Day",
+                                "description": "December 18"
+                            },
+                            {
+                                "title": "Christmas Day",
+                                "description": "December 25"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ne-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax (IUTS)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Monthly Income (XOF)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Up to 25,000",
+                                    "values": [
+                                        "1%",
+                                        "Base rate."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "25,001 - 50,000",
+                                    "values": [
+                                        "2%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "50,001 - 100,000",
+                                    "values": [
+                                        "6%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "100,001 - 150,000",
+                                    "values": [
+                                        "13%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "150,001 - 300,000",
+                                    "values": [
+                                        "25%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Over 400,000",
+                                    "values": [
+                                        "32%",
+                                        "Top rate."
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ne-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Base Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "CNSS",
+                                "description": "Deduct 5.25%."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax Base",
+                                "description": "Gross - CNSS."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "IUTS",
+                                "description": "Apply 1-32% progressive tax."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Net",
+                                "description": "Gross - CNSS - IUTS."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Niger",
+                "subtitle": "SARL",
+                "description": "Limited Liability Company.",
+                "bestFor": "Standard Biz",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "ne-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "RCCM",
+                                "description": "Register with Trade and Personal Property Credit Register."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "NIF",
+                                "description": "Obtain Fiscal Identification Number."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "CNSS",
+                                "description": "Social Security registration."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ne-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "BOA Niger",
+                                "description": "Bank of Africa."
+                            },
+                            {
+                                "title": "Ecobank",
+                                "description": "Pan-African bank."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Niger",
+                "subtitle": "Niamey",
+                "description": "Mining focus.",
+                "bestFor": "Industrial",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "ne-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Niamey",
+                                "text": "Capital and administrative center."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Niger",
+                "subtitle": "Paper",
+                "description": "Document heavy.",
+                "bestFor": "Records",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "ne-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Pay Ledger",
+                                "description": "Livre de Paie is mandatory."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Niger",
+                "subtitle": "OHADA",
+                "description": "West African system.",
+                "bestFor": "Compliance",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "ne-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "SYSCOHADA",
+                                "text": "Standardized accounting system for OHADA countries."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ne-comp-labor",
+                    "type": "warning",
+                    "title": "Termination",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Approvals",
+                                "description": "Dismissals often require Labour Inspector notification."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ne-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax (BIC)",
+                                    "values": [
+                                        "30%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Minimum Tax",
+                                    "values": [
+                                        "1%",
+                                        "Of turnover (subject to min/max)."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "VAT",
+                                    "values": [
+                                        "19%"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Niger",
+                "subtitle": "Civil Law",
+                "description": "French derived.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "ne-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "French is the official language for contracts."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Niger",
+                "subtitle": "Mobile",
+                "description": "Airtel Money.",
+                "bestFor": "Payments",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "ne-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Airtel Money",
+                                "description": "Widely used for disbursements."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Niger",
+                "subtitle": "Radio",
+                "description": "Broadcast dominant.",
+                "bestFor": "Reach",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "ne-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Radio",
+                                "text": "Critical channel for reaching the general population."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

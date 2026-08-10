@@ -1,0 +1,509 @@
+{
+    "name": "Kyrgyzstan",
+    "code": "KG",
+    "slug": "kyrgyzstan",
+    "flag": "https://flagcdn.com/w160/kg.png",
+    "region": "Asia",
+    "languages": [
+        "Kyrgyz",
+        "Russian"
+    ],
+    "currencies": [
+        "KGS"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Kyrgyzstan",
+                "subtitle": "Hire in Bishkek",
+                "description": "Compliant employment in Central Asia. We handle Social Fund contributions.",
+                "bestFor": "Tech & Mining",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "kg-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Standard written employment contract in Russian/Kyrgyz."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Social Fund",
+                                "description": "Register employee with the Social Fund of the Kyrgyz Republic."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Work Permit",
+                                "description": "Required for foreign nationals."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "kg-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Fund",
+                                    "values": [
+                                        "17.25%",
+                                        "10%",
+                                        "Employer: 15% Pension + 2% Social + 0.25% Health. Employee: 8% Pension + 2% Saving Fund."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "High Tech Park",
+                                    "values": [
+                                        "Flat Rate",
+                                        "Flat Rate",
+                                        "Special regime for IT companies (lower rates)."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "kg-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Orthodox Christmas",
+                                "description": "January 7"
+                            },
+                            {
+                                "title": "Defender of Fatherland",
+                                "description": "February 23"
+                            },
+                            {
+                                "title": "Women's Day",
+                                "description": "March 8"
+                            },
+                            {
+                                "title": "Nooruz",
+                                "description": "March 21"
+                            },
+                            {
+                                "title": "April Revolution Day",
+                                "description": "April 7"
+                            },
+                            {
+                                "title": "Labor Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Constitution Day",
+                                "description": "May 5"
+                            },
+                            {
+                                "title": "Victory Day",
+                                "description": "May 9"
+                            },
+                            {
+                                "title": "Orozo Ait",
+                                "description": "March 31 (Estimated)"
+                            },
+                            {
+                                "title": "Kurman Ait",
+                                "description": "June 6 (Estimated)"
+                            },
+                            {
+                                "title": "Independence Day",
+                                "description": "August 31"
+                            },
+                            {
+                                "title": "History Days",
+                                "description": "November 7-8"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "kg-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Income Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Personal Income Tax",
+                                    "values": [
+                                        "10%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Non-residents",
+                                    "values": [
+                                        "10%",
+                                        "Flat rate usually applies."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "kg-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Base Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Social Fund",
+                                "description": "Deduct 10% (Employee Share)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax Base",
+                                "description": "Gross - Social Fund - Deductions."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Income Tax",
+                                "description": "Apply 10% Tax."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Net",
+                                "description": "Gross - Social - Tax."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Kyrgyzstan",
+                "subtitle": "LLC",
+                "description": "Registering a Limited Liability Company (OsOO).",
+                "bestFor": "Market Entry",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "kg-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Ministry of Justice",
+                                "description": "One-stop-shop registration."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Statistics & Tax",
+                                "description": "Obtain OKPO code and TIN."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Social Fund",
+                                "description": "Register within 15 days."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "kg-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "DemirBank",
+                                "description": "Major international bank."
+                            },
+                            {
+                                "title": "Optima Bank",
+                                "description": "Leading retail bank."
+                            },
+                            {
+                                "title": "KICB",
+                                "description": "Kyrgyz Investment and Credit Bank."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Kyrgyzstan",
+                "subtitle": "IT Talent",
+                "description": "Emerging tech hub.",
+                "bestFor": "Outsourcing",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "kg-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Bishkek",
+                                "text": "Capital and center of the High Tech Park (HTP) regime."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Kyrgyzstan",
+                "subtitle": "SOA",
+                "description": "Social Fund reporting.",
+                "bestFor": "Compliance",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "kg-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "STI Reports",
+                                "description": "State Tax Inspectorate reporting formats."
+                            },
+                            {
+                                "title": "Social Fund",
+                                "description": "Monthly declaration of state social insurance."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Kyrgyzstan",
+                "subtitle": "IFRS",
+                "description": "SMEs use simplified standards.",
+                "bestFor": "Reporting",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "kg-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "IFRS",
+                                "text": "Mandatory for financial institutions and public companies. SMEs use IFRS for SMEs."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "kg-comp-labor",
+                    "type": "warning",
+                    "title": "Working Hours",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Limit",
+                                "description": "Standard 40-hour work week."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "kg-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax",
+                                    "values": [
+                                        "10%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "VAT",
+                                    "values": [
+                                        "12%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Sales Tax",
+                                    "values": [
+                                        "1% - 3%",
+                                        "Depending on activity and payment method."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Kyrgyzstan",
+                "subtitle": "Civil Law",
+                "description": "Post-Soviet system.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "kg-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "Russian is the language of business and official documentation."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Kyrgyzstan",
+                "subtitle": "M-Bank",
+                "description": "Mobile banking growth.",
+                "bestFor": "Payments",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "kg-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "MBank",
+                                "description": "Popular mobile banking app."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Kyrgyzstan",
+                "subtitle": "Instagram",
+                "description": "Social media driven.",
+                "bestFor": "Growth",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "kg-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Instagram",
+                                "text": "Key platform for B2C."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

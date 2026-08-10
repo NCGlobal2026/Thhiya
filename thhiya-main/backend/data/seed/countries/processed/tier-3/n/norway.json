@@ -1,0 +1,524 @@
+{
+    "name": "Norway",
+    "code": "NO",
+    "slug": "norway",
+    "flag": "https://flagcdn.com/w160/no.png",
+    "region": "Europe",
+    "languages": [
+        "Norwegian"
+    ],
+    "currencies": [
+        "NOK"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Norway",
+                "subtitle": "Hire in Oslo",
+                "description": "Compliant employment in Scandinavia. We handle NAV reports.",
+                "bestFor": "Tech & Energy",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "no-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Written contract (arbeidsavtale) is mandatory."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "A-Melding",
+                                "description": "Monthly reporting of income and employment status."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "OTP",
+                                "description": "Occupational Pension (Obligatorisk Tjenestepensjon) enrollment."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "no-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "National Insurance (AGA)",
+                                    "values": [
+                                        "0% - 14.1%",
+                                        "7.8%",
+                                        "Rate depends on geographic zone. Oslo is 14.1%."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "OTP (Pension)",
+                                    "values": [
+                                        "Min 2%",
+                                        "0%",
+                                        "Mandatory Occupational Pension."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Holiday Pay (Feriepenger)",
+                                    "values": [
+                                        "10.2% - 12%",
+                                        "0%",
+                                        "Accrued on top of salary for next year's holiday."
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "no-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Maundy Thursday",
+                                "description": "April 17"
+                            },
+                            {
+                                "title": "Good Friday",
+                                "description": "April 18"
+                            },
+                            {
+                                "title": "Easter Monday",
+                                "description": "April 21"
+                            },
+                            {
+                                "title": "Labour Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Constitution Day",
+                                "description": "May 17"
+                            },
+                            {
+                                "title": "Ascension Day",
+                                "description": "May 29"
+                            },
+                            {
+                                "title": "Whit Monday",
+                                "description": "June 9"
+                            },
+                            {
+                                "title": "Christmas Day",
+                                "description": "December 25"
+                            },
+                            {
+                                "title": "Boxing Day",
+                                "description": "December 26"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "no-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "General Income Tax",
+                                    "values": [
+                                        "22%",
+                                        "Flat rate on general income."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Bracket Tax (Trinnskatt) L1",
+                                    "values": [
+                                        "1.7%",
+                                        "NOK 208,050 - 292,850"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Bracket Tax L2",
+                                    "values": [
+                                        "4%",
+                                        "NOK 292,850 - 670,000"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Bracket Tax L3",
+                                    "values": [
+                                        "13.6%",
+                                        "NOK 670,000 - 937,900"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Bracket Tax L4",
+                                    "values": [
+                                        "16.6%",
+                                        "NOK 937,900 - 1,350,000"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Bracket Tax L5",
+                                    "values": [
+                                        "17.6%",
+                                        "Over NOK 1,350,000"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "no-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Annual Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "NI",
+                                "description": "Deduct 7.8% (Trygdeavgift)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Standard Deduction",
+                                "description": "Deduct Personal Allowance (Personfradrag)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Tax",
+                                "description": "Apply 22% Base + Bracket Tax."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Net",
+                                "description": "Gross - NI - Tax."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Norway",
+                "subtitle": "AS",
+                "description": "Aksjeselskap.",
+                "bestFor": "Business",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "no-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Bronnoysund",
+                                "description": "Register with The Brønnøysund Register Centre."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Capital",
+                                "description": "Minimum share capital NOK 30,000."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Bank",
+                                "description": "Open corporate bank account."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "no-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "DNB",
+                                "description": "Largest financial services group."
+                            },
+                            {
+                                "title": "Nordea",
+                                "description": "Major Nordic bank."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Norway",
+                "subtitle": "Oslo",
+                "description": "Highly skilled workforce.",
+                "bestFor": "Specialists",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "no-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Oslo",
+                                "text": "Tech, Finance, and Energy hub."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Norway",
+                "subtitle": "Altinn",
+                "description": "Gov portal integration.",
+                "bestFor": "Reporting",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "no-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Altinn",
+                                "description": "Government portal for all reporting."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Norway",
+                "subtitle": "NGAAP",
+                "description": "Local GAAP.",
+                "bestFor": "Compliance",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "no-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "NGAAP/IFRS",
+                                "text": "NGAAP for smaller, IFRS for listed companies."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "no-comp-labor",
+                    "type": "warning",
+                    "title": "Protections",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Working Environment Act",
+                                "description": "Strict rules on working hours (40h/week) and overtime."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "no-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax",
+                                    "values": [
+                                        "22%",
+                                        "Standard rate."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "VAT (MVA)",
+                                    "values": [
+                                        "25%",
+                                        "Standard rate."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Norway",
+                "subtitle": "Civil Law",
+                "description": "Nordic system.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "no-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "Norwegian is standard, but English is often accepted in international business."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Norway",
+                "subtitle": "Vipps",
+                "description": "Mobile payments.",
+                "bestFor": "Transactions",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "no-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Vipps",
+                                "description": "Ubiquitous mobile payment app."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Norway",
+                "subtitle": "Digital",
+                "description": "High internet usage.",
+                "bestFor": "Ads",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "no-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Online News",
+                                "text": "High consumption of digital newspapers (Schibsted)."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

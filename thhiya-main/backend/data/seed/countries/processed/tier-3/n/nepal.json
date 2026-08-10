@@ -1,0 +1,541 @@
+{
+    "name": "Nepal",
+    "code": "NP",
+    "slug": "nepal",
+    "flag": "https://flagcdn.com/w160/np.png",
+    "region": "Asia",
+    "languages": [
+        "Nepali",
+        "English"
+    ],
+    "currencies": [
+        "NPR"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Nepal",
+                "subtitle": "Hire in Kathmandu",
+                "description": "Compliant employment in the Himalayas. We handle SSF contributions.",
+                "bestFor": "NGOs & Tech",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "np-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Written employment contract mandated by Labour Act 2017."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "SSF",
+                                "description": "Enrollment in Social Security Fund."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "PAN",
+                                "description": "Employee must have Permanent Account Number."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "np-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Security Fund (SSF)",
+                                    "values": [
+                                        "20%",
+                                        "11%",
+                                        "Total 31% (1% tax included in employee share)."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Bonus",
+                                    "values": [
+                                        "10%",
+                                        "0%",
+                                        "Profit sharing (allocation of 10% of net profit)."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Gratuity",
+                                    "values": [
+                                        "8.33%",
+                                        "0%",
+                                        "Included in SSF contrib usually, but check specific implementation."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "np-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Prithvi Jayanti",
+                                "description": "January 11"
+                            },
+                            {
+                                "title": "Maghe Sankranti",
+                                "description": "January 14"
+                            },
+                            {
+                                "title": "Martyrs' Day",
+                                "description": "January 30"
+                            },
+                            {
+                                "title": "Prajatantra Diwas",
+                                "description": "February 19"
+                            },
+                            {
+                                "title": "Maha Shivaratri",
+                                "description": "February 26"
+                            },
+                            {
+                                "title": "Fagu Purnima (Holi)",
+                                "description": "March 13-14"
+                            },
+                            {
+                                "title": "Nepali New Year",
+                                "description": "April 14"
+                            },
+                            {
+                                "title": "Buddha Jayanti",
+                                "description": "May 12"
+                            },
+                            {
+                                "title": "Republic Day",
+                                "description": "May 29"
+                            },
+                            {
+                                "title": "Constitution Day",
+                                "description": "September 19"
+                            },
+                            {
+                                "title": "Dashain",
+                                "description": "October (Variable - Major Festival)"
+                            },
+                            {
+                                "title": "Tihar",
+                                "description": "October/November (Variable)"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "np-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Annual Income (NPR)",
+                                "Rate (Single/Couple Varies)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "First ~500k",
+                                    "values": [
+                                        "1%",
+                                        "Social Security Tax (SST)."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Next Band",
+                                    "values": [
+                                        "10%",
+                                        "Standard rate."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Next Band",
+                                    "values": [
+                                        "20%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Next Band",
+                                    "values": [
+                                        "30%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Above ~2M - 5M",
+                                    "values": [
+                                        "36% - 39%",
+                                        "Includes surcharge."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Non-Residents",
+                                    "values": [
+                                        "25%",
+                                        "Flat rate."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "np-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Base Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "SSF",
+                                "description": "Deduct 11%."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax Base",
+                                "description": "Gross - SSF."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "SST/Tax",
+                                "description": "Apply 1% Social Security Tax and progressive bands."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Net",
+                                "description": "Gross - SSF - Tax."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Nepal",
+                "subtitle": "Pvt Ltd",
+                "description": "Private Company.",
+                "bestFor": "FDI",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "np-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "OCR",
+                                "description": "Reserve name at Office of the Company Registrar."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "DOI",
+                                "description": "Department of Industry approval for foreign investment."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Ward",
+                                "description": "Local ward registration."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "np-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Nabil Bank",
+                                "description": "Leading private bank."
+                            },
+                            {
+                                "title": "Global IME",
+                                "description": "Major commercial bank."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Nepal",
+                "subtitle": "Kathmandu",
+                "description": "Development & Tourism.",
+                "bestFor": "Outsourcing",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "np-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Kathmandu",
+                                "text": "Technological and administrative center."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Nepal",
+                "subtitle": "SSF Portal",
+                "description": "Online contributions.",
+                "bestFor": "Compliance",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "np-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "SSF Portal",
+                                "description": "Mandatory online submission of contribution data."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Nepal",
+                "subtitle": "NFRS",
+                "description": "Nepal Financial Reporting Standards.",
+                "bestFor": "Compliance",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "np-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "NFRS",
+                                "text": "Based on IFRS."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "np-comp-labor",
+                    "type": "warning",
+                    "title": "Outsourcing",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Regulations",
+                                "description": "Labour Act 2017 regulates outsourcing companies strictly."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "np-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax",
+                                    "values": [
+                                        "25%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Banks/Finance",
+                                    "values": [
+                                        "30%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Special Industries",
+                                    "values": [
+                                        "20%",
+                                        "Rates vary for manufacturing/IT."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Nepal",
+                "subtitle": "Common Law",
+                "description": "Mixed system.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "np-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "Documents often required in Nepali for government submission."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Nepal",
+                "subtitle": "eSewa",
+                "description": "Digital wallet.",
+                "bestFor": "Payments",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "np-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "eSewa",
+                                "description": "Leading mobile wallet."
+                            },
+                            {
+                                "title": "Khalti",
+                                "description": "Popular payment gateway."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Nepal",
+                "subtitle": "Digital",
+                "description": "Growing online.",
+                "bestFor": "Youth",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "np-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Social Media",
+                                "text": "Facebook, TikTok, and Instagram are massive."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,2192 @@
+{
+    "name": "Canada",
+    "code": "CA",
+    "slug": "canada",
+    "flag": "https://flagcdn.com/w160/ca.png",
+    "region": "North America",
+    "languages": [
+        "English",
+        "French"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "Hire in Canada Without a Subsidiary",
+                "subtitle": "Compliant Employer of Record services",
+                "description": "Deploy teams across all provinces/territories (including Quebec) in days. The EOR handles CPP, EI, and provincial health taxes.",
+                "bestFor": "Testing the market, cross-border remote teams.",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "section-eor-costs-1",
+                    "type": "cost_breakdown",
+                    "title": "EOR Cost Structure",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Item",
+                                "Cost estimate (CAD)",
+                                "Frequency"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Management Fee",
+                                    "values": [
+                                        "$300 - $1,000",
+                                        "Per Employee/Month"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Onboarding Fee",
+                                    "values": [
+                                        "$0 - $500",
+                                        "One-time"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Security Deposit",
+                                    "values": [
+                                        "1-2 Months Salary",
+                                        "One-time (Refundable)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Employer Burden",
+                                    "values": [
+                                        "~10-15%",
+                                        "Monthly"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-eor-steps-1",
+                    "type": "key_steps",
+                    "title": "Onboarding Process",
+                    "subtitle": "Timeline: 3-5 Business Days",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Service Agreement",
+                                "description": "Sign MSA with the EOR provider. Define salary, role, and benefits packages."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Employee Invitation",
+                                "description": "EOR sends invite to candidate to upload TD1 (tax forms), void cheque, and ID."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Contract Issuance",
+                                "description": "EOR issues a compliant employment contract. MUST be in French for Quebec employees (Bill 96)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Benefits Enrollment",
+                                "description": "Employee selects health/dental coverage. Coverage typically starts on Day 1."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "SIN Validation",
+                                "description": "EOR validates Social Insurance Number with Service Canada to ensure work eligibility."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-eor-insights-1",
+                    "type": "insights",
+                    "title": "Critical Compliance Risks",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Quebec Bill 96",
+                                "text": "Strict French language laws apply. All employment documents, communications, and software must be available in French. Non-compliance risks significant fines."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Permanent Establishment",
+                                "text": "Using an EOR for >18-24 months or for revenue-generating roles (Sales Directors) significantly increases PE risk. Transition to a local entity is recommended for long-term presence."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Termination Laws",
+                                "text": "Canadian common law often requires 'reasonable notice' far exceeding statutory minimums (approx. 1 month per year of service). EORs usually indemnify themselves against this cost."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-eor-goodtoknow-1",
+                    "type": "good_to_know",
+                    "title": "Cultural Expectations",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Benefits Expectations",
+                                "text": "While healthcare is public, top talent expects supplemental private health/dental insurance (Extended Health Benefits)."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Vacation Norms",
+                                "text": "2 weeks is statutory minimum (3 after 5 years), but professional roles typically expect 3-4 weeks."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-eor-faq-1",
+                    "type": "faq",
+                    "title": "EOR FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I hire independent contractors through an EOR?",
+                                "answer": "Yes, known as 'Agent of Record' services. However, Canada confirms worker classification strictly (T4 vs T4A). Misclassification penalties are severe."
+                            },
+                            {
+                                "question": "Does the EOR handle stock options?",
+                                "answer": "EORs usually cannot grant stock options directly (NSOs/ISOs) as they are the legal employer. They can facilitate 'shadow equity' or cash-equivalent bonus plans."
+                            },
+                            {
+                                "question": "Is a deposit required?",
+                                "answer": "Yes, almost all Canadian EORs require a refundable deposit equivalent to 1-2 months of total payroll cost to cover cash flow."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-payroll-costs-1",
+                    "type": "cost_breakdown",
+                    "title": "Employer Payroll Taxes (2025)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Tax Component",
+                                "Rate (Employer)",
+                                "Max Annual Cost (2025)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "CPP (Pension)",
+                                    "values": [
+                                        "5.95%",
+                                        "$4,034.10"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "CPP2 (High Earners)",
+                                    "values": [
+                                        "4.00%",
+                                        "$396.00 (on earnings >$71.3k)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "EI (Employment Insurance)",
+                                    "values": [
+                                        "2.296% (1.4x employee rate)",
+                                        "$1,508.47"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "EHT (Ontario)",
+                                    "values": [
+                                        "1.95%",
+                                        "If payroll > $1M"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "WCB/WSIB",
+                                    "values": [
+                                        "1% - 5%",
+                                        "Industry dependent"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-payroll-steps-1",
+                    "type": "key_steps",
+                    "title": "Monthly Payroll Cycle",
+                    "subtitle": "Bi-weekly or Semi-monthly",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross Pay Calculation",
+                                "description": "Calculate base salary + commissions + bonuses. Verify provincial minimum wage compliance."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Deductions (Source)",
+                                "description": "Deduct Employee CPP (5.95%), EI (1.64%), and Federal/Provincial Income Tax."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Net Pay Distribution",
+                                "description": "Direct deposit (EFT) to employees. Pay stub generation (mandatory)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "CRA Remittance",
+                                "description": "Remit employer + employee portions to CRA by the 15th of the following month (for regular remitters)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "EHT/WCB Filing",
+                                "description": "File provincial health taxes (e.g. BC EHT, QC HSF) and workers comp premiums separately."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-payroll-insights-1",
+                    "type": "insights",
+                    "title": "Compliance Deadlines",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "T4 Filing Deadline",
+                                "text": "Must file T4 slips by February 28th (March 7th for 2025). Late filing penalties start at $100 per slip."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Vacation Accrual",
+                                "text": "Vacation pay (4% or 6%) must be accrued as a liability or paid out on every cheque. 'Use it or lose it' policies are illegal in many provinces."
+                            },
+                            {
+                                "type": "info",
+                                "title": "CPP2 Bracket 2025",
+                                "text": "New separate CPP2 contribution applies on earnings between $71,300 and $81,200."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-payroll-faq-1",
+                    "type": "faq",
+                    "title": "Payroll FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the frequency of payroll in Canada?",
+                                "answer": "Bi-weekly (every 2 weeks) and Semi-monthly (15th and last day) are most common. Monthly payroll is permitted in some provinces but less common for employees."
+                            },
+                            {
+                                "question": "Do I need a CAD bank account?",
+                                "answer": "Yes, to remit directly to the CRA, a Canadian business bank account is typically required. Non-resident importers may use a third-party processor."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-calc-tax-1",
+                    "type": "cost_breakdown",
+                    "title": "Provincial Tax Brackets (2025)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Province/Territory",
+                                "Lowest Rate (First ~$49k)",
+                                "Highest Rate (Over ~$200k+)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Federal (Canada)",
+                                    "values": [
+                                        "15.00%",
+                                        "33.00%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Ontario (ON)",
+                                    "values": [
+                                        "5.05%",
+                                        "13.16% (+ Surtaxes)"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "British Columbia (BC)",
+                                    "values": [
+                                        "5.06%",
+                                        "20.50%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Alberta (AB)",
+                                    "values": [
+                                        "10.00%",
+                                        "15.00% (Flat-ish)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Quebec (QC)",
+                                    "values": [
+                                        "14.00%",
+                                        "25.75% (Distinct System)"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Manitoba (MB)",
+                                    "values": [
+                                        "10.80%",
+                                        "17.40%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Saskatchewan (SK)",
+                                    "values": [
+                                        "10.50%",
+                                        "14.50%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Nova Scotia (NS)",
+                                    "values": [
+                                        "8.79%",
+                                        "21.00%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "New Brunswick (NB)",
+                                    "values": [
+                                        "9.40%",
+                                        "20.30%"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-calc-insights-1",
+                    "type": "insights",
+                    "title": "Payroll Components",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "CPP (Pension Plan)",
+                                "text": "2025 Employee Contribution: 5.95% up to YMPE ($71,300), plus 4% on YAMPE ($81,100). Employer matches 100%."
+                            },
+                            {
+                                "type": "info",
+                                "title": "EI (Employment Insurance)",
+                                "text": "2025 Employee Rate: 1.63% (1.27% in Quebec) up to Max Insurable Earnings ($65,700). Employer pays 1.4x of employee amount."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Vacation Pay",
+                                "text": "Minimum 4% of gross wages (2 weeks). Must be paid out on every cheque OR accrued and paid when taken. Increases to 6% after 5 years."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-calc-steps-1",
+                    "type": "key_steps",
+                    "title": "Net Pay Calculation",
+                    "subtitle": "The Formula",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross Pay",
+                                "description": "Start with annual salary / pay periods."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Deduct CPP & EI",
+                                "description": "Subtract pension and insurance contributions first (they generate tax credits)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Deduct Income Tax",
+                                "description": "Calculate Federal and Provincial tax based on taxable income brackets."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Net Pay",
+                                "description": "Result is the take-home amount."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-calc-remittance",
+                    "type": "insights",
+                    "title": "CRA Remittance",
+                    "subtitle": "Cycle",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Due Dates",
+                                "text": "Remittances are typically due by the 15th of the month following the payout."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Late Penalties",
+                                "text": "Late remittances incur a 3% to 10% penalty depending on the severity of the delay."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Electronic Filing",
+                                "text": "Use the CRA 'My Business Account' portal for the fastest and most reliable remittance reporting."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "eor-peo-aor",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR"
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Register a Corporation",
+                "subtitle": "Federal or Provincial",
+                "description": "Choose between Canada Business Corporations Act (Federal) or Provincial Acts. Federal offers name protection nationwide.",
+                "bestFor": "Permanent establishment.",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "section-incorp-costs-1",
+                    "type": "cost_breakdown",
+                    "title": "Incorporation Costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Fee Type",
+                                "Federal (CBCA)",
+                                "Provincial (e.g. Ontario)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Government Filing Fee",
+                                    "values": [
+                                        "$200 (Online)",
+                                        "$300"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Nuans Name Search",
+                                    "values": [
+                                        "$13.80",
+                                        "~$15 - $50"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Extra-Provincial Reg",
+                                    "values": [
+                                        "Required (~$200/prov)",
+                                        "N/A (Home province)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Initial Return",
+                                    "values": [
+                                        "$20 - $40",
+                                        "Included or ~$30"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-incorp-steps-1",
+                    "type": "key_steps",
+                    "title": "Registration Flow",
+                    "subtitle": "1-3 Days (Online)",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Name Search (Nuans)",
+                                "description": "Perform Nuans search ($13.80) to ensure name availability. Federal names must be unique across Canada."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Articles of Incorporation",
+                                "description": "Draft Form 1. Define share classes (Common Class A, B, etc.) and restrictions on share transfers."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "File & Pay",
+                                "description": "Submit via Online Filing Centre ($200 fee). Certificate of Incorporation issued immediately via email upon approval."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Tax Registration",
+                                "description": "CRA automatically assigns a Business Number (BN). You must manually register for GST/HST, Payroll, and Import/Export program accounts."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Minute Book",
+                                "description": "Set up digital or physical minute book with bylaws, director resolutions, and share certificates."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-incorp-registry-1",
+                    "type": "cost_breakdown",
+                    "title": "Provincial Registration Costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Jurisdiction",
+                                "Gov Fee (Online)",
+                                "Processing Time"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Federal (Canada)",
+                                    "values": [
+                                        "$200",
+                                        "Same Day"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Ontario",
+                                    "values": [
+                                        "$300",
+                                        "Immediate"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "British Columbia",
+                                    "values": [
+                                        "~$350",
+                                        "5-10 Days"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Alberta",
+                                    "values": [
+                                        "$275",
+                                        "Immediate"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Quebec",
+                                    "values": [
+                                        "$378",
+                                        "2-3 Weeks"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Nova Scotia",
+                                    "values": [
+                                        "$336",
+                                        "5-10 Days"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Saskatchewan",
+                                    "values": [
+                                        "$265",
+                                        "5-10 Days"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Manitoba",
+                                    "values": [
+                                        "$350",
+                                        "Variable"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "New Brunswick",
+                                    "values": [
+                                        "$290",
+                                        "5-10 Days"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "PEI",
+                                    "values": [
+                                        "$305",
+                                        "Variable"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-incorp-insights-1",
+                    "type": "insights",
+                    "title": "Strategic Considerations",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Residency Removed",
+                                "text": "Federal, Ontario, Alberta, and BC corporations NO LONGER require 25% Canadian resident directors. Foreigners can own 100%."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Trade Name vs Corp",
+                                "text": "Incorporating protects your name. A simple 'trade name' or 'sole proprietorship' does not provide liability protection."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Federal vs Provincial",
+                                "text": "Choose Federal for nationwide name protection. Choose Provincial if you only operate locally and want to avoid annual federal filings."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-incorp-faq-1",
+                    "type": "faq",
+                    "title": "Setup FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Do I need a physical address in Canada?",
+                                "answer": "Yes, you need a Registered Office Address (cannot be a PO Box). Many law firms or virtual office providers offer this service."
+                            },
+                            {
+                                "question": "What is the minimum share capital?",
+                                "answer": "There is no minimum. You can incorporate with $1.00."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "incorporation-entity-setup",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)"
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Canadian Recruiting",
+                "subtitle": "Tech & Engineering Talent",
+                "description": "Strong talent pools in Toronto, Vancouver, and Montreal. Agencies assist with navigating diverse candidate expectations.",
+                "bestFor": "Specialized roles.",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "section-staffing-costs-1",
+                    "type": "cost_breakdown",
+                    "title": "Recruitment Fees",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service Type",
+                                "Fee Structure",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Contingency Search",
+                                    "values": [
+                                        "15% - 25%",
+                                        "Of first-year gross salary"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Retained Search",
+                                    "values": [
+                                        "25% - 35%",
+                                        "Executive/Specialized roles"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Temp Staffing Markup",
+                                    "values": [
+                                        "40% - 60%",
+                                        "On hourly rate"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Contractor Markup",
+                                    "values": [
+                                        "15% - 25%",
+                                        "Hourly rate markup"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-staffing-salaries-1",
+                    "type": "cost_breakdown",
+                    "title": "Tech Salary Benchmarks (2025)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Role",
+                                "Mid-Level Range",
+                                "Senior Range"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Software Engineer (Full Stack)",
+                                    "values": [
+                                        "$95k - $125k",
+                                        "$130k - $170k+"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Data Scientist",
+                                    "values": [
+                                        "$100k - $135k",
+                                        "$140k - $185k"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "DevOps / SRE",
+                                    "values": [
+                                        "$110k - $140k",
+                                        "$150k - $190k"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Product Manager",
+                                    "values": [
+                                        "$105k - $140k",
+                                        "$150k - $200k"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "UX/UI Designer",
+                                    "values": [
+                                        "$85k - $115k",
+                                        "$120k - $160k"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Sales Dev Rep (SDR)",
+                                    "values": [
+                                        "$60k + Comm",
+                                        "$80k + Comm"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Account Executive (AE)",
+                                    "values": [
+                                        "$90k + Comm",
+                                        "$140k + Comm"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "QA Engineer",
+                                    "values": [
+                                        "$75k - $100k",
+                                        "$110k - $140k"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-staffing-steps-1",
+                    "type": "key_steps",
+                    "title": "Hiring Lifecycle",
+                    "subtitle": "Time-to-Hire: 3-6 Weeks",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Agency Briefing",
+                                "description": "Define role requirements, budget, and 'must-haves' vs 'nice-to-haves'. Sign fee agreement."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Candidate Shortlist",
+                                "description": "Agency presents 3-5 vetted candidates. Verify if they have Canadian work authorization."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Interviews",
+                                "description": "Remote or in-person. Behavioural questions are standard. Technical tests common for dev roles."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Offer & Background Check",
+                                "description": "Extend offer clearly stating 'probationary period' (3 months standard). Run criminal/credit checks if relevant."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-staffing-insights-1",
+                    "type": "insights",
+                    "title": "Market Intelligence",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Tech Hubs",
+                                "text": "Waterloo/Toronto is the 'Silicon Valley of the North'. Vancouver has strong gaming/visual effects talent. Montreal is an AI research hub."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Replacement Guarantee",
+                                "text": "Standard agency contracts include a 90-day replacement guarantee. If the hire leaves within 3 months, they find a replacement for free."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Remote Salaries",
+                                "text": "US companies hiring remotely in Canada have driven up tech salaries significantly. Expect to pay near-US rates for top senior talent."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-staffing-faq-1",
+                    "type": "faq",
+                    "title": "Hiring FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I ask about Canadian experience?",
+                                "answer": "Strictly speaking, requiring 'Canadian experience' can be discriminatory under human rights laws unless BFOR. Focus on verifyable skills."
+                            },
+                            {
+                                "question": "What is the standard vacation offering?",
+                                "answer": "2 weeks is legal minimum, but 3-4 weeks is the market standard for professional/white-collar roles."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "staffing-recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting"
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HR Platforms",
+                "subtitle": "Managing Canadian Workforce",
+                "description": "Tools like Humi, Rise, and Collage designed for Canadian specific compliance (vacation accrual, tax forms).",
+                "bestFor": "Digitizing HR operations.",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "section-hris-costs-1",
+                    "type": "cost_breakdown",
+                    "title": "Platform Pricing (Estimates)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Cost Range (CAD)",
+                                "Examples"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "PEPM Fee",
+                                    "values": [
+                                        "$6 - $14 /mo",
+                                        "Per Employee Per Month"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Base Fee",
+                                    "values": [
+                                        "$20 - $100 /mo",
+                                        "Platform Access"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Implementation",
+                                    "values": [
+                                        "$500 - $2,000",
+                                        "One-time (varies by size)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Payroll Module",
+                                    "values": [
+                                        "+$4 - $6 /mo",
+                                        "Add-on usually required"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-hris-insights-1",
+                    "type": "insights",
+                    "title": "Top Platforms",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Canadian Winners",
+                                "text": "Humi, Collage, and Rise People are built specifically for Canadian compliance (TD1s, provincial taxes). US tools like Rippling/Gusto are entering but check for full localization."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "CRA Integration",
+                                "text": "Look for 'ROE Web' automation. The ability to submit Records of Employment directly to Service Canada saves hours of manual work."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Quebec Support",
+                                "text": "Not all HRIS platforms verify support for RL-1 slips (Quebec T4 equivalent) or CNESST returns. Verify if you have QC employees."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-hris-steps-1",
+                    "type": "key_steps",
+                    "title": "Implementation Steps",
+                    "subtitle": "Timeline: 2-4 Weeks",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Data Cleansing",
+                                "description": "Ensure current employee data (SINs, addresses, banking info) is accurate before import."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Payroll YTD Load",
+                                "description": "Load Year-to-Date payroll values to ensure T4s at year-end are correct."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Policy Configuration",
+                                "description": "Set up time-off policies (vacation accrual rules vary by province) and benefits deduction logic."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Parallel Run",
+                                "description": "Run at least one pay cycle on both old and new systems to match net pay to the penny."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-hris-faq-1",
+                    "type": "faq",
+                    "title": "Software FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I use US software?",
+                                "answer": "Only if it has a dedicated Canadian edition. US tax logic (W2, 401k) does not work here (T4, RRSP)."
+                            },
+                            {
+                                "question": "Is data stored in Canada?",
+                                "answer": "Many Canadian organizations prefer or require domestic data residency (PIPEDA compliance). Humi/Collage typically host in Canada (AWS ca-central-1)."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "hris-hrms-ats",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS"
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "CPA Services",
+                "subtitle": "Bookkeeping & Tax Filing",
+                "description": "Maintain financial records and ensure GST/HST/QST compliance.",
+                "bestFor": "Financial health.",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "section-acc-costs-1",
+                    "type": "cost_breakdown",
+                    "title": "Accounting & Filing Fees",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service",
+                                "Estimated Cost (CAD)",
+                                "Frequency"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate T2 Return",
+                                    "values": [
+                                        "$1,500 - $3,000",
+                                        "Annual"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Notice to Reader (NTR)",
+                                    "values": [
+                                        "$2,000 - $4,500",
+                                        "Annual (Financial Stmts)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Bookkeeping",
+                                    "values": [
+                                        "$300 - $800",
+                                        "Monthly (SMB Volume)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "GST/HST Filing",
+                                    "values": [
+                                        "$100 - $250",
+                                        "Per Filing"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-acc-steps-1",
+                    "type": "key_steps",
+                    "title": "Accounting Cycle",
+                    "subtitle": "Fiscal Year Requirements",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Monthly Bookkeeping",
+                                "description": "Reconcile bank statements, categorize expenses (Xero/QBO), and track receivables."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Sales Tax Remittance",
+                                "description": "File GST/HST (and QST/PST) returns based on assigned frequency (Monthly/Quarterly/Annual)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Year-End Adjustments",
+                                "description": "Accountant prepares adjusting entries (depreciation, accruals) after fiscal year close."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "T2 Filing",
+                                "description": "File T2 Corporate Income Tax Return within 6 months of year-end. Balance of tax due within 2 (or 3) months."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-acc-insights-1",
+                    "type": "insights",
+                    "title": "Compliance Tips",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Installments",
+                                "text": "If you owe >$3,000 in tax (GST or Income) in a year, CRA will require quarterly installments the following year."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Meals & Entertainment",
+                                "text": "Only 50% of food/drink costs for business meetings are deductible."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Cloud Ecosystem",
+                                "text": "QuickBooks Online and Xero are standard. Use tools like Dext (Receipt Bank) to digitize receipts for audit proofing."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-acc-faq-1",
+                    "type": "faq",
+                    "title": "Accounting FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "When is my corporate tax due?",
+                                "answer": "The return (T2) is due 6 months after fiscal year-end. Tax PAYMENTS are due 2 months (or 3 for CCPCs) after year-end."
+                            },
+                            {
+                                "question": "Do I need an audit?",
+                                "answer": "Private companies generally do not require an audit unless requested by a lender or shareholders. A 'Notice to Reader' (Compilation) is standard."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-comp-onboarding-checklist",
+                    "type": "key_steps",
+                    "title": "Compliance Onboarding Checklist",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Workers' Compensation Registration",
+                                "description": "Register with provincial boards (WSIB in ON, CNESST in QC, WorkSafeBC in BC) within 15-30 days of hiring first employee."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Employer Health Tax (EHT)",
+                                "description": "Set up accounts for provincial payroll taxes where applicable (BC, ON, MB, QC) if annual payroll exceeds exemption thresholds."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Health & Safety Policy",
+                                "description": "Post mandatory Health & Safety posters and draft a provincial-compliant Workplace Violence and Harassment policy."
+                            }
+                        ]
+                    },
+                    "order": 1
+                },
+                {
+                    "id": "section-comp-visas-1",
+                    "type": "cost_breakdown",
+                    "title": "Work Permit Pathways",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Stream",
+                                "Processing Time",
+                                "Key Requirement"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Global Talent Stream (GTS)",
+                                    "values": [
+                                        "2 Weeks (Target)",
+                                        "Unique Talent or Designated Referral"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Intra-Company Transfer (ICT)",
+                                    "values": [
+                                        "2-10 Weeks",
+                                        "Current employee (1yr+) transferring"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "CUSMA (NAFTA) Professional",
+                                    "values": [
+                                        "Immediate (Port of Entry)",
+                                        "US/Mexico Citizen + Job Offer"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Standard LMIA",
+                                    "values": [
+                                        "2-4 Months",
+                                        "Prove no Canadian available"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    },
+                    "order": 2
+                },
+                {
+                    "id": "section-comp-costs-1",
+                    "type": "cost_breakdown",
+                    "title": "Compliance Risks",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Risk Area",
+                                "Potential Cost",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Termination Pay",
+                                    "values": [
+                                        "3 - 24 Months",
+                                        "Common Law Notice (High Risk)"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Statutory Notice",
+                                    "values": [
+                                        "1 - 8 Weeks",
+                                        "ESA Minimums Only"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Bill 96 (QC)",
+                                    "values": [
+                                        "Fines",
+                                        "French Language Rights"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Directors Liability",
+                                    "values": [
+                                        "Personal",
+                                        "For unpaid wages/GST"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    },
+                    "order": 3
+                },
+                {
+                    "id": "section-comp-insights-1",
+                    "type": "insights",
+                    "title": "Legal Landscape",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Common Law Notice",
+                                "text": "Canada is very pro-employee. Termination notice is based on 'Bardal Factors' (age, tenure, role) and often vastly exceeds statutory ESA minimums (e.g. 1 month per year of service is common rule of thumb)."
+                            },
+                            {
+                                "type": "info",
+                                "title": "PIPEDA Privacy",
+                                "text": "Federal privacy law governs how you collect, use, and store personal data. You must appoint a Privacy Officer."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Termination Clauses",
+                                "text": "Have a lawyer draft your employment contract termination clauses. If valid, they can limit liability to ESA minimums. If invalid, Common Law applies."
+                            }
+                        ]
+                    },
+                    "order": 4
+                },
+                {
+                    "id": "section-comp-wages-1",
+                    "type": "cost_breakdown",
+                    "title": "Minimum Wage (2025)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Province/Territory",
+                                "Hourly Rate (CAD)",
+                                "Effective Date"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "British Columbia",
+                                    "values": [
+                                        "$17.40 -> $17.85",
+                                        "Increase June 1, 2025"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Ontario",
+                                    "values": [
+                                        "$17.20 -> ~$17.55",
+                                        "Increase Oct 1, 2025 (CPI)"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Alberta",
+                                    "values": [
+                                        "$15.00",
+                                        "No scheduled increase"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Quebec",
+                                    "values": [
+                                        "$15.75",
+                                        "Revised May 1st usually"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Manitoba",
+                                    "values": [
+                                        "$15.80",
+                                        "Increase Oct 1, 2025"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Saskatchewan",
+                                    "values": [
+                                        "$15.00",
+                                        "Increase Oct 1, 2025"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Nova Scotia",
+                                    "values": [
+                                        "$15.20",
+                                        "Increase Apr 1, 2025"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Yukon",
+                                    "values": [
+                                        "$17.59",
+                                        "Highest in Canada"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Nunavut",
+                                    "values": [
+                                        "$19.00",
+                                        "Highest Territory Rate"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Federal (Federally Regulated)",
+                                    "values": [
+                                        "$17.30",
+                                        "Banking, Telco, Air"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-comp-holidays-1",
+                    "type": "cost_breakdown",
+                    "title": "Statutory Holidays",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Holiday",
+                                "Date (2025)",
+                                "Applies To"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "New Year's Day",
+                                    "values": [
+                                        "Jan 1 (Wed)",
+                                        "National"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Family Day / Heritage Day",
+                                    "values": [
+                                        "Feb 17 (Mon)",
+                                        "AB, BC, NB, ON, SK"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Good Friday",
+                                    "values": [
+                                        "Apr 18 (Fri)",
+                                        "National (except QC optional)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Victoria Day",
+                                    "values": [
+                                        "May 19 (Mon)",
+                                        "National (QC = Patriots Day)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "St. Jean Baptiste",
+                                    "values": [
+                                        "Jun 24 (Tue)",
+                                        "Quebec ONLY"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Canada Day",
+                                    "values": [
+                                        "Jul 1 (Tue)",
+                                        "National"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Labour Day",
+                                    "values": [
+                                        "Sept 1 (Mon)",
+                                        "National"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Truth & Reconciliation",
+                                    "values": [
+                                        "Sept 30 (Tue)",
+                                        "Federal + BC, PEI, Territories"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Thanksgiving",
+                                    "values": [
+                                        "Oct 13 (Mon)",
+                                        "National (except NB, NS, NL)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Remembrance Day",
+                                    "values": [
+                                        "Nov 11 (Tue)",
+                                        "Most (except ON, QC, MB)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Christmas Day",
+                                    "values": [
+                                        "Dec 25 (Thu)",
+                                        "National"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Boxing Day",
+                                    "values": [
+                                        "Dec 26 (Fri)",
+                                        "ON only (Federal Optional)"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-comp-faq-1",
+                    "type": "faq",
+                    "title": "Compliance FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Are non-competes enforceable?",
+                                "answer": "In Ontario, Non-Compete agreements are ILLEGAL for most employees (as of 2021). Non-solicitation clauses are preferred."
+                            },
+                            {
+                                "question": "What is the 'Right to Disconnect'?",
+                                "answer": "Ontario law requires employers with 25+ staff to have a written policy on disconnecting from work (after hours emails, etc.)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-tax-costs-1",
+                    "type": "cost_breakdown",
+                    "title": "Corporate Tax Rates (2025)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Tax Type",
+                                "Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Federal (General)",
+                                    "values": [
+                                        "15.0%",
+                                        "After 10% abatement"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Federal (Small Biz)",
+                                    "values": [
+                                        "9.0%",
+                                        "On first $500k active income"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Provincial (ON/BC/AB)",
+                                    "values": [
+                                        "2% - 12%",
+                                        "Varies by province & income type"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "GST/HST",
+                                    "values": [
+                                        "5% - 15%",
+                                        "Sales tax (recoverable ITC)"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-tax-sales-1",
+                    "type": "cost_breakdown",
+                    "title": "Sales Tax Rates (2025)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Province/Territory",
+                                "Type",
+                                "Total Rate (%)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Alberta",
+                                    "values": [
+                                        "GST only",
+                                        "5%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "British Columbia",
+                                    "values": [
+                                        "GST (5%) + PST (7%)",
+                                        "12%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Ontario",
+                                    "values": [
+                                        "HST",
+                                        "13%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Quebec",
+                                    "values": [
+                                        "GST (5%) + QST (9.975%)",
+                                        "14.975%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Saskatchewan",
+                                    "values": [
+                                        "GST (5%) + PST (6%)",
+                                        "11%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Manitoba",
+                                    "values": [
+                                        "GST (5%) + RST (7%)",
+                                        "12%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Nova Scotia",
+                                    "values": [
+                                        "HST",
+                                        "15%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "New Brunswick",
+                                    "values": [
+                                        "HST",
+                                        "15%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "PEI",
+                                    "values": [
+                                        "HST",
+                                        "15%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Newfoundland",
+                                    "values": [
+                                        "HST",
+                                        "15%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Territories (YK, NT, NU)",
+                                    "values": [
+                                        "GST only",
+                                        "5%"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-tax-insights-1",
+                    "type": "insights",
+                    "title": "Tax Strategy",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "SR&ED Credits",
+                                "text": "The Scientific Research & Experimental Development (SR&ED) program offers a 35% refundable tax credit for CCPCs on eligible R&D spend (up to $3M limit)."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Associated Corporations",
+                                "text": "If you own multiple corporations, they must SHARE the $500,000 Small Business Deduction (SBD) limit. You cannot duplicate the low rate."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Dividends vs Salary",
+                                "text": "Paying yourself via dividends avoids CPP contributions but reduces RRSP room. Salary builds RRSP room and CPP but requires monthly source deductions."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-tax-steps-1",
+                    "type": "key_steps",
+                    "title": "Tax Filing Process",
+                    "subtitle": "Annual Requirements",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Determine Residency",
+                                "description": "Ensure 'Mind and Management' stays in Canada to maintain CCPC status."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Calculate Net Income",
+                                "description": "Adjust GAAP accounting income to Taxable Income (Schedule 1 adjustments)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "File T2 Return",
+                                "description": "Submit electronically via EFILE. Mandatory for corporations."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Issue T5 Slips",
+                                "description": "If dividends were declared, file T5 slips by Feb 28th of the following year."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-tax-faq-1",
+                    "type": "faq",
+                    "title": "Tax FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is a CCPC?",
+                                "answer": "Canadian-Controlled Private Corporation. It qualifies for the low small business tax rate and enhanced R&D credits."
+                            },
+                            {
+                                "question": "Can I claim home office expenses?",
+                                "answer": "Corporations can reimburse employees (including owners) for reasonable home office expenses if a signed T2200 form is provided."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "finance-tax-accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting"
+        },
+        {
+            "serviceSlug": "msa",
+            "service": "M & A",
+            "heroData": {
+                "title": "Legal Contracts",
+                "subtitle": "Commercial & Employment",
+                "description": "Common law applies everywhere except Quebec (Civil Code).",
+                "bestFor": "Contract safety.",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "section-msa-insights-1",
+                    "type": "insights",
+                    "title": "Contracting in Canada",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Governing Law",
+                                "text": "Ontario law is the most common choice for English contracts. Avoid Quebec law unless necessary (Civil Code is distinct from Common Law)."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Moral Rights",
+                                "text": "Canadian IP Assignment must explicitly waive 'Moral Rights' (author's right to integrity of work). A standard US assignment might miss this."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Regulation 105",
+                                "text": "A 15% withholding tax applies to fees paid to non-residents for services rendered IN Canada. Waivers can be applied for."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-msa-steps-1",
+                    "type": "key_steps",
+                    "title": "MSA Structure",
+                    "subtitle": "Essential Clauses",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Scope & Deliverables",
+                                "description": "Define Service Level Agreements (SLAs) clearly."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Confidentiality & IP",
+                                "description": "Ensure IP assignment includes 'present assignment of future rights' and Moral Rights waiver."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Indemnification",
+                                "description": "Standard caps on liability (e.g. 12 months fees) are common."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Dispute Resolution",
+                                "description": "Specify arbitration vs court. Toronto is a major arbitration hub."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-msa-quebec",
+                    "type": "insights",
+                    "title": "Quebec Civil Code",
+                    "subtitle": "Language & Civil Law",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Civil Law System",
+                                "text": "Quebec uses Civil Law (Napoleonic) rather than Common Law. Contracts MUST be in French to be valid for employees in Quebec (Bill 96)."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Bilingual Contracts",
+                                "text": "While bilingual is possible, the French version prevails in Quebec courts unless the parties explicitly agree otherwise (with limitations)."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Local Versioning",
+                                "text": "Always maintain a Quebec-specific template if you have employees in Montreal or Gatineau."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-msa-termination",
+                    "type": "insights",
+                    "title": "Termination Provisions",
+                    "subtitle": "Enforceability",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Wekerle Standard",
+                                "text": "Termination clauses are strictly scrutinized. If they violate statutory minimums even slightly, they are void, and Common Law applies."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Severability",
+                                "text": "Ensure your MSA has robust severability clauses to prevent the entire contract being voided by one invalid clause."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Just Cause",
+                                "text": "Just cause is extremely difficult to prove in Canada. Most terminations are 'without cause'."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "msa",
+            "name": "M & A",
+            "serviceName": "M & A"
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Tech Ecosystem",
+                "subtitle": "Innovative North",
+                "description": "Canada is a global leader in AI (Montreal), FinTech (Toronto), and Quantum Computing (Waterloo).",
+                "bestFor": "Development teams & R&D.",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "section-soft-hubs-1",
+                    "type": "cost_breakdown",
+                    "title": "Major Tech Hubs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Region",
+                                "Specialties",
+                                "Key Schools/Inst"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Toronto (GTA)",
+                                    "values": [
+                                        "FinTech, SaaS, Health",
+                                        "UofT, Vector Inst"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Waterloo",
+                                    "values": [
+                                        "Robotics, Quantum, Deep Tech",
+                                        "UWaterloo (Co-op)"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Montreal",
+                                    "values": [
+                                        "AI/Deep Learning, Gaming",
+                                        "Mila, McGill"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Vancouver",
+                                    "values": [
+                                        "Cleantech, VFX, Web3",
+                                        "UBC"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Ottawa",
+                                    "values": [
+                                        "GovTech, Telecom, SaaS",
+                                        "Shopify HQ"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-soft-insights-1",
+                    "type": "insights",
+                    "title": "Funding & Incentives",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "SR&ED Program",
+                                "text": "The Scientific Research and Experimental Development (SR&ED) tax incentive is the largest single source of federal government support for industrial R&D. CCPCs can earn a refundable investment tax credit of 35% on up to $3 million of qualified expenditures."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "IRAP Grants",
+                                "text": "NRC IRAP provides financial support to qualified small and medium-sized enterprises in Canada to undertake technology innovation. Unlike SR&ED, this is often grant-based (non-repayable or conditionally repayable) and can cover salary costs."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Data Residency",
+                                "text": "Public sector clients (gov, health) often require data to reside physically in Canada. Ensure your cloud architecture (AWS ca-central-1, Azure Canada Central) complies."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-soft-steps-1",
+                    "type": "key_steps",
+                    "title": "Setting Up Dev Teams",
+                    "subtitle": "Best Practices",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "IP Assignment",
+                                "description": "Ensure all developers sign strict IP assignment agreements waiving moral rights."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Access Grants",
+                                "description": "Apply for 'hiring grants' (e.g., wage subsidies for SWPP co-op students) BEFORE the employee starts."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Choose Structure",
+                                "description": "Decide between hiring EOR (fast) or establishing a sub (better for SR&ED)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-soft-ai",
+                    "type": "insights",
+                    "title": "AI & Innovation",
+                    "subtitle": "Global Leader",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Montreal AI Ecosystem",
+                                "text": "Home to Mila and world-class researchers like Yoshua Bengio. One of the highest concentrations of AI talent globally."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Vector Institute",
+                                "text": "Toronto's Vector Institute provides industry collaboration for AI startups and enterprises."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "IP Protection",
+                                "text": "Ensure AI-generated code ownership is explicitly covered in developer contracts."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "software-technology-solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions"
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Digital Agencies",
+                "subtitle": "Growth Partners",
+                "description": "Full-service agencies must navigate strict anti-spam (CASL) and language laws (Bill 96).",
+                "bestFor": "Compliant growth.",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "section-mark-costs-1",
+                    "type": "cost_breakdown",
+                    "title": "Agency Cost Structures",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service Type",
+                                "Cost Range (CAD)",
+                                "Model"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Full Service Retainer",
+                                    "values": [
+                                        "$5,000 - $20,000/mo",
+                                        "Strategy + Execution"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "SEO Projects",
+                                    "values": [
+                                        "$1,500 - $5,000/mo",
+                                        "Ongoing optimization"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "PPC Management",
+                                    "values": [
+                                        "15% - 25%",
+                                        "Of Ad Spend"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Hourly Rate",
+                                    "values": [
+                                        "$150 - $300/hr",
+                                        "Senior Strategists"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-mark-steps-1",
+                    "type": "key_steps",
+                    "title": "Hiring an Agency",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Define Scope & Budget",
+                                "description": "Clearly define deliverables (e.g. SEO audit, rebrand). Canadian agencies typically charge $150-$200/hr blended rate."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "RFP / Pitch",
+                                "description": "For projects >$50k, issue an RFP. Review 3 agencies. Ask for case studies in your specific vertical."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Contract Review",
+                                "description": "Ensure IP ownership transfer is explicit. Verify CASL compliance warranties are included in the MSA."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Onboarding",
+                                "description": "Grant access to analytics/ad accounts. Set clear KPIs (CAC, ROAS) for the first 90 days."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-mark-insights-1",
+                    "type": "insights",
+                    "title": "Regulatory Landscape",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "CASL (Anti-Spam)",
+                                "text": "Canada's Anti-Spam Legislation is one of the strictest in the world. You CANNOT send commercial electronic messages (CEMs) without express or implied consent. Penalties: up to $10M for corporations."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Bill 96 (Quebec)",
+                                "text": "All marketing materials, websites, and contracts directed at the Quebec market MUST be available in French. 'French First' rules apply to signage and commercial publications."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Ad Standards",
+                                "text": "Ad Standards Canada regulates truth in advertising. Influencer marketing requires clear disclosure ('#ad' or '#sponsored')."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-mark-faq-1",
+                    "type": "faq",
+                    "title": "Marketing FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Does CASL apply to B2B emails?",
+                                "answer": "Yes. Unless you have a pre-existing business relationship or the recipient notably published their address without a disclaimer, cold emailing is risky."
+                            },
+                            {
+                                "question": "Are email lists legal to buy?",
+                                "answer": "Generally, NO. You cannot rely on third-party consent. Buying a list and emailing them is a direct violation of CASL unless you can prove obtained consent."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "marketing-agency",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY"
+        }
+    ]
+}

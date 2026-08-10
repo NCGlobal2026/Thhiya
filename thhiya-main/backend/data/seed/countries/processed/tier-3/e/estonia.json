@@ -1,0 +1,2050 @@
+{
+    "name": "Estonia",
+    "code": "EE",
+    "slug": "estonia",
+    "flag": "https://flagcdn.com/w160/ee.png",
+    "region": "Europe",
+    "languages": [
+        "Estonian"
+    ],
+    "currencies": [
+        "EUR"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR & PEO in Estonia",
+                "subtitle": "Hire and manage employees in Estonia without a local entity",
+                "description": "Estonia's advanced digital infrastructure makes it an attractive hub for tech talent. Our EOR services handle all HR, payroll, and compliance needs while you focus on growth.",
+                "bestFor": "Tech startups and global firms hiring remote Estonian talent",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "type": "key_steps",
+                    "title": "Employee Onboarding Process",
+                    "subtitle": "Standard timeline: 3-5 business days",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract Generation",
+                                "description": "Drafting of an Estonia-compliant employment agreement. Must include salary, job description, start date, and working hours. Contracts are typically signed digitally using Smart-ID or Mobile-ID."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Employment Register Registration",
+                                "description": "Mandatory registration of the employee in the Estonian Employment Register (Töötamise register) before the actual start of work. This is handled by the EOR provider."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Document Collection",
+                                "description": "Collection of employee's Estonian ID code (Isikukood), bank details, and tax-free income application (if applicable for 2025)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Health & Safety Briefing",
+                                "description": "Completion of required Occupational Health and Safety briefings as per Estonian labor law. Employers must ensure a safe work environment even for remote workers."
+                            }
+                        ]
+                    },
+                    "id": "eor-peo-key-steps"
+                },
+                {
+                    "type": "cost_breakdown",
+                    "title": "EOR Cost Structure (2025 Estimates)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Cost Category",
+                                "Percentage/Amount",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Management Fee",
+                                    "values": [
+                                        "€400 - €900",
+                                        "Monthly per employee"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Employer Social Tax",
+                                    "values": [
+                                        "33%",
+                                        "Paid on gross salary"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Unemployment Insurance",
+                                    "values": [
+                                        "0.8%",
+                                        "Employer share"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Pension Contribution",
+                                    "values": [
+                                        "4%",
+                                        "Standard state-funded/II pillar"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Total Employer Burden",
+                                    "values": [
+                                        "~33.8% - 37%",
+                                        "Excluding management fee"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    },
+                    "id": "eor-peo-cost-breakdown"
+                },
+                {
+                    "type": "insights",
+                    "title": "Compliance & Legal Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Permanent Establishment Risk",
+                                "text": "Hiring a high-level executive via EOR in Estonia for more than 6-12 months may trigger PE risk, potentially making the parent company liable for Estonian corporate tax."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Digital-First Compliance",
+                                "text": "Estonia is 100% digital. All reporting to the Tax and Customs Board (EMTA) is done electronically. Failure to register an employee BEFORE they start work results in immediate fines."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Probation Period Norms",
+                                "text": "The statutory maximum probation period is 4 months. During this time, the notice period for either party is 15 calendar days."
+                            }
+                        ]
+                    },
+                    "id": "eor-peo-insights"
+                },
+                {
+                    "type": "good_to_know",
+                    "title": "Estonian Remote Work Culture",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Flexibility is Standard",
+                                "text": "Estonian tech workers highly value asynchronous communication and flexibility. Standard work hours are 40 hours per week."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "English Proficiency",
+                                "text": "English is widely spoken in the business community, especially in the tech and startup sectors, making it easy for international teams to collaborate."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Annual Leave Policy",
+                                "text": "Minimum statutory annual holiday is 28 calendar days per year. It is common to take it in blocks of 7 days or more."
+                            }
+                        ]
+                    },
+                    "id": "eor-peo-good-to-know"
+                },
+                {
+                    "type": "faq",
+                    "title": "Common EOR Questions",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I hire a contractor as an employee via EOR?",
+                                "answer": "Yes, EOR providers specialized in Estonia can transition local contractors to full-time employees, ensuring all local taxes and social contributions are handled correctly."
+                            },
+                            {
+                                "question": "Who owns the Intellectual Property (IP)?",
+                                "answer": "Standard EOR contracts for Estonia include IP assignment clauses where all rights created by the employee are transferred to the client company upon payment."
+                            },
+                            {
+                                "question": "How do notice periods work for termination?",
+                                "answer": "After probation, notice depends on tenure: <1 yr (15 days), 1-5 yrs (30 days), 5-10 yrs (60 days), 10+ yrs (90 days). Employer must have a valid legal reason for dismissal."
+                            }
+                        ]
+                    },
+                    "id": "eor-peo-faq"
+                },
+                {
+                    "type": "key_steps",
+                    "title": "Monthly Payroll Cycle",
+                    "subtitle": "Standard cut-off: 25th of the month",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Data Consolidation",
+                                "description": "Collection of variable data including overtime, bonuses, sick leave notes (certificates of incapacity for work), and vacation days from the TSD system."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Gross-to-Net Calculation",
+                                "description": "Application of the uniform 2025 tax-free allowance of €700/month and deduction of 22% income tax, 1.6% unemployment insurance, and 2% pension."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "TSD Declaration Submission",
+                                "description": "E-submission of the 'Declaration of income and social tax, unemployment insurance premiums and contributions to mandatory funded pension' via EMTA. Official deadline is the 10th of the following month."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Fund Distribution",
+                                "description": "Net salary payment to employees' banks via SEPA (instant in Estonia) and tax remittance to the Estonian Tax and Customs Board."
+                            }
+                        ]
+                    },
+                    "id": "global-payroll-key-steps"
+                },
+                {
+                    "type": "cost_breakdown",
+                    "title": "2025 Tax Rates & Thresholds",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Rate (EEA Resident)",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Personal Income Tax",
+                                    "values": [
+                                        "22%",
+                                        "Unified rate for 2025"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Basic Exemption",
+                                    "values": [
+                                        "€700 / month",
+                                        "Uniform for all adults"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Social Tax (Employer)",
+                                    "values": [
+                                        "33%",
+                                        "Used for health & pension"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Unemployment (Employee)",
+                                    "values": [
+                                        "1.6%",
+                                        "Deducted from gross"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Unemployment (Employer)",
+                                    "values": [
+                                        "0.8%",
+                                        "Added on top of gross"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    },
+                    "id": "global-payroll-cost-breakdown"
+                },
+                {
+                    "type": "insights",
+                    "title": "Strategic Payroll Compliance",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Unified Tax-Free Allowance",
+                                "text": "From 2025, the previous graduated 'tax hump' is replaced with a flat €8,400 annual (€700 monthly) tax-free income regardless of the total salary level."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Minimum Social Tax",
+                                "text": "Employers must pay social tax on at least the monthly rate established by the state budget (€292.38 in 2026), even if the employee is part-time, unless they meet specific exemption criteria."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Sick Leave Payments",
+                                "text": "Days 1-3: unpaid. Days 4-8: Employer pays 70%. Day 9 onwards: Health Insurance Fund (Haigekassa) pays 70%."
+                            }
+                        ]
+                    },
+                    "id": "global-payroll-insights"
+                },
+                {
+                    "type": "deductions",
+                    "title": "Mandatory Payroll Deductions",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Payer",
+                                "Rate",
+                                "Mandatory?"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Tax",
+                                    "values": [
+                                        "Employer",
+                                        "33%",
+                                        "Yes"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Unemployment Ins.",
+                                    "values": [
+                                        "Both",
+                                        "1.6% (Empl) / 0.8% (Emplyr)",
+                                        "Yes"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Income Tax",
+                                    "values": [
+                                        "Employee",
+                                        "22%",
+                                        "Yes"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Funded Pension (II)",
+                                    "values": [
+                                        "Employee",
+                                        "Usually 2%",
+                                        "Opt-out available but rare"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    },
+                    "id": "global-payroll-deductions"
+                },
+                {
+                    "type": "faq",
+                    "title": "Estonian Payroll FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the payroll deadline in Estonia?",
+                                "answer": "Tax declarations (TSD) and payments are due by the 10th day of the month following the payment. Most companies pay salaries on the last day of the month or the 1st of the next month."
+                            },
+                            {
+                                "question": "How are bonuses taxed in Estonia?",
+                                "answer": "Bonuses are treated as regular employment income and are subject to the same 22% income tax and social taxes as the base salary."
+                            },
+                            {
+                                "question": "Is there a 13th-month salary requirement?",
+                                "answer": "No, there is no legal requirement for a 13th-month salary in Estonia. It is purely discretionary and should be stated in the employment contract if provided."
+                            }
+                        ]
+                    },
+                    "id": "global-payroll-faq"
+                },
+                {
+                    "type": "key_steps",
+                    "title": "Gross-to-Net Logic 2025",
+                    "subtitle": "The calculation steps used for Estonian payroll",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross Salary Entry",
+                                "description": "The starting point is the gross monthly salary agreed upon in the contract."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Employee Contributions",
+                                "description": "Deduction of 1.6% for Unemployment Insurance and 2% for the II Pillar Pension (if the employee hasn't opted out)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Taxable Income Calc",
+                                "description": "Gross Salary - Employee Contributions - €700 (Uniform Basic Exemption for 2025)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Income Tax Calculation",
+                                "description": "Multiplication of the Taxable Income by 22% (the unified rate starting Jan 2025)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Employer Cost Addition",
+                                "description": "Adding 33% Social Tax and 0.8% Unemployment Insurance on top of the Gross Salary for total company cost calculation."
+                            }
+                        ]
+                    },
+                    "id": "payroll-calculator-key-steps"
+                },
+                {
+                    "type": "cost_breakdown",
+                    "title": "Sample Salary Breakdown (2025)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Calculation",
+                                "Monthly Amount (Est.)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Gross Salary",
+                                    "values": [
+                                        "Baseline",
+                                        "€3,000.00"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Unemployment Ins. (1.6%)",
+                                    "values": [
+                                        "Deduction",
+                                        "€48.00"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Funded Pension (2%)",
+                                    "values": [
+                                        "Deduction",
+                                        "€60.00"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Taxable Base",
+                                    "values": [
+                                        "3000 - 48 - 60 - 700",
+                                        "€2,192.00"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Income Tax (22%)",
+                                    "values": [
+                                        "Deduction",
+                                        "€482.24"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Net Salary",
+                                    "values": [
+                                        "3000 - 48 - 60 - 482.24",
+                                        "€2,409.76"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Social Tax (33%)",
+                                    "values": [
+                                        "Employer Cost",
+                                        "€990.00"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Unemployment (0.8%)",
+                                    "values": [
+                                        "Employer Cost",
+                                        "€24.00"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Total Cost for Company",
+                                    "values": [
+                                        "3000 + 990 + 24",
+                                        "€4,014.00"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    },
+                    "id": "payroll-calculator-cost-breakdown"
+                },
+                {
+                    "type": "insights",
+                    "title": "Calculator Thresholds",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Basic Exemption",
+                                "text": "For 2025, the basic exemption is a flat €700 per month for everyone. This simplifies the previous system where the exemption decreased as income rose."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Mandatory Pension",
+                                "text": "Most employees born after 1983 are automatically enrolled in the II Pillar (2%). Opting out takes time and has specific window periods."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Employer Burden",
+                                "text": "A good rule of thumb in Estonia is that the total employer cost is approximately 1.34 times the gross salary."
+                            }
+                        ]
+                    },
+                    "id": "payroll-calculator-insights"
+                },
+                {
+                    "type": "good_to_know",
+                    "title": "Additional Compensation",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Overtime Rates",
+                                "text": "Overtime must be compensated by time off or paid at 1.5x the hourly rate. Public holiday work is paid at 2x."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Tax-Free Stipends",
+                                "text": "Daily allowance for foreign business trips (up to €50/day) is tax-free and not included in these calculations."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Net vs Gross Culture",
+                                "text": "Most Estonians will ask 'how much will I get in hand?' (Net salary), while official documents always focus on the Gross amount."
+                            }
+                        ]
+                    },
+                    "id": "payroll-calculator-good-to-know"
+                },
+                {
+                    "type": "faq",
+                    "title": "Calculator FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is the 2026 tax rate different?",
+                                "answer": "Currently, the 22% rate is set as the new baseline for 2025 and onwards. If further changes are legislated, the calculator will require updates."
+                            },
+                            {
+                                "question": "Does this work for self-employed?",
+                                "answer": "FIEs have different social tax rules. This calculator is strictly designed for employment contracts (OÜ employees)."
+                            },
+                            {
+                                "question": "How are sick days calculated?",
+                                "answer": "Sick days use the average salary of the previous 6 months as a base. The first 3 days are unpaid by most employers, but some provide them as a benefit."
+                            }
+                        ]
+                    },
+                    "id": "payroll-calculator-faq"
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Entity Setup in Estonia",
+                "subtitle": "The world's easiest business registration via e-Residency",
+                "description": "Register a private limited company (OÜ) in minutes. Estonia offers a unique 0% tax on reinvested profits and a fully digital business environment.",
+                "bestFor": "E-residents and global entrepreneurs wanting an EU presence",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "type": "insights",
+                    "title": "Estonian Entity Comparison",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "OÜ (Private Limited)",
+                                "text": "The most popular form. Minimum share capital €0.01 per shareholder. Directors have no residency requirement if they have e-Residency."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Sole Proprietor (FIE)",
+                                "text": "Suitable for simple solo operations, but carries personal liability. Generally not recommended for international business due to complex tax cross-border issues."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Substance Requirements",
+                                "text": "To benefit from tax treaties, companies should demonstrate substance. At minimum, a local contact person (mandatory for non-residents) and potentially a local director are advised."
+                            }
+                        ]
+                    },
+                    "id": "incorporation-entity-setup-insights"
+                },
+                {
+                    "type": "key_steps",
+                    "title": "Registration via e-Business Register",
+                    "subtitle": "Process for E-Residents (Timeline: ~1-3 hours)",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Name Reservation & Checking",
+                                "description": "Check the availability of the company name in the e-Business Register. Name must be distinct and contain the 'OÜ' suffix."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Digital Application Filing",
+                                "description": "Log in to the portal using e-Residency ID. Fill in company details, choose business activity (EMTAK code), and appoint management board members."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Selection of Service Provider",
+                                "description": "Mandatory requirement: non-residents must hire a licensed local contact person and have a registered office address in Estonia."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Payment of State Fee",
+                                "description": "Payment of €265 state fee via bank link or credit card. If using an API provider, this might be bundled into their service fee."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Digital Signatures",
+                                "description": "All founders and management board members must digitally sign the application using their e-Residency card."
+                            }
+                        ]
+                    },
+                    "id": "incorporation-entity-setup-key-steps"
+                },
+                {
+                    "type": "cost_breakdown",
+                    "title": "Initial Setup Costs (2025)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Item",
+                                "One-time Fee",
+                                "Annual Recurring"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "E-Residency ID Card",
+                                    "values": [
+                                        "€150",
+                                        "€0"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "State Registration Fee",
+                                    "values": [
+                                        "€265",
+                                        "€0"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Registered Address & Contact",
+                                    "values": [
+                                        "€0",
+                                        "€200 - €400"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Minimum Share Capital",
+                                    "values": [
+                                        "€0.01",
+                                        "€0"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Total Minimum Setup",
+                                    "values": [
+                                        "€415",
+                                        "€200"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    },
+                    "id": "incorporation-entity-setup-cost-breakdown"
+                },
+                {
+                    "type": "good_to_know",
+                    "title": "The e-Residency Advantage",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Remote Management",
+                                "text": "You can run your Estonian company from anywhere in the world. 99% of government services are available online 24/7."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "EU Market Access",
+                                "text": "An Estonian entity provides a legitimate base to trade within the EU single market, access European payment gateways like Stripe/Mollie, and use VAT Moss."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Banking Landscape",
+                                "text": "Traditional banks (LHV, Swedbank) are strict. Most e-residents use Fintech solutions like Intergiro, Wise, or Revolut Business for their initial banking needs."
+                            }
+                        ]
+                    },
+                    "id": "incorporation-entity-setup-good-to-know"
+                },
+                {
+                    "type": "faq",
+                    "title": "Incorporation FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "How long does it take for the company to be active?",
+                                "answer": "Once the application is signed and fees paid, the Commercial Register usually processes and approves the application within 1 business day (often 2-3 hours)."
+                            },
+                            {
+                                "question": "Do I need to travel to Estonia?",
+                                "answer": "No. With e-Residency, the entire process from application to banking setup and annual report filing can be done 100% remotely."
+                            },
+                            {
+                                "question": "Is a local director required?",
+                                "answer": "No. You can be the 100% owner and sole director living abroad. You only need a local 'contact person' which is a service provided by licensed firms."
+                            }
+                        ]
+                    },
+                    "id": "incorporation-entity-setup-faq"
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Recruitment in Estonia",
+                "subtitle": "Access one of Europe's most tech-savvy talent pools",
+                "description": "Estonia is famous for producing 'Unicorns' per capita. We help you find developers, engineers, and digital specialists in the Tallinn and Tartu tech hubs.",
+                "bestFor": "Tech companies looking for high-quality engineering talent",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "type": "insights",
+                    "title": "Talent Landscape Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "High Tech Density",
+                                "text": "Estonia has the highest number of startups per capita in Europe. Talent is highly mobile and usually fluent in 3+ languages (Estonian, English, Russian/Finnish)."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Niche Competition",
+                                "text": "Competition for senior DevOps and Full-stack developers is fierce. Local giants like Bolt, Wise, and Pipedrive dominate the attractivity rankings."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Salary Transparency",
+                                "text": "There is a growing trend of salary transparency in job ads. Providing a range increases applicant quality by up to 40% in the Estonian market."
+                            }
+                        ]
+                    },
+                    "id": "staffing-talent-acquisition-insights"
+                },
+                {
+                    "type": "key_steps",
+                    "title": "Hiring Process Walkthrough",
+                    "subtitle": "Average time-to-hire: 4-6 weeks",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Job Posting & Channel Selection",
+                                "description": "Listing on CV-Online and CV Keskus (local leaders) and LinkedIn. For tech, MeetFrank and specialized Slack communities (DevClub.ee) are highly effective."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Technical Assessment",
+                                "description": "Standard practice includes a home task or pair programming session. Estonians value objective skill verification over long behavioral interviews."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Reference Checks",
+                                "description": "The community is small. Informal reference checks within the local network are very common and highly trusted."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "The 'Estonian' Offer",
+                                "description": "Offers are usually discussed in NET monthly amounts, though the contract must state the GROSS annual/monthly figure. Clarity on this is crucial."
+                            }
+                        ]
+                    },
+                    "id": "staffing-talent-acquisition-key-steps"
+                },
+                {
+                    "type": "cost_breakdown",
+                    "title": "Recruitment Costs & Fees",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service Type",
+                                "Standard Fee",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Full Cycle Recruitment",
+                                    "values": [
+                                        "15% - 22%",
+                                        "Of annual gross salary"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Executive Search",
+                                    "values": [
+                                        "25% - 33%",
+                                        "Retained search model"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Job Board Posting",
+                                    "values": [
+                                        "€150 - €400",
+                                        "Standard 30-day listing"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "IT Contractor Markup",
+                                    "values": [
+                                        "10% - 15%",
+                                        "On top of daily/hourly rate"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    },
+                    "id": "staffing-talent-acquisition-cost-breakdown"
+                },
+                {
+                    "type": "good_to_know",
+                    "title": "Working Culture Norms",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Direct Communication",
+                                "text": "Estonian communication style is direct and honest. Small talk is minimal; value is placed on efficiency and results."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Benefits Over Perks",
+                                "text": "Health insurance top-ups, sports compensation (Stebby), and home office stipends are valued more than office snacks or table tennis."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "The 'Tallinn' Tech Hub",
+                                "text": "While Tartu is the university town, Tallinn (Ülemiste City) is the main business and tech hub where 70% of high-growth companies are located."
+                            }
+                        ]
+                    },
+                    "id": "staffing-talent-acquisition-good-to-know"
+                },
+                {
+                    "type": "faq",
+                    "title": "Staffing FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is it easy to find English-speaking talent?",
+                                "answer": "Yes, English is the primary language in most tech companies. Almost all university-educated professionals under 45 are fluent."
+                            },
+                            {
+                                "question": "What are the social media preferences for hiring?",
+                                "answer": "LinkedIn is the primary tool for white-collar and tech hiring. For blue-collar or general roles, Facebook groups are surprisingly active."
+                            },
+                            {
+                                "question": "Do I need a local recruiter?",
+                                "answer": "While global agencies work, local recruiters (like TalentHub or Brainy Agency) have better access to 'passive' candidates in the tight-knit local market."
+                            }
+                        ]
+                    },
+                    "id": "staffing-talent-acquisition-faq"
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS in Estonia",
+                "subtitle": "Digital-first HR management systems for a paperless workforce",
+                "description": "Integrate your HR operations with Estonia's advanced e-governance systems. Our HRIS solutions offer seamless connectivity between employee data and state registers.",
+                "bestFor": "Modern companies leveraging Estonia's digital ecosystem",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "type": "insights",
+                    "title": "Digital HR Landscape",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "State Register Integration",
+                                "text": "Top-tier HRIS platforms in Estonia integrate directly with the Employee Register (TÖR). This allows one-click reporting of new hires and terminations to the Tax Board."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Digital Signature Support",
+                                "text": "Any HRIS used in Estonia must support .asice and .bdoc container formats for digital signatures (Smart-ID/Mobile-ID), which is the legal standard for all contracts."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "GDPR Compliance",
+                                "text": "Estonia has strict data protection laws. Ensure your HRIS provider hosts data within the EEA and provides tools for 'right to be forgotten' and data portability."
+                            }
+                        ]
+                    },
+                    "id": "hris-insights"
+                },
+                {
+                    "type": "key_steps",
+                    "title": "HRIS Implementation Steps",
+                    "subtitle": "Average setup time: 2-4 weeks",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Requirements Mapping",
+                                "description": "Identify needs for time tracking, vacation management, and payroll integration. Essential to cover Estonian specifics like sick leave (Haigushüvitis) calculations."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Data Migration & API Setup",
+                                "description": "Migrating existing employee records into the system. Setting up APIs for seamless data flow between HR, accounting, and state registers."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Training & Adoption",
+                                "description": "Rolling out the system to employees. Focus on self-service features for vacation requests and document access, which are highly expected in Estonia."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Go-Live & Validation",
+                                "description": "Running the system in parallel with existing processes for one cycle to ensure all statutory reporting (like TSD) is generated correctly."
+                            }
+                        ]
+                    },
+                    "id": "hris-key-steps"
+                },
+                {
+                    "type": "cost_breakdown",
+                    "title": "HRIS Pricing Models",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Plan Level",
+                                "Est. Monthly Cost",
+                                "Key Features"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Starter",
+                                    "values": [
+                                        "€4 - €7 / user",
+                                        "Basic database, vacation tracking"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Professional",
+                                    "values": [
+                                        "€10 - €15 / user",
+                                        "Payroll API, performance reviews"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Enterprise",
+                                    "values": [
+                                        "Custom Pricing",
+                                        "Full ERP integration, custom workflows"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "One-time Setup",
+                                    "values": [
+                                        "€500 - €2,500",
+                                        "Data migration and training"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    },
+                    "id": "hris-cost-breakdown"
+                },
+                {
+                    "type": "good_to_know",
+                    "title": "Estonian HR Tech Norms",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Self-Service is Key",
+                                "text": "Estonian employees are highly independent. An HRIS that allows them to download their own pay slips and manage holidays is essential for satisfaction."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Mobile-ID Integration",
+                                "text": "The ability to log in and sign documents via a mobile app is not just a perk but a standard requirement for efficient HR operations in Estonia."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Scoro & Local Tools",
+                                "text": "While global tools like BambooHR are popular, local solutions like Scoro (for unified work management) or Workly (for time tracking) are deeply optimized for the local market."
+                            }
+                        ]
+                    },
+                    "id": "hris-good-to-know"
+                },
+                {
+                    "type": "faq",
+                    "title": "HRIS FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Does the HRIS need to be in Estonian?",
+                                "answer": "While English is common in business, having an interface in Estonian is legally required for some health and safety documentation if requested by employees."
+                            },
+                            {
+                                "question": "Can I use a global HRIS in Estonia?",
+                                "answer": "Yes, but you must ensure it can handle Estonian-specific tax reporting and supports the local digital signature standards for contract execution."
+                            },
+                            {
+                                "question": "How does the HRIS integrate with the Tax Board?",
+                                "answer": "The most advanced systems use X-Road or direct API connections to push data to the Employment Register (TÖR) automatically."
+                            }
+                        ]
+                    },
+                    "id": "hris-faq"
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Services in Estonia",
+                "subtitle": "Professional, automated, and fully compliant financial management",
+                "description": "Estonia's accounting standards are aligned with IFRS. We provide tech-enabled accounting services that leverage automation and real-time reporting.",
+                "bestFor": "OÜ entities and e-residents scaling their business",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "type": "insights",
+                    "title": "Estonian Accounting Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "E-Invoicing Standard",
+                                "text": "Estonia is moving towards 100% e-invoicing. B2G (business-to-government) e-invoicing is already mandatory, and B2B is highly encouraged for efficiency."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Annual Report Deadlines",
+                                "text": "The deadline for submitting the annual report to the Commercial Register is 6 months after the end of the financial year. Penalties for late filing are strictly enforced."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Software Integration",
+                                "text": "Using accounting software that connects directly to your Estonian bank (via Gateway) can automate up to 80% of routine bookkeeping tasks."
+                            }
+                        ]
+                    },
+                    "id": "accounting-insights"
+                },
+                {
+                    "type": "key_steps",
+                    "title": "Monthly Accounting Workflow",
+                    "subtitle": "Ensuring continuous compliance",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Document Collection (Expenditure)",
+                                "description": "Collection of all business-related receipts and invoices. Tools like CostPocket or Envoice are used to digitize paper receipts via mobile app."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Bank Reconciliation",
+                                "description": "Automated matching of bank statement entries with sales and purchase invoices. Ensures the company's ledger reflects the actual cash position."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "VAT & TSD Filing",
+                                "description": "Preparation and submission of the VAT return (KMD) and the Payroll Tax return (TSD) by the 20th and 10th of each month respectively."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Management Reporting",
+                                "description": "Preparation of monthly Profit & Loss and Balance Sheet statements to provide the owner with a clear view of financial performance."
+                            }
+                        ]
+                    },
+                    "id": "accounting-key-steps"
+                },
+                {
+                    "type": "cost_breakdown",
+                    "title": "Accounting Service Fees",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Transaction Volume",
+                                "Monthly Fee",
+                                "Scope"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Micro (Up to 10 docs)",
+                                    "values": [
+                                        "€50 - €80",
+                                        "Basic bookkeeping, monthly filings"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Small (10 - 50 docs)",
+                                    "values": [
+                                        "€100 - €250",
+                                        "Payroll for 1-3 ppl included"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Medium (50 - 200 docs)",
+                                    "values": [
+                                        "€300 - €600",
+                                        "Dedicated accountant, advisory"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Annual Report Prep",
+                                    "values": [
+                                        "€150 - €500",
+                                        "One-time fee based on complexity"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    },
+                    "id": "accounting-cost-breakdown"
+                },
+                {
+                    "type": "good_to_know",
+                    "title": "Accounting Best Practices",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Audit Thresholds",
+                                "text": "Most small OÜs do not require an audit. For 2025, an audit is mandatory if turnover >€4.0m, assets >€2.0m, or >60 employees (2 of 3 met)."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Expense Deductibility",
+                                "text": "Business expenses must be clearly related to the company's main activity. Non-business expenses are subject to 'fringe benefit' taxes of ~66% (combined)."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Digital Ledger",
+                                "text": "Hard copies are not required by law if documents are stored digitally in a way that ensures their preservation and readability for 7 years."
+                            }
+                        ]
+                    },
+                    "id": "accounting-good-to-know"
+                },
+                {
+                    "type": "faq",
+                    "title": "Accounting FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Do I need an accountant if I have 0 activity?",
+                                "answer": "Even with 0 activity, you must submit an annual report. For inactive companies, this is a simple 'zero-report' which can often be done by the owner, but professional help is recommended to avoid errors."
+                            },
+                            {
+                                "question": "What software is best for Estonian accounting?",
+                                "answer": "SmartAccounts, Merit Aktiva, and Directo are the local leaders due to deep integration with Estonian banks and Tax Board APIs."
+                            },
+                            {
+                                "question": "How are international invoices handled?",
+                                "answer": "Invoices from/to EU countries must follow VAT reverse charge rules and require an VIES-valid VAT number. Out of EU invoices are generally 0-rated VAT."
+                            }
+                        ]
+                    },
+                    "id": "accounting-faq"
+                },
+                {
+                    "type": "insights",
+                    "title": "Core Compliance Pillars",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Labor Law Compliance",
+                                "text": "Estonian Labor Law is flexible but protective. Key areas include working time limits (40h/week), mandatory vacations, and strict termination procedures."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "AML/KYC Requirements",
+                                "text": "Since 2021, Estonia has significantly tightened AML rules, especially for VASPs (crypto). Higher requirements for local management and internal audits apply."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Beneficial Owners (UBO)",
+                                "text": "Every Estonian company must register its Ultimate Beneficial Owners in the Commercial Register. Failure to do so can block bank accounts."
+                            }
+                        ]
+                    },
+                    "id": "compliance-insights"
+                },
+                {
+                    "type": "key_steps",
+                    "title": "Compliance Setup Timeline",
+                    "subtitle": "Establishing a robust framework",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Risk Assessment",
+                                "description": "Identify regulatory risks based on industry (Fintech, E-commerce, SaaS). Mapping against EU and Estonian-specific directives."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Policy Drafting",
+                                "description": "Creation of internal policies: Data Protection (GDPR), Health & Safety at work, and internal Anti-Bribery/Whistleblowing policies."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "UBO & Activity Reporting",
+                                "description": "Finalizing the registration of beneficial owners and ensuring the specific field of activity (EMTAK) is correctly listed in the register."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Annual Compliance Review",
+                                "description": "Regular audits of employee contracts, tax filings, and data processing agreements to ensure ongoing adherence to changing laws."
+                            }
+                        ]
+                    },
+                    "id": "compliance-key-steps"
+                },
+                {
+                    "type": "cost_breakdown",
+                    "title": "Compliance Advisory Costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service",
+                                "Estimated Fee",
+                                "Frequency"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Contact Person (Mandatory)",
+                                    "values": [
+                                        "€200 - €400",
+                                        "Annual"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Labor Law Audit",
+                                    "values": [
+                                        "€800 - €1,500",
+                                        "One-time / Annual"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "GDPR Compliance Package",
+                                    "values": [
+                                        "€1,000 - €2,000",
+                                        "One-time setup"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "AML/KYC Advisory",
+                                    "values": [
+                                        "€150 - €300 / hr",
+                                        "As needed"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "UBO Registration",
+                                    "values": [
+                                        "€50 - €100",
+                                        "One-time setup"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    },
+                    "id": "compliance-cost-breakdown"
+                },
+                {
+                    "type": "good_to_know",
+                    "title": "Regulatory Context",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "X-Road Security",
+                                "text": "Most data sharing between government and private sectors is done via X-Road, which provides an immutable log of who accessed what data and when."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Civil Law System",
+                                "text": "Estonia follows a civil law system (based on German law). Contracts should be specific and well-documented as 'common law' precedents are not used."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Health Insurance Fund",
+                                "text": "Compliance includes ensuring employees are registered with Haigekassa to receive state health insurance, which is funded by the 33% social tax."
+                            }
+                        ]
+                    },
+                    "id": "compliance-good-to-know"
+                },
+                {
+                    "type": "faq",
+                    "title": "Compliance FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Who can act as a local contact person?",
+                                "answer": "Only licensed entities (notaries, law firms, or trust/company service providers) can act as a contact person for non-resident directors."
+                            },
+                            {
+                                "question": "Is GDPR different in Estonia?",
+                                "answer": "No, it follows the EU-wide GDPR, but the Estonian Data Protection Inspectorate (AKI) is known for being active in providing specific guidance for digital startups."
+                            },
+                            {
+                                "question": "What are the penalties for non-compliance?",
+                                "answer": "Fines can range from €200 for minor administrative errors up to €400,000 or a percentage of turnover for serious AML or GDPR breaches."
+                            }
+                        ]
+                    },
+                    "id": "compliance-faq"
+                },
+                {
+                    "type": "insights",
+                    "title": "Estonian Tax System Highlights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Unique Corporate Tax Model",
+                                "text": "Estonia does not tax corporate profits as they are earned. Instead, a tax of 22% (from 2025) is only applied when dividends are distributed."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Transfer Pricing",
+                                "text": "Transactions with related parties must be at market price. Documentation is required if the transaction volume or company size exceeds specified thresholds."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "VAT Registration Threshold",
+                                "text": "Mandatory VAT registration occurs when annual taxable turnover exceeds €40,000. Voluntary registration is possible earlier to recover input VAT."
+                            }
+                        ]
+                    },
+                    "id": "tax-insights"
+                },
+                {
+                    "type": "key_steps",
+                    "title": "VAT Compliance Process",
+                    "subtitle": "Standard monthly cycle",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "VAT Number Application",
+                                "description": "Submission of application to EMTA. Takes ~3-5 business days. Required if turnover >€40k or when importing services from the EU."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Input VAT Reconciliation",
+                                "description": "Verification of purchase invoices. Only VAT on business-related expenses can be deducted. Car-related expenses usually have a 50% limit."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "KMD Declaration",
+                                "description": "Preparation of the Value Added Tax Return (KMD). Must include Annex KMD INF for transactions >€1,000 per partner."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Monthly Reporting",
+                                "description": "Submission of the declaration via e-MTA by the 20th day of the following month."
+                            }
+                        ]
+                    },
+                    "id": "tax-key-steps"
+                },
+                {
+                    "type": "cost_breakdown",
+                    "title": "Standard Tax Rates (2025)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Tax Type",
+                                "Rate",
+                                "Basis"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax",
+                                    "values": [
+                                        "22%",
+                                        "On distributed profits only"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Value Added Tax (VAT)",
+                                    "values": [
+                                        "22%",
+                                        "Standard rate (increased 2024)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Personal Income Tax",
+                                    "values": [
+                                        "22%",
+                                        "Unified rate for 2025"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Fringe Benefit Tax",
+                                    "values": [
+                                        "~66%",
+                                        "Combined rate on non-business perks"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "VAT (Reduced)",
+                                    "values": [
+                                        "9% / 5%",
+                                        "Books, medicine, accommodation / daily press"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    },
+                    "id": "tax-cost-breakdown"
+                },
+                {
+                    "type": "good_to_know",
+                    "title": "International Tax Considerations",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Double Taxation Treaties",
+                                "text": "Estonia has signed 60+ DTAs. These treaties prevent double taxation of dividends, interest, and royalties for international owners."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "CFC Rules",
+                                "text": "Controlled Foreign Corporation rules may apply for Estonian residents owning foreign entities. Expert advice is needed for complex structures."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "VIES Validation",
+                                "text": "Always check the VAT numbers of EU partners via the VIES system before applying 0% VAT to ensure zero-rated invoicing is valid."
+                            }
+                        ]
+                    },
+                    "id": "tax-good-to-know"
+                },
+                {
+                    "type": "faq",
+                    "title": "Tax FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What happens if I never pay dividends?",
+                                "answer": "You pay 0% corporate income tax. This allows for rapid capital accumulation and reinvestment into the business or other financial assets."
+                            },
+                            {
+                                "question": "How is crypto-currency taxed?",
+                                "answer": "Crypto gains for companies are only taxed upon distribution (like any other profit). For individuals, it's treated as capital gains at 22%."
+                            },
+                            {
+                                "question": "Is there a wealth tax in Estonia?",
+                                "answer": "No, Estonia does not have wealth taxes, estate taxes, or inheritance taxes, making it very attractive for long-term wealth building."
+                            }
+                        ]
+                    },
+                    "id": "tax-faq"
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "M&A and Legal in Estonia",
+                "subtitle": "Strategic legal support for tech exits and cross-border acquisitions",
+                "description": "Estonia is a prime location for tech M&A. We provide the legal framework and strategic advisory for mergers, acquisitions, and Master Service Agreements.",
+                "bestFor": "Founders and investors looking for tech exits in the Baltics",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "type": "insights",
+                    "title": "M&A Strategic Landscape",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Tech Exit Hub",
+                                "text": "Estonia has a high density of secondary transactions and full exits in the SaaS and Fintech sectors. Buyers are often from the US, UK, or Nordic countries."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Due Diligence Focus",
+                                "text": "Due diligence in Estonia heavily focuses on IP ownership chains and compliance with the digital signature Act, which is the backbone of all legal transactions since 2002."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "FDI Screenings",
+                                "text": "New EU-wide Foreign Direct Investment (FDI) screening rules apply in Estonia for critical infrastructure and sensitive tech sectors."
+                            }
+                        ]
+                    },
+                    "id": "msa-insights"
+                },
+                {
+                    "type": "key_steps",
+                    "title": "M&A Process Overview",
+                    "subtitle": "Timeline: 3-9 months",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Letter of Intent (LOI)",
+                                "description": "Drafting the non-binding offer. Standard clauses include exclusivity (shop-around ban) and confidentiality (NDA)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Legal & Financial Due Diligence",
+                                "description": "Comprehensive review of the target's contracts, tax history (TSD filings), employee register status, and IP documentation."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Transaction Documentation",
+                                "description": "Drafting the Share Purchase Agreement (SPA). Common features in Estonia include warranty and indemnity (W&I) insurance for larger deals."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Closing & Register Notification",
+                                "description": "Updating the Commercial Register. Transfers of shares must be notarized unless the articles of association allow for digital-only transfers (common for startups)."
+                            }
+                        ]
+                    },
+                    "id": "msa-key-steps"
+                },
+                {
+                    "type": "cost_breakdown",
+                    "title": "Legal & Strategic Fees",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service Component",
+                                "Estimate",
+                                "Basis"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "MSA Drafting",
+                                    "values": [
+                                        "€1,500 - €3,000",
+                                        "Per contract"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Full Buy-side DD",
+                                    "values": [
+                                        "€10,000 - €25,000",
+                                        "Small/Medium tech entity"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Senior Legal Counsel",
+                                    "values": [
+                                        "€200 - €400",
+                                        "Hourly rate at Tier 1 firms"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Notary Fees",
+                                    "values": [
+                                        "€100 - €1,000",
+                                        "Based on transaction value"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Closing Success Fee",
+                                    "values": [
+                                        "1% - 3%",
+                                        "Of transaction value"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    },
+                    "id": "msa-cost-breakdown"
+                },
+                {
+                    "type": "good_to_know",
+                    "title": "Legal Environment Tips",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Standard of Good Faith",
+                                "text": "The Estonian Law of Obligations Act places a high emphasis on the principle of good faith during pre-contractual negotiations."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Civil Law Basis",
+                                "text": "Contracts are usually shorter than in Common Law jurisdictions as many fallback rules are already defined in the Civil Code."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Remote Notarization",
+                                "text": "Estonia allows for remote notarization via video link for many transactions, which is a major benefit for international investors."
+                            }
+                        ]
+                    },
+                    "id": "msa-good-to-know"
+                },
+                {
+                    "type": "faq",
+                    "title": "MSA & Legal FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Are electronic signatures legally binding?",
+                                "answer": "Yes. Digital signatures provided via e-ID (e-Residency, Smart-ID) are legally equivalent to handwritten signatures across the EU under the eIDAS regulation."
+                            },
+                            {
+                                "question": "Can I draft an MSA in English?",
+                                "answer": "Yes, English is the standard language for international business in Estonia. However, an Estonian summary or translation might be needed if filed with local courts."
+                            },
+                            {
+                                "question": "How are shareholder disputes handled?",
+                                "answer": "Disputes are typically resolved in the Harju County Court or via the Court of Arbitration of the Estonian Chamber of Commerce and Industry."
+                            }
+                        ]
+                    },
+                    "id": "msa-faq"
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Solutions in Estonia",
+                "subtitle": "Build and scale with the builders of Skype and Bolt",
+                "description": "Estonia's software engineering culture is globally recognized for quality and innovation. We connect you with top-tier development houses and cybersecurity experts.",
+                "bestFor": "Enterprises needing high-end outsourcing or custom SaaS development",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "type": "insights",
+                    "title": "Estonian Tech Ecosystem",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Pioneers in E-Gov",
+                                "text": "Estonia's software sector is deeply rooted in government-led digitization. Expertise in X-Road integration and blockchain-based data integrity (KSI) is world-leading."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "The 'Skype' Heritage",
+                                "text": "The local engineering culture values clean code, scalability, and security. There is a strong community of architects with experience in global-scale products."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Rising Costs",
+                                "text": "While still more affordable than California or London, Estonian dev rates have risen 15-20% in the last 2 years due to high international demand."
+                            }
+                        ]
+                    },
+                    "id": "software-solutions-insights"
+                },
+                {
+                    "type": "key_steps",
+                    "title": "Software Project Lifecycle",
+                    "subtitle": "Standard Agile approach",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Discovery & Architecture",
+                                "description": "Defining the tech stack (React/Node.js is very popular in Estonia) and mapping the microservices architecture for scalability."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "MVP Development",
+                                "description": "Rapid prototyping and development of core features. Estonian houses excel at the 'fast-to-market' philosophy popularized by local startups."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Security & Pentesting",
+                                "description": "Given Estonia's cybersecurity focus, rigorous testing for vulnerabilities and GDPR-compliance by design is standard in high-end projects."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Deployment & DevOps",
+                                "description": "Setup on AWS/Azure or local cloud providers like Telia. Implementation of CI/CD pipelines for continuous improvement."
+                            }
+                        ]
+                    },
+                    "id": "software-solutions-key-steps"
+                },
+                {
+                    "type": "cost_breakdown",
+                    "title": "Software Development Rates (2025)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Role",
+                                "Hourly Rate (Junior)",
+                                "Hourly Rate (Senior+)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Full Stack Dev",
+                                    "values": [
+                                        "€45 - €60",
+                                        "€80 - €120"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "UI/UX Designer",
+                                    "values": [
+                                        "€40 - €55",
+                                        "€70 - €95"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "DevOps / Security",
+                                    "values": [
+                                        "€55 - €70",
+                                        "€100 - €150"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Project Manager",
+                                    "values": [
+                                        "€40 - €60",
+                                        "€75 - €110"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "QA Engineer",
+                                    "values": [
+                                        "€35 - €50",
+                                        "€65 - €90"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    },
+                    "id": "software-solutions-cost-breakdown"
+                },
+                {
+                    "type": "good_to_know",
+                    "title": "Technical Specializations",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Cybersecurity Prowess",
+                                "text": "Estonia hosts the NATO CCDCOE. Local companies like Guardtime offer some of the world's most advanced data integrity solutions."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Identity Solutions",
+                                "text": "Developers here are experts in building systems that leverage national ID infrastructures, a niche skill highly valuable for Fintech and Govtech."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Fintech Innovation",
+                                "text": "A huge portion of the software sector is dedicated to payment processing, neo-banking, and ledger technologies."
+                            }
+                        ]
+                    },
+                    "id": "software-solutions-good-to-know"
+                },
+                {
+                    "type": "faq",
+                    "title": "Software FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Are Estonian developers good at remote work?",
+                                "answer": "Exceptionally. Remote and hybrid work was the norm in the Estonian tech sector long before 2020. Most developers have experience in distributed teams."
+                            },
+                            {
+                                "question": "What are the common tech stacks in Estonia?",
+                                "answer": "For web: React, Vue.js, Node.js, Go, and Python. For enterprise: Java and C#. For mobile: Swift and Kotlin."
+                            },
+                            {
+                                "question": "Is IP protection strong?",
+                                "answer": "Very. Estonian law and local contracts are robust regarding the assignment of IP to the client, providing high certainty for international buyers."
+                            }
+                        ]
+                    },
+                    "id": "software-solutions-faq"
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing in Estonia",
+                "subtitle": "Data-driven growth strategies for the Digital Age",
+                "description": "Estonian agencies excel at performance marketing and digital brand building. We help you navigate the Baltic and Nordic markets with precision.",
+                "bestFor": "SaaS companies and consumer brands scaling in Europe",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "type": "insights",
+                    "title": "Marketing Sector Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Digital First Focus",
+                                "text": "Traditional media is declining rapidly. 70% of marketing budgets are now allocated to digital channels: Google, Meta, and increasingly TikTok for youth audiences."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Regional Gateway",
+                                "text": "Tallinn-based agencies often serve as the hub for the entire Baltic (Estonia, Latvia, Lithuania) and Nordic region due to shared digital cultural proximity."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Ad Fatigue",
+                                "text": "Estonians are tech-literate and sensitive to intrusive advertising. Data-driven, value-first content marketing performs significantly better than direct sales tactics."
+                            }
+                        ]
+                    },
+                    "id": "marketing-agencies-insights"
+                },
+                {
+                    "type": "key_steps",
+                    "title": "Campaign Launch Blueprint",
+                    "subtitle": "From strategy to execution",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Market Research & Localization",
+                                "description": "Adapting messaging for the Estonian market. While English works for tech, localizing to Estonian is crucial for the wider consumer market."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Channel Strategy",
+                                "description": "Selecting the right mix. LinkedIn for B2B tech, Instagram/Facebook for lifestyle, and YouTube for high-engagement video content."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Creative Production",
+                                "description": "Development of assets. High-quality video production and minimalist design (Nordic style) are highly effective in Estonia."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Optimization & Analytics",
+                                "description": "Rigorous tracking using GA4 and local attribution models. Estonians have a high preference for data-backed decision making."
+                            }
+                        ]
+                    },
+                    "id": "marketing-agencies-key-steps"
+                },
+                {
+                    "type": "cost_breakdown",
+                    "title": "Standard Marketing Fees",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service",
+                                "Typical Spend/Fee",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Full Strategy Audit",
+                                    "values": [
+                                        "€2,000 - €5,000",
+                                        "One-time comprehensive review"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Social Media (Ads)",
+                                    "values": [
+                                        "15% - 20%",
+                                        "Management fee on top of ad spend"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "SEO (Monthly Retainer)",
+                                    "values": [
+                                        "€800 - €2,500",
+                                        "Includes content & tech SEO"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Content Creation",
+                                    "values": [
+                                        "€150 - €400",
+                                        "Per blog post / motion graphic"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "PR & Influencer",
+                                    "values": [
+                                        "€1,000 - €3,000",
+                                        "Per campaign + media costs"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    },
+                    "id": "marketing-agencies-cost-breakdown"
+                },
+                {
+                    "type": "good_to_know",
+                    "title": "Local Market Nuances",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "The Nordic Aesthetic",
+                                "text": "Visuals should be clean, professional, and well-designed. Over-the-top or aggressive sales graphics are often viewed with skepticism."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Trust Drivers",
+                                "text": "Social proof and case studies are vital. Providing data on ROI and clear customer testimonials is the fastest way to build trust in Estonia."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Omnichannel Approach",
+                                "text": "Combining digital ads with offline presence in key tech hubs (like Ülemiste) can be very effective for high-value B2B services."
+                            }
+                        ]
+                    },
+                    "id": "marketing-agencies-good-to-know"
+                },
+                {
+                    "type": "faq",
+                    "title": "Marketing FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I run ads in English only?",
+                                "answer": "For the tech sector, yes. But for General Consumer (B2C), you will lose 40-60% of potential reach if you don't translate into Estonian."
+                            },
+                            {
+                                "question": "What are the most popular social networks?",
+                                "answer": "Facebook and Instagram remain dominant. LinkedIn is huge for B2B. TikTok is growing fastest among the 15-25 demographic."
+                            },
+                            {
+                                "question": "Is influencer marketing effective?",
+                                "answer": "Yes, especially in the health, tech, and lifestyle sectors. Micro-influencers (10k-30k followers) often have the highest engagement rates in Estonia."
+                            }
+                        ]
+                    },
+                    "id": "marketing-agencies-faq"
+                }
+            ]
+        }
+    ]
+}

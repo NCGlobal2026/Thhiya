@@ -1,0 +1,595 @@
+{
+    "name": "Honduras",
+    "code": "HN",
+    "slug": "honduras",
+    "flag": "https://flagcdn.com/w160/hn.png",
+    "region": "Americas",
+    "languages": [
+        "Spanish"
+    ],
+    "currencies": [
+        "HNL"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR & PEO in Honduras",
+                "subtitle": "Hire in Tegucigalpa & SPS",
+                "description": "Compliant employment in Honduras. We navigate the 13th/14th Month Bonuses, IHSS caps, and RAP contributions.",
+                "bestFor": "Call Centers & Maquiladoras",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "hn-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract Execution",
+                                "description": "Execute compliant employment contract in Spanish. Must specify 'Período de Prueba' (Probation) max 60 days."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "IHSS Registration",
+                                "description": "Enrolling employee with Instituto Hondureño de Seguridad Social (IHSS) for medical and pension coverage."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "RAP Enrollment",
+                                "description": "Registering with Régimen de Aportaciones Privadas (RAP) for severance and housing funds, mandatory for companies with >10 employees."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hn-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "IHSS - IVM",
+                                    "values": [
+                                        "3.5%",
+                                        "2.5%",
+                                        "Disability, Old Age, Death. Capped at ceiling (~L. 11,903 in 2025)."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "IHSS - EM",
+                                    "values": [
+                                        "5.0%",
+                                        "2.5%",
+                                        "Sickness & Maternity. Capped at ceiling (~L. 11,903)."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "RAP - Housing",
+                                    "values": [
+                                        "1.5%",
+                                        "1.5%",
+                                        "Mandatory Housing Fund."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "RAP - Reserve",
+                                    "values": [
+                                        "4.0%",
+                                        "0%",
+                                        "Labor Reserve Fund. Capped at 3x Minimum Wage."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "INFOP",
+                                    "values": [
+                                        "1.0%",
+                                        "0%",
+                                        "Training Institute tax on total payroll."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "hn-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Holy Thursday",
+                                "description": "April 17"
+                            },
+                            {
+                                "title": "Good Friday",
+                                "description": "April 18"
+                            },
+                            {
+                                "title": "Holy Saturday",
+                                "description": "April 19"
+                            },
+                            {
+                                "title": "Labor Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Independence Day",
+                                "description": "September 15"
+                            },
+                            {
+                                "title": "Morazan Week",
+                                "description": "October 1 - October 3 (Wed-Fri). Unifies Soldiers' Day, Rasa Day, and Forces Day."
+                            },
+                            {
+                                "title": "Christmas Day",
+                                "description": "December 25"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hn-eor-bonuses",
+                    "type": "warning",
+                    "title": "Mandatory Bonuses",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "13th Month (Aguinaldo)",
+                                "description": "Paid in December. Equal to one month's salary."
+                            },
+                            {
+                                "title": "14th Month (Catorceavo)",
+                                "description": "Paid in June. Equal to one month's salary. Crucial for budget planning."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hn-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax Brackets (Annual HNL)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Income Range (HNL)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "0 - 209,369.62",
+                                    "values": [
+                                        "0% (Exempt)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "209,369.63 - 319,251.54",
+                                    "values": [
+                                        "15%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "319,251.55 - 742,445.49",
+                                    "values": [
+                                        "20%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Above 742,445.49",
+                                    "values": [
+                                        "25%"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "hn-gp-cycle",
+                    "type": "key_steps",
+                    "title": "Monthly Cycle",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross Pay",
+                                "description": "Base salary + Overtime."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Deductions",
+                                "description": "Withhold IHSS (Health/Pension) and RAP (Housing)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Income Tax",
+                                "description": "Calculate ISR (Impuesto Sobre la Renta) on taxable base (Gross - Deductions - Medical Allowance L.40k)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Net Deposit",
+                                "description": "Transfer to employee bank account (Banco Atlántida, BAC, Ficohsa)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hn-calc-rules",
+                    "type": "key_steps",
+                    "title": "Calculation Logic",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Monthly Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Deduct SS",
+                                "description": "IHSS (IVM + EM) and RAP."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Deduct Tax",
+                                "description": "Apply ISR progressive rates on Taxable Base."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Net",
+                                "description": "Result."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Honduras",
+                "subtitle": "S.A. or S. de R.L.",
+                "description": "Establish a Sociedad de Responsabilidad Limitada (S. de R.L.) or Sociedad Anónima (S.A.).",
+                "bestFor": "Permanent Operations",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "hn-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Notary Deed",
+                                "description": "Execute the Public Deed of Constitution before a Honduran Notary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Mercantil Registry",
+                                "description": "Register the deed at the Registro Mercantil in the local Chamber of Commerce (Cámara de Comercio)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax ID (RTN)",
+                                "description": "Obtain Registro Tributario Nacional (RTN) from SAR (Servicio de Administración de Rentas)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Operational Permit",
+                                "description": "Apply for 'Permiso de Operación' from the Municipality."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Labor Registration",
+                                "description": "Register with Ministry of Labor, IHSS, RAP, and INFOP."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hn-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Banco Atlántida",
+                                "description": "Oldest and largest bank."
+                            },
+                            {
+                                "title": "BAC Credomatic",
+                                "description": "Strong regional presence."
+                            },
+                            {
+                                "title": "Banco Ficohsa",
+                                "description": "Major corporate bank."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Honduras",
+                "subtitle": "Bilingual Talent",
+                "description": "Sourcing professionals in Tegucigalpa and San Pedro Sula.",
+                "bestFor": "BPO & Manufacturing",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "hn-staff-hubs",
+                    "type": "insights",
+                    "title": "Recruitment Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "San Pedro Sula",
+                                "text": "The industrial capital. Hub for manufacturing, logistics, and textiles."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Tegucigalpa",
+                                "text": "The administrative capital. Hub for services, banking, and government."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Honduras",
+                "subtitle": "Compliance Tech",
+                "description": "Manage 13th/14th month accruals and IHSS deductions.",
+                "bestFor": "Efficiency",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "hn-hris-features",
+                    "type": "essentials",
+                    "title": "Key Capabilities",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Bonus Accrual",
+                                "description": "Automated tracking of 13th/14th month entitlement."
+                            },
+                            {
+                                "title": "RTN Integration",
+                                "description": "Linking employee records to Tax IDs."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Honduras",
+                "subtitle": "NIIF Standards",
+                "description": "Bookkeeping under IFRS (NIIF in Spanish).",
+                "bestFor": "Visibility",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "hn-acc-standards",
+                    "type": "insights",
+                    "title": "Framework",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "NIIF Pymes",
+                                "text": "IFRS for SMEs (NIIF para Pymes) is standard for most private companies."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hn-comp-deadlines",
+                    "type": "essentials",
+                    "title": "Key Filings",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Monthly Declarations",
+                                "description": "ISV and Withholding due by the 10th of following month."
+                            },
+                            {
+                                "title": "Annual Income Tax",
+                                "description": "Due by April 30."
+                            },
+                            {
+                                "title": "Municipal Tax",
+                                "description": "Volume of Sales declaration due by January 31."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "hn-tax-rates",
+                    "type": "cost_breakdown",
+                    "title": "Tax Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax (ISR)",
+                                    "values": [
+                                        "25%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Solidarity Contribution",
+                                    "values": [
+                                        "5%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Sales Tax (ISV)",
+                                    "values": [
+                                        "15% (General) / 18% (Alcohol/Tobacco)"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Honduras",
+                "subtitle": "Civil Code",
+                "description": "Contracting under Honduran Law.",
+                "bestFor": "Security",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "hn-msa-contracts",
+                    "type": "insights",
+                    "title": "Key Clauses",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Termination",
+                                "text": "Termination without just cause requires severance payment (Auxilio de Cesantía) ranging from 10 days to 1 month salary per year of service."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Honduras",
+                "subtitle": "Tech Landscape",
+                "description": "Connectivity and tools.",
+                "bestFor": "Ops",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "hn-soft-isps",
+                    "type": "essentials",
+                    "title": "Providers",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Tigo",
+                                "description": "Major mobile and home internet provider."
+                            },
+                            {
+                                "title": "Claro",
+                                "description": "Major competitor in mobile and fixed line."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Honduras",
+                "subtitle": "Local Consumers",
+                "description": "Reaching audiences.",
+                "bestFor": "Growth",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "hn-mark-overview",
+                    "type": "insights",
+                    "title": "Strategy",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Social Media",
+                                "text": "Facebook and WhatsApp are ubiquitous for business communication and marketing."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

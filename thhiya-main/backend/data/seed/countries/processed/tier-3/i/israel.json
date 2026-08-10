@@ -1,0 +1,603 @@
+{
+    "name": "Israel",
+    "code": "IL",
+    "slug": "israel",
+    "flag": "https://flagcdn.com/w160/il.png",
+    "region": "Asia",
+    "languages": [
+        "Hebrew",
+        "Arabic"
+    ],
+    "currencies": [
+        "ILS"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR & PEO in Israel",
+                "subtitle": "Hire in Tel Aviv",
+                "description": "Compliant employment in Israel. We handle Bituach Leumi, Pension Fund mandatory contributions, and Convalescence Pay.",
+                "bestFor": "Tech Startups",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "il-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract (Hozé Avoda)",
+                                "description": "Must be in a language the employee understands (Hebrew/English). Specify 'Global Salary' if overtime is included."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Form 101",
+                                "description": "Employee must fill out 'Tofes 101' (Tax Card) at start of employment and annually."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Pension Selection",
+                                "description": "Employee chooses their Pension Fund and Study Fund (Keren Hishtalmut)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "il-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "National Insurance (Bituach Leumi)",
+                                    "values": [
+                                        "3.55% - 7.60%",
+                                        "3.50% - 12.00%",
+                                        "Includes Health Tax. Reduced rate on first ~7,522 NIS."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Pension (Tagmulim)",
+                                    "values": [
+                                        "6.5%",
+                                        "6.0%",
+                                        "Mandatory pension contribution."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Severance (Pitzuim)",
+                                    "values": [
+                                        "6.0% - 8.33%",
+                                        "0%",
+                                        "Section 14 arrangement usually sets this at 8.33% to cover full liability."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Study Fund (Keren Hishtalmut)",
+                                    "values": [
+                                        "7.5%",
+                                        "2.5%",
+                                        "Optional but standard in Tech. Tax-free up to ceiling."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "il-eor-benefits",
+                    "type": "essentials",
+                    "title": "Mandatory Benefits",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Convalescence Pay (Dmei Havraa)",
+                                "description": "Annual payment. ~418 NIS per day. 5-10 days depending on seniority. Note: 1 day deducted in 2024 for Reservist fund."
+                            },
+                            {
+                                "title": "Travel Allowance (Hozar Nesi'ot)",
+                                "description": "Reimbursement for commute, up to daily cap (~22.60 NIS)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "il-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Purim",
+                                "description": "March 14 (Optional)"
+                            },
+                            {
+                                "title": "Passover (Pesach)",
+                                "description": "April 12-19 (First & Last days are holidays)"
+                            },
+                            {
+                                "title": "Memorial Day (Yom HaZikaron)",
+                                "description": "April 30 (Short day)"
+                            },
+                            {
+                                "title": "Independence Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Shavuot",
+                                "description": "June 1-2"
+                            },
+                            {
+                                "title": "Rosh Hashanah",
+                                "description": "September 22-24"
+                            },
+                            {
+                                "title": "Yom Kippur",
+                                "description": "October 1-2"
+                            },
+                            {
+                                "title": "Sukkot",
+                                "description": "October 6-13 (First day is holiday)"
+                            },
+                            {
+                                "title": "Simchat Torah",
+                                "description": "October 13-14"
+                            },
+                            {
+                                "title": "Hanukkah",
+                                "description": "December 14-22 (Not public holidays, schools off)"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "il-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax Brackets (Monthly ILS)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Monthly Income (ILS)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "0 - 7,010",
+                                    "values": [
+                                        "10%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "7,011 - 10,060",
+                                    "values": [
+                                        "14%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "10,061 - 16,150",
+                                    "values": [
+                                        "20%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "16,151 - 22,440",
+                                    "values": [
+                                        "31%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "22,441 - 46,690",
+                                    "values": [
+                                        "35%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "46,691 - 60,130",
+                                    "values": [
+                                        "47%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Above 60,130",
+                                    "values": [
+                                        "50%"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "il-gp-credits",
+                    "type": "insights",
+                    "title": "Nekudot Zikuy",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Tax Credit Points",
+                                "text": "Each resident gets 2.25 points minimum (Men) or 2.75 (Women). Each point is worth ~242 NIS reduction in monthly tax."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "il-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation Flow",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Base Salary + Overtime + Travel."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Gross for SS",
+                                "description": "Deduct Bituach Leumi (Health + National)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Gross for Tax",
+                                "description": "Deduct Employee Pension (5.5-6%)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Tax",
+                                "description": "Calculate Tax on Taxable Income, then subtract Credit Points value."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Net",
+                                "description": "Final result."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Israel",
+                "subtitle": "Ltd. Setup",
+                "description": "Establish a Private Company Limited by Shares (Ba'am).",
+                "bestFor": "R&D Centers",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "il-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Registrar Filing",
+                                "description": "Submit Articles of Association and Directors' Affidavit to Registrar of Companies."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "VAT Registration",
+                                "description": "Open file with MA'AM (VAT Authority)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax & Deductions",
+                                "description": "Open files with Income Tax (Mas Hachnasa) and Deductions (Nikuyim)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Bituach Leumi",
+                                "description": "Open file with National Insurance Institute."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "il-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Bank Hapoalim",
+                                "description": "Largest bank."
+                            },
+                            {
+                                "title": "Bank Leumi",
+                                "description": "Major competitor, strong tech focus."
+                            },
+                            {
+                                "title": "Discount Bank",
+                                "description": "Popular commercial bank."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Israel",
+                "subtitle": "Startup Nation",
+                "description": "Sourcing world-class engineering and cybersecurity talent.",
+                "bestFor": "R&D",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "il-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Tel Aviv",
+                                "text": "The heart of the 'Silicon Wadi'. High cost, high skill."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Herzliya Pituach",
+                                "text": "Major concentration of multinational R&D centers."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Haifa",
+                                "text": "Proximity to Technion University driven talent pool."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Israel",
+                "subtitle": "Form 101",
+                "description": "Digital Form 101 and pension clearing.",
+                "bestFor": "Compliance",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "il-hris-features",
+                    "type": "essentials",
+                    "title": "Key Features",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Digital Form 101",
+                                "description": "Mandatory annual tax declaration for employees, now handled digitally."
+                            },
+                            {
+                                "title": "Pension Clearing",
+                                "description": "Integration with pension clearing houses (Maslaka Pensionit)."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Israel",
+                "subtitle": "Israeli GAAP",
+                "description": "Based on IFRS.",
+                "bestFor": "Reporting",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "il-acc-standards",
+                    "type": "insights",
+                    "title": "Framework",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "IFRS",
+                                "text": "Israel adopted IFRS fully for public companies in 2008. Private companies often use Israeli GAAP which is very similar."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "il-comp-audit",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Extension Orders",
+                                "description": "Collective bargaining agreements often extended to entire sectors by the Labor Minister."
+                            },
+                            {
+                                "title": "Sexual Harassment",
+                                "description": "Prevention of Sexual Harassment Law requires strict policies and designated officer."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "il-tax-rates",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax",
+                                    "values": [
+                                        "23%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "VAT (Ma'am)",
+                                    "values": [
+                                        "17%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Dividend Tax",
+                                    "values": [
+                                        "25% - 30%",
+                                        "Withholding"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Israel",
+                "subtitle": "Contracts",
+                "description": "Israeli Law jurisdiction.",
+                "bestFor": "Enforceability",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "il-msa-clauses",
+                    "type": "insights",
+                    "title": "Key Clauses",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Section 14",
+                                "text": "Crucial clause. Signing 'Section 14' releases employer from future severance liability variations in exchange for monthly 8.33% contributions."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Israel",
+                "subtitle": "Tech Ecosystem",
+                "description": "Advanced digital adoption.",
+                "bestFor": "Integration",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "il-soft-tools",
+                    "type": "essentials",
+                    "title": "Popular Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "WhatsApp",
+                                "description": "Primary business communication tool."
+                            },
+                            {
+                                "title": "Monday.com",
+                                "description": "Israeli-founded, widely used for project management."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Israel",
+                "subtitle": "Digital",
+                "description": "Performance marketing focus.",
+                "bestFor": "Growth",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "il-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "LinkedIn",
+                                "text": "Very strong for B2B and Tech hiring."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

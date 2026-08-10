@@ -1,0 +1,2149 @@
+{
+    "name": "Zambia",
+    "code": "ZM",
+    "slug": "zambia",
+    "flag": "https://flagcdn.com/w160/zm.png",
+    "region": "Africa",
+    "languages": [
+        "English"
+    ],
+    "currencies": [
+        "ZMW"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR & PEO in Zambia",
+                "subtitle": "Hire compliant teams in Zambia without a local entity",
+                "description": "Deploy talent in Zambia rapidly using an Employer of Record. Navigate the Employment Code Act No. 3 of 2019, manage NAPSA/NHIMA contributions, and handle strict severance mandates while mitigating permanent establishment risk.",
+                "bestFor": "NGOs, mining support firms, and remote tech teams",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "type": "key_steps",
+                    "title": "EOR Employment Framework",
+                    "subtitle": "From onboarding to termination",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contractual Set-Up",
+                                "description": "The EOR issues a local employment contract compliant with Zambian law, specifying the 'tripartite' relationship. Contracts must explicitly state probation terms (max 3 months, renewable once)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Statutory Registration",
+                                "description": "Employee is registered with the National Pension Scheme Authority (NAPSA) and National Health Insurance Management Authority (NHIMA) within 14 days of hiring."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Payroll & Benefits Configuration",
+                                "description": "Setting up monthly payroll to deduct PAYE (tax), NAPSA (5%), and NHIMA (1%). Housing and transport allowances are taxable unless directly expensed."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Compliance Monitoring",
+                                "description": "Ongoing tracking of leave accruals (2 days/month) and ensuring working hours do not exceed 48 hours/week without overtime pay (1.5x rate)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Termination Management",
+                                "description": "Handling separation according to the Employment Code. Notice periods range from 24 hours (probation) to 30 days. Severance pay or gratuity (25% of basic pay) applies to fixed-term contracts."
+                            }
+                        ]
+                    },
+                    "id": "eor-peo-key-steps"
+                },
+                {
+                    "type": "cost_breakdown",
+                    "title": "EOR Service Fees",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Cost Component",
+                                "Estimated Value",
+                                "Frequency"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Management Fee (Standard)",
+                                    "values": [
+                                        "$200 - $1,000",
+                                        "Monthly per employee"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Management Fee (Percentage)",
+                                    "values": [
+                                        "10% - 25%",
+                                        "Of gross payroll"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Onboarding/Setup Fee",
+                                    "values": [
+                                        "$200 - $2,000",
+                                        "One-time"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Employer NAPSA Contribution",
+                                    "values": [
+                                        "5% (Capped at ~ZMW 1,708)",
+                                        "Monthly"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Employer NHIMA Contribution",
+                                    "values": [
+                                        "1%",
+                                        "Monthly"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Skills Development Levy",
+                                    "values": [
+                                        "0.5%",
+                                        "Monthly (Employer only)"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    },
+                    "id": "eor-peo-cost-breakdown",
+                    "subtitle": ""
+                },
+                {
+                    "type": "insights",
+                    "title": "Labor Law Compliance",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Severance & Gratuity",
+                                "text": "Employees on fixed-term contracts are entitled to a gratuity of 25% of their basic pay earned during the contract term. This is a significant accrued liability that must be funded."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Probation Limits",
+                                "text": "Probation cannot exceed 3 months initially, extendable by another 3 months (6 months total). Termination during probation requires only 24 hours' notice."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Leave Encashment",
+                                "text": "Unused annual leave days must be paid out upon termination. The statutory entitlement is 24 days per year."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Business Etiquette",
+                                "text": "Greetings (handshakes) are formal and crucial. Meetings often start late ('African time'), but patience and relationship building are valued over speed."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Public Holidays",
+                                "text": "Zambia observes ~14 holidays aimed at national unity, including Heroes' Day (July) and Farmers' Day (Aug). Work on these days attracts double pay."
+                            }
+                        ]
+                    },
+                    "id": "eor-peo-insights",
+                    "subtitle": ""
+                },
+                {
+                    "type": "faq",
+                    "title": "EOR Frequently Asked Questions",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I hire expats via EOR?",
+                                "answer": "Yes, but they require a valid Employment Permit. The EOR acts as the sponsor. The process takes 4-8 weeks and requires proving no local talent is available."
+                            },
+                            {
+                                "question": "What is the redundancy pay?",
+                                "answer": "In cases of redundancy, the law mandates a minimum of 2 months' basic pay for every year served, plus accrued leave and other benefits."
+                            },
+                            {
+                                "question": "Is insurance mandatory?",
+                                "answer": "Yes, National Health Insurance (NHIMA) is mandatory for all employees. Private medical insurance is a common supplemental benefit but not statutory."
+                            }
+                        ]
+                    },
+                    "id": "eor-peo-faq",
+                    "subtitle": ""
+                },
+                {
+                    "type": "good_to_know",
+                    "title": "Cultural Nuances",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Formal Greetings",
+                                "text": "Always begin business interactions with inquiries about health and well-being. Jumping straight to business is considered rude."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Time Management",
+                                "text": "While you should be punctual, expect locals to be flexible with time. Deadlines may be viewed as targets rather than absolutes."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Hierarchy",
+                                "text": "Zambian society is hierarchical. Address seniors by title and surname until invited to use first names."
+                            }
+                        ]
+                    },
+                    "id": "eor-peo-good-to-know",
+                    "subtitle": ""
+                },
+                {
+                    "type": "key_steps",
+                    "title": "Monthly Payroll Routine",
+                    "subtitle": "Processing cycle and deadlines",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Update & Gross Pay",
+                                "description": "Input changes (bonuses, overtime, unpaid leave). Calculate Gross Pay, ensuring all cash allowances (housing, transport) are included as taxable income."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Statutory Deductions",
+                                "description": "Deduct NAPSA (5% capped), NHIMA (1%), and calculate PAYE based on the progressive tax bands (0% to 37%). Deduct Skills Levy (0.5%) from employer side."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Net Pay Disbursement",
+                                "description": "Transfer Net Pay to employee bank accounts. Most transactions in Zambia clear within the same day via ZIPSS."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Authority Remittances",
+                                "description": "Pay Taxes (PAYE) to ZRA and Social Security to NAPSA/NHIMA by the 10th of the following month. File returns (Form P11) simultaneously."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Payslip Distribution",
+                                "description": "Issue secure digital or physical payslips to employees, detailing all earnings and deductions as required by the Employment Code."
+                            }
+                        ]
+                    },
+                    "id": "global-payroll-key-steps"
+                },
+                {
+                    "type": "cost_breakdown",
+                    "title": "Tax & Contribution Rates (2025)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Contribution",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "NAPSA (Pension)",
+                                    "values": [
+                                        "5%",
+                                        "5%",
+                                        "Capped on earnings of ZMW 34,164/yr (Approx)"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "NHIMA (Health)",
+                                    "values": [
+                                        "1%",
+                                        "1%",
+                                        "No ceiling applied"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Skills Levy",
+                                    "values": [
+                                        "0.5%",
+                                        "0%",
+                                        "On total gross emoluments"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Income Tax (PAYE)",
+                                    "values": [
+                                        "0%",
+                                        "0% - 37%",
+                                        "Progressive bands"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    },
+                    "id": "global-payroll-cost-breakdown",
+                    "subtitle": ""
+                },
+                {
+                    "type": "insights",
+                    "title": "Tax Regulation Updates",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "PAYE Tax Free Threshold",
+                                "text": "For 2025, the tax-free threshold is ZMW 5,100 per month. Income above this is taxed at 20%, 30%, and 37%."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Late Penalties",
+                                "text": "Late payment of PAYE attracts a 5% penalty per month plus interest. Late NAPSA payments incur a 20% cumulative penalty."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Gratuity Tax",
+                                "text": "Gratuity payments at the end of a contract are taxed at a flat rate of 25% if the contract period was at least 2 years, otherwise normal PAYE bands apply."
+                            }
+                        ]
+                    },
+                    "id": "global-payroll-insights",
+                    "subtitle": ""
+                },
+                {
+                    "type": "faq",
+                    "title": "Payroll FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the NAPSA ceiling?",
+                                "answer": "For 2025, the monthly ceiling for NAPSA contributions is based on the earnings cap, resulting in a max contribution of ~ZMW 1,708 per party."
+                            },
+                            {
+                                "question": "Are allowances taxable?",
+                                "answer": "Yes, generally all cash allowances for housing, transport, and utilities are added to the gross salary and taxed under PAYE. Direct reimbursements for business expenses are not."
+                            },
+                            {
+                                "question": "Is there a 13th month bonus?",
+                                "answer": "No, a 13th-month bonus is not a statutory requirement in Zambia, though some private companies offer it as a performance incentive."
+                            }
+                        ]
+                    },
+                    "id": "global-payroll-faq",
+                    "subtitle": ""
+                },
+                {
+                    "type": "insights",
+                    "title": "Expat Payroll Nuances",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Tax Equalization",
+                                "text": "Expats on Zambian payroll are taxed on global income remitted to Zambia. Gross-up calculations are complex due to the 37% top tier."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Permit Linkage",
+                                "text": "Payroll cannot be processed for foreign nationals without a valid Employment Permit (valid for 2 years) or Temporary Employment Permit."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Gratuity Exemptions",
+                                "text": "Expat contracts often include gratuity. If the contract is <2 years, this is taxed at normal PAYE rates, not the concessional 25%."
+                            }
+                        ]
+                    },
+                    "id": "global-payroll-insights-2",
+                    "subtitle": ""
+                },
+                {
+                    "type": "key_steps",
+                    "title": "Calculation Logic",
+                    "subtitle": "2025 Rules",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross Income",
+                                "description": "Start with Basic Salary + Allowances (Housing, Transport, etc.). All are taxable."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Deductions",
+                                "description": "Subtract NAPSA (5%, capped ~ZMW 1708) and NHIMA (1%)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax (PAYE)",
+                                "description": "Apply bands to the taxable income: 0% first K5100, 20% next K2000, 30% next K2100, 37% balance."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Employer Cost",
+                                "description": "Add Employer NAPSA (5%), NHIMA (1%), and Skills Levy (0.5%) to Gross Pay."
+                            }
+                        ]
+                    },
+                    "id": "payroll-calculator-key-steps"
+                },
+                {
+                    "type": "cost_breakdown",
+                    "title": "Example Calculation",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Amount (ZMW)",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Gross Pay",
+                                    "values": [
+                                        "10,000",
+                                        "Example Scenario"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "NAPSA (5%)",
+                                    "values": [
+                                        "(500)",
+                                        "Deducted"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "NHIMA (1%)",
+                                    "values": [
+                                        "(100)",
+                                        "Deducted"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "PAYE Tax",
+                                    "values": [
+                                        "(1,566)",
+                                        "Est. tax on K10k"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Net Pay",
+                                    "values": [
+                                        "7,834",
+                                        "Take home"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    },
+                    "id": "payroll-calculator-cost-breakdown",
+                    "subtitle": ""
+                },
+                {
+                    "type": "insights",
+                    "title": "Payroll Nuances",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "13th Month",
+                                "text": "The 13th-month bonus is not legally mandatory in Zambia. It is a discretionary performance reward."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Overtime Tax",
+                                "text": "Overtime pay is taxable at the standard PAYE rates. It is not tax-exempt."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Casual Workers",
+                                "text": "Casual workers employed for <6 months are subject to 5% withholding tax, not standard PAYE."
+                            }
+                        ]
+                    },
+                    "id": "payroll-calculator-insights",
+                    "subtitle": ""
+                },
+                {
+                    "type": "good_to_know",
+                    "title": "Statutory Definitions",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Basic Pay vs Gross Pay",
+                                "text": "Allowances are added to Basic Pay to equal Gross Pay. Gratuity is calculated on Basic Pay, but Tax is on Gross Pay."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "NAPSA Ceiling",
+                                "text": "The 5% NAPSA contribution is capped. For 2025, the ceiling is roughly ZMW 34,160 monthly earnings (Check specific statutory instrument)."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "NHIMA",
+                                "text": "National Health Insurance Management Authority (NHIMA) is mandatory for all employees, contributing 1% of basic salary."
+                            }
+                        ]
+                    },
+                    "id": "payroll-calculator-good-to-know",
+                    "subtitle": ""
+                },
+                {
+                    "type": "faq",
+                    "title": "Payroll FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Are payslips mandatory?",
+                                "answer": "Yes, the Employment Code Act requires employers to provide a written pay statement (digital or physical) every pay day."
+                            },
+                            {
+                                "question": "What is the minimum wage?",
+                                "answer": "Domestic and general workers have specific minimum wages (approx ZMW 1,300+), but most professional roles earn significantly above this."
+                            },
+                            {
+                                "question": "When must PAYE be remitted?",
+                                "answer": "PAYE deducted must be remitted to the ZRA by the 10th day of the following month to avoid penalties."
+                            }
+                        ]
+                    },
+                    "id": "payroll-calculator-faq",
+                    "subtitle": ""
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation in Zambia",
+                "subtitle": "Register your Private Limited Company (PLC) with PACRA",
+                "description": "A streamlined guide to establishing a legal presence in Zambia. From name reservation with PACRA to obtaining your TPIN from ZRA and investment licenses from ZDA.",
+                "bestFor": "Long-term market entry",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "type": "key_steps",
+                    "title": "Company Registration Process",
+                    "subtitle": "3-5 day timeline",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Name Clearance",
+                                "description": "Apply for name reservation with PACRA (Patents and Companies Registration Agency). Cost is ~ZMW 90-100. Approval takes 24 hours."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Sign Incorporation Documents",
+                                "description": "Directors and shareholders sign Form 2 (Application for Incorporation) and the Articles of Association. At least 2 shareholders and 2 directors are typically required (local director requirements vary)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "PACRA Submission & Fee Payment",
+                                "description": "Submit documents and pay registration fees (approx 2.5% of nominal capital). The minimum nominal capital for a private company is ZMW 15,000."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "TPIN Registration",
+                                "description": "Once the Certificate of Incorporation is issued, register with the Zambia Revenue Authority (ZRA) to obtain a Tax Payer Identification Number (TPIN)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Business Levy Payment",
+                                "description": "Pay the local council business levy and register for NAPSA and NHIMA to become an eligible employer."
+                            }
+                        ]
+                    },
+                    "id": "incorporation-entity-setup-key-steps"
+                },
+                {
+                    "type": "cost_breakdown",
+                    "title": "Government & Legal Fees",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Item",
+                                "Estimated Cost",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "PACRA Registration Fee",
+                                    "values": [
+                                        "~ZMW 600 - 1,500",
+                                        "Depends on capital"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Min. Nominal Capital",
+                                    "values": [
+                                        "ZMW 15,000",
+                                        "Not paid up immediately"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Name Reservation",
+                                    "values": [
+                                        "ZMW 100",
+                                        "Valid for 30 days"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Professional Services",
+                                    "values": [
+                                        "$1,000 - $3,000",
+                                        "Legal/Agency fees"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Annual Return Fee",
+                                    "values": [
+                                        "ZMW 200",
+                                        "Payable yearly to PACRA"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    },
+                    "id": "incorporation-entity-setup-cost-breakdown",
+                    "subtitle": ""
+                },
+                {
+                    "type": "insights",
+                    "title": "Corporate Structure Rules",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Foreign Ownership",
+                                "text": "Zambia allows 100% foreign ownership of private limited companies. There is no mandatory local partner requirement for most sectors."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Company Secretary",
+                                "text": "A Company Secretary is mandatory for all companies. They must be a resident of Zambia or a body corporate registered in Zambia."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "ZDA License",
+                                "text": "Investors investing >$250,000 usually apply for a ZDA Investment License, which grants tax holidays (0% CIT for 5 years) and duty exemptions."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Corporate Banking",
+                                "text": "Top banks for foreign businesses include Standard Chartered, FNB, and Stanbic. Opening requires a TPIN, Board Resolution, and physical KYC."
+                            }
+                        ]
+                    },
+                    "id": "incorporation-entity-setup-insights",
+                    "subtitle": ""
+                },
+                {
+                    "type": "faq",
+                    "title": "Incorporation FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "How long does it take?",
+                                "answer": "The official timeline is 24 hours, but practically it takes 3-5 business days to get the Certificate of Incorporation and TPIN."
+                            },
+                            {
+                                "question": "Is a physical office required?",
+                                "answer": "Yes, a registered physical address in Zambia is required for incorporation and tax registration. PO Boxes are not accepted as the registered office."
+                            },
+                            {
+                                "question": "Do I need a resident director?",
+                                "answer": "At least one director (or a resident agent) should be resident in Zambia to handle legal service, though 100% foreign boards are technically possible with a resident secretary."
+                            }
+                        ]
+                    },
+                    "id": "incorporation-entity-setup-faq",
+                    "subtitle": ""
+                },
+                {
+                    "type": "insights",
+                    "title": "Special Economic Zones (MFEZ)",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "MFEZ Benefits",
+                                "text": "Companies locating in Multi-Facility Economic Zones (e.g., Lusaka South MFEZ) enjoy 0% tax on profits for 5 years and 0% import duty on raw materials."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Investment Threshold",
+                                "text": "MFEZ incentives typically require a minimum investment of $500,000 and approval from the Zambia Development Agency (ZDA)."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Priority Sectors",
+                                "text": "Manufacturing, Agro-processing, and Energy generation are priority sectors heavily incentivized under the ZDA Act."
+                            }
+                        ]
+                    },
+                    "id": "incorporation-entity-setup-insights-2",
+                    "subtitle": ""
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Zambia",
+                "subtitle": "Recruit top talent in Lusaka and Copperbelt",
+                "description": "Source skilled professionals in mining, agriculture, and finance. We navigate the recruitment landscape, handle background checks, and manage agency agreements.",
+                "bestFor": "Scaling teams and executive search",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "type": "key_steps",
+                    "title": "Recruitment Lifecycle",
+                    "subtitle": "Standard hiring process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Need Analysis & Sourcing",
+                                "description": "Defining the role. Agencies charge 15-25% of annual gross salary. LinkedIn and local job boards (GoZambiaJobs) are popular."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Screening & Verification",
+                                "description": "Conducting interviews and background checks. Criminal record checks require a Police Clearance Certificate."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Offer & Negotiation",
+                                "description": "Presenting the offer letter. Note that the minimum wage is ~ZMW 2,313, but professionals command significantly higher market rates."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Contract Finalization",
+                                "description": "Drafting the compliant contract. Must specify if it's fixed-term (with gratuity) or permanent (with pension benefits)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Onboarding",
+                                "description": "Completing statutory registrations (NAPSA, NHIMA) and internal induction. Probation goals must be set in writing."
+                            }
+                        ]
+                    },
+                    "id": "staffing-talent-acquisition-key-steps"
+                },
+                {
+                    "type": "cost_breakdown",
+                    "title": "Recruitment Costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service",
+                                "Fee Range",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Agency Fee (Standard)",
+                                    "values": [
+                                        "15% - 20%",
+                                        "Of annual gross salary"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Executive Search",
+                                    "values": [
+                                        "25% - 35%",
+                                        "Retained search"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Temp Staffing Markup",
+                                    "values": [
+                                        "1.5x",
+                                        "Of hourly wage"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Background Check",
+                                    "values": [
+                                        "$50 - $150",
+                                        "Per candidate"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Software Dev Salary",
+                                    "values": [
+                                        "$8k - $46k",
+                                        "Local vs Remote"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Accountant Salary",
+                                    "values": [
+                                        "$4k - $10k",
+                                        "Annual gross"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Marketing Manager",
+                                    "values": [
+                                        "$10k - $25k",
+                                        "Mid-Senior level"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    },
+                    "id": "staffing-talent-acquisition-cost-breakdown",
+                    "subtitle": ""
+                },
+                {
+                    "type": "cost_breakdown",
+                    "title": "Employee Benefits Costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Benefit",
+                                "Cost Estimate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Medical Insurance",
+                                    "values": [
+                                        "ZMW 500 - 1,500",
+                                        "Per employee/month"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Transport Allowance",
+                                    "values": [
+                                        "ZMW 500 - 2,000",
+                                        "Taxable allowance"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Funeral Grant",
+                                    "values": [
+                                        "ZMW 3,000+",
+                                        "Customary payment"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    },
+                    "id": "staffing-talent-acquisition-cost-breakdown-2",
+                    "subtitle": ""
+                },
+                {
+                    "type": "insights",
+                    "title": "Hiring Market Trends",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Skill Availability",
+                                "text": "Strong talent pool in mining engineering and agriculture. Growing IT sector but senior developers often work remotely for foreign firms."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Background Checks",
+                                "text": "Fake certificates can be an issue. Always verify educational qualifications directly with the Examinations Council of Zambia or the university."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Expat Quotas",
+                                "text": "Zambianization policy encourages hiring locals. Bringing in an expat requires proof that no Zambian could fill the role (labor market test)."
+                            }
+                        ]
+                    },
+                    "id": "staffing-talent-acquisition-insights",
+                    "subtitle": ""
+                },
+                {
+                    "type": "faq",
+                    "title": "Staffing FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the minimum wage?",
+                                "answer": "For 2025, the general minimum wage is approximately ZMW 2,313 per month, with higher tiers for drivers and domestic workers."
+                            },
+                            {
+                                "question": "How long is probation?",
+                                "answer": "Probation is typically 3 months, extendable to a maximum of 6 months. It must be written in the contract to be valid."
+                            },
+                            {
+                                "question": "Can I use fixed-term contracts?",
+                                "answer": "Yes, but they carry a mandatory gratuity payment of 25% of basic pay at the end of the contract, making them more expensive than permanent contracts in the long run."
+                            }
+                        ]
+                    },
+                    "id": "staffing-talent-acquisition-faq",
+                    "subtitle": ""
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS in Zambia",
+                "subtitle": "Digitize HR with full DPA 2021 compliance",
+                "description": "Implement HR systems that comply with the Data Protection Act No. 3 of 2021. Secure employee data, manage leave, and automate tax reporting in one platform.",
+                "bestFor": "Modern enterprises and remote teams",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "type": "key_steps",
+                    "title": "HRIS Implementation",
+                    "subtitle": "Compliance & Setup",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "DPA Registration",
+                                "description": "Register as a Data Controller or Processor with the Data Protection Commissioner. Deadline for registration compliance is April 2025."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Data Audit",
+                                "description": "Map all employee personal data. Ensure you have consent for processing tailored to the specific purpose (payroll, performance)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "System Configuration",
+                                "description": "Configure tax rules for ZMW currency, PAYE bands, and tracking the 2-year reset rule for probation."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Security Protocols",
+                                "description": "Implement role-based access controls and encryption. The DPA requires 'appropriate technical and organizational measures' to protect data."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Training",
+                                "description": "Mandatory data protection training for staff handling personal info."
+                            }
+                        ]
+                    },
+                    "id": "hris-key-steps"
+                },
+                {
+                    "type": "cost_breakdown",
+                    "title": "HRIS System Costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Item",
+                                "Cost Estimate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "SaaS License (Per User)",
+                                    "values": [
+                                        "$5 - $15",
+                                        "Monthly subscription"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Implementation Fee",
+                                    "values": [
+                                        "$1,000 - $5,000",
+                                        "One-time setup"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Data Protection Audit",
+                                    "values": [
+                                        "$500 - $1,500",
+                                        "Annual compliance check"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    },
+                    "id": "hris-cost-breakdown",
+                    "subtitle": ""
+                },
+                {
+                    "type": "good_to_know",
+                    "title": "Data Sovereignty",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Server Location",
+                                "text": "It is preferable to host sensitive employee data within Zambia or in a jurisdiction with adequate data protection laws (e.g., GDPR zone)."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Employee Consent",
+                                "text": "Explicit, written consent is required from employees for data processing. Broad, generic consent clauses in contracts may be challenged."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Record Access",
+                                "text": "Employees have the right to request access to their personal data. HRIS systems must support 'Subject Access Requests' (SAR) export features."
+                            }
+                        ]
+                    },
+                    "id": "hris-good-to-know",
+                    "subtitle": ""
+                },
+                {
+                    "type": "insights",
+                    "title": "Data Privacy Rules",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Registration Mandatory",
+                                "text": "Failure to register with the Data Protection Commission by April 2025 carries fines up to ZMW 200,000 or imprisonment."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Cross-Border Transfer",
+                                "text": "Data should generally be stored in Zambia. Transfers abroad require ensuring the recipient jurisdiction has adequate protection or specific Minister approval."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Retention Period",
+                                "text": "Retain tax and payroll records for at least 6 years, but delete other personal data 1 year after it's no longer needed."
+                            }
+                        ]
+                    },
+                    "id": "hris-insights",
+                    "subtitle": ""
+                },
+                {
+                    "type": "faq",
+                    "title": "HRIS FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is cloud storage legal?",
+                                "answer": "Yes, but you must ensure the cloud provider complies with the DPA's security requirements and cross-border transfer rules if the servers are outside Zambia."
+                            },
+                            {
+                                "question": "What is the penalty for data breaches?",
+                                "answer": "Significant fines (2% of global turnover or ZMW number) and potential criminal liability for directors if negligence is proven."
+                            },
+                            {
+                                "question": "Are Data Protection Officers (DPO) mandatory?",
+                                "answer": "Yes, for organizations processing large scale personal data. The DPO acts as the liaison with the Data Protection Commission."
+                            }
+                        ]
+                    },
+                    "id": "hris-faq",
+                    "subtitle": ""
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting in Zambia",
+                "subtitle": "Bookkeeping, Audit & ZICA Compliance",
+                "description": "Maintain accurate financial records in accordance with the Companies Act. Navigate statutory audits for large companies and comply with ZICA standards.",
+                "bestFor": "Registered companies and SMEs",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "type": "key_steps",
+                    "title": "Annual Compliance Obligations",
+                    "subtitle": "Filings and Deadlines",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Appoint Auditors",
+                                "description": "Mandatory for companies with turnover > ZMW 800,000 or >100 employees. Small companies are exempt but must maintain books."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Financial Statements",
+                                "description": "Prepare annual financial statements. Large/Public entities use IFRS; SMEs use the Zambian Financial Reporting Standard for Micro and Small Entities."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Annual Return Filing",
+                                "description": "Submit the Annual Return to PACRA with the ZMW 200 fee within 3 months of the financial year-end."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "ZRA Tax Returns",
+                                "description": "File the annual Income Tax Return with ZRA by June 21st of the following year."
+                            }
+                        ]
+                    },
+                    "id": "accounting-key-steps"
+                },
+                {
+                    "type": "cost_breakdown",
+                    "title": "Accounting Fees",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service",
+                                "Cost Range",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Annual Return Filing",
+                                    "values": [
+                                        "ZMW 200",
+                                        "Or more for public cos"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Bookkeeping Services",
+                                    "values": [
+                                        "ZMW 2,000 - 5,000",
+                                        "Monthly (SME)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Statutory Audit",
+                                    "values": [
+                                        "ZMW 25,000+",
+                                        "Depends on turnover"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    },
+                    "id": "accounting-cost-breakdown",
+                    "subtitle": ""
+                },
+                {
+                    "type": "insights",
+                    "title": "Accounting Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "ZICA Membership",
+                                "text": "All accountants and finance professionals must be registered with the Zambia Institute of Chartered Accountants (ZICA) to practice."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Audit Thresholds",
+                                "text": "Companies with turnover > ZMW 800,000 are subject to mandatory audit, though small private companies may opt for a review engagement."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Digital Records",
+                                "text": "ZRA accepts digital ledgers, but original hard copies of invoices should be retained for 6 years for audit purposes."
+                            }
+                        ]
+                    },
+                    "id": "accounting-insights",
+                    "subtitle": ""
+                },
+                {
+                    "type": "faq",
+                    "title": "Accounting FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the financial year-end?",
+                                "answer": "The standard financial year matches the tax year: 1st January to 31st December. Changing it requires ZRA approval and must be communicated to PACRA."
+                            },
+                            {
+                                "question": "Can I keep records in USD?",
+                                "answer": "Books must be maintained in Zambian Kwacha (ZMW). Foreign currency transactions must be translated at the daily Bank of Zambia (BOZ) rate for tax purposes."
+                            },
+                            {
+                                "question": "How long should I keep records?",
+                                "answer": "The Companies Act requires financial records to be retained for a minimum of 6 years, but FIC guidelines recommend 10 years for AML compliance."
+                            },
+                            {
+                                "question": "Are digital signatures accepted on financial statements?",
+                                "answer": "Yes, electronic signatures are legally valid for most commercial documents under the ECT Act, provided they meet security standards."
+                            }
+                        ]
+                    },
+                    "id": "accounting-faq",
+                    "subtitle": ""
+                },
+                {
+                    "type": "insights",
+                    "title": "Forensic & FIC Compliance",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "AML/CFT Requirements",
+                                "text": "Accounting firms must register with the Financial Intelligence Centre (FIC) and report cash transactions exceeding USD 10,000 (ZMW equivalent)."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Forensic Audit Demand",
+                                "text": "Rising prosecution of financial fraud has increased demand for ZICA-registered forensic accountants who follow IES 2-5 technical standards."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Retention Policy",
+                                "text": "Ensure your accounting system supports a 10-year retention policy for audit trails and transaction records to meet both ZRA and FIC scrutiny."
+                            }
+                        ]
+                    },
+                    "id": "accounting-insights-2",
+                    "subtitle": ""
+                },
+                {
+                    "type": "key_steps",
+                    "title": "Annual Compliance Checklist",
+                    "subtitle": "Essential filings",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "PACRA Annual Return",
+                                "description": "File Form 71 and pay ZMW 200 fee. Confirm details of directors and shareholders."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "WCFCB Assessment",
+                                "description": "Pay Workers' Compensation Fund annual assessment based on total wage bill. Mandatory for all employers."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax Clearance Certificate",
+                                "description": "Renew TCC annually. Required for government tenders and license renewals."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Data Protection Renewal",
+                                "description": "Renew registration with the Data Protection Commission if processing personal data."
+                            }
+                        ]
+                    },
+                    "id": "compliance-key-steps"
+                },
+                {
+                    "type": "insights",
+                    "title": "Regulatory Risks",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Director Liability",
+                                "text": "Directors can be personally liable for unpaid company taxes and failure to file annual returns, leading to fines or disqualification."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Local Council Levies",
+                                "text": "Operating premises requires a Fire Certificate and Business Levy payment to the local municipal council annually."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Health & Safety",
+                                "text": "Factories and mining operations must undergo annual inspections by the Occupational Health and Safety Institute (OHSI)."
+                            }
+                        ]
+                    },
+                    "id": "compliance-insights",
+                    "subtitle": ""
+                },
+                {
+                    "type": "cost_breakdown",
+                    "title": "Compliance Fees",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Fee Type",
+                                "Estimate",
+                                "Frequency"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Annual Return Filing",
+                                    "values": [
+                                        "ZMW 200",
+                                        "Annually"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Fire Certificate",
+                                    "values": [
+                                        "ZMW 1,500 - 3,000",
+                                        "Annually (Premises)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Workers Comp (WCFCB)",
+                                    "values": [
+                                        "~2-3%",
+                                        "Of wage bill"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Business Levy",
+                                    "values": [
+                                        "ZMW 2,500+",
+                                        "Annually (Council)"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    },
+                    "id": "compliance-cost-breakdown",
+                    "subtitle": ""
+                },
+                {
+                    "type": "faq",
+                    "title": "Compliance FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What happens if I miss the Annual Return?",
+                                "answer": "Late filing attracts monthly penalties of ~ZMW 100. Continued failure allows the PACRA Registrar to strike the company off the register, making all assets state property."
+                            },
+                            {
+                                "question": "Is Workers Compensation mandatory?",
+                                "answer": "Yes, all employers must register with the Workers' Compensation Fund Control Board (WCFCB) and pay assessments ranging from 1.5% to 3.5% of the wage bill."
+                            },
+                            {
+                                "question": "Do I need a license to trade?",
+                                "answer": "Yes, a general trading license is required from the local council. Specialized sectors (mining, tourism, finance) require additional certificates from their respective ministries."
+                            },
+                            {
+                                "question": "What is ZEMA compliance?",
+                                "answer": "ZEMA requires companies to conduct Environmental Impact Assessments (EIA) or submit Project Briefs (EPB) before starting any development project."
+                            }
+                        ]
+                    },
+                    "id": "compliance-faq",
+                    "subtitle": ""
+                },
+                {
+                    "type": "key_steps",
+                    "title": "ZEMA Environmental Authorization",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Submit Project Brief (EPB)",
+                                "description": "Screening documents submitted to ZEMA for small-scale projects. Review period reduced to 30 working days in 2026."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Environmental Impact Assessment (EIA)",
+                                "description": "Mandatory for large-scale developments (mining, industry). Requires deep public consultation and technical impact modeling."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "License Issuance",
+                                "description": "ZEMA issues licenses for Emissions, Waste Management, and Hazardous Substances. Renewal is typically every 1-3 years."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Environmental Audit",
+                                "description": "Mandatory audit within 12-36 months of commencing operations to verify adherence to the authorization conditions."
+                            }
+                        ]
+                    },
+                    "id": "compliance-key-steps-2",
+                    "subtitle": ""
+                },
+                {
+                    "type": "key_steps",
+                    "title": "Tax Registration & Filing",
+                    "subtitle": "ZRA Compliance Cycle",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "TPIN Registration",
+                                "description": "Obtain your Tax Payer Identification Number (TPIN) immediately after incorporation. Required for all bank accounts and invoices."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "VAT Registration",
+                                "description": "Mandatory if taxable turnover exceeds ZMW 800,000 per annum. Voluntary registration is possible for lower turnovers to claim input VAT."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Monthly Returns",
+                                "description": "File VAT (if registered) and PAYE returns by the 10th-18th of the following month. Turnover Tax returns are also monthly."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Provisional Tax",
+                                "description": "Pay provisional income tax in quarterly installments (Mar, Jun, Sep, Dec) based on estimated annual profit."
+                            }
+                        ]
+                    },
+                    "id": "tax-key-steps"
+                },
+                {
+                    "type": "cost_breakdown",
+                    "title": "2025 Tax Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Tax Type",
+                                "Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax",
+                                    "values": [
+                                        "30%",
+                                        "Standard rate"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Turnover Tax (SMEs)",
+                                    "values": [
+                                        "5%",
+                                        "Turnover < ZMW 5m (Updated 2025)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Standard VAT",
+                                    "values": [
+                                        "16%",
+                                        "Registration threshold ZMW 800k"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Withholding Tax (Dividends)",
+                                    "values": [
+                                        "15% (Res) / 20% (Non-Res)",
+                                        "Unless DTA applies"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    },
+                    "id": "tax-cost-breakdown",
+                    "subtitle": ""
+                },
+                {
+                    "type": "insights",
+                    "title": "Fiscal Incentives",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Smart Invoice System",
+                                "text": "Input VAT claims are now restricted to invoices issued through the ZRA Smart Invoice system. Legacy invoices are phased out."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "ZDA Incentives",
+                                "text": "Investors with ZDA licenses exceeding $250k investment enjoy 0% Corporate Tax for the first 5 years."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Withholding Tax Agents",
+                                "text": "Appointed agents must withhold 15% on rental payments and remit to ZRA. Failure to withhold makes the payer personally liable."
+                            }
+                        ]
+                    },
+                    "id": "tax-insights",
+                    "subtitle": ""
+                },
+                {
+                    "type": "faq",
+                    "title": "Tax FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "When are provisional taxes due?",
+                                "answer": "Provisional tax payments are due quarterly on the 10th of April, July, October, and January. Late payments attract a 5% penalty plus interest."
+                            },
+                            {
+                                "question": "Is WHT final?",
+                                "answer": "Withholding Tax on dividends is a final tax for residents. WHT on consulting fees for residents is not final and can be used as a credit against annual corporate tax."
+                            },
+                            {
+                                "question": "What items are VAT-exempt?",
+                                "answer": "Exempt supplies include water, medical services, educational services, and conveyancing of domestic property. Note: Fuel is now taxable at standard rates."
+                            },
+                            {
+                                "question": "How does the Smart Invoice system work?",
+                                "answer": "All VAT-registered taxpayers must issue invoices through the ZRA Smart Invoice system. Input VAT claims are rejected if they don't have a valid QR code from the system."
+                            }
+                        ]
+                    },
+                    "id": "tax-faq",
+                    "subtitle": ""
+                },
+                {
+                    "type": "cost_breakdown",
+                    "title": "Mining & Property Taxes (2025)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Tax Category",
+                                "Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Property Transfer Tax (Land/Shares)",
+                                    "values": [
+                                        "8%",
+                                        "Increased from 5% in 2025"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Mineral Royalty (Copper < $4,000/t)",
+                                    "values": [
+                                        "4.0%",
+                                        "Tiered based on price"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Mineral Royalty (Copper > $7,000/t)",
+                                    "values": [
+                                        "10.0%",
+                                        "Maximum rate"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Mineral Royalty (Base Metals)",
+                                    "values": [
+                                        "5.0%",
+                                        "Lead, Zinc, etc."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Mineral Royalty (Gemstones)",
+                                    "values": [
+                                        "6.0%",
+                                        "Gross value"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Presumptive Tax (Small Miners)",
+                                    "values": [
+                                        "4%",
+                                        "Turnover < ZMW 800k"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    },
+                    "id": "tax-cost-breakdown-2",
+                    "subtitle": ""
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "MSA & Legal in Zambia",
+                "subtitle": "Drafting enforceable service agreements",
+                "description": "Secure your commercial relationships with robust Master Service Agreements. Understand Zambian contract law, dispute resolution via LIAC, and standard indemnity clauses.",
+                "bestFor": "B2B partnerships",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "type": "key_steps",
+                    "title": "Drafting Key Clauses",
+                    "subtitle": "Legal essentials",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Governing Law",
+                                "description": "Specify the Laws of Zambia. English Common Law applies where local statutes are silent."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Dispute Resolution",
+                                "description": "Include a tiered clause: Negotiation -> Mediation -> Arbitration. Arbitration under the Arbitration Act No 19 of 2000 is preferred over court."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Payment Terms & Currency",
+                                "description": "Contracts can be denominated in foreign currency (USD), but local payments are often settled in ZMW to avoid exchange volatility disputes."
+                            }
+                        ]
+                    },
+                    "id": "msa-key-steps"
+                },
+                {
+                    "type": "cost_breakdown",
+                    "title": "Legal Fees (2025)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Professional Level",
+                                "Hourly Rate (ZMW)",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "State Counsel (Sc)",
+                                    "values": [
+                                        "~K6,784",
+                                        "Top tier senior council"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Junior Lawyer (<5 Years)",
+                                    "values": [
+                                        "~K1,481",
+                                        "Standard consultation"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Court Appearance",
+                                    "values": [
+                                        "~K2,467",
+                                        "Per hour (Junior)"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    },
+                    "id": "msa-cost-breakdown",
+                    "subtitle": ""
+                },
+                {
+                    "type": "insights",
+                    "title": "Legal Framework",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Arbitration",
+                                "text": "The Lusaka International Arbitration Centre (LIAC) provides a recognized forum. Awards are generally enforceable."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Unfair Terms",
+                                "text": "Courts may strike out terms deemed unconscionable, especially in consumer-facing contracts, though B2B freedom of contract is strong."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Stamp Duty",
+                                "text": "Certain contracts (e.g., leases, conveyances) attract Stamp Duty. Failure to stamp documents renders them inadmissible in court."
+                            }
+                        ]
+                    },
+                    "id": "msa-insights",
+                    "subtitle": ""
+                },
+                {
+                    "type": "faq",
+                    "title": "Legal FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Are electronic signatures valid?",
+                                "answer": "Yes, under the Electronic Communications and Transactions (ECT) Act, e-signatures are legally binding for most commercial contracts, excluding wills and property deeds."
+                            },
+                            {
+                                "question": "Can we choose foreign law?",
+                                "answer": "Yes, parties can agree to foreign governing law (e.g., English Law), but Zambian mandatory laws (tax, labor, land) always take precedence for local operations."
+                            },
+                            {
+                                "question": "What is the limitation period?",
+                                "answer": "Generally, the limitation period for contract claims is 6 years from the date of the breach. Personal injury claims have a 3-year limit."
+                            },
+                            {
+                                "question": "Is notarization required for MSAs?",
+                                "answer": "Generally no, unless the agreement involves property transfer or specific bank-required guarantees. Digital signatures authenticated by recognized CA are accepted."
+                            }
+                        ]
+                    },
+                    "id": "msa-faq",
+                    "subtitle": ""
+                },
+                {
+                    "type": "insights",
+                    "title": "Intellectual Property Rights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "PACRA IP Registration",
+                                "text": "Zambia is a signatory to the Madrid Protocol and PCT. Trademarks are registered with PACRA for 10 years, renewable indefinitely."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Copyright for Software",
+                                "text": "While copyright is automatic, registration with PACRA provides a certificate that serves as prima facie evidence in courts and helps with customs seizures."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Patent Maintenance",
+                                "text": "Patents (valid for 20 years) require annual maintenance fees. Failure to pay on time can lead to the lapse of the patent and loss of exclusivity."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Enforcement Challenges",
+                                "text": "Enforcement is handled via the High Court. While laws are robust, the process can be slow; arbitration clauses are recommended for faster resolution."
+                            }
+                        ]
+                    },
+                    "id": "msa-insights-2",
+                    "subtitle": ""
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Solutions in Zambia",
+                "subtitle": "Tech partners for digital transformation",
+                "description": "Access Zambia's growing tech ecosystem. From custom Fintech development to AI integration in mining and agriculture.",
+                "bestFor": "Tech procurement and digital projects",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "type": "key_steps",
+                    "title": "Sourcing Tech Talent",
+                    "subtitle": "Market landscape",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Identify Needs",
+                                "description": "Defined scope for fintech (mobile money integration) or agrotech is common."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Vendor Selection",
+                                "description": "Local firms like EllzTech and ProWeb offer custom dev. Verify portfolio, especially for integration with local payment gateways (Airtel/MTN Money)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Connectivity Testing",
+                                "description": "Ensure the solution is optimized for varying bandwidth. While Fiber is available in Lusaka, 3G/4G is the norm elsewhere. Starlink back-ups are becoming reliable."
+                            }
+                        ]
+                    },
+                    "id": "software-solutions-key-steps"
+                },
+                {
+                    "type": "insights",
+                    "title": "Tech Trends",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Fintech Integration",
+                                "text": "Deep integration with mobile money (Airtel, MTN, Zamtel) is essential for any consumer-facing app in Zambia."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Skills Base",
+                                "text": "Strong Python and JS community. University of Zambia hosting AI Centre of Excellence with Google."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Internet Infrastructure",
+                                "text": "Fiber (Liquid/MTN) is strong in Lusaka. Starlink (av. 70Mbps) is now widely available for remote operations, costing ~$500 hardware + $50/mo."
+                            }
+                        ]
+                    },
+                    "id": "software-solutions-insights",
+                    "subtitle": ""
+                },
+                {
+                    "type": "cost_breakdown",
+                    "title": "Software Development Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Role",
+                                "Monthly Rate (Est.)",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Junior Developer",
+                                    "values": [
+                                        "$500 - $800",
+                                        "1-2 years exp"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Senior Engineer",
+                                    "values": [
+                                        "$1,500 - $3,000",
+                                        "Lead role"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "UI/UX Designer",
+                                    "values": [
+                                        "$600 - $1,200",
+                                        "Project basis"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    },
+                    "id": "software-solutions-cost-breakdown",
+                    "subtitle": ""
+                },
+                {
+                    "type": "good_to_know",
+                    "title": "Digital Payments Landscape",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Mobile Money Dominance",
+                                "text": "Over 50% of the adult population uses mobile money (Airtel, MTN). Integration is critical for B2C apps."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Payment Aggregators",
+                                "text": "Using aggregators like Flutterwave or Tingg simplifies integrating multiple payment methods (Card + Mobile Money) via a single API."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Settlement Times",
+                                "text": "Mobile money settlements are typically T+1, but bank transfers via aggregators can take T+2 or T+3."
+                            }
+                        ]
+                    },
+                    "id": "software-solutions-good-to-know",
+                    "subtitle": ""
+                },
+                {
+                    "type": "cost_breakdown",
+                    "title": "Hosting & Infrastructure",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service",
+                                "Cost Estimate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Local VPS Hosting",
+                                    "values": [
+                                        "$20 - $50",
+                                        "Per month (Liquid/Zamtel)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Starlink Business",
+                                    "values": [
+                                        "$50 - $100",
+                                        "Monthly subscription"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": ".zm Domain",
+                                    "values": [
+                                        "$20 - $40",
+                                        "Annual fee"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    },
+                    "id": "software-solutions-cost-breakdown-2",
+                    "subtitle": ""
+                },
+                {
+                    "type": "faq",
+                    "title": "Software FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Who owns the IP?",
+                                "answer": "Under Zambian copyright law, work produced by an employee belongs to the employer. For contractors, IP transfer must be explicitly stated in the agreement."
+                            },
+                            {
+                                "question": "Is software license tax deductible?",
+                                "answer": "Yes, software subscriptions are generally deductible business expenses. WHT of 15-20% may apply to payments to foreign software vendors."
+                            },
+                            {
+                                "question": "Are there data localization rules?",
+                                "answer": "The Data Protection Act restricts transferring personal data outside Zambia unless the destination has adequate protection or consent is obtained."
+                            }
+                        ]
+                    },
+                    "id": "software-solutions-faq",
+                    "subtitle": ""
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing in Zambia",
+                "subtitle": "Reach the Zambian audience",
+                "description": "Leverage a digital-first marketing strategy. From social media campaigns on Facebook & TikTok to influencer partnerships in Lusaka.",
+                "bestFor": "Brand launch and growth",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "type": "cost_breakdown",
+                    "title": "Agency & Media Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service",
+                                "Cost Estimate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Media Campaign",
+                                    "values": [
+                                        "K4,000 - K5,000",
+                                        "4 weeks, 2 posts/week"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Agency Hourly Rate",
+                                    "values": [
+                                        "$100 - $150",
+                                        "For strategy/consulting"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Website Ad Placement",
+                                    "values": [
+                                        "K6,000 - K8,000",
+                                        "4-week banner"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    },
+                    "id": "marketing-agencies-cost-breakdown",
+                    "subtitle": ""
+                },
+                {
+                    "type": "insights",
+                    "title": "Channel Strategy",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Platform Dominance",
+                                "text": "Facebook and WhatsApp are the mass market giants. TikTok is rapidly capturing the 18-24 demographic."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Influencer Impact",
+                                "text": "Micro-influencers and creators drive significant engagement, often more than traditional PR. Video content is key."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Language Localization",
+                                "text": "While English is official, colloquial 'Zambian English' and local languages (Bemba, Nyanja) in ads significantly boost relatability."
+                            }
+                        ]
+                    },
+                    "id": "marketing-agencies-insights",
+                    "subtitle": ""
+                },
+                {
+                    "type": "key_steps",
+                    "title": "Ad Compliance",
+                    "subtitle": "Running campaigns",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Truth in Advertising",
+                                "description": "Ensure claims are substantiated. The Competition and Consumer Protection Commission (CCPC) penalizes misleading ads."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "SMS Marketing",
+                                "description": "Obtain explicit opt-in consent before sending SMS blasts, as required by ZICTA regulations."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Language Use",
+                                "description": "Campaigns can be in English or local languages (Bemba, Nyanja). ensure cultural sensitivity in messaging."
+                            }
+                        ]
+                    },
+                    "id": "marketing-agencies-key-steps"
+                },
+                {
+                    "type": "good_to_know",
+                    "title": "Consumer Behavior",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Price Sensitivity",
+                                "text": "Zambian consumers are highly price-sensitive. Promotions and discounts drive significant initial trial."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Community Trust",
+                                "text": "Word-of mouth and community referrals are powerful. Reviews on Facebook pages make or break brands."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Data Costs",
+                                "text": "Video ads should be optimized for low bandwidth. Long, high-res videos may be skipped due to data cost concerns."
+                            }
+                        ]
+                    },
+                    "id": "marketing-agencies-good-to-know",
+                    "subtitle": ""
+                },
+                {
+                    "type": "key_steps",
+                    "title": "Campaign Launch Checklist",
+                    "subtitle": "Go-to-Market",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Audience Segmentation",
+                                "description": "Define target demographics. Urban youth (Lusaka/Kitwe) vs Rural mass market require different channels."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Creative Localization",
+                                "description": "Adapt visuals and copy. Ensure representation reflects local diversity and uses appropriate slang."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "CCPC Compliance Check",
+                                "description": "Review claims against Consumer Protection laws to avoid fines for misleading advertising."
+                            }
+                        ]
+                    },
+                    "id": "marketing-agencies-key-steps-2"
+                },
+                {
+                    "type": "faq",
+                    "title": "Marketing FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Do influencers need contracts?",
+                                "answer": "Yes, a clear agreement defining deliverables, usage rights, and Exclusivity is crucial to avoid disputes."
+                            },
+                            {
+                                "question": "Is there a tax on digital ads?",
+                                "answer": "VAT (16%) technically applies to digital services consumed in Zambia, though enforcement on foreign platforms (Meta/Google) is evolving."
+                            },
+                            {
+                                "question": "What is the average CPM?",
+                                "answer": "Cost Per Mille (CPM) on Facebook in Zambia is relatively low, averaging $0.50 - $1.50 depending on targeting specificity."
+                            }
+                        ]
+                    },
+                    "id": "marketing-agencies-faq",
+                    "subtitle": ""
+                }
+            ]
+        }
+    ]
+}

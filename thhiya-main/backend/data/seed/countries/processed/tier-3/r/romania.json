@@ -1,0 +1,522 @@
+{
+    "name": "Romania",
+    "code": "RO",
+    "slug": "romania",
+    "flag": "https://flagcdn.com/w160/ro.png",
+    "region": "Europe",
+    "languages": [
+        "Romanian"
+    ],
+    "currencies": [
+        "RON"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Romania",
+                "subtitle": "Hire in Bucharest",
+                "description": "Compliant employment in Eastern EU. We handle CAS, CASS, CAM.",
+                "bestFor": "IT Outsourcing",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "ro-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Individual employment contract (CIM)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "REVISAL",
+                                "description": "Register contract in electronic labor registry."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "CNAS",
+                                "description": "Register employee with National Health Insurance House."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ro-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Insurance (CAS)",
+                                    "values": [
+                                        "0-8%",
+                                        "25%",
+                                        "Employer depends on working conditions."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Health Insurance (CASS)",
+                                    "values": [
+                                        "0%",
+                                        "10%",
+                                        "Fully paid by employee."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Work Insurance (CAM)",
+                                    "values": [
+                                        "2.25%",
+                                        "0%",
+                                        "Employer only."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ro-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Second New Year's Day",
+                                "description": "January 2"
+                            },
+                            {
+                                "title": "Epiphany",
+                                "description": "January 6"
+                            },
+                            {
+                                "title": "Saint John",
+                                "description": "January 7"
+                            },
+                            {
+                                "title": "Unification Day",
+                                "description": "January 24"
+                            },
+                            {
+                                "title": "Orthodox Good Friday",
+                                "description": "April 18"
+                            },
+                            {
+                                "title": "Orthodox Easter",
+                                "description": "April 20-21"
+                            },
+                            {
+                                "title": "Labor Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Children's Day",
+                                "description": "June 1"
+                            },
+                            {
+                                "title": "Orthodox Pentecost",
+                                "description": "June 8-9"
+                            },
+                            {
+                                "title": "Assumption of Mary",
+                                "description": "August 15"
+                            },
+                            {
+                                "title": "Saint Andrew",
+                                "description": "November 30"
+                            },
+                            {
+                                "title": "National Day",
+                                "description": "December 1"
+                            },
+                            {
+                                "title": "Christmas",
+                                "description": "December 25-26"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ro-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Employment Income",
+                                    "values": [
+                                        "10%",
+                                        "Flat rate on gross salary."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Dividends",
+                                    "values": [
+                                        "8%",
+                                        "Withholding tax."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ro-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Monthly Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "CAS",
+                                "description": "Deduct 25% (Social Insurance)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "CASS",
+                                "description": "Deduct 10% (Health Insurance)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Income Tax",
+                                "description": "Apply 10% on (Gross - CAS - CASS)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Net",
+                                "description": "Gross - CAS - CASS - Tax."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Romania",
+                "subtitle": "SRL",
+                "description": "Limited Liability.",
+                "bestFor": "Tech",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "ro-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "ONRC",
+                                "description": "Register with National Trade Register Office."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Tax",
+                                "description": "Register with ANAF (Tax Authority)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Bank",
+                                "description": "Open corporate account and deposit capital."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ro-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "BCR",
+                                "description": "Banca Comercială Română."
+                            },
+                            {
+                                "title": "BRD",
+                                "description": "BRD - Groupe Société Générale."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Romania",
+                "subtitle": "IT Talent",
+                "description": "Strong tech sector.",
+                "bestFor": "Software Dev",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "ro-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Bucharest",
+                                "text": "Capital and largest tech hub."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Cluj-Napoca",
+                                "text": "Major IT and startup center."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Iași",
+                                "text": "Growing tech ecosystem."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Romania",
+                "subtitle": "REVISAL",
+                "description": "Online registry.",
+                "bestFor": "Compliance",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "ro-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "REVISAL",
+                                "description": "Electronic Labor Registry (mandatory registration)."
+                            },
+                            {
+                                "title": "D112",
+                                "description": "Monthly declaration of obligations to social insurances."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Romania",
+                "subtitle": "IFRS",
+                "description": "EU aligned.",
+                "bestFor": "Compliance",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "ro-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "IFRS",
+                                "text": "International standards for larger companies; Romanian GAAP for SMEs."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ro-comp-labor",
+                    "type": "warning",
+                    "title": "Work Permits",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Non-EU Workers",
+                                "description": "Require work permit and residence permit."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ro-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax",
+                                    "values": [
+                                        "16%",
+                                        "Standard rate (1-3% for micro-enterprises)."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "VAT",
+                                    "values": [
+                                        "19%",
+                                        "Standard rate (9% reduced, 5% super-reduced)."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Romania",
+                "subtitle": "Civil Law",
+                "description": "EU framework.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "ro-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "Romanian is the official language for legal documents."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Romania",
+                "subtitle": "Digital",
+                "description": "Growing fintech.",
+                "bestFor": "Payments",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "ro-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Mobile Banking",
+                                "description": "All major banks offer digital solutions."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Romania",
+                "subtitle": "Social",
+                "description": "Digital first.",
+                "bestFor": "Conversion",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "ro-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Facebook",
+                                "text": "Dominant platform for advertising."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

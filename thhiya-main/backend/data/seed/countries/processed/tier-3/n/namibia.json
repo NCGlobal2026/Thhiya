@@ -1,0 +1,538 @@
+{
+    "name": "Namibia",
+    "code": "NA",
+    "slug": "namibia",
+    "flag": "https://flagcdn.com/w160/na.png",
+    "region": "Africa",
+    "languages": [
+        "English"
+    ],
+    "currencies": [
+        "NAD",
+        "ZAR"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Namibia",
+                "subtitle": "Hire in Windhoek",
+                "description": "Compliant employment in Southern Africa. We handle SSC contributions.",
+                "bestFor": "Mining & Tourism",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "na-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Written contract compliant with Labour Act 2007."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "SSC",
+                                "description": "Register with Social Security Commission."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "NamRA",
+                                "description": "Register employee for PAYE."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "na-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Security (MSD)",
+                                    "values": [
+                                        "0.9%",
+                                        "0.9%",
+                                        "Maternity, Sick Leave & Death Benefit Fund. Ceiling raising to N$11,000/mo in Mar 2025."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "ECA (Workmen's Comp)",
+                                    "values": [
+                                        "Industry Rated",
+                                        "0%",
+                                        "Employees' Compensation Amendment Act."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "VET Levy",
+                                    "values": [
+                                        "1%",
+                                        "0%",
+                                        "Training levy for payroll > N$1M/year."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "na-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Independence Day",
+                                "description": "March 21"
+                            },
+                            {
+                                "title": "Good Friday",
+                                "description": "April 18"
+                            },
+                            {
+                                "title": "Easter Monday",
+                                "description": "April 21"
+                            },
+                            {
+                                "title": "Workers' Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Cassinga Day",
+                                "description": "May 4"
+                            },
+                            {
+                                "title": "Ascension Day",
+                                "description": "May 29"
+                            },
+                            {
+                                "title": "Africa Day",
+                                "description": "May 25"
+                            },
+                            {
+                                "title": "Heroes' Day",
+                                "description": "August 26"
+                            },
+                            {
+                                "title": "Human Rights Day / Women's Day",
+                                "description": "December 10"
+                            },
+                            {
+                                "title": "Christmas Day",
+                                "description": "December 25"
+                            },
+                            {
+                                "title": "Family Day",
+                                "description": "December 26"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "na-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax (PAYE)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Annual Income (NAD)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Up to 100,000",
+                                    "values": [
+                                        "0%",
+                                        "Exempt threshold (increased 2024)."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "100,001 - 250,000",
+                                    "values": [
+                                        "18%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "250,001 - 500,000",
+                                    "values": [
+                                        "25%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Standard Bands",
+                                    "values": [
+                                        "30% - 32%",
+                                        "Higher bands."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Over 1.55M",
+                                    "values": [
+                                        "37%",
+                                        "Top rate."
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "na-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Base Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Social Security",
+                                "description": "Deduct 0.9% (max approx N$99)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax Base",
+                                "description": "Gross - Pension/Retirement Deductions."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "PAYE",
+                                "description": "Apply 18-37% rates (Check threshold)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Net",
+                                "description": "Gross - SSC - PAYE."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Namibia",
+                "subtitle": "Pty Ltd",
+                "description": "Private Company.",
+                "bestFor": "Investment",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "na-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "BIPA",
+                                "description": "Register with Business and Intellectual Property Authority."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "NamRA",
+                                "description": "Register for Tax and VAT."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "SSC",
+                                "description": "Register as an employer."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "na-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "FNB Namibia",
+                                "description": "First National Bank."
+                            },
+                            {
+                                "title": "Bank Windhoek",
+                                "description": "Local major bank."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Namibia",
+                "subtitle": "Windhoek",
+                "description": "Resource sector.",
+                "bestFor": "Mining",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "na-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Windhoek",
+                                "text": "Capital and business center."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Walvis Bay",
+                                "text": "Logistics and fishing hub."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Namibia",
+                "subtitle": "Payrolling",
+                "description": "Standard systems.",
+                "bestFor": "Records",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "na-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Pay Slips",
+                                "description": "Mandatory to provide detailed payslips."
+                            },
+                            {
+                                "title": "Tax Certificates",
+                                "description": "Annual PAYE 5 certificates."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Namibia",
+                "subtitle": "IFRS",
+                "description": "Standard.",
+                "bestFor": "Compliance",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "na-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "IFRS",
+                                "text": "Generally Accepted Accounting Practice (NAC)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "na-comp-labor",
+                    "type": "warning",
+                    "title": "Equity",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Affirmative Action",
+                                "description": "Reporting required for employers with >25 employees."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "na-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax",
+                                    "values": [
+                                        "32%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Manufacturing",
+                                    "values": [
+                                        "18%",
+                                        "Special rate for registered manufacturers (phasing out rules exist)."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "VAT",
+                                    "values": [
+                                        "15%"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Namibia",
+                "subtitle": "Roman-Dutch",
+                "description": "Common Law mix.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "na-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "System",
+                                "text": "Legal system based on Roman-Dutch law and the 1990 Constitution."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Namibia",
+                "subtitle": "PayPulse",
+                "description": "Local fintech.",
+                "bestFor": "Payments",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "na-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "PayPulse",
+                                "description": "Standard Bank's payment app."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Namibia",
+                "subtitle": "Print/Digital",
+                "description": "Hybrid market.",
+                "bestFor": "Brand",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "na-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Newspapers",
+                                "text": "Print media remains surprisingly influential."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

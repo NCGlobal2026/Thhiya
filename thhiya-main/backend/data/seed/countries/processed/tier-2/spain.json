@@ -1,0 +1,1945 @@
+{
+    "name": "Spain",
+    "code": "ES",
+    "slug": "spain",
+    "flag": "https://flagcdn.com/w160/es.png",
+    "region": "Europe",
+    "languages": [
+        "Spanish",
+        "Catalan",
+        "Basque",
+        "Galician"
+    ],
+    "currencies": [
+        "EUR"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "Hire in Spain (No Entity)",
+                "subtitle": "Convenio Colectivo",
+                "description": "Hire employees in Spain compliant with local 'Convenios' without establishing a subsidiary. EOR manages the 14-payment payroll standard.",
+                "bestFor": "Market entry, Remote teams.",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "section-eor-steps",
+                    "type": "key_steps",
+                    "title": "EOR Onboarding Process",
+                    "subtitle": "Timeline: 3-5 Days",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Convenio Allocation",
+                                "description": "Determining the correct Collective Bargaining Agreement (Convenio Colectivo) is mandatory. This sets minimum salary, holidays (22-23 workdays), and working hours."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Pre-Contract Data",
+                                "description": "Collect employee's DNI/NIE (Foreigner ID) and Social Security Number (NAF). If the employee lacks an SSN, the EOR must request it via the TGSS (Tesorería General)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Contract Drafting",
+                                "description": "Draft indefinite contract (Contract Indefinido) in Spanish. Must specify if salary is paid in 12 or 14 installments (pagas extraordinarias)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "SEPE Registration",
+                                "description": "Register the contract with the Public State Employment Service (SEPE) within 10 days of the start date."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Time Tracking Setup",
+                                "description": "Set up mandatory daily working hour registration (Registro de Jornada) compliant with Royal Decree-Law 8/2019."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "EOR Service Cost Estimates",
+                    "order": 2,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Item",
+                                "Cost estimate",
+                                "Frequency"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Management Fee",
+                                    "values": [
+                                        "€500 - €700",
+                                        "Monthly"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Safety Deposit",
+                                    "values": [
+                                        "1 Month Salary",
+                                        "One-time"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Employer Cost Burden",
+                                    "values": [
+                                        "~32%",
+                                        "Monthly"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-eor-insights",
+                    "type": "insights",
+                    "title": "Critical Compliance & Risks",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Permanent Establishment (PE)",
+                                "text": "Using an EOR for >18-24 months for commercial roles (Sales VP, Country Manager) creates a high risk of the Tax Agency declaring a fictional PE."
+                            },
+                            {
+                                "type": "info",
+                                "title": "13th & 14th Month",
+                                "text": "By default, Spanish salaries include two extra payments (Christmas and Summer). These can be 'prorated' (prorrateo) into 12 payments if the Convenio allows."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Probation Periods",
+                                "text": "Probation is not automatic. It must be written in the contract. Max 6 months for qualified technicians/graduates, 2 months for others."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-eor-faq",
+                    "type": "faq",
+                    "title": "EOR Frequent Questions",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I hire contractors instead of employees?",
+                                "answer": "Spain has strict 'False Self-Employed' (Falso Autónomo) laws. If a contractor works mainly for you, uses your equipment, and follows your schedule, they must be converted to an employee or you face heavy fines."
+                            },
+                            {
+                                "question": "Is a medical checkup mandatory?",
+                                "answer": "The employer must offer a medical checkup (Vigilancia de la Salud), but the employee can refuse it in writing unless the role involves specific hazards."
+                            },
+                            {
+                                "question": "How does termination work?",
+                                "answer": "Dismissal without cause (Unfair Dismissal) is expensive in Spain: 33 days of salary per year worked (capped at 24 months). Objective dismissal (economic reasons) is 20 days/year."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-eor-essentials",
+                    "type": "essentials",
+                    "title": "EOR Glossary",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Convenio Colectivo",
+                                "text": "Collective Bargaining Agreement. Determines minimum wage, hours, and holidays for a sector/region."
+                            },
+                            {
+                                "title": "Falso Autónomo",
+                                "text": "False Self-Employed. Illegal practice of hiring a contractor who acts like an employee."
+                            },
+                            {
+                                "title": "Finiquito",
+                                "text": "Settlement payment upon termination. Includes pro-rated bonuses and unused holidays."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-pay-steps",
+                    "type": "key_steps",
+                    "title": "Monthly Payroll Cycle",
+                    "subtitle": "Processing timeline",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Incident Reporting",
+                                "description": "Cut-off date (usually 20th-25th). Report 'Bajas' (Sick leave), overtime, and variable bonuses."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Social Security Calculation",
+                                "description": "Apply 2025 contribution rates. The maximum monthly contribution base is capped at €4,909.50 (2025 Order)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Draft Review",
+                                "description": "Verify Payslips (Nóminas). Ensure MEI (0.8% total) and correct IRPF retention % based on family situation (Modelo 145)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Filings & Payment",
+                                "description": "Submit RLC/RNT (formerly TC1/TC2) via SILTRA system. Pay employees."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-pay-costs",
+                    "type": "cost_breakdown",
+                    "title": "2025 Social Security Rates",
+                    "order": 2,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Concept",
+                                "Employer",
+                                "Employee",
+                                "Total"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Common Contingencies",
+                                    "values": [
+                                        "23.60%",
+                                        "4.70%",
+                                        "28.30%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Unemployment (General)",
+                                    "values": [
+                                        "5.50%",
+                                        "1.55%",
+                                        "7.05%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "FOGASA (Guarantee Fund)",
+                                    "values": [
+                                        "0.20%",
+                                        "0.00%",
+                                        "0.20%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Vocational Training",
+                                    "values": [
+                                        "0.60%",
+                                        "0.10%",
+                                        "0.70%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "MEI (Equity Mechanism)",
+                                    "values": [
+                                        "0.67%",
+                                        "0.13%",
+                                        "0.80%"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-pay-taxes",
+                    "type": "essentials",
+                    "title": "IRPF Income Tax Brackets (2025)",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Up to €12,450",
+                                "text": "19% Rate"
+                            },
+                            {
+                                "title": "€12,451 - €20,200",
+                                "text": "24% Rate"
+                            },
+                            {
+                                "title": "€20,201 - €35,200",
+                                "text": "30% Rate"
+                            },
+                            {
+                                "title": "€35,201 - €60,000",
+                                "text": "37% Rate"
+                            },
+                            {
+                                "title": "Over €60,000",
+                                "text": "45% Rate (Typical max, regional variations up to 47%)"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-pay-insights",
+                    "type": "insights",
+                    "title": "Special Tax Regimes",
+                    "order": 4,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Beckham Law (Expat Regime)",
+                                "text": "Flat 24% tax rate on Spanish income up to €600,000 for 6 years. Must apply within 6 months of arrival. Eligibility: Moved to Spain for work, not resident in past 5 years."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Severance Taxation",
+                                "text": "Statutory severance payments (Indemnización) for unfair dismissal are tax-exempt up to €180,000."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "SMI 2025",
+                                "text": "Ensure no employee is paid below the Salario Mínimo Interprofesional (updated annually, approx €1,134/month in 14 payments for 2024/25)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-pay-faq",
+                    "type": "faq",
+                    "title": "Payroll FAQ",
+                    "order": 5,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the CRA file?",
+                                "answer": "Conceptos Retributivos Abonados. A mandatory monthly file sent to TGSS detailing all payments."
+                            },
+                            {
+                                "question": "When must payroll be paid?",
+                                "answer": "Typically by the last day of the month. Social Security (Seguros Sociales) is paid the following month (e.g., January contributions paid end to February)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-calc-steps",
+                    "type": "key_steps",
+                    "title": "Calculation Components",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Unpaid Wages",
+                                "description": "Salary corresponds to days worked in the current month up to the termination date."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Accrued Vacation",
+                                "description": "Unused holidays must be paid out. Calculation: (Annual Salary / 365) * Unused Days."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Extra Payments",
+                                "description": "Proportional part of Christmas/Summer bonuses (Pagas Extras) if they are not prorated monthly."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Severance (Indemnización)",
+                                "description": "The compensation for dismissal, calculated based on seniority and type of dismissal."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-calc-costs",
+                    "type": "cost_breakdown",
+                    "title": "Official Severance Rates (2025)",
+                    "order": 2,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Dismissal Type",
+                                "Compensation Rate",
+                                "Maximum Cap"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Unfair Dismissal (Improcedente)",
+                                    "values": [
+                                        "33 days / year worked",
+                                        "24 monthly payments"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Objective Dismissal (Justified)",
+                                    "values": [
+                                        "20 days / year worked",
+                                        "12 monthly payments"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Voluntary Resignation",
+                                    "values": [
+                                        "€0",
+                                        "None"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "End of Temporal Contract",
+                                    "values": [
+                                        "12 days / year worked",
+                                        "None"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-calc-insights",
+                    "type": "insights",
+                    "title": "Important Rules",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Daily Salary Base",
+                                "text": "Compensation is calculated on the GROSS daily salary, including the prorated part of extra payments."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Taxation",
+                                "text": "Mandatory severance (up to the statutory limit) is TAX-FREE (max €180,000). The 'Finiquito' (vacation/salary) is fully taxed."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Pre-Notice (Preaviso)",
+                                "text": "Employer must usually give 15 days notice for objective dismissal. Failure to do so requires paying those days in the Finiquito."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-calc-faq",
+                    "type": "faq",
+                    "title": "Calculator FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What if the employee sues?",
+                                "answer": "If a judge declares an Objective Dismissal as Unfair, you must pay the difference (from 20 days to 33 days/year)."
+                            },
+                            {
+                                "question": "Does seniority affect the cap?",
+                                "answer": "Yes. Contracts signed before Feb 2012 have higher rights (45 days/year for the period before 2012), capped at 42 months."
+                            },
+                            {
+                                "question": "What is the FOGASA limit?",
+                                "answer": "FOGASA covers unpaid wages/indemnity if the employer is insolvent, capped at 2x the daily Minimum Wage (SMI). For 2025, the daily SMI is approx €46."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-calc-essentials",
+                    "type": "essentials",
+                    "title": "Key Terms",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Finiquito",
+                                "text": "Proposed settlement document listing all amounts owed (salary, vacation, bonuses)."
+                            },
+                            {
+                                "title": "Carta de Despido",
+                                "text": "Formal termination letter stating the cause and effective date. Mandatory."
+                            },
+                            {
+                                "title": "FOGASA",
+                                "text": "Wage Guarantee Fund that covers compensation in case of employer insolvency."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "eor-peo-aor",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR"
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Set up an S.L.",
+                "subtitle": "Ley Crea y Crece",
+                "description": "Incorporate a Sociedad Limitada (S.L.) digitally in 7-10 days. Minimum capital now €1 under new laws.",
+                "bestFor": "Permanent teams.",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "section-inc-steps",
+                    "type": "key_steps",
+                    "title": "Digital Incorporation (CIRCE) Steps",
+                    "subtitle": "7-10 Days Fast Track",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Name Reservation",
+                                "description": "Request 'Certificado negativo de denominación social' from the Central Commercial Registry (RMC). Takes 24-48 hours."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Bank Account & Capital",
+                                "description": "Open a business bank account. Deposit min €3,000 (standard) OR €1 (under Ley Crea y Crece with liability conditions). Get the bank certificate."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Provisional NIF",
+                                "description": "Obtain Provisional Tax ID (NIF) from the Tax Agency (AEAT)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Notary Signing",
+                                "description": "Shareholders sign the Public Deed of Incorporation (Escritura) before a Spanish Notary. Remote signing is possible with Power of Attorney."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Final Registry",
+                                "description": "Deed is filed with the Mercantile Registry (Registro Mercantil). Once approved, you receive the Definite NIF."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-inc-costs",
+                    "type": "cost_breakdown",
+                    "title": "S.L. Setup Costs (Estimated)",
+                    "order": 2,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Item",
+                                "Cost",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Commercial Registry Name",
+                                    "values": [
+                                        "€20 - €30",
+                                        "Valid for 6 months"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Notary Fees",
+                                    "values": [
+                                        "€300 - €500",
+                                        "Depends on capital"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Registry Inscription",
+                                    "values": [
+                                        "€150 - €400",
+                                        "Regional variations"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Gestoria/Legal Support",
+                                    "values": [
+                                        "€500 - €1,500",
+                                        "Optional but recommended"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Minimum Capital",
+                                    "values": [
+                                        "€1 or €3,000",
+                                        "Shareholder contribution"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-inc-insights",
+                    "type": "insights",
+                    "title": "Entity Planning",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Administrator Liability",
+                                "text": "If creating an S.L. with €1 capital, shareholders are personally liable for the difference up to €3,000 until reserves cover it."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Fiscal Address",
+                                "text": "You need a registered office (Domicilio Social) in Spain. A virtual office is sufficient for the registry but you may need a physical space for substance."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Digital Certificate",
+                                "text": "Immediately apply for the FNMT Digital Certificate (Certificado Digital) for the company. Essential for all dealings with Hacienda and Social Security."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-inc-faq",
+                    "type": "faq",
+                    "title": "Incorporation FAQs",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Do I need a resident director?",
+                                "answer": "No. Directors (Administradores) can be foreigners and non-residents. However, they must have a NIE (Foreigner ID) number."
+                            },
+                            {
+                                "question": "What is the difference between S.L. and S.A.?",
+                                "answer": "S.L. (Limited Liability) is for small/medium business (min €3k capital). S.A. (Public Limited) is for large corps (min €60k capital, stricter auditing)."
+                            },
+                            {
+                                "question": "How long does VAT registration take?",
+                                "answer": "Obtaining a VIES (Intra-community VAT) number can take weeks or months and often triggers a physical inspection by the tax office to prove substance."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-inc-essentials",
+                    "type": "essentials",
+                    "title": "Incorporation Checklist",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "title": "NIE",
+                                "text": "Número de Identidad de Extranjero. Mandatory for all foreign directors/shareholders."
+                            },
+                            {
+                                "title": "Certificado Digital",
+                                "text": "Essential for online dealings with AEAT/TGSS. Get it immediately after incorporation."
+                            },
+                            {
+                                "title": "Model 036",
+                                "text": "Tax census declaration form to register activity start date and tax obligations."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "incorporation-entity-setup",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)"
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Recruitment",
+                "subtitle": "Tech Hubs",
+                "description": "Major hubs in Barcelona and Madrid. Malaga is emerging as a tech hub.",
+                "bestFor": "Sourcing.",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "section-staff-steps",
+                    "type": "key_steps",
+                    "title": "Hiring Process Steps",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Sourcing Channels",
+                                "description": "InfoJobs (local leader) and LinkedIn (international/tech) are the primary portals. For tech talent, 'Circular' is also popular."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "GDPR Compliance",
+                                "description": "Ensure candidates sign a data processing clause before collecting CVs. Generally illegal to ask for criminal records."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Background Checks",
+                                "description": "Strictly limited. Financial solvency checks only allowed for specific finance roles with consent."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Contract Offer",
+                                "description": "Must be written. 'Contrato Indefinido' is the norm. Probation period must be explicitly stated."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-staff-costs",
+                    "type": "cost_breakdown",
+                    "title": "Recruitment Fees",
+                    "order": 2,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service",
+                                "Cost Estimate",
+                                "Details"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Agency Success Fee",
+                                    "values": [
+                                        "15% - 20%",
+                                        "of Gross Annual Salary"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Retained Search",
+                                    "values": [
+                                        "20% - 25%",
+                                        "For exec roles"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Job Board Post",
+                                    "values": [
+                                        "€200 - €400",
+                                        "Per 30-day listing"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-staff-insights",
+                    "type": "insights",
+                    "title": "Market Nuances",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Criminal Records",
+                                "text": "Requesting 'Antecedentes Penales' is generally illegal for private employers in Spain, violating the LOPDGDD."
+                            },
+                            {
+                                "type": "info",
+                                "title": "English Proficiency",
+                                "text": "English levels in Spain are improving but still lag behind Northern Europe. Testing language skills during interview is crucial."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Benefits",
+                                "text": "Meal vouchers (Ticket Restaurante) and Private Health Insurance (Seguro Médico) are the most valued perks."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-staff-faq",
+                    "type": "faq",
+                    "title": "Recruitment FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Are non-competes enforceable?",
+                                "answer": "Yes, but they must be paid (compensación adecuada) and limited in time (max 2 years for technicians) and geography."
+                            },
+                            {
+                                "question": "Can I hire freelancers?",
+                                "answer": "Yes, 'Autónomos'. But beware of 'Falso Autónomo' risk if they work exclusively for you and follow your directions."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-staff-essentials",
+                    "type": "essentials",
+                    "title": "Top Job Boards",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "title": "InfoJobs",
+                                "text": "Dominant local job board for generalist roles."
+                            },
+                            {
+                                "title": "LinkedIn",
+                                "text": "Essential for white-collar, tech, and international roles."
+                            },
+                            {
+                                "title": "Malt",
+                                "text": "Leading platform for finding high-quality freelance talent."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "staffing-recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting"
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HR Software",
+                "subtitle": "Mandatory Time Tracking",
+                "description": "Tools like Factorial, Personio, Sesame are popular for compliance with time tracking laws.",
+                "bestFor": "Compliance.",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "section-hris-steps",
+                    "type": "key_steps",
+                    "title": "Implementing Time Tracking",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Mandatory Requirement",
+                                "description": "Since 2019, ALL companies must track start/end times for ALL employees to calculate overtime."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Digital System",
+                                "description": "Implement a system (Factorial, Sesame) that prevents manipulation. Paper sheets are risky."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Employee Access",
+                                "description": "Employees must have access to their records. Unions/Reps also have right to view monthly summaries."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Data Retention",
+                                "description": "Records must be kept for 4 years physically or digitally available for inspection."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-hris-insights",
+                    "type": "insights",
+                    "title": "HR Compliance Risks",
+                    "order": 2,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Fines up to €7,500",
+                                "text": "Lack of time tracking is a serious offense. Fines range from €751 to €7,500 depending on severity and number of employees."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Digital Disconnection",
+                                "text": "Companies must have a protocol ensuring employees are not required to answer communications outside work hours."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Holiday Tracking",
+                                "text": "Spain has 14 public holidays (12 national/regional + 2 local). Validating local holidays in the HRIS is a common pain point."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-hris-costs",
+                    "type": "cost_breakdown",
+                    "title": "HR Software Pricing",
+                    "order": 3,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Plan Type",
+                                "Cost Estimate",
+                                "Features"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Basic Time Tracking",
+                                    "values": [
+                                        "€4 - €5",
+                                        "Per user/mo"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Full HR Suite (Factorial)",
+                                    "values": [
+                                        "€7 - €12",
+                                        "Per user/mo"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Enterprise (Workday)",
+                                    "values": [
+                                        "Custom",
+                                        "For large orgs"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-hris-faq",
+                    "type": "faq",
+                    "title": "HR Tech FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is biometric data allowed?",
+                                "answer": "Yes, but strictly regulated by GDPR. A Data Protection Impact Assessment (DPIA) is mandatory before implementation."
+                            },
+                            {
+                                "question": "Can I track location?",
+                                "answer": "Only during working hours and with prior notice. Continual tracking of company vehicles/phones outside hours is illegal."
+                            },
+                            {
+                                "question": "What are the rules for Digital Disconnection?",
+                                "answer": "Under Article 88 of Law 3/2018, employers must have a protocol limiting work communications outside hours. Fines for serious infringements range from €751 to €7,500."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-hris-essentials",
+                    "type": "essentials",
+                    "title": "Popular Platforms",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Factorial",
+                                "text": "Spanish unicorn, very popular for SMBs. All-in-one HR + Time Tracking."
+                            },
+                            {
+                                "title": "Sesame HR",
+                                "text": "Specialized in Time Tracking and shift management. Great for blue-collar/shift work."
+                            },
+                            {
+                                "title": "PayFit",
+                                "text": "Automated payroll focus, integrates with time tracking. Good for startups."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "hris-hrms-ats",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS"
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Gestoria",
+                "subtitle": "Monthly Filing",
+                "description": "Small companies use a 'Gestoria' for bookkeeping, tax (IVA/IS), and payroll.",
+                "bestFor": "Admin.",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "section-acc-steps",
+                    "type": "key_steps",
+                    "title": "Monthly Accounting Routine",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Invoice Collection",
+                                "description": "Gather all issued and received invoices. Spain requires strict numbering sequences."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Gestoria Handoff",
+                                "description": "Send documents to Gestoria by the 20th-25th. They prepare draft tax filings."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Quarterly Tax Filing",
+                                "description": "Submit VAT (Modelo 303) and Withholdings (Modelo 111, 115) every Jan, Apr, Jul, Oct."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Validating Books",
+                                "description": "Formalizing the 'Libros Contables' in the Mercantile Registry annually by April 30th."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-acc-costs",
+                    "type": "cost_breakdown",
+                    "title": "Accounting & Gestoria Fees",
+                    "order": 2,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service Level",
+                                "Monthly Fee",
+                                "Inclusions"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Online Gestoria (SME)",
+                                    "values": [
+                                        "€120 - €180",
+                                        "Tax & Books"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Traditional Gestoria",
+                                    "values": [
+                                        "€250 - €400",
+                                        "Physical meetings"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Freelancer (Autónomo)",
+                                    "values": [
+                                        "€60 - €90",
+                                        "Simplified Filing"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-acc-insights",
+                    "type": "insights",
+                    "title": "Financial Compliance",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Mandatory Audit",
+                                "text": "Required if 2 of 3 met for 2 years: Assets > €2.85M, Turnover > €5.7M, Employees > 50."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Electronic Invoicing",
+                                "text": "B2B electronic invoicing ('Ley Crea y Crece') will become mandatory (phased 2024-2026). Ensure software represents facts."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "VAT Refund",
+                                "text": "If you are in a continuous VAT credit position, apply for 'REDEME' (Monthly Refund Register) to get cash back monthly instead of annually."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-acc-faq",
+                    "type": "faq",
+                    "title": "Accounting FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I use QuickBooks/Xero?",
+                                "answer": "Careful. While great, they must be adapted for Spanish 'Modelo' filings. Local accountants prefer Holded, A3, or Sage."
+                            },
+                            {
+                                "question": "What happens if I miss a filing?",
+                                "answer": "Automatic surcharge (recargo) of 1% + 1% per month of delay. Interest applies after 12 months."
+                            },
+                            {
+                                "question": "When is a financial audit mandatory?",
+                                "answer": "If for two consecutive years, two of three limits are met: Assets > €2.85M, Turnover > €5.7M, or >50 Employees."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-acc-essentials",
+                    "type": "essentials",
+                    "title": "Key Tax Forms",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Modelo 303",
+                                "text": "Quarterly VAT (IVA) return. Must be filed even if zero activity."
+                            },
+                            {
+                                "title": "Modelo 111",
+                                "text": "Quarterly withholding tax on employees and professionals (IRPF)."
+                            },
+                            {
+                                "title": "Modelo 200",
+                                "text": "Annual Corporate Tax return (Impuesto de Sociedades), filed in July."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-comp-mandates",
+                    "type": "key_steps",
+                    "title": "Mandatory Corporate Policies",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Prevention of Occupational Risks (PRL)",
+                                "description": "Mandatory for all companies (even 1 employee). Must cover Risk Assessment, Health Checks, and Training. Typically outsourced to an SPA."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Time Tracking (Registro Jornada)",
+                                "description": "Daily recording of start/end times is mandatory for ALL employees. Records must be kept 4 years. Heavy fines for non-compliance."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Protocolo de Acoso",
+                                "description": "Sexual and Gender Harassment Protocol is mandatory for ALL companies. Must include a complaint channel and strict confidentiality."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Equality Plan (>50 Staff)",
+                                "description": "Companies with 50+ employees must register an Equality Plan (Plan de Igualdad) and a Remuneration Audit in 'REGCON'."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Whistleblowing Channel (>50 Staff)",
+                                "description": "Mandatory internal channel (Canal de Denuncias) for reporting regulatory breaches, anonymity guaranteed (Law 2/2023)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-comp-fines",
+                    "type": "cost_breakdown",
+                    "title": "Sanctions & Penalties (LISOS)",
+                    "order": 2,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Violation Type",
+                                "Potential Fine",
+                                "Authority"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "GDPR (Very Serious)",
+                                    "values": [
+                                        "Up to €20M or 4% Turnover",
+                                        "AEPD"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "PRL (Serious/Very Serious)",
+                                    "values": [
+                                        "€2,451 - €983,736",
+                                        "Inspection"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Time Tracking Breach",
+                                    "values": [
+                                        "€751 - €7,500",
+                                        "Labor Inspection"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "No Equality Plan",
+                                    "values": [
+                                        "€7,501 - €225,018",
+                                        "Labor Inspection"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-comp-insights",
+                    "type": "insights",
+                    "title": "Digital Rights & Remote Work",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Digital Disconnection",
+                                "text": "Employees have the legal right not to answer emails/calls outside working hours. A policy defining this is mandatory."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Remote Work Agreement",
+                                "text": "If remote work >30% of hours, a formal 'Acuerdo de Trabajo a Distancia' must be signed and expenses (internet, equipment) compensated."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "LGTBI Protocol",
+                                "text": "New since 2024: Plan for LGTBI rights and non-discrimination measures is required for companies >50 employees."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-comp-faq",
+                    "type": "faq",
+                    "title": "Compliance FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Do I need a DPO?",
+                                "answer": "A Data Protection Officer is mandatory for large scale data processing, security companies, insurers, etc. Recommended for all to ensure GDPR compliance."
+                            },
+                            {
+                                "question": "Are health checks mandatory?",
+                                "answer": "The employer MUST offer them. The employee can refuse (waiver), unless the job has specific risks involving third-party safety."
+                            },
+                            {
+                                "question": "Who must have a Whistleblowing Channel?",
+                                "answer": "Under Law 2/2023, all companies with 50+ employees must implement an internal reporting system that guarantees anonymity. Strict deadlines applied from Dec 2023."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-comp-acronyms",
+                    "type": "essentials",
+                    "title": "Key Acronyms",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "title": "AEPD",
+                                "text": "Agencia Española de Protección de Datos (Data Watchdog)."
+                            },
+                            {
+                                "title": "LISOS",
+                                "text": "Law on Infractions and Sanctions in the Social Order (The 'menu' of fines)."
+                            },
+                            {
+                                "title": "PRL",
+                                "text": "Prevención de Riesgos Laborales (Occupational Safety)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-tax-calendar",
+                    "type": "key_steps",
+                    "title": "2025 Tax Compliance Calendar",
+                    "subtitle": "Critical Deadlines",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Quarterly VAT (Modelo 303)",
+                                "description": "Filed every April 20, July 20, October 20, and January 30. Large companies (SII) file monthly."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Corporate Tax Payment (Modelo 202)",
+                                "description": "Advance payments on account of CIT are due in April, October, and December (dates vary, typically 20th)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Annual CIT Return (Modelo 200)",
+                                "description": "The definitive annual return is due 25 calendar days after the 6-month period following the fiscal year end (July 25th for calendar FY)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Annual Accounts Deposit",
+                                "description": "Statutory financial statements must be deposited with the Mercantile Registry by July 30th (for calendar FY)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Informative Returns (Modelo 347)",
+                                "description": "February 28th deadline to declare operations with third parties exceeding €3,005.06 annually."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-tax-rates",
+                    "type": "cost_breakdown",
+                    "title": "2025 Effective Tax Rates",
+                    "order": 2,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Tax Type",
+                                "Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax (IS)",
+                                    "values": [
+                                        "25%",
+                                        "Standard Rate"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Newly Created Entity",
+                                    "values": [
+                                        "15%",
+                                        "First 2 profitable years"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "IVA (General)",
+                                    "values": [
+                                        "21%",
+                                        "Standard Goods/Services"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "IVA (Reduced)",
+                                    "values": [
+                                        "10%",
+                                        "Hospitality, Transport"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Dividend Withholding",
+                                    "values": [
+                                        "19%",
+                                        "EU residents exempt subject to conditions"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-tax-incentives",
+                    "type": "insights",
+                    "title": "Strategic Tax Incentives",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Patent Box Regime",
+                                "text": "Up to 60% reduction in the tax base for income derived from licensing patents, software, and industrial designs. One of the most aggressive in the EU."
+                            },
+                            {
+                                "type": "info",
+                                "title": "R&D Tax Credit",
+                                "text": "25% deduction on R&D expenses (plus 42% on excess over average of prior 2 years). Plus 12% for IT innovation (i.e., software development)."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Transfer Pricing",
+                                "text": "Related-party transactions must be at arm's length. Master File and Local File documentation mandatory for criteria. Strict audit focus."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-tax-faq",
+                    "type": "faq",
+                    "title": "Tax FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Are startup stock options taxed?",
+                                "answer": "Under the 'Ley de Startups', up to €50,000 of stock options per year are exempt from income tax until exercised or after 10 years."
+                            },
+                            {
+                                "question": "What is the Beckham Law?",
+                                "answer": "A special expat regime allowing new residents to pay a flat 24% tax on Spanish income (up to €600k) for 6 years, shielding foreign assets/income."
+                            },
+                            {
+                                "question": "Can I reclaim VAT?",
+                                "answer": "Yes. Input VAT is deductible against output VAT. If input > output, you can request a refund (monthly for REDEME register, annual otherwise)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-tax-models",
+                    "type": "essentials",
+                    "title": "Glossary of Tax Models",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Modelo 200",
+                                "text": "Annual Corporate Income Tax Return."
+                            },
+                            {
+                                "title": "Modelo 303",
+                                "text": "Quarterly/Monthly VAT Return."
+                            },
+                            {
+                                "title": "Modelo 111",
+                                "text": "Quarterly Withholding verification (Employees/Professionals)."
+                            },
+                            {
+                                "title": "Modelo 390",
+                                "text": "Annual VAT Summary Recap."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "finance-tax-accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting"
+        },
+        {
+            "serviceSlug": "msa",
+            "service": "M & A",
+            "heroData": {
+                "title": "B2B Contracts",
+                "subtitle": "Comm. Code",
+                "description": "Spanish B2B contracts are governed by the Commercial Code. The 'Ley Crea y Crece' imposes strict 60-day payment limits.",
+                "bestFor": "Legal Framework.",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "section-msa-checklist",
+                    "type": "key_steps",
+                    "title": "Drafting Checklist",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Identify Parties",
+                                "description": "Verify the NIF (Tax ID) and the power of attorney (Poderes) of the signers via the Mercantile Registry."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Payment Terms",
+                                "description": "MUST be under 60 days from invoice date. Clauses stating '90 days' or '120 days' are null and void by law."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tacit Renewal (Tácita Reconducción)",
+                                "description": "Contracts renew automatically by default (Civil Code Art 1566) unless a specific 'Notice of Non-Renewal' clause is included."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Data Processing",
+                                "description": "If the vendor accesses personal data, a DPA (Data Processing Agreement) annex is mandatory under GDPR."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Jurisdiction (Fuero)",
+                                "description": "Explicitly state the courts (e.g., 'Courts of Madrid') to avoid ambiguity. Arbitration is a faster, pricier alternative."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-msa-risks",
+                    "type": "cost_breakdown",
+                    "title": "Penalties & Risks",
+                    "order": 2,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Risk Factor",
+                                "consequence",
+                                "Legal Basis"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Late Payment (>60d)",
+                                    "values": [
+                                        "Fines up to €800k",
+                                        "Ley Crea y Crece"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Undefined Notice",
+                                    "values": [
+                                        "Judges set duration",
+                                        "Jurisprudence"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Missing DPA Clause",
+                                    "values": [
+                                        "GDPR Fines",
+                                        "AEPD"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Self-Employment Risk",
+                                    "values": [
+                                        "Treat as Employee",
+                                        "Falso Autónomo"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-msa-insights",
+                    "type": "insights",
+                    "title": "Critical Clauses",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Tacit Renewal",
+                                "text": "Essential to disable 'Tácita Reconducción' explicitly if you do not want the contract to auto-renew for another full term."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Electronic Signatures",
+                                "text": "Qualified Digital Signatures (e.g., FNMT, DNIe) or Advanced signatures (DocuSign, Signaturit) are fully valid (Law 6/2020)."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Bilingual Contracts",
+                                "text": "Prevailing language clause is vital. In Spanish courts, the Spanish version will always be the reference."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-msa-faq",
+                    "type": "faq",
+                    "title": "Contract FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I use UK/US Law?",
+                                "answer": "For B2B contracts, yes (Rome I Regulation). However, mandatory Spanish 'public order' rules (payment terms, fraud) still apply."
+                            },
+                            {
+                                "question": "Is email legally binding?",
+                                "answer": "Yes, if authenticity can be proven. However, for contract amendments or termination notices, 'Burofax' (certified fax/mail) is recommended for proof of delivery."
+                            },
+                            {
+                                "question": "Which court jurisdiction should I choose?",
+                                "answer": "Spanish courts uphold 'hybrid' clauses. Agencies often prefer explicit submission to the Courts of Barcelona or Madrid, or arbitration to avoid regional court delays."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-msa-essentials",
+                    "type": "essentials",
+                    "title": "Legal Vocabulary",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Burofax",
+                                "text": "Certified communication service used in Spain to prove content and delivery date legally."
+                            },
+                            {
+                                "title": "Poderes Notariales",
+                                "text": "Notarized Power of Attorney proving the signatory has authority to bind the company."
+                            },
+                            {
+                                "title": "Objeto Social",
+                                "text": "The corporate purpose defined in the bylaws; contracts outside this may be voidable."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "msa",
+            "name": "M & A",
+            "serviceName": "M & A"
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Development",
+                "subtitle": "Hubs & Talent",
+                "description": "Spain is a top European tech hub (Madrid, Barcelona, Malaga). High-quality talent at competitive rates vs Northern Europe.",
+                "bestFor": "Tech Teams.",
+                "icon": "software"
+            },
+            "sections": [
+                {
+                    "id": "section-soft-teaming",
+                    "type": "key_steps",
+                    "title": "Building a Dev Team",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Choose Model",
+                                "description": "Decide between hiring local employees (employer costs ~30%), B2B Contractors (Autónomos), or an Employer of Record (EOR)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "IP Assignment",
+                                "description": "Critical for contractors: 'Work for Hire' is NOT automatic. You MUST have a written IP transfer clause (Cesión de Derechos)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Equipment (Remote)",
+                                "description": "By law (Remote Work Law), companies must provide equipment (laptop, etc.) and cover expenses for remote staff."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Recruitment Channels",
+                                "description": "Post on specialized boards like Manfred (GetManfred) or Tecnoempleo for best local reach."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Onboarding",
+                                "description": "Register employees with Social Security BEFORE their first day. Late registration equals huge fines."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-soft-salaries",
+                    "type": "cost_breakdown",
+                    "title": "Dev Salaries (2025 Est.)",
+                    "order": 2,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Role",
+                                "Annual Gross (€)",
+                                "Total Cost (approx)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Junior Dev (1-2y)",
+                                    "values": [
+                                        "€24k - €30k",
+                                        "~€32k - €40k"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Senior Dev (5y+)",
+                                    "values": [
+                                        "€55k - €75k+",
+                                        "~€72k - €98k+"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Tech Lead / CTO",
+                                    "values": [
+                                        "€80k - €120k",
+                                        "~€105k - €158k"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "QA Engineer",
+                                    "values": [
+                                        "€35k - €50k",
+                                        "~€46k - €65k"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-soft-hubs",
+                    "type": "insights",
+                    "title": "Tech Ecosystem",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Malaga Valley",
+                                "text": "Rapidly growing hub (Google Safety Center). Lower cost of living than Madrid/BCN, high quality of life, attracting senior expats."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Non-EU Talent",
+                                "text": "The 'Highly Qualified Professional' (HQP) visa allows fast-track hiring of non-EU devs. No labor market test required."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Stock Options",
+                                "text": "Taxable as income upon exercise unless under strict 'Ley de Startups' exemption (up to €50k/year exempt)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-soft-faq",
+                    "type": "faq",
+                    "title": "Tech FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Does the company own the code?",
+                                "answer": "For Employees: Yes, presumed by law unless agreed otherwise. For Contractors: NO, unless explicitly assigned in writing."
+                            },
+                            {
+                                "question": "English proficiency?",
+                                "answer": "High in senior roles and startups. Mixed in junior/legacy corporate pools. Coding tests in English are standard practice."
+                            },
+                            {
+                                "question": "Are remote work expenses mandatory?",
+                                "answer": "Yes. The Remote Work Law (Royal Decree-Law 28/2020) requires a written agreement and compensation for expenses (internet, equipment) if remote work > 30%."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-soft-boards",
+                    "type": "essentials",
+                    "title": "Top Job Boards",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Manfred",
+                                "text": "Community-driven, high-quality tech talent pool, agent-based model."
+                            },
+                            {
+                                "title": "Tecnoempleo",
+                                "text": "Traditional IT job board with high volume of candidates."
+                            },
+                            {
+                                "title": "LinkedIn",
+                                "text": "Essential for mid-to-senior roles. Use 'Hiring' filters."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "software-technology-solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions"
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Digital Growth",
+                "subtitle": "SEO & Performance",
+                "description": "Spanish agencies offer high-quality creative and performance marketing at costs 30-40% lower than UK/US.",
+                "bestFor": "Market expansion.",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "section-mark-steps",
+                    "type": "key_steps",
+                    "title": "Engagement Models",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Project Based",
+                                "description": "Fixed price for website launches, branding kits, or specific campaigns. 50% upfront, 50% on delivery."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Monthly Retainer",
+                                "description": "Common for SEO, Social Media, and PPC management. Usually essentially 6-12 month contracts."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Performance (CPA)",
+                                "description": "Some aggressive agencies work on a Commission/CPA basis, though they usually require a minimum setup fee."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-mark-costs",
+                    "type": "cost_breakdown",
+                    "title": "Agency Fee Benchmarks",
+                    "order": 2,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service Type",
+                                "Monthly Retainer (SMB)",
+                                "Hourly Equivalent"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Full SEO (On/Off page)",
+                                    "values": [
+                                        "€1,000 - €2,500",
+                                        "€60 - €100"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Social Media Mgmt",
+                                    "values": [
+                                        "€600 - €1,500",
+                                        "€40 - €80"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "PPC Management",
+                                    "values": [
+                                        "10-15% of Ad Spend",
+                                        "Min €500 fee"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-mark-insights",
+                    "type": "insights",
+                    "title": "Cultural Marketing Tips",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Localization is Key",
+                                "text": "Do not just translate. Spanish consumers value 'Cercanía' (closeness). Tone should be warm but professional. Avoid Latin American Spanish terms."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Regional Languages",
+                                "text": "In Catalonia, Basque Country, and Galicia, using the local language (Catalan, Euskera, Galician) in ads can significantly boost conversion."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "WhatsApp Marketing",
+                                "text": "WhatsApp is ubiquitous in Spain (used by 90%+). Agencies often use WhatsApp Business API for customer service and leads."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-mark-faq",
+                    "type": "faq",
+                    "title": "Marketing FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What are the main ad platforms?",
+                                "answer": "Google Ads and Meta (Instagram/Facebook) dominate. TikTok is growing fast for Gen Z. LinkedIn is essential for B2B."
+                            },
+                            {
+                                "question": "Is influencer marketing regulated?",
+                                "answer": "Yes. The 'Influencer Law' (2024) requires influencers to clearly label sponsored content, similar to TV ads."
+                            },
+                            {
+                                "question": "Does the Digital Services Tax affect agencies?",
+                                "answer": "Directly, only if global turnover > €750M. However, agencies often see the 3% tax passed on by platforms (Google, Meta) in their ad invoices."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-mark-essentials",
+                    "type": "essentials",
+                    "title": "Industry Bodies",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "title": "IAB Spain",
+                                "text": "The main association for digital advertising, setting standards and publishing key market reports."
+                            },
+                            {
+                                "title": "Club de Creativos (c de c)",
+                                "text": "Prestigious organization promoting creative excellence in Spanish advertising."
+                            },
+                            {
+                                "title": "Agencias de España",
+                                "text": "Association representing independent Spanish private capital agencies."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "marketing-agency",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY"
+        }
+    ]
+}

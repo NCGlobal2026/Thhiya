@@ -1,0 +1,548 @@
+{
+    "name": "Pakistan",
+    "code": "PK",
+    "slug": "pakistan",
+    "flag": "https://flagcdn.com/w160/pk.png",
+    "region": "Asia",
+    "languages": [
+        "Urdu",
+        "English"
+    ],
+    "currencies": [
+        "PKR"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Pakistan",
+                "subtitle": "Hire in Lahore",
+                "description": "Compliant employment in South Asia. We handle EOBI & ESSI.",
+                "bestFor": "Tech & Textiles",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "pk-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Employment contract compliant with valid Shops and Establishments Ordinance."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "EOBI",
+                                "description": "Register with Employees' Old-Age Benefits Institution."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "ESSI",
+                                "description": "Provincial Employees Social Security Institution registration."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "pk-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "EOBI (Pension)",
+                                    "values": [
+                                        "5%",
+                                        "1%",
+                                        "Of Minimum Wage."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Social Security (ESSI)",
+                                    "values": [
+                                        "6%",
+                                        "0%",
+                                        "Provincial Health/Injury (upto wage cap)."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Education Cess",
+                                    "values": [
+                                        "5%",
+                                        "0%",
+                                        "Workers' Children Education Cess."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Group Insurance",
+                                    "values": [
+                                        "Fixed",
+                                        "0%",
+                                        "Mandatory life/disability coverage."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "pk-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Kashmir Day",
+                                "description": "February 5"
+                            },
+                            {
+                                "title": "Pakistan Day",
+                                "description": "March 23"
+                            },
+                            {
+                                "title": "Eid-ul-Fitr",
+                                "description": "March 31 - April 2 (Estimated)"
+                            },
+                            {
+                                "title": "Labour Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Eid-ul-Adha",
+                                "description": "June 7-9 (Estimated)"
+                            },
+                            {
+                                "title": "Ashura",
+                                "description": "July 5-6 (Estimated)"
+                            },
+                            {
+                                "title": "Independence Day",
+                                "description": "August 14"
+                            },
+                            {
+                                "title": "Eid Milad-un-Nabi",
+                                "description": "September 5 (Estimated)"
+                            },
+                            {
+                                "title": "Quaid-e-Azam Day",
+                                "description": "December 25"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "pk-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Annual Income (PKR)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Up to 600,000",
+                                    "values": [
+                                        "0%",
+                                        "Exempt."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "600,001 - 1,200,000",
+                                    "values": [
+                                        "5%",
+                                        "Of excess."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "1,200,001 - 2,200,000",
+                                    "values": [
+                                        "15%",
+                                        "+ Rs. 30,000."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "2,200,001 - 3,200,000",
+                                    "values": [
+                                        "25%",
+                                        "+ Rs. 180,000."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Over 4,100,000",
+                                    "values": [
+                                        "35%",
+                                        "Top rate (+ Surcharge for >10m)."
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "pk-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Monthly Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "EOBI (Emp)",
+                                "description": "Deduct 1% of Min Wage."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax Base",
+                                "description": "Gross Annual Income."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Income Tax",
+                                "description": "Apply FBR Slabs (0-35%)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Net",
+                                "description": "Gross - Tax - EOBI."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Pakistan",
+                "subtitle": "Pvt Ltd",
+                "description": "Private Limited Company.",
+                "bestFor": "Outsourcing",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "pk-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "SECP",
+                                "description": "Reserve name and register with Securities and Exchange Commission of Pakistan."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "FBR",
+                                "description": "Obtain NTN (National Tax Number)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Bank",
+                                "description": "Open corporate account and deposit capital."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "pk-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "HBL",
+                                "description": "Habib Bank Limited."
+                            },
+                            {
+                                "title": "Meezan Bank",
+                                "description": "Leading Islamic bank."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Pakistan",
+                "subtitle": "Technology",
+                "description": "Booming IT sector.",
+                "bestFor": "Software Devs",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "pk-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Lahore",
+                                "text": "Major tech and cultural hub."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Karachi",
+                                "text": "Commercial capital."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Islamabad",
+                                "text": "Fast-growing tech parks."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Pakistan",
+                "subtitle": "Modern",
+                "description": "Cloud adoption.",
+                "bestFor": "Efficiency",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "pk-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Tax Forms",
+                                "description": "Monthly withholding statements."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Pakistan",
+                "subtitle": "IFRS",
+                "description": "Adopted.",
+                "bestFor": "Compliance",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "pk-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "IFRS",
+                                "text": "Mandatory for all companies."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "pk-comp-labor",
+                    "type": "warning",
+                    "title": "Provincial Laws",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "18th Amendment",
+                                "description": "Labor laws are devolved to provinces (Punjab, Sindh, etc.), so compliance varies by location."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "pk-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax",
+                                    "values": [
+                                        "29%",
+                                        "Standard rate."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Small Company",
+                                    "values": [
+                                        "20%",
+                                        "If turnover < 250m PKR."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Super Tax",
+                                    "values": [
+                                        "1-10%",
+                                        "For high earners (>150m PKR)."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Sales Tax",
+                                    "values": [
+                                        "18%",
+                                        "Standard GST Rate."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Pakistan",
+                "subtitle": "Common Law",
+                "description": "British heritage.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "pk-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "English is the official language of law and business."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Pakistan",
+                "subtitle": "Easypaisa",
+                "description": "Fintech.",
+                "bestFor": "Transactions",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "pk-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Easypaisa / JazzCash",
+                                "description": "Dominant mobile wallets."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Pakistan",
+                "subtitle": "Social",
+                "description": "Digital boom.",
+                "bestFor": "Conversion",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "pk-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Facebook/TikTok",
+                                "text": "Very high engagement rates."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

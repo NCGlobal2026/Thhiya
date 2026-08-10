@@ -1,0 +1,2001 @@
+{
+    "name": "United States of America",
+    "code": "US",
+    "slug": "united-states",
+    "region": "North America",
+    "flag": "https://flagcdn.com/w160/us.png",
+    "languages": [
+        "English"
+    ],
+    "currencies": [
+        "USD (United States Dollar)"
+    ],
+    "services": [
+        {
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "heroData": {
+                "title": "EOR/PEO Services in United States",
+                "subtitle": "Navigate complex multi-state employment with co-employment solutions",
+                "description": "The US EOR/PEO market helps businesses manage payroll, benefits, and compliance across 50 states with varying regulations. Co-employment models allow companies to share employer responsibilities while maintaining operational control.",
+                "bestFor": "Companies hiring remotely across multiple US states without establishing separate entities",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "section-us-eor-steps",
+                    "type": "key_steps",
+                    "title": "EOR Onboarding Process",
+                    "subtitle": "Complete Setup in 5-10 Business Days",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Employee Information Gathering",
+                                "description": "Collect W-4 (federal withholding), state withholding forms,  I-9 employment eligibility verification, and direct deposit details. Background checks and drug screening if required by industry."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Multi-State Compliance Setup",
+                                "description": "Register for state-specific tax withholding, unemployment insurance (SUI), and workers' compensation. Each state has unique registration requirements and timelines ranging from 2-6 weeks."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Benefits Enrollment",
+                                "description": "Enroll employees in health insurance (ACA-compliant plans), 401(k) retirement plans, and supplemental benefits. Open enrollment window typically 30 days from hire date."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Payroll System Integration",
+                                "description": "Configure pay frequency (weekly, bi-weekly, semi-monthly, monthly), set up time tracking, and establish approval workflows for overtime and paid time off (PTO)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "EOR Agreement Execution",
+                                "description": "Sign co-employment agreement defining responsibilities. EOR becomes employer of record for tax and legal purposes while client maintains day-to-day management control."
+                            }
+                        ]
+                    },
+                    "order": 1
+                },
+                {
+                    "id": "section-us-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "EOR Pricing Structure 2025",
+                    "subtitle": "Typical Costs for US Market",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Cost Component",
+                                "Amount",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Setup Fee (per employee)",
+                                    "values": [
+                                        "$600-$1,200",
+                                        "One-time"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Monthly Service Fee",
+                                    "values": [
+                                        "$200-$1,000+",
+                                        "Varies by state"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "PEO Alternative",
+                                    "values": [
+                                        "2-6% payroll",
+                                        "$79-$159 PEPM"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "FICA Employer Share",
+                                    "values": [
+                                        "7.65%",
+                                        "SS 6.2% + Medicare 1.45%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "State Unemployment (SUI)",
+                                    "values": [
+                                        "0.5-10%",
+                                        "Highly variable"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Workers' Compensation",
+                                    "values": [
+                                        "$0.75-$15",
+                                        "Per $100 payroll"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Total Employer Burden",
+                                    "values": [
+                                        "~20-30%",
+                                        "On top of gross salary"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    },
+                    "order": 2
+                },
+                {
+                    "id": "section-us-eor-insights",
+                    "type": "insights",
+                    "title": "Critical EOR Compliance Considerations",
+                    "subtitle": "Understanding PE Risk and Co-Employment",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Permanent Establishment (PE) Risk",
+                                "text": "Using an EOR does NOT automatically eliminate PE risk. If employees perform revenue-generating activities central to your business, tax authorities may classify your company as having taxable presence in that jurisdiction."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Co-Employment Relationship",
+                                "text": "In PEO arrangements, your entity remains the legal employer sharing responsibilities. EOR models provide fuller separation - the EOR is the legal employer of record for tax and compliance purposes."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Multi-State Strategy",
+                                "text": "For employees in multiple states, an EOR eliminates the need to register separate entities. Saves $10,000-$25,000 per state in setup costs plus $8,000-$20,000 annually in administration."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Timeline Advantage",
+                                "text": "EOR enables hiring in 5-10 days versus 2-4 months for entity formation. Critical for competitive talent acquisition in tight US labor markets."
+                            }
+                        ]
+                    },
+                    "order": 3
+                },
+                {
+                    "id": "section-us-eor-classification",
+                    "type": "key_steps",
+                    "title": "Worker Classification Guide",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Review Control Factors",
+                                "description": "IRS Common Law Test: Behavioral Control (do you set hours/methods?), Financial Control (reimbursed expenses?), and Relationship Type. If you control HOW work is done, they are likely an employee (W-2)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Determine Exempt Status",
+                                "description": "For W-2s, determine if 'Exempt' (Salaried, no overtime) or 'Non-Exempt' (Hourly, overtime eligible). Tech workers often Exempt, but support roles often Non-Exempt. CA has higher salary thresholds for exemption."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Select Engagement Model",
+                                "description": "Hire as W-2 via EOR for full-time, long-term core roles. Use 1099 Contractor status ONLY for project-based, autonomous work to avoid misclassification penalties."
+                            }
+                        ]
+                    },
+                    "order": 4
+                },
+                {
+                    "id": "section-us-eor-faq",
+                    "type": "faq",
+                    "title": "Frequently Asked Questions",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What's the difference between EOR and PEO in the US?",
+                                "answer": "EOR becomes the legal employer without requiring a US entity. PEO creates co-employment where YOUR existing US entity shares responsibilities. Choose EOR for no-entity expansion; PEO if you have a US company."
+                            },
+                            {
+                                "question": "How does an EOR handle multi-state compliance?",
+                                "answer": "The EOR registers in each state where you have employees, managing state-specific tax withholding, unemployment insurance (SUI rates vary 0.5-10%), workers' comp, and labor law posters."
+                            },
+                            {
+                                "question": "What are typical US EOR costs in 2025?",
+                                "answer": "Expect $625-$700 per employee monthly, or $200-$1,000+ depending on state complexity. Setup fees run $600-$1,200 per employee. Total employer burden adds 20-30% on top of gross salary."
+                            },
+                            {
+                                "question": "Can I offer stock options through an EOR?",
+                                "answer": "Yes, typically NQSOs (Non-Qualified Stock Options). ISOs (Incentive Stock Options) generally require a direct employment relationship with the issuing entity, which an EOR structure technically breaks."
+                            },
+                            {
+                                "question": "Can I transfer employees from EOR to my own entity later?",
+                                "answer": "Yes, this is a standard 'EOR Conversion' or 'Entity Transfer'. You set up your US entity, then 'hire' the employees from the EOR. Resetting payroll tax accumulators (FICA/SUTA) mid-year can be complex."
+                            }
+                        ]
+                    },
+                    "order": 5
+                },
+                {
+                    "id": "section-us-eor-best-practices",
+                    "type": "good_to_know",
+                    "title": "EOR Best Practices",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Contract Worker vs Employee Classification",
+                                "description": "Use IRS 20-factor test or ABC test (stricter in CA, MA, NJ). Misclassification penalties: back payroll taxes + penalties. EORs can only hire W-2 employees, not 1099 contractors."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Benefits Benchmarking",
+                                "description": "Competitive US benefits: health insurance ($600-$1,200/month employer cost), 401k match (3-6%), PTO (15-25 days), parental leave (6-12 weeks). EORs offer standardized packages or custom options."
+                            }
+                        ]
+                    },
+                    "order": 6
+                },
+                {
+                    "id": "section-us-payroll-steps",
+                    "type": "key_steps",
+                    "title": "Monthly Payroll Processing Cycle",
+                    "subtitle": "US Federal and Multi-State Requirements",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Time and Attendance Collection",
+                                "description": "Gather approved timesheets, overtime hours, PTO requests, and commission/bonus data. Must comply with FLSA overtime rules (1.5x for hours over 40/week for non-exempt employees)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Calculate Gross Pay and Deductions",
+                                "description": "Apply federal income tax withholding per W-4, FICA (7.65% employee + 7.65% employer), state/local taxes, and benefits deductions (health insurance, 401k contributions, garnishments)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Process Payroll and Direct Deposits",
+                                "description": "Execute payroll run 2-3 business days before payday to allow ACH processing. Generate paystubs showing gross pay, all deductions, and net pay with year-to-date totals."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Remit Payroll Taxes",
+                                "description": "Deposit federal taxes (Form 941 deposits) semi-weekly or monthly based on deposit schedule. State taxes vary - some require next-day remittance, others monthly or quarterly."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "File Quarterly and Annual Reports",
+                                "description": "Submit Form 941 quarterly (federal payroll taxes), state unemployment returns, and annual W-2s by January 31. Form 940 (federal unemployment) due January 31 annually."
+                            }
+                        ]
+                    },
+                    "order": 1
+                },
+                {
+                    "id": "section-us-payroll-taxes",
+                    "type": "cost_breakdown",
+                    "title": "2025 Payroll Tax Rates",
+                    "subtitle": "Federal and State-Level Breakdown",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Tax Component",
+                                "Rate",
+                                "Wage Limit 2025"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Security (Employee)",
+                                    "values": [
+                                        "6.2%",
+                                        "$176,100"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Social Security (Employer)",
+                                    "values": [
+                                        "6.2%",
+                                        "$176,100"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Medicare (Employee)",
+                                    "values": [
+                                        "1.45%",
+                                        "No limit"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Medicare (Employer)",
+                                    "values": [
+                                        "1.45%",
+                                        "No limit"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Additional Medicare (Employee)",
+                                    "values": [
+                                        "0.9%",
+                                        "Over $200k"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Federal Unemployment (FUTA)",
+                                    "values": [
+                                        "6.0%",
+                                        "First $7,000 (0.6% effective)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "State Unemployment (SUI)",
+                                    "values": [
+                                        "0.5-10%",
+                                        "Varies by state"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Total FICA (Combined)",
+                                    "values": [
+                                        "15.3%",
+                                        "Split employer/employee"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    },
+                    "order": 2
+                },
+                {
+                    "id": "section-us-payroll-insights",
+                    "type": "insights",
+                    "title": "Payroll Compliance Challenges",
+                    "subtitle": "Common Pitfalls in Multi-State Environments",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Multi-State Withholding Complexity",
+                                "text": "Employees working remotely in different states create nexus. You must withhold based on where employee works, not where company is located. California, New York, and Massachusetts have aggressive enforcement."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "State-Specific Paid Leave Programs",
+                                "text": "California, New York, New Jersey, Washington, and others have mandatory paid family leave programs with additional payroll taxes. New programs launching in Minnesota (2026), Maryland, Maine."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Misclassification Penalties",
+                                "text": "IRS treats misclassified 1099 contractors as W-2 employees retroactively. Penalties include back taxes, 20% accuracy penalty, plus potential criminal charges for willful violations."
+                            }
+                        ]
+                    },
+                    "order": 3
+                },
+                {
+                    "id": "section-us-payroll-tips",
+                    "type": "good_to_know",
+                    "title": "Payroll Best Practices",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Automate Multi-State Calculations",
+                                "text": "Use payroll software with built-in state tax tables that update automatically. Manual calculations across 50 states with different rules is error-prone and time-intensive."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "FICA Wage Base Tracking",
+                                "text": "Monitor Social Security wage base ($176,100 for 2025). Once employee reaches this limit, stop withholding the 6.2% Social Security portion but continue Medicare withholding."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Year-End W-2 Preparation",
+                                "text": "Start reconciling payroll totals in November. Common errors: incorrect Box 16 (state wages), missing Box 14 items (union dues, Section 125), and wrong employer state ID numbers."
+                            }
+                        ]
+                    },
+                    "order": 4
+                },
+                {
+                    "id": "section-us-payroll-logistics",
+                    "type": "key_steps",
+                    "title": "Payment Logistics & Timelines",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Direct Deposit (ACH)",
+                                "description": "Standard method (93% usage). Requires NACHA file generation. 2-day processing window typical. Same-day ACH available for urgencies ($0.50-$1.00 fee per txn)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Paper Checks",
+                                "description": "Still legally required option in some states. High fraud risk and manual handling cost ($3-$5 per check). Escheatment laws apply to uncashed checks."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Pay Cards",
+                                "description": "Debit cards for unbanked employees. Must comply with CFPB rules: employees must have free withdrawals and access to balance without fees."
+                            }
+                        ]
+                    },
+                    "order": 5
+                },
+                {
+                    "id": "section-us-payroll-faq",
+                    "type": "faq",
+                    "title": "US Payroll FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What happens if I miss a payroll tax deposit?",
+                                "answer": "IRS penalties escalate rapidly: 2% (1-5 days late), 5% (6-15 days), 10% (16+ days), up to 15% after notice. Trust Fund Recovery Penalty allows IRS to seize personal assets of owners/officers for willful non-payment."
+                            },
+                            {
+                                "question": "Can I pay employees in cryptocurrency?",
+                                "answer": "Yes, but complex. IRS treats crypto as property. Must value in USD at time of payment for tax withholding. Withholding must be remitted in USD. Usually easier to use hybrid crypto-payroll provider."
+                            },
+                            {
+                                "question": "How do garnishments work?",
+                                "answer": "Employers must withhold court-ordered debts (child support, student loans, tax levies). Priority rules apply if multiple orders exist. Consumer Credit Protection Act limits amount (usually 25% of disposable earnings)."
+                            },
+                            {
+                                "question": "Can I run US payroll from a foreign entity?",
+                                "answer": "Generally no. You need a US Federal EIN and US bank account to make tax deposits. Without a US entity, you must use an Employer of Record (EOR) service."
+                            },
+                            {
+                                "question": "What is the most common pay frequency?",
+                                "answer": "Bi-weekly (26 pay periods) is most common as it simplifies overtime calculations. Semi-monthly (24 periods) is popular for salaried staff. Some states (e.g., NY, CA) have strict frequency requirements for manual workers."
+                            }
+                        ]
+                    },
+                    "order": 6
+                },
+                {
+                    "id": "section-us-payroll-calc-insights",
+                    "type": "insights",
+                    "title": "Paycheck Calculation Examples",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "$80K Salary Example (California)",
+                                "text": "Gross: $6,667/month. Deductions: Federal income tax $950, Social Security $413, Medicare $97, CA state tax $380, CA SDI $67. Net pay: ~$4,760 (71% take-home). Employer costs: +$513 FICA, +$56 FUTA/SUI = Total $7,236."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "State Tax Variations",
+                                "text": "No state income tax: AK, FL, NV, NH, SD, TN, TX, WA, WY. Highest: CA (13.3%), HI (11%), NY (10.9%). Same $80K salary nets $5,140/month in Texas vs $4,760 in California - $380/month difference."
+                            }
+                        ]
+                    },
+                    "order": 1
+                },
+                {
+                    "id": "section-us-payroll-calc-setup",
+                    "type": "key_steps",
+                    "title": "Paycheck Withholding Setup",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Federal & State Withholding Certificates",
+                                "description": "Collect IRS Form W-4 and state-specific forms (e.g., CA DE-4, NY IT-2104) to determine correct withholding rates."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Payment Method Authorization",
+                                "description": "Secure signed direct deposit authorization forms and set up employee bank profiles in your payroll system."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Benefit & Voluntary Deductions",
+                                "description": "Configure pre-tax (401k, health) and post-tax deductions based on employee elections and plan documents."
+                            }
+                        ]
+                    },
+                    "order": 2
+                },
+                {
+                    "id": "section-us-payroll-calc-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Payroll Costs Beyond Salary",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Rate",
+                                "On $80K Salary"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Security",
+                                    "values": [
+                                        "6.2%",
+                                        "$4,960"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Medicare",
+                                    "values": [
+                                        "1.45%",
+                                        "$1,160"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "FUTA",
+                                    "values": [
+                                        "0.6%",
+                                        "$42 (first $7K)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "SUI (state avg)",
+                                    "values": [
+                                        "2-5%",
+                                        "$1,600-$4,000"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Benefits (avg)",
+                                    "values": [
+                                        "~30%",
+                                        "$24,000"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    },
+                    "order": 2
+                },
+                {
+                    "id": "section-us-payroll-calc-faq",
+                    "type": "faq",
+                    "title": "Payroll FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "How do I calculate hourly vs salary net pay?",
+                                "answer": "Salary: Annual ÷ 26 (bi-weekly) or ÷ 24 (semi-monthly). Hourly: Hours × Rate + overtime (1.5x over 40hrs/week). Both subject to same tax withholding. Use IRS Form W-4 to determine federal withholding based on filing status and dependents."
+                            }
+                        ]
+                    },
+                    "order": 3
+                },
+                {
+                    "id": "section-us-payroll-calc-deductions",
+                    "type": "good_to_know",
+                    "title": "Common Deductions",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Pre-Tax vs Post-Tax",
+                                "description": "Pre-tax: 401k contributions, health insurance premiums, HSA, FSA, commuter benefits - reduce taxable income. Post-tax: Roth 401k, disability insurance, garnishments - deducted from net pay."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Maximizing Take-Home",
+                                "description": "Contribute to pre-tax 401k ($23,000 limit 2025 + $7,500 catch-up if 50+), HSA ($4,150 individual, $8,300 family), and pre-tax commuter benefits ($315/month 2025) to lower taxable income."
+                            }
+                        ]
+                    },
+                    "order": 4
+                }
+            ],
+            "service": "EOR, PEO & AOR"
+        },
+        {
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "heroData": {
+                "title": "HRIS Solutions in United States",
+                "subtitle": "Unified HR technology for multi-state workforce management",
+                "description": "US HRIS must handle 50-state compliance, ACA reporting (1094-C/1095-C), EEO-1 filings, and integration with payroll, benefits, and time tracking systems.",
+                "bestFor": "Mid-market and enterprise companies centralizing HR operations",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "section-us-hris-steps",
+                    "type": "key_steps",
+                    "title": "HRIS Implementation Process",
+                    "subtitle": "From System Selection to Full Deployment",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Requirements Assessment",
+                                "description": "Define must-have features: multi-state compliance, ACA reporting (1094-C/1095-C for employers with 50+ FTEs), payroll integration, time tracking, and benefits administration."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Vendor Selection and Contracting",
+                                "description": "Evaluate HRIS vendors on pricing ($8-$17 PEPM), SOC 2 compliance, data residency, and API capabilities. Most implementations take 3-6 months from contract signature."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Data Migration",
+                                "description": "Extract employee data from legacy systems, clean and validate data integrity, then import to new HRIS. Critical fields include SSN, DOB, compensation history, and benefit elections."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Configuration and Testing",
+                                "description": "Set up workflows for onboarding, performance reviews, and time-off requests. Configure approval hierarchies, notifications, and compliance reporting. Test payroll integration thoroughly."
+                            }
+                        ]
+                    },
+                    "order": 1
+                },
+                {
+                    "id": "section-us-hris-insights",
+                    "type": "insights",
+                    "title": "HRIS Compliance Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "ACA Reporting Deadline",
+                                "text": "Employers with 50+ full-time equivalent employees must file Forms 1094-C and 1095-C by March 31 annually. Penalties start at $310 per form for late/missing filings."
+                            },
+                            {
+                                "type": "info",
+                                "title": "EEO-1 Filing Requirements",
+                                "text": "Companies with 100+ employees (or 50+ for federal contractors) must file EEO-1 reports annually categorizing workforce by race, ethnicity, gender, and job category."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Data Security Standards",
+                                "text": "Ensure HRIS vendor has SOC 2 Type II certification and complies with state privacy laws (California CPRA, Virginia CDPA). Employee data must be encrypted at rest and in transit."
+                            }
+                        ]
+                    },
+                    "order": 2
+                },
+                {
+                    "id": "section-us-hris-costs",
+                    "type": "cost_breakdown",
+                    "title": "HRIS Pricing 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Provider Tier",
+                                "Monthly Cost PEPM",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Entry-Level (Gusto, Zenefits)",
+                                    "values": [
+                                        "$8-$12",
+                                        "Basic HR + payroll"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Mid-Market (BambooHR, Rippling)",
+                                    "values": [
+                                        "$11-$25",
+                                        "Advanced features"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Enterprise (Workday, Oracle)",
+                                    "values": [
+                                        "$20-$40+",
+                                        "Full suite + support"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    },
+                    "order": 3
+                },
+                {
+                    "id": "section-us-hris-faq",
+                    "type": "faq",
+                    "title": "Common Questions",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "How do I choose the right HRIS for multi-state compliance?",
+                                "answer": "Prioritize systems with automatic state tax table updates, built-in ACA tracking, and state-specific labor law posters. Verify they support all states where you have employees."
+                            },
+                            {
+                                "question": "What is the typical cost of an HRIS?",
+                                "answer": "For SMBs (under 100 employees), expect $6-$15 per employee per month (PEPM). Enterprise systems (Workday, Oracle) often require annual contracts starting at $100k+. Implementation fees range from 20-50% of annual license cost."
+                            },
+                            {
+                                "question": "Do I need an HRIS for under 10 employees?",
+                                "answer": "Not strictly required, but recommended if you have remote workers in different states. A simple PEO or payroll-focused HRIS (like Gusto/Rippling) can automate state tax registrations and compliance for <$100/month."
+                            }
+                        ]
+                    },
+                    "order": 4
+                },
+                {
+                    "id": "section-us-hris-data-security",
+                    "type": "good_to_know",
+                    "title": "Data Security & Integration",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "SOC 2 Compliance",
+                                "description": "Ensure HRIS vendor has SOC 2 Type II certification for handling sensitive employee data (SSNs, health info). GDPR/CCPA compliance required if storing California resident or EU employee data."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Single Sign-On (SSO)",
+                                "description": "Implement SAML-based SSO (Okta, Azure AD) for secure access and centralized user management. Reduces password fatigue and improves security posture. Most modern HRIS systems support SSO integration."
+                            }
+                        ]
+                    },
+                    "order": 5
+                }
+            ],
+            "service": "HRIS/HRMS/ATS"
+        },
+        {
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "heroData": {
+                "title": "Accounting Services in United States",
+                "subtitle": "GAAP compliance and multi-state tax reporting",
+                "description": "US accounting follows Generally Accepted Accounting Principles (GAAP) with complex tax filing requirements across federal, state, and local jurisdictions. Public companies must comply with SEC regulations and SOX requirements.",
+                "bestFor": "Businesses needing compliant financial reporting and tax preparation",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "section-us-accounting-steps",
+                    "type": "key_steps",
+                    "title": "Monthly Close Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Transaction Recording",
+                                "description": "Record all revenue, expenses, payroll, accruals. Reconcile bank accounts, credit cards, AP/AR. Use accrual accounting for businesses over $25M revenue. Close books by 5th business day of following month."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Adjusting Entries",
+                                "description": "Post depreciation, amortization, prepaid adjustments, accrued expenses. Review inventory valuation (FIFO, LIFO, weighted average). Match revenue with period expenses per matching principle."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Financial Reporting",
+                                "description": "Generate income statement, balance sheet, cash flow statement. Public companies have 40-90 days to file 10-Q/10-K with SEC. Private companies report to investors/lenders monthly or quarterly."
+                            }
+                        ]
+                    },
+                    "order": 1
+                },
+                {
+                    "id": "section-us-accounting-insights",
+                    "type": "insights",
+                    "title": "US Accounting Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "GAAP vs IFRS",
+                                "text": "US public companies must use GAAP, not IFRS. Key differences: LIFO inventory allowed under GAAP (banned in IFRS), different revenue recognition timing, stricter R&D capitalization rules under GAAP."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "SOX Compliance Costs",
+                                "text": "Sarbanes-Oxley Act applies to public companies. Section 404 internal control audits cost $1-5M annually for mid-size companies. Criminal penalties for false certifications: up to 20 years prison."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "ASC 606 Revenue Recognition",
+                                "text": "New revenue standard requires 5-step model: identify contract, identify performance obligations, determine price, allocate price, recognize when obligation satisfied. Impacts SaaS, construction, multi-element arrangements."
+                            }
+                        ]
+                    },
+                    "order": 2
+                },
+                {
+                    "id": "section-us-accounting-costs",
+                    "type": "cost_breakdown",
+                    "title": "Accounting Service Costs 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service",
+                                "Monthly/Annual Cost"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Bookkeeping (part-time)",
+                                    "values": [
+                                        "$500-$2,500/month"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Full-Service Accounting",
+                                    "values": [
+                                        "$2,000-$10,000/month"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "CFO Services (fractional)",
+                                    "values": [
+                                        "$3,000-$15,000/month"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Annual Audit (public company)",
+                                    "values": [
+                                        "$50,000-$500,000+"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    },
+                    "order": 3
+                },
+                {
+                    "id": "section-us-accounting-assurance",
+                    "type": "good_to_know",
+                    "title": "Levels of Financial Assurance",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Audit (Highest Assurance)",
+                                "description": "Intensive examination of financial records, internal controls, and source documents. Opinion provided on fairness of presentation. Required for IPOs and public companies."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Review (Limited Assurance)",
+                                "description": "Consists of inquiries and analytical procedures. Less scope than audit, no internal control testing. Often accepted by banks for smaller loans."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Compilation (No Assurance)",
+                                "description": "CPA presents management's data in financial statement format without verifying accuracy. Lowest cost, used for internal use or simple tax prep."
+                            }
+                        ]
+                    },
+                    "order": 4
+                },
+                {
+                    "id": "section-us-accounting-faq",
+                    "type": "faq",
+                    "title": "Accounting FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "When do I need a formal audit?",
+                                "answer": "Required for public companies (SEC rules), companies over certain revenue thresholds per state law (e.g., California Nonprofit Integrity Act), and often required by lenders or investors. Annual cost: $15K-$100K+ for private companies, $50K-$500K+ for public."
+                            },
+                            {
+                                "question": "Cash vs Accrual Basis?",
+                                "answer": "Cash basis records revenue when cash received (simple, tax deferral). Accrual records when earned (GAAP required, better performance visibility). IRS requires accrual for C-Corps with >$29M gross receipts."
+                            }
+                        ]
+                    },
+                    "order": 5
+                },
+                {
+                    "id": "section-us-compliance-insights",
+                    "type": "insights",
+                    "title": "Key Compliance Areas",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "OSHA Workplace Safety",
+                                "text": "Occupational Safety & Health Administration fines range from $15,625 per violation (serious) to $156,259 (willful/repeated). Required: injury reporting (OSHA 300 log), hazard communication, safety training."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "EEOC Anti-Discrimination",
+                                "text": "Applies to employers with 15+ employees. Prohibits discrimination based on race, color, religion, sex, national origin, age (40+), disability. Median settlement: $40K-$200K. Largest verdicts exceed $1M."
+                            },
+                            {
+                                "type": "info",
+                                "title": "State Privacy Laws",
+                                "text": "CCPA/CPRA (California), Virginia CDPA, Colorado CPA create consumer data rights: access, deletion, opt-out of sale. Violations: $7,500 per intentional violation. Requires privacy policy, data mapping."
+                            }
+                        ]
+                    },
+                    "order": 1
+                },
+                {
+                    "id": "section-us-compliance-steps",
+                    "type": "key_steps",
+                    "title": "Building a Compliance Program",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Audit Current State",
+                                "description": "Review employment policies, workplace safety, data protection, financial reporting. Identify gaps vs. OSHA, EEOC, DOL, FTC, state law requirements."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Implement Controls",
+                                "description": "Develop policies, train employees, establish reporting mechanisms. Common: compliance calendar, document retention policy (7 years for employment records), whistleblower hotline."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Monitor and Update",
+                                "description": "Conduct quarterly compliance reviews, track regulatory changes, update policies. Use compliance software for automated tracking and alerts."
+                            }
+                        ]
+                    },
+                    "order": 2
+                },
+                {
+                    "id": "section-us-compliance-state-diffs",
+                    "type": "insights",
+                    "title": "Federal vs State Labor Updates 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Minimum Wage Divergence",
+                                "text": "Federal minimum wage remains $7.25/hr. States are higher: Washington ($16.66), California ($16.50), New York ($16.00). Cities can be even higher (West Hollywood $19.08). Always pay the highest applicable rate."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Paid Family Leave Patchwork",
+                                "text": "No federal mandate (FMLA is unpaid). Mandatory paid leave programs active in CA, NY, NJ, WA, MA, CO, OR, CT, RI, DE, MD, MN, ME. Funded by payroll taxes."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Pay Transparency Laws",
+                                "text": "California, New York, Washington, Colorado, and others require salary ranges in job postings. Applies to remote roles if they *could* be performed in those states."
+                            }
+                        ]
+                    },
+                    "order": 3
+                },
+                {
+                    "id": "section-us-compliance-costs",
+                    "type": "cost_breakdown",
+                    "title": "Compliance Program Costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Annual Cost"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Compliance Officer (fractional)",
+                                    "values": [
+                                        "$50K-$150K"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Legal/Consulting",
+                                    "values": [
+                                        "$20K-$100K"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Training Programs",
+                                    "values": [
+                                        "$5K-$25K"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Compliance Software",
+                                    "values": [
+                                        "$10K-$50K"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    },
+                    "order": 4
+                },
+                {
+                    "id": "section-us-compliance-faq",
+                    "type": "faq",
+                    "title": "Compliance FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What are DOL wage and hour compliance requirements?",
+                                "answer": "Fair Labor Standards Act (FLSA) sets minimum wage ($7.25 federal, higher in many states), overtime (1.5x for 40+ hrs/week). Exempt employees must meet salary ($844/week in 2025) and duties tests. Misclassification penalties: back wages, liquidated damages, fines."
+                            },
+                            {
+                                "question": "What is 'at-will' employment?",
+                                "answer": "Employment can be terminated by employer or employee at any time for any reason (non-discriminatory) or no reason. Standard in all states except Montana. Contracts can override this."
+                            },
+                            {
+                                "question": "Do I need an employee handbook?",
+                                "answer": "Not federally required, but highly recommended as first line of defense. Must include specific policies (anti-harassment, FMLA, etc.) depending on company size and state."
+                            }
+                        ]
+                    },
+                    "order": 5
+                },
+                {
+                    "id": "section-us-tax-insights",
+                    "type": "insights",
+                    "title": "Tax Optimization Strategies",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "R&D Tax Credit",
+                                "description": "Federal credit of 6-8% of qualified research expenses. Startups can offset $250K against payroll taxes annually. Qualified activities include software development, process improvement, engineering. Requires contemporaneous documentation."
+                            },
+                            {
+                                "type": "info",
+                                "title": "GILTI and Subpart F",
+                                "description": "Global Intangible Low-Taxed Income (GILTI) taxes foreign earnings over 10% ROA at reduced rate. Section 250 deduction brings effective GILTI rate to 10.5% (13.125% after 2025). Critical for tech companies with foreign IP."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "State Tax Nexus",
+                                "description": "Economic nexus triggers state tax filing if revenue/transactions exceed thresholds (e.g., $100K revenue or 200 transactions). Remote work creates nexus in employee home states. Failure to file incurs penalties and back taxes."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Section 199A Deduction",
+                                "description": "Pass-through entities (S-Corps, partnerships, sole proprietorships) get 20% QBI deduction. Phases out over $383K-$483K for joint filers (2025 limits). Not available for specified service businesses above threshold."
+                            }
+                        ]
+                    },
+                    "order": 1
+                },
+                {
+                    "id": "section-us-tax-prep-steps",
+                    "type": "key_steps",
+                    "title": "Federal & State Tax Compliance Checklist",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "IRS Federal EIN Registration",
+                                "description": "Apply for Federal Employer Identification Number (EIN). Required for tax filing, payroll deposits, and opening business bank accounts."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "State Tax ID Registration",
+                                "description": "Register with state tax departments in every state where you have physical or economic nexus for income, sales, and payroll taxes."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Local Tax Account Setup",
+                                "description": "Set up accounts for city or county specific taxes where applicable (e.g., NYC General Corporation Tax, Philadelphia BIRT)."
+                            }
+                        ]
+                    },
+                    "order": 2
+                },
+                {
+                    "id": "section-us-tax-rates",
+                    "type": "cost_breakdown",
+                    "title": "Effective Tax Rates 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Entity Type",
+                                "Federal Rate",
+                                "State Rate (avg)",
+                                "Total"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "C-Corporation",
+                                    "values": [
+                                        "21%",
+                                        "4-6%",
+                                        "25-27%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "S-Corp/LLC (pass-through)",
+                                    "values": [
+                                        "0% (flows to owners)",
+                                        "0-11.5%",
+                                        "Owner's individual rate"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Sole Proprietor",
+                                    "values": [
+                                        "0% (individual rates)",
+                                        "0-13.3%",
+                                        "24-50% marginal"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    },
+                    "order": 2
+                },
+                {
+                    "id": "section-us-tax-deadlines",
+                    "type": "good_to_know",
+                    "title": "Filing Deadlines",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Corporate Filing (Form 1120)",
+                                "description": "C-Corps: 4 months after fiscal year-end (April 15 for calendar year). S-Corps (Form 1120-S): March 15. Extensions available for 6 months (Sept 15 / Oct 15 respectively)."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Quarterly Estimated Taxes",
+                                "description": "Pay if expect to owe $1,000+ in tax. Due April 15, June 15, Sept 15, Jan 15. Underpayment penalties apply if pay less than 90% of current year tax or 100% of prior year."
+                            }
+                        ]
+                    },
+                    "order": 3
+                },
+                {
+                    "id": "section-us-tax-international",
+                    "type": "good_to_know",
+                    "title": "International Tax Considerations",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Transfer Pricing Compliance",
+                                "description": "Intercompany transactions (services, IP, goods) between US and foreign related parties must be at 'arm's length' prices. Documentation required to avoid penalties (20-40% of adjustment). IRS scrutiny is high."
+                            },
+                            {
+                                "type": "info",
+                                "title": "FDII Deduction",
+                                "description": "Foreign Derived Intangible Income deduction allows US C-Corps to pay lower effective tax rate (13.125%) on income from export sales or services to foreign customers. Incentivizes keeping IP in US."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Inbound Investment (FIRPTA)",
+                                "description": "Sales of US real property interests by foreign persons subject to withholding (15%) under Foreign Investment in Real Property Tax Act. Exceptions apply for certain corporate stocks."
+                            }
+                        ]
+                    },
+                    "order": 4
+                },
+                {
+                    "id": "section-us-tax-faq",
+                    "type": "faq",
+                    "title": "Tax FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Should I elect S-Corp status for my LLC?",
+                                "answer": "S-Corp election saves self-employment tax (15.3% on profits above reasonable salary). Worth it if net profit exceeds $60K+. Requires running payroll, reasonable W-2 compensation to owner. Not available if foreign ownership or multiple share classes."
+                            },
+                            {
+                                "question": "What triggers sales tax collection duties?",
+                                "answer": "Physical presence (office, inventory, employee) OR economic nexus (often $100,000 sales or 200 transactions in state). South Dakota v. Wayfair (2018) ruling allows states to tax remote sellers. Requirement applies to Software/SaaS in many states."
+                            }
+                        ]
+                    },
+                    "order": 5
+                }
+            ],
+            "service": "Finance, Tax and Accounting"
+        },
+        {
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "heroData": {
+                "title": "HR & Business Software in United States",
+                "subtitle": "Enterprise technology stack for US operations",
+                "description": "US businesses require integrated software for HR, payroll, compliance, and operations. The SaaS market offers solutions from startups to enterprises with varying pricing models and feature sets.",
+                "bestFor": "Companies building modern technology infrastructure for US operations",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "section-us-software-insights",
+                    "type": "insights",
+                    "title": "Technology Landscape",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Cloud Infrastructure",
+                                "text": "AWS dominates with 32% market share, followed by Azure (23%), Google Cloud (11%). US data residency required for regulated industries (healthcare HIPAA, financial GLBA). Average enterprise spends $1-5M annually on cloud."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "SaaS Integration Ecosystem",
+                                "text": "Average company uses 110+ SaaS apps. Key integrations: Salesforce CRM, Workday HRIS, NetSuite ERP, Slack. Use APIs and iPaaS platforms (Zapier, MuleSoft) to connect systems and avoid data silos."
+                            }
+                        ]
+                    },
+                    "order": 1
+                },
+                {
+                    "id": "section-us-software-costs",
+                    "type": "cost_breakdown",
+                    "title": "Software Stack Budgeting",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Category",
+                                "Per Employee/Month"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "HRIS",
+                                    "values": [
+                                        "$5-$25"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Accounting",
+                                    "values": [
+                                        "$50-$300 total"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Payroll",
+                                    "values": [
+                                        "$4-$12 + $40 base"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Total HR Tech",
+                                    "values": [
+                                        "$100-$500 annually"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    },
+                    "order": 2
+                },
+                {
+                    "id": "section-us-software-steps",
+                    "type": "key_steps",
+                    "title": "Software Selection Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Requirements Assessment",
+                                "description": "Define must-have features: payroll processing, benefits administration, timekeeping, compliance tracking. Consider company size, growth plans, integrations needed."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Vendor Evaluation",
+                                "description": "Request demos from 3-5 vendors. Compare pricing, implementation timeline (typically 30-90 days), support quality, data migration assistance. Check customer reviews on G2, Capterra."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Implementation & Training",
+                                "description": "Migrate employee data, configure workflows, test payroll runs. Train HR staff and employees. Plan for 1-2 payroll cycles of parallel processing to verify accuracy."
+                            }
+                        ]
+                    },
+                    "order": 3
+                },
+                {
+                    "id": "section-us-software-security",
+                    "type": "insights",
+                    "title": "Cybersecurity & Privacy",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Critical Security Standards",
+                                "text": "SOC 2 Type II compliance is the gold standard for SaaS vendors processing US data. NIST Cybersecurity Framework usage provides legal safe harbor in some states (e.g. Ohio, Connecticut, Utah)."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Cyber Insurance",
+                                "text": "Essential for risk transfer. Premiums increasing (up 50%+ in recent years). Insurers now require MFA, immutable backups, and incident response plans as conditions for coverage."
+                            },
+                            {
+                                "type": "info",
+                                "title": "AI Usage Policy",
+                                "text": "Companies should establish clear policies on employee use of GenAI tools (ChatGPT, etc.) to prevent IP leakage. 'Shadow AI' usage is a growing security risk."
+                            }
+                        ]
+                    },
+                    "order": 4
+                },
+                {
+                    "id": "section-us-software-faq",
+                    "type": "faq",
+                    "title": "Software FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Should I use QuickBooks or enterprise ERP?",
+                                "answer": "QuickBooks Online ($30-$200/month) suitable for <50 employees. NetSuite or SAP ($2K-$10K+/month) needed for complex operations: multi-entity, advanced reporting, inventory management, international subsidiaries. Transition typically occurs at $10-20M revenue."
+                            },
+                            {
+                                "question": "What is an Employer of Record (EOR) software?",
+                                "answer": "Platforms like Deel, Remote, or Oyster combine software with legal employment. They handle payroll, taxes, and benefits for international hires without setting up a local entity. Cost is typically $599/month/employee."
+                            },
+                            {
+                                "question": "How do I ensure data privacy compliance?",
+                                "answer": "Map all personal data flows. Sign Data Processing Agreements (DPAs) with all vendors. Implement access controls (SSO, MFA). Conduct annual security training for employees."
+                            }
+                        ]
+                    },
+                    "order": 5
+                }
+            ],
+            "service": "Software & Technology Solutions"
+        },
+        {
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "heroData": {
+                "title": "Business Incorporation in United States",
+                "subtitle": "Choose the right entity structure for tax optimization",
+                "description": "US business structures include LLC, C-Corp, S-Corp, and partnerships. Choice impacts taxation (pass-through vs corporate), liability protection, fundraising ability, and compliance requirements.",
+                "bestFor": "Entrepreneurs and foreign companies establishing US operations",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "section-us-incorporation-steps",
+                    "type": "key_steps",
+                    "title": "Entity Formation Process",
+                    "subtitle": "From Name Reservation to EIN Assignment",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Choose Entity Type",
+                                "description": "LLC for flexibility, C-Corp for VC funding, S-Corp for pass-through taxation. Consider state franchise taxes - Delaware popular for C-Corps, Wyoming/Nevada for LLCs."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "File Formation Documents",
+                                "description": "Submit Articles of Incorporation (Corp) or Articles of Organization (LLC) to state Secretary of State. Costs: $50-$500 depending on state. Processing: 1-4 weeks standard, 1-3 days expedited."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Obtain Federal EIN",
+                                "description": "Apply for Employer Identification Number via IRS Form SS-4. Free, instant online for US-based applicants. Foreign applicants must fax/mail (4-6 weeks processing)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Register for State Taxes",
+                                "description": "Register for state income tax, sales tax, and employer accounts. Requirements vary - California requires $800 minimum franchise tax, Texas has franchise tax but no income tax."
+                            }
+                        ]
+                    },
+                    "order": 1
+                },
+                {
+                    "id": "section-us-incorporation-costs",
+                    "type": "cost_breakdown",
+                    "title": "2025 Incorporation Costs by State",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "State",
+                                "Filing Fee",
+                                "Annual Fee",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Delaware",
+                                    "values": [
+                                        "$89-$200",
+                                        "$300"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "California",
+                                    "values": [
+                                        "$70-$100",
+                                        "$800+ franchise tax"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "New York",
+                                    "values": [
+                                        "$125-$175",
+                                        "$9-$4,500"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Wyoming",
+                                    "values": [
+                                        "$100",
+                                        "$60"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Texas",
+                                    "values": [
+                                        "$300",
+                                        "$0 (franchise tax applies)"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    },
+                    "order": 2
+                },
+                {
+                    "id": "section-us-incorporation-insights",
+                    "type": "insights",
+                    "title": "Entity Selection Considerations",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Delaware C-Corp Advantage",
+                                "text": "70% of Fortune 500 and most VC-backed startups incorporate in Delaware due to Court of Chancery, flexible corporate law, and investor familiarity. Worth the extra $300+ annual cost for serious businesses."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "S-Corp Restrictions",
+                                "text": "S-Corps limited to 100 shareholders, must be US citizens/residents, one class of stock only. Not suitable for foreign ownership or VC funding. Better for small businesses with US-only ownership."
+                            },
+                            {
+                                "type": "info",
+                                "title": "LLC Flexibility",
+                                "text": "LLCs offer pass-through taxation, flexible management, fewer formalities than corporations. Can elect S-Corp or C-Corp tax treatment. Good for small businesses, real estate, and single-member entities."
+                            }
+                        ]
+                    },
+                    "order": 3
+                },
+                {
+                    "id": "section-us-incorporation-compliance",
+                    "type": "key_steps",
+                    "title": "Post-Incorporation Requirements",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Initial Reporting",
+                                "description": "File Initial Statement of Information (California: 90 days) or similar initial report. Obtain business licenses (city/county level) and Seller's Permit if selling goods."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Corporate Governance",
+                                "description": "Adopt bylaws (Corp) or Operating Agreement (LLC). Issue stock certificates. Hold prompt organizational meeting to appoint officers and ratify formation documents. Maintain minute book."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Registered Agent Compliance",
+                                "description": "Maintain continuous Registered Agent service ($100-$300/year) in state of incorporation to accept legal mail. Loss of agent can lead to administrative dissolution."
+                            }
+                        ]
+                    },
+                    "order": 4
+                },
+                {
+                    "id": "section-us-incorporation-faq",
+                    "type": "faq",
+                    "title": "Incorporation FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Should I incorporate in Delaware or my home state?",
+                                "answer": "Delaware if seeking VC funding or planning IPO (preferred by investors, strong legal precedent). Home state if small business focused locally (avoid dual registration, simpler compliance). Consider Wyoming/Nevada for LLCs if prioritizing privacy and low fees."
+                            },
+                            {
+                                "question": "What's the difference between C-Corp and S-Corp taxation?",
+                                "answer": "C-Corp: Corporate tax (21% federal) + shareholder dividend tax (double taxation). S-Corp: Pass-through to shareholders, avoiding corporate tax but subject to individual rates. S-Corp saves self-employment tax but has ownership restrictions."
+                            },
+                            {
+                                "question": "Do I need a physical US address?",
+                                "answer": "You need a Registered Agent address for legal service (cannot be PO Box). For banking, you generally need a physical office address or residential address of a US officer. Virtual mailboxes are often rejected by banks."
+                            }
+                        ]
+                    },
+                    "order": 5
+                }
+            ],
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)"
+        },
+        {
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "heroData": {
+                "title": "Staffing & Recruitment in United States",
+                "subtitle": "Navigate competitive talent markets with strategic hiring",
+                "description": "US staffing connects 11 million temporary/contract workers annually. 2025 trends: automation in screening, skills-based hiring, remote work flexibility, and tighter labor markets driving competition for talent.",
+                "bestFor": "Companies scaling US teams or filling specialized roles quickly",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "section-us-staffing-steps",
+                    "type": "key_steps",
+                    "title": "Hiring Process Timeline",
+                    "subtitle": "From Job Posting to Onboarding",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Job Description & Posting",
+                                "description": "Define role requirements, salary range (now required in CA, NY, CO, WA), and benefits. Post on LinkedIn, Indeed, Glassdoor. Average time-to-fill: 36-42 days for professional roles in 2025."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Candidate Screening",
+                                "description": "Use ATS (Applicant Tracking Systems) with AI screening to filter resumes. 64% more placements with HR automation per Bluehorn data. Beware of AI bias - EEOC scrutinizing algorithmic hiring."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Interviews & Assessment",
+                                "description": "Conduct 2-4 interview rounds: phone screen, technical/case interview, culture fit, final offer. Virtual hiring now standard - 70%+ interviews conducted remotely post-2024."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Background Check & Offer",
+                                "description": "Criminal background check, employment verification, education confirmation. Comply with Ban the Box laws in 37 states. Offers typically include salary, equity, 401k match, health insurance."
+                            }
+                        ]
+                    },
+                    "order": 1
+                },
+                {
+                    "id": "section-us-staffing-insights",
+                    "type": "insights",
+                    "title": "2025 Recruitment Trends",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Tight Labor Market",
+                                "text": "Unemployment at mid-4% range with 119,000 monthly payroll additions (Sept 2025 BLS data). Employers competing aggressively - average wage growth 0.8% real gain year-over-year after inflation."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Contract-to-Hire Strategy",
+                                "text": "40% of temporary staffing in professional/managerial roles. Companies use contract workers to maintain flexibility while evaluating permanent fit. Typical conversion: 30-40% of contractors become FTEs."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Salary Transparency Laws",
+                                "text": "California, New York, Colorado, Washington require salary ranges in job postings. Non-compliance risks fines and applicant lawsuits. Transparency also applies to internal promotions in some jurisdictions."
+                            }
+                        ]
+                    },
+                    "order": 2
+                },
+                {
+                    "id": "section-us-staffing-costs",
+                    "type": "cost_breakdown",
+                    "title": "Recruitment Cost Benchmarks",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Role Type",
+                                "Avg Time-to-Fill",
+                                "Cost-per-Hire"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Entry-Level",
+                                    "values": [
+                                        "20-30 days",
+                                        "$1,500-$4,000"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Mid-Level Professional",
+                                    "values": [
+                                        "36-42 days",
+                                        "$4,000-$8,000"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Senior/Executive",
+                                    "values": [
+                                        "60-90 days",
+                                        "$10,000-$30,000+"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Specialized Tech",
+                                    "values": [
+                                        "45-55 days",
+                                        "$8,000-$15,000"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    },
+                    "order": 3
+                },
+                {
+                    "id": "section-us-staffing-faq",
+                    "type": "faq",
+                    "title": "Staffing FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What's the difference between staffing agencies and direct hiring?",
+                                "answer": "Staffing agencies charge 15-25% markup on hourly rates for temp workers, or 15-30% of first-year salary for direct placements. Faster than internal recruiting (5-10 days vs 6+ weeks) but higher cost. Good for urgent needs or specialized skills."
+                            },
+                            {
+                                "question": "How do I comply with US hiring laws?",
+                                "answer": "Key requirements: I-9 employment eligibility verification (all hires), E-Verify (mandatory for federal contractors), background check compliance with FCRA, salary transparency where required, and avoiding discriminatory questions per EEOC (age, religion, marital status, etc.)."
+                            }
+                        ]
+                    },
+                    "order": 4
+                }
+            ],
+            "service": "Staffing and Recruiting"
+        },
+        {
+            "name": "M & A",
+            "serviceName": "M & A",
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "heroData": {
+                "title": "M&A Advisory in United States",
+                "subtitle": "Navigate complex acquisitions and mergers",
+                "description": "US M&A market remains active with technology, healthcare, and financial services leading deal volume. Advisory services cover valuation, due diligence, deal structuring, regulatory approvals, and post-merger integration.",
+                "bestFor": "Companies pursuing acquisitions or preparing for sale",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "section-us-msa-steps",
+                    "type": "key_steps",
+                    "title": "M&A Transaction Timeline",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Target Identification & Valuation",
+                                "description": "Screen potential targets, conduct preliminary valuation using DCF, comparable companies, precedent transactions. Typical multiples: 3-7x EBITDA for SMBs, 10-20x+ for high-growth tech."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Due Diligence",
+                                "description": "Legal, financial, operational, technical DD. Review contracts, IP, litigation, compliance, financials. Identify deal-breakers and negotiation points. Duration: 30-90 days depending on complexity."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Deal Structure & Close",
+                                "description": "Asset purchase vs stock purchase, earnouts, seller financing, escrow. Obtain HSR clearance if transaction size triggers ($111.4M threshold 2025). Close typically 60-120 days from LOI."
+                            }
+                        ]
+                    },
+                    "order": 1
+                },
+                {
+                    "id": "section-us-msa-insights",
+                    "type": "insights",
+                    "title": "M&A Considerations",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "HSR Filing Requirements",
+                                "text": "Hart-Scott-Rodino filing required if transaction exceeds $111.4M (2025 threshold, adjusted annually). Filing fee: $30K-$800K based on deal size. FTC/DOJ review: 30-day initial, extendable for Second Request."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Asset vs Stock Purchase",
+                                "text": "Asset purchase: Buyer avoids liabilities, gets stepped-up basis for depreciation, but requires individual asset transfers. Stock purchase: Simpler but buyer inherits all liabilities. Tax treatment differs significantly."
+                            }
+                        ]
+                    },
+                    "order": 2
+                },
+                {
+                    "id": "section-us-msa-faq",
+                    "type": "faq",
+                    "title": "M&A FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What are typical M&A advisory fees?",
+                                "answer": "Investment banks charge 1-5% of transaction value (Lehman Formula common: 5% first $1M, 4% next $1M, decreasing). Mid-market advisors may use success fees of $500K-$2M minimum plus 1-3% of deal value. Lawyers charge $300-$1,200/hour."
+                            },
+                            {
+                                "question": "How long does due diligence take?",
+                                "answer": "Typically 30-90 days. Includes financial (quality of earnings), legal (contracts, litigation), operational, and technical diligence. Delays often caused by poor data room preparation."
+                            },
+                            {
+                                "question": "What is a 'Quality of Earnings' (QoE) report?",
+                                "answer": "A financial analysis (usually by CPA firm) to validate EBITDA by removing one-time expenses/revenues. Crucial for determining final purchase price. Buyers almost always require one."
+                            }
+                        ]
+                    },
+                    "order": 3
+                },
+                {
+                    "id": "section-us-msa-integration",
+                    "type": "key_steps",
+                    "title": "Post-Merger Integration (PMI)",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Day 1 Plan",
+                                "description": "Communication strategy for employees, customers, and vendors. Secure IT access and bank accounts. Announce organizational structure changes."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Cultural Integration",
+                                "description": "Assess cultural differences. align benefits and compensation. Address retention of key talent (retention bonuses). Culture clashes are top reason for M&A failure."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Systems Consolidation",
+                                "description": "Migrate ERP, CRM, and HRIS systems. unify financial reporting standards (GAAP). Rationalize duplicate vendor contracts and real estate footprint."
+                            }
+                        ]
+                    },
+                    "order": 4
+                },
+                {
+                    "id": "section-us-msa-costs",
+                    "type": "cost_breakdown",
+                    "title": "M&A Transaction Costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service",
+                                "Typical Range"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Investment Banking Fees",
+                                    "values": [
+                                        "1-5% of deal value"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Legal Fees",
+                                    "values": [
+                                        "$200K-$2M+"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Accounting/Tax DD",
+                                    "values": [
+                                        "$50K-$500K"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Quality of Earnings Report",
+                                    "values": [
+                                        "$30K-$150K"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    },
+                    "order": 5
+                }
+            ],
+            "service": "M & A"
+        },
+        {
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "heroData": {
+                "title": "Marketing Services in United States",
+                "subtitle": "Digital and traditional marketing for US market entry",
+                "description": "US marketing agencies offer SEO, PPC, social media, content marketing, and brand strategy. Digital advertising dominates with Google Ads, Meta, LinkedIn as primary channels. Compliance includes CAN-SPAM, CCPA/CPRA, FTC advertising guidelines.",
+                "bestFor": "International brands entering US market or scaling growth",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "section-us-marketing-insights",
+                    "type": "insights",
+                    "title": "US Marketing Landscape",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Digital Advertising Dominance",
+                                "text": "Google and Meta control 50%+ of digital ad spend. Average cost per click: $1-$2 for search ads, $0.50-$3 for social. Conversion rates average 2-5% for e-commerce, 10-15% for lead gen in B2B."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Advertising Compliance",
+                                "text": "FTC requires clear disclosure of sponsored content, truthful claims, and substantiation. Violations result in cease-and-desist orders and fines. CAN-SPAM Act governs email marketing - requires opt-out mechanism."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Localization Requirements",
+                                "text": "US market is diverse - consider regional preferences, cultural nuances, and multi-lingual capabilities for Hispanic markets. Test messaging across different segments before scaling spend."
+                            }
+                        ]
+                    },
+                    "order": 1
+                },
+                {
+                    "id": "section-us-marketing-costs",
+                    "type": "cost_breakdown",
+                    "title": "Agency Pricing Models 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service Type",
+                                "Monthly Retainer",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "SEO Services",
+                                    "values": [
+                                        "$1,500-$10,000",
+                                        "Based on competition"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "PPC Management",
+                                    "values": [
+                                        "$1,000-$3,000 + 10-20% ad spend",
+                                        "Google/Meta ads"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Content Marketing",
+                                    "values": [
+                                        "$2,000-$8,000",
+                                        "Includes strategy + creation"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Full-Service Agency",
+                                    "values": [
+                                        "$10,000-$50,000+",
+                                        "Integrated campaigns"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    },
+                    "order": 2
+                },
+                {
+                    "id": "section-us-marketing-steps",
+                    "type": "key_steps",
+                    "title": "Campaign Launch Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Market Definition",
+                                "description": "Identify target US demographics, geographic focus (national vs regional), and buyer personas. Conduct competitor analysis on messaging and pricing."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Channel Selection",
+                                "description": "Select mix based on goals: Google Ads for intent capture, Meta/TikTok for brand awareness, LinkedIn for B2B. Allocate budget: 20% test, 80% proven channels."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Creative Adaptation",
+                                "description": "Localize assets for US English spelling, cultural references, and diversity standards. Ensure compliance with FTC disclosure rules for endorsements."
+                            }
+                        ]
+                    },
+                    "order": 3
+                },
+                {
+                    "id": "section-us-marketing-strategies",
+                    "type": "insights",
+                    "title": "Growth & Localization Strategies",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Influencer Marketing",
+                                "text": "High ROI channel. 72% of US marketers use influencers. Micro-influencers (10k-100k followers) often deliver better engagement than celebrities. B2B influencers on LinkedIn are growing rapidly."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Content Localization",
+                                "text": "US English spelling (oz vs s) and cultural references are vital. Tone should be direct, benefit-oriented, and confident. Avoid British/European idioms that may confuse US audience."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Public Relations (PR)",
+                                "text": "US market is crowded. PR agents ($5k-$20k/mo) help secure earned media (TechCrunch, WSJ). 'Pay-to-play' is common in some trade publications."
+                            }
+                        ]
+                    },
+                    "order": 4
+                },
+                {
+                    "id": "section-us-marketing-faq",
+                    "type": "faq",
+                    "title": "Marketing FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What's the best channel for B2B marketing in the US?",
+                                "answer": "LinkedIn dominates B2B with 930M+ professionals, average $5-$15 CPM. Combine with content marketing (blogs, whitepapers), SEO for organic traffic, and account-based marketing (ABM) for enterprise deals. Email marketing has highest ROI at $36-$44 per $1 spent."
+                            },
+                            {
+                                "question": "Are trade shows worth it?",
+                                "answer": "Yes, for B2B. CES, SXSW, Dreamforce are massive ecosystem events. Costs are high ($50k-$200k+ for booth/travel) but face-to-face time with decision makers is invaluable."
+                            },
+                            {
+                                "question": "How long does SEO take to work?",
+                                "answer": "Typically 6-12 months to see significant organic traffic growth. Requires technical optimization, high-quality content production, and link building. Competitive keywords (e.g. 'financial services') are very expensive/difficult."
+                            }
+                        ]
+                    },
+                    "order": 5
+                }
+            ],
+            "service": "MARKETING AGENCY"
+        }
+    ]
+}

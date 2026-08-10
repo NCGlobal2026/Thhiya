@@ -1,0 +1,491 @@
+{
+    "name": "Laos",
+    "code": "LA",
+    "slug": "laos",
+    "flag": "https://flagcdn.com/w160/la.png",
+    "region": "Asia",
+    "languages": [
+        "Lao"
+    ],
+    "currencies": [
+        "LAK"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Laos",
+                "subtitle": "Hire in Vientiane",
+                "description": "Compliant employment in the Lao PDR. We handle National Social Security Fund (LSSO) benefits.",
+                "bestFor": "Hydropower & NGOs",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "la-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Employment contract in Lao language."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Social Security",
+                                "description": "Register employee with the National Social Security Fund (NSSF)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Labor Book",
+                                "description": "Obtain labor book from Ministry of Labor and Social Welfare."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "la-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Security (NSSF)",
+                                    "values": [
+                                        "6.0%",
+                                        "5.5%",
+                                        "Employer contributes 6%, Employee 5.5%. Capped at ceiling wage."
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "la-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "International Women's Day",
+                                "description": "March 8 (Observed March 10)"
+                            },
+                            {
+                                "title": "Lao New Year (Pi Mai)",
+                                "description": "April 14-16"
+                            },
+                            {
+                                "title": "Labour Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Lao Women's Union Day",
+                                "description": "July 20 (Observed July 21)"
+                            },
+                            {
+                                "title": "National Day",
+                                "description": "December 2"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "la-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax Brackets (Monthly LAK)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Taxable Income (LAK)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "0 - 1,300,000",
+                                    "values": [
+                                        "0%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "1,300,001 - 5,000,000",
+                                    "values": [
+                                        "5%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "5,000,001 - 15,000,000",
+                                    "values": [
+                                        "10%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "15,000,001 - 25,000,000",
+                                    "values": [
+                                        "15%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "25,000,001 - 65,000,000",
+                                    "values": [
+                                        "20%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Above 65,000,000",
+                                    "values": [
+                                        "25%"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "la-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Base Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Social Security",
+                                "description": "Deduct 5.5% (Employee Share)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax Base",
+                                "description": "Gross - Social Security."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Income Tax",
+                                "description": "Apply progressive rates (0-25%)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Net",
+                                "description": "Gross - Social - Tax."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Laos",
+                "subtitle": "Limited Company",
+                "description": "Registering a Sole Limited Company.",
+                "bestFor": "Market Entry",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "la-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Name Reservation",
+                                "description": "Reserve with Ministry of Industry and Commerce (MOIC)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Enterprise Registration Certificate",
+                                "description": "Obtain ERC."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax ID",
+                                "description": "Register for Tax Identification Number (TIN)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "la-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "BCEL (Banque pour le Commerce Exterieur Lao Public)",
+                                "description": "Largest state-owned bank."
+                            },
+                            {
+                                "title": "LDB (Lao Development Bank)",
+                                "description": "Major commercial bank."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Laos",
+                "subtitle": "Emerging Market",
+                "description": "Low cost labor force.",
+                "bestFor": "Manufacturing",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "la-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Vientiane",
+                                "text": "Capital and economic center."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Laos",
+                "subtitle": "Basic",
+                "description": "Excel often used.",
+                "bestFor": "Small Teams",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "la-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "NSSF Reporting",
+                                "description": "Monthly social security listings."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Laos",
+                "subtitle": "LAS",
+                "description": "Lao Accounting Standards.",
+                "bestFor": "Compliance",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "la-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "LFRS",
+                                "text": "Lao Financial Reporting Standards (based on IFRS) for public interest entities."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "la-comp-labor",
+                    "type": "warning",
+                    "title": "Severance",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Calculation",
+                                "description": "10% of monthly salary for each month of service (often interpreted as 1.2 months per year)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "la-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Profit Tax (General)",
+                                    "values": [
+                                        "20%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Tobacco Companies",
+                                    "values": [
+                                        "22%",
+                                        "Higher rate for tobacco industry."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "SMEs",
+                                    "values": [
+                                        "Lump Sum",
+                                        "Based on turnover for very small entities."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Laos",
+                "subtitle": "Civil Law",
+                "description": "French influence.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "la-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "Lao language contracts are prioritized in court."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Laos",
+                "subtitle": "OnePay",
+                "description": "QR Payments.",
+                "bestFor": "Payments",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "la-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "BCEL One",
+                                "description": "Dominant banking app with OnePay QR standard."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Laos",
+                "subtitle": "Facebook",
+                "description": "Social First.",
+                "bestFor": "Engagement",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "la-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Facebook",
+                                "text": "The internet in Laos is effectively Facebook."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,544 @@
+{
+    "name": "Luxembourg",
+    "code": "LU",
+    "slug": "luxembourg",
+    "flag": "https://flagcdn.com/w160/lu.png",
+    "region": "Europe",
+    "languages": [
+        "Luxembourgish",
+        "French",
+        "German"
+    ],
+    "currencies": [
+        "EUR"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Luxembourg",
+                "subtitle": "Hire in Luxembourg City",
+                "description": "Compliant employment in the Grand Duchy. We handle CCSS contributions.",
+                "bestFor": "Finance & Space",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "lu-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Employment contract (CDI/CDD) in French/German/English."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "CCSS Registration",
+                                "description": "Register with Centre commun de la sécurité sociale within 8 days."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Medical",
+                                "description": "Pre-employment medical exam."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "lu-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Pension",
+                                    "values": [
+                                        "8.0%",
+                                        "8.0%",
+                                        "Old age pension insurance."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Health",
+                                    "values": [
+                                        "3.05%",
+                                        "3.05%",
+                                        "Sickness insurance."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Accident",
+                                    "values": [
+                                        "~0.75%",
+                                        "0%",
+                                        "Rate varies by risk class."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Health@Work",
+                                    "values": [
+                                        "~0.14%",
+                                        "0%",
+                                        "Occupational health service."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Dependency",
+                                    "values": [
+                                        "0%",
+                                        "1.40%",
+                                        "Long-term care insurance (Employee only)."
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "lu-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Easter Monday",
+                                "description": "April 21"
+                            },
+                            {
+                                "title": "Labour Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Europe Day",
+                                "description": "May 9"
+                            },
+                            {
+                                "title": "Ascension Day",
+                                "description": "May 29"
+                            },
+                            {
+                                "title": "Whit Monday",
+                                "description": "June 9"
+                            },
+                            {
+                                "title": "National Day",
+                                "description": "June 23"
+                            },
+                            {
+                                "title": "Assumption",
+                                "description": "August 15"
+                            },
+                            {
+                                "title": "All Saints' Day",
+                                "description": "November 1"
+                            },
+                            {
+                                "title": "Christmas Day",
+                                "description": "December 25"
+                            },
+                            {
+                                "title": "St. Stephen's Day",
+                                "description": "December 26"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "lu-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Annual Income (EUR)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Up to ~12,438",
+                                    "values": [
+                                        "0%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Progressive Scale",
+                                    "values": [
+                                        "8% - 42%",
+                                        "Multiple brackets."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Top Rate",
+                                    "values": [
+                                        "42%",
+                                        "On income > 220,788 EUR."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Solidarity Tax",
+                                    "values": [
+                                        "7% - 9%",
+                                        "Surcharge on tax amount."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "lu-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Base Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Social Security",
+                                "description": "Deduct Pension (8%), Health (3.05%), Dependency (1.4% * (Gross - 1/4MinWage))."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax Base",
+                                "description": "Gross - Pension - Health (Dependency is non-deductible)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Income Tax",
+                                "description": "Apply Tax Class rates."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Net",
+                                "description": "Gross - SS - Tax."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Luxembourg",
+                "subtitle": "SARL-S",
+                "description": "Simplified LLC available.",
+                "bestFor": "Holdings",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "lu-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Trade Register",
+                                "description": "Check name availability."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Notary",
+                                "description": "Draft deed of incorporation (Standard SARL). SARL-S can be private deed."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Capital",
+                                "description": "12,000 EUR for SARL. 1 EUR for SARL-S."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "lu-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "BGL BNP Paribas",
+                                "description": "Leading bank."
+                            },
+                            {
+                                "title": "Spuerkeess (BCEE)",
+                                "description": "State-owned, highly rated."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Luxembourg",
+                "subtitle": "Cross-border",
+                "description": "Commuters from FR/BE/DE.",
+                "bestFor": "Finance",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "lu-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Luxembourg City",
+                                "text": "Finance and EU institution hub."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Esch-sur-Alzette",
+                                "text": "University and research center."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Luxembourg",
+                "subtitle": "SECULINE",
+                "description": "CCSS integration.",
+                "bestFor": "Compliance",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "lu-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "SECULINE",
+                                "description": "System for electronic data exchange with CCSS."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Luxembourg",
+                "subtitle": "Lux GAAP",
+                "description": "Standard Chart of Accounts.",
+                "bestFor": "Reporting",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "lu-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Lux GAAP",
+                                "text": "Standard. IFRS permitted/required for certain entities."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "lu-comp-labor",
+                    "type": "warning",
+                    "title": "Indexation",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Salary Index",
+                                "description": "Salaries must be increased automatically when the inflation index is triggered (typically 2.5%)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "lu-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "CIT + Municipal",
+                                    "values": [
+                                        "~24.94%",
+                                        "Aggregate effective rate for Lux City."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Startups",
+                                    "values": [
+                                        "NWT",
+                                        "Net Wealth Tax applies."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "VAT",
+                                    "values": [
+                                        "17%",
+                                        "Lowest standard rate in EU."
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Luxembourg",
+                "subtitle": "Civil Law",
+                "description": "Business friendly.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "lu-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "French, German, and English commonly used."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Luxembourg",
+                "subtitle": "Luxtrust",
+                "description": "Digital infrastructure.",
+                "bestFor": "Security",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "lu-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Luxtrust",
+                                "description": "Digital identity and signature standard."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Luxembourg",
+                "subtitle": "Multilingual",
+                "description": "Diverse audience.",
+                "bestFor": "Localization",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "lu-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Languages",
+                                "text": "Campaigns often need to be trilingual (FR/DE/EN)."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

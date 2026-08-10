@@ -1,0 +1,77 @@
+# ===========================================
+# Render Static Site Redirects for thhiya.com
+# ===========================================
+
+# --- Domain Canonicalization ---
+# Redirect non-www to www (for SEO consistency)
+# Note: Configure this in Render dashboard under Custom Domains
+
+# --- Trailing Slash Handling ---
+# Remove trailing slashes for consistency (Render handles this automatically)
+
+# --- Common Typos & Legacy URL Redirects ---
+/gtm-toolkit /gtm-toolkits 301
+/gtm-toolkit/ /gtm-toolkits 301
+/compare / 301
+/compare/ / 301
+
+# --- Alternate URL patterns ---
+/insight /insights 301
+/insight/ /insights 301
+/insights-hub /insights/hub 301
+/insights-hub/ /insights/hub 301
+/insightshub /insights/hub 301
+/insightshub/ /insights/hub 301
+
+# --- Legal pages alternate URLs ---
+/privacy /privacy-policy 301
+/privacy/ /privacy-policy 301
+/terms /terms-of-service 301
+/terms/ /terms-of-service 301
+/tos /terms-of-service 301
+/tos/ /terms-of-service 301
+/cookies /cookie-policy 301
+/cookies/ /cookie-policy 301
+
+# --- Get Matched / BANT/MEDDIC/INTENT(BMI) form alternate URLs ---
+/match /get-matched 301
+/match/ /get-matched 301
+/get-match /get-matched 301
+/get-match/ /get-matched 301
+/matching /get-matched 301
+/matching/ /get-matched 301
+
+# --- Purple Listings alternate URLs ---
+/listings /purple-listings 301
+/listings/ /purple-listings 301
+/vendors /purple-listings 301
+/vendors/ /purple-listings 301
+
+# --- GTM Toolkits alternate URLs ---
+/toolkits /gtm-toolkits 301
+/toolkits/ /gtm-toolkits 301
+/tools /gtm-toolkits 301
+/tools/ /gtm-toolkits 301
+
+# --- Contact alternate URLs ---
+/contact-us /contact 301
+/contact-us/ /contact 301
+/reach-out /contact 301
+/reach-out/ /contact 301
+
+# --- Why Thhiya alternate URLs ---
+/about /why-thhiya 301
+/about/ /why-thhiya 301
+/about-us /why-thhiya 301
+/about-us/ /why-thhiya 301
+
+# --- Root level with trailing slash ---
+/home / 301
+/home/ / 301
+
+# ===========================================
+# SPA Fallback Rule (MUST BE LAST)
+# ===========================================
+# This catches all other routes and serves index.html
+# React Router will handle the routing client-side
+/* /index.html 200

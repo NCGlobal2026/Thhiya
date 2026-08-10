@@ -1,0 +1,1938 @@
+{
+    "name": "South Korea",
+    "code": "KR",
+    "slug": "south-korea",
+    "flag": "https://flagcdn.com/w160/kr.png",
+    "region": "Asia",
+    "languages": [
+        "Korean"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "Hire in Korea (No Entity)",
+                "subtitle": "52-Hour Rule",
+                "description": "Strict enforcement of 52-hour work week (40 standard + 12 overtime). EOR handles '4 Major Insurances' and local compliance.",
+                "bestFor": "Tech/Sales.",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "section-kor-eor-steps",
+                    "type": "key_steps",
+                    "title": "EOR Onboarding Process",
+                    "subtitle": "Timeline: 3-5 Days",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contractual Definition",
+                                "description": "Drafting the labor contract in Korean (bilingual recommended). Must explicitly define base salary, meal allowance (usually KRW 100,000-200,000 tax-free), and overtime components to comply with the 52-hour rule."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "4 Major Insurances Acquisition",
+                                "description": "Reporting the 'Acquisition of Eligibility' for National Pension, Health, Employment, and Workers' Compensation insurance within 14 days of the start date."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Rules of Employment (ROE)",
+                                "description": "If the EOR unit or client site has 10+ employees, the ROE must be filed with the Ministry of Employment and Labor (MOEL). Employees must be notified of these rules."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Anti-Harassment Training",
+                                "description": "Setting up mandatory annual training sessions for workplace sexual harassment prevention and disability awareness, as required by law."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Time Tracking Integration",
+                                "description": "Implementing a digital attendance system to monitor the 40+12 hour limit. Any hours beyond 52/week are strictly prohibited and carry criminal liability for the employer."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-kor-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "EOR Service Cost Estimates",
+                    "order": 2,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Item",
+                                "Cost Estimate",
+                                "Frequency"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Management Fee",
+                                    "values": [
+                                        "$500 - $800",
+                                        "Monthly"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Security Deposit",
+                                    "values": [
+                                        "1-2 Months Salary",
+                                        "One-time"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Employer Social Burden",
+                                    "values": [
+                                        "~10.5% - 12%",
+                                        "Monthly"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Severance Accrual",
+                                    "values": [
+                                        "8.33% (1/12th)",
+                                        "Monthly"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-kor-eor-insights",
+                    "type": "insights",
+                    "title": "Critical Compliance & Regulations",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "52-Hour Work Week",
+                                "text": "Total working hours cannot exceed 52 per week (40 standard + 12 overtime). Violations can lead to imprisonment for the CEO/Representative."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Severance Pay (Toijikgeum)",
+                                "text": "Employees who work >1 year are entitled to 30 days of average salary for every year worked. EORs typically accrue this monthly to avoid large liabilities."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Paid Holidays",
+                                "text": "Public holidays are now mandatory paid rest days for all companies with 5+ employees. If employees work on a holiday, they must receive 150% pay or compensatory leave."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Pregnancy Protection",
+                                "text": "Female employees are entitled to 90 days of maternity leave (120 for twins), with 60 days paid by the employer and 30 by employment insurance."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Childcare Leave",
+                                "text": "Employees with children under age 8 can request up to 1 year of unpaid or partially subsidized leave. Retaliation for taking leave is strictly forbidden."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-kor-eor-faq",
+                    "type": "faq",
+                    "title": "EOR Frequent Questions",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I terminate an employee during probation?",
+                                "answer": "Yes, usually within the first 3 months with a 30-day notice or payment in lieu. However, 'just cause' is still highly scrutinized by Labor Commissions."
+                            },
+                            {
+                                "question": "Are 13th-month bonuses mandatory?",
+                                "answer": "No, they are not statutory. However, many Korean companies provide performance-based incentives or 'Chuseok/Lunar New Year' bonuses."
+                            },
+                            {
+                                "question": "Does the EOR handle the '4 insurances'?",
+                                "answer": "Yes, it is the primary benefit of using an EOR. They manage the monthly reporting and payments to the National Pension, Health, Employment, and Workers' Compensation services."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-kor-eor-essentials",
+                    "type": "essentials",
+                    "title": "Korean Labor Glossary",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "title": "LSA (Labor Standards Act)",
+                                "text": "The primary law governing employment conditions, wages, and working hours in South Korea."
+                            },
+                            {
+                                "title": "Toijikgeum",
+                                "text": "Statutory severance pay. Usually accrued in a retirement pension fund (DB or DC type)."
+                            },
+                            {
+                                "title": "Gwageup",
+                                "text": "Excess work or overtime. Must be precisely tracked and compensated at 150% rate."
+                            },
+                            {
+                                "title": "Wages of Employment",
+                                "text": "Includes base salary + fixed allowances (meal, vehicle). Used for social insurance calculations."
+                            },
+                            {
+                                "title": "MOEL",
+                                "text": "Ministry of Employment and Labor, the regulatory body enforcing labor laws and conducting inspections."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-kor-pay-steps",
+                    "type": "key_steps",
+                    "title": "Monthly Payroll Cycle",
+                    "subtitle": "Processing Timeline",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Data Collection",
+                                "description": "Finalize overtime hours, meal allowances, and any variable bonuses. Deadline usually by the 20th."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Calculation & Withholding",
+                                "description": "Calculate progressive income tax (withholding) and the 4 Major Insurance premiums based on the 2025 rates."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Payment & Payslips",
+                                "description": "Distribute net pay and provide detailed payslips (Myeongseoseo) indicating all deduction items clearly."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Tax Filing (10th)",
+                                "description": "Report and pay the withheld income tax and local income tax to the NTS by the 10th of the following month."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-kor-pay-costs",
+                    "type": "cost_breakdown",
+                    "title": "2025 Social Insurance Rates",
+                    "order": 2,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Insurance Type",
+                                "Employer",
+                                "Employee",
+                                "Total"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "National Pension",
+                                    "values": [
+                                        "4.50%",
+                                        "4.50%",
+                                        "9.00%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Health Insurance",
+                                    "values": [
+                                        "3.545%",
+                                        "3.545%",
+                                        "7.09%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Long-term Care",
+                                    "values": [
+                                        "0.45%",
+                                        "0.45%",
+                                        "0.90%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Employment Ins.",
+                                    "values": [
+                                        "1.15%",
+                                        "0.90%",
+                                        "2.05%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Workers' Comp",
+                                    "values": [
+                                        "~1.47%",
+                                        "0.00%",
+                                        "1.47%"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-kor-pay-insights",
+                    "type": "insights",
+                    "title": "Corporate Payroll Nuances",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Year-End Tax Adjustment (YETA)",
+                                "text": "Conducted in February. Employees submit medical/educational receipts to NTS to recalculate actual tax liability vs. withheld amounts."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Tax-Free Allowances",
+                                "text": "Meal allowances up to KRW 200,000/month and child care allowances up to KRW 200,000 are exempt from income tax and social insurance."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "CEO Liability",
+                                "text": "Under the Serious Accidents Punishment Act (SAPA), payroll and safety budgets must be properly allocated to avoid personal liability for executives."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Insurance Caps",
+                                "text": "National Pension and Health Insurance have maximum monthly wage caps. For 2024/2025, the Pension cap is KRW 6.17M and Health is KRW 110.3M."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Bonus Withholding",
+                                "text": "Bonuses are taxed at the same progressive rates as monthly salary but may lead to higher withholding in the month of payment."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-kor-pay-faq",
+                    "type": "faq",
+                    "title": "Payroll FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the '10th of the month' deadline?",
+                                "answer": "It is the strict deadline for paying withheld income tax and social insurance premiums for the previous month's payroll."
+                            },
+                            {
+                                "question": "How is overtime calculated?",
+                                "answer": "Overtime, night shifts (22:00-06:00), and holiday work must be paid at 150% of the normal hourly base."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-kor-pay-essentials",
+                    "type": "essentials",
+                    "title": "Withholding Tax Brackets",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "title": "6% Rate",
+                                "text": "Taxable income up to KRW 14M per year."
+                            },
+                            {
+                                "title": "15% Rate",
+                                "text": "Taxable income between KRW 14M and KRW 50M."
+                            },
+                            {
+                                "title": "24% Rate",
+                                "text": "Taxable income between KRW 50M and KRW 88M."
+                            },
+                            {
+                                "title": "Max 45% Rate",
+                                "text": "For income exceeding KRW 1B per year."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-kor-calc-steps",
+                    "type": "key_steps",
+                    "title": "Calculation Parameters",
+                    "subtitle": "2025 Settings",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Monthly Base Salary",
+                                "description": "Enter the gross monthly amount including fixed monthly allowances."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Dependents Count",
+                                "description": "Used to determine the progressive income tax withholding bracket (Simplification Table)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax-Free Items",
+                                "description": "Deducting KRW 200,000 for meal allowance to lower the taxable base."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-kor-calc-insights",
+                    "type": "insights",
+                    "title": "Payroll Accuracy",
+                    "order": 2,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Rounding Rules",
+                                "text": "Deductions in Korea are typically rounded to the nearest 10 KRW to avoid unit issues."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Variable Overtime",
+                                "text": "The calculator assumes a standard 40-hour week. Actual net pay will vary significantly with tracked overtime at 1.5x."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Local Income Tax",
+                                "text": "Calculated as 10% of the National Income Tax. It is filed separately but usually together with the main withholding report."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "D-8 Visa Tax Rates",
+                                "text": "Foreign engineers/executives may qualify for a 19% flat tax rate on their gross income, bypassing the progressive brackets."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-kor-calc-faq",
+                    "type": "faq",
+                    "title": "Calculator FAQ",
+                    "order": 3,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "How accurate is this estimate?",
+                                "answer": "The estimate is based on standard 2025 social insurance rates. Factors like industry-specific workers' comp rates can cause small variations (0.1-0.2%)."
+                            },
+                            {
+                                "question": "Does this include the local income tax?",
+                                "answer": "Yes, it calculates the base income tax and adds the 10% local income tax surcharge automatically."
+                            },
+                            {
+                                "question": "Are year-end adjustments included?",
+                                "answer": "The calculator provides a monthly snapshot. Year-end tax adjustments (YETA) are typically handled in February and may result in a refund or additional tax based on 12-month spending/savings."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-kor-calc-essentials",
+                    "type": "essentials",
+                    "title": "Payroll Data Points",
+                    "order": 4,
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Meal Allowance",
+                                "text": "KRW 200,000 threshold. Any amount above this is treated as taxable salary."
+                            },
+                            {
+                                "title": "Vehicle Allowance",
+                                "text": "Up to KRW 200,000 is tax-free if the employee uses their private vehicle for company business."
+                            },
+                            {
+                                "title": "Severance Accumulation",
+                                "text": "Accrual of 1/12th of annual salary per work year. Must be paid within 14 days of termination."
+                            },
+                            {
+                                "title": "Night Shift Premium",
+                                "text": "Work between 10 PM and 6 AM requires an additional 50% of base hourly wage."
+                            },
+                            {
+                                "title": "Holiday Work Pay",
+                                "text": "Working on a statutory holiday or Sunday requires 150% pay (200% if >8 hours)."
+                            },
+                            {
+                                "title": "Childcare Allowance",
+                                "text": "Up to KRW 200,000 per month is tax-free for employees with children under 6."
+                            },
+                            {
+                                "title": "Overseas Allowance",
+                                "text": "Special tax-free thresholds exist for employees working abroad or on deep-sea vessels."
+                            },
+                            {
+                                "title": "Invention Compensation",
+                                "text": "Tax-free limits apply to rewards paid for employee-designed patents or improvements."
+                            },
+                            {
+                                "title": "Small Business Tax Break",
+                                "text": "Youth employees (aged 15-34) at SMEs may qualify for up to 90% income tax reduction."
+                            },
+                            {
+                                "title": "Commuter Housing Fund",
+                                "text": "Employer-provided housing support may be non-taxable under specific relocation conditions."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "eor-peo-aor",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR"
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Chusik Hoesa (JSC)",
+                "subtitle": "Standard Corp",
+                "description": "Most common structure (Joint Stock Company). Yuhan Hoesa (LLC) also exists but less common for FDI.",
+                "bestFor": "FDI.",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "section-kor-inc-steps",
+                    "type": "key_steps",
+                    "title": "Entity Setup Process",
+                    "subtitle": "Timeline: 4-6 Weeks",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "FDI Notification",
+                                "description": "Report the Foreign Direct Investment (FDI) to a designated foreign exchange bank in Korea before remitting capital."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Capital Remittance",
+                                "description": "Remit at least KRW 100M (typical for D-8 visa) to a temporary 'escrow' account at the bank. Obtain a certificate of deposit."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Court Registration",
+                                "description": "Register the 'Chusik Hoesa' (JSC) with the local court registry. Requires physical corporate seal (Ingam) and notarized docs."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Tax Registration",
+                                "description": "Apply for a Business Registration Certificate at the local Tax Office. A physical lease agreement is usually required."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "FDI Company Reg",
+                                "description": "Register the company as a foreign-invested enterprise at the bank to facilitate future dividend repatriation."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-kor-inc-costs",
+                    "type": "cost_breakdown",
+                    "title": "Incorporation Fee Estimates",
+                    "order": 2,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Cost (KRW)",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Registration Tax",
+                                    "values": [
+                                        "1.44% - 4.32% of Capital",
+                                        "Higher in Seoul Metro"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Notary / Legal Fees",
+                                    "values": [
+                                        "2.5M - 5.0M",
+                                        "Standard law firm rate"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Corporate Seal",
+                                    "values": [
+                                        "50,000 - 150,000",
+                                        "Machine or Hand-carved"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Office Lease",
+                                    "values": [
+                                        "1.0M - 3.0M",
+                                        "Monthly deposit additional"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-kor-inc-insights",
+                    "type": "insights",
+                    "title": "Strategic Entity Planning",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Seoul Metro Surcharge",
+                                "text": "Incorporating in the Seoul Metropolitan Area (including Gwangju, Incheon) triggers a 3x surcharge on the education/registration tax."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Chusik vs Yuhan",
+                                "text": "Chusik Hoesa (JSC) is the most prestigious for local hires and banks. Yuhan Hoesa (LLC) is simpler for US-based parents but can be seen as less stable."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Virtual Offices",
+                                "text": "Acceptable for the Registry in some cases, but the Tax Office may reject Business Registration without a specific physical footprint or sub-lease."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Branch vs Subsidiary",
+                                "text": "A branch is not a separate legal entity and may be easier to set up but harder to participate in local government tenders."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Capital Requirements",
+                                "text": "Foreign Direct Investment (FDI) status requires minimum KRW 100M per investor to qualify for D-8 visa benefits."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-kor-inc-faq",
+                    "type": "faq",
+                    "title": "Incorporation FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the 'Ingam'?",
+                                "answer": "The official corporate seal. It is used to sign all major contracts and tax documents. Losing it is a major security and operations risk."
+                            },
+                            {
+                                "question": "Can I set up a branch instead?",
+                                "answer": "Yes, but a Branch Office cannot engage in 'Foreign Direct Investment' incentives and has limited scope for hiring international staff (D-8 vs D-7)."
+                            },
+                            {
+                                "question": "What is the minimum capital?",
+                                "answer": "Technically KRW 1. However, to qualify for a foreign investor visa (D-8), a minimum of KRW 100M is required."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-kor-inc-essentials",
+                    "type": "essentials",
+                    "title": "Incorporation Checklist",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Notarized POA",
+                                "text": "Required for foreign shareholders who cannot be physically present for registry."
+                            },
+                            {
+                                "title": "Bank Passbook",
+                                "text": "Essential for all local transactions; obtained after Business Registration."
+                            },
+                            {
+                                "title": "Articles of Incorporation",
+                                "text": "Must be tailored to include specific business purposes (Upjong) to avoid tax issues."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-kor-inc-maintenance",
+                    "type": "essentials",
+                    "title": "Entity Maintenance Checklist",
+                    "order": 6,
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Seal Certificate Renewal",
+                                "text": "Periodic renewal of corporate seal certificates is required for various government and banking filings."
+                            },
+                            {
+                                "title": "Director Appointments",
+                                "text": "Standard terms are 3 years. Re-election or replacement must be registered within 2 weeks of the term end."
+                            },
+                            {
+                                "title": "Annual Shareholder Meeting",
+                                "text": "Must be held within 3 months of the fiscal year end to approve financial statements and dividends."
+                            },
+                            {
+                                "title": "Business License Update",
+                                "text": "Any change in office address or business scope requires a license update at the local tax office within 15-30 days."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "incorporation-entity-setup",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)"
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Recruitment",
+                "subtitle": "Competition",
+                "description": "Fierce war for talent in Pangyo (Technovalley). Global brands preferred by candidates.",
+                "bestFor": "Speed.",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "section-kor-staff-steps",
+                    "type": "key_steps",
+                    "title": "Recruitment & Hiring Workflow",
+                    "subtitle": "Market Standards",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Job Specification",
+                                "description": "Defining the role. Note: Age/Gender discrimination in job ads is strictly prohibited and can lead to fines under the Equal Employment Opportunity Act."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Sourcing Channels",
+                                "description": "Posting on major portals: LinkedIn is preferred for tech/global roles, while Saramin and JobKorea are the dominant domestic players."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Data Processing Consent",
+                                "description": "Obtaining explicit consent under PIPA (Personal Information Protection Act) before collecting or storing candidate resumes."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Technical Assessment",
+                                "description": "Coding tests or technical interviews. Korean candidates increasingly value transparent feedback processes."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Final Offer & Seal",
+                                "description": "Extending the offer. Contracts are often signed using the company seal (Ingam) and employee's personal seal (Dojang) or signature."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-kor-staff-costs",
+                    "type": "cost_breakdown",
+                    "title": "Recruitment Fee Structures",
+                    "order": 2,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service",
+                                "Cost Estimate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Agency Success Fee",
+                                    "values": [
+                                        "15% - 25%",
+                                        "of Annual Base Salary"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Executive Search",
+                                    "values": [
+                                        "25% - 30%",
+                                        "Retained or Container"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Job Board Posting",
+                                    "values": [
+                                        "KRW 300,000 - 1.0M",
+                                        "30-day premium listing"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-kor-staff-insights",
+                    "type": "insights",
+                    "title": "Korean Talent Market Nuances",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Pangyo Techno Valley",
+                                "text": "The 'Silicon Valley' of Korea. High concentration of tech talent but extremely high turnover and salary inflation."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Background Checks",
+                                "text": "Criminal record checks are restricted to specific industries (e.g., security, education). General employers cannot request them without a clear legal basis."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Brand Recognition",
+                                "text": "Korean candidates often prioritize established global brands or high-growth 'Unicorns' over early-stage foreign startups."
+                            },
+                            {
+                                "type": "info",
+                                "title": "The 'Hoe-sik' Culture",
+                                "text": "While declining, team dinners (Hoe-sik) are still part of the onboarding and bonding process. Modern companies lean towards lunches."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "MBTI Phenomenon",
+                                "text": "MBTI is currently massive in Korea. Some job ads jokingly (or semi-seriously) mention preferred MBTI types, though not legally binding."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-kor-staff-faq",
+                    "type": "faq",
+                    "title": "Recruitment FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Are non-compete clauses valid in Korea?",
+                                "answer": "Yes, but they must be limited in scope, duration (usually 1 year), and geographical area. Courts often require the employer to provide compensation for the non-compete."
+                            },
+                            {
+                                "question": "What is 'Rocket Punch'?",
+                                "answer": "Korea's leading startup-focused job platform, essential for hiring developers and early-stage employees."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-kor-staff-essentials",
+                    "type": "essentials",
+                    "title": "Top Korean Job Boards",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Saramin",
+                                "text": "The most widely used general recruitment platform in South Korea."
+                            },
+                            {
+                                "title": "JobKorea",
+                                "text": "Strong alternative to Saramin with a large database of experienced professionals."
+                            },
+                            {
+                                "title": "Wanted",
+                                "text": "Referral-based platform highly popular among the tech and creative communities."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "staffing-recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting"
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HR Software",
+                "subtitle": "Attendance Tracking",
+                "description": "Accurate time-tracking is mandatory for 52-hour week compliance.",
+                "bestFor": "Compliance.",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "section-kor-hris-steps",
+                    "type": "key_steps",
+                    "title": "HRIS Implementation Phases",
+                    "subtitle": "Digital Transformation",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Compliance Mapping",
+                                "description": "Configuring the system to handle the 52-hour work week, including automated alerts for overtime limits."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "PIPA Audit",
+                                "description": "Ensuring the HRIS provider complies with the Personal Information Protection Act, particularly regarding data residency and encryption."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Leave Policy Setup",
+                                "description": "Automating the calculation of statutory annual leave (base 15 days + 1 day for every 2 years of service)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Employee Self-Service",
+                                "description": "Launching the mobile app/portal for attendance marking and payslip viewing, mandatory for transparency under the LSA."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-kor-hris-costs",
+                    "type": "cost_breakdown",
+                    "title": "HR Software Pricing Models",
+                    "order": 2,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Solution Type",
+                                "Cost Estimate",
+                                "Key Features"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Local SMB (Flex, Shiftee)",
+                                    "values": [
+                                        "KRW 5,000 - 8,000",
+                                        "Per user/monthly"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Mid-Market (LemonHR)",
+                                    "values": [
+                                        "KRW 10,000 - 15,000",
+                                        "Includes full talent suite"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Global Enterprise",
+                                    "values": [
+                                        "Custom",
+                                        "SAP SuccessFactors / Workday"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-kor-hris-insights",
+                    "type": "insights",
+                    "title": "Korean HR Digitalization",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Mobile Attendance",
+                                "text": "GPS and Wi-Fi based clocking is the norm in Korea to prevent 'buddy clocking' and ensure 52-hour compliance."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Data Shredding",
+                                "text": "HRIS systems must support permanent deletion of data once the statutory retention period (usually 3 years for payroll) expires."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Messenger Integration",
+                                "text": "Systems that integrate with KakaoTalk for notifications and approvals have much higher employee adoption rates in Korea."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-kor-hris-faq",
+                    "type": "faq",
+                    "title": "HRIS FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is digital attendance mandatory?",
+                                "answer": "While not strictly 'digital,' companies must provide accurate records of working hours. Digital systems are the only practical way to defend against 52-hour violations."
+                            },
+                            {
+                                "question": "Can we use a global HRIS in Korea?",
+                                "answer": "Yes, but it must be localized for the '4 Major Insurances' and the complex statutory leave calculations unique to Korean LSA."
+                            },
+                            {
+                                "question": "How does HRIS handle 'Toijikgeum'?",
+                                "answer": "Most local HRIS systems include a severance calculator that automatically tracks service days and average wages to estimate the liability."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-kor-hris-essentials",
+                    "type": "essentials",
+                    "title": "HRIS Implementation Checklist",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "title": "52-Hour Monitoring",
+                                "text": "The system must have a dashboard showing real-time 'Overtime Balance' for all 5+ employee units."
+                            },
+                            {
+                                "title": "PIPA Certification",
+                                "text": "Verify if the provider has ISMS (Information Security Management System) certification in Korea."
+                            },
+                            {
+                                "title": "Employee Consent",
+                                "text": "Digital logs for employee consent to collect biometric or GPS data for attendance."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "hris-hrms-ats",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS"
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Bookkeeping",
+                "subtitle": "E-Tax Invoices",
+                "description": "Mandatory Electronic Tax Invoices required for VAT. Strict NTS compliance.",
+                "bestFor": "Reporting.",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "section-kor-acc-steps",
+                    "type": "key_steps",
+                    "title": "Monthly Accounting Cycle",
+                    "subtitle": "K-IFRS / GAAP",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "E-Tax Invoice Audit",
+                                "description": "Reconciling all sales and purchases via the 'HomeTax' (NTS) portal. All business-to-business invoices MUST be electronic."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Expense Voucher Mgt",
+                                "description": "Collecting physical or digital receipts for corporate card transactions. Strict documentation is required for tax deductibility."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "VAT Preparation",
+                                "description": "Consolidating input and output VAT for the quarterly filing (Jan, April, July, Oct)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Monthly Close",
+                                "description": "Generating the P&L and Balance Sheet for headquarters reporting. GAAP to IFRS conversions if necessary."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-kor-acc-costs",
+                    "type": "cost_breakdown",
+                    "title": "Accounting Service Fees",
+                    "order": 2,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service Type",
+                                "Cost Estimate (KRW)",
+                                "Frequency"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Basic Bookkeeping",
+                                    "values": [
+                                        "300,000 - 600,000",
+                                        "Monthly"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "VAT Filing",
+                                    "values": [
+                                        "200,000 - 500,000",
+                                        "Quarterly"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Annual Audit Support",
+                                    "values": [
+                                        "2.0M - 10.0M",
+                                        "Per Audit"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Corporate CIT Filing",
+                                    "values": [
+                                        "1.0M - 3.0M",
+                                        "Annual"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-kor-acc-insights",
+                    "type": "insights",
+                    "title": "Regulatory Standards",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Electronic Tax Invoices",
+                                "text": "Mandatory for all corporations. Failure to issue an e-invoice carries a 1-2% penalty on the transaction value."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "NTS Monitoring",
+                                "text": "The National Tax Service (NTS) has one of the most advanced digital monitoring systems in the world. Discrepancies often trigger automated inquiries."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Corporate Cards",
+                                "text": "Using corporate cards for all business expenses simplifies accounting as the data flows directly into the tax portal."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-kor-acc-faq",
+                    "type": "faq",
+                    "title": "Accounting FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the accounting year in Korea?",
+                                "answer": "The standard fiscal year is Jan 1 to Dec 31. Companies can elect a different year in their Articles of Incorporation, but 95%+ follow the calendar year."
+                            },
+                            {
+                                "question": "Is an external audit mandatory?",
+                                "answer": "Yes, for companies exceeding certain thresholds (e.g., assets > KRW 12B, liabilities > KRW 7B, or employees > 100)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-kor-acc-essentials",
+                    "type": "essentials",
+                    "title": "Accounting Checklist",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "title": "HomeTax ID",
+                                "text": "The gateway to all tax and accounting reporting. Digital certificates are required for login."
+                            },
+                            {
+                                "title": "Corporate Seal",
+                                "text": "Must match the registry to validate financial documents and bank transactions."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-kor-comp-steps",
+                    "type": "key_steps",
+                    "title": "Core Compliance Framework",
+                    "subtitle": "Mandatory Obligations",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Rules of Employment (ROE)",
+                                "description": "Mandatory for companies with 10+ employees. Must be filed with the MOEL (Ministry of Employment and Labor)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Occupational Safety",
+                                "description": "Establishing a safety management system to comply with SAPA and the Industrial Safety and Health Act (ISHA)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Sexual Harassment Prevention",
+                                "description": "Conducting mandatory annual training for all employees. Records must be kept for 3 years."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Data Protection Officer",
+                                "description": "Appointing a CPO (Chief Privacy Officer) if the company processes personal data of Korean citizens under PIPA."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-kor-comp-insights",
+                    "type": "insights",
+                    "title": "Regulatory Safeguards",
+                    "order": 2,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Serious Accidents Punishment Act",
+                                "text": "CEOs can face 1+ years in prison and the company up to KRW 5B in fines for fatal workplace accidents due to safety negligence."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Workplace Harassment",
+                                "text": "The LSA strictly prohibits 'gapjil' (abuse of power). Employers must investigate all claims immediately or face criminal penalties."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Disability Hiring",
+                                "text": "Companies with 50+ employees must meet disability hiring quotas or pay a monthly levy (solidarity contribution)."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Sexual Harassment Training",
+                                "text": "Annual mandatory training for all employees. Documented proof must be kept for audits."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Privacy (PIPA)",
+                                "text": "Personal Information Protection Act requires explicit consent for cross-border data transfers of employee data."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-kor-comp-faq",
+                    "type": "faq",
+                    "title": "Compliance FAQ",
+                    "order": 3,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the 52-hour work week rule?",
+                                "answer": "The maximum working hours are 40 standard hours plus 12 overtime hours. Violations carry up to 2 years in prison for the representative director."
+                            },
+                            {
+                                "question": "How often are MOEL audits conducted?",
+                                "answer": "Routine audits are periodic, but 'Special Labor Inspections' occur if multiple complaints are filed or serious violations are suspected."
+                            },
+                            {
+                                "question": "What is 'Gapjil'?",
+                                "answer": "A Korean term for workplace harassment or abuse of power. Anti-Gapjil laws are strictly enforced with mandatory investigation requirements."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-kor-comp-costs",
+                    "type": "cost_breakdown",
+                    "title": "Non-Compliance Levies & Fines",
+                    "order": 4,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Violation Type",
+                                "First Offense Fine",
+                                "Max Penalty"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "52-Hour Violation",
+                                    "values": [
+                                        "Criminal Prosecution",
+                                        "2 Yrs Prison / KRW 20M"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Sexual Harassment Training",
+                                    "values": [
+                                        "KRW 3.0M",
+                                        "KRW 5.0M (Repeat)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Disability Levy (Shortfall)",
+                                    "values": [
+                                        "KRW 1.2M / Employee",
+                                        "Monthly payment"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-kor-comp-essentials",
+                    "type": "essentials",
+                    "title": "Compliance Monitoring Audit",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Labor Inspectorate Kit",
+                                "text": "Maintaining a binder with Labor Contracts, ROE, Salary Register, and Training logs for MOEL visits."
+                            },
+                            {
+                                "title": "SAPA Management Plan",
+                                "text": "Annual review of safety budgets and appointment of a safety officer (if 50+ staff)."
+                            },
+                            {
+                                "title": "PIPA Data Privacy",
+                                "text": "Ensuring PII is not sent overseas without explicit separate consent (Standard for global HQs)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-kor-comp-workflow",
+                    "type": "key_steps",
+                    "title": "Audit Preparation Workflow",
+                    "subtitle": "Step-by-Step Readiness",
+                    "order": 6,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Self-Audit",
+                                "description": "Reviewing all labor contracts and rules of employment for compliance with the latest LSA updates."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Training Verification",
+                                "description": "Ensuring all mandatory trainings (Sexual Harassment, Privacy, Disability) are completed and signed off."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Document Filing",
+                                "description": "Organizing payroll ledgers and attendance records for the mandatory 3-year retention period."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-kor-tax-steps",
+                    "type": "key_steps",
+                    "title": "Tax Compliance Timeline",
+                    "subtitle": "Annual Obligations",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "VAT Filing",
+                                "description": "Quarterly submission (April, July, Oct, Jan) for the respective previous quarter's activity."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "CIT Return",
+                                "description": "Corporate Income Tax filing by March 31st for the previous calendar year."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "CIT Interim",
+                                "description": "Payment of 50% of the previous year's tax or actual H1 results by August 31st."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Global Reporting",
+                                "description": "Filing the Master/Local file for Transfer Pricing if intercompany transactions exceed thresholds."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-kor-tax-costs",
+                    "type": "cost_breakdown",
+                    "title": "Corporate Income Tax (CIT) 2025",
+                    "order": 2,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Taxable Income Bracket",
+                                "Tax Rate",
+                                "Local Tax (10%)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Up to KRW 200M",
+                                    "values": [
+                                        "9%",
+                                        "0.9%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "KRW 200M - 20B",
+                                    "values": [
+                                        "19%",
+                                        "1.9%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "KRW 20B - 300B",
+                                    "values": [
+                                        "21%",
+                                        "2.1%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Over KRW 300B",
+                                    "values": [
+                                        "24%",
+                                        "2.4%"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-kor-tax-insights",
+                    "type": "insights",
+                    "title": "Tax Incentives & Strategy",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Expat Flat Tax",
+                                "text": "Foreign employees can elect a 19% flat income tax rate for their first 20 years of working in Korea, bypassing progressive brackets."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "R&D Credits",
+                                "text": "Korea offers one of the world's most generous R&D tax credits, often reaching 25-50% for SMEs and 2-15% for large corps."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Transfer Pricing",
+                                "text": "Strict enforcement on management fees and royalty payments to parent companies. Must be at 'arm's length' terms."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-kor-tax-faq",
+                    "type": "faq",
+                    "title": "Taxation FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the VAT rate in Korea?",
+                                "answer": "The standard VAT rate is 10%. Exported goods and certain international services have a 0% rate."
+                            },
+                            {
+                                "question": "Are there tax holidays for foreign investors?",
+                                "answer": "Yes, localized incentives exist in Free Economic Zones (FEZs) for specific industries like high-tech and biotech."
+                            },
+                            {
+                                "question": "What is the 'Local Income Tax'?",
+                                "answer": "An additional 10% surcharge on the Corporate Income Tax (CIT) amount, paid to the local municipal office."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-kor-tax-essentials",
+                    "type": "essentials",
+                    "title": "Corporate Tax Checklist",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Business Registration",
+                                "text": "Must be updated within 20 days if any business purpose or office location changes."
+                            },
+                            {
+                                "title": "HomeTax Access",
+                                "text": "Ensure the 'Joint Certificate' (Gongdong Injeungseo) is renewed annually for NTS access."
+                            },
+                            {
+                                "title": "Withholding Evidence",
+                                "text": "Maintaining records of all 3.3% freelancer tax and 10th-of-month salary tax payments."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "finance-tax-accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting"
+        },
+        {
+            "serviceSlug": "msa",
+            "service": "M & A",
+            "heroData": {
+                "title": "Contracts",
+                "subtitle": "Korean Law",
+                "description": "Contracts should be bilingual. Korean version prevails in court.",
+                "bestFor": "Protection.",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "section-kor-msa-steps",
+                    "type": "key_steps",
+                    "title": "Legal Agreement Workflow",
+                    "subtitle": "Contract Standards",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Bilingual Drafting",
+                                "description": "Drafting contracts in both English and Korean. Ensure a 'governing language' clause specifies Korean for local courts."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Jurisdiction Check",
+                                "description": "Typically choosing the Seoul Central District Court or the Korean Commercial Arbitration Board (KCAB) for disputes."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Seal Certificate",
+                                "description": "Verifying the counterparty's corporate seal certificate (Ingam Jung-myeong-seo) to ensure the signer has authority."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-kor-msa-faq",
+                    "type": "faq",
+                    "title": "MSA & Legal FAQ",
+                    "order": 3,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Are electronic signatures legally binding in Korea?",
+                                "answer": "Yes, under the Digital Signature Act. However, major real estate or government-related filings often still require a physical seal (Ingam)."
+                            },
+                            {
+                                "question": "What is the KCAB?",
+                                "answer": "The Korean Commercial Arbitration Board. It is the only authorized institution in Korea for settling commercial disputes via arbitration."
+                            },
+                            {
+                                "question": "Do contracts need to be notarized?",
+                                "answer": "Generally no for standard B2B services, but powers of attorney and certain corporate resolutions for the registry must be notarized and apostilled."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-kor-msa-essentials",
+                    "type": "essentials",
+                    "title": "Contractual Best Practices",
+                    "order": 4,
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Termination Notice",
+                                "text": "Always specify a fixed notice period (e.g., 3 months) to align with statutory labor protections if the MSA involves dedicated staff."
+                            },
+                            {
+                                "title": "Confidentiality Scope",
+                                "text": "Must be explicit regarding trade secrets to be enforceable under the 'Unfair Competition Prevention and Trade Secret Protection Act'."
+                            },
+                            {
+                                "title": "Stamp Tax",
+                                "text": "Certain original contracts exceeding KRW 10M in value may require the payment of stamp tax (e-stamps)."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "msa",
+            "name": "M & A",
+            "serviceName": "M & A"
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Tech Ecosystem",
+                "subtitle": "Advanced",
+                "description": "World-class IT infrastructure. High mobile penetration.",
+                "bestFor": "Development.",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "section-kor-soft-steps",
+                    "type": "key_steps",
+                    "title": "Development Ecosystem",
+                    "subtitle": "Tech Standards",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Platform Selection",
+                                "description": "Web dominates, but Mobile-First (Android specifically) is critical due to Samsung's market share in Korea."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Localization (L10n)",
+                                "description": "Adapting UI for Korean characters (Hangul). Note: Fonts like 'Noto Sans KR' or 'Pretendard' are industry standards."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Payment Integration",
+                                "description": "Integrating with local gateways (PGs) like Toss Payments, KG Inicis, or KakaoPay is essential; Stripe/Mollie have limited usage."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-kor-soft-costs",
+                    "type": "cost_breakdown",
+                    "title": "Developer Salary Benchmarks",
+                    "order": 2,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Role",
+                                "Junior (0-3 yrs)",
+                                "Senior (7+ yrs)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Frontend (React)",
+                                    "values": [
+                                        "KRW 45M - 60M",
+                                        "KRW 85M - 120M"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Backend (Spring/Java)",
+                                    "values": [
+                                        "KRW 50M - 65M",
+                                        "KRW 90M - 130M"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Mobile (Kotlin/Swift)",
+                                    "values": [
+                                        "KRW 48M - 62M",
+                                        "KRW 88M - 125M"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-kor-soft-faq",
+                    "type": "faq",
+                    "title": "Software Development FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Which tech stack is most popular in Korea?",
+                                "answer": "Java with Spring Boot is the de-facto standard for enterprise, while React and TypeScript are dominant for frontend."
+                            },
+                            {
+                                "question": "Is it hard to hire AI engineers in Seoul?",
+                                "answer": "Yes, competition from Kakao, Naver, and Samsung is intense. Expect to pay a 20-30% premium over standard senior developer rates."
+                            },
+                            {
+                                "question": "Do Korean developers speak English?",
+                                "answer": "Fluency varies. While technical reading/writing is high, verbal communication for daily standups often requires a bilingual project manager."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-kor-soft-essentials",
+                    "type": "essentials",
+                    "title": "Tech Stack Recommendations",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Server Residency",
+                                "text": "AWS Seoul Region (ap-northeast-2) is preferred to minimize latency and comply with local data preferences."
+                            },
+                            {
+                                "title": "ID Verification",
+                                "text": "Integrating 'Self-Authentication' (Phone/I-PIN) is mandatory for any service involving financial transactions or high-security data."
+                            },
+                            {
+                                "title": "Accessibility",
+                                "text": "Web content must follow WAAG (Web Accessibility Action Guide) standards, especially for government-facing portals."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "software-technology-solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions"
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Digital Marketing",
+                "subtitle": "Naver & Kakao",
+                "description": "Google is not #1. Naver SEO and KakaoTalk marketing are essential.",
+                "bestFor": "Localization.",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "section-kor-mark-steps",
+                    "type": "key_steps",
+                    "title": "GTM Marketing Strategy",
+                    "subtitle": "Navigating Korean Digital",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Naver Brand Search",
+                                "description": "Securing the top banner for your brand name on Naver. This is the first trust signal for Korean consumers."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "KakaoTalk Channel",
+                                "description": "Setting up a 'Plus Friend' channel for CRM and push notifications. Mandatory for any B2C play."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Cafe/Blog Marketing",
+                                "description": "Engaging in Naver Cafes (communities) and using 'Power Bloggers' for organic reviews and social proof."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "YouTube & IG Ads",
+                                "description": "Standard digital spend; highly effective for the 20-40 demographic in Seoul."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-kor-mark-costs",
+                    "type": "cost_breakdown",
+                    "title": "Market Entry Budgeting",
+                    "order": 2,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service Component",
+                                "Estimated Monthly (KRW)",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Naver Search Ads",
+                                    "values": [
+                                        "3.0M - 10.0M",
+                                        "Varies by keyword competition"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Influencer (Nano/Micro)",
+                                    "values": [
+                                        "500,000 - 2.0M",
+                                        "Per post/review"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Agency Retainer",
+                                    "values": [
+                                        "2.0M - 5.0M",
+                                        "Content & community mgmt"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-kor-mark-insights",
+                    "type": "insights",
+                    "title": "Korean Consumer Behavior",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Naver vs Google",
+                                "text": "Google is gaining share (now ~30%), but Naver is still the destination for local reviews, maps, and shopping searches."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Coupons & Points",
+                                "text": "The Korean market is highly driven by point ecosystems (Naver Pay points, OK Cashbag) and flash discounts."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-kor-mark-faq",
+                    "type": "faq",
+                    "title": "Marketing FAQ",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Why is Naver different from Google?",
+                                "answer": "Naver is a 'walled garden' portal. SEO focuses on Naver-owned properties like Blogs, Cafes, and Knowledge iN rather than external links."
+                            },
+                            {
+                                "question": "Should I use KakaoTalk for marketing?",
+                                "answer": "Yes, the KakaoTalk 'Channel' is the primary way to maintain relationships with existing customers in Korea."
+                            },
+                            {
+                                "question": "Is English content effective?",
+                                "answer": "Only for niche B2B tech audiences. For the general public, 100% localization in Hangul is mandatory for conversion."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-kor-mark-essentials",
+                    "type": "essentials",
+                    "title": "Digital Assets Checklist",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Naver Search Advisor",
+                                "text": "Registering your site to ensure basic indexing on the domestic search results."
+                            },
+                            {
+                                "title": "KCP / Toss PG",
+                                "text": "Setting up local payment gateways to enable Naver Pay and Samsung Pay at checkout."
+                            },
+                            {
+                                "title": "Privacy Policy",
+                                "text": "Must include specific Korean PIPA clauses and the name of the Data Privacy Officer."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-kor-mark-assets",
+                    "type": "essentials",
+                    "title": "Digital Assets Checklist",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Naver Search Advisor",
+                                "text": "Registration of the website on Naver's equivalent of Google Search Console for visibility."
+                            },
+                            {
+                                "title": "Kakao Business Channel",
+                                "text": "Verified business profile on KakaoTalk for customer support and lead generation."
+                            },
+                            {
+                                "title": "Local Payment Gateway",
+                                "text": "Integration with KG Inicis or Toss Payments for domestic credit card processing."
+                            },
+                            {
+                                "title": "KCC Accessibility Cert",
+                                "text": "Ensuring the website meets Korean web accessibility standards (often required for govt-related b2b)."
+                            },
+                            {
+                                "title": "Domain .kr or .co.kr",
+                                "text": "Highly recommended for local SEO and trust; requires local business registration."
+                            },
+                            {
+                                "title": "Naver Maps Integration",
+                                "text": "Essential for 'O2O' (Online to Offline) businesses to show physical presence in Seoul/Gyeonggi."
+                            },
+                            {
+                                "title": "Localized Privacy Policy",
+                                "text": "Must include Korean language contact details for the designated Privacy Officer (PIPA requirement)."
+                            },
+                            {
+                                "title": "Influencer Outreach Kit",
+                                "text": "Templates for Naver Blog 'Power Bloggers' and YouTube creators, emphasizing 'Gwang-go' (paid) disclosure."
+                            },
+                            {
+                                "title": "Coupon & Loyalty System",
+                                "text": "Integration with Kakao Pay points or local mileage systems to drive consumer retention."
+                            },
+                            {
+                                "title": "Brand Search Ad Setup",
+                                "text": "Exclusive Naver ad unit that occupies the top spot for branded keywords with rich media assets."
+                            },
+                            {
+                                "title": "Instagram Korea Ads",
+                                "text": "Essential for lifestyle and B2C brands, utilizing local influencers for high engagement rates."
+                            },
+                            {
+                                "title": "YouTube Localization",
+                                "text": "Creating high-quality Korean subtitles and localized thumbnails to improve CTR among domestic viewers."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "marketing-agency",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY"
+        }
+    ]
+}

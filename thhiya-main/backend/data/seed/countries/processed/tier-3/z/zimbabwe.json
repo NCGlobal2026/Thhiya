@@ -1,0 +1,2032 @@
+{
+    "name": "Zimbabwe",
+    "code": "ZW",
+    "slug": "zimbabwe",
+    "flag": "https://flagcdn.com/w160/zw.png",
+    "region": "Africa",
+    "languages": [
+        "English",
+        "Shona",
+        "Ndebele"
+    ],
+    "currencies": [
+        "USD",
+        "ZiG"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR & PEO in Zimbabwe",
+                "subtitle": "Comprehensive guide to EOR & PEO in Zimbabwe",
+                "description": "Detailed insights and providers for EOR & PEO in Zimbabwe.",
+                "bestFor": "Global expansion teams",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "zw-eor-peo-key-steps-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Process via EOR",
+                    "subtitle": "Navigating Zimbabwe's regulatory framework",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contractual Compliance (Section 12)",
+                                "description": "Drafting employment contracts that specify dual-currency (USD/ZiG) remuneration and adhere to Section 12 of the Labor Act, including grade classification."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "NSSA Registration",
+                                "description": "Registering the employee with the National Social Security Authority (NSSA) and obtaining a Social Security Number for contribution tracking."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Medical & Background Checks",
+                                "description": "Facilitating mandatory medical examinations where required by the National Employment Council (NEC) or industry-specific safety standards."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Training & Standards Setup",
+                                "description": "Ensuring the employee is enrolled for ZIMDEF (Manpower Development) and SDF (Standards Development) levy reporting."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Digital Onboarding",
+                                "description": "Setting up the employee on digital payroll portals for tax (P6) compliance and self-service access to pay slips."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "zw-eor-peo-cost-breakdown-statutory",
+                    "type": "cost_breakdown",
+                    "title": "Statutory Employment Costs",
+                    "subtitle": "Employer and employee contribution rates",
+                    "description": "",
+                    "order": 2,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Contribution Type",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Security (NSSA)",
+                                    "values": [
+                                        "4.5%",
+                                        "4.5%",
+                                        "Subject to income ceiling"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Training Levy (ZIMDEF)",
+                                    "values": [
+                                        "1.0%",
+                                        "0.0%",
+                                        "Mandatory employer levy"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Standards Dev Fund (SDF)",
+                                    "values": [
+                                        "0.5%",
+                                        "0.0%",
+                                        "Paid quarterly to Ministry"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "AIDS Levy",
+                                    "values": [
+                                        "0.0%",
+                                        "3% of PAYE",
+                                        "Employee-paid on income tax"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Workers' Comp (WCIS)",
+                                    "values": [
+                                        "2% - 11%",
+                                        "0.0%",
+                                        "Industry-dependent risk"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "zw-eor-peo-insights-compliance",
+                    "type": "insights",
+                    "title": "Labor Law Insights 2025",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Dual-Currency Realities",
+                                "text": "Employment contracts increasingly reflect USD-denominated salaries with payments converted to ZiG at the prevailing Interbank rate to manage local inflation."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Probationary Limits",
+                                "text": "Section 12(5) limits probation to a single non-renewable 3-month period. Termination during this window requires a minimum of 2 weeks' notice."
+                            },
+                            {
+                                "type": "info",
+                                "title": "The Role of NECs",
+                                "text": "National Employment Councils (NECs) set industry-specific minimum wages and working conditions that often override general labor law provisions."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "zw-eor-peo-faq-queries",
+                    "type": "faq",
+                    "title": "EOR in Zimbabwe FAQs",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I hire expats via EOR in Zimbabwe?",
+                                "answer": "Yes, but they require a Temporary Employment Permit (TEP). The EOR assists in demonstrating that no local skill matches the requirement."
+                            },
+                            {
+                                "question": "What is the standard work week?",
+                                "answer": "The standard week typically ranges from 40 to 48 hours depending on the NEC sector agreement, with most offices operating 44 hours."
+                            },
+                            {
+                                "question": "Is insurance mandatory?",
+                                "answer": "Statutory NSSA covers basic social security, but private medical aid (e.g., CIMAS or PSMAS) is a highly recommended benefit for top-tier talent."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "zw-eor-peo-good-to-know",
+                    "type": "good_to_know",
+                    "title": "Good to Know",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "13th Month Custom",
+                                "text": "A 'Christmas bonus' or 13th-month check is a widespread cultural expectation in Zimbabwe, usually paid in November or December."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Severance Protocols",
+                                "text": "In retrenchment cases, the 2023 Amendment Act mandates a minimum package of one month's salary for every two years of service."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Union Influence",
+                                "text": "Unions are active in mining, agriculture, and industry; maintaining open communication with local shop stewards is vital for EOR compliance."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "zw-global-payroll-key-steps",
+                    "type": "key_steps",
+                    "title": "Monthly Payroll Life Cycle",
+                    "subtitle": "Managing dual-currency disbursements",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Data Aggregation",
+                                "description": "Collecting variable inputs (overtime, bonuses, commission) by the 20th of the month, categorized by payment currency (USD or ZiG)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Gross-to-Net Computation",
+                                "description": "Processing deductions for PAYE (P2), NSSA, and AIDS Levy using ZIMRA-compliant software calibrated to 4 decimal places."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Remittance Split",
+                                "description": "Separating tax liabilities into the ZIMRA Foreign Currency Account (for USD portions) and the Domestic Taxes Account (for ZiG portions)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Bank File Generation",
+                                "description": "Creating split bank files to ensure net salaries reach employees' local FCA and ZiG accounts without breaching exchange control rules."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Statutory Filing (P2 Form)",
+                                "description": "Submitting the monthly P2 tax return to ZIMRA by the 10th of the following month to avoid the 100% late payment penalty."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "zw-global-payroll-cost-breakdown",
+                    "type": "cost_breakdown",
+                    "title": "Payroll Compliance Costs",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 2,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Estimated Pricing (USD)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Monthly Processing",
+                                    "values": [
+                                        "$150 - $450 base + $15/head"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Annual Tax Reconciliation (ITF16)",
+                                    "values": [
+                                        "$500 - $1,200 fixed"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "ZIMRA Audit Support",
+                                    "values": [
+                                        "$200/hour (On-demand)"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "zw-global-payroll-insights",
+                    "type": "insights",
+                    "title": "Filing & Currency Insights",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "ZiG/USD Split Rules",
+                                "text": "Employers must calculate PAYE on the total value of remuneration but remit the tax in the specific currency in which the salary was paid."
+                            },
+                            {
+                                "type": "info",
+                                "title": "The AIDS Levy Quirk",
+                                "text": "Unlike flat-rate levies, the 3% AIDS Levy is calculated on the amount of PAYE due, making accurate tax-bracket placement essential."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Interbank Exchange Rate",
+                                "text": "For statutory reporting of ZiG salaries in USD-denominated reports, the RBZ (Reserve Bank of Zimbabwe) daily Interbank rate must be utilized."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "zw-global-payroll-faq",
+                    "type": "faq",
+                    "title": "Payroll FAQs",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What happens if I miss the 10th deadline?",
+                                "answer": "ZIMRA enforces a 100% penalty on the principal tax amount, plus interest that compounds monthly at a rate set by the Finance Act."
+                            },
+                            {
+                                "question": "Are bonuses taxed differently?",
+                                "answer": "Standard bonuses (13th month) have a tax-free threshold; amounts exceeding this are added to gross income and taxed at marginal PAYE rates."
+                            },
+                            {
+                                "question": "Is paper filing still allowed?",
+                                "answer": "ZIMRA has moved toward its e-Tax portal; while paper (P2) forms are occasionally accepted in rural offices, digital filing is now the mandatory standard for most."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "zw-global-payroll-good-to-know",
+                    "type": "good_to_know",
+                    "title": "Payroll Practicalities",
+                    "subtitle": "Local nuances",
+                    "description": "",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "P6 Form Delivery",
+                                "text": "Employers are legally required to provide every employee with an annual P6 certificate summarising total earnings and tax paid by year-end."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "NEC Levy Shifts",
+                                "text": "Keep a close watch on National Employment Council (NEC) circulars; levy rates often change with shorter notice than national budget items."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Holiday Pay Formulas",
+                                "text": "Calculate leave pay and holiday working rates strictly according to your specific NEC’s grading to avoid labor court disputes."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "zw-payroll-calc-key-steps",
+                    "type": "key_steps",
+                    "title": "Payroll Logic Roadmap",
+                    "subtitle": "Navigating ZIMRA & NSSA formulas",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross Income Input",
+                                "description": "Capturing base salary, commissions, and taxable benefits (e.g., fuel, housing) in both USD and ZiG."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Statutory Deductions",
+                                "description": "Applying NSSA (4.5% up to $700 cap) and pension contributions to arrive at Taxable Income."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "PAYE Computation",
+                                "description": "Calculating tax based on the 2025 ZIMRA tables, accounting for the tax-free threshold of $100 (approx)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "AIDS Levy Application",
+                                "description": "Adding the mandatory 3% levy calculated specifically on the amount of PAYE due."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Net Pay Calculation",
+                                "description": "Deducting all taxes and levies to provide the employee's take-home pay in the respective currency."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "zw-payroll-calc-cost-breakdown",
+                    "type": "cost_breakdown",
+                    "title": "Statutory Contribution Rates",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 2,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Levy/Tax",
+                                "Employer Rate",
+                                "Employee Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "NSSA (Social Security)",
+                                    "values": [
+                                        "4.5%",
+                                        "4.5%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "ZIMDEF (Manpower)",
+                                    "values": [
+                                        "1.0%",
+                                        "0.0%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Standards Dev Fund",
+                                    "values": [
+                                        "0.5%",
+                                        "0.0%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "AIDS Levy",
+                                    "values": [
+                                        "0.0%",
+                                        "3% of PAYE"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "zw-payroll-calc-insights",
+                    "type": "insights",
+                    "title": "Calculator & Compliance Insights",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "NSSA Cap Review",
+                                "text": "The NSSA insurable earnings cap is reviewed quarterly; 2024/2025 levels are set at $700 per month."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Dual-Currency Remittance",
+                                "text": "If salary is paid in USD, taxes must be paid to ZIMRA in USD. Partial payments require proportional tax splits."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Tax-Free Bonus",
+                                "text": "The 13th-month bonus typically enjoys a specific tax-free threshold (reviewed annually in the National Budget)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "zw-payroll-calc-faq",
+                    "type": "faq",
+                    "title": "Calculator FAQs",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I calculate ZiG tax?",
+                                "answer": "Yes, the calculator uses the latest ZIMRA tables for both USD and ZiG currencies as per current Statutory Instruments."
+                            },
+                            {
+                                "question": "Are benefits-in-kind taxable?",
+                                "answer": "Yes, fuel, housing, and school fees benefits are taxable under the 'Deemed Benefit' rules of the Income Tax Act."
+                            },
+                            {
+                                "question": "What is the AIDS Levy?",
+                                "answer": "It is a 3% levy calculated on the PAYE amount, effectively a tax on a tax, used for HIV/AIDS prevention programs."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "zw-payroll-calc-good-to-know",
+                    "type": "good_to_know",
+                    "title": "Payroll Nuances",
+                    "subtitle": "Reporting insights",
+                    "description": "",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "NEC Graded Minimums",
+                                "text": "Ensure your base salary meets the minimums set by the relevant National Employment Council (NEC) for your sector."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "P6 Form Delivery",
+                                "text": "Employers must provide an annual P6 certificate to every employee by the end of the first month of the new tax year."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Pension Deductions",
+                                "text": "In addition to NSSA, many firms have mandatory private pension contributions which should be factored into the 'Net Pay' logic."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation in Zimbabwe",
+                "subtitle": "Comprehensive guide to Incorporation in Zimbabwe",
+                "description": "Detailed insights and providers for Incorporation in Zimbabwe.",
+                "bestFor": "Global expansion teams",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "zw-incorporation-key-steps",
+                    "type": "key_steps",
+                    "title": "Registration Roadmap",
+                    "subtitle": "Setting up via the ZIDA One-Stop Shop",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Entity Type Selection",
+                                "description": "Choosing between a Private Limited Company (PLC) for scalability or a Private Business Corporation (PBC) for simpler governance."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Name Reservation",
+                                "description": "Submitting the CR21 form to the Registrar of Companies for uniqueness verification in the national registry."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Statutory Drafting",
+                                "description": "Preparing the Memorandum and Articles of Association (for PLCs) or the Incorporation Statement (for PBCs)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Capital & Bank Setup",
+                                "description": "Setting up the mandatory Foreign Currency Account (FCA) and domestic account for capital injection and operational use."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Tax & Social Security Linkage",
+                                "description": "Registering for the Business Partner (BP) number with ZIMRA and the NSSA employer code for statutory compliance."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "zw-incorporation-cost-breakdown",
+                    "type": "cost_breakdown",
+                    "title": "Incorporation Fee Estimates",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 2,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Entity Type",
+                                "Statutory Fees (USD)",
+                                "Professional Fees"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Private Ltd Company (PLC)",
+                                    "values": [
+                                        "$180 - $280",
+                                        "$400 - $800"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Private Business Corp (PBC)",
+                                    "values": [
+                                        "$100 - $165",
+                                        "$150 - $300"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "ZIDA Investment License",
+                                    "values": [
+                                        "$500",
+                                        "Custom"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "zw-incorporation-insights",
+                    "type": "insights",
+                    "title": "Operational Insights",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "ZIDA Facilitation",
+                                "text": "Foreign investors should leverage the Zimbabwe Investment and Development Agency (ZIDA) to streamline work permits and licensing in a single window."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Local Director custom",
+                                "text": "While not always legally mandated for all sectors, having a local resident director significantly eases bank account opening and ZIMRA physical inspections."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Beneficial Ownership",
+                                "text": "Recent 2024 regulations require strict disclosure of beneficial owners (holding >20% shares) to the Registrar of Companies."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "zw-incorporation-faq",
+                    "type": "faq",
+                    "title": "Incorporation FAQs",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "How long does name reservation take?",
+                                "answer": "Name reservation typically takes 2-4 business days, though expedited services at the Registrar of Companies can reduce this."
+                            },
+                            {
+                                "question": "Can I operate as a sole trader?",
+                                "answer": "Foreigners are generally restricted from operating as sole traders and must incorporate a PBC or PLC to comply with investment regulations."
+                            },
+                            {
+                                "question": "What is the minimum capital?",
+                                "answer": "There is no statutory minimum capital for PLCs, but practical banking requirements usually suggest an injection of at least $500 - $1,000."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "zw-incorporation-good-to-know",
+                    "type": "good_to_know",
+                    "title": "Investor Considerations",
+                    "subtitle": "ZIDA & Reserved Sectors",
+                    "description": "",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Reserved Sectors 2025",
+                                "text": "Certain sectors like retail and passenger transport are reserved for Zimbabwean citizens unless specific investment thresholds are met via ZIDA."
+                            },
+                            {
+                                "type": "info",
+                                "title": "PBC for SMEs",
+                                "text": "Private Business Corporations (PBCs) are often faster to set up and have lower compliance overhead for small-to-medium enterprises."
+                            },
+                            {
+                                "type": "info",
+                                "title": "ZIDA One-Stop Shop",
+                                "text": "The ZIDA office in Harare provides a single point for company registration, tax, and licensing, significantly speeding up the entry process."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Zimbabwe",
+                "subtitle": "Comprehensive guide to Staffing in Zimbabwe",
+                "description": "Detailed insights and providers for Staffing in Zimbabwe.",
+                "bestFor": "Global expansion teams",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "zw-staffing-key-steps",
+                    "type": "key_steps",
+                    "title": "Recruitment Lifecycle",
+                    "subtitle": "Sourcing talent in the 'Sunshine City'",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Sourcing Strategy",
+                                "description": "Utilizing established platforms like CV People Zimbabwe and high-engagement WhatsApp professional groups."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Academic Verification",
+                                "description": "Validating degrees from the University of Zimbabwe (UZ) and NUST through the Zimbabwe Council for Higher Education (ZIMCHE)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Bilingual Assessment",
+                                "description": "Conducting interviews in English while assessing cultural fit for local dynamics involving Shona or Ndebele contexts."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "NEC Grading",
+                                "description": "Matching candidates to the correct National Employment Council (NEC) job grades to ensure minimum wage compliance."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Onboarding Coordination",
+                                "description": "Linking successful candidates with HR for NSSA social security and medical aid enrollment."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "zw-staffing-cost-breakdown",
+                    "type": "cost_breakdown",
+                    "title": "Recruitment Service Fees",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 2,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service",
+                                "Market Pricing"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Permanent Placement",
+                                    "values": [
+                                        "10% - 20% of Annual Gross"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Executive Headhunting",
+                                    "values": [
+                                        "25% - 33% (Retainer based)"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Bulk Staffing",
+                                    "values": [
+                                        "Negotiable project fees"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "zw-staffing-insights",
+                    "type": "insights",
+                    "title": "Talent Ecosystem Insights",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "The Diaspora Return",
+                                "text": "Many high-tier roles are currently being filled by returning 'diaspora' Zimbabweans with regional (SA/UK) experience."
+                            },
+                            {
+                                "type": "info",
+                                "title": "LinkedIn Engagement",
+                                "text": "Harare's professional community is exceptionally active on LinkedIn; direct headhunting is often more effective than job board postings."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Hard Skills Scarcity",
+                                "text": "Specialized roles in FinTech (blockchain, React) and heavy industry often face scarcity, requiring aggressive talent mapping."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "zw-staffing-faq",
+                    "type": "faq",
+                    "title": "Staffing & Talent FAQs",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the typical notice period?",
+                                "answer": "Notice periods vary by seniority and contract type, usually ranging from 1 to 3 months for permanent positions."
+                            },
+                            {
+                                "question": "Are background checks common?",
+                                "answer": "Yes, criminal record checks via the Republic Police and verification of academic transcripts from ZIMSEC or local universities are standard."
+                            },
+                            {
+                                "question": "Is the 13th-month bonus mandatory?",
+                                "answer": "While not statutory, a 'December Bonus' is a deeply entrenched market expectation and is often included in NEC agreements."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "zw-staffing-good-to-know",
+                    "type": "good_to_know",
+                    "title": "Talent Nuances",
+                    "subtitle": "Market expectations",
+                    "description": "",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Detailed CVs",
+                                "text": "Zimbabwean candidates typically provide very detailed CVs including full academic history (O-Levels/A-Levels) and personal references."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Educational Verification",
+                                "text": "Given the high value placed on education, strictly verifying degrees and certificates is essential to avoid fraudulent credentials."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Mobile First Reach",
+                                "text": "Professional recruitment often happens on LinkedIn, but lower-level roles are effectively sourced through WhatsApp groups and community notices."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS in Zimbabwe",
+                "subtitle": "Comprehensive guide to HRIS in Zimbabwe",
+                "description": "Detailed insights and providers for HRIS in Zimbabwe.",
+                "bestFor": "Global expansion teams",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "zw-hris-key-steps",
+                    "type": "key_steps",
+                    "title": "Implementation Steps",
+                    "subtitle": "Deploying dual-currency HR systems",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "System Selection",
+                                "description": "Evaluating systems like Belina or Sage that support Zimbabwe's complex ZIMRA tax tables and dual-currency (USD/ZiG) reporting."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Grade Mapping",
+                                "description": "Configuring NEC (National Employment Council) job grades and corresponding salary structures into the HRIS database."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Employee Self-Service",
+                                "description": "Setting up mobile portals for payslip viewing, P6 certificate downloads, and leave requests (statutory and annual)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "NSSA & Tax Integration",
+                                "description": "Linking payroll outputs to NSSA portal formats and ZIMRA e-filing (P2) templates for automated compliance."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Policy Digitalization",
+                                "description": "Uploading the company code of conduct and Section 12 contract templates for digital signing and storage."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "zw-hris-cost-breakdown",
+                    "type": "cost_breakdown",
+                    "title": "HRIS Pricing Tiers",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 2,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Feature Set",
+                                "Estimated Monthly (USD)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Core HR & Payroll (Local)",
+                                    "values": [
+                                        "$5 - $10 per employee"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Global Cloud HRIS",
+                                    "values": [
+                                        "$12 - $25 per employee"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Custom Implementation",
+                                    "values": [
+                                        "$1,500 - $5,000 setup"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "zw-hris-insights",
+                    "type": "insights",
+                    "title": "Technology Insights",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Offline Connectivity",
+                                "text": "Given intermittent power/internet in some regions, 'Offline-first' desktop systems with cloud sync are still preferred by many local HR managers."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Dual-Bank Output",
+                                "text": "Systems must generate separate bank export files for FCA (USD) and local (ZiG) accounts to comply with exchange control regulations."
+                            },
+                            {
+                                "type": "info",
+                                "title": "ZIMRA e-Tax Ready",
+                                "text": "Ensure your HRIS can export the P2 file in the exact Excel structure required by the ZIMRA portal to avoid manual data entry errors."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "zw-hris-faq",
+                    "type": "faq",
+                    "title": "HRIS Technology FAQs",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can the HRIS handle dual currency?",
+                                "answer": "Yes, local-ready HRIS systems are designed to calculate payroll and taxes in both USD and ZiG simultaneously."
+                            },
+                            {
+                                "question": "Is cloud hosting safe?",
+                                "answer": "Cloud hosting is growing, but ensure compliance with the 2021 Data Protection Act regarding the transfer of personal data outside Zimbabwe."
+                            },
+                            {
+                                "question": "Does it support biometric integration?",
+                                "answer": "Many industrial firms in Zimbabwe use biometric clock-in systems integrated directly with their HRIS for attendance tracking."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "zw-hris-good-to-know",
+                    "type": "good_to_know",
+                    "title": "Tech Implementation",
+                    "subtitle": "Local infrastructure",
+                    "description": "",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Connectivity Resilience",
+                                "text": "Systems should have mobile app capability and offline-sync features to handle sporadic internet connectivity or power load-shedding."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Data Sovereignty",
+                                "text": "Recent data laws emphasize that critical citizen data should ideally reside within local jurisdiction or be handled by certified providers."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Self-Service Adoption",
+                                "text": "Employee self-service (ESS) via WhatsApp-based bots is highly effective in Zimbabwe due to the platform's ubiquitous usage and low data cost."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting in Zimbabwe",
+                "subtitle": "Comprehensive guide to Accounting in Zimbabwe",
+                "description": "Detailed insights and providers for Accounting in Zimbabwe.",
+                "bestFor": "Global expansion teams",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "zw-accounting-key-steps",
+                    "type": "key_steps",
+                    "title": "Financial Stewardship",
+                    "subtitle": "IFRS compliance in Zimbabwe",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Chart of Accounts setup",
+                                "description": "Designing a dual-currency general ledger that tracks transactions in functional (USD) and presentation (ZiG) currencies."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Daily Exchange Sync",
+                                "description": "Recording daily RBZ Interbank rates to ensure accurate multi-currency valuation for reporting."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "VAT Reporting",
+                                "description": "Analyzing sales and purchases to file monthly VAT returns (Form VAT 7) with ZIMRA."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Statutory Audit Prep",
+                                "description": "Consolidating records for the annual audit by ICAZ-registered chartered accountants."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Tax Computation (QPDs)",
+                                "description": "Calculating Quarterly Payment Dates (QPDs) for corporate tax based on estimated annual income."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "zw-accounting-cost-breakdown",
+                    "type": "cost_breakdown",
+                    "title": "Accounting Service Costs",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 2,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service",
+                                "Typical Fees (USD)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Monthly Bookkeeping",
+                                    "values": [
+                                        "$300 - $1,500"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Annual Financial Audit",
+                                    "values": [
+                                        "$2,500 - $8,000+"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Statutory Secretarial",
+                                    "values": [
+                                        "$50 - $100 / month"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "zw-accounting-insights",
+                    "type": "insights",
+                    "title": "Reporting Standards",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "IFRS for SMEs",
+                                "text": "Most medium-sized entities in Zimbabwe utilize 'IFRS for SMEs' to simplify disclosure requirements while maintaining global credibility."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Hyperinflation Accounting",
+                                "text": "Accountants must remain vigilant regarding IAS 29 (Financial Reporting in Hyperinflationary Economies) if local currency volatility thresholds are exceeded."
+                            },
+                            {
+                                "type": "info",
+                                "title": "IMTT Reconciliation",
+                                "text": "The 2% money transfer tax is a significant overhead; meticulous reconciliation is needed to separate tax-exempt transfers from taxable ones."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "zw-accounting-faq",
+                    "type": "faq",
+                    "title": "Accounting FAQs",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the financial year end?",
+                                "answer": "The standard tax year end is December 31st, though companies can apply to ZIMRA for a different financial year-end."
+                            },
+                            {
+                                "question": "Is software mandatory?",
+                                "answer": "While not legally mandatory, ZIMRA audits strongly favor digital records from systems like Xero, QuickBooks, or Sage."
+                            },
+                            {
+                                "question": "Can I report only in USD?",
+                                "answer": "Statutory accounts must often show a conversion to the local currency (ZiG) for ZIMRA, even if the functional business currency is USD."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "zw-accounting-good-to-know",
+                    "type": "good_to_know",
+                    "title": "Financial Reporting Nuances",
+                    "subtitle": "Dual-currency environment",
+                    "description": "",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "RBZ Exchange Rate",
+                                "text": "Always use the official Reserve Bank of Zimbabwe (RBZ) interbank rate for currency conversions to avoid discrepancies with ZIMRA."
+                            },
+                            {
+                                "type": "info",
+                                "title": "IFRS 16 Leases",
+                                "text": "For entities with significant leased assets (e.g., vehicles, property), ensure compliance with IFRS 16 for proper balance sheet recognition."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Digital Record Keeping",
+                                "text": "ZIMRA increasingly prefers digital records and e-filing; invest in accounting software that facilitates this for smoother audits."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "zw-compliance-key-steps",
+                    "type": "key_steps",
+                    "title": "Governance Framework",
+                    "subtitle": "Navigating the regulatory landscape",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "KYC/AML Alignment",
+                                "description": "Registering with the Financial Intelligence Unit (FIU) for sectors prone to high-value transactions."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Exchange Control Compliance",
+                                "description": "Engaging an Authorised Dealer (Bank) to register external loans or management fees with the RBZ."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "NSSA Safety Audit",
+                                "description": "Facilitating annual workplace safety inspections to maintain compliance with the Factories and Works Act."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Beneficial Ownership Filing",
+                                "description": "Submitting the mandatory disclosure of ultimate owners to the Registrar of Companies."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Data Privacy Setup",
+                                "description": "Aligning internal data handling with the Cyber Security and Data Protection Act (Chapter 12:07)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "zw-compliance-insights",
+                    "type": "insights",
+                    "title": "Regulatory Insights",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 2,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "RBZ Exchange Control",
+                                "text": "All outward remittances (dividends, consulting fees) require prior approval or registration with the Reserve Bank's Exchange Control Division."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Data Protection",
+                                "text": "Zimbabwe's 2021 Data Protection Act imposes strict requirements on the cross-border transfer of sensitive employee personal data."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Statutory Instrument (SI) Velocity",
+                                "text": "Regulations in Zimbabwe often change via 'Statutory Instruments' overnight; maintaining a local compliance partner is critical."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "zw-compliance-essentials",
+                    "type": "essentials",
+                    "title": "Statutory Governance",
+                    "subtitle": "Required registrations",
+                    "description": "",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "NSSA Compliance",
+                                "text": "Mandatory registration and monthly contributions for all employees; failure leads to stiff penalties and interest."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "AML/KYC Requirements",
+                                "text": "Under the Money Laundering and Proceeds of Crime Act, businesses must maintain robust records of beneficial ownership."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Exchange Control",
+                                "text": "Compliance with RBZ directives (e.g., SI 127) regarding currency usage and pricing is strictly monitored."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "zw-compliance-good-to-know",
+                    "type": "good_to_know",
+                    "title": "Governance Nuances",
+                    "subtitle": "Regulatory practicalities",
+                    "description": "",
+                    "order": 4,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "ZimCode",
+                                "text": "The National Code on Corporate Governance Zimbabwe (ZimCode) provides the framework for best practices."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Penalties for Delay",
+                                "text": "Late filing of ZIMRA or NSSA returns attracts heavy punitive interest, often calculated daily."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Data Protection Officer",
+                                "text": "Large entities handling personal data are increasingly expected to appoint a designated Data Protection Officer (DPO)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "zw-compliance-faq",
+                    "type": "faq",
+                    "title": "Compliance FAQs",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 5,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Are there local content requirements?",
+                                "answer": "In sectors like mining and government procurement, 'Indigenisation' or local content policies may apply; consult ZIDA for your specific industry."
+                            },
+                            {
+                                "question": "What is the penalty for non-compliance?",
+                                "answer": "Penalties for exchange control or tax breaches can include heavy fines, asset forfeiture, or criminal prosecution for directors."
+                            },
+                            {
+                                "question": "Is an IPEC registration needed?",
+                                "answer": "Only if your entity provides insurance or pension services; otherwise, typical corporates interact primarily with ZIMRA and NSSA."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "zw-tax-key-steps",
+                    "type": "key_steps",
+                    "title": "Corporate Tax Cycle",
+                    "subtitle": "ZIMRA compliance workflow",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Registration",
+                                "description": "Obtaining a Business Partner (BP) Number and registering for various tax heads (Income Tax, VAT, PAYE)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "QPD Submission",
+                                "description": "Paying Quarterly Payment Dates (QPDs) on the 25th of March, June, September, and December (10%, 25%, 30%, 35% ratio)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "VAT Filing",
+                                "description": "Electronic submission of VAT 7 returns by the 25th of the month following the transaction period."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Final Return (ITF 12C)",
+                                "description": "Submitting the final Corporate Income Tax return by April 30th (or later if extension granted) for the prior tax year."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Tax Clearance (ITF 263)",
+                                "description": "Obtaining the annual ITF 263 certificate, essential for avoiding the 30% withholding tax on payments from clients."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "zw-tax-cost-breakdown",
+                    "type": "cost_breakdown",
+                    "title": "Key Tax Rates 2025",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 2,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Tax Head",
+                                "Rate",
+                                "Details"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax",
+                                    "values": [
+                                        "24.72%",
+                                        "24% base + 3% AIDS Levy"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Value Added Tax (VAT)",
+                                    "values": [
+                                        "15%",
+                                        "On taxable goods & services"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Withholding Tax (Fees)",
+                                    "values": [
+                                        "15%",
+                                        "On non-resident consulting"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "IMTT (Money Transfer)",
+                                    "values": [
+                                        "1% - 2%",
+                                        "Transaction-based levy"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Capital Gains Tax",
+                                    "values": [
+                                        "5% - 20%",
+                                        "Depends on acquisition date"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "zw-tax-insights",
+                    "type": "insights",
+                    "title": "Strategic Tax Insights",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "30% Withholding Hazard",
+                                "text": "Without a valid ITF 263 (Tax Clearance Code), clients are legally required to withhold 30% of your gross invoice amount."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Mutapa Investment Fund",
+                                "text": "Entities involved with or competing against Mutapa Fund subsidiaries should note specific tax exemptions that may impact market dynamics."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Currency of Payment",
+                                "text": "Taxes must generally be remitted in the currency of the transaction; USD income generates a USD tax liability."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "zw-tax-faq",
+                    "type": "faq",
+                    "title": "Tax FAQs",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is there a wealth tax?",
+                                "answer": "Zimbabwe introduced a 'Wealth Tax' on residential properties above a certain value in 2024; businesses should assess property-holding impacts."
+                            },
+                            {
+                                "question": "What is the penalty for late VAT?",
+                                "answer": "Late VAT filing triggers a penalty of up to 100% of the tax due, similar to PAYE penalties."
+                            },
+                            {
+                                "question": "Are exports tax-exempt?",
+                                "answer": "Exports are generally zero-rated for VAT, and companies in Special Economic Zones (SEZs) may enjoy corporate tax holidays."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "zw-tax-good-to-know",
+                    "type": "good_to_know",
+                    "title": "Tax Strategic Planning",
+                    "subtitle": "Optimizing compliance",
+                    "description": "",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Double Tax Agreements (DTAs)",
+                                "text": "Zimbabwe has DTAs with many countries, including South Africa, UK, and UAE; utilizing these can reduce withholding tax on dividends."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Audit Frequency",
+                                "text": "ZIMRA conducts periodic 'desk audits' and full field audits; maintaining clean digital trails of all local transactions is vital."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Fiscalization Requirements",
+                                "text": "Registered operators must use fiscal devices (point of sale) to record all transactions, ensuring real-time reporting to ZIMRA."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "MSA & Legal in Zimbabwe",
+                "subtitle": "Comprehensive guide to MSA & Legal in Zimbabwe",
+                "description": "Detailed insights and providers for MSA & Legal in Zimbabwe.",
+                "bestFor": "Global expansion teams",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "zw-msa-key-steps",
+                    "type": "key_steps",
+                    "title": "Master Agreement Roadmap",
+                    "subtitle": "Essential clauses for Zimbabwe",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Jurisdiction Selection",
+                                "description": "Defining the High Court of Harare as the venue for dispute resolution and governing law as the Laws of Zimbabwe."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Currency Specification",
+                                "description": "Explicitly stating payment currencies (USD/ZiG) and exchange rate source (RBZ Interbank) for multi-currency transactions."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Data Protection Clause",
+                                "description": "Incorporating 2021 Data Protection Act requirements for handling sensitive local data."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Termination Protocal",
+                                "description": "Aligning notice periods with Section 12 of the Labour Act for service-based contracts involving personnel."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Indemnification & HIPAA",
+                                "description": "Drafting robust indemnity clauses to protect against regulatory shifts and exchange control breaches."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "zw-msa-insights",
+                    "type": "insights",
+                    "title": "Legal Ecosystem Insights",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 2,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Contractor vs Employee",
+                                "text": "Zimbabwean courts often use the 'control test'; if a contractor works exclusively for you using your tools, they may be deemed a 'statutory employee' with full benefits."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Arbitration Preference",
+                                "text": "Many international firms prefer the Commercial Arbitration Centre in Harare for faster resolution compared to the High Court backlog."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Dual-Language Contracts",
+                                "text": "While English is the legal standard, having simplified summaries in Shona/Ndebele for manual labor contracts is a best practice for clarity."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "zw-msa-faq",
+                    "type": "faq",
+                    "title": "MSA & Legal FAQs",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 3,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the statute of limitations?",
+                                "answer": "The standard prescription period for most contractual debts in Zimbabwe is 3 years from the date the debt became due."
+                            },
+                            {
+                                "question": "Are e-signatures valid?",
+                                "answer": "Yes, under the Electronic Transactions and Cybersecurity Act, digital signatures are generally recognized for commercial contracts."
+                            },
+                            {
+                                "question": "Do I need a local legal representative?",
+                                "answer": "Foreign entities are strongly advised to have a local Legal Practitioner (admitted to the High Court) for process service and regulatory liaison."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "zw-msa-essentials",
+                    "type": "essentials",
+                    "title": "Execution Requirements",
+                    "subtitle": "Signing and authentication",
+                    "description": "",
+                    "order": 4,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Witness Requirements",
+                                "text": "Commercial contracts usually require two witnesses per party for enhanced evidentiary value in local courts."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Stamp Duty",
+                                "text": "Certain types of legal documents and property-related contracts may attract stamp duty at the Deeds Office."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Company Resolution",
+                                "text": "Ensure that the signatory has a valid Board Resolution authorizing them to bind the Zimbabwean entity."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "zw-msa-good-to-know",
+                    "type": "good_to_know",
+                    "title": "Dispute Resolution",
+                    "subtitle": "Best practices",
+                    "description": "",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Mediation Clauses",
+                                "text": "Including a tier-1 mediation clause can save significant costs by avoiding immediate litigation in the High Court."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Currency of Award",
+                                "text": "Arbitration awards can be denominated in USD, but enforcement may be subject to the prevailing exchange control regulations."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Language for Translation",
+                                "text": "For contracts involving significant rural workforces, bilingual summaries in Shona/Ndebele are recommended for clarity."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software in Zimbabwe",
+                "subtitle": "Comprehensive guide to Software in Zimbabwe",
+                "description": "Detailed insights and providers for Software in Zimbabwe.",
+                "bestFor": "Global expansion teams",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "zw-software-key-steps",
+                    "type": "key_steps",
+                    "title": "Development Lifecycle",
+                    "subtitle": "Building for the Zimbabwe market",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Requirement Localization",
+                                "description": "Analyzing local needs such as USSD integration, mobile money (EcoCash) APIs, and dual-currency logic."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Architecture Design",
+                                "description": "Designing for low-bandwidth environments with 'offline-first' capabilities and PWA (Progressive Web App) standards."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tech Stack Selection",
+                                "description": "Choosing robust frameworks like React Native for mobile and Python/Django or Laravel for scalable backends."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Regulatory Integration",
+                                "description": "Ensuring data residency compliance and integration with ZIMRA billing frameworks where applicable."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "User Acceptance Testing",
+                                "description": "Conducting field tests with local users to validate UX in real-world Zimbabwean connectivity scenarios."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "zw-software-cost-breakdown",
+                    "type": "cost_breakdown",
+                    "title": "Development Pricing",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 2,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Project Scale",
+                                "Estimated Range (USD)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Basic Web App / MVP",
+                                    "values": [
+                                        "$2,000 - $7,500"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Enterprise Solution",
+                                    "values": [
+                                        "$20,000 - $50,000+"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Local Developer Hourly",
+                                    "values": [
+                                        "$25 - $60 / hour"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "zw-software-insights",
+                    "type": "insights",
+                    "title": "Software Ecosystem Insights",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "USSD Supremacy",
+                                "text": "In Zimbabwe, USSD-based solutions often have higher penetration than mobile apps due to data costs and feature-phone usage."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Cloud Latency",
+                                "text": "While AWS/Azure are used, hosting in South African regions (af-south-1) provides the best latency for Zimbabwean end-users."
+                            },
+                            {
+                                "type": "info",
+                                "title": "FinTech Focus",
+                                "text": "Most local software demand is driven by financial services, loyalty programs, and logistics tracking for the informal sector."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "zw-software-faq",
+                    "type": "faq",
+                    "title": "Software Solutions FAQs",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Which tech stacks are popular?",
+                                "answer": "React, Node.js, and Python are widely used, but PHP remains common for many legacy local integrations."
+                            },
+                            {
+                                "question": "Is there a local developer portal?",
+                                "answer": "Many developers use GitHub, and local tech hubs like TechVillage often facilitate collaborative project development."
+                            },
+                            {
+                                "question": "Are software licenses taxed?",
+                                "answer": "Yes, withholding tax may apply to foreign software license payments unless a DTA provides a lower rate."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "zw-software-good-to-know",
+                    "type": "good_to_know",
+                    "title": "Digital Resilience",
+                    "subtitle": "Infrastructure strategies",
+                    "description": "",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Power Redundancy",
+                                "text": "Any local server deployment MUST have a solar or inverter backup due to frequent 'load shedding' (scheduled power cuts)."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Mobile Money APIs",
+                                "text": "Integrating EcoCash or OneMoney APIs is essential for any software targeting the local Zimbabwean retail or consumer market."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Connectivity Tiers",
+                                "text": "Optimize your apps for 'Fiber' in urban centers while ensuring they still function on 'Edge' speeds in rural areas."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing in Zimbabwe",
+                "subtitle": "Comprehensive guide to Marketing in Zimbabwe",
+                "description": "Detailed insights and providers for Marketing in Zimbabwe.",
+                "bestFor": "Global expansion teams",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "zw-marketing-key-steps",
+                    "type": "key_steps",
+                    "title": "Campaign Launch Map",
+                    "subtitle": "Strategic reach in Zimbabwe",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Market Segmentation",
+                                "description": "Identifying target groups across Harare, Bulawayo, and the diaspora, tailoring messages for dual-currency purchasing power."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Channel Optimization",
+                                "description": "Prioritizing WhatsApp Business, Facebook, and TikTok, which dominate the local social media landscape."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Local Content Creation",
+                                "description": "Producing high-quality video and static content featuring local influencers and 'street-style' Shona/Ndebele humor."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Traditional Hybridization",
+                                "description": "Complementing digital efforts with radio (Star FM/ZiFM) and strategic outdoor billboard placement in high-traffic CBD areas."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Performance Tracking",
+                                "description": "Monitoring conversion rates and brand sentiment using localized analytics tools and customer feedback loops."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "zw-marketing-cost-breakdown",
+                    "type": "cost_breakdown",
+                    "title": "Marketing Service Fees",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 2,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service Tier",
+                                "Monthly Fees (USD)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Media Management",
+                                    "values": [
+                                        "$400 - $1,200"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Full Digital Strategy",
+                                    "values": [
+                                        "$2,500 - $6,000"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "SEO & Performance Ads",
+                                    "values": [
+                                        "$350 - $1,000+"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "zw-marketing-insights",
+                    "type": "insights",
+                    "title": "Market Trends & Insights",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "WhatsApp Marketing",
+                                "text": "WhatsApp is the primary 'internet' for many Zimbabweans; automated catalogs and status ads often outperform tradicional email marketing."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Ad Spend Currency",
+                                "text": "Platform ads (Google/Meta) must be funded via USD cards/prepaid accounts as local ZiG accounts cannot be linked to international merchant gateways."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Influencer Impact",
+                                "text": "Local 'Comedian' influencers and industry thought leaders have higher trust scores than glossy corporate advertisements."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "zw-marketing-faq",
+                    "type": "faq",
+                    "title": "Marketing FAQs",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Are there advertising restrictions?",
+                                "answer": "Yes, products like alcohol and pharmaceuticals have strict ZIMRAT or MCAZ-regulated advertising guidelines."
+                            },
+                            {
+                                "question": "What is the best time to run ads?",
+                                "answer": "Peak engagement times are usually early morning and late evening, aligned with commuter traffic and leisure time."
+                            },
+                            {
+                                "question": "Do I need color-coded messaging?",
+                                "answer": "Given political sensitivities, certain colors (like red, yellow, or green) should be used thoughtfully in broad-reach corporate branding."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "zw-marketing-good-to-know",
+                    "type": "good_to_know",
+                    "title": "Consumer Behavior",
+                    "subtitle": "Market nuances",
+                    "description": "",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Bilingualism",
+                                "text": "Content that mixes English with Shona and Ndebele slang ('Chi-Street') resonates deeply with the urban youth demographic."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Data Bundles",
+                                "text": "Zimbabweans are very conscious of data costs; images and videos should be optimized for low-bandwidth to encourage sharing."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Radio Reach",
+                                "text": "Never underestimate the power of morning drive-time radio for reaching decision-makers in high-traffic CBD areas."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

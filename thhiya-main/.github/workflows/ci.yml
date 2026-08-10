@@ -1,0 +1,104 @@
+name: CI
+
+on:
+  push:
+    branches: [development, main]
+  pull_request:
+    branches: [development]  # All checks happen before merging to development
+    paths:
+      - 'frontend/**'
+      - 'backend/**'
+      - 'package.json'
+      - 'bun.lock'
+      - '.github/workflows/ci.yml'
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  frontend:
+    name: Frontend Unit + E2E
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Cache dependencies
+        uses: actions/cache@v5
+        with:
+          path: |
+            ~/.bun/install/cache
+            frontend/node_modules
+          key: ${{ runner.os }}-bun-${{ hashFiles('**/bun.lock', '**/package.json') }}
+          restore-keys: |
+            ${{ runner.os }}-bun-
+
+      - name: Frontend Dependencies
+        working-directory: frontend
+        run: bun install
+        
+      - name: Frontend Type Check
+        working-directory: frontend
+        run: bun x tsc --noEmit
+
+      - name: Frontend Unit Tests
+        working-directory: frontend
+        run: bun run test
+
+      - name: Frontend Build
+        working-directory: frontend
+        run: bun run build
+
+      - name: Install Playwright Browser
+        working-directory: frontend
+        run: bunx playwright install --with-deps chromium
+
+      - name: Frontend E2E Tests
+        working-directory: frontend
+        run: bun run test:e2e
+
+  backend:
+    name: Backend Unit + Build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Cache dependencies
+        uses: actions/cache@v5
+        with:
+          path: |
+            ~/.bun/install/cache
+            backend/node_modules
+          key: ${{ runner.os }}-bun-backend-${{ hashFiles('backend/package.json', 'bun.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-bun-backend-
+
+      - name: Backend Dependencies
+        working-directory: backend
+        run: bun install
+
+      - name: Backend Type Check
+        working-directory: backend
+        run: bun run typecheck
+
+      - name: Backend Unit Tests
+        working-directory: backend
+        run: bun run test
+
+      - name: Backend Build
+        working-directory: backend
+        run: bun run build

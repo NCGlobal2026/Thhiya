@@ -1,0 +1,538 @@
+{
+    "name": "Madagascar",
+    "code": "MG",
+    "slug": "madagascar",
+    "flag": "https://flagcdn.com/w160/mg.png",
+    "region": "Africa",
+    "languages": [
+        "Malagasy",
+        "French"
+    ],
+    "currencies": [
+        "MGA"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Madagascar",
+                "subtitle": "Hire in Antananarivo",
+                "description": "Compliant employment in the Red Island. We handle CNaPS and OSIE.",
+                "bestFor": "Textiles & BPO",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "mg-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Written contract in Malagasy or French."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "CNaPS",
+                                "description": "Register with Caisse Nationale de Prévoyance Sociale."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "OSIE",
+                                "description": "Register with Organisation Sanitaire Interentreprises (Medical)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mg-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Security (CNaPS)",
+                                    "values": [
+                                        "13%",
+                                        "1%",
+                                        "Pension and family allowances. Capped."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Health (OSIE)",
+                                    "values": [
+                                        "5%",
+                                        "1%",
+                                        "Inter-company health organization. Rates vary by provider/location."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Professional Training",
+                                    "values": [
+                                        "1%",
+                                        "0%",
+                                        "FMFP contribution."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "mg-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Martyrs' Day",
+                                "description": "March 29"
+                            },
+                            {
+                                "title": "Eid al-Fitr",
+                                "description": "March 31 (Estimated)"
+                            },
+                            {
+                                "title": "Easter Monday",
+                                "description": "April 21"
+                            },
+                            {
+                                "title": "Labour Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Ascension Day",
+                                "description": "May 29"
+                            },
+                            {
+                                "title": "Eid al-Adha",
+                                "description": "June 6 (Estimated)"
+                            },
+                            {
+                                "title": "Whit Monday",
+                                "description": "June 9"
+                            },
+                            {
+                                "title": "Independence Day",
+                                "description": "June 26"
+                            },
+                            {
+                                "title": "Assumption",
+                                "description": "August 15"
+                            },
+                            {
+                                "title": "All Saints' Day",
+                                "description": "November 1"
+                            },
+                            {
+                                "title": "Christmas Day",
+                                "description": "December 25"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mg-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax (IRSA)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Monthly Income (MGA)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Up to 350,000",
+                                    "values": [
+                                        "0%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "350,001 - 400,000",
+                                    "values": [
+                                        "5%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "400,001 - 500,000",
+                                    "values": [
+                                        "10%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "500,001 - 600,000",
+                                    "values": [
+                                        "15%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Above 600,000",
+                                    "values": [
+                                        "20%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Minimum Tax",
+                                    "values": [
+                                        "3,000 MGA",
+                                        "Minimum monthly tax if calculated tax is lower."
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "mg-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Base Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "CNaPS & OSIE",
+                                "description": "Deduct Employee Share (1% + 1%)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax Base",
+                                "description": "Gross - Social Contributions."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "IRSA",
+                                "description": "Apply progressive tax rates (0-20%)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Net",
+                                "description": "Gross - CNaPS/OSIE - IRSA."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Madagascar",
+                "subtitle": "SARL",
+                "description": "Limited Liability Company.",
+                "bestFor": "Trading",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "mg-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "EDBM",
+                                "description": "Register via Economic Development Board of Madagascar (One-Stop Shop)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "NIF & Stat",
+                                "description": "Obtain Fiscal ID and Statistical Number."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Bank Account",
+                                "description": "Open local capital account."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mg-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "BNI Madagascar",
+                                "description": "Leading commercial bank."
+                            },
+                            {
+                                "title": "BOA Madagascar",
+                                "description": "Bank of Africa."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Madagascar",
+                "subtitle": "BPO Hub",
+                "description": "French-speaking talent.",
+                "bestFor": "Customer Service",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "mg-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Antananarivo",
+                                "text": "Capital city, hub for BPO and call centers due to strong French skills."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Madagascar",
+                "subtitle": "Basic",
+                "description": "Payroll-focused.",
+                "bestFor": "Compliance",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "mg-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Payslips",
+                                "description": "Mandatory delivery to employees."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Madagascar",
+                "subtitle": "PCG 2005",
+                "description": "General Chart of Accounts.",
+                "bestFor": "Reporting",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "mg-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "PCG 2005",
+                                "text": "Plan Comptable Général. Based on IFRS principles but local implementation."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mg-comp-labor",
+                    "type": "warning",
+                    "title": "Thirteenth Month",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Customary",
+                                "description": "Not legally mandatory but highly customary and expected."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mg-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax (IR)",
+                                    "values": [
+                                        "20%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Minimum Tax",
+                                    "values": [
+                                        "5% of Revenue",
+                                        "Or 100,000 MGA + 5 per thousand of turnover if loss-making."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "VAT",
+                                    "values": [
+                                        "20%"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Madagascar",
+                "subtitle": "Civil Law",
+                "description": "French influence.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "mg-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "French is the primary language for legal and business documents."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Madagascar",
+                "subtitle": "MVola",
+                "description": "Mobile Money.",
+                "bestFor": "Payments",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "mg-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "MVola",
+                                "description": "Leading mobile money service (Telma)."
+                            },
+                            {
+                                "title": "Orange Money",
+                                "description": "Widely used."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Madagascar",
+                "subtitle": "Facebook",
+                "description": "Primary digital channel.",
+                "bestFor": "Reach",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "mg-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Facebook",
+                                "text": "The internet for many users. Zero-rating often applies."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

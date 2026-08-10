@@ -1,0 +1,908 @@
+{
+    "name": "Gambia",
+    "code": "GM",
+    "slug": "gambia",
+    "flag": "https://flagcdn.com/w160/gm.png",
+    "region": "Africa",
+    "languages": [
+        "English",
+        "Mandinka",
+        "Wolof",
+        "Fula",
+        "Jola"
+    ],
+    "currency": {
+        "name": "Dalasi",
+        "code": "GMD",
+        "symbol": "D"
+    },
+    "timezone": "GMT",
+    "mainCities": [
+        "Banjul",
+        "Serrekunda",
+        "Brikama",
+        "Bakau",
+        "Fajara"
+    ],
+    "taxTiers": [
+        "Tier 3"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "Employer of Record Services in Gambia",
+                "subtitle": "Compliant hiring without a local entity",
+                "description": "Seamlessly hire and manage talent in Gambia while ensuring full compliance with the Labour Act 2007 and the upcoming 2025 regulatory updates. Our EOR solution handles everything from payroll and taxes to local labor law adherence.",
+                "bestFor": "International companies looking for rapid, low-risk market entry.",
+                "icon": "employer-of-record"
+            },
+            "sections": [
+                {
+                    "id": "eor-overview",
+                    "type": "insights",
+                    "title": "EOR Landscape in Gambia 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Labour Act 2007 Compliance",
+                                "text": "All employment contracts under our EOR are strictly governed by the Labour Act 2007, ensuring mandatory notice periods and leave entitlements are met."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Social Security Remittance",
+                                "text": "As the legal employer, we manage the 10-15% SSHFC employer contribution, which is critical for maintaining good standing with Gambian authorities."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Industrial Relations",
+                                "text": "The Gambia has a strong tradition of labor unions in certain sectors; our local experts manage all union relations and collective bargaining requirements."
+                            },
+                            {
+                                "type": "info",
+                                "title": "2025 Tax Thresholds",
+                                "text": "We have integrated the revised 2025 PIT thresholds (D36,000 tax-free) into our EOR pricing model to ensure maximum take-home pay for your talent."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Workflow",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract Drafting",
+                                "description": "Creation of English-language contracts that satisfy the 'Conditions of Employment' mandated by the Commissioner of Labour."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Statutory Registration",
+                                "description": "Assigning the employee to our local TIN and SSHFC accounts for unified tax and social security reporting."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "KYC & Verification",
+                                "description": "Verification of Gambian National ID or Passport, along with educational credentials and prior employment history."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Equipment Provisioning",
+                                "description": "Coordinating the delivery of laptops and secure remote access kits to the employee's location in Banjul or the KMC region."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "eor-benefits",
+                    "type": "essentials",
+                    "title": "Statutory Benefits Package",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "SSHFC Pension",
+                                "text": "Comprehensive management of the mandatory Social Security and Housing Finance Corporation contributions."
+                            },
+                            {
+                                "title": "Public Holidays",
+                                "text": "Recognition of all 2025 Gambian public holidays, including Eid-ul-Fitr, Eid-ul-Adha, and Independence Day (Feb 18)."
+                            },
+                            {
+                                "title": "Paid Annual Leave",
+                                "text": "Provision of the statutory minimum of 14 to 21 working days per year, depending on the employee's length of service."
+                            },
+                            {
+                                "title": "Maternity & Paternity",
+                                "text": "6 months of paid maternity leave and 10 days of paternity leave as per the latest 2024/2025 labor directives."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "eor-offboarding",
+                    "type": "key_steps",
+                    "title": "Employee Offboarding & Termination",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Termination Notice",
+                                "description": "Issuance of formal written notice as per the contract or Labour Act 2007 (usually one month for monthly staff)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Final Pay Calculation",
+                                "description": "Processing of final salary, accrued leave payouts, and any statutory severance if the employee has served 2+ years."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "SSHFC De-registration",
+                                "description": "Notifying the Social Security and Housing Finance Corporation of the cessation of employment to stop contribution accruals."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Certificate of Service",
+                                "description": "Issuing a formal Certificate of Service as required by local labor law, detailing the period of employment and nature of work."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "eor-ops-details",
+                    "type": "good_to_know",
+                    "title": "Operational Nuances for EOR",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Internet Connectivity Allowances",
+                                "text": "Given the 'Fiber to the Home' rollout in 2024/2025 by Gamtel and private ISPs like Netpage, it is common and highly recommended to provide a GMD 2,500 to GMD 5,000 monthly stipend for high-speed internet to remote workers in the Banjul area."
+                            },
+                            {
+                                "title": "Bank Account Requirements",
+                                "text": "Employees must have a local GMD account with a reputable bank (Trust Bank, Ecobank, GTBank, or Zenith Bank are preferred) for compliant salary disbursement via the automated clearing house system."
+                            },
+                            {
+                                "title": "Cultural Holidays & Religious Respect",
+                                "text": "In addition to statutory holidays, flexibility for religious observations during Ramadan and major feasts like Tobaski is highly valued. It is customary to provide a 'Tobaski Bonus' or allowance to support staff during these periods."
+                            },
+                            {
+                                "title": "Transport & Commute Support",
+                                "text": "For staff who are not remote, providing a transport allowance or organized staff bus is a standard practice in Gambia due to the limited public transport infrastructure during peak hours in the KMC region."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "eor-faq",
+                    "type": "faq",
+                    "title": "Registration & Compliance FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I hire foreign nationals through Gambia EOR?",
+                                "answer": "Yes, but they require a Work Permit and Alien ID Card. The EOR handles the sponsorship and application process, which typically takes 3-6 weeks and involves documentation from the Ministry of Interior."
+                            },
+                            {
+                                "question": "What is the standard notice period for termination?",
+                                "answer": "For monthly-paid staff, the statutory notice is one month according to the Labour Act 2007. Longer periods (up to 3 months) are customary for senior management to ensure a smooth transition of duties."
+                            },
+                            {
+                                "question": "Is private health insurance necessary in Gambia?",
+                                "answer": "SSHFC provides basic social protection, but most international firms provide supplemental private insurance (e.g., through Gambia National Insurance or Enterprise Life) to attract top technical and managerial talent in the Banjul region."
+                            },
+                            {
+                                "question": "Are there specific rules for remote workers?",
+                                "answer": "The Labour Act 2007 does not explicitly cover remote work, so the employment contract must clearly define the home-office arrangement, equipment provision, and utility stipends to avoid future labor disputes."
+                            },
+                            {
+                                "question": "Does the EOR handle the annual tax certificates for staff?",
+                                "answer": "Yes, we provide all employees with their annual PAYE tax summary and SSHFC contribution statements, ensuring they can fulfill their personal reporting requirements and demonstrate compliance to local authorities."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "payroll-cycle",
+                    "type": "key_steps",
+                    "title": "Monthly Payroll Processing Cycle",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Variable Data Submission",
+                                "description": "Client submits overtime, commission, and leave data by the 20th of each month for processing."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Gross-to-Net Calculation",
+                                "description": "Applying the revised 2025 PIT brackets, deducting 5% employee SSHFC, and calculating 15% VAT on service fees if applicable."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Funding and Treasury",
+                                "description": "Clients fund the local Dalasi payroll account via international transfer (SWIFT) or local settlement."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Distribution & Reporting",
+                                "description": "Direct deposit to employee GMD accounts and electronic distribution of English-language payslips."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Statutory Remittance",
+                                "description": "Payment of PAYE to GRA and Social Security to SSHFC by the 15th of the following month."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "payroll-taxes",
+                    "type": "cost_breakdown",
+                    "title": "Employee Payroll Taxes (2025)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Annual Income (GMD)",
+                                "PIT Rate",
+                                "Status"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "First D36,000",
+                                    "values": [
+                                        "0%",
+                                        "Tax-Free Threshold (Updated 2025)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Next D24,000",
+                                    "values": [
+                                        "5%",
+                                        "Progressive Band"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Next D30,000",
+                                    "values": [
+                                        "10%",
+                                        "Progressive Band"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Next D60,000",
+                                    "values": [
+                                        "15%",
+                                        "Progressive Band"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Next D150,000",
+                                    "values": [
+                                        "20%",
+                                        "Progressive Band"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Above D300,000",
+                                    "values": [
+                                        "25%",
+                                        "Highest Marginal Rate"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "payroll-compliance",
+                    "type": "insights",
+                    "title": "Payroll Compliance Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Late Payment Penalties",
+                                "text": "Social security payments delayed beyond the 15th incur a 2.5% monthly penalty. GRA also applies interest to late PAYE remittances."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Annual Return Deadline",
+                                "text": "The Employer's Annual Return (Form 104) must be filed with the GRA by March 31st of the following year."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Currency Fluctuations",
+                                "text": "While salaries are usually pegged to GMD, international contracts often reference USD/EUR benchmarks. We recommend monthly adjustments to maintain purchasing power."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Bonus Taxation",
+                                "text": "All performance bonuses and 13th-month payments are considered taxable income and must be processed through the PAYE regular cycle."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "payroll-local-ops",
+                    "type": "good_to_know",
+                    "title": "Gambian Payroll Nuances",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Thirteenth Month Payment",
+                                "text": "While not legally mandatory, a 13th-month bonus paid in December is widely expected and considered a best practice for retention in the Gambian market."
+                            },
+                            {
+                                "title": "Salary in Dalasi",
+                                "text": "All payroll calculations must be reported to GRA in Gambian Dalasi (GMD), regardless of the currency of the employment contract."
+                            },
+                            {
+                                "title": "Overtime Rates",
+                                "text": "Overtime is typically calculated at 1.5x for weekdays and 2.0x for Sundays and Public Holidays, as per the 2007 Labour Act."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "payroll-faq",
+                    "type": "faq",
+                    "title": "Payroll Execution FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Are there any tax-free allowances for employees?",
+                                "answer": "Certain transport and uniform allowances may be exempt if documented correctly as business expenses and kept within the reasonable thresholds defined by the Gambia Revenue Authority (GRA)."
+                            },
+                            {
+                                "question": "What happens if an employee has two jobs in Gambia?",
+                                "answer": "The primary employer applies the tax-free threshold; the second employer must withhold tax at a flat rate (usually 20-25%) unless specific authorization is received from the GRA."
+                            },
+                            {
+                                "question": "Can payslips be delivered via WhatsApp or mobile apps?",
+                                "answer": "While email is the corporate standard, many employees prefer digital delivery via mobile. We provide secure, password-protected PDF payslips that are optimized for mobile viewing and compliant with local data privacy standards."
+                            },
+                            {
+                                "question": "Is fringe benefit tax (FBT) applicable in Gambia?",
+                                "answer": "Yes, benefits-in-kind such as provided housing, company cars, or domestic help are valued according to GRA guidelines and taxed as part of the employee's total gross income for the month."
+                            },
+                            {
+                                "question": "When must we pay the final salary to a departing employee?",
+                                "answer": "According to the Labour Act, final wages and accrued holiday pay must be settled on the last day of work or within two business days of termination to avoid penalties or labor board complaints."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Business Incorporation in Gambia",
+                "subtitle": "Single-window registry for global investors",
+                "description": "Establish your legal presence in Gambia efficiently. From name reservation at the Ministry of Justice to obtaining a Special Investment Certificate (SIC) via GIEPA, we manage the end-to-end setup process.",
+                "bestFor": "Direct foreign investors and multinational subsidiaries.",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "incorp-process",
+                    "type": "key_steps",
+                    "title": "Entity Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Name Search & Reservation",
+                                "description": "Verification of availability at the Registrar of Companies. Reservation fee is typically GMD 500."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "MOA & AOA Preparation",
+                                "description": "Drafting the Memorandum and Articles of Association. A minimum of two directors and shareholders is required."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Notarization & Stamp Duty",
+                                "description": "Signing of documents before a Commissioner of Oaths and payment of stamp duty at the GRA based on share capital."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Commercial Registry Filing",
+                                "description": "Submission of the incorporation package to the Registrar of Companies in Banjul to receive the Certificate of Incorporation."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Tax & Local Licensing",
+                                "description": "Application for a TIN and obtaining an operational license from the relevant municipal council (BCC/KMC)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "incorp-costs",
+                    "type": "cost_breakdown",
+                    "title": "Incorporation Fees (2025)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Capital Range (GMD)",
+                                "Registration Fee",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Up to 500,000",
+                                    "values": [
+                                        "D10,000",
+                                        "Standard for small/mid businesses."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "500k to 1,000,000",
+                                    "values": [
+                                        "D15,000",
+                                        "Applicable for moderate startups."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Above 10,000,000",
+                                    "values": [
+                                        "D25,000",
+                                        "Maximum fee band for large enterprises."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Operational License",
+                                    "values": [
+                                        "D5,000 - D15,000",
+                                        "Varies by council (Banjul vs Kanifing)."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "incorp-kiepa",
+                    "type": "insights",
+                    "title": "GIEPA & Investment Incentives",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Special Investment Certificate",
+                                "text": "Qualified investors can apply for an SIC from GIEPA, offering tax holidays (5-8 years) and customs duty waivers on capital goods."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Priority Sectors",
+                                "text": "Agriculture, Tourism, ICT, and Energy are designated priority sectors with enhanced support for foreign direct investment."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Resident Director",
+                                "text": "At least one director of the company MUST be a resident of The Gambia to facilitate local service of process and banking."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Export Processing Zones",
+                                "text": "Businesses operating within the Banjul International Airport EPZ may qualify for additional duty-free manufacturing incentives."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "incorp-compliance-checklist",
+                    "type": "essentials",
+                    "title": "Post-Incorporation Compliance",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "GRA Business Registration",
+                                "text": "Every new company must register for a Tax Identification Number (TIN) at the Gambia Revenue Authority within 30 days of incorporation. This is the foundation for all corporate tax filings and banking activities."
+                            },
+                            {
+                                "title": "Municipal Trade License",
+                                "text": "Depending on the location (Banjul, Kanifing, or Brikama), companies must obtain a trade license from the local Area Council. Fees vary based on the business category and intended headcount."
+                            },
+                            {
+                                "title": "FPE Registration",
+                                "text": "If the business involves food, drugs, or specialized consumables, additional clearance from the Food Safety and Quality Authority (FSQA) or the Pharmacy Council is mandatory for legal operation."
+                            },
+                            {
+                                "title": "Social Security Enrollment",
+                                "text": "Registration with the SSHFC is mandatory even for companies with just one employee. The employer must obtain an establishment number and ensure all staff are properly registered for social security benefits."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "incorp-location-guide",
+                    "type": "good_to_know",
+                    "title": "Strategic Location Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Banjul City Center",
+                                "text": "The administrative heart of The Gambia, ideal for businesses requiring frequent interaction with government ministries, the Central Bank, or the port authority."
+                            },
+                            {
+                                "title": "Kanifing Municipal Council (KMC)",
+                                "text": "The primary commercial hub, including areas like Fajara, Bakau, and Pipeline. This area offers the best modern office infrastructure and proximity to international banking and diplomatic missions."
+                            },
+                            {
+                                "title": "Special Economic Zones (SEZs)",
+                                "text": "The GIEPA-managed industrial zones offer 2025 incentives (tax holidays, import duty waivers) for businesses focused on manufacturing, assembly, or export-oriented services."
+                            },
+                            {
+                                "title": "Basalt & Upper River Region",
+                                "text": "Emerging areas for agribusiness and mining. While infrastructure is developing, early movers benefit from lower land costs and specific regional developmental grants."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "incorp-faq",
+                    "type": "faq",
+                    "title": "Entity Setup & Legal FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can a foreigner own 100% of a Gambian company?",
+                                "answer": "Yes, Gambian law allows for 100% foreign ownership in most sectors. There are no mandatory local partnership requirements for private limited companies, making it an attractive destination for foreign direct investment."
+                            },
+                            {
+                                "question": "What is the minimum share capital for a private limited company?",
+                                "answer": "There is no statutory minimum share capital defined in the Companies Act, but it is common practice to register with at least GMD 10,000 to GMD 50,000 depending on the business size and intended banking requirements."
+                            },
+                            {
+                                "question": "How long does it take for the Registrar of Companies to process the incorporation?",
+                                "answer": "The typical turnaround time is 3 to 7 business days, provided all documentation (IDs, Articles of Association, and local address) is correctly submitted and the registration fees are paid."
+                            },
+                            {
+                                "question": "Do we need a physical office address to incorporate?",
+                                "answer": "Yes, every company must have a registered office address in The Gambia where formal notices can be served. We provide registered office services for firms in the early stages of setup."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "visa-types",
+                    "type": "insights",
+                    "title": "Current Permit Landscape",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Residential Permit 'B'",
+                                "text": "Standard permit for foreign nationals working in Gambia."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Diaspora ID Card 2025",
+                                "text": "Providing enhanced entry and business rights for Gambians residing abroad."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "visa-steps",
+                    "type": "key_steps",
+                    "title": "Immigration Workflow",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Entry Clearance",
+                                "description": "Obtaining permission before arrival for nationals of non-reciprocal countries."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Physical Arrival",
+                                "description": "Processing initial 28-day stamp at Banjul International Airport."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "GID Registration",
+                                "description": "Biometric capture at the Gambia Immigration Department for the Residential Permit."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Permit Issuance",
+                                "description": "Collection of the physical Alien ID card and 'B' Permit stamp."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "visa-fees",
+                    "type": "cost_breakdown",
+                    "title": "Immigration Fees (2025)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Permit Type",
+                                "Annual Fee (GMD)",
+                                "Target Group"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Residential Permit 'A'",
+                                    "values": [
+                                        "10,000",
+                                        "Retirees / Non-workers"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Residential Permit 'B'",
+                                    "values": [
+                                        "40,000",
+                                        "Skilled Workers / Investors"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Alien ID Card",
+                                    "values": [
+                                        "2,500",
+                                        "All non-Gambians"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "visa-insights",
+                    "type": "insights",
+                    "title": "Immigration Strategy 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Digital Nomad Visa (Proposed)",
+                                "text": "The Gambian government is discussing a new visa category for remote workers. Currently, the Residential Permit 'B' remains the primary route for long-term stays for professionals."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Permit Renewal Timeline",
+                                "text": "Renewal applications for Residential Permits should be submitted at least 30 days before the current permit expires to avoid daily overstay fines and potential legal complications."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Diaspora ID Card Benefits",
+                                "text": "The new 2025 Diaspora ID card allows Gambians living abroad to re-enter the country without a visa and facilitates local property acquisition and business registration."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "visa-faq",
+                    "type": "faq",
+                    "title": "Immigration & Residency FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I get a visa on arrival for a business trip to Gambia?",
+                                "answer": "Yes, many nationalities can obtain a business entry stamp on arrival for up to 28 days. However, for long-term employment, this must be formally converted to a Residential Permit 'B' within the first 30 days of stay."
+                            },
+                            {
+                                "question": "How long does it take to process a work permit in Banjul?",
+                                "answer": "The typical processing time is 4 to 8 weeks, depending on the complexity of the application, the completeness of documents, and the current workload at the Ministry of Interior and GID."
+                            },
+                            {
+                                "question": "Do I need a local bank account for the residency permit application?",
+                                "answer": "While not strictly mandatory for the initial entry, having a Gambian bank account with a local TIN is highly recommended for the Residential Permit 'B' application to demonstrate local financial integration."
+                            },
+                            {
+                                "question": "Are there medical requirements for the residency permit?",
+                                "answer": "Yes, applicants are often required to provide a medical certificate from a recognized local hospital (like Edward Francis Small Teaching Hospital) or clinic confirming they are free from infectious diseases as part of the health screening."
+                            },
+                            {
+                                "question": "Can my family join me on a dependent visa?",
+                                "answer": "Yes, holders of a Residential Permit 'B' can sponsor their spouses and children for a Residential Permit 'A' (Dependents). This requires proof of relationship and evidence that the principal holder can financially support them."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing & Recruitment in Gambia",
+                "subtitle": "Connecting international expertise with local talent",
+                "description": "Navigate the Gambian talent pool with precision. From headhunting senior executives in Banjul to managing high-volume recruitment for the tourism and ICT sectors, we ensure you find the right fit for your West African operations.",
+                "bestFor": "Growing teams and technical project leaders.",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "staffing-landscape",
+                    "type": "insights",
+                    "title": "Gambia Labor Market 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Youthful Demographic",
+                                "text": "The labor force shows high youthful participation (11.5% youth unemployment). Digital skills are rapidly growing among the under-30 demographic."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Informal Sector Dominance",
+                                "text": "81% of employment is informal. Recruiting for formal roles requires verification of prior social security history to ensure professional stability."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "English Proficiency",
+                                "text": "As the official language, English proficiency is exceptionally high, making Gambia an excellent hub for customer service and business process outsourcing (BPO)."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Gender Participation",
+                                "text": "While female participation is rising, targeted recruitment strategies are encouraged to promote gender balance in senior management."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "staffing-permits",
+                    "type": "key_steps",
+                    "title": "Expat Work Permit Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Job Offer & Justification",
+                                "description": "Drafting a formal offer and proving why the specialized role cannot be filled by a Gambian national."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Health & Police Clearance",
+                                "description": "Candidate must obtain a health certificate from a local facility and a police clearance from their home country."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Immigration Filing",
+                                "description": "Submission of the application to the Department of Immigration in Banjul. Fees vary by nationality."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Alien ID Card Issuance",
+                                "description": "Final biometric registration and issuance of the annual residential permit, mandatory for all non-Gambian workers."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "staffing-essentials",
+                    "type": "essentials",
+                    "title": "Recruitment Core Deliverables",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Background Verification",
+                                "text": "Comprehensive vetting of educational documents through the Ministry of Higher Education and prior employment history with local references. This is critical in the Gambian market where informal experience is common."
+                            },
+                            {
+                                "title": "Onboarding Coordination",
+                                "text": "Managing the transition from offer acceptance to the first day of work, ensuring all statutory registrations (TIN, SSHFC) are initiated promptly to avoid any regulatory delays."
+                            },
+                            {
+                                "title": "Expatriate Soft-Landing",
+                                "text": "Providing cultural orientation and logistical support for international hires moving to the Banjul or KMC area, including housing referrals and family permit guidance."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "staffing-recruitment-process",
+                    "type": "key_steps",
+                    "title": "Local Talent Sourcing Roadmap",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Role Profiling & Market Mapping",
+                                "description": "Defining technical requirements and meticulous local salary benchmarking based on GMD 2025 rates to ensure your offers are competitive within the West African context."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Multi-Channel Sourcing Strategy",
+                                "description": "Advertising via prominent local newspapers like 'The Point' and 'Foroyaa', leveraging LinkedIn for professional roles, and maintaining direct outreach to the UTG (University of The Gambia) alumni network."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Technical Assessment & Vetting",
+                                "description": "Conducting rigorous coding tests, professional simulations, or language proficiency assessments for specialized roles in accounting, IT, or customer support."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Final Interview & Comprehensive Offer",
+                                "description": "Negotiating total compensation packages that include base salary, SSHFC contributions, private health insurance allowances, and performance-based incentives."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "staffing-local-tips",
+                    "type": "good_to_know",
+                    "title": "Recruitment & Talent Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Soft Skills & Etiquette",
+                                "text": "Gambian workplace culture highly values respect for seniority and community harmony. Onboarding should focus on soft-skills alignment alongside technical training."
+                            },
+                            {
+                                "title": "The 'Brain Gain' Trend",
+                                "text": "Many skilled Gambian professionals are returning from the UK and USA (the Diaspora). This group often bridges the gap between global corporate standards and local execution."
+                            },
+                            {
+                                "title": "Language Proficiency",
+                                "text": "While English is the official medium of business, proficiency in Mandinka, Wolof, or Fula is a significant asset for roles involving local community engagement or retail sales."
+                            },
+                            {
+                                "title": "Education Verification",
+                                "text": "Always verify academic credentials through the West African Examinations Council (WAEC) or directly with the local universities to ensure candidate authenticity."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "staffing-faq",
+                    "type": "faq",
+                    "title": "Hiring & Talent FAQs",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the average lead time for hiring a technical role in Gambia?",
+                                "answer": "Typically 6 to 10 weeks, including sourcing, technical testing, and the standard one-month notice period for the selected candidate."
+                            },
+                            {
+                                "question": "Do we need to pay for recruitment through an agency?",
+                                "answer": "While internal hiring is possible, using a specialized local agency ensures access to passive talent pools and managed vetting, typically for a percentage of the annual salary."
+                            },
+                            {
+                                "question": "How do we handle internship programs?",
+                                "answer": "Internships are a popular method for identifying early-career talent. The Labour Act provides specific guidelines for temporary contracts to ensure fair compensation and learning opportunities."
+                            },
+                            {
+                                "question": "What are the most in-demand skills in Banjul for 2025?",
+                                "answer": "Digital marketing, cloud accounting, solar energy engineering, and tourism management are seeing significant growth and high demand for qualified professionals."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

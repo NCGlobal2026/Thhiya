@@ -1,0 +1,497 @@
+{
+    "name": "Mongolia",
+    "code": "MN",
+    "slug": "mongolia",
+    "flag": "https://flagcdn.com/w160/mn.png",
+    "region": "Asia",
+    "languages": [
+        "Mongolian"
+    ],
+    "currencies": [
+        "MNT"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Mongolia",
+                "subtitle": "Hire in Ulaanbaatar",
+                "description": "Compliant employment on the steppe. We handle SHIMTGAL contributions.",
+                "bestFor": "Mining & Tech",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "mn-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Written employment contract in Mongolian."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "SSIG",
+                                "description": "Register with Social Insurance General Office (SIGO)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Medical",
+                                "description": "Health examination often required."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mn-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Insurance (SHIMTGAL)",
+                                    "values": [
+                                        "12.5% - 14.5%",
+                                        "11.5%",
+                                        "Includes Pension, Benefits, Health, Unemployment, Occupational Risk."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Health Insurance",
+                                    "values": [
+                                        "2%",
+                                        "2%",
+                                        "Included in above totals (Broken out for clarity)."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "mn-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Tsagaan Sar (Lunar New Year)",
+                                "description": "March 1-3"
+                            },
+                            {
+                                "title": "International Women's Day",
+                                "description": "March 8"
+                            },
+                            {
+                                "title": "Buddha Day",
+                                "description": "May (Varies)"
+                            },
+                            {
+                                "title": "Children's Day",
+                                "description": "June 1"
+                            },
+                            {
+                                "title": "Naadam",
+                                "description": "July 11-15"
+                            },
+                            {
+                                "title": "Genghis Khan Day",
+                                "description": "November 21"
+                            },
+                            {
+                                "title": "Republic Day",
+                                "description": "November 26"
+                            },
+                            {
+                                "title": "Independence Day",
+                                "description": "December 29"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mn-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Annual Income (MNT)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Up to 120M",
+                                    "values": [
+                                        "10%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "120M - 180M",
+                                    "values": [
+                                        "15%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Over 180M",
+                                    "values": [
+                                        "20%"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "mn-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Base Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "SHIMTGAL",
+                                "description": "Deduct 11.5% (Capped)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax Base",
+                                "description": "Gross - SHIMTGAL."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Income Tax",
+                                "description": "Apply 10-20% progressive rates + Tax Credit."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Net",
+                                "description": "Gross - SHIMTGAL - Tax."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Mongolia",
+                "subtitle": "LLC",
+                "description": "Limited Liability Company.",
+                "bestFor": "Investment",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "mn-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Name Reservation",
+                                "description": "Reserve with LARS (Legal Entity Registration System)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Bank Account",
+                                "description": "Open account and deposit capital."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Registration",
+                                "description": "General Authority for State Registration (GASR)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mn-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Khan Bank",
+                                "description": "Largest network."
+                            },
+                            {
+                                "title": "TDB Mongolia",
+                                "description": "Corporate banking focus."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Mongolia",
+                "subtitle": "Mining & IT",
+                "description": "Resilient workforce.",
+                "bestFor": "Projects",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "mn-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Ulaanbaatar",
+                                "text": "Economic and cultural heart."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Mongolia",
+                "subtitle": "ND-7/ND-8",
+                "description": "Social reports.",
+                "bestFor": "Compliance",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "mn-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "ND-7 & ND-8",
+                                "description": "Monthly social insurance reports."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Mongolia",
+                "subtitle": "IFRS",
+                "description": "Mandatory.",
+                "bestFor": "Standards",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "mn-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "IFRS",
+                                "text": "Required for all companies."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mn-comp-labor",
+                    "type": "warning",
+                    "title": "Roster Work",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Mining Rosters",
+                                "description": "Specific regulations for fly-in-fly-out (FIFO) rosters (e.g., 14/14)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mn-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Turnover/Income",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Up to 300M MNT (SME)",
+                                    "values": [
+                                        "1%",
+                                        "Simplified regime."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Standard (0-6 Billion MNT)",
+                                    "values": [
+                                        "10%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Excess over 6 Billion MNT",
+                                    "values": [
+                                        "25%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "VAT",
+                                    "values": [
+                                        "10%"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Mongolia",
+                "subtitle": "Civil Law",
+                "description": "Romano-Germanic.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "mn-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "Mongolian text prevails in disputes."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Mongolia",
+                "subtitle": "QPay",
+                "description": "QR Payments.",
+                "bestFor": "Transactions",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "mn-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "QPay / SocialPay",
+                                "description": "Popular payment apps."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Mongolia",
+                "subtitle": "Facebook",
+                "description": "Dominant platform.",
+                "bestFor": "Reach",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "mn-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Facebook",
+                                "text": "Virtually synonymous with the internet in Mongolia."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

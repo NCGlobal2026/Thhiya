@@ -1,0 +1,987 @@
+{
+    "name": "Georgia",
+    "code": "GE",
+    "slug": "georgia",
+    "flag": "https://flagcdn.com/w160/ge.png",
+    "region": "Asia",
+    "languages": [
+        "Georgian",
+        "Russian"
+    ],
+    "currencies": [
+        "GEL"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Georgia",
+                "subtitle": "Hire in Tbilisi & Batumi",
+                "description": "Compliant employment in the Caucasus tech hub. Navigate 2025 work permit reforms and the unique Estonian-model tax system with our expert EOR services.",
+                "bestFor": "Tech, Remote Teams & Startups",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "ge-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "EOR Onboarding Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Employment Agreement Drafting",
+                                "description": "Create a compliant employment contract in Georgian and English. Must include position, salary (in GEL), working hours, probation period (max 6 months), and termination conditions per Georgia Labor Code."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Work Permit Assessment (March 2026+)",
+                                "description": "From March 1, 2026, most foreign nationals require a Special Labour Permit. Employer submits application to Ministry of Health; 30-day processing time. Exemptions for Investment Residence Permit holders."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Revenue Service Registration",
+                                "description": "Register the employee with the Revenue Service of Georgia for tax purposes. Obtain Personal Identification Number (PIN) for tax filings and pension contributions."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Pension Agency Enrollment",
+                                "description": "Mandatory pension scheme enrollment. Employee contributes 2%, employer contributes 2%, government tops up 1-2% based on salary tier (under GEL 24,000 = 2% govt; GEL 24,000-60,000 = 1%)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Bank Account & Payroll Setup",
+                                "description": "Establish payroll disbursement channel. Salaries paid in Georgian Lari (GEL). Major banks include TBC Bank and Bank of Georgia with swift processing."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ge-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "2025 Employer Cost Breakdown",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Rate",
+                                "Payer",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Income Tax (PIT)",
+                                    "values": [
+                                        "20%",
+                                        "Employee",
+                                        "Flat rate on all employment income"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Pension - Employer",
+                                    "values": [
+                                        "2%",
+                                        "Employer",
+                                        "Mandatory funded pension"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Pension - Employee",
+                                    "values": [
+                                        "2%",
+                                        "Employee",
+                                        "Deducted from gross salary"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Pension - Government",
+                                    "values": [
+                                        "1-2%",
+                                        "State",
+                                        "2% if salary <GEL 24K; 1% if GEL 24K-60K"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Social Security",
+                                    "values": [
+                                        "0%",
+                                        "N/A",
+                                        "No social security contributions in Georgia"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Total Employer Burden",
+                                    "values": [
+                                        "~2%",
+                                        "Employer",
+                                        "One of lowest in region"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ge-eor-insights",
+                    "type": "insights",
+                    "title": "EOR Strategic Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "2026 Work Permit Requirement",
+                                "text": "From March 1, 2026, most foreign workers will need a Special Labour Permit before employment. Non-compliance fines start at GEL 2,000 (~$740 USD) per offense. Plan ahead for Q1 2026 hires."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Estonian Tax Model Advantage",
+                                "text": "Georgia uses the 'Estonian model' - corporate profits are only taxed at 15% when distributed. Reinvested profits remain untaxed, making it attractive for growth-stage companies."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "EOR Turnover Requirement",
+                                "text": "Some EOR providers in Georgia must meet a GEL 50,000 minimum annual turnover per sponsored foreigner. Established EOR partners help bypass this hurdle for new market entrants."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Remote Work Hub Status",
+                                "text": "Georgia's 'Remotely from Georgia' program previously allowed visa-free stays up to 365 days. With 2026 changes, remote workers may need to reassess their residency strategy."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ge-eor-leave",
+                    "type": "essentials",
+                    "title": "Mandatory Leave Entitlements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Annual Paid Leave",
+                                "description": "Minimum 24 working days per year. Employees can begin using leave after 11 months of service. Unused leave does not generally carry over."
+                            },
+                            {
+                                "title": "Unpaid Leave",
+                                "description": "Employees entitled to 15 working days unpaid leave annually, in addition to paid vacation."
+                            },
+                            {
+                                "title": "Public Holidays",
+                                "description": "15 national public holidays including Orthodox Christmas (Jan 7), Independence Day (May 26), and Tbilisoba (October)."
+                            },
+                            {
+                                "title": "Maternity Leave",
+                                "description": "126 days paid leave (143 for complications/multiple births). Benefit = 100% of daily wage, capped at GEL 1,000. Mothers can transfer 57 days to partners."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ge-eor-faq",
+                    "type": "faq",
+                    "title": "EOR Georgia FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What are typical EOR management fees in Georgia?",
+                                "answer": "EOR fees range from €199 to $700 per employee per month depending on provider and service scope. Budget providers like Native Teams start at $99/month; premium providers like Deel charge $599+."
+                            },
+                            {
+                                "question": "Is probation period allowed in Georgia?",
+                                "answer": "Yes, maximum 6 months. During probation, either party can terminate with shorter notice. The probation terms must be explicitly stated in the written contract."
+                            },
+                            {
+                                "question": "How quickly can we hire through an EOR?",
+                                "answer": "Standard onboarding takes 3-5 business days for Georgian nationals. Foreign hires may require 2-4 weeks depending on visa/permit requirements (longer from March 2026)."
+                            },
+                            {
+                                "question": "What is the minimum wage in Georgia?",
+                                "answer": "The statutory minimum is GEL 20/month (private) and GEL 115/month (public) - unchanged since 1999 and largely symbolic. Market wages are significantly higher; median is ~GEL 1,040."
+                            },
+                            {
+                                "question": "Are 13th month payments required?",
+                                "answer": "No statutory requirement for 13th month salary in Georgia. Any bonus payments are contractual/discretionary."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ge-gp-taxes",
+                    "type": "cost_breakdown",
+                    "title": "2025 Payroll Tax Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Tax/Contribution",
+                                "Rate",
+                                "Payer",
+                                "Cap/Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Personal Income Tax",
+                                    "values": [
+                                        "20%",
+                                        "Employee",
+                                        "Flat rate - no brackets"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Dividend/Interest Tax",
+                                    "values": [
+                                        "5%",
+                                        "Recipient",
+                                        "Reduced rate for passive income"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Pension - Employer",
+                                    "values": [
+                                        "2%",
+                                        "Employer",
+                                        "Mandatory for most employees"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Pension - Employee",
+                                    "values": [
+                                        "2%",
+                                        "Employee",
+                                        "Auto-deducted from gross"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Social Security",
+                                    "values": [
+                                        "0%",
+                                        "N/A",
+                                        "No employer/employee contributions"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Health Insurance",
+                                    "values": [
+                                        "0%",
+                                        "N/A",
+                                        "No mandatory health contributions"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ge-gp-cycle",
+                    "type": "key_steps",
+                    "title": "Monthly Payroll Cycle",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross Salary Calculation",
+                                "description": "Calculate gross pay including base salary, overtime (1.25x-1.5x regular rate), and any allowances. Standard work week is 40 hours."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Tax Withholding",
+                                "description": "Apply flat 20% income tax on employment income. No progressive brackets - straightforward calculation."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Pension Deductions",
+                                "description": "Withhold 2% employee pension contribution. Calculate 2% employer contribution. From May 2025, pension data auto-integrates with Revenue Service declarations."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Net Salary Disbursement",
+                                "description": "Transfer net salary to employee bank accounts. Most companies pay monthly, typically by the last working day or 5th of following month."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Tax Remittance",
+                                "description": "Submit income tax to Revenue Service by the 15th of the following month. Pension contributions also due by the 15th (new May 2025 deadline)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ge-gp-insights",
+                    "type": "insights",
+                    "title": "Payroll Compliance Notes",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "May 2025 Pension Changes",
+                                "text": "From May 1, 2025, employers no longer submit separate pension declarations. Pension data auto-links to income tax declarations submitted to Revenue Service. Deadline shifts to 15th of following month."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Currency Requirement",
+                                "text": "All employment salaries for Georgian residents must be denominated and paid in Georgian Lari (GEL). USD contracts should specify GEL equivalent for statutory compliance."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Overtime Calculations",
+                                "text": "Overtime must be paid at minimum 1.25x regular rate. Weekend/holiday work typically commands 1.5x rates. Document all overtime approval to avoid disputes."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ge-gp-calendar",
+                    "type": "essentials",
+                    "title": "Key Payroll Deadlines 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Monthly Tax Filing",
+                                "description": "15th of the month following the salary payment. Late submissions attract penalties."
+                            },
+                            {
+                                "title": "Pension Contributions",
+                                "description": "15th of the month following salary (changed from May 2025). Auto-integrated with tax declarations."
+                            },
+                            {
+                                "title": "Annual Tax Declaration",
+                                "description": "Corporate annual return due by April 1 for the previous year. Employee year-end statements by January 31."
+                            },
+                            {
+                                "title": "VAT Returns",
+                                "description": "Monthly VAT returns due by the 15th for companies exceeding GEL 100,000 annual turnover."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ge-gp-faq",
+                    "type": "faq",
+                    "title": "Payroll FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Are there regional payroll tax differences?",
+                                "answer": "No, Georgia has uniform national tax rates. The flat 20% income tax applies equally in Tbilisi, Batumi, and all regions."
+                            },
+                            {
+                                "question": "How is overtime calculated?",
+                                "answer": "Standard overtime is 1.25x regular hourly rate. Work on rest days/holidays is typically 1.5x. Maximum overtime is limited under labor code."
+                            },
+                            {
+                                "question": "What payroll records must we keep?",
+                                "answer": "Maintain salary records, tax declarations, pension contribution evidence, and employment contracts for minimum 3 years per Revenue Service requirements."
+                            },
+                            {
+                                "question": "Can we pay in foreign currency?",
+                                "answer": "Salaries for residents must be in GEL. You may reference USD/EUR for calculation purposes, but actual payment must convert to local currency."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ge-ben-mandatory",
+                    "type": "cost_breakdown",
+                    "title": "Mandatory Benefits 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Benefit",
+                                "Contribution",
+                                "Cap/Notes",
+                                "Administration"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Pension - Employer",
+                                    "values": [
+                                        "2%",
+                                        "No cap",
+                                        "Monthly via Revenue Service"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Pension - Employee",
+                                    "values": [
+                                        "2%",
+                                        "No cap",
+                                        "Payroll deduction"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Pension - Government",
+                                    "values": [
+                                        "1-2%",
+                                        "Up to GEL 60K income",
+                                        "2% if <GEL 24K; 1% if 24K-60K"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Annual Leave",
+                                    "values": [
+                                        "24 days",
+                                        "Paid at full salary",
+                                        "Employer cost"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Public Holidays",
+                                    "values": [
+                                        "15 days",
+                                        "Paid at full salary",
+                                        "Employer cost"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Maternity Benefit",
+                                    "values": [
+                                        "100%",
+                                        "Capped at GEL 1,000/day",
+                                        "State contribution"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ge-ben-pension",
+                    "type": "insights",
+                    "title": "Funded Pension Scheme Details",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Three-Pillar System",
+                                "text": "Georgia's pension scheme combines employer (2%), employee (2%), and government (1-2%) contributions into individual pension accounts managed by the Pension Agency."
+                            },
+                            {
+                                "type": "info",
+                                "title": "May 2025 Changes",
+                                "text": "From May 1, 2025, pension declarations auto-integrate with income tax submissions. No separate pension filing required. Payment deadline moves to 15th of following month."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Government Contribution Tiers",
+                                "text": "Annual income <GEL 24K: 2% govt match. Income GEL 24K-60K: 1% match. Income >GEL 60K: no government contribution."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Exemptions",
+                                "text": "Self-employed pay 4% into own account. Individuals over 60 (men) or 55 (women) at scheme inception are exempt."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ge-ben-supplemental",
+                    "type": "essentials",
+                    "title": "Common Supplemental Benefits",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Private Health Insurance",
+                                "description": "Top benefit differentiator. No mandatory health contributions, so employer-provided coverage highly valued. Budget: GEL 100-300/month per employee for comprehensive plans."
+                            },
+                            {
+                                "title": "Meal Allowances",
+                                "description": "Popular benefit. Tax treatment depends on structure. Vouchers or on-site meals common in larger companies."
+                            },
+                            {
+                                "title": "Transportation Allowance",
+                                "description": "Common in Tbilisi where commute costs add up. Can be provided as cash allowance or company shuttle."
+                            },
+                            {
+                                "title": "Professional Development",
+                                "description": "Training budgets, conference attendance, and certification support. Increasingly expected by IT professionals."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ge-ben-tax",
+                    "type": "key_steps",
+                    "title": "Benefits Tax Treatment",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Cash Benefits",
+                                "description": "Cash allowances (meal, transport) are taxable as employment income at 20% flat rate. Include in payroll."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Health Insurance",
+                                "description": "Employer-paid health insurance premiums are taxable benefit to employee. Some structuring may reduce impact."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Pension Contributions",
+                                "description": "Mandatory 2% employer pension contribution is tax-deductible for the company. Employee portion deducted from gross."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "In-Kind Benefits",
+                                "description": "Non-cash benefits valued at market rate and included in taxable income. Company car, housing, etc. are taxable."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Record Keeping",
+                                "description": "Document all benefits provided for tax audit purposes. Maintain supporting invoices and employee acknowledgments."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ge-ben-faq",
+                    "type": "faq",
+                    "title": "Benefits FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is health insurance mandatory?",
+                                "answer": "No, there is no mandatory health insurance contribution system in Georgia. However, private health insurance is the most valued supplemental benefit."
+                            },
+                            {
+                                "question": "What pension fund options are there?",
+                                "answer": "The Pension Agency manages the single mandatory pension scheme. Employees can choose investment portfolios (conservative, balanced, growth) within the scheme."
+                            },
+                            {
+                                "question": "How are stock options/equity taxed?",
+                                "answer": "Stock options are taxed at exercise (20% on spread). Capital gains on share sales may be taxed depending on holding period and circumstances."
+                            },
+                            {
+                                "question": "Is 13th month salary required?",
+                                "answer": "No statutory requirement. Any bonus payments are at employer discretion and subject to normal income tax."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Georgia",
+                "subtitle": "LLC via NAPR Fast-Track",
+                "description": "Register your company in 1-2 days through the National Agency of Public Registry. 100% foreign ownership permitted with minimal capital requirements.",
+                "bestFor": "Tech Startups & Regional HQs",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "ge-inc-steps",
+                    "type": "key_steps",
+                    "title": "LLC Registration Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Business Name Reservation",
+                                "description": "Check name availability through NAPR database. Name must be unique and not conflict with existing registered entities. Reserve online or at Public Service Hall."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Document Preparation",
+                                "description": "Prepare: passport copies (notarized Georgian translations for foreigners), company charter (bilingual), written consent for legal address, and director appointment resolution."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "NAPR Submission",
+                                "description": "Submit documents to National Agency of Public Registry via Public Service Hall or online portal. Standard processing: 1-2 business days. Same-day expedited available for additional fee."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Tax Registration",
+                                "description": "Register with Revenue Service of Georgia to obtain Tax Identification Number (TIN). Choose tax regime: standard (15% CIT on distributed profits) or Small Business Status if qualifying."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Bank Account Opening",
+                                "description": "Open corporate account with Georgian bank (TBC Bank, Bank of Georgia). Requires company extract, director ID, and beneficial owner documentation. Usually 3-5 business days."
+                            },
+                            {
+                                "stepNumber": 6,
+                                "title": "VAT Registration (if applicable)",
+                                "description": "Mandatory VAT registration if annual turnover exceeds GEL 100,000. Voluntary registration available. Standard VAT rate is 18%."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ge-inc-costs",
+                    "type": "cost_breakdown",
+                    "title": "Incorporation Costs 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Item",
+                                "Cost (GEL)",
+                                "Cost (USD)",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "NAPR Registration Fee",
+                                    "values": [
+                                        "200",
+                                        "~$70",
+                                        "Standard 1-2 day processing"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Expedited Registration",
+                                    "values": [
+                                        "+200",
+                                        "~$70",
+                                        "Same-day processing"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Company Extract (English)",
+                                    "values": [
+                                        "50",
+                                        "~$18",
+                                        "Official registry document"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Notarized Translations",
+                                    "values": [
+                                        "100-300",
+                                        "~$35-105",
+                                        "Per document, if required"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Legal Service Package",
+                                    "values": [
+                                        "1,500-4,000",
+                                        "~$520-1,400",
+                                        "Full incorporation service"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Annual Registration Fee",
+                                    "values": [
+                                        "50",
+                                        "~$18",
+                                        "Due Jan 1 - Apr 1 yearly"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ge-inc-entities",
+                    "type": "insights",
+                    "title": "Entity Type Comparison",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "LLC (შპს / Ltd)",
+                                "text": "Most common structure. No minimum capital. 100% foreign ownership allowed. Single director/shareholder permitted. Ideal for SMEs and tech startups."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Joint Stock Company (სს / JSC)",
+                                "text": "Required for banks, insurance, and large enterprises. Minimum capital GEL 100,000. More complex governance requirements."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Branch Office",
+                                "text": "Extension of foreign parent company. Not a separate legal entity. Subject to Georgian taxation on local income. Good for initial market testing."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Virtual Zone IT Company",
+                                "text": "Special status for IT companies exporting 100% of services. 0% CIT on profits, 5% on dividends. Must apply and qualify through specific criteria."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ge-inc-reqs",
+                    "type": "essentials",
+                    "title": "Key Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Directors",
+                                "description": "Minimum 1 director. No residency requirement. Foreign nationals can serve as sole director. Corporate directors not permitted."
+                            },
+                            {
+                                "title": "Shareholders",
+                                "description": "Minimum 1 shareholder (individual or corporate). 100% foreign ownership allowed. No restrictions on nationality."
+                            },
+                            {
+                                "title": "Registered Address",
+                                "description": "Local Georgian address required. Can use virtual office or registered agent address. Address displayed on public registry."
+                            },
+                            {
+                                "title": "Share Capital",
+                                "description": "No minimum capital requirement for LLC. Can be nominal (e.g., GEL 1). Capital must be paid as stated in charter."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ge-inc-faq",
+                    "type": "faq",
+                    "title": "Incorporation FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "How long does LLC registration take?",
+                                "answer": "Standard processing is 1-2 business days via NAPR. Same-day expedited service available for additional GEL 200. Remote registration with POA takes 1-2 weeks."
+                            },
+                            {
+                                "question": "Do I need to visit Georgia to incorporate?",
+                                "answer": "Not mandatory. You can grant Power of Attorney to a local agent. However, bank account opening may require in-person verification at some banks."
+                            },
+                            {
+                                "question": "What is the annual compliance requirement?",
+                                "answer": "File annual registration with NAPR between Jan 1 - Apr 1 each year (GEL 50 fee). Failure results in late fees and potential dissolution."
+                            },
+                            {
+                                "question": "Can a single person form an LLC?",
+                                "answer": "Yes, Georgia allows single-member LLCs where one person acts as both sole shareholder and director."
+                            },
+                            {
+                                "question": "What are the tax benefits?",
+                                "answer": "Estonian model: 15% CIT only on distributed profits. Reinvested profits untaxed. Virtual Zone IT companies enjoy 0% CIT on export income."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing Georgia",
+                "subtitle": "Tbilisi Tech Talent Hub",
+                "description": "Access Georgia's growing IT talent pool. Tbilisi accounts for 70% of the country's software developers with competitive salary rates.",
+                "bestFor": "IT, BPO & Shared Services",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "ge-staff-hubs",
+                    "type": "insights",
+                    "title": "Major Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Tbilisi",
+                                "text": "Capital city with 70% of IT job openings. Home to major tech companies (EPAM, Exadel, Ruby Labs). Strong university ecosystem producing ~2,000 IT graduates annually."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Batumi",
+                                "text": "Growing tech scene on the Black Sea coast. Emerging as a hub for remote workers and digital nomads. Lower costs than Tbilisi."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Kutaisi Free Zone",
+                                "text": "Industrial hub with manufacturing and logistics talent. Special economic zone benefits for qualifying industries."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ge-staff-salaries",
+                    "type": "cost_breakdown",
+                    "title": "IT Salary Benchmarks 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Role",
+                                "Monthly (GEL)",
+                                "Monthly (USD)",
+                                "Experience Level"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Junior Developer",
+                                    "values": [
+                                        "2,500-4,500",
+                                        "$870-1,570",
+                                        "1-2 years"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Mid-Level Developer",
+                                    "values": [
+                                        "5,500-9,000",
+                                        "$1,920-3,140",
+                                        "3-5 years"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Senior Developer",
+                                    "values": [
+                                        "10,000-18,000",
+                                        "$3,490-6,280",
+                                        "6+ years"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Tech Lead/Architect",
+                                    "values": [
+                                        "15,000-25,000",
+                                        "$5,230-8,720",
+                                        "8+ years"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "DevOps Engineer",
+                                    "values": [
+                                        "8,000-15,000",
+                                        "$2,790-5,230",
+                                        "3-6 years"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "QA Engineer",
+                                    "values": [
+                                        "3,500-8,000",
+                                        "$1,220-2,790",
+                                        "2-5 years"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ge-staff-process",
+                    "type": "key_steps",
+                    "title": "Recruitment Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Requirements Definition",
+                                "description": "Define role specifications, required skills, and salary range. Consider local market benchmarks - English proficiency commands 20-30% premium."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Sourcing & Job Posting",
+                                "description": "Post on Jobs.ge, HR.ge, and LinkedIn. Telegram tech communities are effective for developer roles. University career fairs for junior positions."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Screening & Interviews",
+                                "description": "Technical assessments common for IT roles. Average time-to-hire: 35 days for software engineers. 68% of openings are mid-senior level."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Offer & Negotiation",
+                                "description": "Offers typically include base salary (GEL), vacation days (24 minimum), and any benefits. Private health insurance is a key differentiator."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Onboarding",
+                                "description": "Employment contract required within 1 month. Register with Revenue Service and Pension Agency. Standard probation up to 6 months."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ge-staff-channels",
+                    "type": "essentials",
+                    "title": "Recruitment Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Jobs.ge",
+                                "description": "Largest local job board. Strong for all industries and experience levels. Georgian language interface."
+                            },
+                            {
+                                "title": "LinkedIn",
+                                "description": "Dominant for professional and IT roles. Growing penetration especially among younger professionals and those with international exposure."
+                            },
+                            {
+                                "title": "Telegram Groups",
+                                "description": "Active tech communities for developer sourcing. Channels like 'IT Jobs Georgia' have significant reach for quick hires."
+                            },
+                            {
+                                "title": "University Partnerships",
+                                "description": "Tbilisi State University, Free University, and Georgian Technical University produce strong STEM graduates. Internship pipelines effective."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ge-staff-faq",
+                    "type": "faq",
+                    "title": "Staffing FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the typical time-to-hire in Georgia?",
+                                "answer": "Average 35 days for software engineers. Junior roles fill faster (2-3 weeks); senior/specialized roles may take 6-8 weeks."
+                            },
+                            {
+                                "question": "Are fixed-term contracts common?",
+                                "answer": "Both fixed-term and indefinite contracts are legal. Fixed-term contracts cannot exceed 3 years including renewals. They automatically convert to indefinite if exceeded."
+                            },
+                            {
+                                "question": "What benefits do candidates expect?",
+                                "answer": "Private health insurance is the top differentiator. Flexible/remote work options, professional development budgets, and performance bonuses are valued."
+                            },
+                            {
+                                "question": "How important is English proficiency?",
+                                "answer": "Critical for international companies. English-fluent candidates command 20-30% salary premiums. Russian is also widely spoken as a second language."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,119 @@
+/* Google Fonts with font-display: swap for non-blocking load */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+
+/* Fallback font-face declaration for optimal loading */
+@font-face {
+  font-family: "Inter";
+  font-display: swap;
+  src: local("Inter");
+}
+
+@import "tailwindcss";
+@config "../../tailwind.config.js";
+
+@layer components {
+  .container-custom {
+    @apply max-w-7xl mx-auto px-2.5 xxs:px-3 xs:px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-padding {
+    @apply py-8 xxs:py-10 xs:py-12 sm:py-16 md:py-24;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-red-500 hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 transition-colors duration-200;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-6 py-3 border-2 border-navy-950 text-base font-medium rounded-lg text-navy-950 bg-transparent hover:bg-navy-950 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-navy-950 transition-colors duration-200;
+  }
+
+  .card {
+    @apply bg-white rounded-card shadow-card p-6 transition-shadow duration-200 hover:shadow-card-hover;
+  }
+}
+
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes float-slow {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-12px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@layer utilities {
+  .bg-animated-gradient {
+    background-image: linear-gradient(
+      120deg,
+      #0c1b33,
+      #152a52,
+      #0b1730,
+      #0c1b33
+    );
+    background-size: 200% 200%;
+    animation: gradient-shift 14s ease infinite;
+  }
+
+  .glass-panel {
+    @apply bg-white/10 backdrop-blur-xl border border-white/10;
+  }
+
+  .animate-float-slow {
+    animation: float-slow 8s ease-in-out infinite;
+  }
+
+  .glass-card {
+    @apply bg-white/70 backdrop-blur-xl border border-white/50 shadow-[0_8px_32px_0_rgba(31,38,135,0.15)];
+  }
+
+  .mesh-gradient {
+    background:
+      radial-gradient(at 0% 0%, hsla(253, 16%, 7%, 1) 0, transparent 50%),
+      radial-gradient(at 50% 0%, hsla(225, 39%, 30%, 1) 0, transparent 50%),
+      radial-gradient(at 100% 0%, hsla(339, 49%, 30%, 1) 0, transparent 50%);
+  }
+
+  .no-scrollbar::-webkit-scrollbar,
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar,
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .container-inline-size {
+    container-type: inline-size;
+  }
+
+  .animate-marquee-pingpong {
+    animation: marquee-pingpong 4s ease-in-out infinite alternate;
+  }
+}
+
+@keyframes marquee-pingpong {
+  0%, 15% { transform: translateX(0); }
+  85%, 100% { transform: translateX(min(0px, calc(100cqw - 100%))); }
+}

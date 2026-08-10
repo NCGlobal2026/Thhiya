@@ -1,0 +1,2108 @@
+{
+    "name": "Dominica",
+    "code": "DM",
+    "slug": "dominica",
+    "flag": "https://flagcdn.com/w160/dm.png",
+    "region": "Americas",
+    "languages": [
+        "English"
+    ],
+    "currencies": [
+        "XCD"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR & PEO in Dominica",
+                "subtitle": "Hire professionals in Dominica without a local entity",
+                "description": "Comprehensive EOR services to hire compliant talent in Dominica in days, handling payroll, taxes, and benefits.",
+                "bestFor": "Companies expanding to Dominica without a local entity",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "dm-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Employee Onboarding Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract Issuance",
+                                "description": "Drafting compliant employment contracts that must be provided to the employee within 14 days of the start date. Contracts must detail wages, hours, duties, and termination conditions."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Social Security Registration",
+                                "description": "Registering the new hire with the Dominica Social Security (DSS) within 7 days. Valid identification (passport/ID card) and proof of address are mandatory for enrollment."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax Setup",
+                                "description": "Registering the employee with the Inland Revenue Division (IRD) for Pay As You Earn (PAYE) tax withholdings based on the progressive tax rates."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Benefits Enrollment",
+                                "description": "Enrolling employees in statutory benefits including sick leave and maternity leave as mandated by the Labour Standards Act."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Equipment Provision",
+                                "description": "Arranging for the delivery and setup of necessary work equipment (laptops, monitors), subject to customs duties and clearance if imported."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "EOR Cost Breakdown",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Cost",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "EOR Management Fee",
+                                    "values": [
+                                        "$200 - $500 / month",
+                                        "Standard monthly fee per employee charged by global EOR providers."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Employer Social Security",
+                                    "values": [
+                                        "7.75%",
+                                        "Mandatory contribution on employee earnings (includes redundancy fund portion)."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Severance Accrual",
+                                    "values": [
+                                        "Optional",
+                                        "Recommended accrual for potential statutory severance pay (approx 1-2 weeks per year)."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Health Insurance",
+                                    "values": [
+                                        "Variable",
+                                        "Optional private health coverage typically costs $50-$150/mo per employee."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "dm-eor-insights",
+                    "type": "insights",
+                    "title": "Dominica Employment Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Probationary Periods",
+                                "text": "Probation periods typically range from 1 to 3 months. Termination during this period is simpler but must still follow due process regarding notice."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Minimum Wage",
+                                "text": "The statutory minimum wage is EC$7.50 per hour (approx XCD 4.00), applicable to most sectors, though skilled roles command significantly higher."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Written Contracts",
+                                "text": "While oral contracts are valid, a written statement of particulars is legally required within 14 days to avoid disputes."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Work Week",
+                                "text": "Standard work week is 40 hours (8 hours/day). Overtime is paid at 1.5x regular rate, and double time on public holidays."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-eor-termination",
+                    "type": "insights",
+                    "title": "Termination & Redundancy",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Valid Causes",
+                                "text": "Valid grounds include serious misconduct (theft, fraud), repeated minor misconduct (after warnings), incapacity, or redundancy."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Redundancy Process",
+                                "text": "Redundancy requires consultation. Employees with 3+ years of service are entitled to statutory redundancy pay."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Dismissal Letters",
+                                "text": "All dismissals should be confirmed in writing stating the reason, date of termination, and final payout details."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-eor-essentials",
+                    "type": "essentials",
+                    "title": "Compliance Essentials",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Termination Notice",
+                                "description": "Notice periods vary by tenure: 2 weeks (<1 year), 4 weeks (1-5 years), and 6 weeks (>5 years)."
+                            },
+                            {
+                                "title": "Severance Pay",
+                                "description": "Eligible after 3 years continuous service. Redundancy pay is generally 2 weeks/year (up to 10 years) and 3 weeks/year (10+ years), capped at 52 weeks."
+                            },
+                            {
+                                "title": "Public Holidays",
+                                "description": "Employees working on public holidays are entitled to double time pay. There are typically 12 public holidays per year."
+                            },
+                            {
+                                "title": "Record Retention",
+                                "description": "Employment records must be kept for at least 6 years for tax and social security audits."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-eor-risks",
+                    "type": "insights",
+                    "title": "EOR Risks & Considerations",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Permanent Establishment",
+                                "text": "Using an EOR does not fully eliminate Permanent Establishment risks if the employee has authority to conclude contracts or is involved in revenue-generating sales activities."
+                            },
+                            {
+                                "type": "info",
+                                "title": "IP Assignment",
+                                "text": "While EOR contracts include IP assignment clauses, specific care must be taken to ensure these hold up under Dominica's intellectual property laws for foreign entities."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Shadow Payroll",
+                                "text": "It is critical to ensure that any stock options or global benefits provided directly by the parent company are reported for local tax withholding."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-eor-faq",
+                    "type": "faq",
+                    "title": "EOR FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is independent contractor engagement risky?",
+                                "answer": "Yes, misclassification risk exists. If a contractor acts like an employee (fixed hours, supervision), they may be deemed an employee by labor tribunals."
+                            },
+                            {
+                                "question": "Can I hire foreigners via EOR?",
+                                "answer": "Yes, but the EOR must sponsor a work permit, which is granted only if no local talent is available."
+                            },
+                            {
+                                "question": "What is the currency for payroll?",
+                                "answer": "Payroll is typically processed in Eastern Caribbean Dollars (XCD), though contracts can be denominated in USD."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-payroll-cycle",
+                    "type": "key_steps",
+                    "title": "Monthly Payroll Cycle",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Data Aggregation",
+                                "description": "Collecting time sheets, overtime hours, and any bonus approvals by the 20th of the month."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Gross-to-Net Calculation",
+                                "description": "Calculating PAYE tax, Social Security deductions (capped at ceiling), and net pay."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax Filing",
+                                "description": "Submitting PAYE returns to the Inland Revenue Division and Social Security contributions to DSS by the end of the month."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Disbursement",
+                                "description": "Transferring net salaries to employee bank accounts via local banking networks."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Payslip Delivery",
+                                "description": "Distributing electronic or physical payslips to employees as required by law."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-payroll-taxes",
+                    "type": "cost_breakdown",
+                    "title": "Tax & Contribution Rates (2025)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Contribution",
+                                "Employee Rate",
+                                "Employer Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Security",
+                                    "values": [
+                                        "6.75%",
+                                        "7.75%",
+                                        "Capped at earnings of $7,000 XCD/month."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Income Tax (PAYE)",
+                                    "values": [
+                                        "0% - 35%",
+                                        "N/A",
+                                        "Progressive rates: 0%, 15%, 25%, 35%."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Redundancy Fund",
+                                    "values": [
+                                        "Included",
+                                        "Included",
+                                        "Part of the 7.75% employer contribution."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "dm-payroll-leave",
+                    "type": "insights",
+                    "title": "Leave Entitlements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Maternity Leave",
+                                "text": "12 weeks of leave. Employers must pay 50% of wages for 4 weeks. DSS pays a maternity benefit (60%) for up to 3 months if eligible."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Sick Leave",
+                                "text": "Up to 6 weeks per year with medical certificate. Employer pays the difference between DSS sickness benefit and full salary."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Vacation Leave",
+                                "text": "2 weeks per year (years 1-5), increasing to 3 weeks (year 5+). Accrued leave must be paid out on termination."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-payroll-insights",
+                    "type": "insights",
+                    "title": "Payroll Compliance Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Filing Deadlines",
+                                "text": "PAYE and Social Security payments are strictly due by the 14th of the following month. Late fees include 10% penalty plus interest."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Tax Free Allowance",
+                                "text": "The first EC$30,000 of annual income is tax-free for residents (approx EC$2,500/month)."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Bonus Treatment",
+                                "text": "Bonuses are fully taxable and subject to Social Security deductions unless the yearly ceiling is reached."
+                            },
+                            {
+                                "type": "info",
+                                "title": "13th Month Pay",
+                                "text": "Not legally mandatory, but customary in some industries as a Christmas bonus."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-payroll-essentials",
+                    "type": "essentials",
+                    "title": "Payroll Essentials",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Record Keeping",
+                                "description": "Payroll records must be maintained for 7 years."
+                            },
+                            {
+                                "title": "E-Filing",
+                                "description": "The IRD portal allows for electronic submission of monthly remittance forms."
+                            },
+                            {
+                                "title": "Benefits in Kind",
+                                "description": "Housing and vehicle allowances are taxable benefits and must be included in gross income."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-payroll-faq",
+                    "type": "faq",
+                    "title": "Payroll FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the employer's total social security cost?",
+                                "answer": "The employer contributes 7.75% of the employee's insurable earnings, up to the ceiling of $7,000 XCD/month."
+                            },
+                            {
+                                "question": "Are benefits in kind taxable?",
+                                "answer": "Yes, non-cash benefits like housing or vehicle allowances are generally taxable."
+                            },
+                            {
+                                "question": "How do I pay the authorities?",
+                                "answer": "Payments can be made online via the IRD portal or at physical tax offices."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-calculator-table",
+                    "type": "table",
+                    "title": "Income Tax Bands (Annual)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Income Range (XCD)",
+                                "Tax Rate",
+                                "calculate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "First EC$30,000",
+                                    "values": [
+                                        "0%",
+                                        "Tax Free Allowance"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Next EC$20,000",
+                                    "values": [
+                                        "15%",
+                                        "30,001 - 50,000"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Next EC$30,000",
+                                    "values": [
+                                        "25%",
+                                        "50,001 - 80,000"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Over EC$80,000",
+                                    "values": [
+                                        "35%",
+                                        "Balance"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "dm-calculator-contributions",
+                    "type": "cost_breakdown",
+                    "title": "Contribution Summary",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Contribution",
+                                "Employee %",
+                                "Employer %"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Security",
+                                    "values": [
+                                        "6.75%",
+                                        "7.75%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Total Burden",
+                                    "values": [
+                                        "-",
+                                        "7.75% + Salary"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Net Impact",
+                                    "values": [
+                                        "Deducted from Gross",
+                                        "Added to Cost"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "dm-calculator-insights",
+                    "type": "insights",
+                    "title": "Calculation Notes",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Tax Free Threshold",
+                                "text": "Ensure the first 30,000 XCD is excluded from tax calculations."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Ceilings",
+                                "text": "Social security deductions are capped at insurable earnings of $7,000 XCD per month."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Currency",
+                                "text": "Calculations should be done in XCD. Fixed peg is 2.70 XCD = 1 USD."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Redundancy",
+                                "text": "The 7.75% employer contribution includes the redundancy fund portion."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-calculator-process",
+                    "type": "key_steps",
+                    "title": "Payroll Processing Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross Pay",
+                                "description": "Determine the gross monthly salary including any taxable allowances."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Social Security",
+                                "description": "Deduct employee contribution (6.75%) from gross pay (capped at $7,000 XCD)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax (PAYE)",
+                                "description": "Calculate income tax on the taxable income (Gross - Social Security - Personal Allowance)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Net Pay",
+                                "description": "Subtract all deductions from gross pay to arrive at the net amount payable."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-calculator-faq",
+                    "type": "faq",
+                    "title": "Calculator FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is the tax allowance monthly?",
+                                "answer": "It is an annual allowance (30,000), usually pro-rated monthly (2,500) for PAYE."
+                            },
+                            {
+                                "question": "Are foreign earnings taxed?",
+                                "answer": "For residents, yes. Double taxation relief may apply if a treaty exists."
+                            },
+                            {
+                                "question": "Does this include health insurance?",
+                                "answer": "No, specific private health insurance is effectively a separate benefit."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation in Dominica",
+                "subtitle": "Set up your business entity in Dominica",
+                "description": "Guidance on registering a local company or IBC in Dominica, including fees and legal steps.",
+                "bestFor": "Entrepreneurs and businesses establishing a local presence",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "dm-inc-steps",
+                    "type": "key_steps",
+                    "title": "Registration Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Name Search & Reservation",
+                                "description": "Conducting a search at CIPO to ensure the desired company name is available and reserving it."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Registered Agent Appointment",
+                                "description": "Appointing a local registered agent or attorney, required for foreign applicants and IBCs."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Document Preparation",
+                                "description": "Drafting Articles of Incorporation and By-laws, and obtaining notarized IDs for directors."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Fee Payment",
+                                "description": "Paying the registration fee (approx EC$750) and stamp duties to the Treasury."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Tax Registration",
+                                "description": "Registering with the Inland Revenue Division for a Tax ID and VAT (if eligible)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-inc-costs",
+                    "type": "cost_breakdown",
+                    "title": "Incorporation Costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Item",
+                                "Cost (Estimate)",
+                                "Frequency"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Government Registration Fee",
+                                    "values": [
+                                        "EC$750",
+                                        "One-time"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Legal / Agent Fees",
+                                    "values": [
+                                        "$1,500 - $3,000 USD",
+                                        "One-time"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Annual License Fee",
+                                    "values": [
+                                        "Varies (scaled by capital)",
+                                        "Annual"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "IBC Registration Package",
+                                    "values": [
+                                        "~$2,900 USD",
+                                        "One-time (includes year 1 fees)"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "dm-inc-incentives",
+                    "type": "insights",
+                    "title": "Fiscal Incentives",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Tax Holidays",
+                                "text": "Under the Fiscal Incentives Act, approved enterprises (e.g., manufacturing, tourism) can receive tax holidays of up to 15 years."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Duty Waivers",
+                                "text": "Exemptions on import duties for plant, machinery, and raw materials for qualifying projects."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Hotels Aid Act",
+                                "text": "Specific incentives for hotel construction and expansion, including 10-20 year tax holidays."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-inc-insights",
+                    "type": "insights",
+                    "title": "Entity Setup Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Timeframe",
+                                "text": "Standard incubation takes 1-2 weeks. IBCs can often be formed faster (24-48 hours)."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Bank Accounts",
+                                "text": "Opening a corporate bank account can take significantly longer (4-8 weeks) due to strict KYC/AML checks."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Registered Office",
+                                "text": "A physical local address is required for the registered office; a P.O. Box alone is insufficient."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Directors",
+                                "text": "Minimum of one director is required. Corporate directors are permitted for IBCs."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-inc-cbi",
+                    "type": "good_to_know",
+                    "title": "Citizenship by Investment",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Investment Options",
+                                "text": "Two main routes exist: A non-refundable contribution to the Economic Diversification Fund (min $200,000 USD) or an investment in government-approved real estate (min $200,000 USD)."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Real Estate Holding",
+                                "text": "Approved real estate must be held for a minimum of 3 years. If the property is sold to another CBI applicant, the holding period increases to 5 years."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Due Diligence Fees",
+                                "text": "Strict diligence checks apply. Fees are approximately $7,500 for the main applicant and $4,000 for dependents over 16."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Key Benefits",
+                                "text": "Citizenship grants visa-free or visa-on-arrival access to over 140 countries, including the Schengen Area, and requires no minimum physical residency."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-inc-faq",
+                    "type": "faq",
+                    "title": "Incorporation FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Do I need to be in Dominica to incorporate?",
+                                "answer": "No, the process can be handled remotely through a registered agent."
+                            },
+                            {
+                                "question": "What is the minimum capital?",
+                                "answer": "For private companies, there is no strict minimum, but IBCs typically start with nominal capital (e.g., $100 USD)."
+                            },
+                            {
+                                "question": "Can foreigners own 100% of the shares?",
+                                "answer": "Yes, 100% foreign ownership is permitted."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Dominica",
+                "subtitle": "Recruitment strategies for Dominica",
+                "description": "Find top talent in Dominica with local recruitment agencies and compliant hiring practices.",
+                "bestFor": "Companies seeking local talent",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "dm-staffing-process",
+                    "type": "key_steps",
+                    "title": "Recruitment Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Job Analysis",
+                                "description": "Defining the role requirements and determining if a work permit will be needed for non-nationals."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Sourcing",
+                                "description": "Posting vacancies on local job portals, social media, and newspapers."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Screening",
+                                "description": "Reviewing CVs and conducting initial interviews. Background checks for criminal records are optional but recommended."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Selection & Offer",
+                                "description": "Making a formal offer. Note that discrimination during selection is prohibited."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Work Permit Application",
+                                "description": "For foreign hires, submitting permit applications to the Labour Division (takes 4-8 weeks)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-staffing-insights",
+                    "type": "insights",
+                    "title": "Talent Market Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Skill Availability",
+                                "text": "Strong talent pool in tourism, agriculture, and increasing capability in administrative and basic IT roles."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Labor/Skills Shortage",
+                                "text": "Highly specialized technical roles may require expatriate hiring due to local shortages."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Digital Dominica",
+                                "text": "Government initiatives to improve digital literacy are expanding the pool of tech-capable workers."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Recruitment Agencies",
+                                "text": "Using local agencies can speed up the process. Fees typically range from 15-25% of annual salary."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "English is the official language, simplifying communication for international businesses."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-staffing-costs",
+                    "type": "cost_breakdown",
+                    "title": "Recruitment Costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Item",
+                                "Cost Range",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Agency Fee",
+                                    "values": [
+                                        "15% - 25%",
+                                        "Of annual gross salary"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Job Posting",
+                                    "values": [
+                                        "$100 - $300",
+                                        "For premium listings on local boards"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Work Permit Fee",
+                                    "values": [
+                                        "~$500 - $1,000 USD",
+                                        "If hiring non-nationals, varies by role and duration"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "dm-staffing-culture",
+                    "type": "good_to_know",
+                    "title": "Business Culture & Etiquette",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Relationships First",
+                                "text": "Building personal rapport is often a prerequisite to business. Initial meetings often involve small talk about family, sports (cricket), or local events."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Formal Greetings",
+                                "text": "Address counterparts by their title and surname (e.g., Mr. Charles) unless invited to use first names. A firm handshake is the standard greeting."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Dress Code",
+                                "text": "Business attire is conservative despite the tropical climate. Lightweight suits for men and professional dresses or suits for women are expected."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Time Management",
+                                "text": "While foreign visitors are expected to be punctual, be prepared for a more relaxed approach to time ('island time') from local counterparts."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-staffing-faq",
+                    "type": "faq",
+                    "title": "Staffing FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I hire expats?",
+                                "answer": "Yes, but you must demonstrate that no suitable local candidate was found (Labour Market Test)."
+                            },
+                            {
+                                "question": "Are background checks legal?",
+                                "answer": "Yes, criminal record checks are permitted with the candidate's consent."
+                            },
+                            {
+                                "question": "What is the standard vacation time?",
+                                "answer": "2 weeks for less than 5 years of service, 3 weeks for 5+ years."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS in Dominica",
+                "subtitle": "Digital HR solutions for Dominica",
+                "description": "HR technology landscape and data privacy considerations for Dominica.",
+                "bestFor": "Modernizing HR operations",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "dm-hris-implementation",
+                    "type": "key_steps",
+                    "title": "Implementation Roadmap",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Compliance Audit",
+                                "description": "Ensuring the chosen HRIS can handle Eastern Caribbean currency and specific Dominican tax fields."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Data Migration",
+                                "description": "Safely transferring existing employee records. Verify data accuracy before final cutover."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Policy Configuration",
+                                "description": "Configuring leave policies (e.g., sick leave entitlements, maternity leave) directly into the system rules."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "User Training",
+                                "description": "Training staff on self-service portals for paystubs and leave requests."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-hris-privacy",
+                    "type": "insights",
+                    "title": "Data Privacy & Security",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Data Protection",
+                                "text": "While a comprehensive Data Protection Act is in development, companies should follow GDPR standards as best practice."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Data Residency",
+                                "text": "No strict data residency laws currently, but cloud providers should be reputable and secure."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Record Keeping",
+                                "text": "Digital records are acceptable but must be readily printable for tax audits if requested."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Employee Access",
+                                "text": "Best practice is to allow employees full visibility into their own stored personal data."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-hris-features",
+                    "type": "good_to_know",
+                    "title": "Key Features Needed",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Multi-Currency",
+                                "text": "System must handle XCD (Eastern Caribbean Dollar) for payroll and reporting."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Leave Management",
+                                "text": "Automated tracking for annual leave (2 weeks) and sick leave is essential."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Document Management",
+                                "text": "Ability to store digital copies of contracts and IDs securely."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-hris-costs",
+                    "type": "cost_breakdown",
+                    "title": "HRIS System Costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Item",
+                                "Cost Estimate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "SaaS Subscription",
+                                    "values": [
+                                        "$4 - $10 / user / month",
+                                        "Volume discounts often apply."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Implementation Fee",
+                                    "values": [
+                                        "$1,000 - $5,000",
+                                        "One-time setup and data migration."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Training",
+                                    "values": [
+                                        "$500 - $1,500",
+                                        "On-site or virtual staff training sessions."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "dm-hris-faq",
+                    "type": "faq",
+                    "title": "HRIS FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is local hosting required?",
+                                "answer": "No, cloud-hosted HRIS solutions (SaaS) are widely used and legally acceptable."
+                            },
+                            {
+                                "question": "Can we use electronic signatures?",
+                                "answer": "Yes, The Electronic Evidence Act 2010 supports the validity of electronic records and signatures."
+                            },
+                            {
+                                "question": "What happens to data on termination?",
+                                "answer": "It should be retained for the statutory period (6-7 years) then securely deleted."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting in Dominica",
+                "subtitle": "Financial reporting standards in Dominica",
+                "description": "Guide to IFRS compliance, audit requirements, and bookkeeping in Dominica.",
+                "bestFor": "Ensuring financial compliance",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "dm-accounting-standards",
+                    "type": "insights",
+                    "title": "Accounting Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "IFRS Adoption",
+                                "text": "Dominica mandates the use of International Financial Reporting Standards (IFRS) for financial statements."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Annual Returns",
+                                "text": "All companies must file an Annual Return with the Registrar of Companies by April 2nd each year."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Audit Requirement",
+                                "text": "Public companies and those exceeding certain revenue thresholds must submit audited financial statements."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Currency",
+                                "text": "Financials are typically maintained in XCD, but reporting in USD is possible for IBCs."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-accounting-steps",
+                    "type": "key_steps",
+                    "title": "Annual Filing Cycle",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Bookkeeping",
+                                "description": "Maintaining accurate records of all financial transactions throughout the fiscal year."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Financial Statement Prep",
+                                "description": "Preparing Balance Sheet, Income Statement, and Cash Flow Statement per IFRS."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Audit (If Applicable)",
+                                "description": "Engaging a local auditor to review accounts if gross revenue > $3.7M USD (approx)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Submission",
+                                "description": "Filing the Annual Return and financial statements with CIPO and the Inland Revenue Division."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-accounting-costs",
+                    "type": "cost_breakdown",
+                    "title": "Accounting Costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service",
+                                "Estimated Cost",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Bookkeeping Services",
+                                    "values": [
+                                        "$200 - $500 / month",
+                                        "For small to medium businesses."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Annual Audit",
+                                    "values": [
+                                        "$2,000 - $5,000+",
+                                        "Depends on company size and complexity."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Tax Filing Assistance",
+                                    "values": [
+                                        "$500 - $1,000",
+                                        "Annual preparation and submission fee."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "dm-accounting-tech",
+                    "type": "essentials",
+                    "title": "Software Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Multi-Currency",
+                                "description": "Accounting software must handle XCD (home) and USD/EUR (trade) properly."
+                            },
+                            {
+                                "title": "Payroll Integration",
+                                "description": "Ensure seamless integration with payroll modules for automatic tax calculations."
+                            },
+                            {
+                                "title": "Cloud Access",
+                                "description": "Cloud-based solutions (QuickBooks Online, Xero) are popular for remote accessibility."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-accounting-faq",
+                    "type": "faq",
+                    "title": "Accounting FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "When is the tax year end?",
+                                "answer": "Typically December 31st, but companies can apply for a different fiscal year end."
+                            },
+                            {
+                                "question": "Do I need a local accountant?",
+                                "answer": "It is highly recommended to use a local accountant familiar with Dominican tax laws and CIPO requirements."
+                            },
+                            {
+                                "question": "What language must accounts be in?",
+                                "answer": "Accounts must be prepared in English."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-compliance-requirements",
+                    "type": "insights",
+                    "title": "Key Compliance Areas",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "AML/CFT",
+                                "text": "Strict adherence to Anti-Money Laundering laws is enforced by the Financial Intelligence Unit (FIU)."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Beneficial Ownership",
+                                "text": "Companies must maintain an up-to-date register of beneficial owners (>25% shareholding) to ensure transparency."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Economic Substance",
+                                "text": "Relevant entities (especially in finance, IP) must demonstrate adequate economic substance (local offices, staff) in Dominica."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Late Penalties",
+                                "text": "Failure to file annual returns or tax by deadlines results in automatic financial penalties."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-compliance-privacy",
+                    "type": "insights",
+                    "title": "Data Privacy Status",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Legal Framework",
+                                "text": "A Data Protection Act is in development to align with OECS/ECCU standards."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Best Practice",
+                                "text": "Companies are encouraged to follow GDPR-like principles (consent, security) for processing personal data."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Consumer Rights",
+                                "text": "The Consumer Protection Act offers some privacy safeguards against unauthorized disclosure."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-compliance-steps",
+                    "type": "key_steps",
+                    "title": "Compliance Workflow",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Internal Policies",
+                                "description": "Drafting AML and internal control policies tailored to the business activities."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Staff Training",
+                                "description": "Conducting mandatory AML training for all relevant employees annually to recognize red flags."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "KCY/CDD",
+                                "description": "Performing Know Your Customer and Customer Due Diligence on all new clients."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Reporting",
+                                "description": "Filing Suspicious Transaction Reports (STRs) to the FIU if warranted."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-compliance-costs",
+                    "type": "cost_breakdown",
+                    "title": "Compliance Management Costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service",
+                                "Cost Estimate",
+                                "Frequency"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Compliance Officer",
+                                    "values": [
+                                        "Variable +",
+                                        "Internal salary or outsourced fee."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "AML Audit",
+                                    "values": [
+                                        "$1,500 - $3,000",
+                                        "Periodic independent review."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Registered Agent",
+                                    "values": [
+                                        "$1,000 - $2,000",
+                                        "Annual fee for maintaining statutory presence."
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "dm-compliance-due-diligence",
+                    "type": "key_steps",
+                    "title": "Due Diligence Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Identity Verification",
+                                "description": "Collecting and verifying certified copies of passports, driver's licenses, and utility bills for all directors and beneficial owners."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Source of Funds",
+                                "description": "Documenting the legitimacy of funds to satisfy strict AML requirements, particularly for real estate or high-value transactions."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Sanctions Screening",
+                                "description": "Screening all individuals and entities against global sanctions lists (OFAC, UN, EU) and PEP (Politically Exposed Persons) databases."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Risk Grading",
+                                "description": "Assigning a risk rating (Low, Medium, High) to the client relationship to determine the frequency of future reviews."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-compliance-faq",
+                    "type": "faq",
+                    "title": "Compliance FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the FIU?",
+                                "answer": "The Financial Intelligence Unit is the national agency responsible for receiving and analyzing financial information related to crime."
+                            },
+                            {
+                                "question": "Are directors liable?",
+                                "answer": "Yes, directors can be held personally liable for the company's failure to comply with certain statutory obligations."
+                            },
+                            {
+                                "question": "How often must we update KYC?",
+                                "answer": "KYC information should be kept current, with updates triggered by significant changes or periodically for high-risk clients."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-tax-types",
+                    "type": "cost_breakdown",
+                    "title": "Key Tax Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Tax Type",
+                                "Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax",
+                                    "values": [
+                                        "25%",
+                                        "On net profits for resident companies."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "VAT (Standard)",
+                                    "values": [
+                                        "15%",
+                                        "On most goods and services."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "VAT (Reduced)",
+                                    "values": [
+                                        "10%",
+                                        "For hotel accommodation and diving services."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Withholding Tax",
+                                    "values": [
+                                        "15%",
+                                        "On payments to non-residents (dividends, interest, royalties)."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "dm-tax-vat",
+                    "type": "insights",
+                    "title": "VAT Details",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Registration Threshold",
+                                "text": "Registration is mandatory for businesses with turnover > EC$250,000 (EC$62,500 for tourism providers)."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Zero-Rated Items",
+                                "text": "Basic food (rice, milk, flour), fuel, and exports are zero-rated (0% VAT)."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Exempt Supplies",
+                                "text": "Residential rent, financial services, and education services are exempt from VAT."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-tax-exemptions",
+                    "type": "good_to_know",
+                    "title": "VAT Exempt & Zero-Rated Supplies",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Exempt Supplies",
+                                "text": "Certain services are exempt from VAT, including residential rent, financial services, medical services, and educational services. Input tax cannot be recovered."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Zero-Rated Goods",
+                                "text": "Zero-rated items (0% VAT) include basic food staples (rice, flour, milk, sugar), fuel, agricultural inputs, and exported goods."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Tourism Incentives",
+                                "text": "A reduced VAT rate of 10% applies specifically to hotel accommodation and diving services to support the tourism sector."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-tax-compliance",
+                    "type": "insights",
+                    "title": "Tax Compliance",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Filing Deadline",
+                                "text": "Corporate returns are due by March 31st (or 3 months after fiscal year end)."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Quarterly Installments",
+                                "text": "Tax is payable in quarterly installments based on the previous year's liability."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Tax Holidays",
+                                "text": "Fiscal incentives are available for approved tourism and manufacturing projects (up to 20 years for some)."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Worldwide Income",
+                                "text": "Resident companies are taxed on worldwide income; non-residents only on Dominica-sourced income."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-tax-incentives",
+                    "type": "good_to_know",
+                    "title": "Allowances & Incentives",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Capital Allowances",
+                                "text": "Depreciation is a deductible expense. Accelerated depreciation may be granted for qualifying capital investments."
+                            },
+                            {
+                                "type": "info",
+                                "title": "No Capital Gains Tax",
+                                "text": "There is no general capital gains tax in Dominica, making asset appreciation tax-efficient."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Loss Carry Forward",
+                                "text": "Net losses can generally be carried forward to offset future profits, subject to specific rules."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-tax-steps",
+                    "type": "key_steps",
+                    "title": "Tax Registration & Filing",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "TIN Registration",
+                                "description": "Obtain a Tax Identification Number from the Inland Revenue Division upon incorporation."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "VAT Registration",
+                                "description": "Mandatory if annual turnover exceeds the threshold (approx EC$250,000)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Record Keeping",
+                                "description": "Maintain invoices and receipts for all expenses to claim deductions."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Annual Filing",
+                                "description": "Submit the annual return online or physically, reconciling installments paid vs. final liability."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-tax-faq",
+                    "type": "faq",
+                    "title": "Tax FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is there a capital gains tax?",
+                                "answer": "Generally, there is no capital gains tax in Dominica, except in specific land transfer contexts."
+                            },
+                            {
+                                "question": "Can I offset losses?",
+                                "answer": "Yes, losses can typically be carried forward to offset future profits, subject to certain conditions."
+                            },
+                            {
+                                "question": "What about double taxation?",
+                                "answer": "Dominica has double taxation treaties with CARICOM members and some other nations."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "MSA & Legal in Dominica",
+                "subtitle": "Corporate legal services",
+                "description": "Legal frameworks for Mergers, Acquisitions, and large-scale Master Service Agreements.",
+                "bestFor": "Complex corporate transactions",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "dm-msa-insights",
+                    "type": "insights",
+                    "title": "Legal Landscape",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Legal System",
+                                "text": "Based on English Common Law, providing a familiar framework for international contracts."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Foreign Landholding",
+                                "text": "Aliens Land Holding License is required for foreign companies to own real estate."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Dispute Resolution",
+                                "text": "Arbitration clauses are enforceable. The Eastern Caribbean Supreme Court is the judiciary."
+                            },
+                            {
+                                "type": "info",
+                                "title": "M&A Regulation",
+                                "text": "Governed by the Companies Act, which provides mechanisms for amalgamations and share acquisitions."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-msa-steps",
+                    "type": "key_steps",
+                    "title": "M&A Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Due Diligence",
+                                "description": "Conducting thorough financial, legal, and tax diligence on the target entity."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Agreement Drafting",
+                                "description": "Negotiating Share Purchase Agreements (SPA) or Asset Purchase Agreements (APA)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Regulatory Approval",
+                                "description": "Obtaining necessary approvals, which may include government notification for significant foreign investments."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Closing",
+                                "description": "Executing transfer documents, updating the company register, and paying stamp duties."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-msa-costs",
+                    "type": "cost_breakdown",
+                    "title": "Legal Costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Item",
+                                "Cost Estimate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Stamp Duty",
+                                    "values": [
+                                        "4% - 10%",
+                                        "On transfer of property or shares (rates vary)."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Legal Fees",
+                                    "values": [
+                                        "Hourly/Fixed",
+                                        "Corporate lawyers typically charge $200-$400 USD/hour."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Due Diligence",
+                                    "values": [
+                                        "$5,000+",
+                                        "Depends on scope and target size."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "dm-msa-negotiation",
+                    "type": "good_to_know",
+                    "title": "Negotiation Protocol",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Hierarchy",
+                                "text": "Decision-making often deferred to the most senior person. Ensure you are negotiating with a decision-maker or allow time for internal approvals."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Communication Style",
+                                "text": "Face-to-face meetings are preferred for major deals. Communication should be polite and respectful; avoid overly aggressive sales tactics."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Written Confirmation",
+                                "text": "While oral agreements are respected culturally, always follow up with written minutes or a formal contract to ensure legal enforceability."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-msa-faq",
+                    "type": "faq",
+                    "title": "MSA & Legal FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I enforce foreign judgments?",
+                                "answer": "Yes, foreign judgments can be registered and enforced in the High Court under certain conditions."
+                            },
+                            {
+                                "question": "Is merger clearance required?",
+                                "answer": "There is no general competition authority, but sector-specific regulators (e.g., telecom, banking) may require approval."
+                            },
+                            {
+                                "question": "How long does a merger take?",
+                                "answer": "Simple share acquisitions can close in weeks; complex mergers with property transfers can take months."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Solutions in Dominica",
+                "subtitle": "IT and Software landscape",
+                "description": "Emerging tech sector and software development services in Dominica.",
+                "bestFor": "Outsourcing and tech partnerships",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "dm-software-insights",
+                    "type": "insights",
+                    "title": "Tech Landscape",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Digital Transformation",
+                                "text": "Government initiatives are pushing for a 'Digital Dominica', improving connectivity and e-government services."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Local Talent",
+                                "text": "Small but growing pool of developers, with firms like Levon Techno Solutions active in the market."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Infrastructure",
+                                "text": "Internet reliability has improved, but backup power/connectivity is recommended for critical ops."
+                            },
+                            {
+                                "type": "info",
+                                "title": "IP Protection",
+                                "text": "Patents are valid for 20 years. Trademarks are valid for 10 years and are renewable."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-software-steps",
+                    "type": "key_steps",
+                    "title": "Software Sourcing",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Vendor Identification",
+                                "description": "Searching local directories and Caribbean tech networks for suitable partners."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "RFP Process",
+                                "description": "Issuing a Request for Proposal detailing technical requirements and compliance needs."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Evaluation",
+                                "description": "Assessing portfolios, technical stacks, and references, focusing on regional experience."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Contracting",
+                                "description": "Signing a Service Level Agreement (SLA) covering deliverables, IP rights, and support."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-software-essentials",
+                    "type": "essentials",
+                    "title": "Tech Essentials",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "IP Protection",
+                                "description": "Ensure contracts explicitly assign intellectual property rights to the client. Patents protect output for 20 years."
+                            },
+                            {
+                                "title": "Connectivity",
+                                "description": "Fiber optic internet is available in main business districts."
+                            },
+                            {
+                                "title": "Data Security",
+                                "description": "Vendors should demonstrate basic cybersecurity hygiene, though certifications may vary."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-software-costs",
+                    "type": "cost_breakdown",
+                    "title": "Development Costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service",
+                                "Hourly Rate (USD)",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Junior Developer",
+                                    "values": [
+                                        "$20 - $40",
+                                        "Recent graduates or <2 years exp."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Senior Developer",
+                                    "values": [
+                                        "$40 - $80",
+                                        "Leader or specialised stack."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "QA / Testing",
+                                    "values": [
+                                        "$15 - $30",
+                                        "Manual or automated testing support."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "dm-software-faq",
+                    "type": "faq",
+                    "title": "Software FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is software development VAT exempt?",
+                                "answer": "No, standard VAT (15%) typically applies to locally supplied digital services."
+                            },
+                            {
+                                "question": "Are there tech parks?",
+                                "answer": "Not currently equivalent to large international tech parks, but incubators exist regionally."
+                            },
+                            {
+                                "question": "What is the time zone?",
+                                "answer": "Atlantic Standard Time (AST), which aligns with US Eastern Time (no daylight savings)."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing in Dominica",
+                "subtitle": "Advertising and Digital Marketing",
+                "description": "Landscape of marketing agencies and advertising regulations in Dominica.",
+                "bestFor": "Brand expansion",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "dm-marketing-insights",
+                    "type": "insights",
+                    "title": "Marketing Regulations",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Truth in Advertising",
+                                "text": "The Consumer Protection Act 2005 strictly forbids misleading or deceptive claims."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Media Landscape",
+                                "text": "Radio remains a powerful medium, alongside growing digital/social media usage."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Cultural Sensitivity",
+                                "text": "Campaigns should be culturally relevant and respectful of local values and traditions."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "CBI Promotion",
+                                "text": "Strict rules apply to promoting the Citizenship by Investment program; only authorized agents can market it."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-marketing-steps",
+                    "type": "key_steps",
+                    "title": "Agency Engagement",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Briefing",
+                                "description": "Providing a clear brief on target demographics (local vs tourist) and objectives."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Proposal Review",
+                                "description": "Evaluating creative concepts and media plans. Check for local media relationships."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Compliance Check",
+                                "description": "Ensuring all ad copy complies with the Consumer Protection Act."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Launch & Monitor",
+                                "description": "Executing the campaign and monitoring performance via analytics and feedback."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-marketing-costs",
+                    "type": "cost_breakdown",
+                    "title": "Advertising Costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Channel",
+                                "Cost Estimate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Media",
+                                    "values": [
+                                        "Variable",
+                                        "Cost per click is generally lower than US/UK markets."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Radio Spots",
+                                    "values": [
+                                        "$20 - $50 per spot",
+                                        "Popular channel for mass reach."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Agency Retainer",
+                                    "values": [
+                                        "$500 - $2,000 / month",
+                                        "For full-service management."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "dm-marketing-channels",
+                    "type": "essentials",
+                    "title": "Key Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Radio",
+                                "description": "Dominica Broadcasting Station (DBS) and Q95 FM are dominant for mass market reach."
+                            },
+                            {
+                                "title": "Social Media",
+                                "description": "Facebook and Instagram are the primary digital channels for consumer engagement."
+                            },
+                            {
+                                "title": "Community Events",
+                                "description": "Sponsorship of local cricket or festivals builds strong brand loyalty."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "dm-marketing-faq",
+                    "type": "faq",
+                    "title": "Marketing FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Do I need a license to advertise?",
+                                "answer": "Generally no, but outdoor signage requires planning permission under the Advertisements Regulation Act."
+                            },
+                            {
+                                "question": "Is comparative advertising allowed?",
+                                "answer": "It is permitted provided it is factual, not misleading, and does not denigrate competitors unfairly."
+                            },
+                            {
+                                "question": "What are the peak seasons?",
+                                "answer": "Carnival (Feb/Mar) and the World Creole Music Festival (Oct) are key marketing periods."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

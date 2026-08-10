@@ -1,0 +1,572 @@
+{
+    "name": "Nigeria",
+    "code": "NG",
+    "slug": "nigeria",
+    "flag": "https://flagcdn.com/w160/ng.png",
+    "region": "Africa",
+    "languages": [
+        "English"
+    ],
+    "currencies": [
+        "NGN"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Nigeria",
+                "subtitle": "Hire in Lagos",
+                "description": "Compliant employment in West Africa's hub. We handle PENCOM.",
+                "bestFor": "Tech & Finance",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "ng-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Written statement of employment particulars within 3 months."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "PENCOM",
+                                "description": "Open Retirement Savings Account (RSA)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax ID",
+                                "description": "Tax Identification Number (TIN) from JTB."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ng-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Pension (Contributory)",
+                                    "values": [
+                                        "10%",
+                                        "8%",
+                                        "Mandatory for >15 employees."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "NSITF (Employee Comp)",
+                                    "values": [
+                                        "1%",
+                                        "0%",
+                                        "Nigerian Social Insurance Trust Fund."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "ITF (Industrial Training)",
+                                    "values": [
+                                        "1%",
+                                        "0%",
+                                        "If >5 employees or turnover >50m NGN."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "NHF (Housing)",
+                                    "values": [
+                                        "0%",
+                                        "2.5%",
+                                        "National Housing Fund (Basic Salary)."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ng-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Eid al-Fitr",
+                                "description": "March 30-31 (Estimated)"
+                            },
+                            {
+                                "title": "Good Friday",
+                                "description": "April 18"
+                            },
+                            {
+                                "title": "Easter Monday",
+                                "description": "April 21"
+                            },
+                            {
+                                "title": "Workers' Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Eid al-Adha",
+                                "description": "June 6-7 (Estimated)"
+                            },
+                            {
+                                "title": "Democracy Day",
+                                "description": "June 12"
+                            },
+                            {
+                                "title": "Eid al-Mawlid",
+                                "description": "September 5 (Estimated)"
+                            },
+                            {
+                                "title": "Independence Day",
+                                "description": "October 1"
+                            },
+                            {
+                                "title": "Christmas Day",
+                                "description": "December 25"
+                            },
+                            {
+                                "title": "Boxing Day",
+                                "description": "December 26"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ng-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax (PAYE)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Annual Taxable Income (NGN)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "First 300,000",
+                                    "values": [
+                                        "7%",
+                                        "Lowest band."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Next 300,000",
+                                    "values": [
+                                        "11%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Next 500,000",
+                                    "values": [
+                                        "15%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Next 500,000",
+                                    "values": [
+                                        "19%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Next 1,600,000",
+                                    "values": [
+                                        "21%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Above 3,200,000",
+                                    "values": [
+                                        "24%",
+                                        "Top rate."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Minimum Tax",
+                                    "values": [
+                                        "1%",
+                                        "Of Gross Income (if tax < 1%)."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ng-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Base Salary + Housing + Transport."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "CRA",
+                                "description": "Consolidated Relief Allowance (20% + 200k)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Pension",
+                                "description": "Deduct 8%."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Tax Base",
+                                "description": "Gross - CRA - Pension - NHF - NHIS."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "PAYE",
+                                "description": "Apply 7-24% tax table."
+                            },
+                            {
+                                "stepNumber": 6,
+                                "title": "Net",
+                                "description": "Gross - Deductions - Tax."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Nigeria",
+                "subtitle": "Ltd",
+                "description": "Private Limited Company.",
+                "bestFor": "Expansion",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "ng-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "CAC",
+                                "description": "Register with Corporate Affairs Commission (Online)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "TIN",
+                                "description": "Automatic issuance of Tax ID."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "SCUML",
+                                "description": "Anti-money laundering registration (for certain sectors)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ng-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "GTBank",
+                                "description": "Guaranty Trust Bank."
+                            },
+                            {
+                                "title": "Zenith Bank",
+                                "description": "Major commercial bank."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Nigeria",
+                "subtitle": "Lagos",
+                "description": "Tech hub of Africa.",
+                "bestFor": "Developers",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "ng-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Lagos (Yaba)",
+                                "text": "\"Yabacon Valley\" - Tech ecosystem."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Abuja",
+                                "text": "Government and Administration."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Nigeria",
+                "subtitle": "Bento/Seamless",
+                "description": "Strong local tech.",
+                "bestFor": "Management",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "ng-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Payslips",
+                                "description": "Digital payslips widely accepted."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Nigeria",
+                "subtitle": "IFRS",
+                "description": "Adopted.",
+                "bestFor": "Compliance",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "ng-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "IFRS",
+                                "text": "Mandatory for public and significant interest entities."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ng-comp-labor",
+                    "type": "warning",
+                    "title": "Non-Compliance",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Penalties",
+                                "description": "Strict penalties for failure to remit PENCOM contributions."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ng-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Company Size (Turnover)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Small (<25m NGN)",
+                                    "values": [
+                                        "0%",
+                                        "Exempt from CIT."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Medium (25m - 100m NGN)",
+                                    "values": [
+                                        "20%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Large (>100m NGN)",
+                                    "values": [
+                                        "30%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "VAT",
+                                    "values": [
+                                        "7.5%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Education Tax",
+                                    "values": [
+                                        "3%",
+                                        "Assessable Profit."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Nigeria",
+                "subtitle": "Common Law",
+                "description": "English derived.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "ng-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "English is the official language."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Nigeria",
+                "subtitle": "Flutterwave",
+                "description": "Fintech giant.",
+                "bestFor": "Payments",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "ng-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Flutterwave / Paystack",
+                                "description": "Leading payment processors."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Nigeria",
+                "subtitle": "Twitter/Insta",
+                "description": "Vibrant ecosystem.",
+                "bestFor": "Youth",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "ng-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Twitter (X)",
+                                "text": "Massive cultural impact and engagement."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

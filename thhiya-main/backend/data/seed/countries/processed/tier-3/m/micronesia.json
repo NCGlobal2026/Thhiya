@@ -1,0 +1,495 @@
+{
+    "name": "Micronesia",
+    "code": "FM",
+    "slug": "micronesia",
+    "flag": "https://flagcdn.com/w160/fm.png",
+    "region": "Oceania",
+    "languages": [
+        "English"
+    ],
+    "currencies": [
+        "USD"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Micronesia",
+                "subtitle": "Hire in Palikir",
+                "description": "Compliant employment in the FSM. We handle Social Security contributions.",
+                "bestFor": "NGOs & Fishing",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "fm-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Standard employment contract."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Social Security",
+                                "description": "Register with FSM Social Security Administration."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fm-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Security",
+                                    "values": [
+                                        "7.5%",
+                                        "7.5%",
+                                        "FSM Social Security Tax."
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "fm-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Kosrae Constitution Day",
+                                "description": "January 11"
+                            },
+                            {
+                                "title": "Lelu Day",
+                                "description": "January 13"
+                            },
+                            {
+                                "title": "Yap Day",
+                                "description": "February 28 - March 1"
+                            },
+                            {
+                                "title": "Micronesian Culture Day",
+                                "description": "March 31"
+                            },
+                            {
+                                "title": "Good Friday",
+                                "description": "April 18"
+                            },
+                            {
+                                "title": "FSM Constitution Day",
+                                "description": "May 10"
+                            },
+                            {
+                                "title": "Kosrae Liberation Day",
+                                "description": "September 8"
+                            },
+                            {
+                                "title": "Pohnpei Liberation Day",
+                                "description": "September 11"
+                            },
+                            {
+                                "title": "Chuuk Constitution Day",
+                                "description": "October 1"
+                            },
+                            {
+                                "title": "United Nations Day",
+                                "description": "October 24"
+                            },
+                            {
+                                "title": "Independence Day",
+                                "description": "November 3"
+                            },
+                            {
+                                "title": "Pohnpei Constitution Day",
+                                "description": "November 8"
+                            },
+                            {
+                                "title": "Veterans Day",
+                                "description": "November 11"
+                            },
+                            {
+                                "title": "Christmas Day",
+                                "description": "December 25"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fm-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax (Wages & Salaries Tax)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Annual Income (USD)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "First $11,000",
+                                    "values": [
+                                        "6%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Over $11,000",
+                                    "values": [
+                                        "10%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Deduction",
+                                    "values": [
+                                        "$1,000",
+                                        "For incomes < $5,000 usually."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "fm-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Base Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Social Security",
+                                "description": "Deduct 7.5%."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax Base",
+                                "description": "check if SS is deductible (usually taxed on gross)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Tax",
+                                "description": "Apply 6% (first $11k) / 10% (excess) rates."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Net",
+                                "description": "Gross - SS - Tax."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Micronesia",
+                "subtitle": "Corporation",
+                "description": "FSM Registrar.",
+                "bestFor": "Local Business",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "fm-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Name Check",
+                                "description": "Verify availability."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Filing",
+                                "description": "File Articles of Incorporation with Registrar of Corporations."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Business License",
+                                "description": "Obtain from relevant State (e.g. Pohnpei, Chuuk)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fm-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Bank of FSM",
+                                "description": "Main commercial bank."
+                            },
+                            {
+                                "title": "Bank of Guam",
+                                "description": "Regional bank."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Micronesia",
+                "subtitle": "Palikir/Kolonia",
+                "description": "Local hiring.",
+                "bestFor": "Govt/NGO",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "fm-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Pohnpei",
+                                "text": "Main administrative center."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Micronesia",
+                "subtitle": "Basic",
+                "description": "Spreadsheet based.",
+                "bestFor": "Records",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "fm-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Quarterly Reports",
+                                "description": "Social Security tax returns."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Micronesia",
+                "subtitle": "US GAAP",
+                "description": "Widely accepted.",
+                "bestFor": "Standards",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "fm-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "US GAAP",
+                                "text": "Commonly used due to relationship with US."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fm-comp-labor",
+                    "type": "warning",
+                    "title": "Minimum Wage",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Rate",
+                                "description": "Check specific state regulations (Pohnpei, Chuuk, Yap, Kosrae have variations)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "fm-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Gross Revenue Tax (Business)",
+                                    "values": [
+                                        "3%",
+                                        "On revenue > $10,000."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Corporate Income Tax (Major Corporations)",
+                                    "values": [
+                                        "21%",
+                                        "Specific to major corporations regulation."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Micronesia",
+                "subtitle": "US Derived",
+                "description": "Common Law.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "fm-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Contracts",
+                                "text": "English is the language of business and law."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Micronesia",
+                "subtitle": "Basic",
+                "description": "Standard US tools.",
+                "bestFor": "Ops",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "fm-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "QuickBooks",
+                                "description": "Widely used."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Micronesia",
+                "subtitle": "Radio",
+                "description": "Community focused.",
+                "bestFor": "Local Reach",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "fm-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Radio",
+                                "text": "Still very effective in island communities."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

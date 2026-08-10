@@ -1,0 +1,557 @@
+{
+    "name": "Rwanda",
+    "code": "RW",
+    "slug": "rwanda",
+    "flag": "https://flagcdn.com/w160/rw.png",
+    "region": "Africa",
+    "languages": [
+        "Kinyarwanda",
+        "French",
+        "English"
+    ],
+    "currencies": [
+        "RWF"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Rwanda",
+                "subtitle": "Hire in Kigali",
+                "description": "Compliant employment in East Africa. We handle RSSB.",
+                "bestFor": "Tech & Services",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "rw-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Written employment contract required."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "RSSB",
+                                "description": "Register with Rwanda Social Security Board."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "RRA",
+                                "description": "Register with Rwanda Revenue Authority for PAYE."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "rw-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Pension (2024)",
+                                    "values": [
+                                        "3%",
+                                        "3%",
+                                        "Total 6% (2024 rate)."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Pension (2025)",
+                                    "values": [
+                                        "6%",
+                                        "6%",
+                                        "Total 12% (effective Jan 1, 2025)."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "CBHI (Health)",
+                                    "values": [
+                                        "~1.5%",
+                                        "~0.5%",
+                                        "Community-Based Health Insurance."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Maternity Leave",
+                                    "values": [
+                                        "0.6%",
+                                        "0%",
+                                        "Maternity Benefit Fund."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "rw-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Day After New Year",
+                                "description": "January 2"
+                            },
+                            {
+                                "title": "National Heroes' Day",
+                                "description": "February 1 (obs. Feb 3)"
+                            },
+                            {
+                                "title": "Eid al-Fitr",
+                                "description": "March 30-31"
+                            },
+                            {
+                                "title": "Genocide Memorial Day",
+                                "description": "April 7"
+                            },
+                            {
+                                "title": "Good Friday",
+                                "description": "April 18"
+                            },
+                            {
+                                "title": "Easter Monday",
+                                "description": "April 21"
+                            },
+                            {
+                                "title": "Labor Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Eid al-Adha",
+                                "description": "June 6"
+                            },
+                            {
+                                "title": "Independence Day",
+                                "description": "July 1"
+                            },
+                            {
+                                "title": "Liberation Day",
+                                "description": "July 4"
+                            },
+                            {
+                                "title": "Umuganura Day",
+                                "description": "August 1"
+                            },
+                            {
+                                "title": "Assumption Day",
+                                "description": "August 15"
+                            },
+                            {
+                                "title": "Christmas",
+                                "description": "December 25"
+                            },
+                            {
+                                "title": "Boxing Day",
+                                "description": "December 26"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "rw-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax (PAYE)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Monthly Income (RWF)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Up to 60,000",
+                                    "values": [
+                                        "0%",
+                                        "Exempt."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "60,001 - 100,000",
+                                    "values": [
+                                        "10%",
+                                        "Low bracket."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "100,001 - 200,000",
+                                    "values": [
+                                        "20%",
+                                        "Middle bracket."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Above 200,000",
+                                    "values": [
+                                        "30%",
+                                        "Top rate."
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "rw-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Monthly Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Pension (2025)",
+                                "description": "Deduct 6% employee contribution (2025 rate)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "CBHI",
+                                "description": "Deduct ~0.5% health insurance."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "PAYE",
+                                "description": "Apply progressive tax (0-30%)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Net",
+                                "description": "Gross - Pension - CBHI - PAYE."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Rwanda",
+                "subtitle": "Ltd",
+                "description": "Private Limited.",
+                "bestFor": "Business",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "rw-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "RDB",
+                                "description": "Register with Rwanda Development Board (very efficient online system)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "RRA",
+                                "description": "Register with Rwanda Revenue Authority."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Bank",
+                                "description": "Open corporate account."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "rw-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Bank of Kigali",
+                                "description": "Largest commercial bank."
+                            },
+                            {
+                                "title": "Equity Bank Rwanda",
+                                "description": "Major regional bank."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Rwanda",
+                "subtitle": "Kigali",
+                "description": "Growing tech hub.",
+                "bestFor": "ICT",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "rw-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Kigali",
+                                "text": "Capital and main business center."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Kigali Innovation City",
+                                "text": "Tech park attracting startups and innovation."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Rwanda",
+                "subtitle": "Digital",
+                "description": "Online systems.",
+                "bestFor": "Compliance",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "rw-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "RSSB Portal",
+                                "description": "Monthly social security declarations online."
+                            },
+                            {
+                                "title": "RRA Portal",
+                                "description": "PAYE tax filing (monthly)."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Rwanda",
+                "subtitle": "IFRS",
+                "description": "Adopted.",
+                "bestFor": "Compliance",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "rw-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "IFRS",
+                                "text": "International Financial Reporting Standards for most companies."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "rw-comp-labor",
+                    "type": "warning",
+                    "title": "Work Permits",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Foreign Workers",
+                                "description": "Work permit required for non-EAC nationals."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "rw-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax",
+                                    "values": [
+                                        "30%",
+                                        "Standard rate (0% for first 3 years in some sectors)."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "VAT",
+                                    "values": [
+                                        "18%",
+                                        "Standard rate."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Rwanda",
+                "subtitle": "Civil Law",
+                "description": "Mixed system.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "rw-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "English, French, and Kinyarwanda are official (English predominant in business)."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Rwanda",
+                "subtitle": "Mobile Money",
+                "description": "High penetration.",
+                "bestFor": "Payments",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "rw-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "MTN MoMo",
+                                "description": "Dominant mobile money platform."
+                            },
+                            {
+                                "title": "Airtel Money",
+                                "description": "Second major mobile money service."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Rwanda",
+                "subtitle": "Digital",
+                "description": "Growing penetration.",
+                "bestFor": "Social",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "rw-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "WhatsApp",
+                                "text": "Critical platform for customer engagement."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Radio",
+                                "text": "Still effective for mass reach."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1976 @@
+{
+    "name": "United Kingdom",
+    "code": "GB",
+    "slug": "united-kingdom",
+    "region": "Europe",
+    "flag": "https://flagcdn.com/w160/gb.png",
+    "languages": [
+        "English"
+    ],
+    "currencies": [
+        "GBP (British Pound Sterling)"
+    ],
+    "services": [
+        {
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "heroData": {
+                "title": "EOR/PEO Services in United Kingdom",
+                "subtitle": "Navigate IR35 and UK employment regulations with compliant solutions",
+                "description": "UK EOR services help companies hire employees without establishing a local entity, managing PAYE, National Insurance, pension auto-enrolment, and compliance with IR35 off-payroll working rules.",
+                "bestFor": "Foreign companies hiring UK staff without a local entity, or managing IR35 contractor risk",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "section-uk-eor-steps",
+                    "type": "key_steps",
+                    "title": "Using an EOR in the UK",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Service Agreement",
+                                "description": "Sign a Master Service Agreement (MSA) with the UK EOR provider. This establishes the commercial terms and clearly defines the co-employment or sole employer relationship."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Employee Onboarding",
+                                "description": "Candidate receives a UK-compliant employment contract. They must provide a P45 (from previous employer) or complete a Starter Checklist for tax code assignment."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Right to Work Check",
+                                "description": "EOR performs mandatory Right to Work checks (passport/visa verification) before employment starts. Failure to do this incurs fines up to £20,000 per illegal worker."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Pension Auto-Enrolment",
+                                "description": "EOR automatically enrolls eligible employees (aged 22+, earning >£10,000/year) into a workplace pension scheme. Employer must contribute minimum 3% of qualifying earnings."
+                            }
+                        ]
+                    },
+                    "order": 1
+                },
+                {
+                    "id": "section-uk-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "EOR Cost Structure (UK)",
+                    "subtitle": "Typical pricing in GBP",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Item",
+                                "Cost estimate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Monthly Management Fee",
+                                    "values": [
+                                        "£200 - £600",
+                                        "Per employee per month"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Employer National Insurance",
+                                    "values": [
+                                        "13.8%",
+                                        "On earnings above £175/week"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Pension Contribution",
+                                    "values": [
+                                        "3% minimum",
+                                        "On qualifying earnings"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Apprenticeship Levy",
+                                    "values": [
+                                        "0.5%",
+                                        "If engaging large EOR provider (payroll >£3m)"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    },
+                    "order": 2
+                },
+                {
+                    "id": "section-uk-eor-insights",
+                    "type": "insights",
+                    "title": "Critical Compliance: IR35 & Contracts",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "IR35 (Off-Payroll Working)",
+                                "text": "Strict rules prevent 'disguised employment'. If a contractor operates like an employee (set hours, supervision), they must be taxed as an employee. EORs solve this by making them W-2 equivalent employees."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Employment Rights Act 2024/25",
+                                "text": "Day 1 rights now include protection from unfair dismissal (proposed), flexible working requests, and unpaid parental leave. Probation periods are legally sensitive."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Notice Periods",
+                                "text": "Statutory minimum notice is 1 week per year of service (up to 12 weeks). Professionally, 1-3 months notice is standard for white-collar roles in the UK."
+                            }
+                        ]
+                    },
+                    "order": 3
+                },
+                {
+                    "id": "section-uk-tax-deadlines",
+                    "type": "key_steps",
+                    "title": "Key Tax Deadlines Checklist",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "May 31",
+                                "description": "Deadline to issue P60s to employees (for previous tax year end April 5)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "July 6",
+                                "description": "Deadline for P11D (Benefit in Kind) submissions."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "9 Months + 1 Day",
+                                "description": "Deadline to PAY Corporation Tax after your financial year end."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "12 Months",
+                                "description": "Deadline to FILE Corporation Tax Return (CT600) after your financial year end."
+                            }
+                        ]
+                    },
+                    "order": 4
+                },
+                {
+                    "id": "section-uk-eor-comparison",
+                    "type": "key_steps",
+                    "title": "EOR vs Entity Setup",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Speed to Market",
+                                "description": "EOR: 2-5 days. Entity: 2-4 weeks (including bank account setup which is the main bottleneck)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Initial Cost",
+                                "description": "EOR: Low (Deposit ~1 month salary). Entity: Medium (£1k-£5k for legal, incorp, and tax registration)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Ongoing Compliance",
+                                "description": "EOR: Provider handles everything. Entity: You are liable for GDPR, H&S, Payroll accuracy, and Auto-Enrolment."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Flexibility",
+                                "description": "EOR: Good for <10 employees. Entity: Better for >10 employees or if you need to offer equity options directly."
+                            }
+                        ]
+                    },
+                    "order": 4
+                },
+                {
+                    "id": "section-uk-eor-faq",
+                    "type": "faq",
+                    "title": "UK EOR FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I use an EOR for a UK contractor?",
+                                "answer": "EORs are for employees. For contractors, you pay them directly (B2B). However, due to IR35 risks, many companies prefer converting contractors to EOR employees to avoid tax liability inquiries from HMRC."
+                            },
+                            {
+                                "question": "Does the EOR handle share options?",
+                                "answer": "Yes, but it requires an 'Employer Notification' to HMRC. EMI schemes (tax-advantaged) might not be available to EOR employees as they don't work for the issuing company directly. Unapproved options are standard."
+                            },
+                            {
+                                "question": "What is the holiday entitlement?",
+                                "answer": "Minimum 5.6 weeks (28 days) per year, including 8 bank holidays. It is common to offer 25 days + bank holidays for professional roles."
+                            },
+                            {
+                                "question": "Can EOR employees open a UK bank account?",
+                                "answer": "The EOR pays them into their personal account. The EOR employment contract can sometimes be used as proof of income for rental agreements, but ensuring credit history is harder without a long-term footprint."
+                            },
+                            {
+                                "question": "Is there a maximum duration for EOR in UK?",
+                                "answer": "Legally, no strict limit like in Germany (AUG). However, permanent establishment risk increases over time if the employees are concluding contracts or senior management."
+                            },
+                            {
+                                "question": "Can EOR employees transfer to my entity later?",
+                                "answer": "Yes, this is standard. Terms are usually outlined in the Master Services Agreement (MSA), and we support the transition process."
+                            }
+                        ]
+                    },
+                    "order": 5
+                },
+                {
+                    "id": "section-uk-eor-vs-entity",
+                    "type": "cost_breakdown",
+                    "title": "EOR vs Entity: 1-Year Cost Analysis",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Cost Item",
+                                "EOR Model (1 Employee)",
+                                "Entity Model (1 Employee)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Setup Costs",
+                                    "values": [
+                                        "£0",
+                                        "£2,000 - £5,000 (Legal/Inc)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Monthly Management",
+                                    "values": [
+                                        "£500 - £800 (EOR Fee)",
+                                        "£200 - £400 (Accounting/Payroll)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Compliance Risk",
+                                    "values": [
+                                        "Low (EOR liable)",
+                                        "High (Director liable)"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Speed to Market",
+                                    "values": [
+                                        "2-5 Days",
+                                        "4-8 Weeks (Bank acct delays)"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    },
+                    "order": 6
+                },
+                {
+                    "id": "section-uk-payroll-mechanics",
+                    "type": "key_steps",
+                    "title": "Running UK Payroll",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Register as Employer",
+                                "description": "Register with HMRC before first payday. You will receive a PAYE Reference Number and Accounts Office Reference."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "RTI Submission",
+                                "description": "You must submit a Full Payment Submission (FPS) to HMRC on or before the day employees are paid. Late submissions trigger automatic penalties."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Deductions Calculation",
+                                "description": "Calculate Income Tax (20%, 40%, 45%), National Insurance (Class 1), and Student Loan repayments based on the employee's Tax Code (e.g., 1257L)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Pension Contribution",
+                                "description": "Upload contribution data to pension provider (e.g., NEST, Peoples Pension) immediately after payroll run. Payment due by 22nd of following month."
+                            }
+                        ]
+                    },
+                    "order": 1
+                },
+                {
+                    "id": "section-uk-payroll-taxes",
+                    "type": "cost_breakdown",
+                    "title": "Payroll Taxes 2024/25",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate",
+                                "Thresholds"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Income Tax (Basic)",
+                                    "values": [
+                                        "20%",
+                                        "£12,571 - £50,270"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Income Tax (Higher)",
+                                    "values": [
+                                        "40%",
+                                        "£50,271 - £125,140"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Income Tax (Additional)",
+                                    "values": [
+                                        "45%",
+                                        "Over £125,140"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Employee NI",
+                                    "values": [
+                                        "8% (cut from 10%)",
+                                        "£12,570 - £50,270"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Employer NI",
+                                    "values": [
+                                        "13.8%",
+                                        "Over £9,100/yr"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    },
+                    "order": 2
+                },
+                {
+                    "id": "section-uk-payroll-insights",
+                    "type": "insights",
+                    "title": "Complex Payroll Scenarios",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Benefits in Kind (P11D)",
+                                "text": "Non-cash benefits (company cars, health insurance) must be reported annually on form P11D (due July 6). Class 1A NI (13.8%) is payable by employer on these values."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Statutory Sick Pay (SSP)",
+                                "text": "Employees sick for 4+ days get SSP (£116.75/week). Employers can no longer reclaim this from HMRC unless they are very small and under specific temporary schemes."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Maternity Pay (SMP)",
+                                "text": "90% of earnings for first 6 weeks, then £184.03/week for 33 weeks. Employers usually reclaim 92% (or 103% if small business) of this from HMRC."
+                            }
+                        ]
+                    },
+                    "order": 3
+                },
+                {
+                    "id": "section-uk-payroll-timeline",
+                    "type": "key_steps",
+                    "title": "Monthly Payroll Timeline",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Day 1-20: Data Collection",
+                                "description": "Gather timesheets, overtime, bonuses, and new starter details. Update tax codes if P6 or P9 notifications received from HMRC."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Day 21-23: Processing & Approval",
+                                "description": "Run payroll calculation. Check breakdown. Approve gross-to-net reports."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Day 25-28: Payday & RTI",
+                                "description": "Pay employees (BACS takes 3 days, Faster Payments is instant). Submit FPS (Full Payment Submission) to HMRC on/before payday."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Day 22 (Next Month): Updates",
+                                "description": "Pay PAYE/NICs to HMRC. Submit pension contributions."
+                            }
+                        ]
+                    },
+                    "order": 4
+                },
+                {
+                    "id": "section-uk-payroll-faq",
+                    "type": "faq",
+                    "title": "Payroll FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "When is the UK tax year?",
+                                "answer": "It runs from April 6th to April 5th. This is historical but strictly enforced. Year-end reporting (P60s) must be issued to employees by May 31st."
+                            },
+                            {
+                                "question": "What is a Tax Code?",
+                                "answer": "A code (e.g., 1257L) telling payroll how much tax-free pay an employee gets. HMRC issues these. 'BR' means Basic Rate (20%) on all income, common for second jobs."
+                            },
+                            {
+                                "question": "Are payslips mandatory?",
+                                "answer": "Yes. Employees must receive an itemized payslip on or before payday showing gross pay, net pay, and all variable and fixed deductions."
+                            },
+                            {
+                                "question": "What happens if I pay late?",
+                                "answer": "HMRC is strict. Late FPS submissions attract penalties. Late payment of PAYE/NICs incurs interest daily. Employees may also report you to ACAS for unlawful deduction of wages."
+                            },
+                            {
+                                "question": "Is childcare vouchers still a thing?",
+                                "answer": "Closed to new entrants since 2018. Replaced by Tax-Free Childcare (government top-up). Payroll schemes now mostly focus on Cycle to Work or Tech schemes (salary sacrifice)."
+                            },
+                            {
+                                "question": "What are the key 2025 changes?",
+                                "answer": "From April 2025, Employer National Insurance rises to 15%, and the secondary threshold drops to £5,000. National Living Wage increases to £12.21/hr."
+                            }
+                        ]
+                    },
+                    "order": 5
+                },
+                {
+                    "id": "section-uk-payroll-bik",
+                    "type": "cost_breakdown",
+                    "title": "Benefits in Kind (BiK) Rates 2025/26",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Benefit Type",
+                                "Taxable Value Rule",
+                                "Employer Cost (Class 1A NI)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Electric Cars (EVs)",
+                                    "values": [
+                                        "2% of List Price",
+                                        "13.8% of Taxable Value"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Private Medical Insurance",
+                                    "values": [
+                                        "Cost to Employer",
+                                        "13.8% of Premium"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Assets for Personal Use",
+                                    "values": [
+                                        "20% of Market Value",
+                                        "13.8% of Annual Value"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    },
+                    "order": 6
+                },
+                {
+                    "id": "section-uk-payroll-calc",
+                    "type": "key_steps",
+                    "title": "Understanding Your Payslip",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross Pay",
+                                "description": "Total salary before any deductions."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Income Tax (PAYE)",
+                                "description": "Calculated based on tax code (e.g., 1257L). 20% basic, 40% higher, 45% additional."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "National Insurance (2025)",
+                                "description": "Class 1 Employee NICs: 8%. Employer NICs: 15% (from April 2025) on earnings above £5,000/year (Secondary Threshold)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Minimum Wage",
+                                "description": "National Living Wage (21+) is £12.21/hr (from April 2025). Real Living Wage is higher (voluntarily) at ~£12.60 (London ~£13.85)."
+                            }
+                        ]
+                    },
+                    "order": 1
+                },
+                {
+                    "id": "section-uk-calc-faq",
+                    "type": "faq",
+                    "title": "Payroll Calculator FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Why is my net pay different from the calculator?",
+                                "answer": "Calculators often assume a standard tax code (1257L). If you have underpaid tax previously (K code) or have taxable benefits (medical insurance), your tax will be higher."
+                            },
+                            {
+                                "question": "How do student loans affect pay?",
+                                "answer": "Plan 1, 2, 4, or 5 deductions apply if you earn over the threshold. This is deducted alongside tax and NI."
+                            },
+                            {
+                                "question": "What is the 2025 National Insurance rate?",
+                                "answer": "Employee Class 1 NI is 8% (on earnings between £12,570 and £50,270). Employer NI increased to 15% from April 2025."
+                            }
+                        ]
+                    },
+                    "order": 2
+                },
+                {
+                    "id": "section-uk-calc-insights",
+                    "type": "insights",
+                    "title": "Payroll Compliance Warnings",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "HMRC Late Filing Penalties",
+                                "text": "Real Time Information (RTI) submissions must be made on or before payday. Penalties for late filing range from £100 to £400 per month depending on headcount."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Pension Contribution Thresholds",
+                                "text": "Ensure the calculator uses 'Qualifying Earnings' for auto-enrolment. Contributions are only required on earnings between £6,240 and £50,270 (2024/25 thresholds)."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Salary Sacrifice",
+                                "text": "Implementing salary sacrifice for pensions can save both employer and employee National Insurance (15% and 8% respectively)."
+                            }
+                        ]
+                    },
+                    "order": 3
+                },
+                {
+                    "id": "section-uk-calc-codes",
+                    "type": "cost_breakdown",
+                    "title": "Common Tax Codes Decoded",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Code",
+                                "Meaning",
+                                "Impact"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "1257L",
+                                    "values": [
+                                        "Standard Personal Allowance",
+                                        "£12,570 tax free per year"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "BR",
+                                    "values": [
+                                        "Basic Rate",
+                                        "All income taxed at 20% (no allowance)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "D0",
+                                    "values": [
+                                        "Higher Rate",
+                                        "All income taxed at 40%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "K Codes (e.g., K100)",
+                                    "values": [
+                                        "Negative Allowance",
+                                        "You owe tax from prev years or have high benefits"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    },
+                    "order": 4
+                },
+                {
+                    "id": "section-uk-payroll-employer-costs",
+                    "type": "cost_breakdown",
+                    "title": "Total Cost of Employment (2025)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Rate (2025)",
+                                "Amount (on £45k Salary)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Gross Salary",
+                                    "values": [
+                                        "Base",
+                                        "£45,000"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Employer NI",
+                                    "values": [
+                                        "15% (Threshold £5k)",
+                                        "£6,000"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Pension (Auto-Enrolment)",
+                                    "values": [
+                                        "3% (Qualifying Earnings)",
+                                        "£1,320"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Total Cost",
+                                    "values": [
+                                        "~16.2% markup",
+                                        "£52,320"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    },
+                    "order": 5
+                }
+            ],
+            "service": "EOR, PEO & AOR"
+        },
+        {
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "heroData": {
+                "title": "HRIS Solutions in United Kingdom",
+                "subtitle": "GDPR-compliant HR technology with UK payroll integration",
+                "description": "UK HRIS systems must handle GDPR compliance for employee data, pension auto-enrolment, RTI-compliant payroll, and statutory leave tracking. The market ranges from UK specialists to global platforms.",
+                "bestFor": "UK businesses automating HR processes with compliance built-in",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "section-uk-hris-compliance",
+                    "type": "key_steps",
+                    "title": "HRIS Compliance Requirements",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "GDPR Compliance",
+                                "description": "System must support 'Right to be Forgotten', data portability, and strict access controls. Data usually must be hosted in UK/EU or have adequacy agreements."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "HMRC Integration",
+                                "description": "Essential for payroll data. System should handle RTI (Real Time Information) submissions and tax code updates automatically."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Statutory Leave Tracking",
+                                "description": "Must track Statutory Sick Pay (SSP), Maternity/Paternity leave, and Holiday entitlement (pro-rated for part-time) correctly impacting payroll."
+                            }
+                        ]
+                    },
+                    "order": 1
+                },
+                {
+                    "id": "section-uk-hris-insights",
+                    "type": "insights",
+                    "title": "HR Tech Trends 2024",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Pension Integration",
+                                "text": "Best-in-class HRIS integrates with pension providers (NEST, Smart Pension) to automate the legally required letters and contribution uploads."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Right to Work Storage",
+                                "text": "Digital copies of passports/visas must be stored securely and deleted 2 years after employment ends. Failure to produce these during a Home Office audit is critical."
+                            }
+                        ]
+                    },
+                    "order": 2
+                },
+                {
+                    "id": "section-uk-hris-implementation",
+                    "type": "key_steps",
+                    "title": "Implementation Checklist",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Data Migration",
+                                "description": "Export data from legacy systems. Cleanse data (archive ex-employees >6 years). Map fields to new system."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Parallel Run",
+                                "description": "Run two payroll cycles (old vs new system) to ensure 100% accuracy in tax and NI calculations."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Employee Self-Service",
+                                "description": "Configure portals for payslips, holiday booking, and personal detail updates. Mobile app access is standard expectation."
+                            }
+                        ]
+                    },
+                    "order": 3
+                },
+                {
+                    "id": "section-uk-hris-faq",
+                    "type": "faq",
+                    "title": "HRIS FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Does US HRIS work in the UK?",
+                                "answer": "Often poorly. They lack fields for National Insurance, P45 data, and UK-specific leave types. Global systems (Workday, Rippling) have localized modules, but US-only systems usually fail compliance checks."
+                            },
+                            {
+                                "question": "What is 'Making Tax Digital'?",
+                                "answer": "HMRC's initiative to digitize tax. While primarily for VAT/Income Tax, it impacts how payroll and HR data moves to accounting systems. Digital links are required."
+                            },
+                            {
+                                "question": "Can I store data in the US?",
+                                "answer": "Yes, if the provider is Data Privacy Framework certified or uses Standard Contractual Clauses (SCCs) + Transfer Risk Assessment. UK GDPR is still very strict."
+                            },
+                            {
+                                "question": "How do I handle 'Holiday Pay' calculations?",
+                                "answer": "UK law on holiday pay (especially for irregular hours) is complex (12.07% accrual is effectively back). Ensure the HRIS supports 'Harpur Trust' calculation methods."
+                            }
+                        ]
+                    },
+                    "order": 4
+                }
+            ],
+            "service": "HRIS/HRMS/ATS"
+        },
+        {
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "heroData": {
+                "title": "Accounting Services in United Kingdom",
+                "subtitle": "FRS 102 compliance and HMRC reporting",
+                "description": "UK accounting follows Financial Reporting Standards (FRS 102 for SMEs or IFRS for listed companies). Companies file accounts with Companies House and corporation tax returns with HMRC within statutory deadlines.",
+                "bestFor": "Businesses needing compliant UK financial reporting and tax filing"
+            },
+            "sections": [
+                {
+                    "id": "section-uk-accounting-steps",
+                    "type": "key_steps",
+                    "title": "Annual Filing Requirements",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Confirmation Statement",
+                                "description": "File CS01 with Companies House annually (fee £13-£34). Confirms directors, shareholders, and registered office. Not a financial account."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Annual Accounts",
+                                "description": "File statutory accounts with Companies House 9 months after year-end. Micro-entities can file simpler 'abridged' accounts."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Corporation Tax Return",
+                                "description": "File CT600 with HMRC 12 months after year-end. Note: Tax payment is due earlier (9 months + 1 day after year-end)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "VAT Returns",
+                                "description": "Quarterly filing via MTD (Making Tax Digital) software. Required if turnover >£90,000 (rolling 12 months), but voluntary registration is possible."
+                            }
+                        ]
+                    },
+                    "order": 1
+                },
+                {
+                    "id": "section-uk-accounting-costs",
+                    "type": "cost_breakdown",
+                    "title": "Accounting & Tax Costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service",
+                                "Cost (GBP)",
+                                "Frequency"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Year-End Accounts & CT600",
+                                    "values": [
+                                        "£1,000 - £3,000",
+                                        "Annual"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Bookkeeping",
+                                    "values": [
+                                        "£30 - £60",
+                                        "Per hour"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "VAT Return",
+                                    "values": [
+                                        "£150 - £300",
+                                        "Per quarter"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    },
+                    "order": 2
+                },
+                {
+                    "id": "section-uk-accounting-faq",
+                    "type": "faq",
+                    "title": "Accounting FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Do I need an audit?",
+                                "answer": "Only if you exceed 2 of 3 thresholds: £10.2m turnover, £5.1m gross assets, or 50 employees. Most startups are Audit Exempt."
+                            },
+                            {
+                                "question": "Can I do my own accounts?",
+                                "answer": "Yes, but FRS 102 complexity makes it risky. Directors are personally liable for accuracy. Most use a chartered accountant (ICAEW/ACCA)."
+                            },
+                            {
+                                "question": "What happens if I miss the filing deadline?",
+                                "answer": "Companies House issues automatic penalties (£150 for 1 month late, up to £1,500). HMRC also fines for late tax returns (£100 instant + daily penalties)."
+                            }
+                        ]
+                    },
+                    "order": 3
+                },
+                {
+                    "id": "section-uk-accounting-insights",
+                    "type": "insights",
+                    "title": "UK Financial Reporting",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Corporation Tax Rates (2025)",
+                                "text": "25% main rate for profits >£250k. Small Profits Rate remains 19% for profits <£50k. Marginal relief applies between £50k-£250k."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "VAT Registration",
+                                "text": "Mandatory if taxable turnover >£90,000 (frozen threshold). Standard rate 20%. MTD for VAT requires digital record keeping."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Employer Costs 2025",
+                                "text": "Budget for higher costs from April 2025: Employer NI is 15% (up from 13.8%) and threshold is drastically reduced to £5,000 (was £9,100)."
+                            }
+                        ]
+                    },
+                    "order": 4
+                },
+                {
+                    "id": "section-uk-compliance-framework",
+                    "type": "key_steps",
+                    "title": "Essential Compliance Framework",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "GDPR / Data Protection",
+                                "description": "Comply with Data Protection Act 2018. Appoint DPO if high-scale processing. Report breaches to ICO within 72 hours. Fines up to £17.5m or 4% global turnover."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Health & Safety (HSE)",
+                                "description": "Employer must protect worker H&S. Written policy required if 5+ employees. Risk assessments mandatory. Display 'H&S Law Poster'."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Anti-Slavery Statement",
+                                "description": "Large companies (turnover >£36m) must publish annual Modern Slavery Statement detailing steps to ensure no slavery in supply chain."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Insurance",
+                                "description": "Employers' Liability Insurance (£5m minimum cover) is fines-enforced mandatory. Public Liability and Professional Indemnity recommended."
+                            }
+                        ]
+                    },
+                    "order": 1
+                },
+                {
+                    "id": "section-uk-compliance-faq",
+                    "type": "faq",
+                    "title": "Compliance FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What are the 'Day 1' rights?",
+                                "answer": "Under new proposals, right to claim unfair dismissal, flexible working, and parental leave starts Day 1. Contracts must reflect this."
+                            },
+                            {
+                                "question": "Do I need a UK director?",
+                                "answer": "No, a private limited company doesn't typically require a UK-resident director, but you need a UK registered office address."
+                            }
+                        ]
+                    },
+                    "order": 2
+                },
+                {
+                    "id": "section-uk-compliance-insights",
+                    "type": "insights",
+                    "title": "High Risk Areas",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Right to Work Checks",
+                                "text": "Must be done BEFORE employment starts. Fines for employing illegal workers increased to £60,000 per violation in 2024."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Subject Access Requests (SARs)",
+                                "text": "Employees can request all data you hold on them (emails, Slack messages). You have 1 month to respond. Robust archiving policy is essential prevention."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Whistleblowing",
+                                "text": "Public Interest Disclosure Act protects whistleblowers. Unlimited compensation at tribunal if they are dismissed for 'blowing the whistle'."
+                            }
+                        ]
+                    },
+                    "order": 3
+                },
+                {
+                    "id": "section-uk-compliance-checklist",
+                    "type": "key_steps",
+                    "title": "New Joiner Compliance Checklist",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract of Employment",
+                                "description": "Must be provided on or before Day 1 (Good Work Plan legislation). Must include specific details like collective agreements and training entitlement."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Data Protection Notice",
+                                "description": "Issue Employee Privacy Notice detailing how their data is used (GDPR Article 13/14)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "HMRC New Starter Checklist",
+                                "description": "If no P45 from previous employer, employee must complete this to ensure correct tax code."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Pension Auto-Enrolment",
+                                "description": "Assess eligibility. If eligible (age 22+, earn >£10k), enroll and write to them within 6 weeks."
+                            }
+                        ]
+                    },
+                    "order": 4
+                },
+                {
+                    "id": "section-uk-compliance-digital-vat",
+                    "type": "insights",
+                    "title": "Digital Services Compliance",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Place of Supply Rules (2025)",
+                                "text": "For B2C digital services (e-books, streaming), VAT is due where the customer is located. UK businesses selling to EU consumers must use OSS (One Stop Shop) or register in EU."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Reverse Charge (B2B)",
+                                "text": "B2B sales of services to overseas businesses are generally outside scope of UK VAT. The customer accounts for local VAT (reverse charge)."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Online Marketplaces",
+                                "text": "If you sell goods <£135 via a marketplace (Amazon, eBay), the marketplace is often responsible for collecting and remitting VAT."
+                            }
+                        ]
+                    },
+                    "order": 5
+                },
+                {
+                    "id": "section-uk-compliance-handbook",
+                    "type": "key_steps",
+                    "title": "Mandatory Employee Handbook Policies",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Disciplinary & Grievance",
+                                "description": "Legally required. Must follow ACAS Code of Practice. Failure to follow can increase tribunal awards by 25%."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Health & Safety Policy",
+                                "description": "Mandatory if 5+ employees. Must include risk assessments and fire safety procedures."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Anti-Harassment & Bullying",
+                                "description": "Critical for defence against vicarious liability claims. 'Worker Protection Act 2023' requires proactive prevention of sexual harassment."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Data Protection (GDPR)",
+                                "description": "Policy detailing how employee data is handled, stored, and their rights to access it (DSAR)."
+                            }
+                        ]
+                    },
+                    "order": 6
+                },
+                {
+                    "id": "section-uk-tax-overview",
+                    "type": "key_steps",
+                    "title": "UK Tax System Overview",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Corporation Tax",
+                                "description": "Main rate 25% for profits >£250k. Small profits rate 19% for <£50k. Marginal relief applies between £50k-£250k. Tax year matches financial year (April 1)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "VAT Registration",
+                                "description": "Mandatory if taxable turnover >£90,000. Standard rate 20%. Reduced rate 5% (power, children's car seats). Zero rate 0% (books, food, exports). Filing usually quarterly."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Transfer Pricing",
+                                "description": "UK follows OECD guidelines. SMEs are generally exempt from complex documentation unless trading with territories with which UK has no tax treaty."
+                            }
+                        ]
+                    },
+                    "order": 1
+                },
+                {
+                    "id": "section-uk-tax-incentives",
+                    "type": "insights",
+                    "title": "Tax Incentives & Risks",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "R&D Tax Relief (Merged Scheme)",
+                                "text": "From April 2024, RDEC and SME schemes merged. Single 20% taxable credit (15% net benefit). Loss-making R&D intensive SMEs still access higher support."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Patent Box",
+                                "text": "Allows companies to apply a lower rate of Corporation Tax (10%) to profits earned from patented inventions."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Digital Services Tax",
+                                "text": "2% tax on revenues of large search engines, social media platforms and online marketplaces derived from UK users. Threshold: £500m global revenue + £25m UK revenue."
+                            }
+                        ]
+                    },
+                    "order": 2
+                },
+                {
+                    "id": "section-uk-tax-faq",
+                    "type": "faq",
+                    "title": "UK Tax FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Are dividends taxed?",
+                                "answer": "Dividends paid by UK companies are generally exempt from withholding tax. However, recipients pay tax on them. UK has expansive treaty network reducing foreign WHT."
+                            },
+                            {
+                                "question": "What is the tax year for companies?",
+                                "answer": "Usually the company's financial year (e.g., Jan-Dec). But tax rates change April 1. If year straddles, profits are time-apportioned."
+                            }
+                        ]
+                    },
+                    "order": 3
+                },
+                {
+                    "id": "section-uk-tax-filing-deadlines",
+                    "type": "key_steps",
+                    "title": "Key Tax Deadlines Checklist",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "May 31",
+                                "description": "Deadline to issue P60s to employees (for previous tax year end April 5)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "July 6",
+                                "description": "Deadline for P11D (Benefit in Kind) submissions."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "9 Months + 1 Day",
+                                "description": "Deadline to PAY Corporation Tax after your financial year end."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "12 Months",
+                                "description": "Deadline to FILE Corporation Tax Return (CT600) after your financial year end."
+                            }
+                        ]
+                    },
+                    "order": 4
+                },
+                {
+                    "id": "section-uk-tax-digital",
+                    "type": "key_steps",
+                    "title": "Making Tax Digital (MTD) Roadmap",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "MTD for VAT (Live)",
+                                "description": "All VAT-registered businesses must keep digital records and use MTD-compatible software to submit returns."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "MTD for ITSA (April 2026)",
+                                "description": "Self-employed and landlords with income >£50,000 must use MTD software. Quarterly updates required."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "MTD for Corp Tax (TBC)",
+                                "description": "Consultation phase. Likely to require digital record keeping and quarterly reporting for companies, but not before 2026."
+                            }
+                        ]
+                    },
+                    "order": 5
+                },
+                {
+                    "id": "section-uk-tax-treaties",
+                    "type": "cost_breakdown",
+                    "title": "Key Double Taxation Treaties",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Country",
+                                "Dividends (Treaty Rate)",
+                                "Interest / Royalties"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "United States",
+                                    "values": [
+                                        "0% / 5% / 15%",
+                                        "0% / 0%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Germany",
+                                    "values": [
+                                        "5% / 10% / 15%",
+                                        "0% / 0%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Ireland",
+                                    "values": [
+                                        "5% / 15%",
+                                        "0% / 0%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Non-Treaty Rate",
+                                    "values": [
+                                        "No WHT (Dividends)",
+                                        "20% (Interest/Royalties)"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    },
+                    "order": 6
+                }
+            ],
+            "service": "Finance, Tax and Accounting"
+        },
+        {
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "heroData": {
+                "title": "HR & Business Software in United Kingdom",
+                "subtitle": "UK-compliant technology stack for business operations",
+                "description": "UK businesses need software handling GDPR, MTD, pension auto-enrolment, and local payroll requirements. The market includes UK specialists and global platforms with UK compliance modules.",
+                "bestFor": "Companies building compliant technology infrastructure for UK operations",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "section-uk-software-stack",
+                    "type": "key_steps",
+                    "title": "Recommended UK Tech Stack",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Accounting & Finance",
+                                "description": "Xero or QuickBooks (market leaders for SMEs). Must be 'Making Tax Digital' recognized by HMRC."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Payroll",
+                                "description": "BrightPay, Moneysoft, or cloud platforms like Pento/PayFit. Must be RTI compliant."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "HR & Benefits",
+                                "description": "CharlieHR, Hibob, or Personio. Ensure they handle UK statutory leave rules correctly."
+                            }
+                        ]
+                    },
+                    "order": 1
+                },
+                {
+                    "id": "section-uk-software-insights",
+                    "type": "insights",
+                    "title": "Software Compliance",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Open Banking",
+                                "text": "UK is a leader in Open Banking. Use software that connects directly to business bank accounts for real-time reconciliation."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Data Residency",
+                                "text": "Ensure your software providers host data in the UK or EU, or have valid Standard Contractual Clauses (SCCs) for transfers to the US."
+                            }
+                        ]
+                    },
+                    "order": 2
+                },
+                {
+                    "id": "section-uk-software-costs",
+                    "type": "cost_breakdown",
+                    "title": "Software Costs Estimate",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Software Type",
+                                "Cost (Approx)",
+                                "Per"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Accounting (Xero/QuickBooks)",
+                                    "values": [
+                                        "£30 - £60",
+                                        "Month"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Basic Payroll (PayFit)",
+                                    "values": [
+                                        "£5 - £10",
+                                        "Employee/Month"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Full HRIS (Hibob/Personio)",
+                                    "values": [
+                                        "£100 - £200 + £6/emp",
+                                        "Month"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    },
+                    "order": 3
+                },
+                {
+                    "id": "section-uk-software-faq",
+                    "type": "faq",
+                    "title": "Software FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Does US software usually work in the UK?",
+                                "answer": "Not usually for Payroll or Tax. UK rules (RTI, MTD) are specific. US HRIS needs GDPR localization."
+                            },
+                            {
+                                "question": "What is Open Banking authentication?",
+                                "answer": "UK banks require 90-day re-authentication for data feeds to accounting software. It's a security standard (PSD2)."
+                            }
+                        ]
+                    },
+                    "order": 4
+                },
+                {
+                    "id": "section-uk-software-stack-recommendations",
+                    "type": "cost_breakdown",
+                    "title": "Recommended UK Tech Stack",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Category",
+                                "Top Pick",
+                                "Best For"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Accounting",
+                                    "values": [
+                                        "Xero / QuickBooks",
+                                        "SMEs (Best bank feeds)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Payroll",
+                                    "values": [
+                                        "BrightPay / PayFit",
+                                        "Compliance & Automation"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "HRIS (SME)",
+                                    "values": [
+                                        "CharlieHR / Breathe",
+                                        "Teams < 50"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "HRIS (Scale-up)",
+                                    "values": [
+                                        "HiBob / Personio",
+                                        "Teams 50-500"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Expense Mgmt",
+                                    "values": [
+                                        "Pleo / Ramp",
+                                        "Spend Control"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    },
+                    "order": 5
+                }
+            ],
+            "service": "Software & Technology Solutions"
+        },
+        {
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "heroData": {
+                "title": "Company Incorporation in United Kingdom",
+                "subtitle": "Fast, digital setup with Companies House",
+                "description": "UK has one of the world's fastest incorporation processes. A private limited company (LTD) can be set up in 24 hours. Foreign entities can also register a UK Branch or Establishment.",
+                "bestFor": "Businesses establishing a permanent legal presence in the UK",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "section-uk-incorp-options",
+                    "type": "key_steps",
+                    "title": "Entity Structures",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Private Limited Company (LTD)",
+                                "description": "Most common. Limited liability for shareholders. Separate legal entity. Requires 1 director (natural person) + 1 shareholder."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Limited Liability Partnership (LLP)",
+                                "description": "Common for professional services. Tax transparent (partners taxed individually). Limited liability."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "UK Establishment (Branch)",
+                                "description": "Register overseas company in UK. File Form OS IN01. No separate legal personality. Parent company liable."
+                            }
+                        ]
+                    },
+                    "order": 1
+                },
+                {
+                    "id": "section-uk-incorp-checklist",
+                    "type": "key_steps",
+                    "title": "Incorporation Checklist",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Choose Name",
+                                "description": "Check Companies House register. Avoid 'sensitive' words (e.g., 'Royal', 'Bank') unless authorized."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Articles of Association",
+                                "description": "Adopt Model Articles or draft bespoke ones (especially if multiple shareholders)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Registered Office",
+                                "description": "Must be a physical address in the UK (England/Wales, Scotland, or NI separately)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "PSC Register",
+                                "description": "Identify and register Persons with Significant Control (>25% shares/voting rights)."
+                            }
+                        ]
+                    },
+                    "order": 2
+                },
+                {
+                    "id": "section-uk-incorp-faq",
+                    "type": "faq",
+                    "title": "Incorporation FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the minimum share capital?",
+                                "answer": "Usually £1 (e.g., 1 share of £1). No high minimum capital requirement unlike some EU countries."
+                            },
+                            {
+                                "question": "Can I hide my home address?",
+                                "answer": "Yes. Directors can use a 'Service Address' for the public register, keeping their residential address private (unless they live at the registered office)."
+                            }
+                        ]
+                    },
+                    "order": 3
+                },
+                {
+                    "id": "section-uk-incorp-banking",
+                    "type": "key_steps",
+                    "title": "Business Banking Setup",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "KYC Requirements",
+                                "description": "Banks require proof of ID/Address for all directors and major shareholders (>25%). Face-to-face or digital verification."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "High Street vs Challenger",
+                                "description": "High Street (Barclays, HSBC) take 2-12 weeks. Challengers (Monzo, Revolut, Tide) take 24-48 hours but may lack extensive international features."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Non-Resident Directors",
+                                "description": "Very difficult to open a High Street account without a UK resident director. Digital banks are more flexible."
+                            }
+                        ]
+                    },
+                    "order": 4
+                },
+                {
+                    "id": "section-uk-incorp-filings",
+                    "type": "key_steps",
+                    "title": "Annual Filing Requirements",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Confirmation Statement",
+                                "description": "Confirms company details (directors, shareholders) are correct. Due annually to Companies House. Fee: £34 (digital)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Annual Accounts",
+                                "description": "Financial statements must be filed with Companies House 9 months after year-end. Micro-entity accounts are simpler for small firms."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Corporation Tax Return (CT600)",
+                                "description": "Filed with HMRC 12 months after year-end (payment due at 9 months + 1 day)."
+                            }
+                        ]
+                    },
+                    "order": 5
+                },
+                {
+                    "id": "section-uk-business-networks",
+                    "type": "insights",
+                    "title": "Key Business Networks",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Tech Nation",
+                                "text": "The UK's leading growth platform for tech scaleups. Offers visa endorsement (Global Talent) and growth programs."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Institute of Directors (IoD)",
+                                "text": "Membership organization for business leaders. Great for networking, governance advice, and using their Pall Mall premises."
+                            },
+                            {
+                                "type": "info",
+                                "title": "CBI (Confederation of British Industry)",
+                                "text": "The UK's premier business lobbying organization, representing 190,000 businesses. Influential in government policy."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Federation of Small Businesses (FSB)",
+                                "text": "Crucial for SMEs. Offers legal protection, insurance, and advice on tax/employment law."
+                            }
+                        ]
+                    },
+                    "order": 6
+                }
+            ],
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)"
+        },
+        {
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "heroData": {
+                "title": "Staffing & Recruitment in United Kingdom",
+                "subtitle": "Navigating a flexible but regulated labor market",
+                "description": "UK has a dynamic recruitment market. Key regulations include IR35 for contractors and Agency Workers Regulations (AWR) for temps. London is a global talent hub.",
+                "bestFor": "Companies engaging contingency workforce or hiring permanent teams",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "section-uk-staffing-compliance",
+                    "type": "key_steps",
+                    "title": "Contractor Compliance (IR35)",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Inside IR35",
+                                "description": "Contractor is treated as an employee for tax purposes. Pay taxes via PAYE. Client/Fee-payer liable for deductions."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Outside IR35",
+                                "description": "Contractor operates as genuine business. Gross payment allowed. Liability sits with contractor (if Status Determination Statement is valid)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Status Determination",
+                                "description": "Medium/Large end-clients must issue an SDS to the worker. Use HMRC's CEST tool (though controversial) or independent review."
+                            }
+                        ]
+                    },
+                    "order": 1
+                },
+                {
+                    "id": "section-uk-staffing-costs",
+                    "type": "cost_breakdown",
+                    "title": "Recruitment Fees",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Role Type",
+                                "Fee % (of Annual Salary)",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "General / Admin",
+                                    "values": [
+                                        "15% - 20%",
+                                        "Contingency"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Specialist / Tech",
+                                    "values": [
+                                        "20% - 25%",
+                                        "High demand"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Executive Search",
+                                    "values": [
+                                        "30%+",
+                                        "Retained"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    },
+                    "order": 2
+                },
+                {
+                    "id": "section-uk-staffing-faq",
+                    "type": "faq",
+                    "title": "Staffing FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What constitutes a 'worker' vs 'employee'?",
+                                "answer": "Workers (e.g., Uber drivers) get minimum wage and holiday pay but not redundancy pay. Employees get full rights. A crucial distinction in UK law."
+                            },
+                            {
+                                "question": "Are restrictive covenants enforceable?",
+                                "answer": "Yes, if reasonable (e.g., 6-month non-compete). However, courts are strict; clauses must protect legitimate business interests."
+                            }
+                        ]
+                    },
+                    "order": 3
+                },
+                {
+                    "id": "section-uk-staffing-hubs",
+                    "type": "insights",
+                    "title": "UK Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "London",
+                                "text": "Global financial & tech hub. Highest salaries (approx +20% 'London Weighting'). Deep talent pool."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Manchester / Leeds",
+                                "text": "Major tech and media hubs. Lower cost of living and salaries than London. Strong universities."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Cambridge / Oxford",
+                                "text": "'Golden Triangle' for life sciences and deep tech (AI). Highly competitive academic talent."
+                            }
+                        ]
+                    },
+                    "order": 4
+                },
+                {
+                    "id": "section-uk-staffing-visa",
+                    "type": "key_steps",
+                    "title": "Skilled Worker Visa (Sponsorship)",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Sponsorship License",
+                                "description": "Employer must apply to Home Office. Takes ~8 weeks. Fee: £536 (small) or £1,476 (large). Compliance audit likely."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Certificate of Sponsorship (CoS)",
+                                "description": "Assign a CoS to the candidate. Defined CoS for overseas, Undefined CoS for in-country switchers."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Salary Thresholds (2025)",
+                                "description": "General threshold increased to £38,700 (April 2024), or the 'going rate' for the job code, whichever is higher."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Immigration Skills Charge",
+                                "description": "Employer pays £364 (small) or £1,000 (large) per year of visa. Cannot be passed to employee."
+                            }
+                        ]
+                    },
+                    "order": 5
+                }
+            ],
+            "service": "Staffing and Recruiting"
+        },
+        {
+            "name": "M & A",
+            "serviceName": "M & A",
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "heroData": {
+                "title": "M&A Support in United Kingdom",
+                "subtitle": "Due diligence and TUPE compliance",
+                "description": "UK M&A activity is robust. The Takeover Code regulates public deals. For private deals, TUPE regulations regarding employee transfers are the most critical HR risk factor.",
+                "bestFor": "Companies acquiring UK entities or assets",
+                "icon": "mergers-acquisitions"
+            },
+            "sections": [
+                {
+                    "id": "section-uk-ma-tupe",
+                    "type": "key_steps",
+                    "title": "TUPE Regulations (Transfer of Undertakings)",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Automatic Transfer",
+                                "description": "Employees automatically transfer to the new employer on existing terms (pay, seniority, etc.). Dismissing due to transfer is unfair."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Information & Consultation",
+                                "description": "Must inform/consult employee reps long before transfer. Failure can incur penalty of 13 weeks' pay per employee."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "ELI (Employee Liability Information)",
+                                "description": "Transferor must provide specific employee data to transferee at least 28 days before transfer."
+                            }
+                        ]
+                    },
+                    "order": 1
+                },
+                {
+                    "id": "section-uk-ma-insights",
+                    "type": "insights",
+                    "title": "M&A Risks",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Pension Schemes",
+                                "text": "Defined Benefit (DB) pension liabilities can be enormous. Pensions Regulator has strong powers ('moral hazard') to pursue acquirers."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Warranty & Indemnity Insurance",
+                                "text": "Increasingly common in UK deals to bridge gap between buyer protection and seller clean exit."
+                            }
+                        ]
+                    },
+                    "order": 2
+                },
+                {
+                    "id": "section-uk-ma-faq",
+                    "type": "faq",
+                    "title": "M&A FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Share Sale vs Asset Sale?",
+                                "answer": "Share sale: Buyer takes 'warts and all' (liabilities remain). Asset sale: Buyer picks assets, leaves liabilities (but TUPE still applies to employees)."
+                            },
+                            {
+                                "question": "Is foreign investment restricted?",
+                                "answer": "National Security and Investment Act (NSI) requires notification for acquisitions in 17 sensitive sectors (e.g., AI, Defense, Energy)."
+                            }
+                        ]
+                    },
+                    "order": 3
+                },
+                {
+                    "id": "section-uk-ma-integration",
+                    "type": "key_steps",
+                    "title": "Post-Merger Integration (PMI)",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Cultural Integration",
+                                "description": "Often the hardest part. Assess cultural differences between UK and foreign entities early. UK business culture values politeness, indirect communication, and work-life balance."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "TSA (Transitional Service Agreements)",
+                                "description": "Establish TSAs for critical functions (IT, Payroll, Finance) to ensure continuity while migrating systems. Typical duration 6-12 months."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Redundancy & Restructuring",
+                                "description": "If redundancies are required post-merger, strict UK consultation rules apply (Collective Consultation for 20+ redundancies). Redundancy pay is statutory."
+                            }
+                        ]
+                    },
+                    "order": 4
+                }
+            ],
+            "service": "M & A"
+        },
+        {
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "heroData": {
+                "title": "Marketing in United Kingdom",
+                "subtitle": "GDPR-compliant digital strategies",
+                "description": "UK is a sophisticated digital market. Marketers must navigate GDPR (PECR) for email/cookies and ASA codes for advertising standards. 'British English' localization is essential.",
+                "bestFor": "Brands launching or expanding market share in the UK",
+                "icon": "marketing"
+            },
+            "sections": [
+                {
+                    "id": "section-uk-marketing-compliance",
+                    "type": "key_steps",
+                    "title": "Marketing Compliance (PECR & ASA)",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Email Marketing (B2C)",
+                                "description": "Requires 'Soft Opt-in' (existing customers) or explicit Consent. Cold emailing consumers is illegal."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Email Marketing (B2B)",
+                                "description": "Cold emailing allowed to corporate bodies, but must offer easy opt-out. Sole traders are treated as consumers (no cold email)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Cookie Consent",
+                                "description": "Must obtain affirmative consent before placing non-essential cookies (analytics, tracking). 'Implied consent' is dead."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Advertising Codes",
+                                "description": "CAP Code (non-broadcast) and BCAP Code (broadcast). Ads must be 'legal, decent, honest and truthful'. ASA is the regulator."
+                            }
+                        ]
+                    },
+                    "order": 1
+                },
+                {
+                    "id": "section-uk-marketing-costs",
+                    "type": "cost_breakdown",
+                    "title": "Agency Cost Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service Type",
+                                "Monthly Retainer (GBP)",
+                                "Day Rate (Freelance)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "SEO Agency",
+                                    "values": [
+                                        "£1,000 - £5,000",
+                                        "£300 - £600"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "PPC Management",
+                                    "values": [
+                                        "£500 + % of spend",
+                                        "£400 - £800"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "PR Agency",
+                                    "values": [
+                                        "£3,000 - £10,000",
+                                        "£500 - £1,000"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    },
+                    "order": 2
+                },
+                {
+                    "id": "section-uk-marketing-insights",
+                    "type": "insights",
+                    "title": "Localization Tips",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "British English",
+                                "text": "Use British spelling (s vs z, ou vs o). Avoid Americanisms. Tone is often more understated/witty than US hype."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Social Platforms",
+                                "text": "LinkedIn is huge for B2B. Instagram/TikTok for B2C. Facebook still relevant for older demos. Twitter/X is influential in media/politics."
+                            }
+                        ]
+                    },
+                    "order": 3
+                },
+                {
+                    "id": "section-uk-marketing-faq",
+                    "type": "faq",
+                    "title": "Marketing FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I buy email lists?",
+                                "answer": "Highly risky under GDPR. You need proof that everyone on the list explicitly consented to their data being shared with *you specifically*. Rarely compliant."
+                            },
+                            {
+                                "question": "Do I need a UK domain?",
+                                "answer": "Having a .co.uk or .uk domain builds trust and helps local SEO, though .com is widely accepted."
+                            }
+                        ]
+                    },
+                    "order": 4
+                }
+            ],
+            "service": "MARKETING AGENCY"
+        }
+    ]
+}

@@ -1,0 +1,537 @@
+{
+    "name": "Portugal",
+    "code": "PT",
+    "slug": "portugal",
+    "flag": "https://flagcdn.com/w160/pt.png",
+    "region": "Europe",
+    "languages": [
+        "Portuguese"
+    ],
+    "currencies": [
+        "EUR"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Portugal",
+                "subtitle": "Hire in Lisbon",
+                "description": "Compliant employment in the EU. We handle Segurança Social.",
+                "bestFor": "Tech Hubs",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "pt-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Written employment contract (Contrato de Trabalho)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "SS",
+                                "description": "Register employee with Segurança Social."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "FCT",
+                                "description": "Enroll in Compensation Fund (Fundo de Compensação)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "pt-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Security",
+                                    "values": [
+                                        "23.75%",
+                                        "11%",
+                                        "TSU (Taxa Social Única)."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Insurance",
+                                    "values": [
+                                        "~1%",
+                                        "0%",
+                                        "Work Accident Insurance (Private mandatory)."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "FCT/FGCT",
+                                    "values": [
+                                        "1%",
+                                        "0%",
+                                        "Wage Guarantee Funds."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "13th/14th Month",
+                                    "values": [
+                                        "16.66%",
+                                        "0%",
+                                        "Christmas and Holiday subsidies mandatory."
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "pt-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Good Friday",
+                                "description": "April 18"
+                            },
+                            {
+                                "title": "Easter Sunday",
+                                "description": "April 20"
+                            },
+                            {
+                                "title": "Freedom Day",
+                                "description": "April 25"
+                            },
+                            {
+                                "title": "Labor Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Portugal Day",
+                                "description": "June 10"
+                            },
+                            {
+                                "title": "Corpus Christi",
+                                "description": "June 19"
+                            },
+                            {
+                                "title": "Assumption of Mary",
+                                "description": "August 15"
+                            },
+                            {
+                                "title": "Republic Day",
+                                "description": "October 5"
+                            },
+                            {
+                                "title": "All Saints' Day",
+                                "description": "November 1"
+                            },
+                            {
+                                "title": "Restoration of Independence",
+                                "description": "December 1"
+                            },
+                            {
+                                "title": "Immaculate Conception",
+                                "description": "December 8"
+                            },
+                            {
+                                "title": "Christmas Day",
+                                "description": "December 25"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "pt-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax (IRS)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Bracket",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Low Income",
+                                    "values": [
+                                        "13.25% - 23%",
+                                        "Progressive lower brackets."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Middle Income",
+                                    "values": [
+                                        "26% - 35%",
+                                        "Progressive middle brackets."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "High Income",
+                                    "values": [
+                                        "Up to 48%",
+                                        "Top marginal rate + solidarity surcharge."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Non-Residents",
+                                    "values": [
+                                        "25%",
+                                        "Flat rate."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "pt-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Monthly Salary x 14."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Social Security",
+                                "description": "Deduct 11%."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "IRS Retention",
+                                "description": "Apply withholding tax table rate."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Net",
+                                "description": "Gross - SS - IRS."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Portugal",
+                "subtitle": "Lda",
+                "description": "Limitada.",
+                "bestFor": "Startups",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "pt-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Name",
+                                "description": "Obtain Certificate of Admissibility."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Register",
+                                "description": "Commercial Registry (Registo Comercial)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax",
+                                "description": "Register for VAT and Corporation Tax."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "pt-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Caixa Geral de Depósitos",
+                                "description": "State-owned major bank."
+                            },
+                            {
+                                "title": "Millennium bcp",
+                                "description": "Largest private bank."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Portugal",
+                "subtitle": "Tech Talent",
+                "description": "High quality devs.",
+                "bestFor": "Remote Tech",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "pt-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Lisbon",
+                                "text": "Web Summit host, major tech hub."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Porto",
+                                "text": "Growing startup ecosystem."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Portugal",
+                "subtitle": "DMR",
+                "description": "Monthly returns.",
+                "bestFor": "Compliance",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "pt-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "DMR",
+                                "description": "Monthly Declaration of Remuneration submission."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Portugal",
+                "subtitle": "SNC",
+                "description": "IFRS based.",
+                "bestFor": "Compliance",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "pt-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "SNC",
+                                "text": "Sistema de Normalização Contabilística (adapted from IFRS)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "pt-comp-labor",
+                    "type": "warning",
+                    "title": "Contracts",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Fixed Term",
+                                "description": "Strict limits on renewal of fixed-term contracts."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "pt-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax (IRC)",
+                                    "values": [
+                                        "21%",
+                                        "Standard rate + Municipal Surcharge (Derrama) up to 1.5%."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "State Surcharge",
+                                    "values": [
+                                        "3% - 9%",
+                                        "On profits > €1.5m."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "VAT (IVA)",
+                                    "values": [
+                                        "23%",
+                                        "Standard rate."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Portugal",
+                "subtitle": "Civil Law",
+                "description": "EU regulations.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "pt-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "Portuguese is mandatory for official documents."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Portugal",
+                "subtitle": "MB WAY",
+                "description": "Instant payments.",
+                "bestFor": "Transactions",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "pt-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "MB WAY",
+                                "description": "Ubiquitous mobile payment system."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Portugal",
+                "subtitle": "Digital",
+                "description": "High adoption.",
+                "bestFor": "Reach",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "pt-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Digital",
+                                "text": "Strong digital marketing penetration."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

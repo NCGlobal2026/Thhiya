@@ -1,0 +1,501 @@
+{
+    "name": "Republic of the Congo",
+    "code": "CG",
+    "slug": "republic-of-the-congo",
+    "flag": "https://flagcdn.com/w160/cg.png",
+    "region": "Africa",
+    "languages": [
+        "French",
+        "Lingala",
+        "Kituba"
+    ],
+    "currencies": [
+        "XAF"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Republic of the Congo",
+                "subtitle": "Hire in Brazzaville",
+                "description": "Compliant employment in Central Africa. We handle CNSS.",
+                "bestFor": "Energy & Oil",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "cg-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Written employment contract required."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "CNSS",
+                                "description": "Register with Caisse Nationale de Sécurité Sociale."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Work Permit",
+                                "description": "Obtain work authorization for foreign employees."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cg-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "CNSS",
+                                    "values": [
+                                        "20.28%",
+                                        "4%",
+                                        "Social Security (24.28% total)."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Salary Tax",
+                                    "values": [
+                                        "7.5%",
+                                        "0%",
+                                        "Unique tax on salaries (TSU)."
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "cg-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Easter Monday",
+                                "description": "April 21"
+                            },
+                            {
+                                "title": "Labour Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Ascension Day",
+                                "description": "May 29"
+                            },
+                            {
+                                "title": "Whit Monday",
+                                "description": "June 9"
+                            },
+                            {
+                                "title": "Reconciliation Day",
+                                "description": "June 10"
+                            },
+                            {
+                                "title": "Independence Day",
+                                "description": "August 15"
+                            },
+                            {
+                                "title": "All Saints' Day",
+                                "description": "November 1"
+                            },
+                            {
+                                "title": "Republic Day",
+                                "description": "November 28"
+                            },
+                            {
+                                "title": "Christmas",
+                                "description": "December 25"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cg-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax (IRPP)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Income Bracket (XAF)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Up to 464,000",
+                                    "values": [
+                                        "1%",
+                                        "Lowest bracket."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "464,001 - 1,000,000",
+                                    "values": [
+                                        "10%",
+                                        "Low bracket."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "1,000,001 - 3,000,000",
+                                    "values": [
+                                        "25%",
+                                        "Middle bracket."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Above 3,000,000",
+                                    "values": [
+                                        "40%",
+                                        "Top rate."
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "cg-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Monthly Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "CNSS",
+                                "description": "Deduct 4% employee contribution."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Income Tax",
+                                "description": "Apply progressive rates (1-40%)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Net",
+                                "description": "Gross - CNSS - Tax."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Congo",
+                "subtitle": "SARL",
+                "description": "Limited Liability.",
+                "bestFor": "Oil & Gas",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "cg-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "RCCM",
+                                "description": "Register with Commercial and Credit Registry."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Tax",
+                                "description": "Register with tax authorities."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "CNSS",
+                                "description": "Register with social security."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cg-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "BGFI Bank",
+                                "description": "Major regional bank."
+                            },
+                            {
+                                "title": "Ecobank",
+                                "description": "Pan-African banking group."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Congo",
+                "subtitle": "Brazzaville",
+                "description": "Capital city.",
+                "bestFor": "Energy",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "cg-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Brazzaville",
+                                "text": "Capital and main business center."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Pointe-Noire",
+                                "text": "Economic capital and oil hub."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Congo",
+                "subtitle": "Manual",
+                "description": "Limited digitization.",
+                "bestFor": "Compliance",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "cg-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "CNSS Declarations",
+                                "description": "Monthly contributions and reporting."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Congo",
+                "subtitle": "OHADA",
+                "description": "Regional standards.",
+                "bestFor": "Compliance",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "cg-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "OHADA",
+                                "text": "Harmonized accounting system for Central/West Africa."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cg-comp-labor",
+                    "type": "warning",
+                    "title": "Labor Law",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Work Permits",
+                                "description": "Required for all foreign employees."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "cg-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax",
+                                    "values": [
+                                        "30%",
+                                        "Standard rate."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "VAT",
+                                    "values": [
+                                        "18.9%",
+                                        "Value Added Tax."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Congo",
+                "subtitle": "Civil Law",
+                "description": "French system.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "cg-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "French is the official language."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Congo",
+                "subtitle": "Mobile Money",
+                "description": "Cash dominant.",
+                "bestFor": "Payments",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "cg-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Airtel Money",
+                                "description": "Mobile money service."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Congo",
+                "subtitle": "Traditional",
+                "description": "Radio dominant.",
+                "bestFor": "Reach",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "cg-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Radio",
+                                "text": "Most effective mass media channel."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

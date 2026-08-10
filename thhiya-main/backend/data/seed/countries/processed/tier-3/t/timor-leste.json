@@ -1,0 +1,841 @@
+{
+    "name": "Timor-Leste",
+    "code": "TL",
+    "slug": "timor-leste",
+    "flag": "https://flagcdn.com/w160/tl.png",
+    "region": "Southeast Asia",
+    "languages": [
+        "Tetum",
+        "Portuguese",
+        "Indonesian",
+        "English"
+    ],
+    "currencies": [
+        "USD"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR & PEO in Timor-Leste",
+                "subtitle": "Compliant Employment in Dili",
+                "description": "Hire staff in Timor-Leste without a local entity. We handle the 2012 Labor Law compliance, Social Security (CESS) contributions, and USD payroll.",
+                "bestFor": "NGOs, Development Projects, and Oil & Gas",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "tl-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract Issuance",
+                                "description": "Drafting the employment contract in Portuguese or Tetum (English courtesy translation standard). Must define fixed-term (CDD) vs indefinite (CDI) status."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Social Security (CESS)",
+                                "description": "Registration with the Contributory Regime of Social Security (CESS). Mandatory for all formal employees."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "TIN Registration",
+                                "description": "Obtaining the Tax Identification Number (TIN) for the employee from the Timor-Leste Revenue Service."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Bank Account",
+                                "description": "Opening a USD account at BNU Timor, ANZ, or BNCTL for salary transfers."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "tl-eor-leave",
+                    "type": "insights",
+                    "title": "Leave Policy (Labor Code 2012)",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Annual Leave",
+                                "text": "Employees are entitled to 12 working days of paid annual leave after one year of service. Prorated at 1 day per month for partial years."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Sick Leave",
+                                "text": "12 days of sick leave per year. The first 6 days are Paid 100%, the remaining 6 days are Paid 50%. Medical certificate required."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Maternity Leave",
+                                "text": "12 weeks of maternity leave (before and after birth). Compensation is 100% of salary, often reimbursed by CESS."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Compassionate Leave",
+                                "text": "Up to 5 days for death of a close relative (spouse, parent, child). 2 days for other relatives."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "tl-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Security (CESS)",
+                                    "values": [
+                                        "6%",
+                                        "4%",
+                                        "Calculated on gross monthly salary."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Income Tax (WHT)",
+                                    "values": [
+                                        "0%",
+                                        "10% (Non-res) / 0-10% (Res)",
+                                        "Employer withholds this from employee pay."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "tl-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Chinese New Year",
+                                "description": "January 29"
+                            },
+                            {
+                                "title": "Veterans Day",
+                                "description": "March 3"
+                            },
+                            {
+                                "title": "Eid ul Fitr",
+                                "description": "March 31 (Subject to moon)"
+                            },
+                            {
+                                "title": "Good Friday",
+                                "description": "April 18"
+                            },
+                            {
+                                "title": "Labor Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Restoration of Independence",
+                                "description": "May 20"
+                            },
+                            {
+                                "title": "Corpus Christi",
+                                "description": "June 19"
+                            },
+                            {
+                                "title": "Eid al-Adha",
+                                "description": "June 6 (Subject to moon)"
+                            },
+                            {
+                                "title": "Popular Consultation Day",
+                                "description": "August 30"
+                            },
+                            {
+                                "title": "All Saints Day",
+                                "description": "November 1"
+                            },
+                            {
+                                "title": "National Youth Day",
+                                "description": "November 12"
+                            },
+                            {
+                                "title": "Proclamation of Independence",
+                                "description": "November 28"
+                            },
+                            {
+                                "title": "Christmas Day",
+                                "description": "December 25"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "tl-eor-faq",
+                    "type": "faq",
+                    "title": "EOR FAQ",
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Is the 13th Month mandatory?",
+                                "answer": "No, the 13th month is not legally mandatory in Timor-Leste, but it is a common discretionary bonus."
+                            },
+                            {
+                                "question": "What is the minimum wage?",
+                                "answer": "The minimum wage is $115 USD per month."
+                            },
+                            {
+                                "question": "Can we terminate easily?",
+                                "answer": "Termination requires valid reason (Just Cause). Notice periods differ by tenure. Severance is typically 1 month per year of service."
+                            },
+                            {
+                                "question": "What is the probation period?",
+                                "answer": "Standard probation is 1 month, extendable to 3 months for skilled roles."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "tl-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax Rates 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Residency Status",
+                                "Income Bracket",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Resident (Monthly)",
+                                    "values": [
+                                        "0 - $500",
+                                        "0%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Resident (Monthly)",
+                                    "values": [
+                                        "Above $500",
+                                        "10% on excess"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Non-Resident",
+                                    "values": [
+                                        "Flat Rate",
+                                        "10% on all income"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "tl-gp-steps",
+                    "type": "key_steps",
+                    "title": "Payroll Cycle",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross Calculation",
+                                "description": "Calculate base salary + overtime (1.5x) + allowances."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Social Security",
+                                "description": "Deduct 4% for employee share. Accrue 6% for employer share."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "WHT Check",
+                                "description": "Apply 10% WHT on taxable amounts > $500 (residents) or full amount (non-residents)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Net Pay",
+                                "description": "Distribute USD to local bank accounts."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Filing",
+                                "description": "File Monthly Tax Form by the 15th of the following month."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "tl-gp-overtime",
+                    "type": "insights",
+                    "title": "Overtime Rules",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Standard OT",
+                                "text": "Paid at 150% (Normal rate + 50%) for hours beyond 8h/day or 44h/week."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Weekend/Holiday OT",
+                                "text": "Paid at 200% (Normal rate + 100%) for work on rest days or public holidays."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Compensatory Rest",
+                                "text": "Employees working on rest days are entitled to a compensatory rest day within the following 3 days."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "tl-calc-rules",
+                    "type": "key_steps",
+                    "title": "Logic",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Base Pay."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Less SS",
+                                "description": "Deduct 4% Employee Social Security."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Less Tax",
+                                "description": "Deduct 10% on (Gross - SS - $500 exemption)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Net",
+                                "description": "Result."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation in Timor-Leste",
+                "subtitle": "Easy Setup with SERVE",
+                "description": "Register your Single-Shareholder Company (Unipessoal Lda) or Standard Lda via the SERVE One-Stop-Shop.",
+                "bestFor": "Permanent Establishments",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "tl-inc-steps",
+                    "type": "key_steps",
+                    "title": "SERVE Registration Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Name Reservation",
+                                "description": "Verify unique company name at SERVE (Service for Registration and Verification of Entrepreneurs)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Draft Statutes",
+                                "description": "Draft Articles of Association. SERVE provides standard templates (Modelos) for 'Unipessoal Lda' and 'Lda'."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Capital Deposit",
+                                "description": "Deposit minimum capital (optional for some structures, but recommended $5,000 for credibility) at a local bank."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Submission",
+                                "description": "Submit Form SERVE_F_1 (Registration of Company) and supporting docs (Passport, Proof of Address) to SERVE office in Dili."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Certification",
+                                "description": "Receive the 'Certidão de Registo Comercial' (Commercial Registration Certificate) and TIN."
+                            },
+                            {
+                                "stepNumber": 6,
+                                "title": "Licensing",
+                                "description": "Obtain specific sector license (e.g., from Petroleum Authority) if operating in regulated industries."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "tl-inc-banks",
+                    "type": "essentials",
+                    "title": "Commercial Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "BNU Timor",
+                                "description": "Branch of Portuguese Caixa Geral de Depósitos. Longest established international bank."
+                            },
+                            {
+                                "title": "ANZ",
+                                "description": "Australian bank, focusing on corporate and institutional clients."
+                            },
+                            {
+                                "title": "Mandiri",
+                                "description": "Indonesian state-owned bank, key for trade with Indonesia."
+                            },
+                            {
+                                "title": "BNCTL",
+                                "description": "Banco Nacional de Comércio de Timor-Leste. State-owned, extensive local reach."
+                            },
+                            {
+                                "title": "BRI",
+                                "description": "Bank Rakyat Indonesia. Another key player for cross-border trade."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "tl-inc-forms",
+                    "type": "insights",
+                    "title": "Required Documents",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Valid Passport",
+                                "text": "For all foreign shareholders and directors."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Proof of Address",
+                                "text": "Utility bill or lease agreement for the company's registered office in Dili."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Map",
+                                "text": "A hand-drawn or printed map of the office location is often required by SERVE for site verification."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Timor-Leste",
+                "subtitle": "Hiring Local & Expat Talent",
+                "description": "Recruit specialized talent in Dili and manage Work Visa Type C applications.",
+                "bestFor": "Development & Construction",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "tl-staffing-visas",
+                    "type": "cost_breakdown",
+                    "title": "Visa Types",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Visa Type",
+                                "Audience",
+                                "Validity"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Work Visa (Type C)",
+                                    "values": [
+                                        "Employees",
+                                        "1 Year (Renewable)"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Business Visa Class I",
+                                    "values": [
+                                        "Short-term Business",
+                                        "60 Days (Multiple Entry)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Business Visa Class II",
+                                    "values": [
+                                        "Long-term Business",
+                                        "6 Months (Extendable)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Tourist Visa",
+                                    "values": [
+                                        "Visitors",
+                                        "30 Days (On Arrival)"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "tl-staffing-reqs",
+                    "type": "key_steps",
+                    "title": "Work Visa Requirements",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Sponsorship Letter",
+                                "description": "Letter from the employer in Timor-Leste guaranteeing financial responsibility."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Criminal Record",
+                                "description": "Police clearance from country of origin (must be translated/legalized)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Contract",
+                                "description": "Copy of the employment contract approved by the Labor Directorate."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Curriculum Vitae",
+                                "description": "Proof of qualifications relevant to the role."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "tl-staffing-salaries",
+                    "type": "cost_breakdown",
+                    "title": "Monthly Salary Benchmarks (USD)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Role",
+                                "Experience",
+                                "Range (USD)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Driver / Security",
+                                    "values": [
+                                        "Entry",
+                                        "$200 - $350"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Admin Assistant",
+                                    "values": [
+                                        "Mid",
+                                        "$300 - $500"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Accountant",
+                                    "values": [
+                                        "Mid",
+                                        "$600 - $1,000"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Project Manager",
+                                    "values": [
+                                        "Senior",
+                                        "$1,500 - $3,000"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Expat Engineer",
+                                    "values": [
+                                        "Senior",
+                                        "$5,000+"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Timor-Leste",
+                "subtitle": "Simple Payroll Tech",
+                "description": "Centralize employee data and manage simple tax rules.",
+                "bestFor": "Compliance",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "tl-hris-features",
+                    "type": "essentials",
+                    "title": "Key Features",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "USD Currency",
+                                "description": "System defaults to USD base."
+                            },
+                            {
+                                "title": "Tax Logic",
+                                "description": "Pre-configured $500 threshold for tax-exempt income."
+                            },
+                            {
+                                "title": "SS Reports",
+                                "description": "Auto-generation of CESS monthly contribution files."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Timor-Leste",
+                "subtitle": "IFRS Standards",
+                "description": "Bookkeeping in USD and statutory reporting.",
+                "bestFor": "Financial Visibility",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "tl-acc-standards",
+                    "type": "insights",
+                    "title": "Accounting Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Framework",
+                                "text": "The accounting framework is evolving, but generally follows IFRS or simplified standards for SMEs."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Language",
+                                "text": "While Portuguese is official, many business records are maintained in English or Indonesian depending on the firm."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "tl-comp-checklist",
+                    "type": "essentials",
+                    "title": "Compliance Checklist",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "CESS Registration",
+                                "description": "Mandatory social security enrollment."
+                            },
+                            {
+                                "title": "Annual Tax Return",
+                                "description": "Due by March 31."
+                            },
+                            {
+                                "title": "Business License Renewal",
+                                "description": "Ensure SERVE registration is active."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "tl-tax-rates",
+                    "type": "cost_breakdown",
+                    "title": "Corporate Tax",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Tax Type",
+                                "Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax",
+                                    "values": [
+                                        "10%",
+                                        "Standard rate."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Minimum Tax",
+                                    "values": [
+                                        "0.6%",
+                                        "Of turnover (if in loss position)."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Service Tax",
+                                    "values": [
+                                        "5% / 10%",
+                                        "Services: Hotel (10%), Restaurant/Bar (10%), Construction/Consulting (5%)."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Contracts",
+                "subtitle": "Drafting in Dili",
+                "description": "Contract templates and legal advisory.",
+                "bestFor": "Security",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "tl-msa-types",
+                    "type": "insights",
+                    "title": "Contract Types",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Fixed Term (CDD)",
+                                "text": "Must be justified by temporary nature of work."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Indefinite (CDI)",
+                                "text": "The standard form of employment."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Solutions",
+                "subtitle": "Tech in Timor",
+                "description": "Licensing and Implementation.",
+                "bestFor": "Modernization",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "tl-soft-isps",
+                    "type": "essentials",
+                    "title": "Internet Providers",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Timor Telecom",
+                                "description": "The historic incumbent."
+                            },
+                            {
+                                "title": "Telkomcel",
+                                "description": "Subsidiary of Telkom Indonesia."
+                            },
+                            {
+                                "title": "Telemor",
+                                "description": "Subsidiary of Viettel (Vietnam)."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Agencies",
+                "subtitle": "Brand Growth",
+                "description": "Local agencies for local reach.",
+                "bestFor": "Market Entry",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "tl-mark-channels",
+                    "type": "insights",
+                    "title": "Key Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Facebook",
+                                "text": "The most dominant digital platform in Timor-Leste."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Radio",
+                                "text": "Highly effective for reaching district populations."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1994 @@
+{
+    "name": "Ireland",
+    "code": "IE",
+    "slug": "ireland",
+    "flag": "https://flagcdn.com/w160/ie.png",
+    "region": "Europe",
+    "languages": [
+        "English",
+        "Irish"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "Hire in Ireland (No Entity)",
+                "subtitle": "EU Access Hub",
+                "description": "Fastest way to hire EU talent without a local entity. EOR handles PRSI, PAYE, and employment contracts compliant with WRC standards.",
+                "bestFor": "Tech expansion.",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "section-ie-eor-1",
+                    "type": "key_steps",
+                    "title": "Onboarding Workflow",
+                    "subtitle": "2-5 Days",
+                    "description": "Standardized onboarding process for hiring in Ireland without a local presence.",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Information Gathering",
+                                "description": "Collect PPS number, address, and P45/P60 from previous employment."
+                            },
+                            {
+                                "title": "Employment Contract",
+                                "description": "Issue a 'Written Statement of Terms' compliant with the Terms of Employment (Information) Acts."
+                            },
+                            {
+                                "title": "Revenue Registration",
+                                "description": "Employer registers the new job via ROS. This triggers the issuance of an RPN (Revenue Payroll Notification)."
+                            },
+                            {
+                                "title": "Benefit Enrollment",
+                                "description": "Enrollment in statutory benefits and any supplemental company benefits (Health, Pension)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-ie-eor-2",
+                    "type": "insights",
+                    "title": "Employment Law & Rights",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 2,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Probationary Periods",
+                                "text": "Under the EU Transparent and Predictable Working Conditions Directive, probation is generally limited to 6 months. Longer periods (up to 12 months) are rare and risky, as unfair dismissal protection kicks in after 1 year of service. Extending probation must be done in writing and for justifiable reasons."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Working Time Act",
+                                "text": "Maximum average working week is 48 hours. Employers must track hours worked and break times rigorously to avoid WRC fines. Records must be kept for 3 years. Employees are entitled to a 15-minute break after 4.5 hours and 30 minutes after 6 hours."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Remote Work Rights",
+                                "text": "The Work-Life Balance and Miscellaneous Provisions Act 2023 gives employees a legal right to request remote working arrangements. Employers must respond within 4 weeks and provide reasons if refused. A formal policy document is highly recommended to manage expectations."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Redundancy Rules",
+                                "text": "Statutory redundancy is 2 weeks' pay per year of service plus one additional week's pay, capped at €600 per week. However, many tech firms offer enhanced packages (e.g., 4-6 weeks per year) as a market standard."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Dismissal Risk",
+                                "text": "Irish employment law is very protective of the employee. Any dismissal must follow a 'fair procedure' involving warnings, the right to representation, and an appeal process, regardless of the merit of the case."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-ie-eor-5",
+                    "type": "good_to_know",
+                    "title": "Cultural Expectations",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 5,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Dublin vs Regional",
+                                "text": "While Dublin is the center of the tech ecosystem, hiring in cities like Galway, Cork, or Limerick can offer slightly more competitive salaries and better employee retention."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Work-Life Balance",
+                                "text": "Irish employees highly value family time and the 'right to disconnect'. Overtime is often managed through 'Time Off In Lieu' (TOIL) rather than direct payment in professional roles."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "While Irish is the first official language, English is the universal language of business. Some official documents may require bilingual templates (e.g., for government grants)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-ie-eor-6",
+                    "type": "key_steps",
+                    "title": "Termination Process",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 6,
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Grounds for Termination",
+                                "description": "Identify clear grounds (Capability, Conduct, Redundancy, or SOSR). Document all instances of poor performance or misconduct."
+                            },
+                            {
+                                "title": "Performance Improvement Plan (PIP)",
+                                "description": "For capability issues, a formal PIP lasting 4-12 weeks is mandatory to show fair procedure has been followed."
+                            },
+                            {
+                                "title": "Formal Notification",
+                                "description": "Invite the employee to a meeting in writing, stating they have the right to be accompanied by a colleague or union rep."
+                            },
+                            {
+                                "title": "Final Notice & P45",
+                                "description": "Issue notice as per contract (or pay in lieu), calculate final leave balance, and issue P45 (tax departure) via Revenue."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-ie-eor-3",
+                    "type": "cost_breakdown",
+                    "title": "Benefit Benchmarking",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 3,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Benefit",
+                                "Statutory Min",
+                                "Market Standard (Tech)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Annual Leave",
+                                    "values": [
+                                        "20 Days",
+                                        "25 - 28 Days"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Sick Pay",
+                                    "values": [
+                                        "5 Days (70% - max €110/day)",
+                                        "10 - 20 Days (100% pay)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Pension",
+                                    "values": [
+                                        "N/A (Until Sept 2025)",
+                                        "5% - 10% Employer Match"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Health Insurance",
+                                    "values": [
+                                        "N/A",
+                                        "Full coverage (VHI/Laya/Irish Life)"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-ie-eor-4",
+                    "type": "faq",
+                    "title": "EOR in Ireland FAQ",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can I hire a contractor via EOR?",
+                                "answer": "EOR is specifically for employment. For contractors, you would use a 'Contractor Management' service to ensure compliance with 'intermediary' rules."
+                            },
+                            {
+                                "question": "What is the notice period?",
+                                "answer": "Statutory notice varies from 1 week (13 weeks to 2 years service) to 8 weeks (15+ years service). Contracts usually specify 1-3 months for professionals."
+                            },
+                            {
+                                "question": "How do public holidays work?",
+                                "answer": "Ireland has 10 public holidays. Employees are entitled to a paid day off or a paid day in lieu."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-ie-payroll-1",
+                    "type": "key_steps",
+                    "title": "Payroll Execution Cycle",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "RPN Retrieval",
+                                "description": "Download 'Revenue Payroll Notifications' before every pay run to ensure correct tax credits and bands are applied."
+                            },
+                            {
+                                "title": "Gross to Net Calculation",
+                                "description": "Calculate PAYE (Income Tax), USC (Universal Social Charge), and PRSI (Pay Related Social Insurance)."
+                            },
+                            {
+                                "title": "Benefit in Kind (BIK) Valuation",
+                                "description": "Identify and tax non-cash benefits like health insurance, company cars, or preferential loans."
+                            },
+                            {
+                                "title": "PSR Submission",
+                                "description": "Submit a 'Payroll Submission Request' via ROS on or before the pay date (MANDATORY Real-Time Reporting)."
+                            },
+                            {
+                                "title": "Disbursement",
+                                "description": "Execute SEPA transfers to employees and provide digital payslips."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-ie-payroll-2",
+                    "type": "insights",
+                    "title": "2025 Tax & Social Data",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 2,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Standard Rate Cut-off",
+                                "text": "Increased to €44,000 for a single person. Income above this is taxed at 40%. For married couples with one earner, the cutoff is €53,000; for those with two earners, it is €88,000 (with an increase of up to €35,000 for the second earner)."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "USC Rate Reduction",
+                                "text": "The intermediate 4% rate has been reduced to 3% for 2025. The 2% threshold is now €28,700 (Budget 2026 update), ensuring that full-time minimum wage workers stay below the higher USC bands."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "PRSI Increase",
+                                "text": "A 0.1% increase in PRSI rates applied from October 2024, with another 0.1% planned for October 2025 to fund the Social Insurance Fund. This affects both the 4.1% employee rate and the 11.25% employer rate."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Cycle to Work Scheme",
+                                "text": "A popular salary sacrifice scheme allowing employees to buy bicycles up to €1,500 (€3,000 for cargo bikes) tax-free. This reduces the gross pay and results in significant PAYE/PRSI/USC savings."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-ie-payroll-5",
+                    "type": "faq",
+                    "title": "Payroll Administration FAQ",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 5,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is emergency tax?",
+                                "answer": "If an RPN is not available, employers must apply emergency tax, which can lead to a 40% deduction on all earnings after 4 weeks. It is critical to obtain the RPN immediately upon hiring."
+                            },
+                            {
+                                "question": "How do we handle illness benefit?",
+                                "answer": "Statutory Sick Pay (SSP) is paid by the employer. If illness lasts longer, the employee claims Illness Benefit directly from the Department of Social Protection. Employers may choose to 'top up' this benefit."
+                            },
+                            {
+                                "question": "Are bonuses taxable?",
+                                "answer": "Yes, all cash bonuses are fully taxable. However, the 'Small Benefit Exemption' allows for up to two vouchers (e.g., One4All) totaling €1,000 per year to be given tax-free."
+                            },
+                            {
+                                "question": "What is the P45 replacement?",
+                                "answer": "P45s have been abolished. Cessation of employment is now reported in real-time via the ROS payroll submission (PSR), and employees can see their details on 'MyAccount'."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-ie-payroll-3",
+                    "type": "cost_breakdown",
+                    "title": "Employee Deductions Example (€50k)",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 3,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Categorization",
+                                "Annual Amount",
+                                "Monthly Amount"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Gross Salary",
+                                    "values": [
+                                        "€50,000.00",
+                                        "€4,166.67"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "PAYE (Tax)",
+                                    "values": [
+                                        "€7,400.00",
+                                        "€616.67"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "PRSI (Social)",
+                                    "values": [
+                                        "€2,100.00",
+                                        "€175.00"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "USC (Levy)",
+                                    "values": [
+                                        "€1,023.00",
+                                        "€85.25"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Net Take-Home",
+                                    "values": [
+                                        "€39,477.00",
+                                        "€3,289.75"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Employer PRSI (11.25%)",
+                                    "values": [
+                                        "€5,625.00",
+                                        "€468.75"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Total Cost of Employment",
+                                    "values": [
+                                        "€55,625.00",
+                                        "€4,635.42"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-ie-payroll-6",
+                    "type": "insights",
+                    "title": "Pension Auto-Enrolment (2025)",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Starting Sept 2025",
+                                "text": "All employees aged 23-60 earning over €20,000 will be auto-enrolled."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Contribution Rates",
+                                "text": "Initial rates: 1.5% Employer, 1.5% Employee, with a State contribution of 0.5%."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-ie-calc-2",
+                    "type": "cost_breakdown",
+                    "title": "Net Pay Estimation (Sample)",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 2,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "€50,000 Gross",
+                                "€100,000 Gross"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "PAYE (Income Tax)",
+                                    "values": [
+                                        "€7,320",
+                                        "€29,720"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "USC (Social Charge)",
+                                    "values": [
+                                        "€910",
+                                        "€3,850"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "PRSI (Employee)",
+                                    "values": [
+                                        "€2,050",
+                                        "€4,100"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Net Take-Home (Est)",
+                                    "values": [
+                                        "€39,720",
+                                        "€62,330"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Employer PRSI (Cost)",
+                                    "values": [
+                                        "€5,525",
+                                        "€11,050"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Pension (Employer 5%)",
+                                    "values": [
+                                        "€2,500",
+                                        "€5,000"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-ie-calc-3",
+                    "type": "key_steps",
+                    "title": "How We Calculate",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 3,
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Gross to Taxable Pay",
+                                "description": "Start with gross pay and subtract tax-deductible pension contributions (subject to age-related caps of 15% to 40%)."
+                            },
+                            {
+                                "title": "Standard vs Higher Rate",
+                                "description": "Apply 20% tax to the first €44,000. Any income above this threshold is taxed at the 40% higher PAYE rate."
+                            },
+                            {
+                                "title": "Applying Tax Credits",
+                                "description": "Subtract annual credits (Personal €1,900 + Employee €1,900) from the total PAYE calculated."
+                            },
+                            {
+                                "title": "Levy Deductions",
+                                "description": "Apply USC (0.5% to 8% tiers) and PRSI (flat 4.1% - 4.2%) to the gross pay."
+                            },
+                            {
+                                "title": "Final Net Calculation",
+                                "description": "Subtract all taxes and levies from the nominal gross to arrive at the net bank transfer amount."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-ie-calc-4",
+                    "type": "faq",
+                    "title": "Payroll & Tax FAQ",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the small gift exemption?",
+                                "answer": "Employers can give up to 2 tax-free vouchers per year, totaling no more than €1,000. This is a highly efficient way to reward staff."
+                            },
+                            {
+                                "question": "How does 'Net-to-Gross' work?",
+                                "answer": "For guaranteed net salaries, the employer must 'gross up' the pay to cover all taxes. This can be very expensive."
+                            },
+                            {
+                                "question": "Is health insurance taxed?",
+                                "answer": "Yes, if an employer pays for health insurance, it is a Benefit-in-Kind (BIK). The employee pays tax on the premium value."
+                            },
+                            {
+                                "question": "What happens if I have two jobs?",
+                                "answer": "You must apportion your tax credits and standard rate cutoff between the two employers via Revenue MyAccount."
+                            },
+                            {
+                                "question": "Can I claim rent tax credit?",
+                                "answer": "Yes, for 2025, the rent tax credit has been increased to €1,000 for single people and €2,000 for couples."
+                            },
+                            {
+                                "question": "What is the 'Bike to Work' limit?",
+                                "answer": "Up to €1,250 for standard bikes, €1,500 for e-bikes, and €3,000 for cargo bikes. saving up to 52% in tax."
+                            },
+                            {
+                                "question": "How is overtime taxed?",
+                                "answer": "Overtime is simply added to gross pay. If you are already above the €44,000 threshold, it is taxed at the 40% rate."
+                            },
+                            {
+                                "question": "What is a 'P2C' or 'RPN'?",
+                                "answer": "A Revenue Payroll Notification (RPN) tells the payroll software exactly what tax credits to apply for you."
+                            },
+                            {
+                                "question": "Can I pay bonuses via vouchers?",
+                                "answer": "Only up to the €1,000 annual limit (across 2 vouchers). Anything above this must be subjected to PAYE/USC/PRSI."
+                            },
+                            {
+                                "question": "What is the SARP relief?",
+                                "answer": "Special Assignee Relief Programme (SARP) provides income tax relief for skilled employees assigned from abroad."
+                            },
+                            {
+                                "question": "Is USC mandatory?",
+                                "answer": "Yes, for anyone earning over €13,000 per year. It is a core social charge collected by Revenue."
+                            },
+                            {
+                                "question": "How do I claim a tax refund?",
+                                "answer": "At the end of the tax year, request a 'Statement of Liability' through Revenue MyAccount to claim back overpaid tax."
+                            },
+                            {
+                                "question": "What is the SARP income threshold?",
+                                "answer": "To qualify for SARP in 2025, the employee must have a minimum base salary of €100,000 per annum."
+                            },
+                            {
+                                "question": "Are 'duvet days' tax-free?",
+                                "answer": "Duvet days are just extra paid leave; they are taxed as normal working days as there is no financial gain beyond the salary."
+                            },
+                            {
+                                "question": "What is the 'Small Benefit Scheme'?",
+                                "answer": "It's the technical name for the tax-free voucher scheme. It was increased from €500 to €1,000 in recent budgets."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "eor-peo-aor",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR"
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Private Ltd Company (LTD)",
+                "subtitle": "12.5% Corp Tax",
+                "description": "World-famous low tax regime. Fast setup. Require 1 EEA resident director or Sections 137 bond.",
+                "bestFor": "EMEA HQ.",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "section-ie-inc-1",
+                    "type": "key_steps",
+                    "title": "LTD Formation Process",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Name Reservation",
+                                "description": "Checking availability with the Companies Registration Office (CRO). Must not be similar to existing names."
+                            },
+                            {
+                                "title": "Adopting Constitution",
+                                "description": "Replacing the old Memorandum and Articles of Association under the Companies Act 2014."
+                            },
+                            {
+                                "title": "Director Appointments",
+                                "description": "Must have at least one director resident in the EEA and a separate Company Secretary."
+                            },
+                            {
+                                "title": "Beneficial Ownership (RBO)",
+                                "description": "Registering details of individual owners (>25%) with the Central Register of Beneficial Ownership."
+                            },
+                            {
+                                "title": "Tax Registration",
+                                "description": "Registering for Corporation Tax, VAT, and PAYE/PRSI using Revenue's Form TR2."
+                            },
+                            {
+                                "title": "AML Verification",
+                                "description": "Providing 'Proof of Funds' and passport verification for all directors and owners to the formation agent and banks."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-ie-inc-2",
+                    "type": "insights",
+                    "title": "Compliance Deadlines",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 2,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Annual Returns (B1)",
+                                "text": "Failure to file on time results in loss of audit exemption and late filing fees."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Statutory Audit",
+                                "text": "Audit exemption applies to most SMEs. Thresholds: Turnover < €15m, Assets < €7.5m, Employees < 50."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Section 137 Bond",
+                                "text": "If no EEA resident director is available, a €25,000 bond must be purchased from an insurance provider for a 2-year term."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-ie-inc-2-market",
+                    "type": "insights",
+                    "title": "Market Trends 2025",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 2,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Holding Company Surge",
+                                "text": "Ireland is increasingly being used as a European holding company hub for US ventures, thanks to the Section 137 bond exemption for non-resident directors and the stable common law environment."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Digital Transformation",
+                                "text": "The CORE (Companies Online Registration Environment) portal has undergone significant upgrades, allowing for faster processing of B1 annual returns and easier tracking of compliance deadlines."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "KYC/AML Rigor",
+                                "text": "Banks and formation agents are requiring deeper 'Source of Wealth' documentation for UBOs (Ultimate Beneficial Owners) in line with EU 6th Anti-Money Laundering Directive."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Sustainability Reporting",
+                                "text": "The CSRD (Corporate Sustainability Reporting Directive) is starting to impact larger LTD formations, requiring new entities to factor in environmental disclosure requirements early in their lifecycle."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-ie-inc-3",
+                    "type": "cost_breakdown",
+                    "title": "Setup Cost Estimator",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 3,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Item",
+                                "Estimated Cost",
+                                "Frequency"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Company Incorporation Fee",
+                                    "values": [
+                                        "€250 - €500",
+                                        "One-off"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Registered Office Service",
+                                    "values": [
+                                        "€300 - €600",
+                                        "Annual"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Section 137 Bond (if no EU director)",
+                                    "values": [
+                                        "€2,000",
+                                        "Biennial (2 yrs)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Company Secretary Service",
+                                    "values": [
+                                        "€500 - €1,000",
+                                        "Annual"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Bank Account Opening Support",
+                                    "values": [
+                                        "€500 - €1,500",
+                                        "One-off"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Tax Registration (VAT/PAYE/CT)",
+                                    "values": [
+                                        "€400",
+                                        "One-off"
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-ie-inc-4",
+                    "type": "faq",
+                    "title": "Formation FAQ",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can a non-resident start a company?",
+                                "answer": "Yes, but you must have at least one director resident in the EEA. If not, you must take out a Section 137 Bond, which costs approximately €2,000 for a two-year period."
+                            },
+                            {
+                                "question": "What is the minimum share capital?",
+                                "answer": "There is no statutory minimum share capital for an LTD company. Most startups incorporate with €100 divided into 100 shares of €1 each."
+                            },
+                            {
+                                "question": "How long does it take to open a bank account?",
+                                "answer": "This is often the longest part of the process, taking 4-8 weeks. Banks require extensive AML/KYC documentation for all beneficial owners."
+                            },
+                            {
+                                "question": "What is the '67 bond'?",
+                                "answer": "It is a common name for the Section 137 bond required for non-EEA directors. It acts as an insurance policy for the CRO in case of non-compliance."
+                            },
+                            {
+                                "question": "What is the 12.5% Corporation Tax rate?",
+                                "answer": "Ireland's 12.5% rate applies to 'trading income'. Non-trading (passive) income is taxed at 25%."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "incorporation-entity-setup",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)"
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Recruitment Agencies",
+                "subtitle": "Tech & Pharma",
+                "description": "High demand for tech talent (Dublin is 'Silicon Docks'). Agencies used heavily for speed.",
+                "bestFor": "Niche skills.",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "section-ie-staff-1",
+                    "type": "key_steps",
+                    "title": "Recruitment Lifecycle",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Job Specification",
+                                "description": "Defining roles for the 'Silicon Docks' ecosystem, focusing on niche tech or pharma skills."
+                            },
+                            {
+                                "title": "Sourcing",
+                                "description": "Leveraging local networks, LinkedIn, and specialized Irish job boards (e.g., Jobs.ie, IrishJobs)."
+                            },
+                            {
+                                "title": "Work Permit Assessment",
+                                "description": "Determining if the candidate requires a Critical Skills Employment Permit or General Employment Permit."
+                            },
+                            {
+                                "title": "Interviews",
+                                "description": "Multi-stage technical and cultural fit assessments, often 100% remote for tech roles."
+                            },
+                            {
+                                "title": "Reference Checks",
+                                "description": "Standard practice in Ireland to conduct at least two professional reference checks before an offer."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-ie-staff-2",
+                    "type": "insights",
+                    "title": "Market Dynamics",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 2,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Silicon Docks",
+                                "text": "Dublin's tech hub is home to EMEA HQs for Google, Meta, and AWS, creating intense competition for senior talent. This has led to a 'hub' effect where talent is concentrated but costly."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Critical Skills List",
+                                "text": "The government's Critical Skills list includes developers, engineers, and data scientists. Holding a job offer on this list allows for a faster 'Green Card' style permit and immediate family reunification."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Salary Inflation",
+                                "text": "Tech salaries in Dublin have seen significant growth; senior developers often command €90k - €120k+, depending on the tech stack (Kotlin, Go, and React are in highest demand)."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Remote Sourcing",
+                                "text": "Post-COVID, many Irish employees prefer 'hub and spoke' models—working from outside Dublin (where housing is cheaper) and commuting 1-2 days a week."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Graduate Talent",
+                                "text": "Universities like TCD, UCD, and DCU provide a steady stream of high-quality graduates, particularly in Computer Science and Biotechnology."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-ie-staff-4",
+                    "type": "faq",
+                    "title": "Recruitment & Permits FAQ",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "How long does a Critical Skills Permit take?",
+                                "answer": "Processing times vary, but typically range from 6 to 12 weeks. Trusted Partner employers often see faster turnaround."
+                            },
+                            {
+                                "question": "What is the minimum salary for a Critical Skills Permit?",
+                                "answer": "Generally €38,000 for roles on the Critical Skills list, or €64,000 for roles not on the list (but not on the ineligible list)."
+                            },
+                            {
+                                "question": "Are internal transfers possible?",
+                                "answer": "Yes, Intra-Company Transfer (ICT) permits allow for temporary transfers from international branches, though they do not lead to long-term residency."
+                            },
+                            {
+                                "question": "Can spouses work in Ireland?",
+                                "answer": "Spouses of Critical Skills Permit holders are entitled to an 'Employment Permit' on an automatic basis without a separate application for a specific role."
+                            },
+                            {
+                                "question": "What is the '50:50 Rule'?",
+                                "answer": "At least 50% of employees in an Irish company must be EEA nationals to qualify for most work permits, though start-ups can often get a 2-year waiver."
+                            },
+                            {
+                                "question": "Is remote work protected by law?",
+                                "answer": "Yes, under the Work-Life Balance Act 2023, employees have a legal right to request remote work, and employers must provide a reasonable explanation if they refuse."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-ie-staff-3",
+                    "type": "cost_breakdown",
+                    "title": "Agency Fee Structure",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 3,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service Type",
+                                "Standard Fee",
+                                "Guarantee Period"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Contingency (Tech)",
+                                    "values": [
+                                        "15% - 22% of Salary",
+                                        "3 Months (Pro-rata)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Executive Search",
+                                    "values": [
+                                        "25% - 33% of Salary",
+                                        "6 - 12 Months"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Contractor Margin",
+                                    "values": [
+                                        "10% - 20% on top of rate",
+                                        "Weekly Billing"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "slug": "staffing-recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting"
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HR Software",
+                "subtitle": "GDPR Compliance",
+                "description": "Tools like Personio, HRLocker, BambooHR popular for tracking leave and GDPR data rights.",
+                "bestFor": "Records.",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "section-ie-hris-1",
+                    "type": "key_steps",
+                    "title": "HRIS Implementation",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Data Audit",
+                                "description": "Mapping existing employee data and ensuring GDPR compliance before migration."
+                            },
+                            {
+                                "title": "Statutory Config",
+                                "description": "Configuring leave types (Annual, Sick, Parent's Leave) to align with Irish law."
+                            },
+                            {
+                                "title": "Integration",
+                                "description": "Linking HRIS to local payroll providers or international EOR platforms."
+                            },
+                            {
+                                "title": "User Training",
+                                "description": "Training staff on self-service portals for leave requests and payslip access."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-ie-hris-2",
+                    "type": "insights",
+                    "title": "Regional Nuances",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 2,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "GDPR Sovereignty",
+                                "text": "As the EU home for many US tech firms, Ireland's Data Protection Commission (DPC) is the lead supervisory authority. HRIS systems MUST be configured for GDPR compliance, particularly around employee 'right to access' requests and Right to Erasure."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Public Holiday Config",
+                                "text": "Ireland has 10 public holidays (increased from 9 with St. Brigid's Day in 2023). Ensure your HRIS is updated to handle 'Monday-ised' holidays for weekend dates and statutory pay requirements."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Leave Entitlements",
+                                "text": "Statutory holiday entitlement is 20 days, but tech companies typically offer 25-28 days. HRIS must support 'carry forward' policies which are common for 3-6 months into the new year and track statutory vs. contractual leave separately."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Sick Pay Tracking",
+                                "text": "The new Statutory Sick Pay (SSP) scheme requires tracking 5 days in 2024, increasing to 7 days in 2025 and 10 days in 2026. Automated tracking of medical certificates is essential for administrative compliance."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Protective Leave",
+                                "text": "Ireland has extensive protective leaves (Maternity, Paternity, Parents, Carers, Force Majeure). HRIS must accurately track these categories to prevent legal disputes around 'detriment'."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-ie-hris-4",
+                    "type": "faq",
+                    "title": "HRIS & Data FAQ",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can we use a US-based HRIS?",
+                                "answer": "Yes, provided there is a Data Processing Agreement (DPA) and appropriate Standard Contractual Clauses (SCCs) to ensure GDPR-equivalent protection for Irish employees."
+                            },
+                            {
+                                "question": "How long must we store HR records?",
+                                "answer": "Employment records must generally be kept for 3 years for WRC inspection purposes. Tax-related records must be kept for 6 years."
+                            },
+                            {
+                                "question": "What is the 'Right to Disconnect'?",
+                                "answer": "Ireland has a Code of Practice on the Right to Disconnect. Systems should ideally not send automated notifications or require response outside of core business hours unless critical."
+                            },
+                            {
+                                "question": "Is payroll integration necessary?",
+                                "answer": "Highly recommended. The Revenue's real-time reporting (PMOD) means that any change in salary or benefits in HRIS should flow seamlessly to payroll."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-ie-hris-3",
+                    "type": "faq",
+                    "title": "HRIS Compliance FAQ",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 3,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Does the HRIS need to be hosted in Ireland?",
+                                "answer": "No, but it must be within the EEA or have appropriate Standard Contractual Clauses (SCCs) for GDPR compliance."
+                            },
+                            {
+                                "question": "Can we track 'Right to Disconnect'?",
+                                "answer": "Modern systems allow for scheduling of emails and tracking overtime to support the official Code of Practice on the Right to Disconnect."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "hris-hrms-ats",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS"
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accountancy",
+                "subtitle": "Audit Exemption",
+                "description": "Small companies often Audit Exempt. Annual Return (B1) filing is critical.",
+                "bestFor": "Compliance.",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "section-ie-acc-1",
+                    "type": "key_steps",
+                    "title": "Annual Compliance Cycle",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Bookkeeping",
+                                "description": "Maintaining digital records of all transactions. Cloud software (Xero/QuickBooks) is the norm."
+                            },
+                            {
+                                "title": "VAT Returns",
+                                "description": "Bi-monthly or quarterly filings via ROS (Revenue Online Service)."
+                            },
+                            {
+                                "title": "Statutory Accounts",
+                                "description": "Preparing financial statements in accordance with FRS 102 (General Purpose Financial Reporting)."
+                            },
+                            {
+                                "title": "B1 Annual Return",
+                                "description": "Filing the return with the CRO within 56 days of the Annual Return Date (ARD)."
+                            },
+                            {
+                                "title": "Corporation Tax Return",
+                                "description": "Filing Form CT1 and paying tax within 9 months of the financial year-end."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-ie-acc-2",
+                    "type": "insights",
+                    "title": "Reporting Standards",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 2,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "FRS 102 vs FRS 105",
+                                "text": "Most small SMEs use FRS 105 (Micro-entities Regime), which simplifies disclosures. Larger firms must use FRS 102, which is more aligned with IFRS and requires full balance sheet/P&L notes."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Audit Exemption",
+                                "text": "A company can claim audit exemption if it meets two of three criteria: Turnover < €12m, Balance Sheet < €6m, Employees < 50. Filing an annual return late loses this exemption for the next two years."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Late Filing Penalties",
+                                "text": "CRO penalties for late B1 returns are €100 plus €3 per day, up to €1,500. More importantly, late filing triggers an automatic audit requirement for the following year."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Software Standards",
+                                "text": "Xero and QuickBooks are widely used, but Sage remains the market leader for larger firms with complex inventory or manufacturing needs."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-ie-acc-4",
+                    "type": "faq",
+                    "title": "Accounting & Audit FAQ",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the financial year end?",
+                                "answer": "The default is 31st December, but companies can choose any date (e.g., to align with a US parent). The first financial year can be up to 18 months long."
+                            },
+                            {
+                                "question": "How do I claim R&D Tax Credits?",
+                                "answer": "Credits (now 30%) are claimed via the annual Corporation Tax return (Form CT1). You must maintain a detailed technical file proving the 'scientific or technological advancement'."
+                            },
+                            {
+                                "question": "Are digital receipts acceptable?",
+                                "answer": "Yes, Revenue accepts digital copies of invoices and receipts provided they are legible and stored securely for 6 years."
+                            },
+                            {
+                                "question": "When is the annual return due?",
+                                "answer": "Within 56 days of the Company's Annual Return Date (ARD). All filings are now done electronically via the CORE portal."
+                            },
+                            {
+                                "question": "Do I need a local resident director for accounting?",
+                                "answer": "While not strictly required for accounting, having a resident director makes bank account opening and VAT registration significantly more straightforward."
+                            },
+                            {
+                                "question": "What are the penalties for late filing?",
+                                "answer": "An immediate €100 fine, plus €3 per day capped at €1,500. More critically, you lose your audit exemption for the next two financial years."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-ie-acc-3",
+                    "type": "cost_breakdown",
+                    "title": "Professional Fees (SME)",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 3,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service",
+                                "Estimated Annual Cost",
+                                "Complexity"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Annual Accounts & B1",
+                                    "values": [
+                                        "€2,500 - €4,500",
+                                        "Medium"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Monthly Bookkeeping",
+                                    "values": [
+                                        "€300 - €800 / month",
+                                        "Low"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "CT1 Tax Return",
+                                    "values": [
+                                        "€1,000 - €2,000",
+                                        "Medium"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Statutory Audit",
+                                    "values": [
+                                        "€5,000 - €15,000+",
+                                        "High"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-ie-comp-1",
+                    "type": "key_steps",
+                    "title": "Workplace Compliance Audit",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Contract Review",
+                                "description": "Audit all employment contracts for 'Terms of Employment (Information) Acts' compliance."
+                            },
+                            {
+                                "title": "Working Time Records",
+                                "description": "Ensure accurate tracking of daily/weekly rest and the 48-hour weekly maximum."
+                            },
+                            {
+                                "title": "Equality Policy",
+                                "description": "Implement robust anti-discrimination and harassment policies under the Employment Equality Acts."
+                            },
+                            {
+                                "title": "Health & Safety",
+                                "description": "Conduct risk assessments and appoint a Safety Representative as per HSA requirements."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-ie-comp-2",
+                    "type": "insights",
+                    "title": "Regulatory Oversight",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 2,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "WRC Inspections",
+                                "text": "The Workplace Relations Commission (WRC) has the power to enter premises and inspect records without prior notice. Compliance with record-keeping for hours of work is their top priority."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Gender Pay Gap",
+                                "text": "Mandatory for firms with 150+ employees in 2024, decreasing to 50+ in 2025. Failure to report leads to reputational damage and potential enforcement orders."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Whistleblowing Act",
+                                "text": "The Protected Disclosures (Amendment) Act 2022 requires firms with 50+ employees to have a formal internal reporting channel and a clear anti-retaliation policy."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Health & Safety",
+                                "text": "All employers must have a written Safety Statement based on a localized risk assessment of the workplace (including home offices for remote workers)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-ie-comp-4",
+                    "type": "faq",
+                    "title": "Regulatory Oversight FAQ",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What insurance is mandatory?",
+                                "answer": "Employers' Liability (EL) is essential, with a recommended minimum cover of €13 million. Public Liability (PL) is also standard."
+                            },
+                            {
+                                "question": "What happens in a WRC audit?",
+                                "answer": "A Workplace Relations Commission inspector visits to review records on working time, pay, and holidays. Non-compliance results in compliance notices or fines."
+                            },
+                            {
+                                "question": "Do we need a Data Protection Officer (DPO)?",
+                                "answer": "Only if your core activities involve 'regular and systematic monitoring of data subjects on a large scale' or processing sensitive data."
+                            },
+                            {
+                                "question": "What is the 'Protected Disclosures' Act?",
+                                "answer": "It is Ireland's whistleblowing law. Companies with 50+ employees must have internal reporting channels and procedures for whistleblowers."
+                            },
+                            {
+                                "question": "Are fixed-term contracts allowed?",
+                                "answer": "Yes, but they must be in writing and state the objective condition (date, task, or event) for ending. Successive contracts are restricted after 4 years."
+                            },
+                            {
+                                "question": "What is the 'Probationary Period' limit?",
+                                "answer": "Under the Transparent and Predictable Working Conditions Directive, probation is generally capped at 6 months, expandable to 12 months in exceptional cases."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-ie-comp-3",
+                    "type": "faq",
+                    "title": "Employment Law FAQ",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 3,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the maximum probation period?",
+                                "answer": "Normally 6 months. It cannot exceed 12 months in any circumstances for most roles."
+                            },
+                            {
+                                "question": "Are employees entitled to sick pay?",
+                                "answer": "Yes, as of 2025, employees are entitled to 5 days statutory sick pay at 70% of gross (capped at €110/day)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-ie-tax-1",
+                    "type": "key_steps",
+                    "title": "Corporate Tax Compliance",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Registration",
+                                "description": "Applying for a Corporation Tax number via ROS (Form TR2)."
+                            },
+                            {
+                                "title": "Phased Payments",
+                                "description": "Preliminary tax payments due within 11 months for large companies; 9 months for small ones."
+                            },
+                            {
+                                "title": "iXBRL Filing",
+                                "description": "Mandatory filing of financial statements in iXBRL format alongside the CT1 return."
+                            },
+                            {
+                                "title": "R&D Credit Claim",
+                                "description": "Submitting detailed R&D reports to Revenue to claim the 30% tax credit (Budget 2025 update)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-ie-tax-2",
+                    "type": "insights",
+                    "title": "Tax Rates & Reliefs",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 2,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Corporate Tax",
+                                "text": "12.5% on trading income remains the cornerstone of Irish tax policy. A higher 15% rate applies to large multinationals (revenue > €750m) under OECD Pillar Two rules."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "R&D Credit Increase",
+                                "text": "Increased to 30% for 2024/2025. This is a refundable credit, meaning it can be paid out in cash even if the company is in a loss-making position."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "VAT Deadlines",
+                                "text": "Standard rate is 23%. Returns are typically bi-monthly. Late VAT payments trigger high interest rates (approx. 0.0274% per day) and potential Revenue audits."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Withholding Tax",
+                                "text": "Ireland has an extensive network of 74 Double Taxation Treaties, which often reduces or eliminates withholding tax on dividends, interest, and royalties paid to foreign parents."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-ie-tax-4",
+                    "type": "faq",
+                    "title": "Corporate Tax FAQ",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the 'Participation Exemption'?",
+                                "answer": "It allows Irish holding companies to pay dividends to parent companies or receive dividends from subsidiaries with zero or minimal tax, subject to certain conditions."
+                            },
+                            {
+                                "question": "Do we need a VAT number before trading?",
+                                "answer": "Yes, if you expect turnover to exceed €80,000 (goods) or €40,000 (services). You cannot issue valid VAT invoices without a registered number."
+                            },
+                            {
+                                "question": "How is 'Trading Income' defined?",
+                                "answer": "It must be income from an active trade carried out in Ireland. Passive income (e.g., rent or investment) is taxed at a higher rate of 25%."
+                            },
+                            {
+                                "question": "What is the 'Knowledge Development Box'?",
+                                "answer": "A patent box regime that provides a 6.25% effective tax rate on profits from certain intellectual property assets."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-ie-tax-3",
+                    "type": "cost_breakdown",
+                    "title": "VAT & Indirect Taxes",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 3,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Tax Type",
+                                "Standard Rate",
+                                "Exceptions / Reduced"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "VAT (Standard)",
+                                    "values": [
+                                        "23%",
+                                        "9% (Guesthouse/Sporting)"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "VAT (Reduced)",
+                                    "values": [
+                                        "13.5%",
+                                        "Building, Electricity, Fuel"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Dividend Withholding",
+                                    "values": [
+                                        "25%",
+                                        "Exempt for DTA residents"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Capital Gains (CGT)",
+                                    "values": [
+                                        "33%",
+                                        "Entrepreneur's Relief (10%)"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "slug": "finance-tax-accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting"
+        },
+        {
+            "serviceSlug": "msa",
+            "service": "M & A",
+            "heroData": {
+                "title": "Commercial Law",
+                "subtitle": "Common Law",
+                "description": "Common law system similar to UK/US. Contracts are robust.",
+                "bestFor": "Agreements.",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "section-ie-msa-1",
+                    "type": "key_steps",
+                    "title": "Legal Agreement Workflow",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 1,
+                    "content": {
+                        "steps": [
+                            {
+                                "title": "Drafting MSA",
+                                "description": "Crafting Master Service Agreements under Irish Common Law, ensuring jurisdictional clarity."
+                            },
+                            {
+                                "title": "IP Protection",
+                                "description": "Inserting robust 'assignment of intellectual property' clauses, critical for tech and R&D firms."
+                            },
+                            {
+                                "title": "Data Processing (DPA)",
+                                "description": "Attaching a GDPR-compliant DPA for any service involving personal data handling."
+                            },
+                            {
+                                "title": "Liability Caps",
+                                "description": "Defining limitation of liability and indemnity clauses appropriate for the contract value."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-ie-msa-2",
+                    "type": "insights",
+                    "title": "Legal Framework",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 2,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Common Law Advantage",
+                                "text": "Ireland's legal system is highly predictable and similar to the UK and US, making it a preferred hub for contracts in the EMEA region. It is the only English-speaking common law jurisdiction remaining in the EU."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Courts of Ireland",
+                                "text": "Specifying 'Courts of Ireland' for dispute resolution is standard. The Commercial Court in Dublin handles high-value business disputes with high efficiency (often within 12 months)."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Electronic Signatures",
+                                "text": "Digital signatures (DocuSign/Adobe Sign) are fully legally binding under the Electronic Commerce Act 2000, with minor exceptions for real estate transfers or certain witness-required deeds."
+                            },
+                            {
+                                "type": "info",
+                                "title": "IP Protection",
+                                "text": "Irish intellectual property laws provide strong protection for software (copyright) and technical innovations (patents), aligning with EU-wide standards and the Patent Law Treaty."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-ie-msa-3",
+                    "type": "cost_breakdown",
+                    "title": "Legal Service Estimator",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 3,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Document / Service",
+                                "Estimated Cost",
+                                "Lead Time"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Master Service Agreement",
+                                    "values": [
+                                        "€1,500 - €3,000",
+                                        "1 - 2 Weeks"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Employment Contract Template",
+                                    "values": [
+                                        "€800 - €1,500",
+                                        "1 Week"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "GDPR DPA Drafting",
+                                    "values": [
+                                        "€500 - €1,200",
+                                        "3 - 5 Days"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Company Secretarial (Annual)",
+                                    "values": [
+                                        "€600 - €1,200",
+                                        "Ongoing"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-ie-msa-4",
+                    "type": "faq",
+                    "title": "Legal & Contracts FAQ",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "Can contracts be in English only?",
+                                "answer": "Yes, English is the standard language for business contracts in Ireland. There is no requirement for a translation into Irish (Gaeilge) for commercial validity."
+                            },
+                            {
+                                "question": "What is 'TUPE'?",
+                                "answer": "Transfer of Undertakings (Protection of Employment). It applies if you acquire a business; employees must transfer on their existing terms and conditions."
+                            },
+                            {
+                                "question": "Are non-compete clauses valid?",
+                                "answer": "Yes, but they must be 'reasonable' in terms of geographical scope and duration (typically 6 months). Excessively broad clauses are usually unenforceable."
+                            },
+                            {
+                                "question": "What is 'SOSR' dismissal?",
+                                "answer": "Some Other Substantial Reason. It is a 'catch-all' ground for fair dismissal that doesn't fit into conduct/capability, such as a fundamental breakdown in the employment relationship."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "msa",
+            "name": "M & A",
+            "serviceName": "M & A"
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Development & Tech Ecosystem",
+                "subtitle": "The Silicon Docks Hub",
+                "description": "Ireland is the European headquarters for 9 of the top 10 US tech firms. The ecosystem is uniquely integrated between global giants and high-growth SMEs.",
+                "bestFor": "SaaS and Cloud Engineering.",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "section-ie-soft-2",
+                    "type": "cost_breakdown",
+                    "title": "Tech Salary Benchmarking (2025)",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 2,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Role",
+                                "Junior (0-2y)",
+                                "Senior (5y+)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Full Stack Developer (React/Node)",
+                                    "values": [
+                                        "€45,000 - €65,000",
+                                        "€95,000 - €135,000"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "DevOps Engineer (Cloud/Ops)",
+                                    "values": [
+                                        "€55,000 - €75,000",
+                                        "€110,000 - €155,000"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Data Scientist (AI/ML)",
+                                    "values": [
+                                        "€60,000 - €80,000",
+                                        "€120,000 - €165,000"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Engineering Manager",
+                                    "values": [
+                                        "€85,000 - €110,000",
+                                        "€130,000 - €180,000"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Cybersecurity Specialist",
+                                    "values": [
+                                        "€60,000 - €80,000",
+                                        "€115,000 - €165,000"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Mobile Dev (iOS/Android)",
+                                    "values": [
+                                        "€45,000 - €65,000",
+                                        "€90,000 - €130,000"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "QA/Test Automation",
+                                    "values": [
+                                        "€40,000 - €55,000",
+                                        "€75,000 - €110,000"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-ie-soft-3",
+                    "type": "insights",
+                    "title": "Sourcing & Infrastructure",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Cloud Infrastructure",
+                                "text": "Ireland hosts over 70% of Europe's data center capacity (AWS, Azure, GCP), making it the premier location for low-latency hosting."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "IP Protection",
+                                "text": "Irish IP law is robustly aligned with EU standards, with specialized IP courts for rapid dispute resolution, protecting software assets."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Commercial Real Estate",
+                                "text": "Grade A office space in Dublin 2/4 remains expensive. Many software firms are opting for flexible coworking spaces in suburban hubs."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Connectivity",
+                                "text": "Subsea cables (AEConnect) provide direct high-speed links to the US East Coast, essential for transatlantic development teams."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Employee Share Schemes",
+                                "text": "The KEEP (Key Employee Engagement Programme) offers tax-efficient share options for SMEs to retain top software talent in a competitive market."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-ie-soft-4",
+                    "type": "faq",
+                    "title": "Development & Tech FAQ",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the R&D Tax Credit for software?",
+                                "answer": "Eligible software R&D can qualify for a 30% tax credit (increased in 2024/25), which can offset CT liabilities or be received as a cash refund."
+                            },
+                            {
+                                "question": "Are software contractors common?",
+                                "answer": "Yes, 'Daily Rate' contracting is highly prevalent in Dublin, with senior devs commanding rates between €550 and €950 per day."
+                            },
+                            {
+                                "question": "Is remote work legally protected?",
+                                "answer": "The 2024 Right to Request Remote Working legislation requires employers to have a formal policy and respond to requests within prescribed timelines."
+                            },
+                            {
+                                "question": "What tech stacks dominate Ireland?",
+                                "answer": "JavaScript (React/Node.js), Python, and Java (Spring Boot) are the top three. There is also a significant Haskell community in fintech."
+                            },
+                            {
+                                "question": "Do I need an Irish entity for hiring?",
+                                "answer": "You can use an EOR (Employer of Record), but most firms scaling beyond 10 devs find it more cost-effective to register a local private limited company."
+                            },
+                            {
+                                "question": "How long does it take to hire a dev?",
+                                "answer": "Average hiring cycle for a senior developer is 6-10 weeks, including sourcing, interviews, and the standard 4-week notice period."
+                            },
+                            {
+                                "question": "Are there grants for software startups?",
+                                "answer": "Yes, Enterprise Ireland provides High Potential Start-Up (HPSU) funding, often matching investment up to €1M for export-focused firms."
+                            },
+                            {
+                                "question": "What is the standard holiday entitlement?",
+                                "answer": "The statutory minimum is 20 days, but most tech firms offer 25-28 days plus public holidays and 'duvet days' to stay competitive."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "software-technology-solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions"
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Digital & Creative Marketing Agencies",
+                "subtitle": "Global Reach from Dublin",
+                "description": "Irish agencies excel in performance marketing and content strategies tailored for English-speaking global markets (UK, US, EU).",
+                "bestFor": "Brand Growth and PPC.",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "section-ie-mark-2",
+                    "type": "cost_breakdown",
+                    "title": "Agency Fee Benchmarking (2025)",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 2,
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Engagement Model",
+                                "Monthly Retainer / Project Fee",
+                                "Typical Scope"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Performance Marketing",
+                                    "values": [
+                                        "€3,000 - €7,000 + 10-15% Spend",
+                                        "PPC, Meta Ads, and Conversion Tracking"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "SEO & Content Strategy",
+                                    "values": [
+                                        "€2,500 - €6,000 /mo",
+                                        "Technical SEO, Blog creation, Link building"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Social Media (Organic)",
+                                    "values": [
+                                        "€1,800 - €4,000 /mo",
+                                        "Platform management, Community growth"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Full Service Retainer",
+                                    "values": [
+                                        "€6,000 - €15,000 /mo",
+                                        "Strategy, Content, PPC, and PR combined"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Video Production (Ad)",
+                                    "values": [
+                                        "€5,000 - €25,000 /proj",
+                                        "Brand stories, Product demos, Animations"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Influencer Campaign",
+                                    "values": [
+                                        "€2,000 - €10,000 /proj",
+                                        "Strategy, Talent Sourcing, Management"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "section-ie-mark-3",
+                    "type": "insights",
+                    "title": "Media & Cultural Context",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 3,
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "The 'Dublin 4' Bubble",
+                                "text": "Brands must be wary of marketing only to Dublin; regional cities like Cork and Galway have distinct cultural identities and strong local loyalty."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Podcasting Growth",
+                                "text": "Ireland has the highest per-capita podcast listenership in Europe. Audio ads in local shows are exceptionally high-performing."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "ASAI Regulations",
+                                "text": "The Advertising Standards Authority for Ireland is rigorous on influencer disclosure. The #ad tag must be clearly visible."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Regional Media",
+                                "text": "Local radio remains a powerful tool in Ireland, especially outside Dublin, where stations like RedFM (Cork) dominate listenership."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "section-ie-mark-4",
+                    "type": "faq",
+                    "title": "Marketing & Creative FAQ",
+                    "subtitle": "",
+                    "description": "",
+                    "order": 4,
+                    "content": {
+                        "faqs": [
+                            {
+                                "question": "What is the standard agency notice period?",
+                                "answer": "Most Irish retainers operate on a 30-day or 90-day rolling notice period. Trial projects are often 3 months."
+                            },
+                            {
+                                "question": "Do agencies include VAT in their quotes?",
+                                "answer": "Typically no. Commercial quotes are 'Ex-VAT' at 23%. If you are a VAT-registered business, this is generally neutral."
+                            },
+                            {
+                                "question": "Is English the only language used?",
+                                "answer": "For marketing, yes. However, many Dublin agencies offer multilingual support for EMEA campaigns using native speakers."
+                            },
+                            {
+                                "question": "What are ASAI rules for contests?",
+                                "answer": "Contests must have clear T&Cs, and 'skills-based' questions are used to differentiate from regulated gambling."
+                            },
+                            {
+                                "question": "How common are performance-based fees?",
+                                "answer": "Very common in lead-gen and e-commerce. Agencies often work on a 'Base + Commission' model."
+                            },
+                            {
+                                "question": "Which social platforms are dominant?",
+                                "answer": "Instagram and TikTok lead for B2C/GenZ, while LinkedIn is essential for the high-density professional B2B market in Dublin."
+                            },
+                            {
+                                "question": "Do I need a local agency for Irish ads?",
+                                "answer": "While global agencies can run ads, local agencies offer better 'cultural fit' and understanding of regional nuances (e.g. GAA focus)."
+                            },
+                            {
+                                "question": "What is the 'Green Claims' code?",
+                                "answer": "Marketing sustainability requires rigorous proof under ASAI's updated Environmental Claims code to avoid 'greenwashing' penalties."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "slug": "marketing-agency",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY"
+        }
+    ]
+}

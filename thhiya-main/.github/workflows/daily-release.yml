@@ -1,0 +1,68 @@
+name: Daily Release to Main
+
+on:
+  schedule:
+    # Run daily at 6:00 AM IST (00:30 UTC)
+    - cron: '30 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  create-release-pr:
+    name: Create Release PR
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Check for changes and generate summary
+        id: check
+        run: |
+          git fetch origin main development
+          CHANGES=$(git rev-list --count origin/main..origin/development 2>/dev/null || echo "0")
+          echo "changes=$CHANGES" >> $GITHUB_OUTPUT
+          
+          # Generate date for PR title and body
+          RELEASE_DATE=$(date +%Y-%m-%d)
+          echo "release_date=$RELEASE_DATE" >> $GITHUB_OUTPUT
+          
+          if [ "$CHANGES" -gt 0 ]; then
+            COMMITS=$(git log origin/main..origin/development --pretty=format:"- %s (%h)" | head -30)
+            echo "commits<<EOF" >> $GITHUB_OUTPUT
+            echo "$COMMITS" >> $GITHUB_OUTPUT
+            echo "EOF" >> $GITHUB_OUTPUT
+            
+            # Get merged PR titles if possible
+            echo "Generating release summary..."
+          fi
+
+      - name: Create Pull Request
+        if: steps.check.outputs.changes > 0
+        uses: repo-sync/pull-request@v2
+        with:
+          source_branch: development
+          destination_branch: main
+          pr_title: "Release ${{ steps.check.outputs.release_date }}"
+          pr_body: |
+            ## Daily Release
+
+            **Date:** ${{ steps.check.outputs.release_date }}
+            **Commits:** ${{ steps.check.outputs.changes }}
+
+            ### Changes
+            ${{ steps.check.outputs.commits }}
+
+            ---
+            _Auto-generated daily at 6:00 AM IST. Review before merging to production._
+          pr_label: "release"
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: No changes
+        if: steps.check.outputs.changes == 0
+        run: echo "No new changes in development. Skipping."

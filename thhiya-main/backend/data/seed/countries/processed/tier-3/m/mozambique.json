@@ -1,0 +1,490 @@
+{
+    "name": "Mozambique",
+    "code": "MZ",
+    "slug": "mozambique",
+    "flag": "https://flagcdn.com/w160/mz.png",
+    "region": "Africa",
+    "languages": [
+        "Portuguese"
+    ],
+    "currencies": [
+        "MZN"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Mozambique",
+                "subtitle": "Hire in Maputo",
+                "description": "Compliant employment in Southern Africa. We handle INSS contributions.",
+                "bestFor": "Energy & Aid",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "mz-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Written contract in Portuguese. Fixed-term strictly regulated."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Ministry",
+                                "description": "Communication to Ministry of Labour (MITESS)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "INSS",
+                                "description": "Register with National Institute of Social Security."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mz-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "INSS (Social Security)",
+                                    "values": [
+                                        "4%",
+                                        "3%",
+                                        "Calculated on gross salary with no ceiling."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Work Accident Ins.",
+                                    "values": [
+                                        "~1%",
+                                        "0%",
+                                        "Mandatory private insurance."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "mz-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Heroes' Day",
+                                "description": "February 3"
+                            },
+                            {
+                                "title": "Women's Day",
+                                "description": "April 7"
+                            },
+                            {
+                                "title": "Workers' Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Independence Day",
+                                "description": "June 25"
+                            },
+                            {
+                                "title": "Victory Day",
+                                "description": "September 7"
+                            },
+                            {
+                                "title": "Armed Forces Day",
+                                "description": "September 25"
+                            },
+                            {
+                                "title": "Peace & Reconciliation",
+                                "description": "October 4"
+                            },
+                            {
+                                "title": "Family Day",
+                                "description": "December 25"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mz-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax (IRPS)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Annual Income (MZN)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Up to 20,250 (Monthly)",
+                                    "values": [
+                                        "0%",
+                                        "Exemption threshold."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Standard Bands",
+                                    "values": [
+                                        "10% - 32%",
+                                        "Progressive rates."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Non-Residents",
+                                    "values": [
+                                        "20%",
+                                        "Flat rate."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "mz-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Base Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "INSS",
+                                "description": "Deduct 3%."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax Base",
+                                "description": "Gross - INSS."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "IRPS",
+                                "description": "Apply progressive tax table (Withholding)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Net",
+                                "description": "Gross - INSS - IRPS."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Mozambique",
+                "subtitle": "Lda",
+                "description": "Limited Liability Quota.",
+                "bestFor": "Operations",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "mz-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Name Reservation",
+                                "description": "Reserve with Legal Entities Registrar (CRELX)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Tax ID",
+                                "description": "Obtain NUIT (Tax Number)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Bank Account",
+                                "description": "Deposit minimum capital."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mz-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Millennium BIM",
+                                "description": "Largest bank."
+                            },
+                            {
+                                "title": "BCI",
+                                "description": "Banco Comercial e de Investimentos."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Mozambique",
+                "subtitle": "Maputo/Tete",
+                "description": "Gas & Mining focus.",
+                "bestFor": "Industrial",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "mz-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Maputo",
+                                "text": "Capital city."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Tete / Cabo Delgado",
+                                "text": "Mining and Gas hubs."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Mozambique",
+                "subtitle": "SISSMO",
+                "description": "INSS Portal.",
+                "bestFor": "Records",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "mz-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "SISSMO",
+                                "description": "Online declaration system for Social Security."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Mozambique",
+                "subtitle": "PGC-NIRF",
+                "description": "IFRS based.",
+                "bestFor": "Compliance",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "mz-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "PGC-NIRF",
+                                "text": "General Chart of Accounts based on IFRS."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mz-comp-labor",
+                    "type": "warning",
+                    "title": "Foreign Quota",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Limit",
+                                "description": "Standard quota (5-10% of workforce depending on company size). Exceeding requires special permission."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "mz-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax (IRPC)",
+                                    "values": [
+                                        "32%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "VAT (IVA)",
+                                    "values": [
+                                        "16%"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Mozambique",
+                "subtitle": "Civil Law",
+                "description": "Portuguese derived.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "mz-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "Portuguese is mandated for legal effect."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Mozambique",
+                "subtitle": "M-Pesa",
+                "description": "Mobile Money.",
+                "bestFor": "Payments",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "mz-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "M-Pesa",
+                                "description": "Widely used for salary payments to blue collar workers."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Mozambique",
+                "subtitle": "Radio/SMS",
+                "description": "Mixed channels.",
+                "bestFor": "Mass Market",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "mz-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Radio",
+                                "text": "Still key for reaching rural areas."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

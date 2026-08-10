@@ -1,0 +1,1946 @@
+{
+    "name": "Kenya",
+    "code": "KE",
+    "slug": "kenya",
+    "flag": "https://flagcdn.com/w160/ke.png",
+    "region": "Africa",
+    "languages": [
+        "Swahili",
+        "English"
+    ],
+    "currencies": [
+        "KES"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Kenya",
+                "subtitle": "Hire in Nairobi",
+                "description": "Compliant employment in East Africa's hub. We handle SHIF, NSSF, and the Housing Levy.",
+                "bestFor": "Tech & NGOs",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "ke-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "KRA PIN Acquisition",
+                                "description": "Obtain Kenya Revenue Authority Personal Identification Number (PIN) for the employee. This is mandatory for all tax filings and statutory deductions."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "NSSF & SHIF Registration",
+                                "description": "Register the employee with the National Social Security Fund (NSSF) and the new Social Health Insurance Fund (SHIF), which replaced NHIF in October 2024. This ensures access to social security and health benefits."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Housing Levy Setup",
+                                "description": "Configure payroll to deduct the mandatory Affordable Housing Levy (1.5% from employee, 1.5% from employer) as per the 2024 regulations."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Employment Contract Issuance",
+                                "description": "Issue a compliant employment contract outlining terms, salary in KES, working hours (max 52/week), and leave entitlements under the Employment Act 2007."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Bank Account Details",
+                                "description": "Collect local bank account details or mobile money (M-Pesa) information for salary disbursement. M-Pesa is widely accepted for salary payments."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ke-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Management Fee",
+                                    "values": [
+                                        "$125 - $275",
+                                        "N/A",
+                                        "Monthly fee per employee. Varies by volume and complexity."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "NSSF (Tier 1)",
+                                    "values": [
+                                        "6%",
+                                        "6%",
+                                        "Capped at KES 480 (Employer) and KES 480 (Employee) for earnings up to KES 8,000."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "NSSF (Tier 2)",
+                                    "values": [
+                                        "6%",
+                                        "6%",
+                                        "Capped at KES 3,840 (Employer) and KES 3,840 (Employee) for earnings between KES 8,000 and KES 72,000."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Housing Levy",
+                                    "values": [
+                                        "1.5%",
+                                        "1.5%",
+                                        "Mandatory affordable housing levy on gross salary."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "SHIF (Health)",
+                                    "values": [
+                                        "0%",
+                                        "2.75%",
+                                        "Employer must remit but does not match. Deducted from employee gross."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "NITA",
+                                    "values": [
+                                        "KES 50",
+                                        "0",
+                                        "Monthly Industrial Training Levy per employee."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ke-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Good Friday",
+                                "description": "April 18"
+                            },
+                            {
+                                "title": "Easter Monday",
+                                "description": "April 21"
+                            },
+                            {
+                                "title": "Labour Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Madaraka Day",
+                                "description": "June 1 (Commemorates self-rule)"
+                            },
+                            {
+                                "title": "Eid al-Fitr",
+                                "description": "March 31 (Subject to moon sighting)"
+                            },
+                            {
+                                "title": "Eid al-Adha",
+                                "description": "June 7 (Subject to moon sighting)"
+                            },
+                            {
+                                "title": "Moi Day (Huduma)",
+                                "description": "October 10"
+                            },
+                            {
+                                "title": "Mashujaa Day",
+                                "description": "October 20 (Heroes' Day)"
+                            },
+                            {
+                                "title": "Jamhuri Day",
+                                "description": "December 12 (Independence Day)"
+                            },
+                            {
+                                "title": "Christmas Day",
+                                "description": "December 25"
+                            },
+                            {
+                                "title": "Boxing Day",
+                                "description": "December 26"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ke-eor-insights",
+                    "type": "insights",
+                    "title": "Key Compliance Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Strict Termination Laws",
+                                "text": "Termination in Kenya is procedurally strict. Employers must provide valid reasons and hold a disciplinary hearing where the employee can bring a representative. Unfair termination can lead to damages of up to 12 months' pay."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Contracts Required",
+                                "text": "Written contracts are mandatory for any employment exceeding 3 months. They must specify job description, hours, leave entitlement, and termination notice."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Immigrant Quotas",
+                                "text": "EORs cannot automatically hire foreigners. The entity must have available 'immigrant quotas' or process a Class D work permit, which is costly and scrutinized."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ke-eor-faq",
+                    "type": "faq",
+                    "title": "EOR FAQs",
+                    "content": {
+                        "questions": [
+                            {
+                                "question": "Can I hire foreign nationals using an EOR in Kenya?",
+                                "answer": "Yes, but it requires a Class D Work Permit. The EOR provider must sponsor the permit, which adds cost (approx. KES 500,000/year) and time (2-4 months) to the process."
+                            },
+                            {
+                                "question": "What is the notice period for resignation?",
+                                "answer": "Typically one month, or payment in lieu of notice. During probation (usually 3-6 months), the notice period is often 7 days."
+                            },
+                            {
+                                "question": "Is probation mandatory?",
+                                "answer": "No, but it is standard practice. The maximum probation period is 6 months, extended to 12 months in some cases with employee consent."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ke-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax Brackets (Monthly KES)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Taxable Income (KES)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "0 - 24,000",
+                                    "values": [
+                                        "10%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "24,001 - 32,333",
+                                    "values": [
+                                        "25%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "32,334 - 500,000",
+                                    "values": [
+                                        "30%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "500,001 - 800,000",
+                                    "values": [
+                                        "32.5%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Above 800,000",
+                                    "values": [
+                                        "35%"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ke-gp-steps",
+                    "type": "key_steps",
+                    "title": "Payroll Cycle",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Data Collection",
+                                "description": "Gather attendance data, overtime hours (1.5x weekdays, 2.0x weekends/holidays), and any bonuses or allowances by the 20th of the month."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Gross-to-Net Calculation",
+                                "description": "Calculate PAYE tax, NSSF, SHIF, and Housing Levy. Apply Personal Relief (KES 2,400/month) to reduce tax liability."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Payment Disbursement",
+                                "description": "Transfer net salaries to employee bank accounts or M-Pesa wallets. Typically done by the 25th-30th of the month."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Payslip Distribution",
+                                "description": "Issue secured digital payslips to employees detailing all earnings and statutory deductions."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Statutory Remittance",
+                                "description": "File returns and remit payments to KRA (PAYE, Housing Levy), NSSF, and SHA by the 9th of the following month to avoid penalties."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ke-gp-insights",
+                    "type": "insights",
+                    "title": "Payroll Insights",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "M-Pesa Integration",
+                                "text": "Mobile money (M-Pesa) is a valid and popular method for salary payments in Kenya. Ensure integration with bulk payment systems (B2C) for efficiency."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Housing Levy",
+                                "text": "The 1.5% Housing Levy is mandatory for all employees, including expatriates, and is calculated on gross salary. It is not a benefit but a tax."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Personal Relief",
+                                "text": "Every resident employee is entitled to a Personal Relief of KES 2,400 per month, which is directly deducted from the PAYE tax payable."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ke-gp-faq",
+                    "type": "faq",
+                    "title": "Payroll FAQs",
+                    "content": {
+                        "questions": [
+                            {
+                                "question": "Is there a mandatory 13th-month pay?",
+                                "answer": "No, a 13th-month bonus is not legally required in Kenya. However, performance bonuses are common and taxable."
+                            },
+                            {
+                                "question": "Are allowances taxable?",
+                                "answer": "Yes, cash allowances (housing, transport, utilities) are generally added to gross income and taxed. Some non-cash benefits may be taxed as 'Benfits in Kind'."
+                            },
+                            {
+                                "question": "What is the penalty for late PAYE remittance?",
+                                "answer": "Late filing attracts a penalty of KES 10,000 or 25% of tax due (whichever is higher). Late payment attracts 5% penalty plus 1% monthly interest."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ke-gp-essentials",
+                    "type": "essentials",
+                    "title": "Statutory Deadlines",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "PAYE & Housing Levy",
+                                "description": "9th of the following month."
+                            },
+                            {
+                                "title": "NSSF",
+                                "description": "9th of the following month."
+                            },
+                            {
+                                "title": "SHIF (replacing NHIF)",
+                                "description": "9th of the following month."
+                            },
+                            {
+                                "title": "NITA",
+                                "description": "9th of the following month (often paid annually or semi-annually by compliance)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ke-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation Logic",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross Salary",
+                                "description": "Start with monthly gross income."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Allowable Deductions",
+                                "description": "Deduct NSSF (Tier 1 & 2 only) contribution to get 'Taxable Income'. Housing Levy and SHIF are NO LONGER deductible before tax (check latest finance act as this fluatuates, currently treated as post-tax or separate levy)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Calculate PAYE",
+                                "description": "Apply the graduated tax bands (10% to 35%) on the Taxable Income."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Less Relief",
+                                "description": "Subtract Personal Relief (KES 2,400) from the PAYE figure. Any insurance relief (15% of premiums) is also subtracted here."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Other Deductions",
+                                "description": "Deduct Housing Levy (1.5% of Gross) and SHIF (2.75% of Gross)."
+                            },
+                            {
+                                "stepNumber": 6,
+                                "title": "Net Pay",
+                                "description": "Gross - (PAYE after relief + NSSF + SHIF + Housing Levy)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ke-calc-insights",
+                    "type": "insights",
+                    "title": "Calculator Notes",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Reliefs",
+                                "text": "Personal Relief is KES 2,400 per month. Insurance relief is 15% of premiums paid, capped at KES 5,000 per month."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Levies on Gross",
+                                "text": "Remember: Housing Levy and SHIF are calculated on the GROSS salary, not the taxable salary."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ke-calc-essentials",
+                    "type": "essentials",
+                    "title": "Variables",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "NSSF Tier 1",
+                                "description": "Up to KES 8,000 earnings."
+                            },
+                            {
+                                "title": "NSSF Tier 2",
+                                "description": "KES 8,001 to 72,000 earnings."
+                            },
+                            {
+                                "title": "Personal Relief",
+                                "description": "Fixed at KES 2,400/mo."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ke-calc-faq",
+                    "type": "faq",
+                    "title": "Calculator FAQs",
+                    "content": {
+                        "questions": [
+                            {
+                                "question": "Are bonuses taxed?",
+                                "answer": "Yes, bonuses are added to gross income and taxed at the marginal PAYE rate."
+                            },
+                            {
+                                "question": "How is overtime taxed?",
+                                "answer": "Overtime is fully taxable as income."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Kenya",
+                "subtitle": "eCitizen Portal",
+                "description": "Register a Private Limited Company (Ltd) via the digital eCitizen platform.",
+                "bestFor": "Regional HQs",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "ke-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process (eCitizen)",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Account Creation",
+                                "description": "Create an eCitizen account. Foreign directors can do this using a foreigner certificate or visitor visa details."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Name Search & Reservation",
+                                "description": "Perform a name search on the Business Registration Service (BRS) portal. Reserve the approved name (valid for 30 days)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Form CR1 & CR2",
+                                "description": "Complete Form CR1 (Application for Registration) and CR2 (Model Memorandum for a Private Company limited by shares)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Director Details & BOI",
+                                "description": "Provide details for Form CR8 (Notice of Residential Address/Director particulars) and the Beneficial Ownership Information (BOI) register."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Payment & Certificate",
+                                "description": "Pay the registration fee (approx. KES 10,650). Upon approval, download the Certificate of Incorporation and CR12 (Official Search)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ke-inc-costs",
+                    "type": "cost_breakdown",
+                    "title": "Registration Costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Item",
+                                "Estimated Cost (KES)",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Name Search",
+                                    "values": [
+                                        "KES 150",
+                                        "Per name search."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Registration Fee",
+                                    "values": [
+                                        "KES 10,650",
+                                        "Standard fee for Private Ltd Company."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Legal/Agency Fees",
+                                    "values": [
+                                        "KES 30,000 - 100,000",
+                                        "If using a Company Secretary or Lawyer."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Company Seal",
+                                    "values": [
+                                        "KES 3,000 - 5,000",
+                                        "Mandatory for creating official documents."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ke-inc-annual-costs",
+                    "type": "cost_breakdown",
+                    "title": "Annual Compliance Costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Requirement",
+                                "Est. Cost (KES)",
+                                "Frequency"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Annual Return Filing",
+                                    "values": [
+                                        "KES 1,000",
+                                        "Annually via eCitizen (plus agent fee)."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Business Permit",
+                                    "values": [
+                                        "KES 15,000 - 50,000",
+                                        "Nairobi City County Single Business Permit (varies by office size)."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "KRA Returns (Nil/Active)",
+                                    "values": [
+                                        "Free / Agency Fee",
+                                        "Monthly VAT & Annual Corp Tax filing."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "NITA Levy",
+                                    "values": [
+                                        "KES 600 / emp",
+                                        "Paid annually (KES 50 x 12)."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ke-inc-essentials",
+                    "type": "essentials",
+                    "title": "Required Documents",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Passport/ID",
+                                "description": "Copies of ID (Citizens) or Passport bio page (Foreigners) for all directors/shareholders."
+                            },
+                            {
+                                "title": "Passport Photos",
+                                "description": "Recent colored passport-sized photos for all directors."
+                            },
+                            {
+                                "title": "KRA PIN",
+                                "description": "Personal KRA PIN for all Kenyan directors. Foreigners must obtain individual KRA PINs."
+                            },
+                            {
+                                "title": "Registered Address",
+                                "description": "Physical address in Kenya (LR Number, Building, Street)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ke-inc-faq",
+                    "type": "faq",
+                    "title": "Formation FAQs",
+                    "content": {
+                        "questions": [
+                            {
+                                "question": "Can a foreigner fully own a company in Kenya?",
+                                "answer": "Yes, 100% foreign ownership is permitted for most sectors. Some sectors like insurance, telecommunications, and aviation may have local equity participation requirements."
+                            },
+                            {
+                                "question": "Do I need a resident director?",
+                                "answer": "No, a resident director is not legally mandatory for private limited companies, but having a local representative can ease bank account opening and tax registration."
+                            },
+                            {
+                                "question": "How long does incorporation take?",
+                                "answer": "With eCitizen, the process is streamlined and can often be completed in 3-7 working days, provided all systems are functioning and documents are correct."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ke-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "KCB (Kenya Commercial Bank)",
+                                "description": "Largest bank network, robust regional presence."
+                            },
+                            {
+                                "title": "Equity Bank",
+                                "description": "Innovative digital banking, PayPal integration."
+                            },
+                            {
+                                "title": "NCBA",
+                                "description": "Strong corporate banking and asset finance."
+                            },
+                            {
+                                "title": "Standard Chartered",
+                                "description": "International bank, good for MNCs."
+                            },
+                            {
+                                "title": "Absa Kenya",
+                                "description": "Formerly Barclays, strong corporate services."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Kenya",
+                "subtitle": "Silicon Savannah",
+                "description": "Hiring top tech and business talent in Nairobi. From developers to sales execs.",
+                "bestFor": "Startups & Tech",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "ke-staff-costs",
+                    "type": "cost_breakdown",
+                    "title": "Staffing & Permit Costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Item",
+                                "Cost Estimate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Recruitment Fee",
+                                    "values": [
+                                        "15% - 25%",
+                                        "Of annual gross salary. Retainer may apply."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Work Permit (Class D)",
+                                    "values": [
+                                        "KES 500,000",
+                                        "Annual issuance fee. Processing fee: KES 20,000 (Non-refundable)."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Alien Card",
+                                    "values": [
+                                        "KES 5,000",
+                                        "Annual fee for foreign nationals."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Dependent Pass",
+                                    "values": [
+                                        "KES 10,000",
+                                        "For spouse/children of permit holder."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ke-staff-flow",
+                    "type": "key_steps",
+                    "title": "Recruitment Workflow",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Briefing & Role Definition",
+                                "description": "Define the JD, budget, and hybrid/remote requirements. Nairobi talent is competitive."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Sourcing",
+                                "description": "Utilize LinkedIn, BrighterMonday, and local tech communities (e.g., Moringa School alumni)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Screening & Assessment",
+                                "description": "Technical assessments for devs (HackerRank, etc.) and soft-skill interviews."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Background Checks",
+                                "description": "Verify academic certificates, credit reference bureau (CRB) status, and certificate of good conduct (DCI) if sensitive role."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Offer & Contract",
+                                "description": "Extend offer letter ensuring it aligns with Kenyan labour laws (salary in KES, benefits)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ke-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Ecosystem",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Silicon Savannah",
+                                "text": "Nairobi is a major tech hub. Talent is proficient in JavaScript, Python, Java, and mobile dev (Android/Flutter)."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Universities",
+                                "text": "Top talent often comes from University of Nairobi, Strathmore University, and JKUAT."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Counter-Offers",
+                                "text": "The senior developer market is tight. Be prepared for counter-offers from big players like Microsoft, Google, and Visa who have local hubs."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ke-staff-faq",
+                    "type": "faq",
+                    "title": "Hiring FAQs",
+                    "content": {
+                        "questions": [
+                            {
+                                "question": "Can I background check criminal records?",
+                                "answer": "Yes, candidates can provide a 'Certificate of Good Conduct' from the Directorate of Criminal Investigations (DCI)."
+                            },
+                            {
+                                "question": "What is the typical notice period?",
+                                "answer": "Usually 1 month. For very senior roles, it can be negotiated to 2 or 3 months in the contract."
+                            },
+                            {
+                                "question": "Do I need to pay a 13th-month salary?",
+                                "answer": "It is not mandatory by law, but performance bonuses are a common retention tool."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ke-staff-essentials",
+                    "type": "essentials",
+                    "title": "Job Boards",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "LinkedIn",
+                                "description": "Primary source for professional and tech talent."
+                            },
+                            {
+                                "title": "BrighterMonday",
+                                "description": "Large generalist job board."
+                            },
+                            {
+                                "title": "Fuzu",
+                                "description": "Career development and job platform."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Kenya",
+                "subtitle": "KRA Integrated",
+                "description": "HR systems complying with iTax, SHIF, and NSSF reporting standards.",
+                "bestFor": "Compliance & Efficiency",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "ke-hris-providers",
+                    "type": "essentials",
+                    "title": "Top HRIS Providers",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "FaidiHR",
+                                "description": "Local cloud-based HR/Payroll specializing in Kenyan statutory compliance (iTax, NSSF, SHIF)."
+                            },
+                            {
+                                "title": "Workpay",
+                                "description": "Pan-African HR/Payroll platform with strong Kenyan roots and time-tracking features."
+                            },
+                            {
+                                "title": "Sage 300 People",
+                                "description": "Robust enterprise solution widely used by larger corporations in Keyna."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ke-hris-features",
+                    "type": "key_steps",
+                    "title": "Critical Features",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "iTax P10 CSV",
+                                "description": "System must generate the specific P10 return CSV format required for upload to the KRA iTax portal."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Statutory Logic Updates",
+                                "description": "Ability to quickly update logic for changing rates (e.g., recent SHIF 2.75% and Housing Levy 1.5%)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Leave Management",
+                                "description": "Track statutory leave (21 days annual, sick leave, maternity/paternity) to ensure compliance."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "ESS Portal",
+                                "description": "Employee Self Service for accessing payslips, P9 forms (tax cards), and applying for leave."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ke-hris-insights",
+                    "type": "insights",
+                    "title": "Implementation Tips",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "P9 Forms",
+                                "text": "Kenyans need P9 tax cards at the end of the year to file their individual returns. Your HRIS must generate these automatically."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Data Protection",
+                                "text": "Ensure the provider complies with the Kenya Data Protection Act, 2019. Data residency options within Kenya are a plus."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ke-hris-faq",
+                    "type": "faq",
+                    "title": "HRIS FAQs",
+                    "content": {
+                        "questions": [
+                            {
+                                "question": "Can I use a global HRIS?",
+                                "answer": "Yes, but global tools often struggle with the specific CSV formats for KRA iTax and NSSF. You may need a local middleware or payroll partner."
+                            },
+                            {
+                                "question": "Is cloud HRIS accepted?",
+                                "answer": "Yes, cloud adoption is high. Just ensure data privacy compliance."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ke-hris-costs",
+                    "type": "cost_breakdown",
+                    "title": "Typical Costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Estimated Cost",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "SaaS (Local)",
+                                    "values": [
+                                        "KES 150 - 500",
+                                        "Per employee per month."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Implementation",
+                                    "values": [
+                                        "KES 50,000+",
+                                        "One-off training and setup fee."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Kenya",
+                "subtitle": "IFRS Standards",
+                "description": "Bookkeeping, audit, and tax compliance adhering to IFRS and Companies Act 2015.",
+                "bestFor": "SMEs & Corporates",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "ke-acc-standards",
+                    "type": "insights",
+                    "title": "Standards & Regulation",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "IFRS",
+                                "text": "Kenya fully adopted International Financial Reporting Standards (IFRS). SMEs can use IFRS for SMEs."
+                            },
+                            {
+                                "type": "info",
+                                "title": "ICPAK",
+                                "text": "The Institute of Certified Public Accountants of Kenya (ICPAK) regulates the profession. Ensure your accountant is a member in good standing."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ke-acc-steps",
+                    "type": "key_steps",
+                    "title": "Annual Cycle",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Bookkeeping",
+                                "description": "Maintain daily records of sales, purchases, and expenses. VAT invoices must be ETR (Electronic Tax Register) compliant via eTIMS."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Financial Stmts",
+                                "description": "Prepare annual financial statements (Balance Sheet, P&L, Cash Flow) within 6 months of year-end."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Statutory Audit",
+                                "description": "Audit is mandatory for companies, though some small companies may be exempt if they meet specific turnover/asset criteria (consult a local expert)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Tax Returns",
+                                "description": "File Corp Tax return (IT2C) on iTax by end of 6th month after year-end."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Annual Return",
+                                "description": "File Annual Return with Registrar of Companies via eCitizen to update company details."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ke-acc-costs",
+                    "type": "cost_breakdown",
+                    "title": "Accounting Fees",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service",
+                                "Est. Cost (KES)",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Monthly Retainer",
+                                    "values": [
+                                        "KES 30,000 - 100,000",
+                                        "For bookkeeping, payroll, and VAT returns for small entities."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Annual Audit",
+                                    "values": [
+                                        "KES 100,000+",
+                                        "Varies significantly by turnover and complexity."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Tax Consulting",
+                                    "values": [
+                                        "Hourly / Project",
+                                        "For robust tax planning and transfer pricing."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ke-acc-essentials",
+                    "type": "essentials",
+                    "title": "Key Systems",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "eTIMS",
+                                "description": "Electronic Tax Invoice Management System. Mandatory for all businesses to generate valid tax invoices."
+                            },
+                            {
+                                "title": "iTax",
+                                "description": "KRA's online portal for all tax filing and payments."
+                            },
+                            {
+                                "title": "eCitizen",
+                                "description": "Portal for Registrar of Companies filings (Annual Returns)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ke-acc-faq",
+                    "type": "faq",
+                    "title": "Accounting FAQs",
+                    "content": {
+                        "questions": [
+                            {
+                                "question": "What is eTIMS?",
+                                "answer": "It is KRA's system for electronic invoicing. Every business transaction must be supported by an eTIMS invoice to be deductible for tax purposes."
+                            },
+                            {
+                                "question": "When is the corporate tax deadline?",
+                                "answer": "The return must be filed and tax paid by the last day of the 6th month following the end of the financial year (e.g., June 30th for Dec 31st year-end)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ke-comp-labor",
+                    "type": "warning",
+                    "title": "Critical Risks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Unfair Termination",
+                                "description": "Courts are pro-employee. Failure to follow due process (hearings, notices) will result in huge compensation awards."
+                            },
+                            {
+                                "title": "Data Protection",
+                                "description": "The Data Protection Act 2019 enforces strict handling of personal data. Employers need to be registered as Data Controllers/Processors."
+                            },
+                            {
+                                "title": "Sexual Harassment",
+                                "description": "Employers with 20+ employees must have a sexual harassment policy statement."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ke-comp-steps",
+                    "type": "key_steps",
+                    "title": "Termination Procedure (Strict)",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Valid Reason",
+                                "description": "Identify a fair reason (misconduct, poor performance, physical incapacity, or redundancy). Structure the allegations clearly."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Show Cause Letter",
+                                "description": "Issue a 'Show Cause' letter detailing the allegations and inviting the employee to explain their defense in writing."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Disciplinary Hearing",
+                                "description": "Hold a formal hearing. The employee MUST be allowed to bring a colleague or union rep. Minutes must be taken and signed."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Notice of Termination",
+                                "description": "If the outcome is dismissal, issue a termination letter. Pay salary in lieu of notice if immediate exit is required."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Certificate of Service",
+                                "description": "Legally required document stating employment dates and role. Do not include negative remarks unless requested by the employee."
+                            },
+                            {
+                                "stepNumber": 6,
+                                "title": "Terminal Dues Payment",
+                                "description": "Pay all accrued salary, leave days not taken, and gratuity (if in contract) within the statutory timeline (usually immediate or next payroll)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ke-comp-audit-steps",
+                    "type": "key_steps",
+                    "title": "Audit Checklist",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contracts",
+                                "description": "Verify all staff have signed contracts compliant with Employment Act."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "WIBA Policy",
+                                "description": "Ensure Work Injury Benefits Act (WIBA) insurance is active for all employees."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Statutory Receipts",
+                                "description": "Keep proof of remittance for NSSF, SHIF, Housing Levy, and PAYE for 7 years."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Safety Registration",
+                                "description": "Workplace must be registered with DOSHS (Director of Occupational Safety and Health Services)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ke-comp-essentials",
+                    "type": "essentials",
+                    "title": "Regulators",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "KRA",
+                                "description": "Kenya Revenue Authority (Tax)."
+                            },
+                            {
+                                "title": "DOSHS",
+                                "description": "Occupational Safety & Health."
+                            },
+                            {
+                                "title": "ODPC",
+                                "description": "Office of the Data Protection Commissioner."
+                            },
+                            {
+                                "title": "NSSF / SHA",
+                                "description": "Social Security and Health authorities."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ke-comp-faq",
+                    "type": "faq",
+                    "title": "Compliance FAQs",
+                    "content": {
+                        "questions": [
+                            {
+                                "question": "Is WIBA mandatory?",
+                                "answer": "Yes, every employer must have an insurance policy to cover liability for workplace injuries."
+                            },
+                            {
+                                "question": "Can I hold employee passports?",
+                                "answer": "No, it is illegal to confiscate personal documents like passports or IDs."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ke-comp-insights",
+                    "type": "insights",
+                    "title": "Unionization",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Trade Unions",
+                                "text": "Employees have a constitutional right to join unions. Collective Bargaining Agreements (CBAs) can supersede individual contracts."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ke-tax-rates",
+                    "type": "cost_breakdown",
+                    "title": "Tax Rates 2025",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Tax Type",
+                                "Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax (Resident)",
+                                    "values": [
+                                        "30%",
+                                        "On net profit."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Corporate Income Tax (Non-Resident)",
+                                    "values": [
+                                        "37.5%",
+                                        "For branches of foreign companies."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "VAT",
+                                    "values": [
+                                        "16%",
+                                        "Standard rate. 8% for fuel. 0% for exports."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Withholding Tax (Dividends)",
+                                    "values": [
+                                        "5% / 15%",
+                                        "5% Resident / 15% Non-Resident."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Digital Service Tax (DST)",
+                                    "values": [
+                                        "1.5%",
+                                        "On gross transaction value for digital services (non-residents)."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ke-tax-wht",
+                    "type": "cost_breakdown",
+                    "title": "Withholding Tax Rates (2025)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Payment Type",
+                                "Resident Rate",
+                                "Non-Resident Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Management / Professional Fees",
+                                    "values": [
+                                        "5%",
+                                        "20%",
+                                        "High impact on cross-border service charges."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Dividends",
+                                    "values": [
+                                        "5%",
+                                        "15%",
+                                        "Final tax for residents."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Royalties",
+                                    "values": [
+                                        "5%",
+                                        "20%",
+                                        "Software licensing often falls here."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Interest",
+                                    "values": [
+                                        "15%",
+                                        "15%",
+                                        "On loans or convertible notes."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Rent (Immovable Property)",
+                                    "values": [
+                                        "10%",
+                                        "30%",
+                                        "Applies to office leases."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ke-tax-steps",
+                    "type": "key_steps",
+                    "title": "Filing Compliance",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Registration",
+                                "description": "Ensure tax obligation is added to your KRA PIN on iTax (Income Tax, VAT, PAYE)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Monthly VAT",
+                                "description": "File VAT returns by the 20th of the following month. Nil returns must be filed if no trading occurred."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Installment Tax",
+                                "description": "Pay estimated CIT in 4 installments (20th of 4th, 6th, 9th, and 12th months)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Final Return",
+                                "description": "File final Self Assessment Return (IT2C) by end of 6th month after year-end and pay balance."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ke-tax-insights",
+                    "type": "insights",
+                    "title": "Incentives & Risks",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "EPZ & SEZ",
+                                "text": "Export Processing Zones (EPZ) enjoy a 10-year corporate tax holiday. Special Economic Zones (SEZ) have reduced rates (10% for first 10 years)."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Minimum Tax",
+                                "text": "Minimum tax provisions have faced legal battles. Always check current status with a tax advisor as this area is litigious."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Foreign Tax Credits",
+                                "text": "Kenya allows deduction of foreign tax paid on foreign income, restricted to the tax that would have been payable in Kenya."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ke-tax-faq",
+                    "type": "faq",
+                    "title": "Tax FAQs",
+                    "content": {
+                        "questions": [
+                            {
+                                "question": "What is the VAT threshold?",
+                                "answer": "Annual turnover of KES 5 Million. Voluntary registration is possible."
+                            },
+                            {
+                                "question": "Does Kenya have Double Tax Treaties?",
+                                "answer": "Yes, with UK, Canada, France, India, Sweden, Germany, and others. This can reduce withholding tax rates."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ke-tax-essentials",
+                    "type": "essentials",
+                    "title": "Key Dates",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "VAT Return",
+                                "description": "20th of every month."
+                            },
+                            {
+                                "title": "WHT Payment",
+                                "description": "20th of every month."
+                            },
+                            {
+                                "title": "June 30",
+                                "description": "Deadline for Individual Income Tax returns (for year ending Dec 31)."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Kenya",
+                "subtitle": "Common Law",
+                "description": "Legal frameworks based on English Common Law.",
+                "bestFor": "Contracts & IP",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "ke-msa-insights",
+                    "type": "insights",
+                    "title": "Legal Framework",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "English Common Law",
+                                "text": "Kenya's legal system is based on English Common Law, making it familiar to investors from UK, US, and Commonwealth jurisdictions."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Dispute Resolution",
+                                "text": "Nairobi Centre for International Arbitration (NCIA) is gaining traction, but litigation can be slow. Arbitration clauses are highly recommended."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ke-msa-steps",
+                    "type": "key_steps",
+                    "title": "Contract Drafting",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Governing Law",
+                                "description": "Explicitly state 'Laws of Kenya'."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Dispute Clause",
+                                "description": "Specify arbitration place and language (English)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Currency",
+                                "description": "Clarify payment currency to manage forex risk."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ke-msa-costs",
+                    "type": "cost_breakdown",
+                    "title": "Legal Fees",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service",
+                                "Cost Estimate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Hourly Rate",
+                                    "values": [
+                                        "KES 10,000 - 30,000",
+                                        "Mid-to-Senior Associate rate."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Contract Review",
+                                    "values": [
+                                        "KES 50,000+",
+                                        "Flat fee per document often possible."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ke-msa-essentials",
+                    "type": "essentials",
+                    "title": "Key Acts",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Employment Act 2007",
+                                "description": "Governs labor relations."
+                            },
+                            {
+                                "title": "Companies Act 2015",
+                                "description": "Governs corporate entities."
+                            },
+                            {
+                                "title": "Law of Contract Act",
+                                "description": "Governs contractual obligations."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ke-msa-faq",
+                    "type": "faq",
+                    "title": "Legal FAQs",
+                    "content": {
+                        "questions": [
+                            {
+                                "question": "Are digital signatures valid?",
+                                "answer": "Yes, recognized under the Business Laws (Amendment) Act and Electronic Transactions reporting."
+                            },
+                            {
+                                "question": "Can we use foreign law contracts?",
+                                "answer": "Yes for B2B, but employment contracts for work in Kenya generally must adhere to mandatory provisions of Kenyan law."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Kenya",
+                "subtitle": "Mobile First",
+                "description": "The home of M-Pesa. Strong fintech and mobile development ecosystem.",
+                "bestFor": "Fintech & Mobile",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "ke-soft-insights",
+                    "type": "insights",
+                    "title": "Tech Landscape",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Mobile Money",
+                                "text": "M-Pesa API integration is virtually mandatory for B2C apps. It processes more volume than cards."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Connectivity",
+                                "text": "4G is widespread, 5G is rolling out. Smartphone penetration is high, but consider data-light apps for mass market."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ke-soft-costs",
+                    "type": "cost_breakdown",
+                    "title": "Developer Salaries (Monthly)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Level",
+                                "Salary Range (KES)",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Junior",
+                                    "values": [
+                                        "40k - 80k",
+                                        "Entry level."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Mid-Level",
+                                    "values": [
+                                        "100k - 250k",
+                                        "3-5 years exp."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Senior",
+                                    "values": [
+                                        "300k - 600k+",
+                                        "Highly competitive (global remote options)."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ke-soft-steps",
+                    "type": "key_steps",
+                    "title": "Hiring Devs",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Define Stack",
+                                "description": "JS/TS, Python, and Java (Android) are very popular."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Test Locally",
+                                "description": "Use practical tests. Internet stability is generally good for remote work."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Equip",
+                                "description": "Provide a good laptop (MacBooks are prized but expensive locally). Data allowance is a common perk."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ke-soft-ip",
+                    "type": "insights",
+                    "title": "IP Protection for Code",
+                    "content": {
+                        "points": [
+                            {
+                                "icon": "lock",
+                                "title": "Copyright Automatic",
+                                "description": "Software code is protected as a literary work under the Copyright Act immediately upon creation."
+                            },
+                            {
+                                "icon": "file-signature",
+                                "title": "KECOBO Registration",
+                                "description": "Voluntary registration with the Kenya Copyright Board (KECOBO) is recommended for easier enforcement."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ke-soft-hubs",
+                    "type": "insights",
+                    "title": "Major Tech Hubs",
+                    "content": {
+                        "points": [
+                            {
+                                "icon": "building",
+                                "title": "Silicon Savannah",
+                                "description": "Nairobi is the epicenter, hosting major global tech HQs (Google, Microsoft, Visa)."
+                            },
+                            {
+                                "icon": "map-pin",
+                                "title": "Konza Technopolis",
+                                "description": "An upcoming key smart city project aimed at driving BPO and ITO services."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ke-soft-essentials",
+                    "type": "essentials",
+                    "title": "Tech Stack",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Payments",
+                                "description": "M-Pesa (Daraja API), Paystack, Flutterwave."
+                            },
+                            {
+                                "title": "Cloud",
+                                "description": "AWS and Azure have strong local communities. Local data centers exist (e.g., IXafrica)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ke-soft-faq",
+                    "type": "faq",
+                    "title": "Software FAQs",
+                    "content": {
+                        "questions": [
+                            {
+                                "question": "Is IP protected?",
+                                "answer": "Copyright Act exists, but enforcement can be tricky. Contracts should be water-tight on IP assignment."
+                            },
+                            {
+                                "question": "Are there tech hubs?",
+                                "answer": "Yes, iHub, Nairobi Garage, and others foster a vibrant community."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Kenya",
+                "subtitle": "Digital & Social",
+                "description": "Engaging 'KOT' (Kenyans on Twitter) and utilizing TikTok for youth reach.",
+                "bestFor": "Growth",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "ke-mark-insights",
+                    "type": "insights",
+                    "title": "Market Dynamics",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "KOT (Kenyans on Twitter)",
+                                "text": "X (Twitter) is powerful. 'KOT' can make or break brands virally. Tone deafness is severely punished."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Influencers",
+                                "text": "Micro-influencers often deliver better ROI than celebs. TikTok is exploding for under-30 demographic."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ke-mark-costs",
+                    "type": "cost_breakdown",
+                    "title": "Marketing Costs",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Service",
+                                "Cost Estimate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Agency Retainer",
+                                    "values": [
+                                        "KES 50k - 200k/mo",
+                                        "SME to Mid-sized agency."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Micro-Influencer",
+                                    "values": [
+                                        "KES 10k - 30k",
+                                        "Per post/video."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Macro-Influencer",
+                                    "values": [
+                                        "KES 100k - 500k+",
+                                        "Per campaign."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ke-mark-steps",
+                    "type": "key_steps",
+                    "title": "Campaign Launch",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Localize Content",
+                                "description": "Use 'Sheng' (slang) appropriately if targeting youth. Generic English ads can perform poorly."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Select Channels",
+                                "description": "Facebook (Mass Market), Instagram (Lifestyle), TikTok (Gen Z), LinkedIn (B2B)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Engage",
+                                "description": "Community management is key. Respond quickly to comments."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ke-mark-essentials",
+                    "type": "essentials",
+                    "title": "Top Agencies",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Ogilvy Africa",
+                                "description": "Big network, corporate clients."
+                            },
+                            {
+                                "title": "Scanad",
+                                "description": "Leading integrated agency."
+                            },
+                            {
+                                "title": "Digital consultancies",
+                                "description": "Many boutique firms like Squad, Bean Interactive, etc."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ke-mark-faq",
+                    "type": "faq",
+                    "title": "Marketing FAQs",
+                    "content": {
+                        "questions": [
+                            {
+                                "question": "Is radio relevant?",
+                                "answer": "Yes, vernacular radio is huge for reaching rural populations."
+                            },
+                            {
+                                "question": "What about TV?",
+                                "answer": "Still dominant for mass awareness, but digital is overtaking for conversion."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

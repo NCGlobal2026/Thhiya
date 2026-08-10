@@ -1,0 +1,522 @@
+{
+    "name": "Panama",
+    "code": "PA",
+    "slug": "panama",
+    "flag": "https://flagcdn.com/w160/pa.png",
+    "region": "Americas",
+    "languages": [
+        "Spanish"
+    ],
+    "currencies": [
+        "PAB",
+        "USD"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Panama",
+                "subtitle": "Hire in Panama City",
+                "description": "Compliant employment in the Canal Zone. We handle CSS contributions.",
+                "bestFor": "Logistics & Finance",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "pa-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Written contract in triplicate filed with MITRADEL."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "CSS",
+                                "description": "Register employee with Caja de Seguro Social (SIPE)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Notice",
+                                "description": "AVISO DE ENTRADA submitted online."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "pa-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Security (CSS)",
+                                    "values": [
+                                        "12.25%",
+                                        "9.75%",
+                                        "Rates effective 2024 (Reform pending 2025)."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Educational Ins.",
+                                    "values": [
+                                        "1.5%",
+                                        "1.25%",
+                                        "Seguro Educativo."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Prof. Risk",
+                                    "values": [
+                                        "0.98% - 5.67%",
+                                        "0%",
+                                        "Varies by industry risk."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "13th Month",
+                                    "values": [
+                                        "8.33%",
+                                        "0%",
+                                        "Paid in 3 installments (April, August, Dec)."
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "pa-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Martyrs' Day",
+                                "description": "January 9"
+                            },
+                            {
+                                "title": "Carnival Tuesday",
+                                "description": "March 4"
+                            },
+                            {
+                                "title": "Good Friday",
+                                "description": "April 18"
+                            },
+                            {
+                                "title": "Labor Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Separation Day (Colombia)",
+                                "description": "November 3"
+                            },
+                            {
+                                "title": "Flag Day",
+                                "description": "November 4"
+                            },
+                            {
+                                "title": "Colon Day",
+                                "description": "November 5"
+                            },
+                            {
+                                "title": "Los Santos Uprising",
+                                "description": "November 10"
+                            },
+                            {
+                                "title": "Independence Day (Spain)",
+                                "description": "November 28"
+                            },
+                            {
+                                "title": "Mother's Day",
+                                "description": "December 8"
+                            },
+                            {
+                                "title": "National Mourning Day",
+                                "description": "December 20"
+                            },
+                            {
+                                "title": "Christmas Day",
+                                "description": "December 25"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "pa-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax (ISR)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Annual Income (USD)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Up to 11,000",
+                                    "values": [
+                                        "0%",
+                                        "Exempt."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "11,001 - 50,000",
+                                    "values": [
+                                        "15%",
+                                        "On excess over 11k."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Over 50,000",
+                                    "values": [
+                                        "25%",
+                                        "On excess over 50k."
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "pa-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Monthly Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Social Security",
+                                "description": "Deduct 9.75%."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Edu. Insurance",
+                                "description": "Deduct 1.25%."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Income Tax",
+                                "description": "Apply 0%, 15%, 25% rates."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Net",
+                                "description": "Gross - CSS - Edu - Tax."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Panama",
+                "subtitle": "S.A.",
+                "description": "Sociedad Anónima.",
+                "bestFor": "Offshore/Onshore",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "pa-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Deed",
+                                "description": "Public Deed registered at Public Registry of Panama."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "RUC",
+                                "description": "Obtain Unique Taxpayer Registry (RUC)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Notice",
+                                "description": "Aviso de Operación (Operation Notice)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "pa-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Banco General",
+                                "description": "Largest private bank."
+                            },
+                            {
+                                "title": "Banistmo",
+                                "description": "Major banking institution."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Panama",
+                "subtitle": "LatAm Hub",
+                "description": "Regional HQ talent.",
+                "bestFor": "Multinationals",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "pa-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Panama City",
+                                "text": "Hub for finance, logistics, and regional HQs."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Panama",
+                "subtitle": "SIPE",
+                "description": "CSS Integration.",
+                "bestFor": "Compliance",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "pa-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "SIPE",
+                                "description": "Sistema de Ingresos y Prestaciones Económicas integration required."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Panama",
+                "subtitle": "IFRS",
+                "description": "Adopted.",
+                "bestFor": "Compliance",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "pa-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "NIIF",
+                                "text": "IFRS (NIIF) are the legal standards."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "pa-comp-labor",
+                    "type": "warning",
+                    "title": "Foreign Worker Limit",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "10% Rule",
+                                "description": "Generally, companies can only hire up to 10% foreign workforce (or 15% for technical/specialized roles)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "pa-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax",
+                                    "values": [
+                                        "25%",
+                                        "Or CAIR (Alternate Calculation) if revenue > $1.5m."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "VAT (ITBMS)",
+                                    "values": [
+                                        "7%",
+                                        "Standard rate."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Panama",
+                "subtitle": "Civil Law",
+                "description": "Spanish influence.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "pa-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "Spanish is the official language."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Panama",
+                "subtitle": "Yappy",
+                "description": "Local payments.",
+                "bestFor": "Transactions",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "pa-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Yappy",
+                                "description": "Popular local payment app by Banco General."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Panama",
+                "subtitle": "Digital",
+                "description": "High connectivity.",
+                "bestFor": "Reach",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "pa-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Instagram/WhatsApp",
+                                "text": "Dominant platforms."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+
+\title{\textbf{How We Calculate the Buyer Intent Score \\ \large A Simple Guide for Investors}}
+\author{Thhiya Data Science}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section*{The Big Picture}
+Our platform uses an advanced AI "brain" (Google Gemini) to read millions of data points across the internet. It acts like a highly intelligent, speed-reading researcher. When we want to evaluate a company, the AI automatically reads its public reviews, the latest news, and overall online reputation to calculate a dynamic "Buyer Intent Score." 
+
+Think of this score as a measure of how "hot" or "in-demand" a company is right now.
+
+\section*{The Core Formula (What the AI Looks At)}
+The AI does not guess the score. We strictly instruct it to grade the company based on four specific pillars of health. We can think of the final score as a weighted average of these four areas:
+
+\textbf{Final Intent Score = (Market Momentum) + (User Sentiment) + (Innovation) + (Transparency)}
+
+\begin{itemize}
+    \item \textbf{Market Momentum:} Is the company growing rapidly? Are people talking about it more than usual?
+    \item \textbf{User Sentiment:} Are the reviews online overwhelmingly positive? Are customers happy?
+    \item \textbf{Feature Innovation:} Is the company releasing new, exciting tech (like AI integration), or are they falling behind competitors?
+    \item \textbf{Transparency:} Are their prices and services clear and honest, or are customers frustrated by hidden fees?
+\end{itemize}
+
+Based on how strong a company is in each of these four areas, the AI calculates a final number.
+
+\section*{The "Guardrails" (Ensuring Accurate Data)}
+To make sure our software never breaks and the investors get reliable data, our engineering system places strict "guardrails" on top of the AI's calculation. 
+
+Mathematically, our system enforces this logic:
+\[ \textbf{Final Score} = \textbf{Ensure it is between 0 and 10} \]
+
+\begin{itemize}
+    \item \textbf{The Cap:} The score can never be higher than 10 or lower than 0.
+    \item \textbf{The Safety Net:} If the AI fails to generate a score (e.g., if a company is so new that there is no data on the internet), our system automatically assigns a neutral, middle-ground score of \textbf{5}. This ensures our app never crashes and always displays a realistic baseline.
+\end{itemize}
+
+\section*{The Proof (Why Should We Trust It?)}
+We don't just output a number. To prove the score is accurate, the AI is legally required by our system to fetch evidence. Alongside every score, our system extracts and saves:
+\begin{enumerate}
+    \item Exactly \textbf{5 distinct positive reviews} summarizing what people love.
+    \item Exactly \textbf{5 distinct negative reviews} summarizing the genuine complaints.
+    \item A 3-to-5 word justification for \textit{each} of the four pillars (e.g., "Rapidly growing user base").
+\end{enumerate}
+This means every single 0-10 score presented to users or investors is instantly backed up by readable, real-world proof.
+
+\end{document}

@@ -1,0 +1,590 @@
+{
+    "name": "Haiti",
+    "code": "HT",
+    "slug": "haiti",
+    "flag": "https://flagcdn.com/w160/ht.png",
+    "region": "Americas",
+    "languages": [
+        "French",
+        "Haitian Creole"
+    ],
+    "currencies": [
+        "HTG"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR & PEO in Haiti",
+                "subtitle": "Hire in Port-au-Prince",
+                "description": "Compliant employment in Haiti. We handle ONA & OFATMA deductions, Payroll Taxes, and Labor Code compliance.",
+                "bestFor": "NGOs and Development Agencies",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "ht-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract Signature",
+                                "description": "Employment contracts must be written in French or Creole. Fixed-term (CDD) allowed for specific tasks."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "ONA Registration",
+                                "description": "Register employee with Office National d'Assurance-Vieillesse (ONA) for pension."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "OFATMA Registration",
+                                "description": "Enroll in Office d'Assurance Accidents du Travail, Maladie et Maternité (OFATMA)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "NIF Issuance",
+                                "description": "Ensure employee has a valid Tax ID (NIF) from DGI."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ht-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "ONA (Pension)",
+                                    "values": [
+                                        "6%",
+                                        "6%",
+                                        "Mandatory for all formal employees."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "OFATMA (Health/Mat)",
+                                    "values": [
+                                        "3%",
+                                        "3%",
+                                        "Health and maternity insurance."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Work Accident Ins.",
+                                    "values": [
+                                        "2% - 6%",
+                                        "0%",
+                                        "Paid solely by employer to OFATMA. Rate depends on risk."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Payroll Tax (MRI)",
+                                    "values": [
+                                        "2%",
+                                        "0%",
+                                        "Tax strictly for employers on gross payroll."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ht-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Independence Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Ancestors' Day",
+                                "description": "January 2"
+                            },
+                            {
+                                "title": "Carnival",
+                                "description": "March 4-5 (Mardi Gras / Ash Wednesday)"
+                            },
+                            {
+                                "title": "Good Friday",
+                                "description": "April 18"
+                            },
+                            {
+                                "title": "Agriculture & Labor Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Flag Day",
+                                "description": "May 18"
+                            },
+                            {
+                                "title": "Corpus Christi",
+                                "description": "June 19"
+                            },
+                            {
+                                "title": "Assumption of Mary",
+                                "description": "August 15"
+                            },
+                            {
+                                "title": "Dessalines Day",
+                                "description": "October 17"
+                            },
+                            {
+                                "title": "All Saints' Day",
+                                "description": "November 1"
+                            },
+                            {
+                                "title": "All Souls' Day",
+                                "description": "November 2"
+                            },
+                            {
+                                "title": "Battle of Vertières",
+                                "description": "November 18"
+                            },
+                            {
+                                "title": "Christmas Day",
+                                "description": "December 25"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ht-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax Brackets (HTG)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Annual Income (HTG)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "0 - 60,000",
+                                    "values": [
+                                        "0%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "60,001 - 240,000",
+                                    "values": [
+                                        "10%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "240,001 - 480,000",
+                                    "values": [
+                                        "15%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "480,001 - 1,000,000",
+                                    "values": [
+                                        "25%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Above 1,000,000",
+                                    "values": [
+                                        "30%"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ht-gp-bonus",
+                    "type": "insights",
+                    "title": "Payroll Specifics",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Bonuses",
+                                "text": "The 13th Month (Bonis) is mandatory in Haiti. It must be paid between Dec 24 and Dec 31 and equals one month's salary."
+                            },
+                            {
+                                "type": "warning",
+                                "title": "Severance",
+                                "text": "Notice periods vary by tenure (e.g. 1 month for <12 months service). Severance is typically negotiated but grounded in Labor Code."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ht-calc-logic",
+                    "type": "key_steps",
+                    "title": "Calculation Flow",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Monthly Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Deductions",
+                                "description": "Subtract 6% ONA and 3% OFATMA."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax Base",
+                                "description": "Apply progressive tax rates to the balance."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Net",
+                                "description": "Gross - Deductions - Tax."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Haiti",
+                "subtitle": "MCI Registration",
+                "description": "Form a Société Anonyme (SA) or SARL via the Ministry of Commerce and Industry.",
+                "bestFor": "Long-term Investment",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "ht-inc-steps",
+                    "type": "key_steps",
+                    "title": "Registration Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Name Reservation",
+                                "description": "Reserve company name at provisions of MCI (Ministry of Commerce and Industry)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Notarization",
+                                "description": "Draft bylaws and have them notarized. A lawyer is mandatory for foreign investors."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Capital Deposit",
+                                "description": "Open a 'compte de blocage' at a local bank (Unibank, Sogebank) to deposit minimum capital."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "MCI Filing",
+                                "description": "Submit dossier to MCI. Wait for authorization."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Publication",
+                                "description": "Publish notice in 'Le Moniteur' (Official Gazette)."
+                            },
+                            {
+                                "stepNumber": 6,
+                                "title": "NIF & Patente",
+                                "description": "Register with DGI for Tax ID (NIF) and Business License (Patente)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ht-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "UNIBANK",
+                                "description": "Largest private commercial bank."
+                            },
+                            {
+                                "title": "SOGEBANK",
+                                "description": "Société Générale Haïtienne de Banque."
+                            },
+                            {
+                                "title": "BUH",
+                                "description": "Banque de l'Union Haïtienne."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Haiti",
+                "subtitle": "Recruiting Talent",
+                "description": "Find local professionals in Port-au-Prince and beyond.",
+                "bestFor": "Local Operations",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "ht-staff-overview",
+                    "type": "insights",
+                    "title": "Talent Landscape",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "Professional workforce is bilingual (French/Creole), often with English proficiency in the development sector."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Sectors",
+                                "text": "Key talent pools in NGO management, Logistics, Telecom, and Textiles."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Haiti",
+                "subtitle": "Data Management",
+                "description": "Manage ONA/OFATMA records digitally.",
+                "bestFor": "Compliance",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "ht-hris-features",
+                    "type": "essentials",
+                    "title": "System Needs",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Multi-currency",
+                                "description": "Support for HTG and USD (dual currency economy)."
+                            },
+                            {
+                                "title": "Tax Tables",
+                                "description": "Built-in 2024 tax brackets."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Haiti",
+                "subtitle": "SYSCAH Standards",
+                "description": "Accounting generally follows SYSCOHADA or French standards (PCG).",
+                "bestFor": "Reporting",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "ht-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Fiscal Year",
+                                "text": "Typically Oct 1 to Sept 30 (aligned with Government), though calendar year is often used for private firms."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ht-comp-bodies",
+                    "type": "essentials",
+                    "title": "Regulatory Bodies",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "MCI",
+                                "description": "Ministry of Commerce and Industry."
+                            },
+                            {
+                                "title": "DGI",
+                                "description": "Direction Générale des Impôts (Tax Authority)."
+                            },
+                            {
+                                "title": "ONA",
+                                "description": "Office National d'Assurance-Vieillesse."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ht-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax",
+                                    "values": [
+                                        "30%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "TCA (VAT)",
+                                    "values": [
+                                        "10%"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Haiti",
+                "subtitle": "Contract Law",
+                "description": "French civil law system.",
+                "bestFor": "Protection",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "ht-msa-overview",
+                    "type": "insights",
+                    "title": "Legal Framework",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "System",
+                                "text": "Haiti follows a Civil Law system based on the French Napoleonic Code."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software in Haiti",
+                "subtitle": "Digital Tools",
+                "description": "Connectivity and tools.",
+                "bestFor": "Ops",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "ht-soft-internet",
+                    "type": "essentials",
+                    "title": "Connectivity",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Natcom",
+                                "description": "Major ISP and mobile provider."
+                            },
+                            {
+                                "title": "Digicel",
+                                "description": "Dominant mobile network operator."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Haiti",
+                "subtitle": "Local Reach",
+                "description": "Radio and Social Media dominance.",
+                "bestFor": "Growth",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "ht-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "tip",
+                                "title": "Radio",
+                                "text": "Radio remains the most effective mass-media channel in Haiti."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

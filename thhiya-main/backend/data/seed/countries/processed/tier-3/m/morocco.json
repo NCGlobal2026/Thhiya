@@ -1,0 +1,562 @@
+{
+    "name": "Morocco",
+    "code": "MA",
+    "slug": "morocco",
+    "flag": "https://flagcdn.com/w160/ma.png",
+    "region": "Africa",
+    "languages": [
+        "Arabic",
+        "Berber"
+    ],
+    "currencies": [
+        "MAD"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Morocco",
+                "subtitle": "Hire in Casablanca",
+                "description": "Compliant employment in North Africa. We handle CNSS contributions.",
+                "bestFor": "Outsourcing",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "ma-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "CDI (Indefinite) or CDD (Fixed Term) contract in French/Arabic."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "CNSS",
+                                "description": "Register with Caisse Nationale de Sécurité Sociale."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Anapec",
+                                "description": "Register for Anapec incentives (if applicable)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ma-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "CNSS (Social Security)",
+                                    "values": [
+                                        "~21.1%",
+                                        "~6.74%",
+                                        "Includes Family (6.4%), Social (8.98%), Health/AMO (4.11%), Training (1.6%)."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Health (AMO)",
+                                    "values": [
+                                        "4.11%",
+                                        "2.26%",
+                                        "Mandatory Health Insurance (Included in total above)."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Professional Tax",
+                                    "values": [
+                                        "Varies",
+                                        "0%",
+                                        "Taxe Professionnelle based on rental value of business premises."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ma-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Independence Manifesto",
+                                "description": "January 11"
+                            },
+                            {
+                                "title": "Amazigh New Year",
+                                "description": "January 14"
+                            },
+                            {
+                                "title": "Eid al-Fitr",
+                                "description": "March 30-31 (Estimated)"
+                            },
+                            {
+                                "title": "Labour Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Eid al-Adha",
+                                "description": "June 6-7 (Estimated)"
+                            },
+                            {
+                                "title": "Islamic New Year",
+                                "description": "June 26 (Estimated)"
+                            },
+                            {
+                                "title": "Throne Day",
+                                "description": "July 30"
+                            },
+                            {
+                                "title": "Oued Ed-Dahab",
+                                "description": "August 14"
+                            },
+                            {
+                                "title": "Revolution Day",
+                                "description": "August 20"
+                            },
+                            {
+                                "title": "Youth Day",
+                                "description": "August 21"
+                            },
+                            {
+                                "title": "Prophet's Birthday",
+                                "description": "September 4-5 (Estimated)"
+                            },
+                            {
+                                "title": "Green March Day",
+                                "description": "November 6"
+                            },
+                            {
+                                "title": "Independence Day",
+                                "description": "November 18"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ma-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax (IR)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Net Taxable Income (MAD)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Up to 30,000",
+                                    "values": [
+                                        "0%",
+                                        "Exempt (Rising to 40k in 2025)."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "30,001 - 50,000",
+                                    "values": [
+                                        "10%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "50,001 - 60,000",
+                                    "values": [
+                                        "20%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "60,001 - 80,000",
+                                    "values": [
+                                        "30%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "80,001 - 180,000",
+                                    "values": [
+                                        "34%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Above 180,000",
+                                    "values": [
+                                        "38%",
+                                        "Top rate (Dropping to 37% in 2025)."
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "ma-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Base Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Social Security",
+                                "description": "Deduct CNSS Employee Share (~6.74%)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "CIMR",
+                                "description": "Optional Pension (if applicable)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Professional Fees",
+                                "description": "Deduct Standard Deductions (e.g. 20-28%)."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "IR",
+                                "description": "Apply Progressive Income Tax."
+                            },
+                            {
+                                "stepNumber": 6,
+                                "title": "Net",
+                                "description": "Gross - Soci - Tax."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Morocco",
+                "subtitle": "SARL",
+                "description": "Limited Liability Company.",
+                "bestFor": "Standard Biz",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "ma-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Negative Certificate",
+                                "description": "Obtain Certificat Négatif (Name Reservation)."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "RC",
+                                "description": "Register with Registre du Commerce."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax ID",
+                                "description": "Obtain Identifiant Fiscal."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ma-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Attijariwafa Bank",
+                                "description": "Leading bank."
+                            },
+                            {
+                                "title": "Banque Populaire",
+                                "description": "Major cooperative bank."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Morocco",
+                "subtitle": "Call Centers",
+                "description": "French/Spanish speakers.",
+                "bestFor": "Support",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "ma-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Casablanca",
+                                "text": "Economic capital."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Rabat",
+                                "text": "Administrative capital."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Morocco",
+                "subtitle": "Damancom",
+                "description": "CNSS Portal.",
+                "bestFor": "Compliance",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "ma-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Damancom",
+                                "description": "Online portal for social security declarations."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Morocco",
+                "subtitle": "CGNC",
+                "description": "General Code.",
+                "bestFor": "Reporting",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "ma-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "CGNC",
+                                "text": "Code Général de Normalisation Comptable (French inspired)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ma-comp-labor",
+                    "type": "warning",
+                    "title": "Indemnity",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Discharge",
+                                "description": "Severance pay mandated by law based on seniority."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "ma-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Net Profit (MAD)",
+                                "Rate (2024)"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Up to 300,000",
+                                    "values": [
+                                        "12.5% - 15%",
+                                        "Rates are converging to unified 20%."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "300k - 1M",
+                                    "values": [
+                                        "20%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Over 100M",
+                                    "values": [
+                                        "35%",
+                                        "High profit rate."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "VAT",
+                                    "values": [
+                                        "20%",
+                                        "Standard rate."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Morocco",
+                "subtitle": "Civil/Islamic",
+                "description": "Mixed system.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "ma-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "Contracts often in French for international business, but Arabic is official."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Morocco",
+                "subtitle": "CFI",
+                "description": "Fintech hub.",
+                "bestFor": "Finance",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "ma-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "L'Mobile",
+                                "description": "Banking apps widely used."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Morocco",
+                "subtitle": "Influencers",
+                "description": "Social led.",
+                "bestFor": "Youth",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "ma-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "YouTube/Insta",
+                                "text": "Very strong influencer ecosystem."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

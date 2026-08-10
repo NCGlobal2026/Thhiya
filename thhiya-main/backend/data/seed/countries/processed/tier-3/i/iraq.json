@@ -1,0 +1,535 @@
+{
+    "name": "Iraq",
+    "code": "IQ",
+    "slug": "iraq",
+    "flag": "https://flagcdn.com/w160/iq.png",
+    "region": "Asia",
+    "languages": [
+        "Arabic",
+        "Kurdish"
+    ],
+    "currencies": [
+        "IQD"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR & PEO in Iraq",
+                "subtitle": "Hire in Baghdad & Erbil",
+                "description": "Compliant employment in Federal Iraq and Kurdistan Region (KRG). We handle the new Social Security Law No. 18 of 2023.",
+                "bestFor": "Energy Sector",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "iq-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract (Aqd Amal)",
+                                "description": "Must be in Arabic (and Kurdish in KRG). Fixed-term contracts are common."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Social Security",
+                                "description": "Register employee with Labor & Social Security Department."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax ID",
+                                "description": "Obtain Tax Identification Number for monthly withholdings."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "iq-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Social Security (General)",
+                                    "values": [
+                                        "12%",
+                                        "5%",
+                                        "New Law 2023. Government adds 8% subsidy for locals."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Social Security (Expats)",
+                                    "values": [
+                                        "20%",
+                                        "5%",
+                                        "Employer pays the 8% subsidy component for foreign workers."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Oil & Gas Sector",
+                                    "values": [
+                                        "25%",
+                                        "5%",
+                                        "Special high rate for Oil & Gas companies."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "iq-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1"
+                            },
+                            {
+                                "title": "Army Day",
+                                "description": "January 6"
+                            },
+                            {
+                                "title": "Nowruz (Kurdish New Year)",
+                                "description": "March 21"
+                            },
+                            {
+                                "title": "Eid al-Fitr",
+                                "description": "March 30 - April 1"
+                            },
+                            {
+                                "title": "Labor Day",
+                                "description": "May 1"
+                            },
+                            {
+                                "title": "Eid al-Adha",
+                                "description": "June 6-9"
+                            },
+                            {
+                                "title": "Islamic New Year",
+                                "description": "June 26"
+                            },
+                            {
+                                "title": "Ashura",
+                                "description": "July 6"
+                            },
+                            {
+                                "title": "Republic Day",
+                                "description": "July 14"
+                            },
+                            {
+                                "title": "Prophet's Birthday",
+                                "description": "September 4"
+                            },
+                            {
+                                "title": "Independence Day",
+                                "description": "October 3"
+                            },
+                            {
+                                "title": "Victory Day",
+                                "description": "December 10"
+                            },
+                            {
+                                "title": "Christmas",
+                                "description": "December 25"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "iq-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax Brackets (Monthly IQD)",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Income Range (IQD)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "0 - 250,000",
+                                    "values": [
+                                        "3%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "250,001 - 500,000",
+                                    "values": [
+                                        "5%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "500,001 - 1,000,000",
+                                    "values": [
+                                        "10%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Above 1,000,000",
+                                    "values": [
+                                        "15%"
+                                    ],
+                                    "highlight": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "iq-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Base Salary + Allowances."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Deductions",
+                                "description": "Deduct 5% Social Security."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax Base",
+                                "description": "Gross - Exemptions (Standard allowance)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Tax",
+                                "description": "Apply 3%-15% rates."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Net",
+                                "description": "Final Pay."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Iraq",
+                "subtitle": "LLC Registration",
+                "description": "Establish a Limited Liability Company in Baghdad or Erbil.",
+                "bestFor": "Contractors",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "iq-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Trade Name",
+                                "description": "Reserve trade name with Federation of Chambers of Commerce."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Ministry Filing",
+                                "description": "File with Companies Registrar (Ministry of Trade)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Capital Deposit",
+                                "description": "Deposit minimum capital (min 1M IQD, varies)."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Tax File",
+                                "description": "Open file with General Commission for Taxes (GCT)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "iq-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Trade Bank of Iraq (TBI)",
+                                "description": "Dominant state-owned bank for international trade."
+                            },
+                            {
+                                "title": "Bank of Baghdad",
+                                "description": "Private commercial bank."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Iraq",
+                "subtitle": "Engineers & Admin",
+                "description": "Sourcing talent for Oil & Gas and Reconstruction.",
+                "bestFor": "Infrastructure",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "iq-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Baghdad",
+                                "text": "Capital hub with largest pool of administrative and engineering talent."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Basra",
+                                "text": "The Oil & Gas capital. Specialized energy workforce."
+                            },
+                            {
+                                "type": "tip",
+                                "title": "Erbil",
+                                "text": "Kurdistan Region Hub. More stable security environment, international NGOs."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Iraq",
+                "subtitle": "KRG & Federal",
+                "description": "Dual-compliance systems.",
+                "bestFor": "Complex Ops",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "iq-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Dual Compliance",
+                                "description": "Ability to handle different holidays and Tax rules for Federal Iraq vs Kurdistan Region (KRG)."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Iraq",
+                "subtitle": "Unified System",
+                "description": "Compliance with Iraqi Unified Accounting System (IUAS).",
+                "bestFor": "Reporting",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "iq-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "IUAS",
+                                "text": "Local Unified Accounting System is mandatory. IFRS is increasingly adopted but local statutory accounts must follow IUAS."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "iq-comp-labor",
+                    "type": "warning",
+                    "title": "Nationalization",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "50% Rule",
+                                "description": "Projects must typically employ at least 50% Iraqi nationals. Work permits for expats are contingent on this."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "iq-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Type",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Corporate Income Tax",
+                                    "values": [
+                                        "15%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Oil & Gas Contracts",
+                                    "values": [
+                                        "35%",
+                                        "Specific contracts"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Iraq",
+                "subtitle": "Civil Law",
+                "description": "Contracts in Arabic.",
+                "bestFor": "Enforceability",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "iq-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "warning",
+                                "title": "Notarization",
+                                "text": "Many corporate documents require legalization by the Ministry of Foreign Affairs."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Iraq",
+                "subtitle": "Adoption",
+                "description": "Growing digital adoption.",
+                "bestFor": "Ops",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "iq-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Zain Cash / AsiaHawala",
+                                "description": "Leading mobile money solutions."
+                            },
+                            {
+                                "title": "Talabat / Toters",
+                                "description": "Food and delivery apps driving the gig economy."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Iraq",
+                "subtitle": "Facebook",
+                "description": "Facebook is king.",
+                "bestFor": "Reach",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "iq-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Facebook",
+                                "text": "The absolute dominant platform for news, business, and social interaction."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

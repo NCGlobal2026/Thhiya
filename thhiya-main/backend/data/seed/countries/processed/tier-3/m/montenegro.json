@@ -1,0 +1,524 @@
+{
+    "name": "Montenegro",
+    "code": "ME",
+    "slug": "montenegro",
+    "flag": "https://flagcdn.com/w160/me.png",
+    "region": "Europe",
+    "languages": [
+        "Montenegrin"
+    ],
+    "currencies": [
+        "EUR"
+    ],
+    "services": [
+        {
+            "serviceSlug": "eor-peo-aor",
+            "slug": "eor-peo-aor",
+            "service": "EOR, PEO & AOR",
+            "name": "EOR, PEO & AOR",
+            "serviceName": "EOR, PEO & AOR",
+            "heroData": {
+                "title": "EOR in Montenegro",
+                "subtitle": "Hire in Podgorica",
+                "description": "Compliant employment in the Balkans. We handle new Europe Now 2 contributions.",
+                "bestFor": "Tech & Tourism",
+                "icon": "eor-peo"
+            },
+            "sections": [
+                {
+                    "id": "me-eor-onboarding",
+                    "type": "key_steps",
+                    "title": "Onboarding Steps",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Contract",
+                                "description": "Written employment contract limited or unlimited term."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Tax Admin",
+                                "description": "Register with Tax Administration (CROO)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "JPR",
+                                "description": "Single registration form."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "me-eor-costs",
+                    "type": "cost_breakdown",
+                    "title": "Employer Burden Estimates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Component",
+                                "Employer Rate",
+                                "Employee Rate",
+                                "Notes"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Pension & Disability",
+                                    "values": [
+                                        "0%",
+                                        "10%",
+                                        "Employer contribution abolished in recent reforms (Europe Now 2)."
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Unemployment",
+                                    "values": [
+                                        "0.5%",
+                                        "0.5%",
+                                        "Contribution to Employment Agency."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Work Fund",
+                                    "values": [
+                                        "0.2%",
+                                        "0%",
+                                        "Fund du rada."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Health Insurance",
+                                    "values": [
+                                        "0%",
+                                        "0%",
+                                        "Abolished (Europe Now 1)."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "me-eor-holidays",
+                    "type": "essentials",
+                    "title": "Public Holidays 2025",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "New Year's Day",
+                                "description": "January 1-2"
+                            },
+                            {
+                                "title": "Orthodox Christmas",
+                                "description": "January 6-8"
+                            },
+                            {
+                                "title": "Orthodox Good Friday",
+                                "description": "April 18"
+                            },
+                            {
+                                "title": "Orthodox Easter Monday",
+                                "description": "April 21"
+                            },
+                            {
+                                "title": "Labour Day",
+                                "description": "May 1-2"
+                            },
+                            {
+                                "title": "Independence Day",
+                                "description": "May 21-22"
+                            },
+                            {
+                                "title": "Statehood Day",
+                                "description": "July 13-14"
+                            },
+                            {
+                                "title": "Njegoš Day",
+                                "description": "November 13-14"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "me-gp-tax",
+                    "type": "cost_breakdown",
+                    "title": "Income Tax",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Monthly Salary (EUR)",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Up to €700",
+                                    "values": [
+                                        "0%",
+                                        "Tax Exempt."
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "€700 - €1,000",
+                                    "values": [
+                                        "9%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Above €1,000",
+                                    "values": [
+                                        "15%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "Surtax",
+                                    "values": [
+                                        "~13-15%",
+                                        "Of the tax amount (Municipal)."
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "me-calc-flow",
+                    "type": "key_steps",
+                    "title": "Calculation",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Gross",
+                                "description": "Base Salary."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "Employee Contributions",
+                                "description": "Deduct Pension (10%) + Unemp (0.5%)."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Tax Base",
+                                "description": "Gross - Allowances."
+                            },
+                            {
+                                "stepNumber": 4,
+                                "title": "Income Tax",
+                                "description": "Apply 9%/15% rates + Surtax."
+                            },
+                            {
+                                "stepNumber": 5,
+                                "title": "Net",
+                                "description": "Gross - Contribs - Tax."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "incorporation-entity-setup",
+            "slug": "incorporation-entity-setup",
+            "service": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "name": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "serviceName": "INCORPORATION & REGISTRATION(ENTITY SETUP)",
+            "heroData": {
+                "title": "Incorporation Montenegro",
+                "subtitle": "DOO",
+                "description": "Limited Liability Company.",
+                "bestFor": "Investment",
+                "icon": "incorporation-entity-setup"
+            },
+            "sections": [
+                {
+                    "id": "me-inc-steps",
+                    "type": "key_steps",
+                    "title": "Setup Process",
+                    "content": {
+                        "steps": [
+                            {
+                                "stepNumber": 1,
+                                "title": "Articles",
+                                "description": "Draft Articles of Association."
+                            },
+                            {
+                                "stepNumber": 2,
+                                "title": "CRPS",
+                                "description": "Register with Central Registry of Commercial Entities."
+                            },
+                            {
+                                "stepNumber": 3,
+                                "title": "Seal",
+                                "description": "Obtain company seal (still common practice)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "me-inc-banks",
+                    "type": "essentials",
+                    "title": "Top Banks",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "CKB",
+                                "description": "Crnogorska Komercijalna Banka (OTP Group)."
+                            },
+                            {
+                                "title": "NLB Banka",
+                                "description": "Major regional bank."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "staffing-recruiting",
+            "slug": "staffing-recruiting",
+            "service": "Staffing and Recruiting",
+            "name": "Staffing and Recruiting",
+            "serviceName": "Staffing and Recruiting",
+            "heroData": {
+                "title": "Staffing in Montenegro",
+                "subtitle": "Podgorica/Coast",
+                "description": "Tourism & Admin.",
+                "bestFor": "Services",
+                "icon": "staffing-talent-acquisition"
+            },
+            "sections": [
+                {
+                    "id": "me-staff-hubs",
+                    "type": "insights",
+                    "title": "Talent Hubs",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Podgorica",
+                                "text": "Capital and administrative center."
+                            },
+                            {
+                                "type": "info",
+                                "title": "Coastal Region",
+                                "text": "Tourism talent (Budva, Kotor)."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "hris-hrms-ats",
+            "slug": "hris-hrms-ats",
+            "service": "HRIS/HRMS/ATS",
+            "name": "HRIS/HRMS/ATS",
+            "serviceName": "HRIS/HRMS/ATS",
+            "heroData": {
+                "title": "HRIS Montenegro",
+                "subtitle": "IOPPD",
+                "description": "Unified return.",
+                "bestFor": "Compliance",
+                "icon": "hris"
+            },
+            "sections": [
+                {
+                    "id": "me-hris-features",
+                    "type": "essentials",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "IOPPD Form",
+                                "description": "Monthly report on calculation and payment of taxes and contributions."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "finance-tax-accounting",
+            "slug": "finance-tax-accounting",
+            "service": "Finance, Tax and Accounting",
+            "name": "Finance, Tax and Accounting",
+            "serviceName": "Finance, Tax and Accounting",
+            "heroData": {
+                "title": "Accounting Montenegro",
+                "subtitle": "IFRS",
+                "description": "Mandatory.",
+                "bestFor": "Standards",
+                "icon": "accounting"
+            },
+            "sections": [
+                {
+                    "id": "me-acc-standards",
+                    "type": "insights",
+                    "title": "Standards",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "IFRS",
+                                "text": "Applicable for all legal entities."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "me-comp-labor",
+                    "type": "warning",
+                    "title": "Minimum Wage",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Recent Hike",
+                                "description": "Minimum wage significantly increased under Europe Now programs (e.g. €600/€800 for high school/uni grads)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "me-tax-corp",
+                    "type": "cost_breakdown",
+                    "title": "Rates",
+                    "content": {
+                        "table": {
+                            "headers": [
+                                "Profit",
+                                "Rate"
+                            ],
+                            "rows": [
+                                {
+                                    "label": "Up to €100,000",
+                                    "values": [
+                                        "9%"
+                                    ],
+                                    "highlight": true
+                                },
+                                {
+                                    "label": "€100,001 - €1.5M",
+                                    "values": [
+                                        "12%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "Over €1.5M",
+                                    "values": [
+                                        "15%"
+                                    ],
+                                    "highlight": false
+                                },
+                                {
+                                    "label": "VAT",
+                                    "values": [
+                                        "21%"
+                                    ],
+                                    "highlight": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "msa",
+            "slug": "msa",
+            "service": "M & A",
+            "name": "M & A",
+            "serviceName": "M & A",
+            "heroData": {
+                "title": "Legal Montenegro",
+                "subtitle": "Civil Law",
+                "description": "Continental.",
+                "bestFor": "Contracts",
+                "icon": "msa"
+            },
+            "sections": [
+                {
+                    "id": "me-msa-reqs",
+                    "type": "insights",
+                    "title": "Requirements",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Language",
+                                "text": "Montenegrin is the official language."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "software-technology-solutions",
+            "slug": "software-technology-solutions",
+            "service": "Software & Technology Solutions",
+            "name": "Software & Technology Solutions",
+            "serviceName": "Software & Technology Solutions",
+            "heroData": {
+                "title": "Software Montenegro",
+                "subtitle": "Digital",
+                "description": "Growing usage.",
+                "bestFor": "Ops",
+                "icon": "software-solutions"
+            },
+            "sections": [
+                {
+                    "id": "me-soft-tools",
+                    "type": "essentials",
+                    "title": "Tools",
+                    "content": {
+                        "items": [
+                            {
+                                "title": "Viber",
+                                "description": "Extremely popular for business communication."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "serviceSlug": "marketing-agency",
+            "slug": "marketing-agency",
+            "service": "MARKETING AGENCY",
+            "name": "MARKETING AGENCY",
+            "serviceName": "MARKETING AGENCY",
+            "heroData": {
+                "title": "Marketing Montenegro",
+                "subtitle": "Visual",
+                "description": "Instagram led.",
+                "bestFor": "Tourism",
+                "icon": "marketing-agencies"
+            },
+            "sections": [
+                {
+                    "id": "me-mark-channels",
+                    "type": "insights",
+                    "title": "Channels",
+                    "content": {
+                        "items": [
+                            {
+                                "type": "info",
+                                "title": "Instagram",
+                                "text": "Key for tourism and lifestyle marketing."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}
