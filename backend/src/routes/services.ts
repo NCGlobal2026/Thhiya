@@ -1,6 +1,7 @@
 import { Hono } from 'hono';
 import serviceController from '../controllers/serviceController';
 import { CachePresets } from '../middleware';
+import { requireAuth, requireAdmin } from '../middlewares/authMiddleware';
 
 const router: any = new Hono();
 
@@ -33,6 +34,6 @@ router.get('/:slug', (c: any) => serviceController.getBySlug(c));
  * @desc    Create a new service
  * @access  Private (Admin)
  */
-router.post('/', (c: any) => serviceController.create(c));
+router.post('/', requireAuth, requireAdmin, (c: any) => serviceController.create(c));
 
 export default router;

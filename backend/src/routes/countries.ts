@@ -1,6 +1,7 @@
 import { Hono } from 'hono';
 import countryController from '../controllers/countryController';
 import { CachePresets } from '../middleware';
+import { requireAuth, requireAdmin } from '../middlewares/authMiddleware';
 
 const router: any = new Hono();
 
@@ -26,6 +27,6 @@ router.get('/:code', (c: any) => countryController.getByCode(c));
  * @desc    Create a new country
  * @access  Private (Admin)
  */
-router.post('/', (c: any) => countryController.create(c));
+router.post('/', requireAuth, requireAdmin, (c: any) => countryController.create(c));
 
 export default router;
