@@ -23,7 +23,7 @@ export const requireAuth = async (c: Context, next: Next) => {
         return c.json({ error: 'Unauthorized. Authentication required.' }, 401);
     }
     try {
-        const payload = await verify(token, JWT_SECRET);
+        const payload = await verify(token, JWT_SECRET, "HS256");
         c.set('user', payload);
         await next();
     } catch (err) {
