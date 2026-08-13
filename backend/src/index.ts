@@ -131,8 +131,16 @@ app.get('/health', (c) => {
   });
 });
 
-// Prometheus /metrics endpoint for debugging (optional, not used by Grafana push)
+// Prometheus /metrics endpoint (token-protected; not used by Grafana push)
 app.get('/metrics', async (c) => {
+  const expected = process.env.METRICS_TOKEN;
+  if (!expected) {
+    return c.text('Metrics disabled: METRICS_TOKEN not set', 404);
+  }
+  const auth = c.req.header('Authorization');
+  if (auth !== `Bearer ${expected}`) {
+    return c.json({ error: 'Unauthorized' }, 401);
+  }
   const metrics = await getMetricsText();
   return c.text(metrics, 200, {
     'Content-Type': getMetricsContentType(),
