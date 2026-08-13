@@ -53,16 +53,12 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   };
 
   useEffect(() => {
-    const token = localStorage.getItem('auth_token');
     const savedUser = localStorage.getItem('auth_user');
     const savedProfile = localStorage.getItem('auth_profile');
 
-    if (!token) {
-      setIsLoading(false);
-      return;
-    }
-
-    if (token && savedUser) {
+    // Optimistically show cached (non-sensitive) user data for a fast first paint.
+    // The HttpOnly auth cookie is the source of truth and is verified against the backend below.
+    if (savedUser) {
       try {
         setUser(JSON.parse(savedUser));
         if (savedProfile) setVendorProfile(JSON.parse(savedProfile));
@@ -103,8 +99,9 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
       });
   }, []);
 
-  const login = (token: string, userData: User, profileData?: any) => {
-    localStorage.setItem('auth_token', token);
+  const login = (_token: string, userData: User, profileData?: any) => {
+    // Auth token is held in an HttpOnly cookie set by the backend, not in browser storage.
+    // Only non-sensitive display data is cached locally for a fast first render.
     localStorage.setItem('auth_user', JSON.stringify(userData));
     setUser(userData);
     if (profileData) {

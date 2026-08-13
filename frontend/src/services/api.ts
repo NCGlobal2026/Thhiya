@@ -89,11 +89,8 @@ api.interceptors.request.use(
       await wakeUpBackend(2); // Quick wake-up attempt with 2 retries
     }
 
-    // Inject Auth Token if available
-    const token = localStorage.getItem('auth_token');
-    if (token) {
-      config.headers.Authorization = `Bearer ${token}`;
-    }
+    // Auth is carried by the HttpOnly cookie (withCredentials: true above),
+    // so no token is read from browser storage or attached here.
 
     return config;
   },
