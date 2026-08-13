@@ -32,7 +32,7 @@ app.use('*', async (c, next) => {
   const origin = c.req.header('origin');
 
   // Set CORS headers for valid origins
-  if (origin && (corsOrigins.includes(origin) || corsOrigins.includes('*'))) {
+  if (origin && corsOrigins.includes(origin)) {
     c.header('Access-Control-Allow-Origin', origin);
     c.header('Access-Control-Allow-Credentials', 'true');
     c.header('Access-Control-Allow-Methods', 'GET, POST, PUT, PATCH, DELETE, OPTIONS');
@@ -68,7 +68,7 @@ app.onError((err, c) => {
 
   // Ensure CORS headers on error responses
   const origin = c.req.header('origin');
-  if (origin && (corsOrigins.includes(origin) || corsOrigins.includes('*'))) {
+  if (origin && corsOrigins.includes(origin)) {
     c.header('Access-Control-Allow-Origin', origin);
     c.header('Access-Control-Allow-Credentials', 'true');
   }
