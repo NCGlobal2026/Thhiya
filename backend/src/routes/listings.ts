@@ -1,6 +1,6 @@
 import { Hono } from 'hono';
 import { listingController } from '../controllers/listingController';
-import { requireAuth, requireAdmin } from '../middlewares/authMiddleware';
+import { requireAuth, requireAdmin } from '../middleware/authMiddleware';
 
 const router = new Hono();
 

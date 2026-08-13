@@ -1,7 +1,7 @@
 import { Hono } from 'hono';
 import bantController from '../controllers/bantController';
 import { formRateLimiter } from '../middleware';
-import { requireAuth, requireAdmin } from '../middlewares/authMiddleware';
+import { requireAuth, requireAdmin } from '../middleware/authMiddleware';
 const router: any = new Hono();
 /**
  * @route   GET /api/bant/options

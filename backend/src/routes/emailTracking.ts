@@ -2,7 +2,7 @@ import { Hono } from 'hono';
 import { emailService } from '../services/emailService';
 import { logger } from '../utils/logger';
 import EmailTracking from '../models/EmailTracking';
-import { requireAuth, requireAdmin } from '../middlewares/authMiddleware';
+import { requireAuth, requireAdmin } from '../middleware/authMiddleware';
 
 const emailTrackingRoutes = new Hono();
 
